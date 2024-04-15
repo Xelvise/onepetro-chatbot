@@ -1,0 +1,178 @@
+----- METADATA START -----
+Title: Achieving Safety at Sea – Discussing the Safety Programs Implemented by the Nigerian Upstream Petroleum Regulatory Commission
+Authors: Okechukwu Nwankwo, Michael Edem, Jennifer Muku, Chidi Ike, Ebipador Ogionwo
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211954-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Over 70% of Nigeria's oil and gas reserves are in swamp and offshore environments with over 40,000 workers registered to work there. Following the signing of the Petroleum Industry Bill into law, the Nigerian Upstream Petroleum Regulatory Commission (NUPRC) as the successor agency of the Department of Petroleum Resources (DPR) is the upstream industry regulator mandated to drive several safety programs to protect people, environment, and assets through enforcement of laws and regulations. The aim of this paper is to discuss the various safety programs adopted by Commission to reduce accidents in swamp and offshore areas, in which bulk of the oil and gas operations occur. A detailed review of the programs showed that in addition to protection of people, environment and asset, safety programs drive cost savings in the industry, improves collaboration among operators, creates jobs and other economic opportunities in Nigeria. This paper will discuss in detail, the background, methodology, successes, challenges, and opportunities of some flagship safety programs of the Commission. The programs to be discussed are - Administration of Offshore Safety Permit; Implementation of Safety Case; Annual Facility Inspection and Oil Spill Contingency Plan; Risk Based Inspection; Safety and Emergency Training Center and Medical Center Accreditation and Search Rescue and Surveillance Program. This paper only gives insight into the management of safety in the Nigerian oil and gas industry and does not attempt to review the performance or effectiveness of these safety programs vis-à-vis accident statistics in the industry. The various safety programs can be adopted by regulators around the world most especially in countries with a nascent oil and gas industry.
+
+
+
+
+Keywords:
+upstream oil & gas,
+nigeria,
+emergency training center,
+contingency planning,
+nigerian upstream petroleum regulatory commission,
+centre,
+safety risk management,
+operation,
+personnel,
+nigerian oil
+
+
+Subjects: 
+HSSE & Social Responsibility Management,
+Safety,
+HSSE management systems,
+Contingency planning and emergency response,
+Safety risk management
+
+
+
+
+Introduction
+
+
+The Petroleum Industry Act (PIA) which came into effect in August 2021 provides legal, governance, regulatory and fiscal framework for the Nigerian petroleum industry, the development of host communities, and for related matters. The PIA put in place two industry regulators, the Nigeria Upstream Petroleum Regulatory Commission (NUPRC) and Nigerian Midstream and Downstream Petroleum Regulatory Authority (NMDPRA) for the Nigerian oil and gas sector. The NUPRC which was formed from the relevant SBUs of the defunct Department of Petroleum Resources (DPR) regulates the activities of the upstream sector. In the same vein, the NMDPRA which was formed from the relevant SBUs of the defunct Department of Petroleum Resources (DPR), Petroleum Product Pricing Regulatory Agency (PPPRA) and Petroleum Equalization fund (PEF) regulates the activities of the midstream and downstream of the industry. Figure 1 below depicts the regulatory institutional transition that took place as enacted in the PIA 2021.
+
+
+Figure 1View largeDownload slideRegulatory institutional transition as per PIA 2021Figure 1View largeDownload slideRegulatory institutional transition as per PIA 2021 Close modal
+
+
+According to the PIA, the Commission is the technical and commercial regulator of the upstream sector and oversees the management of petroleum reserves, exploration, development, and production activities within the onshore frontier basins, shallow water and deep offshore. In addition, administration, enforcement, and implementation of laws, policies and regulations as it relates to upstream petroleum operations in Nigeria is vested in the Commission. With respect to oil production, Nigeria is the largest producer in Africa, 7th largest producer in the world and produces sweet crude blend such as Bonny Light, Forcados, Escravos Crude etc. Figure 2 shows the reserves and crude oil production profiles in Nigeria.
+
+
+Figure 2View largeDownload slideNigeria's crude oil reserves and production data [1]Figure 2View largeDownload slideNigeria's crude oil reserves and production data [1] Close modal
+
+
+The management of this industry in Nigeria are not without its attendants HSE issues. Consequently, based on best practices, industry experience, lessons learnt from incidents, the Commission regularly develops safety programs to reduce and eliminate HSE incidents. The aim of this paper is to discuss the various safety programs adopted by Commission to reduce accidents in swamp and offshore areas, in which bulk of the oil and gas operations occur. A detailed review of the programs showed that in addition to protecting people, environment and asset, safety programs drive cost savings in the industry, collaboration among operators, job creation and economic opportunities for Nigeria. This paper discusses in detail, the background, methodology, successes, challenges, and opportunities of some flagship safety programs of the Commission. The programs to be discussed are - Administration of Offshore Safety Permit; Implementation of Safety Case; Annual Facility Inspection and Oil Spill Contingency Plan; Risk Based Inspection; Safety and Emergency Training Center and Medical Center Accreditation and Search Rescue and Surveillance Program. This paper only gives insight into the management of safety in the Nigerian oil and gas industry and does not attempt to review the performance or effectiveness of these safety programs vis-à-vis accident statistics in the industry. The various safety programs can be adopted by regulators around the world most especially in countries with a nascent oil and gas industry.
+
+
+Overview of the Nigerian Upstream Sector
+
+
+Nigeria's proven crude oil and gas reserves are estimated to be 37.046Bbbls and 208.62Tcf respectively placing the country 2nd in oil reserves and 1st in gas reserves in Africa [2]. Offshore and swamp areas have about 70% of oil and gas reserves which is the largest share of reserves as shown in Figure 3. The rig count is an index used to measure the frequency of exploration and development activities of oil and gas fields and is shown in Figure 4. Between 2010 – 2019, the rig count was on the increase until 2014 when it dipped by 37% from the preceding year and continued declining for two years. This was caused by fall in crude oil prices which forced oil and gas producers to cut their capital budgets. The rig count rebounded in 2017 and recorded its highest growth in 2019. Between 2010-2019, seismic acquisition in Nigeria has been most prominent in the deep offshore region as shown in Figure 5. Insecurity in the land/shallow water assets and marginal economic value compared to deep offshore prospects have seen IOCs invest heavily in exploration and development of deep offshore assets while gradually divesting their land/shallow water assets to indigenous companies. Oil and gas operations constitute high risk activities; incidents from these activities can result to loss of containment, fire, or other top events, which can potentially lead to painful consequences that includes serious injury, loss of lives, damage to the environment and assets. Over 40,000 workers are registered to work in offshore and swamp areas creating a high concentration of personnel in those areas [3]. The massive number of oil and gas workers in swamp/offshore areas, presence of Major Accident Hazards (MAH) which is characteristic of oil and gas operations, and the significance of revenues derived from the industry, emphasizes the need for the regulator to implement industry safety programs that will protect lives, environment, and assets, thereby ensuring sustainability of operations. Extracts from the 2019 Nigerian Oil and Gas Annual Industry Report shows that the upstream sector recorded 213 fatal accidents and 285 fatalities averaging 28 fatalities in a year, as seen in Figure 6. Figure 7 displays oil spill incidents that have occurred within the same period.
+
+
+Figure 3View largeDownload slideOil & Condensate Reserves Distribution on Terrain [1]Figure 3View largeDownload slideOil & Condensate Reserves Distribution on Terrain [1] Close modal
+
+
+Figure 4View largeDownload slideActive rigs by terrain between 2010-2019 [1]Figure 4View largeDownload slideActive rigs by terrain between 2010-2019 [1] Close modal
+
+
+Figure 5View largeDownload slide3D - Seismic Data Acquisition between 2010-2019 [1]Figure 5View largeDownload slide3D - Seismic Data Acquisition between 2010-2019 [1] Close modal
+
+
+Figure 6View largeDownload slideAccidents in the upstream sector between 2010-2019 [1]Figure 6View largeDownload slideAccidents in the upstream sector between 2010-2019 [1] Close modal
+
+
+Figure 7View largeDownload slideNumber and quantity of oil spills between 2010-2019 [1]Figure 7View largeDownload slideNumber and quantity of oil spills between 2010-2019 [1] Close modal
+
+
+Safety at Sea Safety Programs
+
+
+Administration of Offshore Safety Permit
+
+
+Offshore Safety Permit (OSP) is a personnel accountability system used for tracking the personnel movement to and fro offshore and swamp locations in Nigeria. The system was instituted in 2012 to standardize the requirement for travel to offshore and swamp locations and to eliminate issues such as non-compliance with mandatory competency and safety training, non-compliance with medical fitness to work requirement, unauthorized extended stay on facilities at offshore/remote location, inaccurate documentation of personnel movement to-and-fro facilities at offshore/remote location leading to delayed/wrong incident reporting that existed prior to the establishment of the program. The OSP system uses a barcode strip E-card as displayed below in Figure 8, card readers which are placed at embarkation points, network of robust IT infrastructure made up of database, software & storage, and onsite personnel that aid in the administration and enforcement.
+
+
+Figure 8View largeDownload slideSample of OSP CardFigure 8View largeDownload slideSample of OSP Card Close modal
+
+
+Personnel travelling to or returning from offshore/swamp locations in Nigeria are required to swipe their barcode strip E-cards at designated OSP desks for admittance as part of check in/out process at embarkation points [3]. When the OSP cards are swiped at embarkation points, the card readers update the database appropriately after validating the card to check for compliance with mandatory requirements which includes a valid offshore medical certificate of fitness, an internationally recognized HSE training for offshore travel by boat or helicopter in training centres approved by the Commission and a valid work permit visa for non-Nigerian citizens. OSP ensure real-time updates of the itinery of all offshore/swamp workers in Nigeria.
+
+
+Implementation of Safety Case
+
+
+A safety case is a structured argument, supported by evidence, put forward by the proponents (operators or facility owners of oil and gas facilities) to demonstrate and convince the regulator and other relevant stakeholders, that its facility throughout its life cycle is acceptably safe for a specific application in a specific operating environment [4]. In the Nigerian oil and gas industry, it is mandatory for any facility that completes a design, commences operation, continues operating, undergoes a major modification or decommissioning to submit a safety case to the Commission and obtain a safety case approval before commencing that activity. The procedure for obtaining a safety case approval at each stage of the life cycle of a facility includes preparation of safety case by Operator with the participation of the Commission, following which the safety case will be submitted for review and validation visits by the Commission to ascertain the extent of compliance in demonstrating that the facility is safe to operate or continue to operate or safe to decommission. Lastly, the safety case is intended to be kept up to date and revised as necessary during the facility life cycle in line with the conditions that trigger revision of safety case as contained in the Commission's Safety Case Guidelines for oil and gas facilities in Nigeria. Operators are required to submit and obtain approval of a revised safety case for each of their facility(ies) every five (5) years. The five (5) yearly periodic submissions made to the Commission are expected to capture all necessary updates on the facility description, safety management system and revalidation of relevant formal safety assessments conducted on the facility within the five years under reference. The safety case approval process is depicted in Figure 9.
+
+
+Figure 9View largeDownload slideSafety case approval processFigure 9View largeDownload slideSafety case approval process Close modal
+
+
+The safety case approval process by the Commission ensures that the hazards and risks associated with major incidents carried out for the facility are fully understood and that control measures are put in place to manage the risks are adequate, monitored and maintained. Additionally, it ensures that adequate and documented systems are in place to prevent major incidents and near misses at the facility, and to minimize the effects of major incidents that might occur at the facility. Furthermore, it serves as a tool for the Commission to validate the risk minimization strategy, hold proponents accountable to the objectives and standards declared in the safety case in ensuring that all major risks identified in the facility are eliminated or minimised to as low as reasonably practicable (ALARP).
+
+
+Lastly, as a step in the process for approving a safety case, the Commission may embark on a safety case validation visit to ensure that the facilities described by the Operator/facility owner are fit for purpose or remain fit for purpose and consistent with the safety management system and formal safety assessments. The validation visit measures the extent of workforce involvement and awareness of the safety case, confirms performance standards of safety critical elements, reviews remedial actions and ascertains all other claims made by the proponent in the safety case dossier.
+
+
+Annual Facility Inspection and Oil Spill Contingency Plan
+
+
+The annual Facility Inspection and Oil Spill Contingency Plan (FI and OSCP) activation exercise is carried out based on annual inspection schedule drawn up by the Commission for facilities in the Nigerian oil and gas industry. The objective of the exercise is to assess progress of completion of action items raised from past audit exercise carried out on the facility, determine the company's level of HSE compliance with statutory guidelines and procedures in its operations, raise action items and recommendations which is necessary for continuous improvement and assesses the company's readiness to respond to emergency situations. The exercise commences with a review of the preceding year's audit action items​, pre-audit activities, review of documentation related to HSE, engineering and management system of the facility, facility inspections including interviews and functional test of equipment, activation of emergency response system and feed back to the company. The process of the FI and OSCP activation is depicted below Figure 10. The actions accessed in the pre-audit activities for the facilities include timely submission, review and approval of Oil Spill Contingency Plan (OSCP) document by the company, adequacy of the safety brief provided upon visit by the Commission and the percentage close out of issues identified in the previous audit exercise. The facility inspection exercise commences with the review of the company's statutory documentation. The reviewed documentation includes but not limited to a personnel accounting system, HSE policy statement, display of Mineral Oils Safety Regulation (MOSR), review of the safety and environmental management system - HSE training program, waste management plan, radiation monitoring plan, emergency preparedness/response amongst others. Additionally, other documents which are reviewed include relevant environmental studies, biological monitoring reports, Environmental Evaluation Report (EER), safety case approval, in-house audit records, asset integrity database, maintenance records, certification documents for various equipment, records of drill exercises, incident reports, waste consignment notes, permit to work (PTW) administration/records system and valid relevant permits for third party contractors providing service(s) to the company.
+
+
+Figure 10View largeDownload slideProcess flow of FI and OSCPFigure 10View largeDownload slideProcess flow of FI and OSCP Close modal
+
+
+Following review of relevant documentation, facility walkthrough, specific inspection and functional testing of equipment are carried out. The checklist for the facility inspection exercise guides the Commission to check the adequacy, accessibility, condition and use of PPEs, fire prevention/protection/fighting equipment, Emergency Shut Down (ESD) System, safety/warning signs and instructions available at relevant areas and containment equipment as detailed in OSCP document. In the process area, physical conditions as well as functionality of various equipment such as pressure vessels e.g. scrubbers, separators, piping etc., safety critical equipment e.g. PSVs, LACT unit, pumps, manifold etc., tanks (storage tanks, chemical tanks) and lifting equipment are confirmed. In the laboratory, the accreditation status, equipment calibration records, availability of relevant personnel, adequate storage of chemical and inventory are inspected. At the control room the condition of the integrated control & safety system (ICSS), supervisory control and data acquisition (SCADA), navigational aids, other monitoring gadgets (specify) are also confirmed. The check list covers the inspections of various supporting facilities including the chemical storage area, helicopter/boat landing, where applicable, stairs/handrails/grating, chairs/swing ropes, life raft(s), boats, vests etc. These facilities are expected to be free from obstruction, strategically located and possess third party certification. Furthermore, content and placement of medical emergency facilities such as eye wash stations, showers, sick bay and first aid boxes are checked. The facility clinic is expected to have good housekeeping, drug inventory, implementation of good health protection and promotion programs - medical checkup, annual audiometric tests etc. The availability of MEDEVAC facilities/procedures, oxygen for life support and waste/expired drugs disposal methods is also examined. Lastly, accommodation area, galley and mess area are inspected for good housekeeping, safety signages, clearly marked emergency routes, first aid facilities, heating/cooling system storage of facilities for food, sanitary conditions etc.
+
+
+Following the completion of the facility inspection, appraisal of emergency response capability is carried out. The company is expected respond to the emergency drill scenario presented by the Commission. The Commission monitors the drill scenario to assess the alert and notification process, communication gadgets/system used, speed of shutdown, isolation and mustering, mobilization of personnel and materials for response, deployment of surveillance and security, logistics, public affairs, medicals, finance and historian, demonstration of ability to contain and recover the spill, stop gas leaks, and spill combat strategy/ ESI Map interpretation used. When the drill is call off, standing down, demobilization and postmortem analysis of the drill scenario presented by the company is evaluated. Finally, the exercise is concluded with detailed feedback to the company. The feedback from the Commission communicates identified and novel good practices of the companies, observed lapses, areas of improvement and expected close out dates for those improvement areas.
+
+
+Risk Based Inspection
+
+
+Inspections is a key component of asset integrity management system that provides information of current condition of facility, validates reports on conditions of equipment through the physical examination of components [5]. The responsibility of the Commission towards inspection includes reviewing guidelines governing inspection activities in the industry, ensuring operators have adequate asset integrity management plan compliant with the relevant regulations and guidelines, coordinating condition monitoring and inspection activities, developing and reviewing standard work procedures (SWPs) for condition monitoring and inspection and reviewing trends of inspection activities. Inspections are expected to comply with recognized international codes and standards and be performed by competent personnel and witnessed periodically by the Commission to ensure compliance with relevant legislation and procedures. Inspections are enshrined in legislations and regulations governing oil and gas operations such as the Petroleum Industry Act 2021, Petroleum Act 1969, Petroleum (Drilling & Production) Regulations 1969, Mineral Oils (Safety) Regulations 1997 and guidelines published pursuant to the above-named legislations and regulations such as the Procedure Guide for Design Construction and Maintenance of Fixed Offshore Platforms, Guidelines and Procedures for the Construction and Maintenance of Oil and Gas Pipeline and their Ancillary Facilities and Guidelines for Technical Safety Control and other guidelines are available on the website of the Commission.
+
+
+As opposed to statutory time-based maximum inspection interval which are contained in the statutory guidance documents, RBI approval is given to the company that based on identifying risks in focal areas to meet the acceptance criteria. RBI is a process which aims to assess the risks of operating an equipment/device in a facility prioritizes these risks and plans the inspection type and intervals based on these risks [4]. According to the Commission's guidelines for the Implementation of Risk Based Inspection, the Commission approves and validates RBI program for Operators in the oil and gas industry through a technical audit of the RBI cycle starting from the design through the development of RBI tools and strategy; gathering of baseline information for inspection decisions, participation in workshops for determining criticality and inspection frequency, witnessing equipment inspections, ensuring that inspection data are utilized for updating the RBI process cycle and validating an upgrade of the RBI tool.
+
+
+Safety and Emergency Training Center and Medical Center Accreditation
+
+
+Attention to safety and emergency training and medical fitness to work are key components of oil and gas operations because lessons learnt from various incidents show that lack of training and medical related incident account for significant number of incidents that occur in the oil and gas industry [6]. Safety and emergency centers are facilities built specifically or designated to offer safety and emergency trainings. Safety and Emergency Trainings (SET) such as BOSIET, HUET, TSbB, First Aid, Firefighting, are courses designed for personnel who work in hazardous areas and perform safety critical tasks in the oil and gas industry. Medical centers are facilities where personnel carry out medical test to determine the level of fitness to work. Consequently, while SET equips personnel with skills required to understand hazards/HSE risks and respond to different levels of emergencies, the medical fitness center conducts clinical examinations, laboratory tests, and specialized investigations to confirm medical fitness of personnel to carry out designated activities as specified in the Commission's Occupational Health Guidelines and Standards for Medical Assessment of Fitness to Work in the Oil & Gas Industry in Nigeria.
+
+
+In the guidelines for the Establishment and Operations of Safety and Emergency Training Centers in The Nigerian Oil and Gas Industry, fitness-to-work test must be carried out in medical facilities registered with the relevant government agency. For a Safety and Emergency Training Centre (SETC) to operate, accreditation and approval from the Commission is a mandatory requirement. An SETC must have requisite capabilities and competencies via a detailed presentation which shall cover all the sections of the assessment criteria listed in Guidelines for The Establishment and Operations of Safety and Emergency Training Centers in The Nigerian Oil and Gas Industry. Following the presentation, physical assessment of the SETC, which includes inspection, functional testing of equipment, verification and confirmation of the course module(s), qualifications, competencies, and abilities of the instructors to deliver the course modules to delegates are evaluated. Physical inspections cover administration and management of SETCs, training syllabus/modules, location of training facilities, maintenance of equipment, health practices, catering, security, safety, natatorium, etc. Figure 11 shows areas that will be assessed during the accreditation exercise.
+
+
+Figure 11View largeDownload slideSETC Accreditation RequirementsFigure 11View largeDownload slideSETC Accreditation Requirements Close modal
+
+
+Notwithstanding the annual approvals, the Commission will continuously monitor the activities of accredited SETC to ensure that training standards are always maintained. This is achieved through periodic announced or unannounced inspection(s) and periodic consultations with global certifying bodies to confirm the status of certification of the course modules in line with global industry best practices, trends, and innovations.
+
+
+Search Rescue and Surveillance Program
+
+
+Search, Rescue and Surveillance (SeRAS) was established as part of National Oil and Gas Excellence Centre (NOGEC). The NOGEC comprise of Search, Rescue and Surveillance (SeRAS) Command & Control Centre, National Improved Oil Recovery Centre (NIORC), Oil and Gas Alternative Dispute Resolution Centre (ADRC), Oil and Gas Competence Development Centre (CDC) and Integrated Data Mining and Analytics Centre (IDMAC). Each of the aforenamed centers is structured to drive the three-prong objectives of safety, value and cost efficiency which are critical for oil and gas industry stability, growth, and sustainability.
+
+
+The Search, Rescue and Surveillance (SeRAS) provides a suite of services namely Incident Response Services (IRS), Emergency Medical Services (EMS), Transportation for routine bed space management, Security Intervention Services (SIS) and HSE Monitoring and Surveillance & Support. The aforementioned services of the SeRAS center are expected to enhance safety management, emergency preparedness and response as well as bed space management and logistics services across the industry. Apart from reduction of severity of accidents, entrenchment of safe practices, cost reduction, and improved operational efficiency across the industry, the establishment of SeRAS is expected create hundreds of direct and indirect jobs for pilots, paramedics, ICT workers, engineers, maintenance personnel, training facilitators, Foreign Direct Investments (FDIs) and taxes to the government and build local capacity in Search and Rescue (SAR). The SeRAS Command and Control Centre (CCC) is located in Lagos and two (2) Rescue Coordination Centres (RCC) will be set up at Osubi in Delta State and Brass in Bayelsa State for effective coverage of areas of operations. Implementing a coordinated and exclusive SAR services will bring the Nigerian oil and gas industry at par with international best practices obtainable in the UK continental shelf, Gulf of Mexico, middle east, etc.
+
+
+Conclusion
+
+
+The Petroleum Industry Act puts enormous responsibility on the Commission. The Act provides for reforms in the governance framework for efficient and effective governing institutions that foster a business environment conducive for petroleum operations. The safety program discussed in this paper namely Administration of Offshore Safety Permit, Implementation of Safety Case, Annual Facility Inspection and Oil Spill Contingency Plan, Risk Based Inspection, Safety and Emergency Training Center and Medical Center Accreditation and Search Rescue and Surveillance Program. These programs are critical to reducing HSE risks needed for sustainable growth in the industry. Safety programs do not only protect people, the environment and assets, but drive cost savings in the industry, enhance collaboration among operators, creates jobs and increases economic opportunities in Nigeria. The Commission encourages feedback from stakeholders to improve these programs which will ultimately improve safety standards in the industry.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Department of Petroleum Resources, "Nigerian Oil & Gas Industry Annual Report," 2019.NUPRC, "NUPRC Chief Executive Engr. Gbenga Komolafe FNSE, Gives Account of his Stewardship in the Last Six (6) Months," May06, 2022. https://www.nuprc.gov.ng/nuprc-chief-executive-engr-gbenga-komolafe-fnse-gives-account-of-his-stewardship-in-the-last-six-6-months/ (accessed May 12, 2022).Okechukwu. K.Nwankwo, Jennifer. S.Muku, Mutiu. K.Amosa, Chidi. B.Ike, and E.Ogionwo, "Assessment of Safety Case Compliance in the Nigerian Oil and Gas Industry," Aug. 2020. doi: 10.2118/203604-MS.Google Scholar NUPRC, "Safety Case Guidelines For Oil and Gas Facilities in Nigeria," 2020. Accessed: Jun. 01, 2022. [Online]. Available: https://www.nuprc.gov.ng/wp-content/uploads/2020/10/Safety-Case-Guidelines-for-Oil-and-Gas-Facilities-in-Nigeria.pdfE.Terry, Introduction to Safety, Risk and Reliability Engineering Hazard Management in Design. 2017.Google Scholar M.Edem, O.Nwankwo, J.Muku, F.Usman, and C.Ike, "Reducing Accidents Through the Implementation of the Minimum Industry Safety Training for Downstream Operations Mistdo in the Nigerian Oil and Gas Industry," Aug.2021. doi: 10.2118/207085-MS.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211954-MS
+
+
+

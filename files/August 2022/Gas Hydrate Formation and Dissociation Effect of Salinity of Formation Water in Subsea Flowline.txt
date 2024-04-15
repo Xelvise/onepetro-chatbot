@@ -1,0 +1,251 @@
+----- METADATA START -----
+Title: Gas Hydrate Formation and Dissociation: Effect of Salinity of Formation Water in Subsea Flowline
+Authors: Joseph Emmanuel Akhagbeme, Joseph Atubokiki Ajienka, Virtue Urunwo Wachikwu-Elechi, Sunday Sunday Ikiensikimama
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212011-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The total dissolved solid (TDS) of formation water has an impact on its tendency to form or dissociate Gas Hydrate in gas production, handling and subsea transportation systems. The effect of salinity of formation water on hydrate formation and dissociation was studied in this paper. Two seawater samples (SW1 and SW2) of different salinities: 35.4g/L and 34.8g/L respectively, and synthetic seawater sample (SSW) were used. Afresh water sample was used for comparison. The SSW sample with a salinity of 36.0g/L experienced a longer onset time for hydrate to form, and dissociated quickly in this sample than the rest samples. The onset time for hydrate formation increased as formation water salt content increases and vice versa for dissociation. The 0.04 wt% concentration of the commercial kinetic hydrate inhibitor (PVCap) used, performed better for the hydrate inhibition experiment involving the SW1 by reducing pressure to 120 psi. This attained pressure at the end of the experiment was lesser than the values obtained with the rest concentrations. The 0.01 wt% concentration of PVCap reduced pressure to a lesser value when compared to the values obtained using other concentrations for the experiment conducted with SSW.
+
+
+
+
+Keywords:
+asphaltene inhibition,
+remediation of hydrates,
+hydrate inhibition,
+asphaltene remediation,
+hydrate remediation,
+wax inhibition,
+wax remediation,
+flow assurance,
+scale inhibition,
+oilfield chemistry
+
+
+Subjects: 
+Production Chemistry, Metallurgy and Biology,
+Pipelines, Flowlines and Risers,
+Flow Assurance,
+Formation Evaluation & Management,
+Non-Traditional Resources,
+Inhibition and remediation of hydrates, scale, paraffin / wax and asphaltene,
+Hydrates,
+Gas hydrates
+
+
+
+
+Introduction
+
+
+Flow assurance involves the free flow of hydrocarbon from the wellbore via the flowlines to surface facilities. It is concerned with the economic and successful flow of hydrocarbon fluids from the reservoir to sale point. The production of hydrocarbon fluids, transportation and processing occur not only in onshore and shallow water but also in Deepwater. Hence, the approaches that were effective for onshore production operations may not be useful for Deepwater production operations because of the extreme temperature and pressure conditions. The large depth involved in subsea operations also affects such methods. In order to ensure an optimum production of hydrocarbon fluids in Deepwater and their transportation to surface facilities, the changing nature of temperature and pressure from the reservoirs via the sea environment to surface platform must be considered in facility design and production operations. This differential temperature and pressure result to the hindrances to flow (Kelly et al., 2019). The conditions under which hydrates could form and how to prevent it by the use of chemicals have been studied. Recently, the quest for long distance transport of untreated or partly treated pipelines has caused an increased interest in the area of hydrate formation, hydrate crystallization, and hydrate mitigation (Dipl.-Ing, 1967; Katz, 1945).
+
+
+Hydrate formation is a threat in subsea pipeline or upstream oil and gas production. Hydrate formed by methane gas is crystalline, ice-like and solid in nature (clathrate). Water and gas undergo reaction to form these crystalline solids. When gas and water under high pressure and low temperature interacts, hydrates are formed. Small molecules of the gas are captured as guest molecules in the liquid host framework (Koh et al., 2012; Mikang et al., 2018).
+
+
+Fig. 1 is a schematic diagram of hydrate blockage in deepwater natural gas production facilities. A gas hydrate plug taken from an offshore production line is displayed in Fig. 2. Plugging due to gas hydrates result to over pressuring and sometimes an eventual shutting down of the operation facilities. This causes loss of production and serious safety problems due to possible pressure build-up upon hydrate agglomeration (Mokhatab et al., 2007). The removal of these hydrate plugs from subsea production and transmission systems can be time consuming. In some cases, drill time can be loss to as long as 70 days (Barker and Gomez, 1989). The economic losses are unquestionably significant and add to the operating cost (OPEX). Researchers have investigated various strategies in order to curb hydrate plugs and to ensure regular flow during oil and gas operations. These include mechanical, thermal, hydraulic and chemical methods (Englezos, 1993; Sloan, 1997; Chatti et al., 2005).
+
+
+Figure 1View largeDownload slideHydrate blockage in natural gas production facilities (Sloan, 2000)Figure 1View largeDownload slideHydrate blockage in natural gas production facilities (Sloan, 2000) Close modal
+
+
+Figure 2View largeDownload slideHydrate plug from a subsea pipeline of Petrobras Brazil (Giavarini and Hester, 2011)Figure 2View largeDownload slideHydrate plug from a subsea pipeline of Petrobras Brazil (Giavarini and Hester, 2011) Close modal
+
+
+Formation water is natural underground water, very important that it must be considered throughout oil and gas production and, other operations. Its concentration differs from one formation to another. The properties are seen as a representation of the evolution of the basin (Ashraf et al., 2013). Billings et al. (1969) and Hitchon et al. (1971) on the basis of research in Alberta, stated that formation water characteristic can be influenced by diagenesis and surface of clay exchange of cation.
+
+
+Collins (1975), stated that, the depth of a well affects the salt concentration, dissolved substances and elements in the formation, hydraulic gradient, reactions involving ions, how far it is with respect to outcrop as well as clay membrane filtration. Using Palo Duro Basin samples, Knauth and Beeunas (1986) regarded the origin of formation water as a function of evaporated seawater. According to a study on formation water and geology (Connolly et al., 1990), Kharaka et al. (1986) and, Hitchon and Friedman (1969), stated that freshwater and evaporated seawater constitute formation water.
+
+
+Lüders et al. (2010) used isotope analysis to study formation water salt content. The evaporation of seawater is seen as mainly responsible for formation water salinity in Upper Carboniferous of Northern German basin and Rotliegend. Nevertheless, in 2011, Pinti et al. proposed that the dissolution of halite is responsible for formation water salinity after they studied isotopic composition in St. Lawrence, Canada. TizianoBoschetti group in 2013 by means of Ca/Mg versus Ca/Sr diagrams, a strong dolomitization in Messiniani discovered Ca-Cl brines to be responsible for the formation salinity (Batool et al. 2015; Boschetti et al. 2013).
+
+
+Total dissolved solid is accounted for in a sample of formation water through evaporating a certain volume of it in a drying device at a given temperature, and measuring the mass of the solid that remained. It can also be accounted for through measurement and finding the total ion concentrations. According to Gonzalez et al. (1998), water gotten through drill-stem and wireline tests may be contaminated due to the procedure employed while drilling because of the materials always used as drilling mud or fluid. Formation water salt content can be accessed from the following: a pressure gradient from within a water saturated reservoir rock, water sample and electric wireline log study. In any of the aforementioned methods, the salinity obtained is Sodium Chloride concentration equivalent (Underschultz et al., 2002). Formation water salinity varies stratigraphically and spatially (Tuba, Matthew and Marc, 2014).
+
+
+Kinetic hydrate inhibitors (KHIs) are broadly used to prevent hydrate formation in pipeline (Kelland, 2006; 2011). KHIs are low dosage inhibitors, as a result, they are used at much lower concentrations (0.1 to 1.0 wt%) as compared to thermodynamic hydrate inhibitors (THIs). The KHIs are adsorbed on water molecules. These inhibitors prevent chemical interactions between gas and water molecules (Samimi, 2012). An introduction of low dosage synthetic chemical inhibitors, like Poly Vinylpyrrolidone, terpolymer of N-vinyl pyrrolidone, N-vinyl caprolactam and dimethyl aminoethyl methacrylate inhibit hydrate formation (Koh et al., 2002, 2012). This role of chemicals on inhibition of hydrate has been studied by macroscopic and structural analysis. Macroscopic analysis has to do with gas consumption of measured pressure drop as a function of time (Sloan et al., 1998). With numerous degrees of subcooling, hydrate formation can be inhibited. Seo and Kang (2011) used PVCap as KHI, and discovered that by injecting it at 3.0 wt% the hydrate formation temperature at a pressure of 80 bar increased from 1.3 °C to 7.8 °C while in the presence of NaCl in the water phase, the temperature further increased to 8.8 °C. The ethyl derivative of poly (N-alkylglycine) did very well to inhibit formation of Type I hydrates but had notably lesser effects on Type II hydrates (Abrahamsen and Kelland, 2018).
+
+
+Aman et al. (2015) in their study of the Effect of Brine Salinity on the Stability of Hydrate-in-Oil Dispersions and Water-in-Oil Emulsion showed that, hydrate-in-oil dispersion stability increases directly with sodium chloride (NaCl) mass fraction in the aqueous phase. Above 5 wt% NaCl, the dispersion was observed to be stable over ten hydrate formation-dissociation trials.
+
+
+Materials and Method
+
+
+The materials used include Compressed Natural Gas (CNG) of 86% purity, two samples of seawater SW1 and SW2 with 35.4 and 34.8 g/L salinity respectively, synthetic seawater of 36 g/L salinity and a kinetic hydrate inhibitor (N-vinyl caprolactam). A Laboratory Hydrate Flow Loop whose schematic is shown in fig. 3, was used as the equipment to conduct the experiment.
+
+
+Figure 3View largeDownload slideProcess Flow Diagram of the Laboratory Hydrate Flow Loop (Odutola et al.,2017)Figure 3View largeDownload slideProcess Flow Diagram of the Laboratory Hydrate Flow Loop (Odutola et al.,2017) Close modal
+
+
+The experimental unit is a 12m skid mounted closed loop consisting of pipes, valves, pumps, high-pressure gas cylinder, refrigerating unit, vessels, pressure gauges, temperature gauges, differential pressure gauges and a control panel. The process flow diagram of the experimental set-up is as shown in figure 3. It is designed to function as a constant volume batch process, and operates at a maximum pressure of 3500 psi and temperatures between 0 – 50 °C. The polyvinyl chloride (PVC) pipe is insulated to prevent the system from gaining heat from the environment. Offshore flowline is represented with a 316 stainless steel pipe of 0.5-inch diameter that is constantly immersed in cold water contained in a 5-inch PVC insulated pipe. Fluids (water and gas) agitation is done by the variable screw pump.
+
+
+The high-pressure gas cylinder contained methane gas of 150 bars, and consists of two pressure gauges indicating the gas pressure contained in the cylinder and the pressure delivered to the flow loop. For a more description of the equipment, refer to Odutola et al. (2017).
+
+
+Synthetic Seawater
+
+
+The Synthetic Seawater (SSW) was prepared as shown in Table 1, with Salinity of 36 g/L. This was done to mimic seawater by comparing their performances for future laboratory investigation owing to the presence of microorganisms in seawater. It was found that both gave close results.
+
+
+Table 1Composition of SSW, SW1 and SW2 Components
+            . SSW
+            . SW1
+            . SW2
+            . Qty (g/L)
+            . NaCl 24.53 23.93 23.33 Na2SO4 4.09 4.09 4.09 NaHCO3 0.201 0.201 0.201 KCl 0.695 0.695 0.695 KBr 0.101 0.101 0.101 CaCl2 1.16 1.16 1.16 MgCl2 5.20 5.20 5.20 H3BO3 0.027 0.027 0.027 SrCl2 0.0025 0.0025 0.0025 NaF 0.003 0.003 0.003 H2O 988.968 988.968 988.968 Components
+            . SSW
+            . SW1
+            . SW2
+            . Qty (g/L)
+            . NaCl 24.53 23.93 23.33 Na2SO4 4.09 4.09 4.09 NaHCO3 0.201 0.201 0.201 KCl 0.695 0.695 0.695 KBr 0.101 0.101 0.101 CaCl2 1.16 1.16 1.16 MgCl2 5.20 5.20 5.20 H3BO3 0.027 0.027 0.027 SrCl2 0.0025 0.0025 0.0025 NaF 0.003 0.003 0.003 H2O 988.968 988.968 988.968 View Large
+
+
+Chemical Composition of Water
+
+
+Water is classified as follows: it is Freshwater when it contains <0.05% salt, or <1% salt by some definitions. It is Brackish water if <3% salt and Seawater if it contains >3% salt. Table 1, depicts the composition of the three samples used while Table 2, shows the composition of the CNG used for the experiment.
+
+
+Experimental Procedure
+
+
+Preceding the commencement of the experiment, the equipment was flushed with deionize water to prevent any ion that may be present in the system from reacting with the fluid by switching on pump-3 on the control panel to draw the deionize water into the loop via valve-4 till a pressure of 25 psia was attained. The trapped water was removed by turning on one of the valves 5, 6 or 7.
+
+
+The hydrate formation experiment commenced by feeding the measured water (2660 ml or 2616.2g) into the inhibitor vessel. Pressure was allowed to build up to 150 psia by turning on the CNG cylinder using valve-1 and orifice, and closed on attaining the desired value. Pump-2 was switched on to draw water into the refrigerating unit and circulate it around the PVC pipe so as to reduce the fluid's temperature in the pipe (1/2-inch internal diameter (ID) to hydrate forming temperature. To ensure proper agitation and mixing of the fluids, the screw pump was set at 150V, and the cooling process facilitated by the refrigerating unit. By design, 0.7 m of the 1/2-inch pipe spiral coil is immersed inside the cold water in the refrigerating unit with the aim of increasing the retention time of fluid under test in this coldest region of the loop where hydrate is likely to be formed. Readings of temperature, differential pressure and pressure were recorded at 2 minutes interval through out the experimental run of 2 hours.
+
+
+To inhibit hydrate formation using the low dosage N-VCap inhibitor, a mixture of water and 0.01 wt% percentage volume of the inhibitor was fed into the inhibitor vessel to make up the required total volume of 2660 ml. Similar to the aforementioned procedure, the experiment commenced with readings taken and recorded. In like manner, experiments were conducted using 0.02, 0.03, 0.04 and 0.05wt% concentrations of N-vinyl caprolactam with results taken and recorded accordingly.
+
+
+Results and Discussion
+
+
+Analysis of the work was done with the 6 plots shown below. Fig. 4-7 represents that of the uninhibited experiment, Fig. 8-9 is for the inhibited experiment and Fig. 4 is a plot for Comparing hydrate formation in saline water to that of fresh water. The plots are pressure against time, differential pressure against time and temperature against time.
+
+
+Comparison of Hydrate Formation in Fresh and Saline Water
+
+
+Fig. 4, is a comparison of the tendency of hydrate to be formed or dissociated in fresh water (FW) and saline water. The experiment conducted using FW showed the highest pressure decrease of 35 psi compared to the saline samples. This shows the possibility of hydrate forming in less saline formations than in more saline formations. This agrees with the result of the study by Felipe and Abbas. (2018) on hydrophobic hydration and effect of NaCl salt in the adsorption of hydrocarbons and surfactants on clathrate hydrate. In their investigation, it was discovered that, the probability of hydrate to be formed decreases in the presence of salt concentration.
+
+
+Figure 4View largeDownload slidePressure against Time for Hydrate Formation for FW, SW1, SW2 and SSWFigure 4View largeDownload slidePressure against Time for Hydrate Formation for FW, SW1, SW2 and SSW Close modal
+
+
+Figure 5View largeDownload slidePressure against Time for Hydrate Formation (SW1, SW2 and SSW Samples)Figure 5View largeDownload slidePressure against Time for Hydrate Formation (SW1, SW2 and SSW Samples) Close modal
+
+
+Hydrate Formation and Dissociation Experiments
+
+
+Three experiments involving SW1, SW2 and SSW were conducted to ascertain hydrate formation trend. These were performed under similar pressure, temperature and flow rates conditions. The plot of pressure against time for the three experiments is shown in Figure 4.
+
+
+Pressure drop was observed in the course of the experiments. A decrease in pressure from 170 psi to 153 psi, 170 psi to 157 psi and 170 psi to 150 psi for SW1, SSW and SW2 respectively were observed in the first 2 minutes of the respective experiments.
+
+
+There was no pressure variation for the next 6 minutes (2nd to 8th minute) with respect to the experiment involving SW1. Subsequently, pressure decreased gradually with values ranging from 1-2 psi, and attaining a constant value (133 psi) at the 28th minutes of the experiment. This was observed till the 32nd minute. Again, pressure decrease was observed from the 32nd minute to the 88th minute (121 psi), and remained constant to the end (2 hours) of the experiment. This implies that, at 121 psi no further gas consumption took place. The steady drop in pressure observed during the experiment is an indication that gas was being captured by the water molecules in the 0.5-inch 316 stainless steel tubing which gives rise to hydrate formation. This hydrate nucleation is in line with the result obtained by Elechi et al. (2020) and Moreveji et al. (2017).
+
+
+A gradual decrease in pressure was observed the experimental run with SSW till the 54th minute (140 psi), and constant for the next 36 minutes. The next 2 minutes of the experiment witnessed 1 psi drop in pressure, which was constant (139 psi) till the end; indicating that gas was no more consumed in the system. The experiment involving SW2 had a pressure drop of 20 psi from 170 psi to 150 psi in the first 2 minutes of the experiment. This was followed by another drop in pressure by 5 psi which was maintained for 6 minutes. After 18 minutes of experiment, a decrease in pressure of 3 psi, that is, from 145 psi to 142 psi was again, observed. The pressure drop for this experiment was notably greater than that observed in the experiments using SSW at the same stage, but declined gradually as the experiment proceeded. Pressure drop thereafter was in the range of 1 to 2 psi. A constant reading of 140 psi was maintained from the 24th minute of experiment to the 42nd minute. The pressure (130 psi) at the 62nd minute remained constant to the end of experiment. Therefore, no further gas consumption took place in the system within that period.
+
+
+The hydrate formation experiment conducted with SW2 showed significant drop in pressure as compared to the rest samples representing more gas consumption. Hydrate formation is more pronounced using SW2. Chong et al. (2015) in their investigation of the Effect of NaCl on methane hydrate formation and dissociation in porous media concluded that hydrate formation was significantly slower in the presence of NaCl. Pressure attained a constant value (130 psi) after 80 minutes for the rest period of the experiment but showed a gradual drop in pressure with values between 1-2 psi and attained constant readings at longer times, 88th minute and 92nd minute for SW1 and SSW experiments respectively.
+
+
+Gas consumption was observed in the three experiments therefore, hydrate was formed in all samples although, not strong enough to plug the line because of the presence of much salt. In more saline formation water, hydrate growth does not agglomerate to plugging the flowline while gas is conveyed to surface facilities or sales point. However, it is a function of the residence time.
+
+
+Figure 6, depicts the pressure differential plots for the samples. The increase in the differential pressure is an indication that hydrate particles were building up around the walls of the pipe at the coldest region of the loop which reduced the effective inside diameter of the pipe. However, hydrate was unable to agglomerate into plugging the pipe as its particles easily dissociated due to the presence of salt in the water samples (Mekala, et al., 2014). As hydrate was formed at the section where there is restriction, salt particles possibly might be deposited in that section, and the reaction between salt and hydrate causes a rapid dissociation of the hydrate formed (Yousif and Sloan, 1991). Salt is hygroscopic thus; it has affinity for water. It absorbed water molecules from the hydrate thereby releasing the gas molecules. The salt itself became hydrated and was swept down the flowline by the incoming flowing gas. This is responsible for the fluctuations (increase and sudden decrease) observed in the differential pressure readings similar to the work of Saw et al. (2012).
+
+
+Figure 6View largeDownload slidePressure Differential against Time for Hydrate Formation using the Three SamplesFigure 6View largeDownload slidePressure Differential against Time for Hydrate Formation using the Three Samples Close modal
+
+
+The plot of temperature against time for the experimental runs conducted without inhibitors for the samples are as shown in Figure 7. Basically, the research was about SW1. SSW was used to examine the suitability of artificial seawater for the study and for future purposes. And similar trend in results was observed. This is why the plots are almost overlapping. SW2 was the possible difference in salinity to SW1 taken from various locations of the available source in the country. Although, salinity does not vary, if it does, the variation is not much for wells of same field.
+
+
+Figure 7View largeDownload slideTemperature against Time for Hydrate Formation using the Three SamplesFigure 7View largeDownload slideTemperature against Time for Hydrate Formation using the Three Samples Close modal
+
+
+Temperature rise was experienced between the 64th and 80th minute of the experimental run with SW1, between 68th and 78th minute for SW2, and between 90th and 96th minute for SSW as observed in Fig. 7. These observations coincide with gradual pressure decrease in the system owing to the cooling resulting from the cooling process of gas dissolution in water (Moraveji et al., 2010). It can be inferred from the plot of SSW sample that; hydrate was forming in the cold region due to the sudden temperature rise observed in the system. The observations from figure 7, is similar to that of Elechi et al. (2020) in their study of the effectiveness of a locally sourced material as gas hydrate inhibitor.
+
+
+Appendix A1, is a plot of pressure and temperature against time for hydrate formation using SW1. Pressure declined gradually from the start of the experimental run till the 86th minute and constant to the end (120 minute). Temperature rise was observed between the 64th and 80th minute of the experiment as observed in the plot. The observed temperature increase indicates the occurrence of the exothermic reaction of hydrate nucleation and growth in the loop (Elechi et al., 2021).
+
+
+Appendix A2, is a plot of pressure and temperature against time for hydrate formation using SW2. Pressure declined gradually from the start of the experimental run till the 78th minute and constant to the end (120 minute). Temperature rise was observed between the 68th and 78th minute of the experiment as observed in the plot.
+
+
+Appendix A3, is a plot of pressure and temperature against time for hydrate formation using SSW. Pressure declined gradually from the start of the experimental run till the 92nd minute and constant to the end (120 minute). Temperature rise was observed between the 90th and 96th minute of the experiment as observed in the plot.
+
+
+Inhibited Experiment
+
+
+The effect of KHI (N-Vinyl caprolactam, N-VCap) on hydrate inhibition under different salinities was investigated with the various concentrations of the inhibitor. The experiment started with initial pressure of 170 psi as seen in figure 8. The 0.03wt% concentration experiment showed a decrease in pressure by 8 psi (170 psi to 162 psi) which is least in value obtained among other concentrations within the time frame. The 0.01 wt% concentration had a drop in pressure from 170 psi to 151 psi, 170 psi to 145 psi for the 0.02 wt% concentration, 170 psi to 140 psi for the 0.04 wt.% concentration and 170 psi to 147 psi for the 0.05 wt% concentration. While a gradual decrease in pressure was observed with all the concentrations, 0.03 wt% attained a pressure of 142 psi after 114 minutes of the experiment. The other experimental runs with 0.01 wt%, 0.02 wt%, 0.04 wt% and 0.05 wt% concentrations attained pressure values of 113 psi, 125 psi, 120 psi and 126 psi respectively.
+
+
+Figure 8View largeDownload slidePressure against Time for Hydrate Inhibition for SW1Figure 8View largeDownload slidePressure against Time for Hydrate Inhibition for SW1 Close modal
+
+
+The 142 psi attained after 114 minutes of the experiment is similar to that obtained for the 0.01 wt%, 0.02 wt%, 0.04 wt% and 0.05 wt% concentrations attained at 35th, 10th, 1st and 16th minutes respectively. Since pressure decline for this loop is an indication of rapid gas consumption in the system, the 0.04 wt% concentration of N-VCap performed best for hydrate inhibition experiment using SW1.
+
+
+Fig. 9, is a plot of pressure against time for Hydrate Inhibition experiment using SSW. The research work was basically to experiment the effect of formation water salinity on hydrate formation and dissociation using SW1. As earlier stated, few experimental runs were carried out using SSW (also SW2 and Fresh water) just to test the suitability of artificial seawater for the study, and for future purposes but close results were observed. The experiments began with a pressure of 170 psi. The experiment conducted using 0.01 wt% concentration of the inhibitor experienced a decline in pressure from 170 psi to 139 psi, the 0.02 wt% concentration had pressure decreased from 170 psi to 150 psi while the 0.03 wt% concentration, decreased in pressure from 170 psi to 148 psi within 2nd and the 44th minutes of the experiments. The decrease in pressure for the 0.02 wt% concentration was relatively small and slow but that of others were noticeable. Pressure attained constant values of 140 psi in the 44th minutes till the end of the experiment (2 hours). Experiments conducted with 0.01 wt% and 0.03 wt% concentrations ended with a pressure of 113 psi and 125 psi respectively. From fig. 9; 0.04 wt% concentration performed best as it delayed hydrate formation. This is similar to the observation of Elechi et al. (2021), in their discussion of pressure-time plot. Pressure versus time for SW2 was not compared here, as its result is similar to SW1 (primary focus).
+
+
+Figure 9View largeDownload slidePressure against Time for Hydrate Inhibition for SSWFigure 9View largeDownload slidePressure against Time for Hydrate Inhibition for SSW Close modal
+
+
+Comparison of the Uninhibited and the Inhibited Experiments
+
+
+Comparing the results as seen in the plots 5 and 8, obtained for the uninhibited and inhibited experiments for the SW1 which is the primary focus, the SW1 uninhibited experiment attained a pressure of 121 psi at 120th minute while the effective concentration of the commercial KHI (0.04 wt%) concentration attained a pressure of 120 psi at 120th minutes: implying that, the present of this percentage of inhibitor prolong hydrate formation. This is similar to the result obtained by Felipe and Abbas (2018), the presence of salt concentration improves the performance of anti-agglomerants.
+
+
+Conclusion
+
+
+This research addressed flow assurance concern by studying the effect of salinity of formation water on hydrate formation and dissociation. Subsea environment was mimicked using the Laboratory hydrate flow loop. It can be established that formation water salt content determines the onset time of hydrate formation. Salinity of water also affects the thermodynamic state of methane hydrate causing it to dissociate readily. A 0.04 w% concentration of the commercial KHI (PVCap) performed best in preventing hydrate formation in water salinity of 35.4g/L and 0.01 w% of its concentration performed best in water salinity of 36.0 g/L.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+APPENDIX A
+
+
+Appendix A1View largeDownload slidePressure and Temperature against Time for Hydrate Formation Using SW1Appendix A1View largeDownload slidePressure and Temperature against Time for Hydrate Formation Using SW1 Close modal
+
+
+Appwndix A2View largeDownload slidePressure and Temperature against Time for Hydrate Formation Using SW2Appwndix A2View largeDownload slidePressure and Temperature against Time for Hydrate Formation Using SW2 Close modal
+
+
+Appendix A3View largeDownload slidePressure and Temperature against Time for Hydrate Formation Using SSWAppendix A3View largeDownload slidePressure and Temperature against Time for Hydrate Formation Using SSW Close modal
+
+
+References
+
+
+Abrahamsen, E.; and Kelland, M. (2018). Comparison of kinetic hydrate inhibitor performance on structure I and structure II hydrate-forming gases for a range of polymer classes. Energy Fuels, 32 (1), 342Google ScholarCrossrefSearch ADS  Alapati, R., and Davis, A. (2007). Oil-soluble LDHI represents new breed of hydrate inhibitor. JPT Online: Tech Up (6)Google Scholar Aman, Z.M, Haber, A, Ling, N, Thornton, A, Johns, M.L, May, E. F. (2015). Effect of Brine Salinity on the Stability of Hydrate-in-Oil Dispersions and Water-in-Oil Emulsion. Energy Fuels29:748–7955Google ScholarCrossrefSearch ADS  Ashraf, M.A., Ullah, S., Ahmad, I., Qureshi, A.K., Balkhair, K.S. and Rehman, M.A. (2013).Barker, J. W.; and Gomez, R. K. (1989). Formation of Hydrates during Deep-water Drilling operations. Journal of Petroleum Technology41: 297–301Google ScholarCrossrefSearch ADS  Batool, S., Khalid, A., Chowdury, A. J. K., Sarfraz, M., Balkhair, K.S. and Ashraf, M. A. (2015). Impacts of azo dye on ammonium oxidation process and ammonia oxidizing soil bacteria. RSC Advances5: 34812–34820Google ScholarCrossrefSearch ADS  Chong, Z.R, Min Chan, A.H, Babu, P, Yang, P, Linga, L. (2015). Effect of NaCl on methane hydrate formation and dissociation in porous media. Journal of Natural Gas Science and Engineering27178–189Google ScholarCrossrefSearch ADS  Collins, A.G. (1975). Geochemistry of Oilfield Waters. Translated by Lin, W.Z. and Wang, B.C.Beijing: Petroleum Industry Press, (in Chinese)Google Scholar Connolly, C.A., Walter, L.M., Baadsgaard, H. and Longstaffe, F.J. (1990). Origin and evolution of formation waters, Alberta Basin, Western Canada Sedimentary Basin. Chemistry I. Applied Geochemistry5 (4): 375–395Google ScholarCrossrefSearch ADS  Dipl.-Ing. Volk A. (1967). The Formation and Removal of Hydrates in a Long-Distance Transmission Line. IGU 10th Int. Gas Conference, HamburgGoogle Scholar Elechi, V.U, Ikiensikimama, S.S, Akaranta, O.E, Ajienka, J.A, Onyekonwu, M.O, Okon, O.E. (2020). The use of a bench-scale high pressure apparatus to evaluate the effectiveness of a locally sourced material as gas hydrate inhibitor. Published by Elsevier B.V. on behalf of African Institute of Mathematical Sciences/Next Einstein Initiative,https://doi.org/10.1016/j.sciaf.2020.e00300Google Scholar Billings, G.K.Hitchon, B. and Shaw, D.R. (1969). Geochemistry and origin of formation waters in the Western Canada Sedimentary Basin, 2. Alkali metals. Chemical Geology4(1): 211–223Google Scholar Boschetti, T.; Manzi, V. and Toscani, L. (2013). MessinianCa-Cl brines from Mediterranean Basins: Tracing diagenetic effects by Ca/Mg versus Ca/Sr diagram. Aquatic Geochemistry19 (3): 195–208Google ScholarCrossrefSearch ADS  Chatti, I., Delahaye, A., Fournaison, L. and Petitet, J. (2005). Benefits and drawbacks of clathrate hydrates: A review of their areas of interest. Energy Conversion and Management, 46 (9), 1333Google Scholar Elechi, V.U., Ikiensikimama, S.S., Ajienka, J. A., Akaranta, O. E. and Okon, O.E. (2021). Laboratory evaluation of caricaceae plant as a locally sourced surfactant for gas hydrate inhibition in a laboratory mini flow loop. Applied Petrochemical Research.https://doi.org/10.1007/s13203-021-00275-xGoogle Scholar Englezos, P. (1993). Clathrate hydrates. Industrial and Engineering Chemistry Research32: 1251–1274Google ScholarCrossrefSearch ADS  Felipe, A. and Abbas, F. (2018). Hydrophobic Hydration and Effect of Nacl Salt in the Adsorption of Hydrocarbons and Surfactants on Clathrate Hydrate. ACS Cent Sci. 4 (7): 820–831Google ScholarPubMed Giavarini, C. and K.Hester, Gas Hydrates: Immense Energy Potential and Environmental Challenges. 2011, London: Springer LondonGoogle Scholar Green biocides, a promising technology: Current and future applications. Journal of the Science of Food and Agriculture94 (3): 388–403PubMed Hitchon, B., Billings, G.K. and Klovan, J.E. (1971). Geochemistry and origin of formation waters in the Western Canada Sedimentary Basin-III.Factors controlling chemical composition. Geochimica et Cosmochimica Acta35 (6): 567–598.Google ScholarCrossrefSearch ADS  Hitchon, B.; and Friedman, I. (1969). Geochemistry and origin of formation waters in the Western Canada Sedimentary Basin-Stable I. isotopes of hydrogen and oxygen. Geochimica et Cosmochimica Acta33 (11): 1321–1349Google ScholarCrossrefSearch ADS  Katz, D. L. (1945) Prediction of Conditions for Hydrate Formation in Natural Gases. Trans., AIME, 160:140–147Google ScholarCrossrefSearch ADS  Kelland, M. (2006). History of the development of low dosage hydrates inhibitors. Energy and Fuels, 20 (3), 825–847.https://doi.org/10.1021/ef050427xGoogle ScholarCrossrefSearch ADS  Kelland, M. (2011). A review of kinetic hydrate inhibitors:Tailormade water-soluble polymers for oil and gas industry applications.Advances in Materials Science Research; Wytherst, M.C., Ed.; Nova Science Publishers, Inc: New York, (8)Google Scholar Kelly, H., Meagan, W. and Tathagata, A. (2019). Natural Gas Hydrates. A Review of Formation, and Prevention/Mitigation in Subsea Pipelines. Advanced Science, Engineering and Medicine (11), 1–12Google Scholar Kharaka, Y. K., Law, L. M., Carothers, W.W., and Goerlitz, D.F. (1986). Role of organic species dissolved in formation waters from sedimentary basins in mineral diagenesis. In Roles of Organic Matter in Sediment Diagenesis, edited by Gautier, D.L.SEPM Society for Sedimentary Geology. SEPM Special Publication (38). 111–122Google ScholarCrossrefSearch ADS  Knauth, P.L, Beeunas, M.A. (1986). Isotope geochemistry of fluid inclusions in Permian halite with implications for the isotopic history of ocean water and origin of saline formation waters. Geochimica et Cosmochimica Acta, 50 (3). 419–433.http://doi:10.1016/00-7037(86)90195-xGoogle ScholarCrossrefSearch ADS  Koh, C. A., Sum, A. K. and Sloan, E. D. (2012). State of the Art: Natural Gas Hydrates as a Natural Resource. Nat J. Gas Sci. Eng (8), 132±138Google ScholarCrossrefSearch ADS  Koh, C.; Westacott, R.; and Zhang, W. (2002). Mechanisms of gas hydrate formation and inhibition. Fluid Phase Equilibria, 194–197, 143Google Scholar Lüders, V.; Plessen, B.; Romer, R.L.; Weise, S.M.; Banks, D.A.; Hoth, P.; Dulski, P.; and Schettler, G. (2010). Chemistry and isotopic composition of Rotliegend and Upper Carboniferous formation waters from the North German Basin. Chemical Geology276 (3): 198–208Google Scholar Mekala, P.; Babu, P.; Sangwai, J.S; and Linga, P. (2014). Gas Hydrate and Flow Assurance Laboratory, Petroleum Engineering Program, Department of Ocean Engineering. Energy Fuels, 28 (4), 2708–2716Google ScholarCrossrefSearch ADS  Mikang, K., Ye, W. B., Byeonggwan, L., In, W.C. and KyuchulS. (2018). LCST-Modulated Polymers for Synergistic Hydrate Inhibition in Methane Gas Flowlines. Energy Fuels32, 3, 3013–30Google Scholar Mokhatab, S., Wilkens, R. and Leontaritis, K. (2007). A review of strategies for solving gas-hydrate problems in subsea pipelines. Energy Sources, Part A, 29 (1), 39Google ScholarCrossrefSearch ADS  Moraveji, M.K., Sadeghi, A., Fazlali, A., Davarnejad, R. (2010). Effect of an anionic surfactant on the methane hydrate formation: induction time and stability, World Applied Science Journal9 (10) 1121–1128Google Scholar MovarejiM. K, Charffarkhah, A., Sadeghi, A. (2017). Effect of three representative surfactants on methane hydrate formation rate and induction time. Egypt J Pet26: 231–339Google Scholar OdutolaT. O., AjienkaJ. A., OnyekonwuM. O., IkiensikimamaS. S. (2017). Design, Fabrication and Validation of a Laboratory Flow Loop for Hydrate Studies. American Journal of Chemical Engineering. Special Issue: Oil Field Chemicals and Petrochemicals. 5, 3–1, 2017, pp. 28–41. doi:10.11648/j.ajche.s.2017050301.14Google Scholar Pinnelli, S. R. and BurlaS. K. (2019). Self-preservation and Stability of Methane Hydrates in the Presence of NaCl. Scientific Reports, 9.https://doi:10.1038/s41598-019-42336-1Google Scholar Pinti, D.L., Béland-Otis, C., Tremblay, A., Castro, M.C., Hall, C.M., Marcil, J., Lavoie, J. and Lapointe, R. (2011). Fossil Brines preserved in the St-Lawrence Lowlands, Québec, Canada as Revealed by their Chemistry and Noble Gas isotopes. Geochimica et Cosmochimica Acta75 (15): 4228–4243Google ScholarCrossrefSearch ADS  Samimi, A. (2012). Preventing hydrate formation in gas transporting pipe lines with synthetic inhibitors. International Journal of Science and Investigations, 1 (9): 2251–8843Google Scholar Saw, V. K,Laik, S. (2012). Methane Hydrate Formation and Dissociation in Synthetic Seawater. Journal of Natural Gas Chemistry21 (6) 625–623.https://doi.org/10.1016/S1003-9953(11)60411-8Google ScholarCrossrefSearch ADS  Seo, Y. and Kang, S. (2011). Inhibition of methane hydrate reformation in offshore pipelines with a kinetic hydrate inhibitor. Journal of Petroleum Science and Engineering, 88–89, 61–66.33Google Scholar Sloan, E. D.Jr. (2000). Hydrate Engineering. SPE Monograph, 21:4–36Google Scholar Sloan, E.; Subramanian, S.; and Matthews, P. (1998). Quantifying hydrate formation and kinetic inhibition. Industrial and Engineering Chemistry Research, 37 (8), 3124Google ScholarCrossrefSearch ADS  Tuba, E.; Matthew, J. P.; and Marc, C. (2014). Geologic Controls on Formation Water Salinity Distribution, Southeastern Greater Natural Buttes Field, Uinta Basin, Utah. Adapted from oral presentation given at AAPG International Conference and Exhibition, Istanbul, Turkey, September 14-17Google Scholar Underschultz, J.R.; Ellis, G.K.; Hennig, A.; Bekele, E.; and Otto, C. (2002). Estimating Formation Water Salinity from Wireline Pressure Data: Case Study in the Vulcan Sub-basin. Petroleum Exploration Society of Australia. The Sedimentary Basins of Western Australia III: proceedings of the Western Australian Basins Symposium (WABS)III. 285–303Google Scholar Yousif, M, Sloan, E.D. (1991). Experimental Investigation of Hydrate Formation and Dissociation I Consolidated Porous Media. SPE Res Eng6 (04): 452–458.https://doi.org/10.2118/20172-PGoogle Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212011-MS
+
+
+

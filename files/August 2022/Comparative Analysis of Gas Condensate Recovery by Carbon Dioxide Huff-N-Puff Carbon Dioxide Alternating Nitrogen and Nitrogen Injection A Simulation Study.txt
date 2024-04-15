@@ -1,0 +1,523 @@
+----- METADATA START -----
+Title: Comparative Analysis of Gas Condensate Recovery by Carbon Dioxide Huff-N-Puff; Carbon Dioxide Alternating Nitrogen and Nitrogen Injection: A Simulation Study
+Authors: Nchila Yuven, Temitope Fred Ogunkunle, Oluwasanmi Ayodele Olabode, Rachael Joseph, Eniola opeyemi Bolujo, Sonia Nkongho
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211988-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Conventional methods to mitigate condensate banking is to inject water or dry gas which raises the reservoir pressure above the dew point. Unfortunately, these methods are inadequate as they lead to late response in achieving low drawdown pressures. This study utilizes the compositional module of Eclipse to build a lean gas reservoir with heterogeneous properties having maximum liquid loading of 6.32% and simulate CO2 and N2 injection scenarios. Comparative analysis on condensate and gas production from five case studies of CO2 huff-n-puff, CO2 cyclic injection, CO2 and, N2 continuous injection and the Gas Alternating Gas (CO2 and N2) are considered for 9 years of production. Parametric studies on the effects of injection and production rates, cyclic time and injection fluid composition investigated. N2, CO2, Cyclic, GAG, and CO2 huff, and puff injection cases resulted in oil recovery factors of 3.83%, 3.81%, 2.9%, 1.85% and 6.1% respectively.
+
+
+
+
+Keywords:
+sagd,
+machine learning,
+reservoir,
+artificial intelligence,
+upstream oil & gas,
+modeling & simulation,
+composition,
+stb,
+injection,
+condensate recovery
+
+
+Subjects: 
+Improved and Enhanced Recovery,
+Thermal methods
+
+
+
+
+Introduction
+
+
+The use of global energy has evolved significantly over the past 5 decades from coal through oil to being dominated using natural gas in the next 30 years. When the complete switch from crude oil to natural gas will occur, is still a debatable topic but some commenters suggest the age of natural gas has arrived (Hwang, 2011). Natural gas at present provides about 25% of the global energy supply and its desire is significantly increasing. From an environmental point of view, natural gas has also become a more desirable energy source as it is the cleanest of all the fossil fuels, relatively cheaper and abundant and proving stability of supply. Rapid increase in global demand for natural gas has led to growth of international gas trade, encouraging longer term contracts for its sales (Hwang, 2011).
+
+
+Natural gas resources are classified into wet, dry, condensate, and retrogrades based on hydrocarbon behavior and composition (Hasan, Mahmoud, & Al-majed, 2018). Condensates are low density with high API gravity liquid hydrocarbons phase that occur generally in association with natural gas. Gas condensate reservoirs initially are gas systems with initial temperature between the critical temperature and the cricondentherm. The development of gas condensate reservoirs is similar to the development of dry gas reservoirs. However, the significant differences are the flow of condensates in the reservoir occurs near the wellbore and, significant production of liquid over the life of the reservoir. Gas condensate reservoirs are known for their intricate thermodynamic behaviors and their highly complicated flow regimes (Gringarten & Al-Lamki, 2000). Three mobility zones can be identified in a condensate reservoir as shown in figure 1. The outer region far away from the wellbore with initial saturation and reservoir pressure high above the saturation pressure. The middle region where the reservoir pressure is below the saturation pressure, here the liquid will not flow since the saturation pressure is below the critical saturation pressure, and an inner region closer to the wellbore with higher condensate saturation with little gas mobility
+
+
+Figure 1View largeDownload slideRegions of condensate and gas flow behavior in a typical gas condensate reservoir (Zendehboudi, 2012).Figure 1View largeDownload slideRegions of condensate and gas flow behavior in a typical gas condensate reservoir (Zendehboudi, 2012). Close modal
+
+
+Generally, pressure reduction in a well should result into re-vaporizing of its liquid phase to become gas. However, with condensate reservoirs upon pressure reduction below the dew point, liquid condensates in the reservoir down to the well rather than vaporizing. Retrograde gas condensates can become a problem when the reservoir pressure is lower than the dew point value. Some of the many oil and gas fields with significant condensate blocking reported in literature include Arun field in North Sumatra (Afidick et al., 1994), Shell Oman experience a 67% loss in productivity for wells in two 12 fields (Rahimzadeh et al., 2016), The Cal Canal Field in California (Engineer, 1985).
+
+
+There are several widely applicable techniques that have been applied in producing from a gas condensate reservoir as shown in figure 2. Several authors have done works on various techniques as cited below:
+
+
+Pressure maintenance techniques such as: Huff-n-Puff (Sanaei et al., 2018; Wan and Mu, 2018), Gas cycling (Siddiqui et al., 2014; Adel et al., 2006; Nasiri et al., 2015), CO2 injection (Su et al., 2017; Fath and Dashtaki, 2016); Eremin & Fields, 2016; Wan and Mu, 2018; Yang et al., 2019), N2 injection (Mogensen and Xu, 2020); Linderman et al., (2008); Canchucaja & Sueiro (2018); Davarpanah et al., 2019).Productivity improvement: Horizontal (Dehane et al., 2000; Miller et al. 2010), Hydraulic fracturing (Kerunwa et al., 2020),Chemical injection: wettability alteration (Franco-Aguirre et al., 2018; Sheydaeemehr et al., 2014; Ali et at., 2019), solvent injection (Correa et al., 2008; Kumar et al., 2006).
+
+
+Figure 2View largeDownload slideCondensate reservoir development Techniques (Nchila et al., 2022)Figure 2View largeDownload slideCondensate reservoir development Techniques (Nchila et al., 2022) Close modal
+
+
+Due to pressure sensitivity producing these gas condensate reservoirs can become complicated. The conventional method of producing condensate reservoirs is to maintain the reservoir pressure and/or buttonhole pressure above the dew point pressure through water and/or gas injection or huff-n-puff however, some of the inherent problems with conventional approach are; late response to gas injection by the well, low achievable drawdown pressure and steady or slow decline in oil saturation around the wellbore by evaporation (Sheng, 2015). In the case huff-n-puff technique, a quick response is expected from gas injection. This is because the injected gas will increase the pressure around the producer well boosting the drive energy. The increased pressure may help in vaporizing the condensates around the producer well. However, there was a concern that the in gas injected during the huff period will be re-produced during the puff period (Sheng, 2015). According to Sheng (2015), the injected gas can be fully miscible with the in-situ oil, if the flowing bottom hole pressure is maintained above the minimum miscibility pressure; the viscosity of the oil will be decreased to a minimum and allowing maximum swelling of the oil.
+
+
+Several schemes of nitrogen and CO2 injection have been tested such as miscible N2 WAG in oil reservoirs (Greewalt et al, 1982), CO2 WAG (Jarrel et al, 2002), immiscible N2 WAG in oil reservoirs (Slack and Ehlich, 1981). In general, the studies on combined N2 and CO2 injection are rare. To solve the problems associated with the available developmental options, that is increasing the production drawdown and increasing liquid oil offtake, a Gas alternating gas (GAG) injection was applied proposed. In this study, a simulation approach was used to evaluate the proposed GAG injection, the performance of which compared with CO2 injection, huff-n-puff, N2 injection, CO2 cyclic injection then parametric analysis of the important operational variables will be carried out.
+
+
+Methodology
+
+
+In this study Schlumberger ECLIPSE 300 compositional simulator was used to model a gas condensate reservoir. The reservoir properties used for the simulation are listed table 1 are from a gas condensate reservoir in the Niger Delta, Nigeria.
+
+
+Table 1Reservoir and fluid properties Properties
+            . Values
+            . Units
+            . Initial reservoir pressure 5225 psia Reservoir temperature 212.7 F Fluid compressibility 9.08E-05 1/psia Dew point pressure 5225 psia Average porosity 24 % Average vertical permeability 456 md Average horizontal permeability 4566 md GOR 11274 scf/bbl. Density 0.3067 g/cm3 API gravity 47.3 API Fluid Molecular Weight 25.52 g/mol C7+ (%) 4.43 % Fluid Molecular Weight 25.52 g/mol Properties
+            . Values
+            . Units
+            . Initial reservoir pressure 5225 psia Reservoir temperature 212.7 F Fluid compressibility 9.08E-05 1/psia Dew point pressure 5225 psia Average porosity 24 % Average vertical permeability 456 md Average horizontal permeability 4566 md GOR 11274 scf/bbl. Density 0.3067 g/cm3 API gravity 47.3 API Fluid Molecular Weight 25.52 g/mol C7+ (%) 4.43 % Fluid Molecular Weight 25.52 g/mol View Large
+
+
+Reservoir grid description
+
+
+The cartesian grid is set into 195X63X81 grid cells in the X, Y and Z direction respectively making a total of 995085 grid cells. Each cell dimension in the grid model is given by 243ft, 252ft and 1.19ft which represents DX, DY and DZ respectively. The petrophysical properties such porosity (PORO), permeability (PERMX, PERMZ), active grids (ACTNUM) and net to gross (NTG) ratio, were also assigned to the reservoir grid model using inbuilt processors. The model is a heterogeneous reservoir model with varying reservoir porosity and permeability. The reservoir porosity ranges from 12% to 36% with an average of 24%. The average vertical and horizontal permeabilities are taken as 456md and 4566md respectively. The computational model simulator was designed based on the reservoir field units. The reservoir depth was not provided in the PVT report obtain and therefore a good estimate datum depth of 5490ft was used to initialize the model was used for this simulation. Seven gas producing wells P1, P2, P3, P4, P5, P6 and P7 located in the I J coordinates of (97, 21), (113, 15) (124, 30) (140, 23) (156, 31), (143, 38) and (170, 30) respectively and two injector wells G1 and G2 located in the I, J coordinates (107, 22) and (131,22) respectively on the reservoir grid model as shown in figure 3. All wells penetrate the grid blocks in the Z-direction. Table 1 and Table 2 shows the reservoir properties and the reservoir fluid composition.
+
+
+Figure 3View largeDownload slideReservoir model and well locationsFigure 3View largeDownload slideReservoir model and well locations Close modal
+
+
+Table 2Composition of reservoir fluid No
+            . Component
+            . Weight Fraction
+            .   Mol % 1 N2 0.07 2 CO2 1.81 3 C1 81.52 4 C2 6.18 5 C3 2.79 6 i-C4 0.62 7 n-C4 0.89 8 i-C5 0.43 9 n-C5 0.34 10 C6 0.93 11 C7 1.33 12 C8 0.89 13 C9 0.72 14 C10 0.34 15 C11 0.23 16 C12 0.15 17 C13 0.11 18 C14 0.11 19 C15 0.12 20 C16 0.07 21 C17 0.05 22 C18 0.05 23 C19 0.02 24 C20+ 0.23  Total 100 No
+            . Component
+            . Weight Fraction
+            .   Mol % 1 N2 0.07 2 CO2 1.81 3 C1 81.52 4 C2 6.18 5 C3 2.79 6 i-C4 0.62 7 n-C4 0.89 8 i-C5 0.43 9 n-C5 0.34 10 C6 0.93 11 C7 1.33 12 C8 0.89 13 C9 0.72 14 C10 0.34 15 C11 0.23 16 C12 0.15 17 C13 0.11 18 C14 0.11 19 C15 0.12 20 C16 0.07 21 C17 0.05 22 C18 0.05 23 C19 0.02 24 C20+ 0.23  Total 100 View Large
+
+
+Formation core Analysis
+
+
+SCAL processor contains correlations which are used to generate the relative permeabilities. SCAL enables a systematic application of the special core analysis available to one which will improve the results of the simulation. The Corey oil water saturation function is one of the 41 functions supplied in the SCAL processor which can be used to fit the gas-oil relative permeabilities. The Corey (1954) correlations (gas-oil-water) were used to generate relative permeabilities and saturation values for the gas-oil-water systems in the sand as shown in figures 4a and 4b.
+
+
+Figure 4View largeDownload slidesaturation functions vs Water saturation (a. Water/Oil b. Gas/Oil)Figure 4View largeDownload slidesaturation functions vs Water saturation (a. Water/Oil b. Gas/Oil) Close modal
+
+
+PVT Modelling
+
+
+The PVT data used for this study was based on recombined surface separator samples. ECLIPSE pre-processor PVTi was used for phase behavior calculation and to develop the fluid characteristics which were then exported into the ECLIPSE compositional model. PVTi contains facilities to allow for importing experimental data to an Equation of State (EOS), and finally generating the PVT tables for reservoir simulation studies. The PVT analysis obtained from the report was used as the basis for the synthetic reservoir fluid composition. The binary interaction coefficients and the critical parameters were turned to match the PVT analysis. The reservoir fluid components and weight fractions obtained from the laboratory was imported into the PVTi simulator. Fluid composition and weight fractions, saturation pressure, temperature, and weight fraction of the C20+ are all that was needed to fit the equation of state and to generate the Constant Composition Expansion (CCE), Constant Volume depletion and the optimized separator. Three-Parameter Peng-Robinson Equation of states and Lohrenz Bray and Clark viscosity correlations built into the reservoir simulator were used to generate PVT properties. Figure 5 shows the phase diagram for the reservoir fluid. Specific gas gravity, API gravity and reservoir temperature are the main input variables for these correlations. PVTi pre-processor was used to generate phase behavior and to develop the fluid characteristics and the results were exported into the ECLIPSE compositional model. The model is then initialized to calculate the initial conditions in the reservoir on the basis of hydrostatic equilibration.
+
+
+Figure 5View largeDownload slidePhase Envelop of the gas condensate fluid.Figure 5View largeDownload slidePhase Envelop of the gas condensate fluid. Close modal
+
+
+Simulation runs
+
+
+To be able to evaluate condensate blocking remediation, several numerical simulation models were built to describe the saturations and flow behavior of each phase and to model performance in terms of productivity. Five simulation runs were carried out for a period of 10 years.
+
+
+Case 1
+
+
+Natural Depletion
+
+
+In the base case, the reservoir model was initially allowed to produce under natural depletion using Eclipse 300 compositional simulator for 10 years. In the numerical simulation model, the producer wells were subjected to a minimum bottom hole flowing pressure. They result were then analyzed and further simulations carried out.
+
+
+After successful simulation of the base, several gas flooding scenarios were simulated. Two gas injector wells were introduced after the first year of gas production and various gas injection scenarios then modelled.
+
+
+Case 2
+
+
+Continuous injection of Carbon dioxide gas
+
+
+In this model CO2 was continuous injected into the reservoir to enhance condensate recovery. CO2 was continuously injected through the injection wells and production occurred simultaneously through the production wells. CO2 was used for this model to enhance condensate recovery due to its composition and miscibility ability requiring minimum miscibility pressure. The composition of CO2 is varied and the best composition that gives the highest recovery rate was chosen for further studies. The advantage of using CO2 is because it helps to extract heavier hydrocarbon components, its presence results in the expansion of the condensates and helps reduce the interfacial forces between the gas and the condensates. Hence, increasing the condensate mobility.
+
+
+Case 3
+
+
+Continuous injection of Nitrogen gas. Nitrogen was continuously injected into the reservoir purely without any other gas mixed with it. Nitrogen does not react due to its inert nature but when the injection is done at high pressures, it has the tendency to mix slightly with the oil resulting in a decrease in the oil viscosity.
+
+
+Case 4
+
+
+Carbon dioxide Huff-n-Puff
+
+
+The huff-n-puff technique is a multicyclic injection and production process. In this model CO2 gas was periodically injected into the reservoir to recover the condensates and enhance the gas productivity. During the huff period, one well was used for injection during the huff period and for production during the puff period. Each cycle consists of 1 year of injection and the followed by 1 year of soaking time and the 1 year of production. The huff-n-puff started at the end of the natural depletion.
+
+
+Case 5
+
+
+Gas Alternating Gas injection (GAG)
+
+
+The Gas Alternating Gas process is a new method developed and applied in this study using the ECLIPSE 300 compositional simulator to enhance condensate recovery for gas condensate reservoir. This technique involves the cycling process of injecting gas in alternating cycles followed by gas and repeating. The chosen gas for this proposed technique CO2 and N2. This method is based on the principle that due to gas segregation between the two gases, it will prevent the heavier gas to go to the top layers hence improving condensate recovery. One injector and one producer were used to test the Gas Alternating Gas technique to enhance condensate recovery. The Gas Alternating Gas cycle was fixed for 5 years.
+
+
+Operational procedures for each simulation case
+
+
+For various simulation cases describe above, the following simulation processes were performed.
+
+
+For the base case, the reservoir was allowed to produce under natural depletion for 10 years. A sensitivity analysis on three production rates of 6000Msc/day, 5000Mscf/day and 4000Mscf/day was carried out. The results were then exported on excel and plotted for graphical representation. After primary depletion of the well, two injector wells were then drilled, and gas injection carried out for various injection scenarios.Secondly effect of injection gas composition was investigated to determine the optimum injection gas composition to enhance the condensate recovery. Three different gas composition scenarios were investigated: 50% CO2 and 50% N2, 70% CO2 and 30% N2 and 30% CO2 and 70% N2. Results exported to excel spreadsheet for graphical representation.In the third case, three gas injection rates were tested to see the effect of CO2 and N2 injection rate on the cumulative condensate recovered, and gas produced. Three different injection rates, 5000Mscf/day, 4500Mscf/day, and 4000Mscf/day were tested for the N2 and CO2 gas and the optimum injection rate for each case taken and used subsequently for the huff-n-puff and the gas alternating gas Case. The production rate was set at 6000Mscf/day. The results were exported to excel spreadsheet and plotted for graphical representationThe fourth case. The effect of cyclic time was investigated. This involved cyclic injection of CO2. Two cyclic time intervals were investigated: one-year cyclic injection and two years of cyclic injection repeatedly for a period of 9 years in each case.Finally, the proposed Gas Alternating Gas techniques for CO2 and N2 was simulated. This made used of the optimum recovery values of composition, flowrates, earlier obtained. Production rate was set at 6000Mscf/day. The GAG was done for a period of 9years. Results of the simulation are presented in the next chapter.
+
+
+Results and discussion
+
+
+Constant Composition Expansion (CCE) and Constant Volume Depletion results
+
+
+The saturation pressure value was determined to be 5225 psia at the reservoir temperature of 212.7 F. The results showed that the reservoir is lean gas condensate reservoir with a maximum liquid dropout of 6.32% at 1515 psia. The Figure 6.1 through 6.4 below shows the variation of retrograde liquid, relative volume, gas density and deviation factor respectively with pressure.
+
+
+Figure 6. 1View largeDownload slideRetrograde Liquid Volume Versus pressure at 212.7 FFigure 6. 1View largeDownload slideRetrograde Liquid Volume Versus pressure at 212.7 F Close modal
+
+
+Figure 6. 2View largeDownload slidePlot of relative volume Versus pressure at 212.7 FFigure 6. 2View largeDownload slidePlot of relative volume Versus pressure at 212.7 F Close modal
+
+
+Figure 6. 3View largeDownload slidePlot of Gas density Versus pressure at 212.7 FFigure 6. 3View largeDownload slidePlot of Gas density Versus pressure at 212.7 F Close modal
+
+
+Figure 6. 4View largeDownload slidePlot of Z-factor Versus pressure at 212.7 FFigure 6. 4View largeDownload slidePlot of Z-factor Versus pressure at 212.7 F Close modal
+
+
+After the initialization of the reservoir model using the eclipse compositional simulator, the results gave the initial volume of gas, oil, and water in place in the reservoir. The volume of gas in the reservoir is given as 39,692,535 rb, and that of the initial water is 110029840 rb. Since the reservoir is initially at/above the reservoir pressure of 5225 psia, there is no oil avail at this point. 56,405,517Mscf of gas can be produced from the reservoir. The results at the initial state of the reservoir are presented in the table 3 below. At the initial reservoir conditions, the gas saturation values range from 0 in some areas of the reservoir to a maximum value of 0.609. This represents areas of high gas saturations
+
+
+Table 3Initial reservoir fluid in place. RESERVOIR CONDITION
+            . (SURFACE CONDITION)
+            . Region
+            . Oil (Res Vol) (rb)
+            . Water (Res Vol) (rb)
+            . Gas (Res Vol) (rb)
+            . Water (Sur Vol) (stb)
+            . Oil (wrt-Separator) (stb)
+            . Gas (wrt separator) (Mscf)
+            . Field 0 110029840 39692535 108311020 5310437.6 56405517 RESERVOIR CONDITION
+            . (SURFACE CONDITION)
+            . Region
+            . Oil (Res Vol) (rb)
+            . Water (Res Vol) (rb)
+            . Gas (Res Vol) (rb)
+            . Water (Sur Vol) (stb)
+            . Oil (wrt-Separator) (stb)
+            . Gas (wrt separator) (Mscf)
+            . Field 0 110029840 39692535 108311020 5310437.6 56405517 View Large
+
+
+Natural depletion
+
+
+In the base case the reservoir was allowed to produce using the natural energy of the reservoir. No gas injection was carried out. Seven gas producer wells each with an ID of 0.5ft were drilled into the reservoir. The field was simulated to produce for 10years. The production rate was set at 6000Mscf/day. The results showed that 21,954,718Mscf of gas and 3,294,832.3 stb of oil was recovered during the natural depletion with a recovery factor of 61.99%. Figure 7.1, 7.2 and 7.3 represents the FGPT, FOPT, RF, respectively for the base case.
+
+
+Figure 7.1View largeDownload slideField gas production TotalFigure 7.1View largeDownload slideField gas production Total Close modal
+
+
+Figure 7.2View largeDownload slideField oil Production TotalFigure 7.2View largeDownload slideField oil Production Total Close modal
+
+
+Figure 7.3View largeDownload slideRecovery factorFigure 7.3View largeDownload slideRecovery factor Close modal
+
+
+Nitrogen injection
+
+
+Nitrogen was injected continuously into the reservoir at a rate of 5000Mscf/day for a period of 9 years while production was carried out simultaneously. The gas production rate was set at 6000Mscf/day. The results showed that 46,913,476 Mscf and 3,512821.3 stb of gas and oil were produced respectively. The oil recovery factor for this case was 65.82 %. The injection of nitrogen results into an additional 217,989 stb of oil produced. That is a 3.81% incremental oil was produced compared to the base case. Figure 8.1, Figure 8.2 and 8.3 represents the FGPT, FOPT, RF, respectively for nitrogen injection.
+
+
+Figure 8.1View largeDownload slideField gas production otalFigure 8.1View largeDownload slideField gas production otal Close modal
+
+
+Figure 8.2View largeDownload slideField oil production totalFigure 8.2View largeDownload slideField oil production total Close modal
+
+
+Figure 8.3View largeDownload slideRecovery factorFigure 8.3View largeDownload slideRecovery factor Close modal
+
+
+Injection of carbon dioxide
+
+
+After a successful simulation of nitrogen injection. Carbon dioxide was injected into the reservoir at an injection rate of 5000Mscf/day and the gas production rate of 6000Mscf/day for 9 years. Production was carried out simultaneously with the injection process. Results showed that 46,913,476 Mscf of gas and 3,512,821.3 stb of oil were produced respectively with a recovery factor of 65.8%. A 3.81% incremental oil (condensate) was produced which is about 217,989 stb compared to the base case. Figure 9.1, figure 9.2 and figure 9.3 below represents the FGPT, FOPT, and RF respectively for CO2 injection.
+
+
+Figure 9.1View largeDownload slideField gas production totalFigure 9.1View largeDownload slideField gas production total Close modal
+
+
+Figure 9.2View largeDownload slideField oil production totalFigure 9.2View largeDownload slideField oil production total Close modal
+
+
+Figure 9.3View largeDownload slideRecovery factorFigure 9.3View largeDownload slideRecovery factor Close modal
+
+
+Carbon dioxide Huff-n-Puff
+
+
+After the primarily depleting the reservoir, it was the subjected to a huff and puff period of 9 years. Huff-n-puff refers to injection of gas during the huff period followed by shutting in the well to allow for soaking and then followed by a production period in which the producer well is opened for production. CO2 was injected at a rate of 5000Mscf/day and gas production carried out at 6000Mscf/day. Three cycles of huff-n-puff were carried out. Each cycle consisted of a one-year huff period, one-year soaking period and one-year puff period. The results from the simulation showed that 26,087,856 Mscf of gas and 3,669,426.5 stb of oil were produced respectively with a recovery factor of 68.09 %. A 6.1 % incremental volume of condensate was produced which is about 374,594.5 stb compared to the base case. Figure 10.1, 10.2, 10.3, 10.4, 10.5 and 10.6 below represents the FGPT, FOPT, RF, FOPR, FGPR and FGIT respectively for CO2 huff-n-puff model.
+
+
+Figure 10.1View largeDownload slideField gas production totalFigure 10.1View largeDownload slideField gas production total Close modal
+
+
+Figure 10.2View largeDownload slideField oil production totalFigure 10.2View largeDownload slideField oil production total Close modal
+
+
+Figure 10.3View largeDownload slideRecovery factorFigure 10.3View largeDownload slideRecovery factor Close modal
+
+
+Figure 10.4View largeDownload slideField gas production rateFigure 10.4View largeDownload slideField gas production rate Close modal
+
+
+Figure 10.5View largeDownload slideField oil production rateFigure 10.5View largeDownload slideField oil production rate Close modal
+
+
+Figure 10.6View largeDownload slideField gas injection totalFigure 10.6View largeDownload slideField gas injection total Close modal
+
+
+Gas Alternating Gas injection
+
+
+The Gas Alternating Gas (GAG) involved the cycling process of injecting gas in alternating cycles followed by gas and repeating. In this simulation case, CO2 and N2 were injected in alternating cycles of year each repeatedly. The injection started after one year of natural production. The GAG model was carried out for 9 years. The results showed that 63.84 % of the residual oil can be recovered using this technique. The gas production total obtained is 33,127,802 Mscf. The volume of gas injected is 14,607,243 Mscf. This technique of injection gives a 1.85% increment in the volume of oil recovered when compared to the base. It the volume of gas injected is about half the volume of gas injected in the other cases. This indicates that GAG is economical when compared to the other models of injection. Figure 11.1, 11.2, 11.3, 11. 4, 11.5 and 11.6 below represents the FGPT, FOPT, RF, FGPR, FOPR, and FGIT respectively for the GAG model.
+
+
+Figure 11.1View largeDownload slideField gas production totalFigure 11.1View largeDownload slideField gas production total Close modal
+
+
+Figure 11.2View largeDownload slideField oil production totalFigure 11.2View largeDownload slideField oil production total Close modal
+
+
+Figure 11.3View largeDownload slideRecovery factorFigure 11.3View largeDownload slideRecovery factor Close modal
+
+
+Figure 11.4View largeDownload slideField Gas production rateFigure 11.4View largeDownload slideField Gas production rate Close modal
+
+
+Figure 11.5View largeDownload slideField oil production rateFigure 11.5View largeDownload slideField oil production rate Close modal
+
+
+Figure 11.6View largeDownload slideField gas injection totalFigure 11.6View largeDownload slideField gas injection total Close modal
+
+
+Sensitivity analysis
+
+
+Effect of Production rate
+
+
+Three different production rates of 6000Mscf/day, 5000Mscf/day and 4000Mscf/day were simulated to see the variation in volume of oil and gas produced. Results showed that increasing the production rate increase the volume of oil and gas produced. However, the difference in the recovery factor is very small compared to the volume of oil recovered. The recovery factors for the three production rates are 61.99%, 61.87% and 61.49% respectively with an average difference of 0.0033%. The was however significant difference in the volume of water produced. The volume of water produced for the 6000Mscf/day, 5000Mscf/day and 4000Mscf/day are 1202977 stb, 1185884 stb and 1152954 stb respectively. Increasing the production rate let to an increase in volume of water being produced. Figure 12.1, 12.2, 12.3 and 12.4, below represents the FGPT, FOPT, RF, FWPT and FGIT for the three production rates.
+
+
+Figure 12.1View largeDownload slideField oil production totalFigure 12.1View largeDownload slideField oil production total Close modal
+
+
+Figure 12.2View largeDownload slideField gas production totalFigure 12.2View largeDownload slideField gas production total Close modal
+
+
+Figure 12.3View largeDownload slideField oil production rateFigure 12.3View largeDownload slideField oil production rate Close modal
+
+
+Figure 12.4View largeDownload slideRecovery factorFigure 12.4View largeDownload slideRecovery factor Close modal
+
+
+Effect of injection rate
+
+
+Sensitivity analysis of three different injection rates was carried out for CO2 injection and N2 injection. The gas injection rates into the wells were done at 5000Mscf, 4500Mscf and 4000Mscf. Results for the CO2 injection case, injecting at a rate of 4500 Mscf gave the highest oil recovery. About 3515240 stb of condensates was recovered giving a 3.84 % of incremental volume of condensates recovered compared to the 3.81% and 3.34% obtained from the 5000Mscf/day and 4000Mscf/day injection rates. For the N2 injection case, injecting at a rate of 5000Mscf gave the highest oil recovery. About 3512821.3 stb of condensates was recovered giving a 3.82 % of incremental volume of condensates recovered compared to the 3.65% and 3.34% obtained from the 4500Mscf/day and 4000Mscf/day injection rates as summarized in table 4.
+
+
+Table 4Comparison of injection rates 
+            . Nitrogen
+            . Carbon dioxide
+            . Injection rate
+            . FGPT
+            . FOPT
+            . RF
+            . FGPT
+            . FOPT
+            . RF
+            . Mscf/day
+            . Mscf
+            . rb
+            . %
+            . Mscf
+            . rb
+            . %
+            . 5000 46913476 3512821.3 65.81 46913476 3512821.3 65.8 4500 44608596 3502411.8 65.64 44966848 3515240 65.83 4000 42518348 3486887.9 65.33 42518348 3486879 61.99 
+            . Nitrogen
+            . Carbon dioxide
+            . Injection rate
+            . FGPT
+            . FOPT
+            . RF
+            . FGPT
+            . FOPT
+            . RF
+            . Mscf/day
+            . Mscf
+            . rb
+            . %
+            . Mscf
+            . rb
+            . %
+            . 5000 46913476 3512821.3 65.81 46913476 3512821.3 65.8 4500 44608596 3502411.8 65.64 44966848 3515240 65.83 4000 42518348 3486887.9 65.33 42518348 3486879 61.99 View Large
+
+
+Effect of injection gas composition
+
+
+A sensitivity analysis of the injection gas composition was carried out for the CO2 and N2 injection. Various injection gas composition was investigated to in order to evaluate the impact on the volume of condensate recovered. Table below shows the various injection gas compositions investigated. Results show that there was no significant increase in the volume of oil and gas produce as a result of changing the composition of each injection gas. It is however the volume of the injected gas that produces significant change in the volume of oil and gas recovered. Table 5 below represents the FGPT, FOPT for the three injection gas compositions.
+
+
+Table 5Comparison of different injection gas composition rates. 
+            . Composition
+            . FOPT
+            . FGPT
+            . Oil Incremental
+            . Run
+            . CO2
+            . N2
+            . stb
+            . Mscf
+            . %
+            . 1 0.7 0.3 3467340 33127802 1.85 2 0.5 0.5 3467340 33127802 1.85 3 0.3 0.7 3467340 33127802 1.85 
+            . Composition
+            . FOPT
+            . FGPT
+            . Oil Incremental
+            . Run
+            . CO2
+            . N2
+            . stb
+            . Mscf
+            . %
+            . 1 0.7 0.3 3467340 33127802 1.85 2 0.5 0.5 3467340 33127802 1.85 3 0.3 0.7 3467340 33127802 1.85 View Large
+
+
+Effect of cyclic time
+
+
+A sensitivity analysis was carried out on the CO2 injection cycle time. The injection rate was set at 5000Mscf/day and the production rate set at 6000Mscf/day for the two cases. Two injection cyclic times as shown in table 6 for CO2 injection were investigated. First, a one-year injection repeatedly and the in another case two years of cyclic injection repeatedly each for a period of 9 years. A 2.9 % increment in the volume of oil produced was observed for the 2 years repeated cyclic injection and a 2.31% oil increment obtained for a 1year repeated cyclic injection when compared to the base case. Results from the simulation indicates that increasing the cyclic time increases the volume of oil and gas produced. Figure 13.1, 13.2, 13.3, and 13.4 below represents the FGPT, FOPT, Field water cut and RF respectively for the two cyclic time of injection.397
+
+
+Table 6Comparison of two cyclic time for injection. Cyclic (Time)
+            . FOPT (stb)
+            . FGPT (Mscf)
+            . RF
+            . Incremental oil (%)
+            . 1yr 3483906 34310692 64.3 2.31 2yrs 3484829 34874156 64.89 2.9 Cyclic (Time)
+            . FOPT (stb)
+            . FGPT (Mscf)
+            . RF
+            . Incremental oil (%)
+            . 1yr 3483906 34310692 64.3 2.31 2yrs 3484829 34874156 64.89 2.9 View Large
+
+
+Figure 13.1View largeDownload slideField oil production totalFigure 13.1View largeDownload slideField oil production total Close modal
+
+
+Figure 13.2View largeDownload slideField gas production totalFigure 13.2View largeDownload slideField gas production total Close modal
+
+
+Figure 13.3View largeDownload slideField water cutFigure 13.3View largeDownload slideField water cut Close modal
+
+
+Figure 13.4View largeDownload slideRecovery factorFigure 13.4View largeDownload slideRecovery factor Close modal
+
+
+Figure 14View largeDownload slideResults comparison of various development options.Figure 14View largeDownload slideResults comparison of various development options. Close modal
+
+
+Table 7Summary of sensitivity analysis. No
+            . Case
+            . Production rate (Mscf/day)
+            . Injection rate (Mscf/day)
+            . FOPT (stb)
+            . FGPT (Mscf)
+            . FOE (%)
+            . FWPT (stb0
+            . FGIT (stb)
+            . Oil Increment (stb)
+            . Percentage Increase (%)
+            . Barrels of oil equivalence BOE
+            .   6000 - 3294832.3 21954718 61.99 1202977 - - - 6953951.967 1 Base Case 5000 - 3288432.5 21966472 61.87 1185884 - - - 6949511.167   4000 - 3267462.5 21960190 61.49 1152954 - - - 6927494.167    5000 3512821.3 46913476 65.81 1470030 29220000 217989 3.82 11331733.97 2 N2 injection  4500 3502411.8 44608596 65.64 1403297 25865772 207579.5 3.65 10937177.8    4000 3486887.9 42518348 65.33 1408819 23376000 192055.6 3.34 10573279.23    5000 3512821.3 46913476 65.8 1470030 29220000 217989 3.81 11331733.97 3 CO2 injection 6000 4500 3515240 44966848 65.83 1429196 26298000 220407.7 3.84 11009714.67    4000 3486879 42518348 65.33 1408819 23376000 192046.7 3.34 10573270.33 4 CO2 1yr cyclic   3483905.5 34310692 64.3 1551781 14596690 189073.2 2.31 9202354.167 5 CO2 2yr cyclic  5000 3484828.5 34874156 64.89 1576836 14598451 189996.2 2.9 9297187.833 6 GAG (CO2 @ N2)   3467339.8 33127802 63.84 1575943 14607243 172507.5 1.85 8988640.133 7 CO2 huff n puff   3669426.8 26087856 68.09 1798887 5480000 374594.5 6.1 8017402.8 No
+            . Case
+            . Production rate (Mscf/day)
+            . Injection rate (Mscf/day)
+            . FOPT (stb)
+            . FGPT (Mscf)
+            . FOE (%)
+            . FWPT (stb0
+            . FGIT (stb)
+            . Oil Increment (stb)
+            . Percentage Increase (%)
+            . Barrels of oil equivalence BOE
+            .   6000 - 3294832.3 21954718 61.99 1202977 - - - 6953951.967 1 Base Case 5000 - 3288432.5 21966472 61.87 1185884 - - - 6949511.167   4000 - 3267462.5 21960190 61.49 1152954 - - - 6927494.167    5000 3512821.3 46913476 65.81 1470030 29220000 217989 3.82 11331733.97 2 N2 injection  4500 3502411.8 44608596 65.64 1403297 25865772 207579.5 3.65 10937177.8    4000 3486887.9 42518348 65.33 1408819 23376000 192055.6 3.34 10573279.23    5000 3512821.3 46913476 65.8 1470030 29220000 217989 3.81 11331733.97 3 CO2 injection 6000 4500 3515240 44966848 65.83 1429196 26298000 220407.7 3.84 11009714.67    4000 3486879 42518348 65.33 1408819 23376000 192046.7 3.34 10573270.33 4 CO2 1yr cyclic   3483905.5 34310692 64.3 1551781 14596690 189073.2 2.31 9202354.167 5 CO2 2yr cyclic  5000 3484828.5 34874156 64.89 1576836 14598451 189996.2 2.9 9297187.833 6 GAG (CO2 @ N2)   3467339.8 33127802 63.84 1575943 14607243 172507.5 1.85 8988640.133 7 CO2 huff n puff   3669426.8 26087856 68.09 1798887 5480000 374594.5 6.1 8017402.8 View Large
+
+
+Figure 4.60 below shows the tornado plot for the highest influencing parameter for increasing the volume of fluid produced. Results from the plot indicates that, it is preferable to optimize the production rate to increase the volume of gas produced. In the case of improved oil recovery, optimization of the injection rate is preferable in producing more of the condensates.
+
+
+Figure 15.aView largeDownload slideTornado diagram versus FGPT (Mscf)Figure 15.aView largeDownload slideTornado diagram versus FGPT (Mscf) Close modal
+
+
+Figure 15bView largeDownload slideTornado diagram versus FOPT (stb)Figure 15bView largeDownload slideTornado diagram versus FOPT (stb) Close modal
+
+
+Conclusion
+
+
+Various gas injection techniques for gas condensate reservoir development were simulated for a heterogeneous reservoir model using the ECLIPSE 300 compositional processor. Five gas injection cases were simulated: N2 continuous injection, CO2 continuous injection, CO2 huff-n-puff and Gas Alternating Gas injection (CO2 alternating N2). Seven producer wells were drilled, and 2 injectors used for the simulation. A study of some parameters that affect gas productivity and condensate recovery carried out. These parameters include the production rate, gas injection rate, cyclic time, and composition of the injection gas.
+
+
+The PVTi results confirms a lean gas condensate reservoir with a maximum liquid loading of 6.32% and saturation pressure of 5225 F.The base case general productivities without any injection carried out were compared by the cumulative field gas production total as a percentage of the gas initially in place (GIIP) under the same reservoir dimensions. The results showed a cumulative recovery of 61.99% of the gas initially in place (GIIP) for a 6000Mscf/day of production rate.Comparing the recoveries for different production rates, the results showed that the higher the production rate the higher the volume of oil and gas produced. For production rates for 6000Mscf/day, 5000Mscf/day, and 4000Mscf/day the cumulative recoveries respectively are 61.99%, 61.87% and 61.49% of GIIP. However, increasing the production rates leads to an increase in the volume of water produced.Continuous injection of nitrogen resulted in the enhancement of both the condensate and gas recovery. The improvement of both the gas and condensate recovery range from 3.34% to 3.82%.The continuous injection of CO2, model resulted in gas and condensate recoveries in the range of 3.34% to 3.81% of incremental volumes produced. It was observed that equal volume of CO2 and N2 in the continuous injection model produced equal volumes of fluid. The recoveries were more sensitive when increasing the injection rates.The Gas Alternating Gas approach showed comparable results with a 1.85 % incremental volume of gas and condensates produced. This model resulted in the least volume of water produced and a small volume of gas injected when compared to other cases.It was found that the injection gas composition does not affect the volume of gas and condensate produced very much. This indicates that the miscibility of the injection gas with the reservoir fluid does not depend on the composition. The miscibility could be dependent on the reservoir temperature and not the composition.The huff-n-puff model resulted in both incremental gas and condensate produced. This model produced the highest volume of condensates compared to all the cases. A 6.1% increment in the volume of condensate produced was obtained. However, in resulted in the small volumes of gas produced. This is because for the huff-n-puff model, there is enough soaking time for the injected gas to mixed with the condensates there by reducing its viscosity allowing it to the easily lifted to the surface.Th price of oil and gas in the market could be the determining factor in which of the recovery technique to adopt. When the choice of fluid to be produce is gas, then continuous injection of N2 and continuous injection of CO2 is preferable due to higher gas production total. Likewise, if the case where oil production is the choice of fluid to be produced due to increasing oil prices, CO2 huff-n-puff, Gas alternating Gas, and cyclic injection of CO2 is recommended.
+
+
+Area of further research
+
+
+Proper characterization of reservoir and fluid parameters as well as the operational environments is essential. This will improve the equation of state and tuning methods for lean gas condensate fluids. Hence reducing the uncertainty in describing the phase behavior of lean gas condensate fluids and injection fluids.
+
+
+Given the size of the reservoir in this study, it is recommended to simulate for longer time of depletion of the reservoir, this will provide more time to properly deplete the reservoir and so higher CPU power is necessary for faster and proper calculations of the reservoir grid fluid and rock properties for better results.
+
+
+For the GAG technique, it is also recommended to carry out the GAG starting with nitrogen injection first and the compare the results with those obtained in this study. This will permit proper optimization of the gas productivity.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion FOE: Field oil efficiency FOPT: Field oil production total FGPT: Field gas production total FWPT: Field water production total FWCT: Field water cut
+
+
+References
+
+
+Afidick, D., Kaczorowski, N. J., & Bette, S. (1994). Production Performance of a Retrograde Gas Reservoir: A Case Study of the Arun Field. SPE Asia Pacific Oil and Gas Conference. doi: 10.2118/28749-msGoogle Scholar Ali, N. E. C., Zoghbi, B., Fahes, M., Nasrabadi, H., & Retnanto, A. (2019). The impact of near-wellbore wettability on the production of gas and condensate: Insights from experiments and simulations. Journal of Petroleum Science and Engineering, 175, 215–223Google Scholar Adel, H., Tiab, D., and Zhu, T. (2006). Effect of gas recycling on the enhancement of condensate recovery, Case study: Hassi R’Mel South Field, Algeria. SPE Paper 104040Google Scholar Canchucaja, R., & Sueiro, M. (2018). Feasibility of Nitrogen Injection in a Multi-layered Lean Gas Condensate Reservoir. SPE Russian Petroleum Technology Conference. doi: 10.2118/191652-18rptc-msGoogle Scholar Correa, T., Tiab, D., & Restrepo, D. P. (2009). Evaluation of solvents efficiency in condensate banking removal. Dyna, 76(157), 163–171.Google Scholar Davarpanah, A., Mazarei, M., & Mirshekari, B. (2019). A simulation study to enhance the gas production rate by nitrogen replacement in the underground gas storage performance. Energy Reports, 5, 431–435Google ScholarCrossrefSearch ADS  Fath, A. H., & Dashtaki, N. B. (2016). Evaluation of effective parameters on CO2 injection process in a gas condensate reservoir: A case study. Energy Sources, Part A: Recovery, Utilization, and Environmental Effects, 38(24), 3680–3686.Google ScholarCrossrefSearch ADS  Franco-Aguirre, M., Zabala, R. D., Lopera, S. H., Franco, C. A., & Cortés, F. B. (2018). Interaction of anionic surfactant-nanoparticles for gas-Wettability alteration of sandstone in tight gas-condensate reservoirs. Journal of Natural Gas Science and Engineering, 51, 53-64.Google ScholarCrossrefSearch ADS  Greenwalt, W. A., Vela, S., Christian, L. D., & Shirer, J. A. (1982). A field test of nitrogen WAG injectivity. Journal of Petroleum Technology, 34(02), 266–272Google ScholarCrossrefSearch ADS  Gringarten, A. C., Al-Lamki, A., Daungkaew, S., Mott, R., & Whittle, T. M. (2000, October). Well test analysis in gas-condensate reservoirs. In SPE annual technical conference and exhibition. OnePetro.Google Scholar Hwang, J. (2011). Gas injection techniques for condensate recovery and remediation of liquid banking in gas-condensate reservoirs (Doctoral dissertation).Google Scholar Dehane, A., Tiab, D., & Osisanya, S. O. (2000, October). Comparison of the performance of vertical and horizontal wells in gas-condensate reservoirs. In SPE Annual Technical Conference and Exhibition. OnePetro.Google Scholar Engineer, R. (1985, March). Cal canal field, California: case history of a tight and abnormally pressured gas condensate reservoir. In SPE California Regional Meeting. OnePetroGoogle Scholar Eremin, N., Fields, S., & Fields, D. (2016). Enhanced Oil Recovery Methods. (March).Google Scholar Hasan, A. M., Mahmoud, M., & Al-majed, A. A. (2018). Catalysis and Kinetics A Novel Technique to Eliminate Gas Condensation in Gas Condensate Reservoirs Using Thermochemical Fluids. https://doi.org/10.1021/acs.energyfuels.8b03604Google Scholar Jarrell, P. M., Fox, C. E., Stein, M. H., & Webb, S. L. (2002). Practical aspects of CO2 flooding (Vol. 22, p. 2002). Richardson, TX: Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Kumar, V., Bang, V. S. S., Pope, G. A., Sharma, M. M., Ayyalasomayajula, P. S., & Kamath, J. (2006, January). Chemical stimulation of gas/condensate reservoirs. In SPE Annual Technical Conference and Exhibition. Society of Petroleum Engineers.Google Scholar Kerunwa, A., Princewill, O. A., Nkemakolam, C. I. (2020). Economic Evaluation of Hydraulic Fracturing in a Gas Condensate Reservoir Operating below Dewpoint. Journal of Yangtze Gas & Oil (14)5, 73-86. https://doi.org/10.4236/ojogas.2020.53007Google Scholar Linderman, J. T., Al-Jenaibi, F. S., Ghori, S. G., Putney, K., Lawrence, J., Gallat, M., & Hohensee, K. (2008, November). Feasibility study of substituting nitrogen for hydrocarbon in a gas recycle condensate reservoir. In Abu Dhabi International Petroleum Exhibition and Conference. OnePetro.Google Scholar Miller, N., Nasrabadi, H., & Zhu, D. (2010, June). Application of horizontal wells to reduce condensate blockage in gas condensate reservoirs. In International Oil and Gas Conference and Exhibition in China. OnePetro.Google Scholar Mogensen, K., & Xu, S. (2020). Comparison of three miscible injectants for a high-temperature, volatile oil reservoir-With particular emphasis on nitrogen injection. Journal of Petroleum Science and Engineering, 195, 107616.Google ScholarCrossrefSearch ADS  NasiriGhiri, M., Nasriani, H. R., Sinaei, M., Najibi, S. H., Nasriani, E., & Parchami, H. (2015). Gas injection for enhancement of condensate recovery in a gas condensate reservoir. Energy Sources, Part A: Recovery, Utilization, and Environmental Effects, 37(8), 799–806Google ScholarCrossrefSearch ADS  Rahimzadeh, A., Bazargan, M., Darvishi, R., & Mohammadi, A. H. (2016). Condensate blockage study in gas condensate reservoir. Journal of Natural Gas Science and Engineering, 33, 634–643. https://doi.org/10.1016/j.jngse.2016.05.048Google ScholarCrossrefSearch ADS  Sanaei, A., Abouie, A., Tagavifar, M., & Sepehrnoori, K. (2018, September). Comprehensive study of gas cycling in the Bakken shale. In Unconventional Resources Technology Conference, Houston, Texas, 23-25 July 2018 (pp. 2057-2071). Society of Exploration Geophysicists, American Association of Petroleum Geologists, Society of Petroleum Engineers.Google Scholar Siddiqui, M. A. Q., Alnuaim, S., & Khan, R. A. (2014). Stochastic Optimization of Gas Cycling in Gas Condensate Reservoirs. Abu Dhabi International Petroleum Exhibition and Conference. doi: 10.2118/172107-msGoogle Scholar Su, Z., Tang, Y., Ruan, H., Wang, Y., & Wei, X. (2017). Experimental and modeling study of CO2-Improved gas recovery in gas condensate reservoir. Petroleum, 3(1), 87–95.Google ScholarCrossrefSearch ADS  Sheydaeemehr, M., Sedaeesola, B., & Vatani, A. (2014). Gas-condensate production improvement using wettability alteration: a giant gas condensate field case study. Journal of Natural Gas Science and Engineering, 21, 201-208.Google ScholarCrossrefSearch ADS  Sheng, J. J. (2015). Increase liquid oil production by huff-n-puff of produced gas in shale gas condensate reservoirs. Journal of Unconventional Oil and Gas Resources, 11, 19–2Google ScholarCrossrefSearch ADS  Slack, W. W., & Ehrlich, R. (1981, April). Immiscible displacement of oil by simultaneous injection of water and nitrogen. In SPE/DOE enhanced oil recovery symposium. OnePetro.Google Scholar Wan, T., & Mu, Z. (2018). The use of numerical simulation to investigate the enhanced Eagle Ford shale gas condensate well recovery using cyclic CO2 injection method with nano-pore effect. Fuel, 233, 123-132.Google ScholarCrossrefSearch ADS  Yang, S., Wu, K., Xu, J., Li, J., & Chen, Z. (2019). Roles of multicomponent adsorption and geomechanics in the development of an Eagle Ford shale condensate reservoir. Fuel, 242, 710-718.Google ScholarCrossrefSearch ADS  Zendehboudi, S., Ahmadi, M. A., James, L., & Chatzis, I. (2012). Prediction of condensate-to-gas ratio for retrograde gas condensate reservoirs using artificial neural network with particle swarm optimization. Energy & Fuels, 26(6), 3432–3447.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211988-MS
+
+
+

@@ -1,0 +1,160 @@
+----- METADATA START -----
+Title: A Rapid Method to Predict Minimum Miscibility Pressure Through Interfacial Tension Test and Visual Observation
+Authors: Muslim Abdurrahman, Akhmal Sidek, Augustine Agi, Radzuan Junin, Syahrir Ridha, Nguyen Xuan Huy, Agus Arsad, Afeez Gbadamosi, Faruk Yakasai, Jeffrey Oseh, Jeffrey Gbonhinbor
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211919-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The minimum miscibility pressure (MMP) CO2 injection performs in enhanced oil recovery (EOR) method to increase sweeping efficiency and reduce oil/CO2 interfacial tension (IFT) also advantageous to the environmental in term of gas emissions for carbon capturing. There are several methods to achieve reliable value of MMP such as slim tube test, raising bubble apparatus, vanishing IFT, swelling test, and visual observation. However, these methods have certain limitations, which leads to the development of new techniques for a wide range of applications. In this paper, a rapid method that integrated IFT test with visual observation was investigated. Based on the test, the pressure is plotted against the IFT to predict the MMP for temperature 60 °C and 66 °C. In the meantime, visual observation during the test is also conducted to identify the occurrence of miscibility. The combination of both methods may provide much faster MMP prediction because the test consumes a small amount of hydrocarbon samples. The outcomes of this research clearly suggest that the MMP values resulted from IFT test and visual observation considerably agree with each other.
+
+
+
+
+Keywords:
+mmp,
+miscibility,
+predict minimum miscibility pressure,
+enhanced recovery,
+experiment,
+pet,
+upstream oil & gas,
+co 2,
+visual observation,
+injection
+
+
+Subjects: 
+Improved and Enhanced Recovery,
+Chemical flooding methods
+
+
+
+
+Introduction
+
+
+In the last several decades, CO2 injection has been proved to be a successful enhanced oil recovery (EOR) process. CO2-EOR has been applied in oil fields worldwide. Many of them are located in the USA [1], [2], [3], [4], and some others are located outside the USA [5], [6], [7]. The CO2-EOR method offers additional oil recovery between 5-20% through either miscible or immiscible process [5]. The miscible condition generally yields higher oil recovery compared to that of the immiscible method. Several mechanisms during CO2 injection that have been known to date for improving oil recovery include oil swelling, viscosity reduction, oil density reduction, and vaporizing and extracting some portions of crude oil [8].
+
+
+The minimum miscibility pressure (MMP) must be known prior to the CO2 injection to determine the miscibility of injection either in miscible or immiscible conditions. The MMP is the lowest pressure to achieve miscibility between the CO2 and the oil at a specific reservoir condition [9]. In this case, for a given reservoir temperature, determination of the miscibility condition of the injection process is subject to the MMP. Numerous methods for predicting the MMP had been developed by researchers. Experimental methods such as slim tube test, raising bubble apparatus, vanishing interfacial tension (IFT), swelling test, and visual observation are among the most common methods to apply. Other researchers have proposed numerical simulation method for predicting the MMP [10], [11]. However, each method has its own disadvantages in its methodology leading to the limitation of its application. For example, the slim tube test requires a lot of samples, long testing time, and consumes high cost. Raising bubble apparatus is subjective to interpretation, lacks quantitative evidence to satisfy the results and has some arbitrariness with miscibility interpretation.
+
+
+We apply a combined method for predicting the MMP through an IFT test in the present study. In such a test, the MMP is obtained when the IFT between the CO2 and the oil is zero [12]. Based on this concept, the plotting of IFT versus pressure can predict the MMP at a certain temperature. In the meantime, visual observation was conducted to record when the miscibility occured. This combined method has some advantages, such as predicting the MMP very rapidly, and it consumes less oil and gas samples. Also, as the IFT test result is combined with visual observation, the method provides more convincing results since the occurrence of the miscibility can be easily recognized during visual observation.
+
+
+Experimental Apparatus and procedures
+
+
+IFT Test
+
+
+The schematic for the IFT experimental test is shown in Fig. 1. Two syringe pumps from ISCO company for injecting water and CO2, a goniometer apparatus from Rame-Hart Instruments Co., combined with a visual cell have been used for the experiment. High pressure and high temperature are applied to the visual cell to measure the IFT at reservoir condition. The cell diameter is 30 mm, its height is 60 mm, and its thickness is 16 mm. The maximum operating pressure and temperature of the visual cell are 3,000 psi and 300 °C, respectively. The needle, which has 0.91 mm diameter (OD) and 50 mm length, is made from stainless steel. A pair of sapphire-glass, placed toward each other, has been equipped within the visual cell. The glass window has a thickness of 10 mm and a diameter of 30 mm. A certain volume of dead-oil is mounted into the stainless-steel piston chamber with a maximum operating pressure of 3,000 psi. Metering valve and check valve were added to ensure the constant oil flow rate and prevent the flow-back situation. The temperature was measured with a calibrated thermocouple inside the cell. Afterwards, the pressure of the system was measured with a pressure gauge. All apparatus is connected by using stainless steel tubing lines.
+
+
+Figure 1View largeDownload slideSchematic illustration of the IFT experiment [17]Figure 1View largeDownload slideSchematic illustration of the IFT experiment [17] Close modal
+
+
+Before initiating the measurement, all lines and the apparatus were cleaned using toluene, then dried using nitrogen and vacuumed. The pressure inside the cell was conditioned by injecting CO2 into the cell. Meanwhile, the temperature condition was maintained by installing heater and wrapping the view cell with heater tapes. A series of experiments were conducted with pressure conditions ranging from 700 to 2500 psi and temperature ranging from 60 °C to 66 °C. After the pressure and temperature inside the cell are constantly maintained according to the desired condition of 20-30 minutes, the water with the specific rate of 0.1 cc/min is pumped into the chamber and the piston pushed up the dead oil inside the chamber. The dead oil flows from the chamber through the tubing line until it reaches the needle's tip. When the oil drop reaches the needle's tip, the drop hang, and this condition was maintained in stabilized condition for a certain time by adjusting the metering valve. In this experiment, the stabilized condition of the drop was between 40 to 60 seconds. These times have been suggested by previous investigators [13], [14].
+
+
+The IFT measurement was done by measuring the drop image geometry captured by the camera. A good and representative drop image, which clearly separates the oil phase from the CO2 phase. The camera was connected to a monitor and a personal computer equipped with an image capture board and the image analysis software including the DROP image advance program was used to calculate the IFT. The measurement was repeated three times to ensure the certainty of the IFT values. After the measurement, all apparatus was cleaned using toluene, dried by nitrogen, and vacuumed. Finally, the determination of MMP was determined by extrapolating the linear trend line of the IFT curve as a function of pressure to the IFT value of zero.
+
+
+Visual Observation Procedures
+
+
+Observation on the occurrence of miscibility through videos or pictures of the IFT test process was conducted to predict the MMP visually. This was basically to identify the change in shape of the oil drop as the pressure increases. When the pressure in the view cell is increased, the CO2 will dissolve in the oil and accordingly the shape of the oil drop at the tip of the needle will gradually change. This phenomenon occurs until the oil drop disappears from the tip of the needle. Thus, the MMP is estimated when the oil and the CO2 become one phase, (when the oil drop disappears from the needle tip at a higher pressure). This can be distinguished visually by observation through the cell. This method needs to be developed and should be regarded only as an approximate method in estimating the MMP. However, this method is effective in recognizing when miscibility occurs.
+
+
+Results and discussion
+
+
+MMP Predictions Based on IFT Test
+
+
+Their experimental study [13] explained that the light and moderate components are rapidly extracted from the oil drop during the diffusion mechanism, causing the CO2 to be an oil-rich gas. This phenomenon leads to a decrease in the IFT between the oil and the CO2. However, when the pressure increases to the near-miscibility condition, the heavy component remains in the oil. At this condition, the oil drop starts to shrink, and the IFT reduces quite slowly. Based on the explanation provided by [14], we name the two regions created during the IFT test as follows. The first is region A, representing the diffusion stage, and the second region B, representing the shrinkage stage. In the present study, the MMP is determined by linear extrapolation of the diffusion line of the IFT versus pressure plot to the zero value of the interfacial tension. The linear regression for estimating the MMP at temperature 60 °C and 66 °C follows Equations 1 and 2.
+
+
+IFT=−0.0262×pressure+42.22(1)
+
+
+IFT=−0.0226×pressure+40.17(2)
+
+
+The Equation (1) was generated for estimating the MMP at 60 °C, and the Equation (2) was created for estimating the MMP at 66 °C. The resulted MMP by the method is acceptable with the correlation coefficient (R2) value of 0.999 for both equations. Nevertheless, this equation is applied only to the pressure range between 700 psi to 1,500 psi at 60 °C and 700 to 1,600 psi at 66 °C. If the pressure is higher than any of these pressure ranges, the equation may not be applicable due to possible different mechanisms.
+
+
+The MMP estimation under elevated pressure from the IFT test for the temperature of 60 °C and 66 °C are respectively shown in Fig. 2 and Fig. 3. Using Equations 1 and 2 at the IFT value equal to zero, the curves showed that the miscibility occur at 1,611 psi and 1,777 psi for both temperatures of 60 °C and 66 °C, respectively. Meanwhile, it also can be seen that the MMP increases as the temperature of the system increases. The incremental of MMP due to the increasing temperature from 60 °C to 66 °C is about 166 psi or 27.7 psi/°C. These results are reasonably consistent with the previous finding presented by [15]. They reported that the increment of MMP was about 22.6 psi/°C. At high temperature, the CO2 solubility in crude oil is lower, which results in higher MMP. Moreover, the slope of the IFT vs. pressure curve is slightly different. When temperature increases, the slope of the curve is larger promting a higher MMP. Fig. 3, which is for the temperature of 66 °C, shows a greater slope, (-0.0226), compared to Fig. 2, which is for the temperature of 60 °C, with the slope of -0.0262. It also suggests that the higher temperature results in higher MMP.
+
+
+Figure 2View largeDownload slideMMP from interfacial tension test at temperature of 60 °C [17]Figure 2View largeDownload slideMMP from interfacial tension test at temperature of 60 °C [17] Close modal
+
+
+Figure 3View largeDownload slideMMP from interfacial tension test temperature of 66 °C [17].Figure 3View largeDownload slideMMP from interfacial tension test temperature of 66 °C [17]. Close modal
+
+
+MMP Estimation by Visual Observation
+
+
+The value of MMP by visual observation during swelling test experiment is quite viable [16]. The method was later proved by [17] as they used it to predict the MMP in their swelling test experiment. Following the idea, in this work, we also conducted visual observation to predict the MMP. Fig. 4 to Fig.11 depict the phenomena during IFT test experiment. The oil drops indeed changes slightly as the pressure increases. In this experiment, the oil drop shape starts to change irregularly at pressures between 1650 psi to 1700 psi for 60 °C temperature. At 66 °C, the oil drop shape starts to change irregularly at pressures between 1700 psi to 1800 psi. When the oil drop changes to irregular shapes, the corresponding IFT cannot be calculated. In such state, the system is presumably near miscible condition. Furthermore, when the oil drop disappears from the tip of the needle, we assume that the miscibility state between the oil and CO2 has occurred.
+
+
+Figure 4View largeDownload slideOil drop shapes at 700 and 800 psi and 60 °C.Figure 4View largeDownload slideOil drop shapes at 700 and 800 psi and 60 °C. Close modal
+
+
+Figure 5View largeDownload slideOil drop shapes at 1000 and 1400 psi and 60 °CFigure 5View largeDownload slideOil drop shapes at 1000 and 1400 psi and 60 °C Close modal
+
+
+Figure 6View largeDownload slideOil drop shapes at of 1550 and 1650 psi and 60 °CFigure 6View largeDownload slideOil drop shapes at of 1550 and 1650 psi and 60 °C Close modal
+
+
+Figure 7View largeDownload slideOil drop shape at 1,700 psi and 60 °C.Figure 7View largeDownload slideOil drop shape at 1,700 psi and 60 °C. Close modal
+
+
+Figure 8View largeDownload slideOil drop shapes at 700 and 800 psi and 66 °CFigure 8View largeDownload slideOil drop shapes at 700 and 800 psi and 66 °C Close modal
+
+
+Figure 9View largeDownload slideOil drop shapes at 1000 and 1400 psi and 66 °C.Figure 9View largeDownload slideOil drop shapes at 1000 and 1400 psi and 66 °C. Close modal
+
+
+Figure 10View largeDownload slideOil drop shapes at 1550 and 1650 psi and 66 °CFigure 10View largeDownload slideOil drop shapes at 1550 and 1650 psi and 66 °C Close modal
+
+
+Figure 11View largeDownload slideOil drop shape at 1800 psi and 66 °CFigure 11View largeDownload slideOil drop shape at 1800 psi and 66 °C Close modal
+
+
+Conclusions
+
+
+The present study provides valuable information and draws the following conclusions:
+
+
+MMP can be determined from IFT tests and visual observation.The combine method has advantages such as less oil and gas consumption and produces rapid results within hours.The results from the IFT test and visual observation are considerably close to each other. The MMP from the visual observation method is slightly higher than that of IFT test.To obtain reasonable results, the MMP from the IFT test and visual observation should be validated by other methods such as a slim tube test or simulation.Visual observation may be considered a proper and quick method to identify the occurrence of the miscibility when CO2 is injected into oil. This method, however, should be used with caution as it is very subjective.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgment
+
+
+The authors would like to thank the Ministry of Education, Culture, Research, and Technology of Republic Indonesia, Petroleum Engineering Laboratory, Faculty of Engineering, Universitas Islam Riau and Reservoir Simulation Computer Modelling Group (CMG) Ltd, Calgary, Canada. for providing support in writing this paper.
+
+
+References
+
+
+T. E.Gill, "Ten Years of Handling Co//2 for Sacroc Unit.," Soc. Pet. Eng. AIME, SPE, pp. 1–5, 1982, 10.2118/11162-ms.Google Scholar P. W.Hansen, "A CO2 tertiary recovery pilot Little Creek field, Mississippi," Proc. – SPE Annu. Tech. Conf. Exhib., vol. 1977-Octob, pp. 1–5, 1977, 10.2118/6747-ms.Google Scholar J. F. R.Bellavance, "Dollarhide Devonian CO2 Flood: Project performance review 10 years later," Soc. Pet. Eng. – Permian Basin Oil Gas Recover. Conf. OGR 1996, no. 4, pp. 395–403, 1996, 10.2118/35190-ms.Google Scholar K. R.Pittaway and E. E.Runyan, "Ford Geraldine Unit Co//2 Flood: Operating History." Soc. Pet. Eng. AIME, SPE, no. August, pp. 19–26, 1988.Google Scholar K.Pyo, M.Powell, J.Van Nieuwkerk, and P.West, "CO2 Flooding in Joffre Viking Pool," Pet. Soc. Can. Int. Pet. Conf., pp. 1–4, 2003.Google Scholar S.Sahin, U.Kalfa, andD. Celebioglu, "Bati Raman field immiscible CO2 application: Status quo and future plans," Proc. SPE Lat. Am. Caribb. Pet. Eng. Conf., vol. 1, pp. 93–105, 2007, 10.2523/106575-ms.Google Scholar T.Ahmed, "Minimum miscibility pressure from EOS," Can. Int. Pet. Conf. 2000, CIPC 2000, 2000, pp. 1–12, 2000, 10.2118/2000-001.Google Scholar F.Stalkup and H.Yuan, "Effect of EOS characterization on predicted miscibility pressure," Proc. – SPE Annu. Tech. Conf. Exhib., pp. 377–386, 2005, 10.2523/95332-ms.Google Scholar D. N.Rao, "A new technique of vanishing interfacial tension for miscibility determination," Fluid Phase Equilib., vol. 139, no. 1-2, pp. 311–324, 1997, 10.1016/s0378-3812(97)00180-5.Google Scholar Y.Gu and D.Yang, "Interfacial tensions and visual interactions of crude oil-brine-CO2 systems under reservoir Conditions," Can. Int. Pet. Conf. 2004, CIPC 2004, pp. 1–10, 2004, 10.2118/2004-083.Google Scholar Z.Yanget al. ., "Interfacial tension of CO2 and crude oils under high pressure and temperature," Colloids Surfaces A Physicochem. Eng. Asp., vol. 482, pp. 611–616, 2015, 10.1016/j.colsurfa.2015.05.058.Google ScholarCrossrefSearch ADS  S.Gondiken, "Camurlu Field Immiscible CO2 Huff and Puff Pilot Project," Soc. Pet. Eng. AIME, SPE2007, 10.2523/15749-ms.Google ScholarCrossrefSearch ADS  L. W.Holm and V. A.Josendal, "Mechanisms of Oil Displacement By Carbon Dioxide.," JPT, J. Pet. Technol., vol. 26, pp. 1427–1438, 1974, 10.2118/4736-PA.Google ScholarCrossrefSearch ADS  N.Mungan, "Carbon Dioxide Flooding – Fundamentals.," J. Can. Pet. Technol., vol. 20, no. 1, pp. 87–92, 1981, 10.2118/81-01-03.Google ScholarCrossrefSearch ADS  A.Hemmati-Sarapardeh, S.Ayatollahi, M. H.Ghazanfari, and M.Masihi, "Experimental determination of interfacial tension and miscibility of the CO2-crude oil system; Temperature, pressure, and composition effects," J. Chem. Eng. Data, vol. 59, no. 1, pp. 61–69, 2014, 10.1021/je400811h.Google ScholarCrossrefSearch ADS  G. C.Wang, "A study of crude oil composition during CO2 extraction process," Soc. Pet. Eng. – SPE Calif. Reg. Meet. CRM 1986, pp. 423–432, 1986, 10.2523/15085-ms.Google Scholar M.Abdurrahman, A. K.Permadi, and W. S.Bae, "An improved method for estimating minimum miscibility pressure through condensation-extraction process under swelling tests," J. Pet. Sci. Eng., vol. 131, pp. 165–171, 2015, 10.1016/j.petrol.2015.04.033.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211919-MS
+
+
+

@@ -1,0 +1,828 @@
+----- METADATA START -----
+Title: Collation, Analysis of Oil and Gas Production Reports Using Excel, Python and R: A Data Science Approach in Handling Large Data
+Authors: Opeyemi Oluwalade, Yisa Adeeyo, Frank Emeruwa, Nnamdi Nwabulue, Adaora Obi-Okoye, Adekanmi Adesola
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212031-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The ability to have data and manipulate it to uncover meaningful information is a must-have skill in this day and age. In this paper, practical techniques were applied to combine and analyze 65 sets of well test data received from the Field Engineers for a particular well (Well-001). Comparisons were made between manually collating (copy and paste) and analyzing the data and applying Data Science techniques. Analysis was also done after collation of this data.It was on the basis of this review that it was observed that the well had a corroded bean box and that was replaced, while further analysis on the other hand showed that in the future, a Water Shut Off (WSO) and perforation extension opportunity could be carried out to boost and optimize production in this particular well.The emphasis of this paper is not on the analysis of the data but comparing various tools that can be used to combine large data from different excel files and collating them into one sheet for analysis and pointing out how man-hours can be optimized by applying Data Science. Data used in this paper were routine Field reports stored in a file that pertains to a Well in one of the Fields of interest. One of the takeaways from the job done here is that we can achieve more in less time from Data Science tools and codes like R, Python, VBA and also other tools like Power Query and Pivot Tables.
+
+
+
+
+Keywords:
+activechart,
+production control,
+cobol,
+production monitoring,
+upstream oil & gas,
+reservoir surveillance,
+textframe2,
+forecolor,
+cutcopymode false application,
+select activechart
+
+
+Subjects: 
+Well & Reservoir Surveillance and Monitoring,
+Formation Evaluation & Management,
+Information Management and Systems,
+Data mining
+
+
+
+
+INTRODUCTION
+
+
+The objective of having data is not limited to storage alone but also requires organization and analysis of the data. We must be able to derive some sense from the data, observe trends, patterns and also make business decisions to optimize outputs. Properly organized data can be analysed with appropriate tools and reports can be made that tell the required story.
+
+
+In the oil and gas industry, data is churned out in large volumes on a regular basis ranging from daily production reports, well test data, Carbon Oxygen (CO) logging data, daily drilling reports, bottom hole pressure reports, well head pressures, casing pressures among others. Data, they say is the new oil, without which minor and major decisions cannot be taken.
+
+
+Data science is a systematic art that helps in uncovering the insights and trends in data through the use of simple tools and codes. The challenge is that when information is voluminous, it takes time to arrange the data and this also affects effective and prompt analysis which in turn delays timely decision making. Alot of value is gained or eroded by ability or inability to make key decisions promptly. Using Microsoft Excel, we will be able to save, assemble, and look at data. R was used as a programming language for statistical computing and graphics used to clean, analyze and display the data on graphs. Python was used for data analytics, visualization and automation since it is a popular and adaptable programming language.It can also be used in machine learning applications.
+
+
+Information that cannot be retrieved is not usable, information needs to be measured to be monitored, from monitored data, patterns can be inferred, and this can further help in the analysis of data. Information can then be optimized by the knowledge of trends.
+
+
+In this paper, we have demonstrated how large volumes of data can be collated systematically, analyzed and automated using data science techniques through excel and programming languages like Python and R. This enabled the Engineer and analyst make quick decisions within a short period of time, that is, doing more in less time. Large volumes of oil and gas reports from a Field was used in showcasing this effective data science approach. We have moved away from manual, cumbersome and time-wasting approaches to automated techniques.
+
+
+The various techniques used in this paper include the following:
+
+
+Microsoft ExcelManualPower Query/Pivot TableVBAR Programming LanguagePython Programming Language
+
+
+This implied that five (5) different methods were used to collate, visualize and analyze the data.
+
+
+GENERAL APPROACH
+
+
+Identify where the Field data was stored and identify the path:C:\Users\OneDrive\Desktop\New folderCheck the data sets to be sure they have the same number of columns and column titles, that is, the same structure in this case.   All the data files have the same structures, same number of columns (8 columns in this case) and the same column titlesCollate the data from 65 different excel workbooks and merge into a single workbook on a single sheet
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Figure 1View largeDownload slidePictorial representation of 65 different excel sheetsFigure 1View largeDownload slidePictorial representation of 65 different excel sheets Close modal
+
+
+Steps taken in Collating, Cleaning, Visualizing and Analyzing the data provided
+
+
+Figure 2View largeDownload slideFlow Chart of steps taken towards collating and analyzing the dataFigure 2View largeDownload slideFlow Chart of steps taken towards collating and analyzing the data Close modal
+
+
+METHODS USED
+
+
+EXCEL – MANUAL (COPY, PASTE, PLOT)
+
+
+Microsoft Excel is a software application for making spreadsheets, charts and graphs that was created and sold by Microsoft. It is part of the Microsoft Office package. In Excel, data is set up in columns and rows. Rows and columns meet in a space known as a cell. Each cell contains information such as text, a number, or a formula.
+
+
+It is also a powerful data visualization and analysis software that stores, organizes and tracks data sets using formulas and functions in spreadsheets. Engineers, accountants, data analysts and other professionals use Excel.
+
+
+Microsoft Excel can be used for the following among others:
+
+
+Data Entry and ManagementBusiness AnalysisPerformance ReportingStrategic AnalysisProgrammingCharting and Graphing
+
+
+In this method, we manually copied and pasted the well test data from each of the 65 excel files and collated them into a single excel sheet (Figure 3), thereafter the data was plotted (Figure 4). It took about an hour and thirty minutes (90 minutes) to collate the data and another twenty minutes (20 minutes) to plot the collated data. This process took a total of one hour and fifty minutes (110 minutes). The process was very boring, repetitive, and took a lot of time. This method works better for small amounts of data.
+
+
+Figure 3View largeDownload slideManually combined data by copy and pasting 65 sheets one by oneFigure 3View largeDownload slideManually combined data by copy and pasting 65 sheets one by one Close modal
+
+
+Figure 4View largeDownload slidePlot of the collated Well Test dataFigure 4View largeDownload slidePlot of the collated Well Test data Close modal
+
+
+EXCEL POWER QUERY
+
+
+In Microsoft Excel, Power Query is a feature that can streamline the process of importing data from a variety of source files and sorting it into an Excel sheet in the most convenient and usable format. It is not necessary for users to learn any specific code in order to use Power Query, which is a user-friendly business intelligence tool. It took only about ten (10) minutes in the process of collating the 65 data points from the various files into a single file and about twenty (20) minutes to carry out the required visualization and analysis of the data. It therefore took a total of thirty (30) minutes for the collation, visualization and analysis of the Field data. This is a very simple method and saved a lot of time (an hour and twenty minutes saved compared to the copy and paste approach).
+
+
+How we used Power Query to combine the Excel Files
+
+
+Move the files you want to merge into a single folder and find the path. In this case, all the 65 well test data were stored in the path below:C:\Users\OneDrive\Desktop\New folderCheck the data sets to be sure they have the same number of columns and column titles, that is, the same structure. The columns and titles in the well test data are all the same.In Excel, go to the "Data" tab.Click on Get Data, then click on "From File" and then move to "From Folder".Browse and choose the folder path.Click "Ok".If the files are prepared for merging, click "Combine & Load".
+
+
+Figure 5View largeDownload slidePath showing the folder where all the data is stored in the "New folder"Figure 5View largeDownload slidePath showing the folder where all the data is stored in the "New folder" Close modal
+
+
+Using the Get and Transform data in Power Query, these were the steps taken in collating the 65 excel data sheets.
+
+
+Figure 6View largeDownload slideUtilizing "Get and Transform data" in Power Query to collate the dataFigure 6View largeDownload slideUtilizing "Get and Transform data" in Power Query to collate the data Close modal
+
+
+How to Plot Data in Power Query/Pivot Table
+
+
+Figure 7View largeDownload slidePivot Table of collated data from Power QueryFigure 7View largeDownload slidePivot Table of collated data from Power Query Close modal
+
+
+Figure 8View largeDownload slidePlotting the collated the data using the Pivot Table and ChartFigure 8View largeDownload slidePlotting the collated the data using the Pivot Table and Chart Close modal
+
+
+EXCEL -VBA
+
+
+VBA is an abbreviation for Visual Basic for Applications. It integrates Visual Basic, Microsoft's event-driven programming language, with Microsoft Office programs like Excel. It is a powerful built-in programming language that allows you to code functions or commands in a spreadsheet. VBA is a coding language used by millions of people around the world to automate tasks in Microsoft Office products. It is a language that has been around for decades and is one of the easiest coding languages to learn if you do not have a computer science background.
+
+
+VBA is used to perform a variety of other functions in addition to automation, creating and organizing spreadsheets. For example, users may need to automate some aspects of Excel, such as repetitive tasks, frequent tasks, generating reports, preparing charts, graphs and performing calculations, among other things. This kind of automation is also called "Macro." If you do the same things over and over in Microsoft Excel, you can record a macro to do them for you. A macro is a single action or a group of actions that you can do over and over again. This allows users to save time spent on repetitive tasks. In the collation of the 65 well test data, macros were generated based on smaller data and then scaled up to accommodate the 65 well test data points in the collation, visualization and interpretation. A total of forty-five (45) minutes was used for the entire process of data collation, visualization and interpretation using VBA.
+
+
+COMBINING FILES IN EXCEL -VBA
+
+
+Please refer to  Appendix 1 for the VBA codes used in combining/collating the 65 excel sheets. The codes were quite long as they were recorded.
+
+
+PLOTING EXCEL USING VBA
+
+
+Please refer to  Appendix 2 for the VBA codes used in plotting the 65 excel sheets. The codes were quite long as they were recorded.
+
+
+Figure 9View largeDownload slide65 sets of data collated data using VBA automation codeFigure 9View largeDownload slide65 sets of data collated data using VBA automation code Close modal
+
+
+Figure 10View largeDownload slide65 sets of collated data Plotted using VBA automation codeFigure 10View largeDownload slide65 sets of collated data Plotted using VBA automation code Close modal
+
+
+R PROGRAMMING LANGUAGE
+
+
+Foundation for Statistical Computing with the R Language was developed by statisticians Ross Ihaka and Robert Gentleman for data analysis and statistical software development by data miners and statisticians. Users have developed packages to extend the functionality of the R programming language.
+
+
+According to user polls and investigations of databases of scientific literature, R is one of the most popular programming languages for data mining. R ranks eleventh on the TIOBE index, a measure of programming language popularity, as of April 2022. Under the GNU General Public License, the official R software environment is an open-source, free software environment included in the GNU package. It is mostly written in C, Fortran, and R. (partially self-hosting).
+
+
+Precompiled executables are provided for various operating systems. R has a command line interface. Multiple third-party graphical user interfaces are also available, such as R Studio, an integrated development environment, and Jupyter, a notebook interface.
+
+
+R CODE FOR COMBINING DATA
+
+
+This R code was used to combine datasets in different workbooks into a single sheet in a workbook. In this example, data from 65 excel sheets were combine into a single excel sheet, that is, 65 sets of well test data were combined and also analyzed after visualization. A total of twenty-four (24) minutes was used for the entire process of data collation, visualization and interpretation using the R code.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+R CODE FOR PLOTING DATA
+
+
+This R code was used to plot the 65 data sets that were combined into a single excel sheet
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Figure 11View largeDownload slide65 sets of data collated data using R Programming LanguageFigure 11View largeDownload slide65 sets of data collated data using R Programming Language Close modal
+
+
+Figure 12View largeDownload slide65 sets of collated data Plotted using R Programming LanguageFigure 12View largeDownload slide65 sets of collated data Plotted using R Programming Language Close modal
+
+
+PYTHON PROGRAMMING LANGUAGE
+
+
+Python is a general-purpose, high-level programming language. It supports several programming paradigms, including structured (especially procedural), object-oriented, and functional programming. It constantly ranks as one of the most popular programming languages. As at April 2022, Python ranks 1st in the TIOBE index, a measure of programming language popularity.
+
+
+Guido van Rossum started working on Python as a replacement for the ABC programming language in the late 1980s. He released Python 0.9.0 for the first time in 1991. Python 2.0 came out in 2000 with new features like list comprehensions, garbage collection that works when a cycle is found, reference counting, and support for Unicode. Python 3.0, which came out in 2008, was a major update that isn't fully compatible with older versions. Python 2 was discontinued with version 2.7.18 in 2020.
+
+
+PYTHON CODE FOR COMBINING DATA
+
+
+This Python code was used to combine datasets in different workbooks into a single sheet in a workbook. In this example, data from 65 excel sheets were combine into a single excel sheet, that is, 65 sets of well test data were combined and also analyzed after visualization. A total of twenty-one (21) minutes was used for the entire process of data collation, visualization and interpretation using the Python code.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+PYTHON CODE FOR PLOTING THE DATA
+
+
+This Python code was used to plot the 65 data sets that were combined into a single excel sheet.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Figure 13View largeDownload slide65 sets of data collated data using Python Programming LanguageFigure 13View largeDownload slide65 sets of data collated data using Python Programming Language Close modal
+
+
+Figure 14View largeDownload slide65 sets of collated data Plotted using PythonFigure 14View largeDownload slide65 sets of collated data Plotted using Python Close modal
+
+
+SUMMARY OF RESULTS
+
+
+The activities carried out to collate 65 sets of well test data into a single sheet using different methods was a very interesting one. It is very clear that inorder to be more productive, certain techniques can be applied to increase output at a reduced timeline. This implies that man hours can be optimized.
+
+
+Five (5) different methods were used to collate data from sixty-five (65) sets as depicted in Table 1 below. They all achieved the same results but at varying durations. The basic copy and paste technique will only be good for small data sets but it is advised to use more robust data science techniques for larger data sets and also, to automate routine jobs or simply have a refresh option when additional updates are added.
+
+
+Table 1SUMMARY OF RESULTS FROM THE FIVE (5) DIFFERENT TECHNIQUES USED IN COLLATING, PLOTTING AND ANALYZING THE DATA   View Large
+
+
+Figure 15View largeDownload slideData Analysis Techniques and Time taken to Collate, Plot and Analyze the DataFigure 15View largeDownload slideData Analysis Techniques and Time taken to Collate, Plot and Analyze the Data Close modal
+
+
+The 65 data points were later reduced to 46 data points since some of the other data points were repetitions to some of the existing data. In our well tests we call those points confirmatory tests. It was also observed that with the same choke size there was a sudden increase in gross rates, oil rates and even GOR indicating a possible eroded choke. This was confirmed with a bean box inspection and the eroded bean was later replaced. This helped in preventing further sand production and guaranteed further preservation of facilities that could suffer from erosional velocity issues.
+
+
+Figure 16View largeDownload slideCleaned data from 65 data points to 46 data pointsFigure 16View largeDownload slideCleaned data from 65 data points to 46 data points Close modal
+
+
+Figure 17View largeDownload slideData Visualization used to Analyze the Data based on AnomalyFigure 17View largeDownload slideData Visualization used to Analyze the Data based on Anomaly Close modal
+
+
+CONCLUSION
+
+
+There is need to further promote data analytics skills in the Energy industry in which the Oil and Gas industry is a part of, since information can be uncovered in a shorter time.Application of data analytics tools in solving problems will help us optimize systems and proceduresThe practical results obtained from collation of 65 data sets show that more can be done in less time when data science tools are applied.While the 5 different methods used were able to generate the basic results, it was clear that Data analytic tools combine speed with accuracy. While the speed in faster order is highlighted below:Python : 21 minutesR : 24 minutesPower Query : 30 minutesVBA : 45 minutesExcel (Manual): 110 minutesAfter consolidation, the data was cleaned up and duplicated data were removed.Analytical and automated solutions should be generated for routine or re-occurring activities.Inference from the chart showed that gross production, water production had suddenly increased even on the same choke at some point in time. Upon inspection, the choke had been corroded and therefore required that the bean box be changed and subsequently resulted in preserving the facilities in general.In a later review, which is not covered in this paper, the Well, also showed that it is a candidate for future WSO and perforation extension and therefore more value will be derived from this Well even in the future. This meant that the Well has future Well bore utility.The codes that were generated can actually be used in other similar situations but will just need to be uniquely tailored depending on the storage paths, number of data points, etc.pr
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+ABBREVIATIONS
+
+
+ABBREVIATIONSABBREVIATIONEXPANSION BSWBasic Sediments and Water BLPDBarrels of Liquid Per Day BOPDBarrels of Oil Per Day COCarbon Oxygen FTHPFlowing Tubing Head Pressure GORGas Oil Ratio VBAVisual Basic Application WSOWater Shut Off
+
+
+VBA CODE FOR THE COLLATION OF DATA
+
+
+Private Sub CommandButton1_Click()
+
+
+Dim i As Long
+
+
+Dim lcurrow As Long
+
+
+Dim lrow As Long
+
+
+Dim wb As Workbook
+
+
+For i = 1 To 65 Step 1
+
+
+Set wb = Workbooks.Open("C:\Users\OneDrive\Desktop\New folder" & "\Well-001_File " & i & ".xlsx")
+
+
+With wb.Sheets("Sheet1")
+
+
+If i = 1 Then lrow = 1
+
+
+Else lrow = 2
+
+
+End If
+
+
+Do Until. Range("A" & lrow).Value = vbNullString lcurrow = lcurrow + 1
+
+
+For n = 0 To 9 Step 1
+
+
+Me.Range("A" & lcurrow).Offset(columnoffset:=n).Value = . Range("A" & lrow).Offset(columnoffset:=n).Value
+
+
+Next n lrow = lrow + 1
+
+
+Loop
+
+
+End With wb.Close True
+
+
+Next i
+
+
+Set wb = Nothing
+
+
+End Sub
+
+
+PLOTING EXCEL USING VBA
+
+
+Sub Macro1()
+
+
+Macro1 Macro
+
+
+' Keyboard Shortcut: Ctrl+Shift+A
+
+
+'ActiveSheet.Shapes.AddChart2(332, xlLineMarkers).Select
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+Application.CutCopyMode = False
+
+
+ActiveChart.SeriesCollection.NewSeries
+
+
+ActiveChart.FullSeriesCollection(1).Name = "=Sheet1!$E$1"
+
+
+ActiveChart.FullSeriesCollection(1).Values = "=Sheet1!$E$2:$E$66"
+
+
+ActiveChart.FullSeriesCollection(1).XValues = "=Sheet1!$B$2:$B$66"
+
+
+ActiveChart.SeriesCollection.NewSeries
+
+
+ActiveChart.FullSeriesCollection(2).Name = "=Sheet1!$F$1"
+
+
+ActiveChart.FullSeriesCollection(2).Values = "=Sheet1!$F$2:$F$66"
+
+
+ActiveChart.FullSeriesCollection(2).XValues = "=Sheet1!$B$2:$B$66"
+
+
+ActiveChart.SeriesCollection.NewSeries
+
+
+ActiveChart.FullSeriesCollection(3).Name = "=Sheet1!$D$2:$D$66"
+
+
+ActiveChart.FullSeriesCollection(3).Name = "=Sheet1!$D$2:$D$66"
+
+
+ActiveChart.FullSeriesCollection(3).Name = "=Sheet1!$D$1"
+
+
+ActiveChart.FullSeriesCollection(3).Values = "=Sheet1!$D$2:$D$66"
+
+
+ActiveChart.FullSeriesCollection(3).XValues = "=Sheet1!$B$2:$B$66"
+
+
+ActiveChart.SeriesCollection.NewSeries
+
+
+ActiveChart.FullSeriesCollection(4).Name = "=Sheet1!$H$1"
+
+
+ActiveChart.FullSeriesCollection(4).Values = "=Sheet1!$H$2:$H$66"
+
+
+ActiveChart.FullSeriesCollection(4).XValues = "=Sheet1!$B$2:$B$66"
+
+
+ActiveChart.SeriesCollection.NewSeries
+
+
+ActiveChart.FullSeriesCollection(5).Name = "=Sheet1!$C$1"
+
+
+ActiveChart.FullSeriesCollection(5).Values = "=Sheet1!$C$2:$C$66"
+
+
+ActiveChart.FullSeriesCollection(5).XValues = "=Sheet1!$B$2:$B$66"
+
+
+ActiveChart.SeriesCollection.NewSeries
+
+
+ActiveChart.FullSeriesCollection(6).Name = "=Sheet1!$G$1"
+
+
+ActiveChart.FullSeriesCollection(6).Values = "=Sheet1!$G$2:$G$66"
+
+
+ActiveChart.FullSeriesCollection(6).XValues = "=Sheet1!$B$2:$B$66"
+
+
+ActiveWindow.SmallScroll Down:=-72
+
+
+Range("V21").Select
+
+
+ActiveSheet.ChartObjects("Chart 1").Activate
+
+
+ActiveChart.FullSeriesCollection(6).Select
+
+
+ActiveChart.FullSeriesCollection(6).Points(61).Select
+
+
+ActiveChart.PlotArea.Select
+
+
+ActiveChart.FullSeriesCollection(6).Select
+
+
+ActiveChart.SetElement (msoElementPrimaryCategoryAxisTitleAdjacentToAxis)
+
+
+ActiveChart.SetElement (msoElementPrimaryValueAxisTitleAdjacentToAxis)
+
+
+ActiveChart.SetElement (msoElementChartTitleAboveChart)
+
+
+ActiveChart.ChartArea.Select
+
+
+ActiveChart.FullSeriesCollection(6).Select
+
+
+ActiveChart.FullSeriesCollection(6).AxisGroup = 2
+
+
+ActiveSheet.ChartObjects("Chart 1").Activate
+
+
+ActiveChart.FullSeriesCollection(6).Select
+
+
+ActiveChart.FullSeriesCollection(5).Select
+
+
+ActiveChart.FullSeriesCollection(5).AxisGroup = 2
+
+
+ActiveSheet.ChartObjects("Chart 1").Activate
+
+
+ActiveChart.FullSeriesCollection(5).Select
+
+
+ActiveChart.ChartArea.Select
+
+
+ActiveSheet.Shapes("Chart 1").ScaleWidth 1.31875, msoFalse, msoScaleFromTopLeft
+
+
+ActiveSheet.Shapes("Chart 1").ScaleHeight 1.1943153626, msoFalse, _msoScaleFromBottomRight
+
+
+ActiveChart.PlotArea.Select
+
+
+ActiveChart.ChartTitle.Select
+
+
+ActiveChart.ChartTitle.Text = "Well-001: Well Test Data "
+
+
+Selection.Format.TextFrame2.TextRange.Characters.Text = _"Well-001: Well Test Data "
+
+
+WithSelection.Format.TextFrame2.TextRange.Characters(1,25).ParagraphFormat.TextDirection =
+
+
+msoTextDirectionLeftToRight.Alignment = msoAlignCenter
+
+
+End With
+
+
+With Selection.Format.TextFrame2.TextRange.Characters(1, 9).Font
+
+
+.BaselineOffset = 0.Bold = msoFalse.NameComplexScript = "+mn-cs".NameFarEast = "+mn-ea".Fill.Visible = msoTrue.Fill.ForeColor.RGB = RGB(89, 89, 89).Fill.Transparency = 0.Fill.Solid.Size = 14.Italic = msoFalse.Kerning = 12.Name = "+mn-lt".UnderlineStyle = msoNoUnderline.Spacing = 0.Strike = msoNoStrike
+
+
+End With
+
+
+With Selection.Format.TextFrame2.TextRange.Characters(10, 16).Font
+
+
+.BaselineOffset = 0.Bold = msoFalse.NameComplexScript = "+mn-cs".NameFarEast = "+mn-ea".Fill.Visible = msoTrue.Fill.ForeColor.RGB = RGB(89, 89, 89).Fill.Transparency = 0.Fill.Solid.Size = 14.Italic = msoFalse.Kerning = 12.Name = "+mn-lt".UnderlineStyle = msoNoUnderline.Spacing = 0.Strike = msoNoStrike
+
+
+End With
+
+
+ActiveChart.ChartArea.Select
+
+
+ActiveChart.SetElement (msoElementPrimaryCategoryAxisTitleNone)
+
+
+ActiveChart.SetElement (msoElementPrimaryValueAxisTitleNone)
+
+
+ActiveChart.SetElement (msoElementSecondaryCategoryAxisTitleNone)
+
+
+ActiveChart.SetElement (msoElementSecondaryValueAxisTitleNone)
+
+
+ActiveChart.SetElement (msoElementPrimaryCategoryAxisTitleAdjacentToAxis)
+
+
+ActiveChart.SetElement (msoElementPrimaryValueAxisTitleAdjacentToAxis)
+
+
+ActiveChart.SetElement (msoElementSecondaryValueAxisTitleAdjacentToAxis)
+
+
+ActiveChart.SetElement (msoElementSecondaryCategoryAxisTitleAdjacentToAxis)
+
+
+Selection.Delete
+
+
+ActiveChart.SetElement (msoElementLegendRight)
+
+
+ActiveChart.SetElement (msoElementLegendNone)
+
+
+ActiveChart.SetElement (msoElementLegendRight)
+
+
+ActiveSheet.ChartObjects("Chart 1").Activate
+
+
+ActiveChart.Legend.Select
+
+
+ActiveChart.Legend.Select
+
+
+Selection.Position = xlBottom
+
+
+ActiveChart.Axes(xlValue).AxisTitle.Select
+
+
+ActiveChart.Axes(xlValue, xlPrimary).AxisTitle.Text = _
+
+
+"GROSS_RATE (BBL/D), NET_OIL (BBL/D), FTHP(PSI), GOR(SCF/BBL)"
+
+
+Selection.Format.TextFrame2.TextRange.Characters.Text = _
+
+
+"GROSS_RATE (BBL/D), NET_OIL (BBL/D), FTHP(PSI), GOR(SCF/BBL)"
+
+
+With Selection.Format.TextFrame2.TextRange.Characters(1, 60).ParagraphFormat
+
+
+.TextDirection = msoTextDirectionLeftToRight.Alignment = msoAlignCenter
+
+
+End With
+
+
+With Selection.Format.TextFrame2.TextRange.Characters(1, 60).Font
+
+
+.BaselineOffset = 0.Bold = msoFalse.NameComplexScript = "+mn-cs".NameFarEast = "+mn-ea".Fill.Visible = msoTrue.Fill.ForeColor.RGB = RGB(89, 89, 89).Fill.Transparency = 0.Fill.Solid.Size = 10.Italic = msoFalse.Kerning = 12.Name = "+mn-lt".UnderlineStyle = msoNoUnderline.Strike = msoNoStrike
+
+
+End With
+
+
+ActiveChart.Axes(xlValue, xlSecondary).AxisTitle.Select
+
+
+ActiveChart.Axes(xlValue, xlSecondary).AxisTitle.Text = _
+
+
+"CHOKE (/64""), BSW (%)"
+
+
+Selection.Format.TextFrame2.TextRange.Characters.Text = _
+
+
+"CHOKE (/64""""), BSW (%)"
+
+
+With Selection.Format.TextFrame2.TextRange.Characters(1, 21).ParagraphFormat
+
+
+.TextDirection = msoTextDirectionLeftToRight.Alignment = msoAlignCenter
+
+
+End With
+
+
+With Selection.Format.TextFrame2.TextRange.Characters(1, 21).Font
+
+
+.BaselineOffset = 0.Bold = msoFalse.NameComplexScript = "+mn-cs".NameFarEast = "+mn-ea".Fill.Visible = msoTrue.Fill.ForeColor.RGB = RGB(89, 89, 89).Fill.Transparency = 0.Fill.Solid.Size = 10.Italic = msoFalse.Kerning = 12.Name = "+mn-lt".UnderlineStyle = msoNoUnderline.Strike = msoNoStrike
+
+
+End With
+
+
+ActiveChart.ChartTitle.Select
+
+
+With Selection.Format.TextFrame2.TextRange.Font.Fill
+
+
+.Visible = msoTrue.ForeColor.ObjectThemeColor = msoThemeColorText1.ForeColor.TintAndShade = 0.ForeColor.Brightness = 0.Transparency = 0.Solid
+
+
+End With
+
+
+Selection.Format.TextFrame2.TextRange.Font.Bold = msoTrue
+
+
+ActiveChart.Axes(xlValue).AxisTitle.Select
+
+
+With Selection.Format.TextFrame2.TextRange.Font.Fill
+
+
+.Visible = msoTrue.ForeColor.ObjectThemeColor = msoThemeColorText1.ForeColor.TintAndShade = 0.ForeColor.Brightness = 0.Transparency = 0.Solid
+
+
+End With
+
+
+Selection.Format.TextFrame2.TextRange.Font.Bold = msoTrue
+
+
+ActiveChart.Axes(xlValue, xlSecondary).AxisTitle.Select
+
+
+With Selection.Format.TextFrame2.TextRange.Font.Fill
+
+
+.Visible = msoTrue.ForeColor.ObjectThemeColor = msoThemeColorText1.ForeColor.TintAndShade = 0.ForeColor.Brightness = 0.Transparency = 0.Solid
+
+
+End With
+
+
+Selection.Format.TextFrame2.TextRange.Font.Bold = msoTrue
+
+
+ActiveChart.Axes(xlCategory).AxisTitle.Select
+
+
+ActiveChart.Axes(xlCategory, xlPrimary).AxisTitle.Text = "DATE"
+
+
+Selection.Format.TextFrame2.TextRange.Characters.Text = "DATE"
+
+
+With Selection.Format.TextFrame2.TextRange.Characters(1, 4).ParagraphFormat
+
+
+.TextDirection = msoTextDirectionLeftToRight.Alignment = msoAlignCenter
+
+
+End With
+
+
+With Selection.Format.TextFrame2.TextRange.Characters(1, 4).Font
+
+
+.BaselineOffset = 0.Bold = msoFalse.NameComplexScript = "+mn-cs".NameFarEast = "+mn-ea".Fill.Visible = msoTrue.Fill.ForeColor.RGB = RGB(89, 89, 89).Fill.Transparency = 0.Fill.Solid.Size = 10.Italic = msoFalse.Kerning = 12.Name = "+mn-lt".UnderlineStyle = msoNoUnderline.Strike = msoNoStrike
+
+
+End With
+
+
+With Selection.Format.TextFrame2.TextRange.Font.Fill
+
+
+.Visible = msoTrue.ForeColor.ObjectThemeColor = msoThemeColorText1.ForeColor.TintAndShade = 0.ForeColor.Brightness = 0.Transparency = 0.Solid
+
+
+End With
+
+
+Selection.Format.TextFrame2.TextRange.Font.Bold = msoTrue
+
+
+ActiveChart.Legend.Select
+
+
+With Selection.Format.TextFrame2.TextRange.Font.Fill
+
+
+.Visible = msoTrue.ForeColor.ObjectThemeColor = msoThemeColorText1.ForeColor.TintAndShade = 0.ForeColor.Brightness = 0.Transparency = 0.Solid
+
+
+End With
+
+
+Selection.Format.TextFrame2.TextRange.Font.Bold = msoTrue
+
+
+Range("U23").Select
+
+
+End Sub
+
+
+References
+
+
+SPE-205689-MS: How to Land Modern Data Science in Petroleum Engineering. HongbaoZhang; YijinZeng; LuluLiao; RuiyaoWang; XutianHou; JiangpengFeng; AmolMulunjkar.SPE-200781-MS: Data Science Use Case for Brownfield Optimization- A Case Study. ManishKumar; Tae HyungKim; DarrinSingleton M..IPTC-22172-MS: Data Science Adoption and Operationalization in O & G Industry: Challenges and Solutions. Mariem ZouchEasiest way to COMBINE Multiple Excel Files into ONE (Append data from Folder)By Leila Gharani (YouTube Video)How to Append multiple workbooks into one worksheet with VBA (Hindi/Urdu) By Mr. Kaash (YouTube Video)Wikipedia.orgGithub.com
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212031-MS
+
+
+

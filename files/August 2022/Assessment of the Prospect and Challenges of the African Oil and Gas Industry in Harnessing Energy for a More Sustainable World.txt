@@ -1,0 +1,199 @@
+----- METADATA START -----
+Title: Assessment of the Prospect and Challenges of the African Oil and Gas Industry in Harnessing Energy for a More Sustainable World
+Authors: Jesujoba Olubodun
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211937-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+In 2015, the United Nations General Assembly set up the Sustainable Development Goals as a follow up on the Millennium Development Goals and a masterplan to attain a better and more sustainable world by the year 2030. One of these goals (SDG 7), seeks to achieve affordable and clean energy for all the world's population by the year 2030. As a result, global efforts are being made to reduce greenhouse gas (GHG) emissions to limit pollution as well as enhance the development of renewable energies such as solar, wind, hydrothermal amongst others into the worlds energy system.The oil and gas industry has played a vital role in meeting the world's energy demand to date. 60% of world energy consumption was supplied by the oil and gas industry for year 2020 and as this demand keeps rising, the industry will continue to play this vital role in powering and enabling industries. Therefore, even as the world clamours for a shift from a world powered by fossil fuels to one sustained by green energy, the success of this global energy transition would still be heavily dependent on the drivers and players of fossil fuel technology. As such, there is a need for the African oil and gas industry to realize that although it may no longer be business as usual, this shift presents an opportunity for the industry to contribute to the emerging energy mix as well as correct negative perceptions the general public might have of the industry. To remain relevant, companies must adapt, invest in renewable energy research and development and build on existing technology.This paper explores and gives insight into the ways oil and gas companies have begun harnessing renewable energy in their operations, challenges being faced to reduce carbon emissions to achieve net zero and how hydrocarbon production operations can be done in a more environmentally safe manner. To strengthen this cause, stakeholders, policy makers and engineers in the African clime must investigate the dynamics, parallels and interdependency between conventional and renewable energy, to be strategically positioned to play a key role in the transition to a more sustainable future.
+
+
+
+
+Keywords:
+sustainability,
+climate change,
+air emission,
+challenge,
+world commission,
+social responsibility,
+harnessing energy,
+african oil,
+gas industry,
+sustainable world
+
+
+Subjects: 
+Environment,
+Sustainability/Social Responsibility,
+Air emissions,
+Climate change,
+Sustainable development
+
+
+
+
+Introduction
+
+
+The oil and gas industry over the years has acted as an essential player role in powering various industries- The pharmaceutical and healthcare industries, automobiles, helping to build industrial cities. Many of the medical equipment used today, many of which are life-saving devices, are made from oil. Not only are heart valves and artificial limbs made from petroleum, but also many of the cleaning and safety products medical personnel use. Plastics, petrochemicals, transportation industries are all beneficiaries of fossil fuel. Figure 1 below shows the Organization for Economic Co-operation and Development (OECD) assessment of the distribution of oil demand and consumption.
+
+
+Figure 1View largeDownload slideThe graph above shows how various sectors needed for productivity have demand for oil. Transportation by road leading the way with petrochemicals a close secondFigure 1View largeDownload slideThe graph above shows how various sectors needed for productivity have demand for oil. Transportation by road leading the way with petrochemicals a close second Close modal
+
+
+However, with growing concerns on environmental damages (atmosphere, water and land), there has been no small demand for climate activists and environmentalist on the pollution caused by oil and gas industry in Nigeria, Africa and the world.
+
+
+Figure 2 above shows the spread and concentration of CO2 emissions caused by the burning of fossil fuel for energy production. In Africa, countries of high intensity CO2 emission include Egypt, South Africa and Nigeria.
+
+
+Figure 2View largeDownload slideFigure 2View largeDownload slide Close modal
+
+
+What does this mean for the industry? extinction, reduced production or efficient harmonization and transitioning?
+
+
+According to BP's 2018 Energy Outlook, renewable energy will be the fastest-growing source of energy, increasing five-fold by 2040 thus providing around 14% of global primary energy at this future point in time. Similarly, oil majors are gradually facing potential prospects as a declining industry: while peak demand for oil has not yet occurred so far, it may be expected that this scenario is indeed approaching as oil demand growth slows and eventually peaks.
+
+
+Considering this, the oil industry is confronted with the question of whether it should try and at least partially reinvent itself as renewables businesses. The rising cost of hydrocarbon extraction may create an incentive to consider accelerating the energy transition away from hydrocarbons toward progressively more affordable renewable sources. Following COP21, more than 170 countries agreed to try limiting global warming to well below two degrees Celsius, an effort that will require major investments in low-carbon energy sources.
+
+
+However, the current business models of oil majors and renewable companies are distinctively different, and the oil industry is likely to have, for example, a different cost of capital to the renewables sector. Most renewable ventures, like wind and solar projects, churn out cash flows akin to annuities for several years after initial up-front capital expenditure generally with low price risk quite different from the business models of oil majors that face oil price risk. However, one could argue that with an increasing share of intermittent renewables, the power business is becoming more akin to the oil industry requiring a trader's skillset to manage increasing volatility and provides a hedge in a future low carbon environment.
+
+
+A More Sustainable World
+
+
+Sustainable development has been in global discussions in recent years. The term sustainability itself has different definitions. However, a most accurate one is that by the 1987 Brundtland Commission (formerly referred to as the World Commission on Environment and Development), which defines sustainability as
+
+
+"Meeting the needs of today without compromising the ability of future generations to meet their own needs" (WCED,1987).
+
+
+Given the challenges stated in production as well as usage of hydrocarbon, some think it ironic, even almost impossible for the oil and gas sector to not only contribute to the sustainability agenda but to do so immensely and efficiently. The oil and gas industry has always been one of adaptation, dynamism and resilience.
+
+
+Hence, the data trend shows that
+
+
+Figure 3View largeDownload slideSUSTAINABLE DEVELOPMENT PILLARSFigure 3View largeDownload slideSUSTAINABLE DEVELOPMENT PILLARS Close modal
+
+
+Renewable Energy: A Driver for Sustainability
+
+
+Renewable energy, also called clean energy refers to energies whose sources are obtained via energy sources or processes which are constantly replenished. Examples include solar, wind, biofuels and geothermal energy.
+
+
+Renewable energy and renewables have always been in the picture, however, this has not always been on a large scale comparable to the demand, use and consumption of fossil fuel sources. Yet, as technology becomes increasingly innovative and the demand for a less polluted world amplifies, renewable energy sources have come to the fore as a potential large share contributor to the world's energy mix. (Source)
+
+
+Considering a number of renewable energy sources
+
+
+Figure 4View largeDownload slideFigure 4View largeDownload slide Close modal
+
+
+Hydropower
+
+
+Hydropower also referred to as hydroelectric power, refers to the Potential energy of water which has been trapped in dams. It also makes uses of energy obtained from tides caused by gravity effects Hydropower, otherwise known as hydroelectric power, offers a number of advantages to the communities that they serve. Hydropower and pumped storage continue to play a crucial role in our fight against climate change by providing essential power, storage, and flexibility services.
+
+
+Wind Power
+
+
+Differential heating of earth's surface leads to the movement of air and is exploited with wind turbines.
+
+
+Solar
+
+
+Solar energy comes up as the third most harnessed form of renewable energy, it involves the use of solar panels to store and convert energy obtained from solar rays.
+
+
+Geothermal Energy
+
+
+Geothermal energy is a form of energy conversion in which heat energy is captured and harnessed from within the earth for domestic and industrial purposes. Mainly existing via three different channels;
+
+
+–Direct Use Applications: This involves the direct use of heated water from ground without employing specialized equipment. This involves use of low temperature geothermal water and steam to warm houses, pools, for cooking and certain industrial applications–Geothermal Heat Pumps: GHPs consists of a heat exchanger (a loop of pipes buried in the ground) and a pump. The heat exchanger transfers heat energy between the ground and air at the surface through fluid (water in most cases) that circulates through the pipes. In warmer periods, heat from warm air is transferred to the heat exchanger and into the fluid. The heat is then dispersed to the rocks, soil, and groundwater. The pump is reversed during the colder months. Heat energy stored in the relatively warm ground raises the temperature of the fluid. The fluid then transfers this energy to the heat pump, which warms the air inside buildings. They are very efficient, using 25–50 percent less electricity than comparable conventional heating and cooling systems, while producing less pollution. (44%).–Electric Power Generation : GE can also be used to generate electricity via geothermal power plants, in this process, excess water vapor at the end of each cycle is condensed and returned to the ground, where it is reheated for later use, making geothermal power considered a form of renewable energy
+
+
+View largeDownload slideGeothermal Power Generation.View largeDownload slideGeothermal Power Generation. Close modal
+
+
+The Oil & Gas-Renewable Energy Nexus
+
+
+To show the reality, that indeed a possibility exists of the fossil fuel industry harnessing renewable energy in operations. Oil giants have made promises to cut emissions by sourcing renewable electricity to power their oil and gas operations. However, the data (data source) shows there is still much more work to be done to improve the prospects of the oil and gas industry in driving sustainability.
+
+
+Figure 5View largeDownload slideShows the total CAPEX (capital expenditure) from selected top Oil and Gas firms with only one (Eni) having openly put out their CAPEX for selected year. However, the percentage of expenditure spent on renewables still need to be improved upon. To drive a system of sustainability, more transparency would be needed from these firms.Figure 5View largeDownload slideShows the total CAPEX (capital expenditure) from selected top Oil and Gas firms with only one (Eni) having openly put out their CAPEX for selected year. However, the percentage of expenditure spent on renewables still need to be improved upon. To drive a system of sustainability, more transparency would be needed from these firms. Close modal
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Carbon Capture Sequestration
+
+
+Carbon capture and sequestration/storage (CCS) is the process of capturing carbon dioxide (CO₂) formed during power generation and industrial processes and storing it so that it is not emitted into the atmosphere. CCS technologies have significant potential to reduce CO₂ emissions in energy systems(source). The carbon capture challenge provides an opportunity for oil and gas companies curb the long-term effects of CO2 being released into the atmosphere.
+
+
+Challenges for the African Sustainability Agenda
+
+
+A barrage of challenges come into play in preparing a people for a total shift from what was to what is to come. These challenges include but are not limited to
+
+
+Technical Know HowNational PoliciesEconomic and Financial ChallengesInsecurity of Nation StatesPolitical and Legislative Issues
+
+
+A Data Driven Headway
+
+
+Follow the data has become a phrase linked to this 21ST Century. Truthfully, projections show that although challenging, renewable energies will eventually come to stay. It is left for we to accept this truth and begin making preparations in our education and industrial sectors.
+
+
+Conclusion
+
+
+The oil industry has been a key contributor in meeting the energy demand of the world's growing population through the production of hydrocarbons. As the world moves towards renewable energy in a bid to achieve carbon-neutrality, it is essential that petroleum engineers integrate renewable energy into their strategies, skill sets and operations. This aspiration can be accomplished by, for example, integrating renewable energy technologies into existing and future upstream oil and gas processes.
+
+
+Apart from the traditional aspects of energy generation, several industries depend on derivative products from the activities of petroleum engineering. These include the healthcare industry through its use of plastics and organics for the manufacture of pharmaceuticals, agricultural industry through use of fertilizers containing ammonia, as well as the construction industry that uses asphalt for road construction and other applications.
+
+
+Therefore, there is a need for a gradual harmonization of the skills and technology available to the oil and gas production, with that of renewable energies. However, the key players in the African clime – government, business leaders, leading scientists/engineers- must be ready to lay aside differences and collaborate in order to successfully prepare for the coming shift from fossil fuels as a source of energy alone to a sustainable energy mix
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Abbreviations
+
+
+AbbreviationsNomenclatureExpansion CAPEX- Capital Expenditure CSS- Carbon Capture GHG- Green House Gas WECD– World Commission on Environment and Development SDG– Sustainable Development Goals WECD– World Commission on Environment and Development
+
+
+References
+
+
+BP Energy Outlook2018https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/energy-economics/energy-outlook/bp-energy-outlook-2018.pdfGetting Started with the Sustainable Development Goals: A Guide for Stakeholders," UN Sustainable Development Solutions Network (December2015).Guérin, P., Gaszynskiet al. . 2018. New Energy Revolution for Oil & Gas. Presented at Offshore Technology Conference Kuala Lumpur, Malaysia, 20-23 March. OTC-28255-MS. https://www.statista.com/statistics/1268403/co2-emissions-per-capita-in-africa-by-country/Google Scholar https://ourworldindata.org/co2-emissionsIEA (International Energy Agency). 2018. World Energy Outlook.The World Commission on Environment and Development (WCED)1987. Our Common Future. Oxford University PressKnox, R., and Buck, E.2018. Renewable Generated Energy for Subsea Power Infrastructure. Presented at Offshore Technology Conference, Kuala Lumpur, Malaysia, 20-23 March. OTC-28762-MS.Google Scholar UN General Assembly, Transforming our world: the 2030 Agenda for Sustainable Development, 21October2015.YALILEARNS | "UNDERSTANDING RENEWABLE ENERGY" FACILITATION GUIDE
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211937-MS
+
+
+

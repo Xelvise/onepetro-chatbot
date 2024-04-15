@@ -1,0 +1,314 @@
+----- METADATA START -----
+Title: Microbial Enhanced Oil Recovery (MEOR): mechanism, rate of biodegradation of hydrocarbon, field applications and challenges
+Authors: Franklin Okoro, Patricia Odukwe, Mary Frank-Okoro
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211939-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+This paper investigated the biodegradation of selected hydrocarbons (e.g., alkanes, such as decane, and others) by open mixed microbial cultures. Laboratory experiments were conducted with the aim to investigate the rate of biodegradation of dodecane using glass bioreactors over an incubation period of 31days. In the study, dodecane represented the hydrocarbon used, and the microbial activity was subjected to aerobic conditions. Mineral water was used to stimulate the microbial growth. The results obtained indicated that an increase in the rate of biodegradation can be achieved, thus resulting in an increase in the oil recovery efficiency. It can be inferred that MEOR is a "high-risk, high reward" process, depending on whether the microorganisms can produce oil recovery-enhancing chemicals by utilizing the residual oil within the reservoir as a carbon source. The high risk in this context refers to the severe constraints that the microbial system must satisfy in order to utilize an in-situ carbon source. The rewards however are that the logistical cost and difficulty in implementing the process is similar to those of implementing a waterflood.
+
+
+
+
+Keywords:
+enhanced recovery,
+biodegradation,
+bioreactor,
+microbial enhanced oil recovery,
+upstream oil & gas,
+dodecane,
+mechanism,
+reservoir,
+concentration,
+hydrocarbon
+
+
+Subjects: 
+Improved and Enhanced Recovery,
+Microbial methods
+
+
+
+
+Introduction
+
+
+Crude oil exists worldwide in an intricate network of oil reservoirs. This oil is brought to surface facilities through production wells, using existent oil recovery technologies. According to Stosur and Stosur et al., primary and secondary recovery methods are used to target oil which can be produced due to viscous and capillary forces in the in the reservoir [1, 2]. Primary recovery occurs due to the overburden pressure of the earth on the oil-bearing formation [3]. Overtime, the primary production rate decreases, and some of the production wells are transformed to injection wells. Secondary recovery however involves implementing either water flooding or gas flooding techniques to boost the pressure in the reservoir. These injected fluids (water or gas) help fracture the oil-bearing formation, and enhance the flow rate of oil and gas towards the wellhead. Whereas primary recovery produces between 5-10% of the original oil in place, secondary recovery produces between 10-40% of the total reserves [4]. Two-thirds of the initial oil in place however remains in the reservoir after these conventional recovery techniques have been applied.
+
+
+The energy demand across the globe is increasing as a result of the increase in the population. In order to meet these rising energy demands throughout the world; it is therefore necessary that more attention be focused on techniques for recovering more fraction of the initial oil in place from hydrocarbon reservoirs after secondary recovery. The method by which this is achieved is termed tertiary recovery, also known as Enhanced Oil Recovery (EOR). This implies that the target for EOR methods is significant (two-thirds of the total reserves). EOR however has a close relationship with the prevailing oil price and the general economics associated with the technique. Classification of EOR methods is based on the oil displacement mechanism [5, 6]. These methods alter the viscous and capillary forces between the oil, rock surface and injected fluid. The classification of EOR include thermal methods (heat injection), miscible gas injection (solvent injection), chemical methods (injection of surfactant/polymer) and microbial (injection of microorganism). Microbial enhanced oil recovery (MEOR) is in the research and development stage, and that is the purpose of this study. MEOR refers to the use of microorganisms and their metabolic by-products to extract the residual oil from reservoirs. Metabolic by-products include a range of compounds produced through microbial metabolism, an example of which is biosurfactant. The produced biosurfactant reduces the interfacial tension at the oil-rock interface, thereby increasing the oil recovery efficiency [7].
+
+
+There are various mechanisms by which MEOR operates. This paper presents a broad overview of EOR technologies, with focus on Microbial Enhanced Oil Recovery (MEOR), its mechanisms and the rate of biodegradation of hydrocarbon, field applications and its challenges. MEOR has obtained very few applications in the oil industry. Considering that MEOR is a novel technology still in the R & D phase. This study was therefore carried out in order to add to the already existing body of knowledge on the subject matter, so as to increase the application of MEOR in depleting oilfields. This study has been carried out by potential investigation of the rate of biodegradation of hydrocarbons, with the aim of gaining more insight to the mechanisms of MEOR. In this paper, dodecane represented the hydrocarbon used, and the microbial activity was subjected to aerobic conditions. Mineral water was used to stimulate the microbial growth. Per the scope of the study, the study was limited to laboratory experiments to investigate the rate of biodegradation of dodecane under aerobic conditions. The research work terminates with additional study to investigate which MEOR mechanism plays a major role in biodegradation of hydrocarbon.
+
+
+Materials and Method
+
+
+Materials
+
+
+Soil sample collected from Aberdeen city was used to culture microorganisms, which were incubated for a total period of 31 days. The ability of these microorganisms to degrade dodecane was tested, and the results are detailed. Outline of the experiments is provided below.
+
+
+Cultures used
+
+
+A total of 5 enrichment cultures of bacteria isolated from soils sample were used in this research. The bacteria were cultured aerobically at 27°C. Enrichment cultures were used rather than pure cultures because it is almost impossible to maintain pure cultures in field applications of a microbial oil recovery method.
+
+
+Fluids
+
+
+The fluids used in this experiment include a source of hydrocarbon (dodecane) and deionised water. The physical properties of these fluids are summarised in Table 1.
+
+
+Table 1Properties of the used fluids Property
+            . Dodecane
+            . Water
+            . Density @ 20oC (g/l) 749 1000 Viscosity (mPa·s) 29 1 Flash point (oC) 74  Pour point (oC) -9.6  Property
+            . Dodecane
+            . Water
+            . Density @ 20oC (g/l) 749 1000 Viscosity (mPa·s) 29 1 Flash point (oC) 74  Pour point (oC) -9.6  View Large
+
+
+Hydrocarbon Source
+
+
+Dodecane used was as a pure carbon source free from crude oil components such as salts, sulphur, resins, asphaltene and ash contents.
+
+
+Deionised water
+
+
+Deionised water with a pH of 8 was used in the preparation of the mineral solution. Deionised water was selected because it is free from contaminants such as lead, mercury nitrates, phosphates, as well as pesticides.
+
+
+Glass bioreactors
+
+
+Ten glass bioreactors were used in this experiment. Five of them were used to culture bacteria, and the other five were used for the control experiment.
+
+
+Method
+
+
+The experimental procedure is described below:
+
+
+Mineral solution preparation
+
+
+The mineral solution was prepared based on the reports that minerals solutions containing nitrates and phosphates are effective for in situ MEOR process. The solution was prepared for all the bioreactor samples by mixing the mineral salts and their corresponding concentrations as listed in Table 2 with 1000ml of deionised water. This mixture was then placed on a magnetic stirrer and allowed to thoroughly stir for 1 hour.
+
+
+Table 2The compositions of the mineral solution Compositions
+            . Concentration (g/l)
+            . Ammonium chloride (NH4Cl) 30 Potassium hydrogen phosphate (K2HPO4) 68 Sodium dihydrogen phosphate (NaH2PO4) 60 Magnesium chloride (MgCl2·H2O) 0.05 Calcium chloride hexahydrate (CaCl2·6H2O) 0.035 Compositions
+            . Concentration (g/l)
+            . Ammonium chloride (NH4Cl) 30 Potassium hydrogen phosphate (K2HPO4) 68 Sodium dihydrogen phosphate (NaH2PO4) 60 Magnesium chloride (MgCl2·H2O) 0.05 Calcium chloride hexahydrate (CaCl2·6H2O) 0.035 View Large
+
+
+Figure 1View largeDownload slideMineral Solution on magnetic stirrerFigure 1View largeDownload slideMineral Solution on magnetic stirrer Close modal
+
+
+Preparation of unconsolidated sand
+
+
+Clean dry sand which was collected from Aberdeen city was properly crushed so as to reduce the grain size. The crushed sand was then sieved and dried in the oven to a temperature of 500°C for 4 hours. The sand was then cooled and packed into a beaker.
+
+
+Microbial growth experiments
+
+
+Microorganisms were cultured under standard aerobic conditions at room temperature for a period of 31 days. These enrichment cultures were grown in their respective bioreactors. The method involved growing the cultures in in a mineral solution media containing dodecane as the sole carbon source. Each bioreactor had 100ml of solution (95ml of mineral solution and 5ml of dodecane). The experiment was performed in ten replicates, five of which had 0.5g of soil added to it, and the other five serving as the control experiment had no sand added to them. The control experiment was to serve as the basis for comparison with the soil sample experiments so as to be able to draw a valid conclusion on the rate of biodegradation experienced in the soil sample experiments. In order to ensure maximum contact between the hydrocarbon, media and microorganisms, all the cultures were incubated with continuous agitation in sealed bioreactors containing a magnetic stirring bar. Samples were taken from the rotary shaker at pre-determined intervals and analysed using a gas chromatograph.
+
+
+Sample analysis
+
+
+pH and Dissolved oxygen measurement
+
+
+After every incubation interval, the content of the bioreactors to be analysed were transferred to a clean beaker, and the pH and dissolved oxygen in the samples were measured using litmus paper and dissolved oxygen meter respectively.
+
+
+Figure 2View largeDownload slidepH measurementFigure 2View largeDownload slidepH measurement Close modal
+
+
+Figure 3View largeDownload slideDissolved oxygen measurementFigure 3View largeDownload slideDissolved oxygen measurement Close modal
+
+
+Visual volumetric observation
+
+
+A visual observation is made using a measuring cylinder. This is necessary in order to check for any abiotic effects such as evaporation of the dodecane or mineral solution. This was also necessary procedure in order to monitor the bacterial activity at the oil-water interface. The biofilm growth at this interface was monitored as a function of height for every incubation interval over the 31-day period.
+
+
+Filtration and Extraction.
+
+
+Vacuum filtration technique was used to separate the suspended solids from the incubated mineral solution mixture. The experimental setup is shown in Figure 4. The samples were poured through a filter paper into a Buchner funnel. The suspended solids were trapped by the filter paper, and the liquid was drawn through the funnel into the conical flask below, by an electric vacuum pump. The total suspended solids (biomass) on the filter paper were dried at a 104°C for 4 fours, and weighed using an electronic weighing balance in order to obtain the weight of the additional biomass formed after every incubation interval. The total suspended solids (biomass) yield was expressed as g/l.
+
+
+Figure 4View largeDownload slideVacuum Filtration ProcessFigure 4View largeDownload slideVacuum Filtration Process Close modal
+
+
+Figure 5View largeDownload slideTotal Suspended solids on the filter paperFigure 5View largeDownload slideTotal Suspended solids on the filter paper Close modal
+
+
+In order to completely separate the dodecane present from the mineral solution mixture, liquid-liquid extraction was carried out using a separating funnel. This process involved using a volatile solvent (hexane) which is miscible with the mineral solution to extract the dodecane. 20ml of hexane was added to the liquid which was drawn off from the vacuum filtration process. In comparison with the mineral solution, dodecane has a higher solubility in hexane. As shown in Figure 3.6, two clear separate layers were observed in the separation funnel, with the ether mixture at the top, and the denser aqueous layer (mineral solution) at the bottom of the separation funnel. This was let to run-out into an appropriately sized conical flask aby opening the tap, while carefully watching as the interface between the two layers moved towards the tap so as to stop the flow once all of the lower layer had been removed. A second clean conical flask was used to collect the upper layer (hexane-dodecane mixture), and this was measures into vials for analysis using the gas chromatograph (GC).
+
+
+Figure 6View largeDownload slideLiquid-Liquid extraction using HexaneFigure 6View largeDownload slideLiquid-Liquid extraction using Hexane Close modal
+
+
+Gas Chromatography (GC) Analysis
+
+
+Gas Chromatography (GC) is a method for separating and analysing the components of a mixture. It works on the principle of using a mobile gaseous phase to transport components of a sample through a column containing the stationary phase – a microscopic layer of liquid. The different components of the mixture travel through this stationary phase at different speeds, thereby causing them to separate. Since they get through the column at different times, they are identified at the outlet of the column by a detector. The GC produces a plot of detector signal against of time. This plot is referred to as a chromatogram, with different peaks analogous to different components. Examples of chromatograms are shown in Figure 7.
+
+
+Figure 7View largeDownload slideExamples of chromatograms. (a) Single component (Hexane) sample and (b) Two component (hexane and dodecane) mixture.Figure 7View largeDownload slideExamples of chromatograms. (a) Single component (Hexane) sample and (b) Two component (hexane and dodecane) mixture. Close modal
+
+
+The GC profile of dodecane was monitored before and after incubation in the presence of microbes. Microbial growth was predicted only when changes in the profile were observed. The experimental protocol used in this analysis is as described below:
+
+
+Calibration of GC
+
+
+Before analysing the composition of the samples, it was essential to carry out the following:
+
+
+Identify the retention time for each of the components to be analysed.Generate a calibration curve, i.e., a curve which shows the relationship between the peak areas on the chromatograms and the composition of the mixtures. The calibration curve generated was then used to analyse the samples.
+
+
+In order to complete the first task, GC analysis was performed for pure components (hexane and dodecane). Each of these chromatograms contain only one large peak, with the retention time described as the time at which these peaks were observed. Identifying the retention times for hexane and dodecane was necessary in order to be successfully identify these components in the mixture. Figure 8 shows a chromatogram of the toe-component mixture. Knowing the retention times reveals that the first and second peaks are hexane and dodecane respectively.
+
+
+Figure 8View largeDownload slideExample of Calibration curve. The line indicates results of a least squares fit to the experimental data.Figure 8View largeDownload slideExample of Calibration curve. The line indicates results of a least squares fit to the experimental data. Close modal
+
+
+A calibration was generated by performing GC analysis of samples of known concentrations. The concentrations used for the calibration are 20g/l, 50g/l, 100g/l, 200g/l and 400g/l. An example of calibration curve plotted is shown in Figure 8. Two GC runs were performed for each concentration. The peak areas obtained yielded high reproducibility, hence the error bars in this experiment are reduced to a minimum.
+
+
+Results and Discussion
+
+
+Microbial activity was detected to have occurred in the bioreactors during the incubation period. This was evident in parameters such as the concentrations of dodecane and dissolved oxygen, which decreased throughout the experiment.
+
+
+Dodecane Degradation.
+
+
+The results obtained over the 31day incubation period is illustrated graphically in Figure 9. The concentration of dodecane used at the start of this experiment was 37.5g/l. It was observed that the dodecane concentration in the soil sample on the zeroth day falls below 37.5g/l. During the visual observation in the measuring cylinder, there was no noticeable effect of evaporation in the dodecane phase. Hence, it is assumed that this decrease in concentration may be due to the adsorption of the dodecane on the sand particles. However, in order to account for these losses, optimistic evaluations were carried out as the analysis in every case assumed a 1% loss of dodecane due to adsorption. Thus, this phenomenon was unlikely to alter the conclusion of this study. Over the total incubation period of 31 days, the dodecane concentration decreased at a rather slow rate, the final concentration being 29.5g/l. Conversely, the dodecane concentration in the control experiment remained fairly constant, with maximum variations of about 2%.
+
+
+Figure 9View largeDownload slideDodecane concentration vs TimeFigure 9View largeDownload slideDodecane concentration vs Time Close modal
+
+
+Total Suspended Solids Production.
+
+
+Figure 10 shows a graph of TSS formed against time. From the graph, it was observed that the TSS produced increases as the incubation period increases. This can be attributed to the growth and metabolism of the microorganisms over time within the bioreactors. It was also observed that the TSS concentration increased at a slower rate after the fifteenth day. This can be attributed to a decrease in metabolic activities of the microorganisms, which may be either as a result of a decrease in the amount of nutrients present in the samples, or a depletion in oxygen concentration in the bioreactors.
+
+
+Figure 10View largeDownload slideTSS concentration vs. TimeFigure 10View largeDownload slideTSS concentration vs. Time Close modal
+
+
+In order to establish a relationship between dodecane consumption and biomass formed, a graph showing the relationship between the TSS and the dodecane concentration over time was plotted. This is illustrated in Figure 11. It was observed that as the TSS concentration increased, the dodecane concentration decreased. This relationship is an indication that the dodecane present in the soil samples has undergone biodegradation. However, in large scale MEOR field applications, an increase in TSS may not necessarily indicate that the hydrocarbon present has undergone biodegradation. This is because the microorganisms present may feed on carbon sources other than the hydrocarbon within the reservoir, undergo metabolism and still produce biomass.
+
+
+Figure 11View largeDownload slideDodecane concentration and TSS vs. TimeFigure 11View largeDownload slideDodecane concentration and TSS vs. Time Close modal
+
+
+Dissolved Oxygen
+
+
+Microorganisms are described by their ability to use oxygen. Obligate aerobes require oxygen for growth, and cannot survive unless the concentration is high enough. In the soil samples analysed, their presence was evident by only growth at the surface as shown in Figure 12. The dissolved oxygen concentration in the soil sample and control experiments were measured. The results obtained are illustrated graphically in Figure 13. It is evident that the oxygen concentration in the soil sample decreases with time. This is because the oxygen present is used by the microbes, as their growth is a function of oxygen availability.
+
+
+Figure 12View largeDownload slideGrowth on the hydrocarbon surfaceFigure 12View largeDownload slideGrowth on the hydrocarbon surface Close modal
+
+
+Figure 13View largeDownload slideDissolved oxygen concentration vs. TimeFigure 13View largeDownload slideDissolved oxygen concentration vs. Time Close modal
+
+
+Biofilm Thickness
+
+
+The activity at the dodecane-water interface was monitored by the thickness of biofilm growth measured from the bottom of the oil-water interface. Figure 14 shows a comparison between the heights of the biofilms formed on different incubation days. A graphical illustration of the heights obtained through the total incubation period is shown in Figure 15. It shows that the highest thickness of 2.5ml was observed on the thirty-first day, while no biofilm growth was observed on the zeroth and eighth day.
+
+
+Figure 14View largeDownload slideComparison between the heights of biofilm formedFigure 14View largeDownload slideComparison between the heights of biofilm formed Close modal
+
+
+Figure 15View largeDownload slideBiofilm height vs. TimeFigure 15View largeDownload slideBiofilm height vs. Time Close modal
+
+
+This biofilm formation can cause an increase in the adherence of the microbial cells to the oil- water interface, and can act as a surfactant with the ability to extract small oil droplets from the water phase. Growth within the biofilm is however not uniform as channels are formed which allow for the combination of fresh nutrients and oxygen.
+
+
+Microbial Kinetics.
+
+
+The concentration of biomass produced is defined in terms of cell dry weight measurements, measured in g/l. The biomass growth curve is illustrated in Figure 16.
+
+
+Figure 16View largeDownload slideGrowth rate curveFigure 16View largeDownload slideGrowth rate curve Close modal
+
+
+The specific growth rate is defined as any point during the growth cycle. From Figure 16 above, the R2 value of 0.8884 indicates a fairly strong correlation between the TSS produced and the incubation period. It is observed that on an average, the TSS increases at a rate of 0.0066day-1, and this growth rate is constant during the exponential growth phase. From the equation of the regression line, the y intercept value of 1.2866 is the Monod's prediction for the growth rate on day 0. It is observed that the regression line does not pass through all of the points on the graph. This regression line however can be used to make predictions about TSS increase after particular incubation periods into the near future, but it is not a very good model to make a prediction very far into the future.
+
+
+Biomass Yield Coefficient YX/S
+
+
+A quantitative assessment of microbial growth and/or biomass formation is necessary in order to establish a relationship between the biomass formation and the consumption of substrate, which in this case is dodecane. In relation to microbial biomass production, the amount of cell mass formed is proportional to the mass of substrate consumed. This is usually referred to as the yield coefficient, and is expressed mathematically as: Y(X|S)=ΔXΔS(1),
+
+
+where,
+
+
+ΔX is the amount of biomass produced
+
+
+ΔS is the amount of dodecane consumed
+
+
+Over the 31 days incubation period, the total amount of biomass formed is 0.81g/l and the total amount of dodecane which was biodegraded is 6.8g/l. Applying Equation 1, the yield coefficient gives a value of 0.1191. This means that for every unit of dodecane consumed by the microorganisms, 1.191g/l of biomass is formed. It can also mean that for every unit of biomass formed, 8.395g/l of dodecane will be consumed. In field applications however, it is expected that there will be variations in yield coefficients. For instance, the yield coefficients vary with growth rate. These variations may occur as a result of differences in the assimilation of the substrate into the cell mass, and the different energy requirements of the microorganisms (energy for growth and maintenance).
+
+
+Prospects for Individual Meor Mechanisms
+
+
+From the experiments, two main mechanisms were observed. They are modification of interfacial properties by biosurfactant production and modification of reservoir properties by selective plugging of high permeability zones. These two mechanisms will be the basis for comparison. Selective plugging of high permeability zones is rated as a better MEOR mechanism than interfacial tension reduction. Although literature has it that biosurfactant contributes significantly to MEOR, the production of these biosurfactant alone is not enough to cause an increase in oil mobilization. It is expected that an increased stimulation of biosurfactant production over a period long enough to cause an increase in the volumetric sweep efficiency of a reservoir will inevitably stimulate the growth of biosurfactant degraders. In contrast, selective plugging has the potential to cause significant improvements in the areal sweep efficiency. The selection of suitable microorganisms to produce biopolymers is however necessary for the success of this method.
+
+
+Conclusion
+
+
+The results obtained from the laboratory experiments indicate that dodecane is biodegradable under aerobic conditions. Based on the observations, the prominent recovery mechanism is selective plugging. Thus, in relation to oilfields, biodegradation has a potential to be useful for MEOR if the crude oil present in the reservoir is used as the sole carbon source. However, the growth rate value calculated from the results obtained is not applicable in large scale oilfields. To overcome this limitation, it is recommended that further laboratory research with specific reservoir conditions be carried out, after which experiments must be carried out with the actual oil fields. Provisions should also be made in the laboratory for the identification of the bioproducts formed. This will allow for a better comparison of the oil recovery mechanisms.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Stosur, G.J., (2003). EOR: Past present and what the next 25 years may bring, SPE International Improved Oil Recovery Conference in Asia Pacific,Google Scholar Stosur, G.J., Hite, J.R., Carnahan, N.F. and Miller, K., (2003). The alphabet soup of IOR EOR and AOR: Effective communication requires a definition of terms, SPE International Improved Oil Recovery Conference in Asia Pacific,Google Scholar Brown, L.R., (2010). Microbial enhanced oil recovery (MEOR), Current Opinion in Microbiology, 13 (3), pp. 316–320.Google ScholarCrossrefSearch ADS PubMed Ollivier, B. and Magot, M., (2005). Petroleum Microbiology. ASM Press.Google ScholarCrossrefSearch ADS  Teigland, R. and Kleppe, J., (2006). EOR survey in the North Sea, SPE/DOE Symposium on Improved Oil Recovery,Google Scholar Wilkinson, J.R., Teletzke, G.F. and King, K.C., (2006). Opportunities and challenges for enhanced recovery in the middle east, Abu Dhabi International Petroleum Exhibition and Conference,Google Scholar Li, Q., Kang, C., Wang, H., Liu, C. and Zhang, C., (2002). Application of microbial enhanced oil recovery technique to Daqing Oilfield, Biochemical Engineering Journal, 11 (2–3), pp. 197–199.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211939-MS
+
+
+

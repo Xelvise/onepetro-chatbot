@@ -1,0 +1,199 @@
+----- METADATA START -----
+Title: Evaluating Injectivity Index of Niger Delta Reservoirs for CO2 Geological Sequestration
+Authors: Ifeoluwa Jayeola, Bukola Olusola
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211986-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Underground storage of carbon dioxide (CO2) has been recognized as a viable strategy to reduce CO2 emissions in the atmosphere. In this context, numerical reservoir simulations are routinely implemented to predict the performance of the project under different operational scenarios and uncertainties. However, numerical simulators are intensive in terms of cost, computational time, and data requirement, thus limiting its use for early commercial applications especially for feasibility studies or quick evaluations. This paper presents the application of a simplified modelling approach to predict dimensionless pressure build-up and injectivity index based on an analytical model for reservoirs in Niger Delta. Data from four (4) Niger Delta reservoirs such as relative permeabilities, reservoir pressure, brine viscosity, and injection rate, among others were used in this work. A modified version of the physics-based model of Mishra et. al was used for conducting the studies. Therefore, equations governing the dimensionless pressure build-up and injectivity index were used to investigate the reservoir and operational characteristics of the well injection of CO2 in Niger delta reservoirs as an alternative to full-field numerical simulation. The model approximates the CO2 injection rate for a given target pressure differential or alternatively, the pressure differential that would result from injecting CO2 at a target rate, given the initial permeability, porosity, permeability, and injection rate. The results were used to rank the reservoirs based on suitability to CO2 sequestration, the displacement efficiency of the CO2 and potential storage in the reservoir. This approach is the first one carried out in the Niger Delta and provides the chance to assess the performance of CO2 storage capacity as a strategy to combat global warming from Nigeria.
+
+
+
+
+Keywords:
+fluid dynamics,
+subsurface storage,
+waterflooding,
+air emission,
+reservoir simulation,
+modeling & simulation,
+niger delta,
+sequestration,
+society,
+journal
+
+
+Subjects: 
+Reservoir Fluid Dynamics,
+Improved and Enhanced Recovery,
+Reservoir Simulation,
+Storage Reservoir Engineering,
+Environment,
+Flow in porous media,
+Waterflooding,
+Chemical flooding methods,
+CO2 capture and sequestration,
+Air emissions
+
+
+
+
+Introduction
+
+
+The increasing emissions of carbon dioxide are considered to play a significant role in global warming; therefore, CO2 sequestration has been considered one of the most effective strategies for reducing the effect of climate change. Poor industrial practise like gas flaring has caused Nigeria to be identified as number 43 in the world ranking of carbon emissions from all sources, with estimates suggesting that of the 3.5 billion cubic feet (100,000,000m3) of associated gas (AG) produced annually from Nigeria’s Niger Delta oil-rich region, 2.5 billion cubic feet (70,000,000m3) or about 70% is wasted flaring (Anosike, 2010). With the application of Carbon Capture and storage in Nigeria, there exists the potential of attaining large scale emissions reduction of greenhouse gases and thus, contributing to creating a safe, clean environment (Isehunwa et al., 2006).
+
+
+Over the last decade, a limited number of research has gone into the development and demonstration of geologic sequestration technologies to mitigate greenhouse gas emissions in Nigeria (Yahaya-Shiru et al., 2021). In line with this, numerous geological sinks and sedimentary basins have been identified in the coastal region of the country (Yelebe and Samuel, 2015), and could ultimately lead to the utilization of carbon capture technologies in Nigeria.
+
+
+To achieve the goal of sequestration of CO2 in subsurface reservoirs however, it is imperative that reservoir-seal pair, injectivity, containment and storage capacity of Niger Delta’s sandstone reservoirs provide favourable conditions for the efficacy of geologic carbon storage technology. Developing a suitable strategy to operate CO2 storage sites requires a comprehensive understanding of the storage site behaviour in various operational scenarios (Shokouhi et al., 2021). Multiple technologies related to the evaluation of capacity and injectivity, monitoring of CO2 plume movement, and risk assessment are needed to ensure that the site can meet required storage performance safety criteria.
+
+
+Reliable prediction of the performance of CO2 storage sites is crucial both in optimizing operations and enabling the operators to explore and test the storage sites behaviour during and post injection. However, large-scale high-fidelity reservoir simulations can be a time-consuming and especially expensive process. Several simplified analytical and semi-analytical modelling tools have been developed as alternatives to numerical simulation methods. These newer approaches can also serve to obtain accurate prediction of the CO2 plume migration and pressure build-up over large areas and over long periods of time.
+
+
+The primary motivation for this study is to assess the potential of utilizing one of such simplified modelling approaches that will: a) enable rapid feasibility and risk assessment of CO2 sequestration projects in Niger Delta formations. b) enable integrated system risk assessments to be carried out with robust, yet simple to implement, reservoir performance models, c) allow modellers to efficiently analyse the impact of variable CO2 injection rates on plume migration and trapping for optimal well placement and rate allocation.
+
+
+Background
+
+
+The search for an effective system of carbon storage and capture in Nigeria has been ongoing as a part of Nigeria’s deep carbonization targets by 2050 but has been limitedly researched and practised in the country. Ubani et al. analysed the properties of six wells in a Niger Delta field codenamed, UTI field to ascertain its potential for CO2 sequestration. The wells were accessed, digitized, and analysed based on criteria such as storage capacity, minimum miscibility pressure, reservoir temperature, and reservoir pressure. The reservoir characterization showed that the computed porosity values of the reservoirs range from 0.17 to 0.23 while entire reservoir is observed to have exceedingly good flow capability with permeability values ranging from 782.27mD to 1437.75mD, making it a desirable field for CO2 sequestration. Another work by Odesa et al. focused on the application of carbon capture for enhanced oil recovery in an offshore field in Niger Delta, Okota/Okpoputa field. The carbon-capture based technology achieved an increased level of production while simultaneously reducing CO2 impact on the environment. Identified risk resulting from the consequences of unintended leakage of CO2 from the storage formation (Odesa & Adewale, 2011). In another study to explore the potential of some reservoirs for CO2 sequestration, Yahaya-Shiru et al. worked on characterizing some sandstone reservoirs in Niger Delta via systematic and process-based incorporation of seismic and well logs datasets. Petrophysical analysis, fault modelling as well as geostatistical techniques were used to build facies and property models which enabled a qualitative assessment of the sealing potential of faults associated with the reservoirs based on prediction of key properties such as shale gouge ratio, lithological juxtaposition, fault permeability and fault transmissibility across the fault faces. Nine-water bearing sandstone reservoirs with varying reservoir quality were identified in the field. (Mariam Yahaya-Shiru, Ogbonnaya Igwe, Seyi Obafemi, 2021).
+
+
+Furthermore, Celinah et al., worked on assessing the potential of a field in Niger Delta for CO2 storage and sequestration by evaluating the injectivity, containment and storage capacity of sandstone reservoirs in a field in the Coastal Swamp depobelt of the onshore eastern Niger Delta using wireline logs and seismic data. Comparison of the derived reservoir and seal properties such as porosity, permeability, thickness, and depth with the minimum recommended site selection criteria shows that the reservoirs are potential candidates for CO2 sequestration. (Ojo & Tse, 2016). Bappah Adamu et al also worked on assessing regional and field potentials for geological storage of the Niger Delta Basins. Davies et al worked on analysing data to estimate reservoir capacity and injectivity of reservoirs within the study area with the potential to hold sequestered CO2 (Bappah Adamu Umar, Raoof Gholami, Prasanta Nayak, Afroz A. Shah, Haruna Adamu, 2020). Several research works have also been done addressing the benefits, scopes, challenges, and risk of carbon capture technology in Nigeria (Galadima & Garba, 2008; Isehunwa, Makinde, & Olagimoke, 2006; Yelebe & Samuel, 2015; Adeyanju, Osobajo, Otitoju, & Ajide, 2020).
+
+
+Based on this literature review, while no actual execution of CO2 storage and sequestration in Niger Delta Reservoirs have been recorded, we conclude that it is essential to explore the application of already developed analytical models for prediction of CO2 storage site response.
+
+
+Model Description
+
+
+The study builds on the approach developed by Mishra et al., 2015. The analytical model was developed by running simulations of CO2 injection into a semi-confined cylindrical saline aquifer system for a broad range of reservoir and cap rock properties (Mishra, et al., 2015). Data from this sensitivity analysis exercise were used to develop insights into the relationship between the performance metrics of interest and fundamental reservoir/cap rock properties. The resulting predictive relationships were tested to validate the predictive models using "blind" runs with simulations that were not part of the "training set". The resulting model was defined as:
+
+
+P=10.3+0.59dfgdSg+3.41Vdp+1.23dfgdsg−0.342(dfgdsg)2−8.89(Vdp)2
+
+
+Where Pd is the magnitude of dimensionless pressure jump, dfgdSg is the slope of fractional flow, Vdp is Dykstra-Parson’s coefficient. The resulting model is then used to calculate the injectivity index (q/ΔPjump).
+
+
+Injectivityrate=2×π×k×hpd×v
+
+
+ Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 460 Hr Reservoir Thickness m 55 Vdp Dykstra-Parsons coefficient - 0.55 dfgdSg  - 2 V Viscosity  10 Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 460 Hr Reservoir Thickness m 55 Vdp Dykstra-Parsons coefficient - 0.55 dfgdSg  - 2 V Viscosity  10 View Large
+
+
+The relative permeability curves are developed from the available dataset as shown below (fig 1). In order to develop an fw (water cut) versus Sw (prevailing water saturation) relationship from historical production data, the fractional flow curve is used to describe the immiscible fluid displacement process in Reservoir A. The curve becomes the basis for the characterization of the relative permeability models using the slopes of the tangents to their curves i.e dydx
+
+
+Figure 1View largeDownload slide(a)Fractional flow curve (b)Relative Permeability CurveFigure 1View largeDownload slide(a)Fractional flow curve (b)Relative Permeability Curve Close modal
+
+
+We find that the dimensionless pressure predicted by our model for the first case is 10.5 bbl/day/psi, and the injectivity rate predicted is 13.0279
+
+
+ Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 1860 Hr Reservoir Thickness m 34 Vdp Dykstra-Parsons coefficient - 0.55   - 2 V Viscosity  10 Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 1860 Hr Reservoir Thickness m 34 Vdp Dykstra-Parsons coefficient - 0.55   - 2 V Viscosity  10 View Large
+
+
+We find that the dimensionless pressure predicted by our model for the first case is 10.5 bbl/day/psi, and the injectivity rate predicted is 32.564
+
+
+ Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 1400 Hr Reservoir Thickness m 45 Vdp Dykstra-Parsons coefficient - 0.55   - 2 V Viscosity  10 Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 1400 Hr Reservoir Thickness m 45 Vdp Dykstra-Parsons coefficient - 0.55   - 2 V Viscosity  10 View Large
+
+
+We find that the dimensionless pressure predicted by our model for the first case is 10.5 bbl/day/psi, and the injectivity rate predicted is 32.44
+
+
+ Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 900 Hr Reservoir Thickness m 60 Vdp Dykstra-Parsons coefficient - 0.55   - 2 V Viscosity  10 Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 900 Hr Reservoir Thickness m 60 Vdp Dykstra-Parsons coefficient - 0.55   - 2 V Viscosity  10 View Large
+
+
+We find that the dimensionless pressure predicted by our model for the first case is 10.5 bbl/day/psi, and the injectivity rate predicted is 27.806
+
+
+ Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 1900 Hr Reservoir Thickness m 54 Vdp Dykstra-Parsons coefficient - 0.55   - 2 V Viscosity  10 Parameter
+            . Description
+            . Unit
+            . Reference value
+            . Kr Reservoir Permeability mD 1900 Hr Reservoir Thickness m 54 Vdp Dykstra-Parsons coefficient - 0.55   - 2 V Viscosity  10 View Large
+
+
+We find that the dimensionless pressure predicted by our model for the first case is 10.5 bbl/day/psi, and the injectivity rate predicted is 52.832
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Conclusion
+
+
+Analytical injectivity simulation models for Niger Delta reservoirs have been presented. This paper summarises the findings of a research project whose objective was to validate the application of a simplified modelling approaches for CO2 sequestration in Niger Delta formations based on simplified physics approximations for predicting: (a) injection well and formation pressure build-up, and (b) lateral and vertical CO2 plume migration. Such computationally efficient alternatives to conventional numerical simulators can be valuable assets during preliminary CO2 injection project screening, serve as a key element of probabilistic system assessment modelling tools, and assist regulators in quickly evaluating geological storage projects.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Adeyanju, C. G., Osobajo, O. A., Otitoju, A., & Ajide, O. E. (2020). Exploring the potentials, barriers and options for support in the Nigeria renewable energy industry. Discover sustainbility[online].Google ScholarCrossrefSearch ADS  Anosike, C. R. (2010). Unhealthy Effects of Gas Flaring and Wayforward to Actualize the Stopping of Gas Flaring in Nigeria. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Bappah AdamuUmar, RaoofGholami, PrasantaNayak, Afroz A.Shah, HarunaAdamu. (2020). Regional and Field sessments of Potentials for Geological Storage of CO2: A Case Study of the Niger Delta Basin, Nigeria. Journal of Natural Gas Science and Engineering.Google Scholar Galadima, A., & Garba, Z. N. (2008). Carbon Capture and Storage(CCS) in Nigeria: Fundamental Science and Potential Implementation Risks. Science World Journal.Google Scholar Isehunwa, O. S., Makinde, A. A., & Olagimoke, O. (2006). Carbon(IV) oxide Capture and Sequestration in Nigeria: Prospects and Challenges. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  MariamYahaya-Shiru, OgbonnayaIgwe, SeyiObafemi. (2021). 3D Structural and Stratigraphic Characterization of X Field Niger Delta: Implication for Co2 Sequestration. Jornal of Petorluem Exploration and Production Technology.Google Scholar Shokouhi, P., Kumar, V., Prathipati, S., Hosseini, S., & Giles, C. L. (2021). Physics-informed deep learning for prediction of CO2 storage site response. Journal of Contaminant Hydrology.Google Scholar Ubani, C. E., & Ikpaisong, U. S. (2019). Sequestration of CO2 in Depleted Reservoirs: A Case Study of a Niger Delta Field. International Research Journal of Advanced Engineering and Science.Google Scholar Yelebe, Z. R., & Samuel, R. (2015). Benefits and Challenges of Implementing Carbon Capture and. The International Journal Of Engineering And Science (IJES).Google Scholar Mishra, S., Ganesh, P. R., Schuetter, J., He, J., Jin, Z., & Durlofsky, L. (2015). Developing and Validating Simplified Predictive Models for CO2 Geologic Sequestration. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Odesa, D., & Adewale, D. (2011). Carbon Capture for Enhanced Oil Recovery in Niger Delta: A Case Study of Okota/Okpoputa Field in Offshore Niger Delta. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Ojo, A. C., & Tse, A. C. (2016). Geological Characterisation of Depleted Oil and Gas Reservoirs for Carbon Sequestration Potentials in a Field in the Niger Delta, Nigeria. Journal of Applied Sciences and Environmental Management.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211986-MS
+
+
+

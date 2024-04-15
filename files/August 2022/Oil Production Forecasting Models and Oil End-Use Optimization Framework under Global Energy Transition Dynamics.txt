@@ -1,0 +1,385 @@
+----- METADATA START -----
+Title: Oil Production Forecasting Models and Oil End-Use Optimization Framework under Global Energy Transition Dynamics
+Authors: Kaase Gbakon, Joseph Ajienka, Joshua Gogo, Omowumi Iledare
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211967-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+This paper reviews oil (and gas) supply forecasting models and subsequently espouses atypical modeling approaches for the optimal allocation of crude oil production. This paper becomes imperative within the context of the global energy transition and the future of the oil and gas industry in Africa in general and Nigeria, in particular. A categorization framework has been utilized to classify oil supply forecasting models based on regional focus, modelling techniques, and outcomes. The log – log functional form is adopted in this paper to forecast oil production in Nigeria and subsequently optimize its allocation. A review of literature indicates that oil (and gas) supply forecasting has a long history and in recent times, there has been the tendency to rely on models that integrate engineering with economics. The models used to project oil and gas production to meet climate goals have now inputted environmental targets. This review of oil production forecast models is carried out against the backdrop of the need to optimally allocate Nigeria's future oil production to diverse uses. This will have impact on expected oil export earnings, domestic fuels’ imports, and the potential for petroleum products’ export earnings.
+
+
+
+
+Keywords:
+air emission,
+optimization problem,
+asset and portfolio management,
+supply and demand forecasting,
+upstream oil & gas,
+production forecasting,
+artificial intelligence,
+sustainable development,
+production control,
+climate change
+
+
+Subjects: 
+Well & Reservoir Surveillance and Monitoring,
+Formation Evaluation & Management,
+Reserves Evaluation,
+Environment,
+Sustainability/Social Responsibility,
+Asset and Portfolio Management,
+Energy Economics,
+Information Management and Systems,
+Production forecasting,
+Air emissions
+
+
+
+
+Introduction
+
+
+Forecasting the production of hydrocarbons has been a key component to oil field management, production planning, national economic planning, geopolitical positioning as well as energy company valuations. With the rise in the call to curb carbon emissions from fossil fuels use, forecasting the hydrocarbon production now, has environmental targets. The initial models, which sought to forecast production relied solely on the physics of hydrocarbon production. Hence the early models relying on engineering decline curve analysis, pioneered by Arps (1945), was intended to simulate the reduction in oil production from waning natural energy drive mechanism. This simply assumed that there were no other factors beyond physical considerations in the production of hydrocarbons. There are however two key questions to be addressed by oil supply forecasters – how much oil exists to be be recovered? Secondly, at what rate will the oil reserves be depleted, and what will the production profile look like over time? This is the origin of the peak oil depletion models pioneed by Hubbert (1956). Hubbert's modelling framework was based entirely on geophysical factors and relied on using a combination of estimated ultimately recoverable resource (URR) and historical production. Hubbert's approach, which leaned on the use of historical production to fit a bell – shaped or parabolic curve, to produce long-term production forecasts gained popularity for its accuracy in predicting peak production of the lower-48 States in the US (Lynch, 2001).
+
+
+The mathematical models which describe the physical behaviour of the oil (and gas) production processes constitute an important part of any production modelling and hydrocarbon extraction forecasting (Hook, 2009). Hook (2009) concludes by stating that though crude oil production forecasting can be accomplished by different means, realistic outlooks are achieved by recognizing the physical laws that affect hydrocarbon extraction from a reservoir. Lynch (2001), however, points to the failings of Hubbert's method to accurately forecast US gas production, oil production in Texas as well as world oil production. Brandt (2007), who compared Hubbert model against five alternative models for 139 oil production curves, suggest that Hubbert's simple curve performs poorly at tracking the production rates of most regions. Instructively, Brandt's work also showed that the alternatives (which were variations of curve fitting techniques) did not fit all the historical production curves considered.
+
+
+To accomplish crude oil allocation optimization for end use, an outlook of production must be established, which will help address an important question such as: What is the optimal allocation of oil to domestic refining versus exports? Consequently, this review builds on the back of that critical requirement for the optimization of oil end – use to highlight the approaches adopted in forecasting oil production.
+
+
+Literature Review
+
+
+Much of the work on oil production forecasting refer to Hubbert (1956) who had predicted ultimate recoverable reserves for the US lower 48 at between 150 billion bbls and 200 billion bbls and predicted peak production to occur between 1965 and 1970 (depending on which URR is taken). Hubbert (1982) also developed a logistic curve equation from which the estimated ultimate recovery of oil and natural gas as well as the rate of future production could be determined. The equation is given by:
+
+
+Qt=Q∞1+ae−b(t−t0)1
+
+
+where Qt is cumulative oil production at time t and Q∞ is the ultimate recoverable resources (URR). From the logistic equation, Hubbert derived a linear equation:
+
+
+dQdt(1Qt)=a−(aQ∞)Qt2
+
+
+By regressing dQdt(1Qt) against cumulative production at time, Qt, the regression coefficients a and aQ∞ are estimated, which allows Q∞ to be determined (Smith, et. al., 1993). These are the steps generally applied to curve fitting techniques where different production curve – Gaussian, Exponential, Multi-cycle – assumptions are applied.
+
+
+The assumptions behind Hubbert's mathematical model are:
+
+
+The annual production is the first derivative of the logistic function.A symmetric production profilesA constant time lag between discovery and production.Production increases and decreases in a single cycle without multiple peaks. (Brandt, 2010; Alalade, 2016; Kingsley – Apara et. al., 2014; Hubbert, 1956)
+
+
+According to Al-Bisharah et. al. (2009), who applied a multicyclic Hubbert model to forecast crude oil production of twelve OPEC countries individually and OPEC as a block, production of most of the OPEC countries will peak between 2020 and 2030. Production of OPEC as a block will peak around 2025 at 90 MMbbls/day. Specific to Nigeria, the authors averred that production would peak at 4.93 MMbbls/day in 2019. The reality however was that in 2019, Nigeria produced 738.36 MMbbls, an average of 2.02 MMbbls/day and 60% deviation from the forecast production level.
+
+
+Kingsley-Apara & Iledare (2014) used the Hubbert model framework to forecast production for Nigeria. Though historical production exhibited a poor fit with Hubbert's curve in their analysis, they observed that production ought to have peaked in 2010 (at 2.70 MMbbls/day) and ultimate reserves recovered will be 65 billion bbls in 2050 by which time production would be at 0.8 MMbbls/day. To explain the poor fit, the authors pointed to the shortcomings of the curve fitting technique, which include ignoring effects of oil price volatility and cost changes on reserves addition (economics), disregarding impact of evacuation options to make developments viable and increase production, and non-consideration of political factors. These ignored factors agree with those highlighted variously by Miller & Sorrel (2014), Brandt (2010), Lynch (2001), Iledare & Pulsipher (2000). However, an important assertion Kingsley-Apara & Iledare made as to the reason for the poor fit of Hubbert is that Nigeria is still in the era of easy oil and that there is huge potential yet untapped. Consequently, they conclude strongly that the Hubbert model is not to be relied upon for long horizon production forecast for Nigeria.
+
+
+Chavez-Rodriguez, Szklo, Pereira de Lucena, and Tiago (2013) develop a Hubbert-type model to forecast oil production in Peru into 2100 allowing for two scenarios for the URR. They found that a multi-Hubbert pattern best describes production outlook in Peru, with a second peak of 96 MMbbls/yr in 2044 assuming a URR of 6.9 billion bbls. However, under a URR scenario of 3.63 billion bbls, the second peak of 27 MMbbls/yr is achieved in 2025.
+
+
+Alalade (2016) sets out to compare drivers of oil production between the UK and Nigeria within the frameworks provided by the Hotelling theory, the Hubbert theory and Engineering decline curve theory (Arps). Alalade found that the Engineering decline theory was weakest in explaining production profile of both countries while the Hubbert theory is found to be the most robust in explaining actual production profiles in both Nigeria and the UK. Additionally, the author found that when these theories are combined, the resulting model yielded a more complete perspective on production profile. This is in confirmation with earlier studies – Jakobsson et al (2012); Sorrel et al (2010); Kemp and Kasim (2003); Moroney and Berg (1999); Al-Sahlawi (1986). Additionally, Alalade identified a peak production of 959 MMbbls in 2005 from Nigeria's historical production, which declines gently to zero beyond 2100.
+
+
+Ikwan et. al. (2017) using a systems dynamic approach offered a view to Nigeria's future production and reserves growth between 2018 and 2035 under four different policy scenarios. In their most optimistic scenario, production was forecast to peak at 1,300 MMbbls in 2029 and then decline to ~622 MMbbls in 2035. In the passive scenario characterized by "Business-As-Usual" of low investments and no reserves growth, production declines gently from ~850 MMbbls in 2018 to ~670 MMbbls in 2035.
+
+
+The degree and the depletion rate of conventional oil is the central issue for the future supply of oil. This is even more so as "conventionals" currently provide around 95% of global all-liquids supply (Miller & Sorrell, 2014). OPEC, which is responsible for ~40% global oil production, utilizes a resources-to-production (R/P) model to verify its country-level estimates of annual future oil production based on variables including discovery rates, development cost and profitability, and drilling footage (IEF, 2021). The International Energy Agency (IEA) in making long-term oil supply projection employs a bottom-up modelling approach aggegated across different countries. In this approach, the IEA forecasts production by simulating the investment process, considering existing and potential resources, global oil demand, and a net present value (NPV) ranking of possible projects in that country to determine which projects are likely to be sanctioned and the production therefrom (IEF, 2021).
+
+
+Brandt (2010, 2009, 2006) submitted that oil depletion models which excluded the economics of substitution with alternatives to conventional petroleum will lead to unrealistic projections of future energy supply – to ignore this substitutive process is to forfeit the economic and environmental impacts which arise from transiting to conventional oil substitutes. Moroney and Berg (1999) found that oil supply models which account for the physical reserves of oil as well as economic and regulatory variables yielded better forecasts of future oil production than models which only admitted either reserves or economic variables as explanatory variables. Using a sample period of 1950 to 1996 for annual oil production in the U.S. lower 48 states, the authors found that a model of log – log functional form qt=f(qt-1 RESVt-1 RPt-1), which combined oil reserve sizes, lagged production, and the real oil price (integrated partial adjustment model) outperformed their other tested models based on reserves alone or economic variables alone.
+
+
+Kemp and Kasim (2003) argued that there was value in explicitly integrating both physical and economic factors in developing an econometric model of the development of a petroleum jurisdiction, of which oil production is key part of. The authors developed a system of twenty-four econometric equations using an annual time series of variables from 1975 – 1995 to describe the petroleum supply process in the UKCS. For oil specifically, the authors extended the oil production model by Moroney and Berg (1999), and Moroney (1997) by including variables of cumulative oil production (to proxy reserves), number of oil development wells, change in OPEX, and gas production. Oil production in the UKCS was modelled as a log – log formulation of qto=f(qt−1o,CUMqt−1,RPt,NWDt,qtG,ΔOPEXt) and an R-square of 93.63% was achieved. Forecasts of production between 1996 – 2001 were then made that showed high fidelity to actual production (Root Mean Square forecast error of 0.036%). Al-Sahlawi (1986) set out to forecast the supply of oil in Saudi Arabia as well as the Gulf Cooperation Council (GCC) using a time series from 1970 – 1984 (Saudi Arabia) and 1974 – 1984 (GCC) using log – log functional form. Supply was modeled as a function of Real oil prices, proved reserves, production from other OPEC countries, and non-OPEC production. The model indicated that Saudi supply is positively correlated with Real Prices, Reserves, production from other OPEC countries and negatively correlated with non-OPEC production.
+
+
+Driven by the increasing importance of machine learning models, researchers have applied these techniques to forecast crude oil production. The ML models have been hailed as being simpler, faster and of sufficient accuracy to act as alternatives to traditional decline curve analysis for field-level production forecasting (Hart Energy, 2018; Zhang & Zhao, 2013). The technique involves feeding an algorithm with a lot of historical data, to train the algorithm to be able to make forecasts. Obite et. al. (2021) demonstrated the superiority of the Machine Learning (ML) methods – Artificial Neural Network (ANN) and Random Forest (RF) – over two other competing statistical methods for making monthly forecast of Nigeria's daily oil output. Based on the results of the ANN, oil supply production is strongly predicted to decline from 1.684 MMbbls/day in October 2021 till it gets to 1.628 MMbbls/day in December 2023. Using ANN, with 11 inputs including GDP growth rate, gas prices, annual depletion, number of explotary wells drilled amongst other inputs, Al-Fattah (2001) produced a forecast of natural gas production in the US from 1999 to 2020. Al-Fattah predicted US gas production of 23 TCF/yr for 2020 – actual gas production was 40.5 TCF/yr (EIA, 2021) – 76% higher than forecast. Zhang & Zhao (2013) built a field-level production model using neural network to predict oil production, and water production. Although they achieve a 7% error in matching their predictions with actual, they point that incorporating poro-perm characteristics into their training dataset can significantly improve prediction outcomes.
+
+
+Miller & Sorrel (2014) highlight the challenges of the different modeling approaches to forecast supply which are summarized in Table 1 below:
+
+
+Table 1Drawbacks of different Modelling Approaches (summarized from Miller & Sorrel, 2014) S/N
+            . Method
+            . Description
+            . Drawback
+            . 1 Hubbert's Method Curve fitting to historical trends ▪Lacking in theoretical basis,▪ reliant on uncertain assumptions about regional URR▪ Sensitive to the choice of functional form▪ Doesn't recognize important economic and political variables 2 Econometric techniques Fit historical production to explanatory variables ▪ may fit historical data, but not produce accurate forecasts 3 Hybrid of Curve fitting and Econometric technique Blend of curve fitting (Hubbert) and Econometrics ▪ suffers the drawback of both methods above 4 System Dynamic Models Capture the physical and economic mechanisms that give rise to oil production ▪ Tend to be overcomplicated and unstable▪ Absence of both empirical validation▪ Insufficient data for parametrization 5 Bottoms-up approach on field-by-field basis Model production of individual fields and projects and then aggregate on a regional basis ▪ constrained by heavy reliance on proprietary datasets▪ a lack of transparency▪ Uncertainty over critical variables▪ Requirement for multiple assumptions S/N
+            . Method
+            . Description
+            . Drawback
+            . 1 Hubbert's Method Curve fitting to historical trends ▪Lacking in theoretical basis,▪ reliant on uncertain assumptions about regional URR▪ Sensitive to the choice of functional form▪ Doesn't recognize important economic and political variables 2 Econometric techniques Fit historical production to explanatory variables ▪ may fit historical data, but not produce accurate forecasts 3 Hybrid of Curve fitting and Econometric technique Blend of curve fitting (Hubbert) and Econometrics ▪ suffers the drawback of both methods above 4 System Dynamic Models Capture the physical and economic mechanisms that give rise to oil production ▪ Tend to be overcomplicated and unstable▪ Absence of both empirical validation▪ Insufficient data for parametrization 5 Bottoms-up approach on field-by-field basis Model production of individual fields and projects and then aggregate on a regional basis ▪ constrained by heavy reliance on proprietary datasets▪ a lack of transparency▪ Uncertainty over critical variables▪ Requirement for multiple assumptions View Large
+
+
+Although Sorrel & Miller (2014) hail the bottoms up approach as holding the most promise, the authors draw attention to the challenges of implementing the approach and conclude that given the potential for disruptions in political, economic, or technological contexts, no model would provide estimates of great precision. Lynch (2001) had earlier reflected on the history of oil market forecasting and highlighted the inability of many forecasters to identify their methodological errors from curve fitting techniques, which produced results inconsistent with theory. While these curve-fitting techniques have been very popular in the literature especially for their simplicity, Lynch (2001) identified two errors arising from the technique. Firstly, that these curve-fitting techniques take the URR as a static variable when it is dynamic and secondly the decline rate is overstated relative to what is observed. Brandt (2010) assessed the techniques employed in modeling oil supply and examined their utility in projecting future oil production. His conclusion after reviewing and classifying forty-five mathematical models for forecasting oil production is that existing oil depletion models have performed woefully in predicting global oil production. Furthermore, Brandt argues that admitting both the economic and physical factors of oil production is required to provide the best path for advancing understanding of oil production.
+
+
+Brandt's (2010) review of forty-five models included a classification schema with four dimesnsions of variability. Table 2 is an adaptation of the dimensions described by Brandt.
+
+
+Table 2Classification Schema of Forecast Models (Adapted from Brandt, 2009, 2010) S/N
+            . Dimensions
+            . Sub-Dimension
+            . Description
+            . 1 Methodological Orientation Physical Models rely on geo-physical, technological, or engineering aspects of oil production. Examples will be models based on empirical decline functions. Economic Models include economic aspects of oil production, such as oil price, oil and oil products demand, and extraction costs. 2 Scale Field Model of production at oil field level Basin Model of production at geologically defined basin level Sub-National Production is modeled from geologically arbitrary subnational regions (e.g., states or provinces) National These models forecast production from a single nation. (For the purpose of optimizing end use oil production, our interest will be focused on Nigeria-level model) Regional Forecast production is on multi-national regional basis which form an aggregation of (e.g., the North Sea, Gulf of Mexico, or Gulf of Guinea) Global The forecast models focus on global production 3 Method of generating production profile Hypothetical The models are reliant on simple, pre-specified hypothetical functional such as logistic or Gaussian functions for production profiles Mechanistic These models are built to represent detailed economic, technological, or physical aspects of the oil production process to generate outlook profiles. 4 Model Complexity Very Simple At most one input data series (e.g., historical production data) is required, between 1 and 3 other data inputs (e.g., estimate of ultimately recoverable resources) and have between 1 and 3 free parameters to be solved such as the year of peak production. Simple Simple models are like very simple models except that simple model may have up to six (6) data inputs and six (6) free parameters. Medium Only one time series data input is required for models of moderate complexity. However, these models require more than six (6) input data parameters or for more than six (6) free parameters to be solved for. Complex More than one time series data input (e.g., yearly production data plus yearly oil price) and any number of additional input data is required for Complex models. However, they only model future oil production. Very Complex Like complex models. Very complex models model production of more than one resource type (e.g., crude oil, tar sands, and oil shale). S/N
+            . Dimensions
+            . Sub-Dimension
+            . Description
+            . 1 Methodological Orientation Physical Models rely on geo-physical, technological, or engineering aspects of oil production. Examples will be models based on empirical decline functions. Economic Models include economic aspects of oil production, such as oil price, oil and oil products demand, and extraction costs. 2 Scale Field Model of production at oil field level Basin Model of production at geologically defined basin level Sub-National Production is modeled from geologically arbitrary subnational regions (e.g., states or provinces) National These models forecast production from a single nation. (For the purpose of optimizing end use oil production, our interest will be focused on Nigeria-level model) Regional Forecast production is on multi-national regional basis which form an aggregation of (e.g., the North Sea, Gulf of Mexico, or Gulf of Guinea) Global The forecast models focus on global production 3 Method of generating production profile Hypothetical The models are reliant on simple, pre-specified hypothetical functional such as logistic or Gaussian functions for production profiles Mechanistic These models are built to represent detailed economic, technological, or physical aspects of the oil production process to generate outlook profiles. 4 Model Complexity Very Simple At most one input data series (e.g., historical production data) is required, between 1 and 3 other data inputs (e.g., estimate of ultimately recoverable resources) and have between 1 and 3 free parameters to be solved such as the year of peak production. Simple Simple models are like very simple models except that simple model may have up to six (6) data inputs and six (6) free parameters. Medium Only one time series data input is required for models of moderate complexity. However, these models require more than six (6) input data parameters or for more than six (6) free parameters to be solved for. Complex More than one time series data input (e.g., yearly production data plus yearly oil price) and any number of additional input data is required for Complex models. However, they only model future oil production. Very Complex Like complex models. Very complex models model production of more than one resource type (e.g., crude oil, tar sands, and oil shale). View Large
+
+
+Models can have attributes across different dimensions of the above schema. Additionally, Brandt (2009) makes the point that the above classification is not exhaustive as other dimensions can be included such as the forecasting period (near vs. long-term), basin maturity of the forecasted region (i.e., unexplored, pre-peak, or post-peak), or the production of deterministic or probabilistic models.
+
+
+Role of Oil Supply Forecast in Optimization Models
+
+
+The network representation of Nigeria's utilization of its produced oil is depicted in Figure 1. It can be considered a type of Reference Energy System (RES) focused on the oil sector. Hoffman & Wood (1975) defined a RES as the network representation of all the technical activities required to supply various forms of energy to end-use activities. This network description of an energy system of interest forms the basis for optimization.
+
+
+Figure 1View largeDownload slideNetwork of Oil UtilizationFigure 1View largeDownload slideNetwork of Oil Utilization Close modal
+
+
+It will be noted from module A of Figure 1 that oil production QPRODO goes towards export (⁠QEXPO⁠), incountry refining (⁠QDOMO⁠) system, or offshore refining (⁠QOFFO⁠). This segment of the network is cast as an equality supply constraint and is represented thus:
+
+
+QEXPO+QDOMO+QOFFO=QPRODO3
+
+
+Equation 3 indicates that the sum of oil exports, oil to domestic refineries and oil to offshore refining is constrained by the upstream oil production. Hence, it becomes imperative to determine an appropriate oil supply forecast which allocation will be optimized in future time periods.
+
+
+Borha, (2020) develops the Qatar Energy System Model and Analysis Tool (QESMAT), a linear program which objective is to maximise revenue for a centralised decision-maker by optimizing technology investment and energy export strategy to 2050. The QESMAT projects oil and gas production by maintaining a peak of 40,000 ktoe (~290 MMbbls/annum for oil) which is declined to zero by 2050. This production profile is imposed to represent the gradual decarbonisation of the Qatari economy as per the oil transition to renewables and the country's intent to reduce its carbon emissions.
+
+
+Salehi & Goorkani (2017) developed a stochastic linear multi-objective programming model to optimally allocate Iranian oil and gas resources under conditions of political and economic sanctions between 2016 and 2031. While the oil production outlook utilized by Salehi & Goorkani is based on the plans of the Iranian Ministry of Petroleum, this production forecast is not made explicit. However, we can infer that the production forecast by Salehi & Goorkani declines to 2031. This inference is derived from the modelling results which showed crude oil exports declining due to lower levels of extraction from aging Iranian oil reservoirs.
+
+
+Adegbulugbe, Dayo, and Gurtler (1989) using a linear programming approach formalized in the MESSAGE II energy model, estimated what the long-term optimal structure of the Nigerian energy supply mix might be over a 1980 – 2010 horizon. Their objective was to minimize total direct fuel costs subject to energy demand, production capacity, resource availability, amongst others. With respect to production capacity, Adegbulugbe et. al. forecast oil and gas production by constraining annual production based on "technical considerations". These considerations are not made explicit; however, we infer that the production profile used by the authors is as per Table 3.
+
+
+Table 3Nigeria Oil Production Forecast 1980 - 2010 as per Adegbelugbe et. al. (1989) 
+            . Domestic Oil Consumption (MTOE)
+            . Oil Exports (MTOE)
+            . Production (MTOE)
+            . Production (MMbbls)
+            . Production (MMbbls/day)
+            . 
+            . A
+            . B
+            . C = A+B
+            . 
+            . 
+            . 1980 9 94.55 103.55 759.02 2.08 1985 10 60.63 70.63 517.72 1.41 1990 18 0 18 131.94 0.36 1995 20 0 20 146.60 0.40 2000 21 0 21 153.93 0.42 2005 23 0 23 168.59 0.46 2010 24 0 24 175.92 0.48 
+            . Domestic Oil Consumption (MTOE)
+            . Oil Exports (MTOE)
+            . Production (MTOE)
+            . Production (MMbbls)
+            . Production (MMbbls/day)
+            . 
+            . A
+            . B
+            . C = A+B
+            . 
+            . 
+            . 1980 9 94.55 103.55 759.02 2.08 1985 10 60.63 70.63 517.72 1.41 1990 18 0 18 131.94 0.36 1995 20 0 20 146.60 0.40 2000 21 0 21 153.93 0.42 2005 23 0 23 168.59 0.46 2010 24 0 24 175.92 0.48 View Large
+
+
+Furthermore, a comparison of the production forecast from Table 3 with the actual production shows a wide deviaton between the forecast and actual production as per Figure 2– a deviation of 720 MMbbls as of 2010.
+
+
+Figure 2View largeDownload slideComparison of Nigeria's Oil Production Forecast (as inferred from Adegbuluge et. al., 1989) with Actual Oil ProductionFigure 2View largeDownload slideComparison of Nigeria's Oil Production Forecast (as inferred from Adegbuluge et. al., 1989) with Actual Oil Production Close modal
+
+
+Blitzer, Eckaus, Lahiri (1989) developed a multi-sectoral, economy – wide optimization model for Egypt which objective was to maximize economic welfare. Their model which interacts with the energy system over a 25-year planning horizon from 1987 captures oil production as one of the four energy sectors. Oil production in Blitzer et. al. (1986) is constrained by resource availability and forecasted to decline by 2.8% per annum over the period from 44 million toe (~320 MMbbls).
+
+
+Oil Supply Forecasts and Global Energy Transition
+
+
+The global energy transition has taken a new sense of urgency following the Intergovernmental Panel on Climate Change (IPCC) "Special Report on Global Warming of 1.5 °C". This report brought to sharp relief the importance of achieving global net zero CO2 emissions by mid‐century, at the latest, to avoid the debilitating impacts of climate change (IPCC, 2018). The extraction, processing and utilization of oil and gas contributed 42% of global emissions as of 2015 (Beck, Rashidbeigi, Roelofsen, & Speelman, 2020), making the case for transition away from fossil fuels to keep within the 1.5°C limit by 2050. Brandt and Farrel (2006) highlighted the economic, strategic, and environmental risks signalled by the energy transition from conventionally produced oil to subsititutes. The attainment of net-zero is the expression of a mitigation of the risk, and this is translated in the outlook for oil production.
+
+
+According to IPCC modelling, as evident from Figure 3, fossil fuels and industry contributes the most to CO2 emissions reductions. Thus, across all the four scenario-paths for emissions decline to limit global warming to 1.5°C, fossil fuels and industry mitigation is critical.
+
+
+Figure 3View largeDownload slideContributions to global net CO2 emissions in four illustrative pathways to limit global warming to within 1.5°C (culled from IPCC, 2018)Figure 3View largeDownload slideContributions to global net CO2 emissions in four illustrative pathways to limit global warming to within 1.5°C (culled from IPCC, 2018) Close modal
+
+
+Welsby, Price, Pye & Ekins (2021) incorporated the target of a 50% chance of limiting warming to 1.5 °C by 2050 in making conventional oil supply forecasts. They made their estimate using a global energy systems model and observed that approximately 60% of oil and gas, and 90% of coal must remain unextracted to keep within a 1.5 °C carbon budget. Specifically, the authors averred that, globally oil and gas production must decline by 3% per annum until 2050 for global emissions to stay within the carbon budget. For Africa, Welsby et. al. (2021) estimated a decline from 8.8 MMbbls/day (2020) to 3.1 MMbbls/day (2050). The global energy systems model used by Welsby et. al. is a TIMES Integrated Assessment Model – an optimization framework to minimise the total discounted system costs (which is the objective function) whilst satisfying the energy service demand requirements (including energy sources which are substitutes to conventional oil) and respecting the system constraints.
+
+
+In the report "Net Zero by 2050″ (IEA, 2021), the IEA details the changes required in the global economy and energy system to reduce net carbon emissions from 36Gt CO2 (in 2020) to zero by 2050. The modelling approach used to generate the outcome is based on a hybrid of models that capture different sectoral impacts. The relative strengths of the World Economic Model (WEM) from IEA and the Energy Technology Perspectives (ETP) model are combined to derive insight on energy markets, investment levels, technologies to deploy, and the relevant policies needed to transform the energy sector transform under a Net Zero Emissions (NZE) scenario. Figure 4 is a depiction of the model architecture of the hybrid model utilized by the IEA in their work.
+
+
+Figure 4View largeDownload slideHybrid Model Architecture used to derive the IEA Pathway to NZE2050 (illustrated from IEA, 2021)Figure 4View largeDownload slideHybrid Model Architecture used to derive the IEA Pathway to NZE2050 (illustrated from IEA, 2021) Close modal
+
+
+Under the NZE scenario, the IEA projects that oil demand declines almost 75% between 2020 and 2050 – from 88 MMbbls/day in 2020 to 24 MMbbls/day in 2050. This demand profile is correspondingly the oil supply expected as the IEA explains that continued investment in existing supply sources is required. However, exploration for new supply sources is not required and, no new oil fields are necessary other than projects already approved for development (IEA, 2021). With no new investments, oil supply is forecast to decline an average of 4.5% per annum from 2020 to 2050. For OPEC as a block, this average decline is expected to be 3.3% per annum from 33 MMbbls/day (2020) to 13 MMbbls/day (2050).
+
+
+Forecast Nigeria Oil Production
+
+
+A review of the literature and policy translation of oil production forecasts has shown that the initial oil depletion models which relied only on geophysical considerations and historical production and mathematically tractable functions have had a poor performance record. While the models have evolved over time to incorporate more economic factors into their formulation, criticsms still remain as to the absence of key above ground political risks and how best to specify these geopolitical factors for model formulation. A comparison of Nigeria's oil production forecasts from several sources against the actual production over the time horizon captures the variance between forecasts and actual.
+
+
+The comparison shows actual production trajectory against forecasts made by different authors. Ikwan et. al. (2017) simulates forecasts under four different scenarios; however, one is represented in Figure 5–Ikwan et. al. (2017)b is the "Passive Growth Path". Judging from the actual and forecast trajectories by visual inspection, the projection made by Alalade (2016) appears to track the actual production path closest while the projection from Al-Bisharah (2009) is widely off the mark. Note that the other forecast that seems to have tracked reality closest in the 15-year period is that of Iledare and Pulsipher (2000). This is noteworthy given that the other forecasts in the chart are relatively recent projections
+
+
+Focus on the forecast paths for Nigeria is shown in Figure 6 and includes forecast from the IEA NZE 2050 scenario.
+
+
+Figure 5View largeDownload slidePerformance of Actual and Forecast Production (Nigeria) by Different Sources.Figure 5View largeDownload slidePerformance of Actual and Forecast Production (Nigeria) by Different Sources. Close modal
+
+
+Figure 6View largeDownload slideForecast Nigeria's Production from Different SourcesFigure 6View largeDownload slideForecast Nigeria's Production from Different Sources Close modal
+
+
+The production forecasts indicate an oil production by 2034 of between 609 Mbbl/day (Alalade, 2016) and 1,860 Mbbl/day (Ikwan, et. al., 2016 – Passive growth scenario). According to the IEA Net Zero projections, it is estimated that Nigeria's production by 2034 should be 1,110 Mbbls/day which should decline to 655 Mbbls/day by 2050. This estimate is based on the 3.3% decline for OPEC, which is also applied to the Nigeria production profile on the assumption of Nigeria's continued membership of OPEC and that her contribution to OPEC production is stable.
+
+
+There is convergence that the rapid transition away from fossil fuels is critical to achieving a sub-2°C world. However, a key concern is to accomplish a "just transition" which is to limit the global temperature rise while minimizing the revenue (and socio-economic) impact of declining production on oil dependent developing countries (Solano-Rodríguez et. al., 2021; Huxham et. al., 2019; Bradley et. al., 2018). Pye et. al. (2021) demonstrated through their modelling effort that large economic disincentives are required to shift production to oil-dependent, developing countries. Consequently, the potential benefits of an equitable redistribution of future oil production, which allows oil-dependent developing countries to produce a higher share of declining oil production to stay within a given carbon budget, may be exaggerated.
+
+
+With the perspective above, a model of Nigeria's production forecast which follows a path to achieve global emissions targets is pursued. This assumes that Nigeria, as an oil-dependent developing country will not have any more headroom for production outside of projections to meet emissions targets. More broadly, this modeling approach inherently admits the economics of substitution with alternatives to conventional petroleum thus acknowledging the economic and environmental impacts of the transition. Also captured is a production forecast for Nigeria using an econometric model like Alalade, 2016; Kemp and Kassim, 2003; Al-Sahlawi, 1986. Oil production is expressed as a function of oil price and OPEC production (Iledare & Pulsipher, 2000). The EIA Annual Energy Outlook 2021 indicates that oil prices remain the most significant determining factor in oil production, consequently if oil prices were to rapidly rise, then oil production would follow suit. Consequently, the functional form used is:
+
+
+In(QtNG)=k+AIn(QtOPEG)+BIn(PtO)4
+
+
+Where:
+
+
+QtNG is the oil production from Nigeria (MMbbls)
+
+
+QtOPEG is the oil production from OPEC (MMbbls)
+
+
+PtO is the price of oil in RT2019 ($/bbl)
+
+
+The trend is seen in Figure 7 
+
+
+Figure 7View largeDownload slideOil Production and Price Trends (1965 = 100)Figure 7View largeDownload slideOil Production and Price Trends (1965 = 100) Close modal
+
+
+The descriptive statistics of the data is shown in Table 4:
+
+
+Table 4Descriptive Statistics of Data for Production Forecast Model using the observations 1961 - 2018 Variable
+            . QtNG,MMbbls
+            . QtOPEC,MMbbls
+            . PtO,$/bbl,RT2019
+            . Mean 613.09 9957.90 51.73 Median 691.63 10356.00 40.93 Minimum 16.80 5003.70 11.85 Maximum 918.97 13797.00 126.45 Std. Dev. 261.74 2514.40 33.73 C.V. 0.43 0.25 0.65 Skewness −1.15 −0.26 0.72 Ex. kurtosis 0.19 −1.00 −0.57 5% Perc. 27.75 5685.90 13.20 95% Perc. 896.79 13729.00 119.50 IQ range 297.51 4374.10 47.18 Missing obs. 0 4 0 Variable
+            . QtNG,MMbbls
+            . QtOPEC,MMbbls
+            . PtO,$/bbl,RT2019
+            . Mean 613.09 9957.90 51.73 Median 691.63 10356.00 40.93 Minimum 16.80 5003.70 11.85 Maximum 918.97 13797.00 126.45 Std. Dev. 261.74 2514.40 33.73 C.V. 0.43 0.25 0.65 Skewness −1.15 −0.26 0.72 Ex. kurtosis 0.19 −1.00 −0.57 5% Perc. 27.75 5685.90 13.20 95% Perc. 896.79 13729.00 119.50 IQ range 297.51 4374.10 47.18 Missing obs. 0 4 0 View Large
+
+
+Table 5OLS, using observations 1965-2018 (T = 54) Dependent variable:In(QtNG)
+            . 
+            . Coefficient
+            . Std. Error
+            . t-ratio
+            . p-value
+            . 
+            . k −5.97115 1.80707 −3.304 0.0017 *** A 1.23797 0.211071 5.865 <0.0001 *** B 0.262861 0.0848691 3.097 0.0032 *** Dependent variable:In(QtNG)
+            . 
+            . Coefficient
+            . Std. Error
+            . t-ratio
+            . p-value
+            . 
+            . k −5.97115 1.80707 −3.304 0.0017 *** A 1.23797 0.211071 5.865 <0.0001 *** B 0.262861 0.0848691 3.097 0.0032 *** Mean dependent var 6.378073 S.D. dependent var 0.585003 Sum squared resid 7.133662 S.E. of regression 0.374000 R-squared 0.606704 Adjusted R-squared 0.591280 F(2, 51) 39.33658 P-value(F) 4.63e-11 Log-likelihood −21.97038 Akaike criterion 49.94076 Schwarz criterion 55.90771 Hannan-Quinn 52.24198 rho 0.733835 Durbin-Watson 0.477904 Mean dependent var 6.378073 S.D. dependent var 0.585003 Sum squared resid 7.133662 S.E. of regression 0.374000 R-squared 0.606704 Adjusted R-squared 0.591280 F(2, 51) 39.33658 P-value(F) 4.63e-11 Log-likelihood −21.97038 Akaike criterion 49.94076 Schwarz criterion 55.90771 Hannan-Quinn 52.24198 rho 0.733835 Durbin-Watson 0.477904 View Large
+
+
+In(QtNG)=−5.97115+1.23797In(QtOPEG)+0.262861In(PTO)5
+
+
+The resulting model indicates that OPEC production exerts more influence on Nigeria's production than oil price. Specifically, a 10% rise in OPEC production will translate to a 12.4% increase in Nigeria production compared to a 2.6% increase in Nigeria production occasioned by a 10% oil price increase. Using the oil price profile for NZE as contained in the IEA report as well as three OPEC production profiles as per the IEF comparison report 2020, a forecast of Nigeria's production is prepared as per Table 6.
+
+
+Table 6Forecast of Nigeria's Oil Production Year
+            . Oil Price
+            . OPEC Oil Prod-SDS1
+            . OPEC Oil Prod-STEPS2
+            . OPEC Oil Prod-Ref3
+            . NG Oil Prod-SDS
+            . NG Oil Prod-STEPS
+            . NG Oil Prod-Ref
+            . 
+            . $/bbl (RT2019)
+            . (MMbbls)
+            . (MMbbls)
+            . (MMbbls)
+            . (MMbbls)
+            . (MMbbls)
+            . (MMbbls)
+            . 2020 37.70 10,676 10,751 10,772 643 649 650 2025 35.55 10,412 10,859 10,990 614 647 656 2030 33.40 10,155 10,968 11,212 585 644 662 2035 31.25 9,904 11,078 11,438 558 641 667 2040 29.10 9,660 11,190 11,670 531 637 671 Year
+            . Oil Price
+            . OPEC Oil Prod-SDS1
+            . OPEC Oil Prod-STEPS2
+            . OPEC Oil Prod-Ref3
+            . NG Oil Prod-SDS
+            . NG Oil Prod-STEPS
+            . NG Oil Prod-Ref
+            . 
+            . $/bbl (RT2019)
+            . (MMbbls)
+            . (MMbbls)
+            . (MMbbls)
+            . (MMbbls)
+            . (MMbbls)
+            . (MMbbls)
+            . 2020 37.70 10,676 10,751 10,772 643 649 650 2025 35.55 10,412 10,859 10,990 614 647 656 2030 33.40 10,155 10,968 11,212 585 644 662 2035 31.25 9,904 11,078 11,438 558 641 667 2040 29.10 9,660 11,190 11,670 531 637 671 1SDS is Sustainable Development Scenario under which key energy related United Nations Sustainable Development Goals related to universal energy access and global net zero emissions by 2070 are reached. OPEC production declines by 0.50% per annum (IEF, 2020)2STEPS is the Stated Policies Scenario, which reflects current policy settings based on a sector-by-sector assessment. This sees OPEC production grow by 0.20% per annum (IEF, 2020)3Ref is the OPEC own reference production profile which sees OPEC production grow by 0.40% annually (IEF, 2020)View Large
+
+
+By combining our econometric model with outlook for oil prices under the NZE scenario and OPEC production under different policy scenarios, Nigeria's forecast production by 2040 ranges from 531 MMbbls (1.45 MMbbls/day) to 671 MMbbls (1.84 MMbbls/day). This approach assumes that Nigeria's production is tied to that of OPEC, it further assumes that the oil price trajectory for NZE scenario applies and that the oil price has accounted for global demand-supply balance, price of energy alternatives, and the price of carbon. Figure 8 shows the historical production trajectory and the forecast path.
+
+
+Figure 8View largeDownload slideHistorical and Forecast Nigeria Oil ProductionFigure 8View largeDownload slideHistorical and Forecast Nigeria Oil Production Close modal
+
+
+It is only under the Reference case (OPEC reference) that Nigeria's production in 2040 is 3.2% higher than in 2020. Under the SDS and STEPS scenarios, production in 2040 is 17.5% and 1.8%, respectively below 2020 levels.
+
+
+Conclusion
+
+
+Oil supply modelling is very critical to oil field management, national resource planning and business strategy development. The literature in this regard has been shown as an area that has evolved over time to address various shortcomings identified in its application. Despite these shortcomings, and very large differences between forecasts and eventual production, oil supply modelling remains important to create frameworks within which to manage oil production, as well as the value and risks created therefrom.
+
+
+In this paper, a review of the literature on oil supply modelling has been conducted for the purpose of developing forecasts for modelling the optimal allocation of crude oil production in Nigeria. Additionally, the context of the global energy transition has been admitted to moderate forecasts of oil production from Nigeria. A multivariable regression model was developed to forecast Nigeria's oil production, following which the relevant oil price and OPEC production required to achieve the targets to curtail carbon emissions consistent with energy transition are input. By combining the model in this paper with the model outputs of the IEA, three possible production paths are defined for Nigeria into 2040 under the dynamics of the global energy transition. Across the three paths, production by 2040 ranges from 531 MMbbls (1.45 MMbbls/day), which is 17.5% below 2020 level to 671 MMbbls (1.84 MMbbls/day) which is 3.2% above 2020 level.
+
+
+The implications of this outcome include the possibility of declining or reduced revenues to government compared to oil revenue in 2020 ceteris paribus. It is observed that even under OPEC reference profile (which is OPEC's own view of its production outlook), Nigeria's production only reaches 1.84 MMbbls/day in 2040, which is not significantly different from the current production capacity. Furthermore, under certain product demand scenarios combined with a modest rise in upstream oil production (at best under the considered scenarios), the possibility of importing crude oil for a refining system of at least 1 MMbbls/day (which will include 650 Mbbls/day Dangote refinery, 445 Mbbls/day NNPC and other upcoming refineries) may become more probable. This possibility of crude oil import instead of refined product import throws up new economic and geopolitical dynamics. While there are views expressed about needed increased global fossil fuel production in forthcoming years, even against the warnings of breaching the 1.5°C limit, what our analysis provides is a lense with which to assess Nigeria's energy system and determine our optimum strategic allocation choices.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Adegbulugbe, A. O., Dayo, F., Gurtler, T., 1989, Optimal Structure of the Nigerian Energy Supply Mix, The Energy Journal, Volume 10, issue Number 2, 165–176. Assessed 1st August 2021 fromhttp://www.iaee.org/en/publications/ejarticle.aspx?id=1948Google ScholarCrossrefSearch ADS  Al-Bisharah, M., Al-FattahS., Nashawi, I. S., MalallahA., 2009, Forecasting OPEC Crude Oil Supply (SPE 120350), presented at the 2009 SPE Middle East Oil & Gas Show and Conference held in the Bahrain International Exhibition Centre, Kingdom of Bahrain, 15–18 March 2009Google Scholar Al-Fattah, S., Startzman, R. A., 2001, Predicting Natural Gas Production Using Artificial Neural Network. paper prepared for presentation at the 2001 SPE Hydrocarbon Economics and Evaluation Symposium, SPE 68593. At Dallas, TX, 2-3 April. Assessed 6th February 2022 fromhttps://www.researchgate.net/publication/261697475_Predicting_Natural_Gas_Production_Using_Artificial_Neural_NetworkGoogle Scholar Beck, C., Rashidbeigi, S., Roelofsen, O., and Speelman, E., 2020, The future is now: How oil and gas companies can decarbonize, published by McKinsey Oil and Gas Practice. Assessed 24th January 2022 fromhttps://www.mckinsey.com/industries/oil-and-gas/our-insights/the-future-is-now-how-oil-and-gas-companies-can-decarbonize#Google Scholar Blitzer, C. R., Eckaus, R. S., LahiriS., 1989, An Economy Wide Energy Policy Model for Egypt, Working Paper No. 530, Energy Laboratory, Center for Energy Policy Research, Massachusetts Institute of Technology. Assessed 3rd November 2020 fromhttps://www.researchgate.net/publication/5176904_An_economy_wide_energy_model_for_EgyptGoogle ScholarCrossrefSearch ADS  Bohra, M. A., 2020, Optimising Qatar's Energy Transition Through Model-Based Analysis, PhD thesisImperial College London. Assessed fromhttps://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.819044on 17th July 2021Google Scholar BrandtA. R., 2010, Review of mathematical models of future oil supply: Historical overview and synthesizing critique, Energy35 (2010) 3958e3974Google Scholar Chavez-Rodriguez, M. F., Szklo, A., Pereira de Lucena, A. F., and Tiago, S., 2013, Forecasting Oil Production in Peru Using a Hubbert Approach, Presented at the 4th ELAEE, April 8-9, 2013 - Montevideo – Uruguay. AssessedGoogle Scholar Energy Information Administration, 2021, Today in Energy: Annual U.S. natural gas production decreased by 1% in 2020, Accessed 6th February 2022 fromhttps://www.eia.gov/todayinenergy/detail.php?id=46956#:~:text=U.S.%20natural%20gas%20production%E2%80%94as,and%20oil%20prices%20in%202020.&text=By%20December%202020%2C%20natural%20gas,increased%20to%20113.0%20Bcf%2Fd.Hubbert, M. K., 1956, Nuclear energy and the fossil fuels, Presented at: Meeting of the Southern District, Division of Production, American Petroleum Institute. San Antonio, Texas: Shell Development Company. Assessed 8th January 2021 fromhttp://www.energycrisis.com/Hubbert/1956/1956.pdfGoogle Scholar Huxham, M., Anwar, M., Nelson, D., 2019, Understanding the impact of a low carbon transition on South Africa. Climate Policy Initiative. Assessed 19th January 2022 fromhttps://climatepolicyinitiative.org/wp-content/uploads/2019/03/CPI-EF-Understanding-the-impact-of-a-low-carbon-transition-on-South-Africa-2019.pdfGoogle Scholar Bradley, S., Lahn, G., Pye, S., 2018, Carbon Risk and Resilience: How Energy Transition is Changing the Prospects for Developing Countries with Fossil Fuels. Assessed 19th January 2022 fromhttps://www.chathamhouse.org/publication/carbon-risk-resilience-how-energy-transition-changing-prospects-countries-fossil.Google Scholar BrandtA. R., 2007, Testing Hubbert, Energy Policy, Elsevier, vol. 35(5), pages 3074–3088. https://doi.org/10.1016/j.enpol.2006.11.004Google ScholarCrossrefSearch ADS  BrandtA. R., 2009, UKERC Review of Evidence for Global Oil Depletion Technical Report 6: Methods of forecasting future oil supply, published by UK Energy Research Centre, REF UKERC/WP/TPA/2009/021Google Scholar IEF, 2020, 11th IEA IEF OPEC Symposium on Energy Outlooks, prepared by the International Energy Forum in collaboration with Resources for the Future. Assessed 25th November 2021 fromhttps://www.ief.org/events/11th-iea-ief-opec-symposium-on-energy-outlooksIkwan, U., Iledare, O., Ajienka, J., Dosunmu, A., 2018, System Dynamic Modelling for Forecasting Crude Oil Reserves and Production Capacity: A Case Study of Nigeria (SPE – 193463 – MS), presented at the Nigeria Annual International Conference and Exhibitionv held in Lagos, Nigeria, 6–8 August 2018Google Scholar Iledare, O. O., & Pulsipher, A. G., 2000, Forecasting the ultimate oil recovery and its rate of depletion in Nigeria's Niger Delta Basin. Pacific and Asian Journal of Energy10(2): 185–200.Google Scholar IPCC, 2018: Global Warming of 1.5°C.An IPCC Special Report on the impacts of global warming of 1.5°C above pre-industrial levels and related global greenhouse gas emission pathways, in the context of strengthening the global response to the threat of climate change, sustainable development, and efforts to eradicate poverty [Masson-Delmotte, V., P.Zhai, H.-O.Pörtner, D.Roberts, J.Skea, P.R.Shukla, A.Pirani, W.Moufouma-Okia, C.Péan, R.Pidcock, S.Connors, J.B.R.Matthews, Y.Chen, X.Zhou, M.I.Gomis, E.Lonnoy, T.Maycock, M.Tignor, and T.Waterfield(eds.)]. In Press.Google Scholar Kingsley-Akpara, C., Iledare, O., 2014, Modeling Crude Oil Production Outlook: A Case Study of the Oil and Gas Industry in Nigeria (SPE 172381), presented at the Nigeria Annual International Conference and Exhibition held in Lagos, Nigeria, 5–7 August 2014Google Scholar MillerR.G., SorrellS.R., 2014, The future of oil supply. Phil. Trans. Soc R. A372: 20130179. http://dx.doi.org/10.1098/rsta.2013.0179Google ScholarCrossrefSearch ADS  Obite, C. P., Chukwu, A., Bartholomew, D. C., NwosuU. I., Esiaba, G. E., 2021, Classical and machine learning modeling of crude oil production in Nigeria: Identification of an eminent model for application, Energy Reports7 (2021) 3497–3505, https://doi.org/10.1016/j.egyr.2021.06.005Google ScholarCrossrefSearch ADS  Pye, S., Bradley, S., Hughes, N., Price, J., Welsby, D., & Ekins, P., 2020, An equitable redistribution of unburnable carbon, Nature Communications, (2020) 11:3968, https://doi.org/10.1038/s41467-020-17679-3Google ScholarCrossrefSearch ADS PubMed SalehiM., Goorkani, M. M., 2017, Optimum allocation of Iranian oil and gas resources using multi-objective linear programming and particle swam optimization in resistive economy conditions, Journal of Industrial and Systems Engineering, Vol. 10, No. 4, pp. 43–68, Autumn (November) 2017.Google Scholar Smith, A. L., LidskyB. J., JohnS.Herold, Inc., 1993, King M. Hubbert's Analysis Revisited—An Update of the Lower 48 Oil and Gas Resource Base, The Leading Edge12: 1082–1086. https://doi.org/10.1190/1.1436924.Google ScholarCrossrefSearch ADS  Solano-Rodríguez, B., Pye, S., LiP., Ekins, P., Manzano, O., Vogt-Schilb, A., 2021, Implications of climate targets on oil production and fiscal revenues in Latin America and the Caribbean, Energy and Climate Change2 (2021) 100037, https://doi.org/10.1016/j.egycc.2021.100037Google Scholar Tharwat, A.A., Saleh, M.M., Ali, D.S., 2007, An Optimization Energy Model for Egypt, The 42nd Annual Conference on Statistics, Computer Sciences and Operation Research: The Institute of Statistical Studies and Research., pp. 206–224, 2007. Assessed 31st March 2021 fromhttps://www.researchgate.net/publication/258237855_An_Optimization_Energy_Model_for_EgyptGoogle Scholar Welsby, D., PriceJ., Pye, S., & Ekins, P.,2021, Figure data and model used in Unextractable fossil fuels in a 1.5°C world. Zenodo. https://doi.org/10.5281/zenodo.5118971Google Scholar Welsby, D., PriceJ., Pye, S., & Ekins, P.,2021, Unextractable fossil fuels in a 1.5 °C world, Nature, Vol 597, 9September2021, https://doi.org/10.1038/s41586-021-03821-8Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211967-MS
+
+
+

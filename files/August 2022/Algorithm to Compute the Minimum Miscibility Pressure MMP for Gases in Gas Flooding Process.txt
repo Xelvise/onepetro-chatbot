@@ -1,0 +1,506 @@
+----- METADATA START -----
+Title: Algorithm to Compute the Minimum Miscibility Pressure (MMP) for Gases in Gas Flooding Process
+Authors: Elohor Diamond Akpobi, Efeosa Praise Oboh
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211973-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Enhanced oil recovery (EOR) is important to the petroleum industry mostly because it is used to improve oil recovery. Miscible gas flooding, a type of EOR process that is proven and economically viable can significantly increase oil recovery from reservoirs. In this study, the minimum miscibility pressure (MMP) in gas floods for different gases were computed using empirical correlations (Glaso correlation for hydrocarbon gas injection, Emera, Yuan et al and Glaso correlation for pure carbon dioxide gas injection, Sebastin and Yuan correlation for impure carbon dioxide correlations and Glaso, Firoozabadi and Aziz correlations for nitrogen gas injection). An efficient computer program was developed using visual basic programing language. Employing its highly versatile features, friendly graphical user interface (GUI) forms were designed and robust codes were developed. Validation was done for the program and results showed that the software which was developed had acceptable level of accuracy, was fast and effective. The study provides a new and cost effective way of checking for MMP which will enhance the process of screening gas flooding processes for the reservoir.
+
+
+
+
+Keywords:
+clojure,
+enhanced recovery,
+upstream oil & gas,
+artificial intelligence,
+gas injection method,
+cobol,
+chemical flooding methods,
+programming language,
+correlation,
+mmp
+
+
+Subjects: 
+Improved and Enhanced Recovery,
+Gas-injection methods,
+Chemical flooding methods
+
+
+
+
+INTRODUCTION
+
+
+Enhanced oil recovery (EOR) process involves the injection of fluids into the reservoir which interacts with the system and encourages the displacement of oil to the producing well. (Lake et al., 2014; Jin, 2017; Green et al., 2018; Fanchi, 2018). There are different types of EOR processes employed in the industry and still being researched on (Delamaide et al., 2014; Rao, 2001; Sen, 2008; Taber et al., 1997; Thomas, 2006). Gas injection or gas flooding process is a method of EOR that uses gas (natural gas, nitrogen(N2) or carbon dioxide(CO2)) that expands in a reservoir to displace additional oil to the producing well (Nnaemeka, 2010).There are the miscible and immiscible gas flooding process. Miscible gas flooding is more effective in increasing recovery factor (RF) due to the presence of capillary forces in the immiscible case (Farajzadeh et al., 2010; El-hoshoudy and Desouky, 2018; Mashayekhi et al., 2018).
+
+
+Minimum miscibility pressure (MMP) is the lowest pressure for which a gas can develop miscibility through a multi-contact process within a given reservoir oil at reservoir temperature. Miscibility displacement can only be achieved at pressures greater than this minimum (Moudi et al., 2009; Barati-Harooni et al., 2019). The main factors affecting MMP are: reservoir temperature, oil composition and injected gas purity (Emera and Serma, 2007). Two processes commonly used to develop miscibility during gas injection are first contact miscibility (FCM) and multi-contact miscibility (MCM). The MMP can be determined either by laboratory experiments or numerical studies. (Mansour et al., 2016; Vahid, 2021; Feng et al, 2017). Empirical correlations used for the prediction of MMP in reservoir oils with various types of gas injection provide quick estimates useful during the screening (early stages) of various gas injection processes for the reservoir. Correlations can provide preliminary evaluation and can also be used to verify other method of evaluation, it is suitable for fields with limited amount of data (Leonid et al., 2010; Eakin and Mitchell, 1988).This can also be a limitation as they are unable to capture all the variations in the MMP with regards to the physical aspects. (Karkevandi-Talkhooncheh et al., 2017). As a result, there is room to work on more generalized and robust approaches to develop universally applicable models/correlations, hence is an open area of research. (Barati-Harooni et al., 2019; Kamari et al., 2015; Mollaiy-Berneti, 2016); Chen et al., 2014; Huang et al., 2003; Sayyad et al., 2014; Shokrollahi et al., 2013; Tatar et al., 2013; Zhong and Carr, 2016). Robert et al. (1988) pointed out that any correlation should:
+
+
+account for each parameter known to affect the MMP, i.e. temperature, composition of the displacing and displaced fluid;be based on thermodynamic or physical principles that affect the miscibility of fluids, and finally;be directly related to the multiple contact miscibility process.
+
+
+MMP computation using empirical correlations can be tedious, slow and prone to errors when handled manually. Hence a computerized process is needed just like the many petroleum engineering softwares including those used in EOR processes which has made computations, simulation, prediction and interpretation of data to be fast and efficient. These software written using programming languages like Java, C++, Python and Visual Basic are expensive and not readily available (licensed). Visual Basic is modern, general purpose and object oriented (Dietel et al., 2014). It's easy to learn and has a very simple structure, hence it has been employed in solving problems in reservoir engineering (Akpobi and Ebojoh, 2020).
+
+
+This study aims to develop an efficient algorithm to evaluate the MMP of gases used in miscible gas flooding process. Its objectives are to present relevant mathematical equations (correlations), develop a pseudocode and design a simplified flowchart. Also to design forms (GUI) for input and output and develop efficient codes in order to provide an easy, fast and cheap computerized process that has acceptable level of accuracy.
+
+
+METHODOLOGY
+
+
+Methods used in developing the software are outlined in the following sections
+
+
+Mathematical Equations
+
+
+The correlation used in developing the program were for hydrocarbon gas / oil system, nitrogen gas, pure carbon dioxide gas and impure carbon dioxide gas. The empirical correlations used were selected on the basis of accuracy and simplicity (Nnaemeka, 2010)
+
+
+Hydrocarbon Gas/Oil Systems)
+
+
+Glaso correlations (Glaso, 1985) for predicting MMP for hydrocarbon gas/oil systems are as follows
+
+
+MMPx=34=6329.0−25.410y−z(46.745−0.185y)+T(1.127×10−12y5.258e319.8zy−1.703)(1)
+
+
+MMPx=44=5503.0−19.238y−z(80.913−0.273y)+T(1.700×10−9ye3.73013.567zy−1.058)(2)
+
+
+MMPx=54=7437.0−25.703y−z(73.515−0.214y)+T(4.920×10−14y5.520e21.706zy−1.109)(3)
+
+
+Where:
+
+
+MMP = Minimum miscibility pressure in psig;
+
+
+ x = Molecular weight of C2 through C6 in the injection gas in lbm/lb-mole;
+
+
+ y = Corrected molecular weight of C7+ in the stock-tank oil,
+
+
+ z = Methane in injection gas in mole percent;
+
+
+T = Reservoir temperature in °F.
+
+
+Nitrogen Gas Injection
+
+
+Nitrogen gas (N2) is available, cheap and can be combined with other gases in varying proportion for gas flooding process. Numerous correlations are available for computing its MMP. Glaso MMP correlations for nitrogen gas injection (Glaso, 1985) is given as:
+
+
+For molecular weight of C7+>160, mole percent of intermediates >28, the correlation to use is
+
+
+MMP=6364.0−12.090MC7++T(1.127×10−12MC7+5.258e23,025.0MC7+−1.703−20.80)(4)
+
+
+For molecular weight of C7+>160 and mole percent of intermediates >28, the correlation to use is:
+
+
+MMP=7695.1−12.090MC7++T(1.127×10−12MC7+5.258e23,025.0MC7+−1.703−39.77)(5)
+
+
+If the mole percent of intermediates <28, the correlation to use is:
+
+
+MMP=9364.0−12.090MC7++T(1.127×10−12MC7+5.258e23,025.0MC7+−1.703−20.80)−99.3C2−6(6)
+
+
+Where:
+
+
+MC7+ = molecular weight of the C7+ in the stock-tank oil in lbm/lb-mole;
+
+
+C2-6 = mole percent of the intermediates (C2 through C6) in the reservoir oil.
+
+
+Firoozabadi and Aziz Correlation
+
+
+The Firoozabadi and Aziz correlation (Firoozabadi and Aziz, 1986) for prediction of MMP for nitrogen or lean gas injection is:
+
+
+MMP=9433−188×103(C2−5MC7+T0.25)+1430×103(C2−5MC7+T0.25)2(7)
+
+
+MMP = Minimum miscibility pressure in psia;
+
+
+MC7+ = Molecular weight of C7+ in lbm/lb-mole;
+
+
+C2-5 = Mole percent of C2 through C5 including CO2 and H2S in the reservoir fluid;
+
+
+CO2 Gas Injection
+
+
+Research showed that CO2 is a better candidate for gas flooding because it possesses the ability to develop multi-contact miscibility (MCM) with oils at lower pressures than Nitrogen, also an important source of greenhouse gas emissions which needs to be reduced from the environment (Gozalpour et al., 2005; Dindonuk et al, 2020 and 1997; Heidary et al 2016]. Robert et al. (1988), gave a list of many correlations that have been used in computing for MMP of CO2. Important parameters that could influence the MMP include temperature, oil composition and the contaminants present in the CO2.
+
+
+Pure Carbon Dioxide Gas Injection
+
+
+Correlations selected for the computation of MMP for impure CO2 were the Glaso correlation, Emera and Sarma correlation, and the Yuan Correlation.
+
+
+Glaso Correlation
+
+
+For mole composition of C2 through C6 greater >18%, the Glaso correlation (Glaso, 1985) is
+
+
+MMPpure=810.0−3.404MC7++T(1.700×10−9MC7+3.730e786.8MC7+−1.058)(8)
+
+
+For mole composition of C2 through C6 < than 18%, the Glasø correlation is
+
+
+MMPpure=2947.9−3.404MC7++T(1.700×10−9MC7+3.730e786.8MC7+−1.058)−121.2C2−6(9)
+
+
+Emera Correlation
+
+
+The Emera Correlation (Emera and Serma, 2005) for pure CO2 Injection is represented as:
+
+
+MMPpure=5.0093×10−5×(1.8T+32)1.164×MC5+1.2785×(CC1+N2CC2−4+H2S+CO2)0.1073(10)
+
+
+If the bubble pressure (Pb) < 50 psi, the Emera correlation for pure injection becomes:
+
+
+MMPpure=5.0093×10−5×(1.8T+32)1.164×MC5+1.2785(11)
+
+
+Where:
+
+
+MMPpure= Minimum miscibility pressure for pure CO2 in MPa;
+
+
+MC5+ = Molecular weight of the C5+ in the stock-tank oil in lbm/lb-mole;
+
+
+CC1+N2= mole fraction of the volatiles (C1 and N2) in the reservoir oil;
+
+
+CC2−4+H2S+CO2= Mole fraction of the intermediates (C2, C3, C4, H2S, and CO2) in the oil.
+
+
+Yuan Correlation for Pure CO2 Injection Gas
+
+
+Yuan correlation (Yuan et al., 2005) is given as
+
+
+MMPpure=a1+a2MC7++a3pc2−6+(a4+a5Mc7++a6Pc2−6M2cc7+)T+(a7+a8Mc7++a9M2c7++a10Pc2−6)T2(12)
+
+
+Where a1= −1.4364E+03; a2=0.6612E+01; a3= -4.4979+01; a4= 0.2139 E+ 01; a5= 1.1667 E-01; a6= 8.1661 E+03; a7=−1.2258 E-01; a8=1.2883 E-03; a9= −4.0152 E-06; a10= −9.2577 E- 04
+
+
+PC2-6 = mole percent of C2 to C6,
+
+
+Impure Carbon Dioxide Gas Injection
+
+
+Correlation considered were Sebastin and Yuan Correlation (Sebastin et al, 1985, Yuan et al, 2005)
+
+
+Sebastin Correlation for Impure CO2
+
+
+T−CM=∑ixiTci(13)
+
+
+MMPimpureMMPpure=1.0−2.13×10−2(T−CM−304.2)+2.51×10−4(T−CM−304.2)2(14)
+
+
+Yuan Correlation
+
+
+MMPimpureMMPpure=1+m(PCO2 −100)(15)
+
+
+Where
+
+
+m=a1+a2MC7++a3pc2−6+(a4+a5Mc7++a6Pc2−6M2cc7+)T+(a7+a8Mc7++a9M2c7++a10Pc2−6)T2(16)
+
+
+Where a1= −6.5996E-02; a2=−1.5246-04; a3= 1.3807-03; a4= 6.2384 E- 04; a5= −6.7725 E-07; a6= −2.7344 E-02; a7=−2.695 E-06; a8=1.7279 E-08; a9= −3.1436 E-11; a10= −1.9566 E- 08
+
+
+Software Design and Development
+
+
+The mathematical expressions for the empirical correlations in equations (1) - (16) were used to write most of the codes for the software. Employing the unique syntax that Visual Basic offers, efficient codes were developed as observed from the steps outlined in the pseudocode. The program has several forms each designed to achieve a specific objective. Figure 1 depicts a simplified flow chart for the program.
+
+
+Figure 1View largeDownload slideProgram's Flow ChartFigure 1View largeDownload slideProgram's Flow Chart Close modal
+
+
+The Design of Graphical User Interface (GUI Forms)
+
+
+The objective of the design of the form was for ease and simplicity. Several forms were designed for computation of MMP for hydrocarbon gas, nitrogen gas, pure carbon dioxide gas and impure carbon dioxide gas, using different correlation methods. The design was customized for each form via the property window and toolbox, it involves selection and placement of input and output labels, textboxes and control buttons. The programs opens with an introduction form page designed to give the user a summary of what the software can do as shown in Figure 2. Option of selecting the type of gas is also available. The other forms were designed each for a particular type of gas with different methods of computing for its MMP.
+
+
+Figure 2View largeDownload slideScreenshot of Welcome Page for the ProgramsFigure 2View largeDownload slideScreenshot of Welcome Page for the Programs Close modal
+
+
+The Output Window
+
+
+When the user inputs the correct parameters and clicks the calculate control button, the program computes and outputs the answer in the output section on the GUI at run time
+
+
+Program's Pseudocode
+
+
+The computer program were written following the step outlined in the pseudocode
+
+
+Start
+
+
+Select type of gas
+
+
+Hydrocarbon gasNitrogen gasImpure CO2 gasPure CO2
+
+
+Select method of computing MMP
+
+
+Hydrocarbon Gas
+
+
+Select Glaso correlation
+
+
+If Textbox1 to n .text is ( ) Then
+
+
+Input Parameters: X, z, Y, T
+
+
+Compute Mol at 1st 2nd and 3rd Point
+
+
+Compute MMP @ points
+
+
+If input Mol C2-C6 ≤ mol @1st point
+
+
+Call Function INTP.
+
+
+ElseIf input Mol C2-C6 > Mol @1st point
+
+
+Call Function EXPL,
+
+
+Compute MMP @ given Mol C2 - C6
+
+
+Else Msgbox.show ( )
+
+
+Output
+
+
+EndifEndif
+
+
+NITROGEN GAS
+
+
+Select correlation (Glaso / Firoozabadi)
+
+
+Input Mol % of C2-C5, T, MW C7+ in oil, PBP of oilCompute MMPOutput
+
+
+PURE CO2 GAS
+
+
+Select correlation (Emera / Glaso / Yuan.)
+
+
+If Textbox1 to n .text is ( ) Then
+
+
+Input Mol % of C1 in oil, T, MW of C5+_
+
+
+Compute MMP
+
+
+Else Msgbox.show ( )Endif
+
+
+Output
+
+
+IMPURE CO2 GAS
+
+
+Select Correlation (Sebastin / Yuan)
+
+
+If Textbox1 to n. text is ( ) Then
+
+
+Input parameters
+
+
+Initialize Correlation constants.
+
+
+Compute MMP
+
+
+Else Msgbox.show ( )Endif
+
+
+Output
+
+
+END
+
+
+RESULTS AND DISCUSSION
+
+
+Using data from Table 1, a demonstration of the program's efficiency was tested, for hydrocarbon gases using the Glaso correlation and for nitrogen gases using Glaso, Firoozabadi and Aziz Correlations, screenshot of the output form at runtime showed good results were obtained as depicted in Figure 3 and Figure 4.
+
+
+Table 1Examples for computation of MMP (Nnaemeka, 2011) Parameters
+            . Hydrocarbon Gas
+            . 
+            . Nitrogen gas
+            . Pure Co2
+            . Impure Co2
+            . Molecular Weight of C2–C6 lbm / lb-mole 32  27.17 24 23.62 Mole % of CH4 in injection gas Mixture 65.2  - 4.4 10 Molecular Weight of C7+, lbm / lb-mole 224  193.3 234 240 Molecular Weight C5+, lbm / lb-mole -  - 185 - Mole % of CO2 in Injection Gas -  - - 90 Temperature, °F 160  164 180 106 Bubble Point Pressure, Psi -  4000 - - Parameters
+            . Hydrocarbon Gas
+            . 
+            . Nitrogen gas
+            . Pure Co2
+            . Impure Co2
+            . Molecular Weight of C2–C6 lbm / lb-mole 32  27.17 24 23.62 Mole % of CH4 in injection gas Mixture 65.2  - 4.4 10 Molecular Weight of C7+, lbm / lb-mole 224  193.3 234 240 Molecular Weight C5+, lbm / lb-mole -  - 185 - Mole % of CO2 in Injection Gas -  - - 90 Temperature, °F 160  164 180 106 Bubble Point Pressure, Psi -  4000 - - View Large
+
+
+Figure 3View largeDownload slideScreenshot of Graphical User Interface for computing MMP for hydrocarbon gasesFigure 3View largeDownload slideScreenshot of Graphical User Interface for computing MMP for hydrocarbon gases Close modal
+
+
+Figure 4View largeDownload slideScreenshot of Graphical User Interface for computing MMP for Nitrogen gasFigure 4View largeDownload slideScreenshot of Graphical User Interface for computing MMP for Nitrogen gas Close modal
+
+
+Figure 5View largeDownload slideScreenshot of Graphical User Interface for computing MMP for pure CO2 gasesFigure 5View largeDownload slideScreenshot of Graphical User Interface for computing MMP for pure CO2 gases Close modal
+
+
+Computations of MMP for pure CO2 gases was done using Emera, Glaso and Yuan et al. correlations, while the MMP for impure CO2 was estimated using Sebastin and Yuan et al. correlation screenshot of output forms from Figure 6 Results gave an acceptable level of accuracy.
+
+
+Figure 6View largeDownload slideScreenshot of Graphical User Interface for computing MMP for impure CO2 gasesFigure 6View largeDownload slideScreenshot of Graphical User Interface for computing MMP for impure CO2 gases Close modal
+
+
+The programs has features that will prompt the user to input all parameters correctly before computing the MMP as shown in Figure 7.
+
+
+Figure 7View largeDownload slideScreenshot of program's featuresFigure 7View largeDownload slideScreenshot of program's features Close modal
+
+
+Validation
+
+
+Validation of this work was done by comparing results with literature (Vahid and Siavash, (2021) a study done using Mathlab) and manual computation. Results were obtained quickly and comparison could be made using other correlations. Acceptable level of accuracy was obtained as shown in Table 2 and Table 3 
+
+
+Table 2Validation of the Software Program with Manual Computation CORRELATION FOR CALCULATING MMP
+            . Manual Computation
+            . Software (This Study)
+            . % Error
+            . Glaso correlation for hydrocarbon gas injection 3536.70 3535.992 .0292 Emera correlation for pure carbon dioxide gas injection 12.900 12.717 1.439 Firoozabadi and Aziz correlation for nitrogen gas injection 4422. 30 4421.603 .0158 CORRELATION FOR CALCULATING MMP
+            . Manual Computation
+            . Software (This Study)
+            . % Error
+            . Glaso correlation for hydrocarbon gas injection 3536.70 3535.992 .0292 Emera correlation for pure carbon dioxide gas injection 12.900 12.717 1.439 Firoozabadi and Aziz correlation for nitrogen gas injection 4422. 30 4421.603 .0158 View Large
+
+
+Table 3Validation of the Software Program (Glaso Correlation for pure and impure CO2) T °F
+            . Mole % of CH4 in injection gas Mixture
+            . Molecular Weight of C2–C6 lbm / lb-mole
+            . Molecular Weight C5+, lbm / lb-mole
+            . Molecular Weight of C7+, lbm / lb-mole
+            . Software (This Study) MMP
+            . MATLAB (Vahid and Siavash, 2021)MMP
+            . % Error
+            . 103 28 30 200 223 1376.066 1376 0.00479 109 17 13 204 222 1450.403 1450 0.0278 T °F
+            . Mole % of CH4 in injection gas Mixture
+            . Molecular Weight of C2–C6 lbm / lb-mole
+            . Molecular Weight C5+, lbm / lb-mole
+            . Molecular Weight of C7+, lbm / lb-mole
+            . Software (This Study) MMP
+            . MATLAB (Vahid and Siavash, 2021)MMP
+            . % Error
+            . 103 28 30 200 223 1376.066 1376 0.00479 109 17 13 204 222 1450.403 1450 0.0278 View Large
+
+
+CONCLUSION
+
+
+In this study, an algorithm to compute MMP for gases used in gas flooding process was designed and developed using Visual Basic programming language. It can estimate MMP for hydrocarbon gas, nitrogen gas, pure and impure CO2 gas. Relevant mathematical equations (empirical correlations) were presented, pseudocode and flow chart were designed to outline the steps used for developing the program. Friendly graphical user interface forms were designed, which provided a virtual platform for inputs / output at runtime and efficient codes were developed. Numerous examples were used to demonstrate the efficiency of the program. Validation was done and the program's solutions were observed to have acceptable level of accuracy. The program developed in this study is flexible, can be updated and used as a learning tool for students. It has provided a new, cheap and fast means for checking for MMP in miscible gas flooding process which can aid the process of screening the reservoir for suitable gas flooding candidate.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+NOMENCLATURE
+
+
+NOMENCLATUREABBREVIATIONEXPANSION MMPminimum miscibility pressure C1methane C2ethane C4butane C5+pentane plus C6hexane C7+heptane plus EXPLextrapolation function INTPinterpolation function MWmolecular weight PBBubble point pressure H2Shydrogen sulphide gas
+
+
+ACKNOWLEDGMENTS
+
+
+Special thanks to all individuals and organizations that provided materials and facilities for this research.
+
+
+References
+
+
+Akpobi, E.D and EbojohE., 2020. Computer aided pressure transient analysis of a layered reservoir system with a constant pressure boundary. Int. Journal of Computational and Experimental Science and Engineering (IJCESEN)6, 35 DOI: 10.22399/ijcesen.619912Google Scholar Barati-Harooni, A., Najafi-Marghmaleki, A., Hoseinpour, S.-A., Tatar, A., Karkevandi-Talkhooncheh, A., HemmatiSarapardeh, A., Mohammadi, A.H., 2019. Estimation of minimum miscibility pressure (MMP) in enhanced oil recovery (EOR) process by N2 flooding using different computational scheme. Fuel235, 1455–1474. https://doi.org/10.1016/j.fuel.2018.08.066Google ScholarCrossrefSearch ADS  Chen, G., Fu, K., Liang, Z., Sema, T., Li, C., Tontiwachwuthikul, P., Idem, R., 2014. The genetic algorithm based back propagation neural network for MMP prediction in CO2-EOR process. Fuel126, 202–212. https://doi.org/10.1016/j.fuel.2014.02.034Google ScholarCrossrefSearch ADS  Delamaide, E., Bazin, B., Rousseau, D., Degre, G., 2014. Chemical EOR for Heavy Oil: The Canadian Experience, in: SPE EOR Conference at Oil and Gas West Asia. Society of Petroleum Engineers. https://doi.org/10.2118/169715-MSGoogle ScholarCrossrefSearch ADS  DietelP., DietelH. and DietelA., 2014. Visual basic 2012 How to Program 6th Ed. Pearson Education,Google Scholar Dindoruk, B., Johns, R.T., Orr, F.M.Jr., "Measurement of Minimum Miscibility Pressure: A State of the Art Review," SPE-200462, Presented at the 2020 SPE symposium on improved oil recovery, Tulsa, OK, April 2020. 23.EmeraM.K and SarmaH.K., 2007. Genetic Algorithm (GA)-Based Correlations Offer More Reliable Prediction of Minimum Miscibility Pressures (MMP) Between Reservoir Oil and CO2 or Flue Gas. Journal of Canadian petroleum technology46(8) 2007.pp 19–25Google ScholarCrossrefSearch ADS  Emera, M.K., and Sarma, H.K., 2005. Use of Genetic Algorithm to Estimate CO2-Oil Minimum Miscibility Pressure-A Key Parameter in Design of CO2 Miscible Flood. Journal of Petroleum Science & Engineering46(1), pp.37–52.Google Scholar Fanchi, J. R.2018Principles of Applied Reservoir Simulation. Gulf Professional Publishing, United Kingdom. Chapter 14.Google Scholar Farajzadeh, R., Andrianov, A., Zitha, P.L.J., 2010. Investigation of Immiscible and Miscible Foam for Enhancing Oil Recovery. Ind. Eng. Chem. Res. 49, 1910–1919. https://doi.org/10.1021/ie901109dGoogle ScholarCrossrefSearch ADS  FenpengL., ZhipingL., XiaoqingH.2017Improved Minimum Miscibility Correlation for CO2 flooding using various oil component and their effect. Journal of geophysical engineering14(2). pp 331–340Google Scholar Dindoruk, B., Orr, F. M.Jr, & Johns, R. T., 1997. Theory of multicontact miscible displacement with nitrogen. SPE Journal, 2(03), 268–279. 24.Google ScholarCrossrefSearch ADS  Eakin, B.E, and Mitch, F.J., 1988. Measurement and Correlation of Miscibility Pressures of Reservoir Oils. Paper SPE 18065 presented at the SPE Annual Technical Conference and Exhibition, Houston, Texas, October 2–5, 1988.Google Scholar El-hoshoudy, A.N., Desouky, S., 2018. CO2 Miscible Flooding for Enhanced Oil Recovery, in: Carbon Capture, Utilization and Sequestration. InTech. https://doi.org/10.5772/intechopen.79082Google Scholar Firoozabadi, A., and Aziz, K., 1986. Analysis and Correlation of Nitrogen and Lean-Gas Miscibility Pressure," SPERE (November) pp.575–582.Google Scholar Glaso, O.1985, "Generalized Minimum Miscibility Pressure Correlation" SPEJ (December pp. 927–934.Google Scholar Gozalpour, F., Ren, S.R., Tohidi, B., 2005. CO2 EOR and Storage in Oil Reservoir. Oil Gas Sci. Technol. 60, 537–546. https://doi.org/10.2516/ogst:2005036Google ScholarCrossrefSearch ADS  Green, D.W, Willhite, G.P.2018 "Enhanced Oil Recovery". SPE, United States. Chapter 6Google ScholarCrossrefSearch ADS  Heidary, S., Dehghan, A. A., & Zamanzadeh, S. M. (2016). A comparative study of the carbon dioxide and nitrogen minimum miscibility pressure determinations for an Iranian light oil sample. Energy Sources, Part A: Recovery, Utilization, and Environmental Effects, 38(15), 2217–2224.Google ScholarCrossrefSearch ADS  Jin. F.., HuX., HuS., HuangS., 2017. Principle of Enhanced oil Recovery. Physics of Petroleum Reservoir. Springer Mineralogy. https;//DOI.ORG/10.1007/978-3-662-53284-3_5Google Scholar Kamari, A., Arabloo, M., Shokrollahi, A., Gharagheizi, F., Mohammadi, A.H., 2015. Rapid method to estimate the minimum miscibility pressure (MMP) in live reservoir oil systems during CO2 flooding. Fuel153, 310–319. https://doi.org/10.1016/j.fuel.2015.02.087Google ScholarCrossrefSearch ADS  Karkevandi-Talkhooncheh, A., Hajirezaie, S., Hemmati-Sarapardeh, A., Husein, M.M., Karan, K., Lake, L.W., Johns, R., Rossen, B., Pope, G., 2014. Fundamentals of Enhanced Oil Recovery, 2nd. ed.Society of Petroleum Engineers.Google Scholar Leonid. M. S.Eva-Maria, RRomanA, B AntonA.S2010Improved oil recovery method applicability screening and potential evaluation .SPEPaper 134742 presented at Russian SPE oil and gas Technical conference exhibition held in Moscow, Oct 26th-28th 2010Google Scholar Mansour. E.M., Al Sabagh, A.M, D., Esouky, F.M, RamziM.R.2016, Experimental Approach to minimum miscibility pressure for Co2 Miscible Flooding :Application to Egyptian Oil FieldsInternational Journal of New Technology and Research2(5), pp105–112.Google Scholar Mashayekhi, L., Assareh, M., Kasiri, N., 2019. An Effective EOS Based Modeling Procedure for Minimum Miscibility Pressure in Miscible Gas Injection. J. Pet. Sci. Technol. 9, 70–88. https://doi.org/10.22078/jpst.2018.3270.1537Google Scholar Mollaiy-Berneti, S., 2016. Determination of minimum miscibility pressure in CO 2-IOR projects with the aid of hybrid neuro-fuzzy system. Fuel180, 59–70. https://doi.org/10.1016/j.fuel.2016.04.015Google Scholar MoudiA. A., OsamahA. and ElsharkawyA.2009Planning miscibility test and gas injection projects for four major Kuwaiti Reservoir SPE Paper 1257537 presented at the Kuwait petroleum Conference and Exhibition held in kuwiat14-16 December 2009Nnaemeka, E.2011, Petroleum Reservoir Engineering Practice. Pearson Education, Inc. ISBN 0-13-715283-3.Chapter17.Google Scholar Rao, D., 2001. Gas Injection EOR-A New Meaning in the New Millennium. J. Can. Pet. Technol. 40. https://doi.org/10.2118/01-02-DASGoogle ScholarCrossrefSearch ADS  RobertM. Enick, GeraldD. Holder, BadieI. Morsi, 1988, A Thermodynamic Correlation for the Minimum Miscibility Pressure in CO2 Flooding of Petroleum Reservoirs SPE reservoir Engineering3(01)81-92,Google Scholar Sayyad, H., Manshad, A.K., Rostami, H., 2014. Application of hybrid neural particle swarm optimization algorithm for prediction of MMP. Fuel116, 625–633. https://doi.org/10.1016/j.fuel.2013.08.076Google ScholarCrossrefSearch ADS  Sen, R., 2008. Biotechnology in petroleum recovery: The microbial EOR. Prog. Energy Combust. Sci. 34, 714–724. https://doi.org/10.1016/j.pecs.2008.05.001Google ScholarCrossrefSearch ADS  Shokrollahi, A., Arabloo, M., Gharagheizi, F., Mohammadi, A.H., 2013. Intelligent model for prediction of CO2 – Reservoir oil minimum miscibility pressure. Fuel112, 375–384. https://doi.org/10.1016/j.fuel.2013.04.036Google ScholarCrossrefSearch ADS  Taber, J. J., Martin, F.D., Seright, R.S., 1997. EOR Screening Criteria Revisited - Part 1: Introduction to Screening Criteria and Enhanced Recovery Field Projects. SPE Reserv. Eng. 12, 189–198. https://doi.org/10.2118/35385-PAGoogle ScholarCrossrefSearch ADS  Tatar, A., Shokrollahi, A., Mesbah, M., Rashid, S., Arabloo, M., Bahadori, A., 2013. Implementing Radial Basis Function Networks for modeling CO2-reservoir oil minimum miscibility pressure. J. Nat. Gas Sci. Eng. 15, 82–92. https://doi.org/10.1016/j.jngse.2013.09.008Google ScholarCrossrefSearch ADS  Thomas, S., 2006. Chemical EOR: The Past - Does It Have a Future?. SPE Distinguished Lecture.Google Scholar Vahid, K. and SiavashA.2021, Determination of Minimum Miscibility Pressure Using PVTi Software, Eclipse 300, and Empirical Correlations. Iranian Journal of Oil & Gas Science and Technology, Vol 10(1), pp. 107–126. http://ijogst.put.ac.irGoogle Scholar Yuan, H., Johns, R.T., Egwuenu, A.M., and Dindoruk, B.2005. Improved MMP Correlations for CO2 Floods Using Analytical Gasflooding Theory, SPEREE (October) 418–425.Google Scholar Zhong, Z., Carr, T.R., 2016. Application of mixed kernels function (MKF) based support vector regression model (SVR) for CO2 – Reservoir oil minimum miscibility pressure prediction. Fuel184, 590–603. https://doi.org/10.1016/j.fuGoogle ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211973-MS
+
+
+

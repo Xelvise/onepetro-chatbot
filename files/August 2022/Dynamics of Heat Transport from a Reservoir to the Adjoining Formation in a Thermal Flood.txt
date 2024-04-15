@@ -1,0 +1,293 @@
+----- METADATA START -----
+Title: Dynamics of Heat Transport from a Reservoir to the Adjoining Formation in a Thermal Flood
+Authors: Kazeem Lawal
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211976-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Heat transfer from a petroleum reservoir to adjoining rocks is detrimental to thermal floods. While such thermal losses are inevitable, understanding the timescales of these heat exchanges would improve the design and management of thermal floods. Employing lumped-parameter system analysis and assuming series flow, this paper presents transfer functions that characterize response times of a reservoir and its surroundings to changes in temperature of the heat source. The reservoir-surrounding system is modelled as individual thermal capacitors and resistors. The transfer functions, solved for a step disturbance, describe the limiting case of negligible interaction between these subsystems. For a step-change in temperature of the heat source, responses of the reservoir and surroundings are simulated for some combinations of their properties. Simulation results explain time-delay between reservoir and surrounding temperatures. The time-delay is controlled by four distinct parameters vis-à-vis surroundings time constant (τr), reservoir time constant (τa), ratio of thermal resistances (R) as well as the ratio of conductive to convective heat flow (βr). These parameters are governed by petrophysical, transport and thermophysical properties of the heating medium, reservoir, and surrounding formation. It is shown that lag-time in thermal responses of reservoir and surroundings can range from few weeks to several years. For practical applications and analyses, these results provide insights into conditions under which a thermal flood may be approximated as adiabatic vs. non-adiabatic.
+
+
+
+
+Keywords:
+reservoir simulation,
+reservoir,
+reservoir surveillance,
+enhanced recovery,
+upstream oil & gas,
+sagd,
+thermal method,
+timescale,
+reservoir characterization,
+petroleum reservoir
+
+
+Subjects: 
+Well & Reservoir Surveillance and Monitoring,
+Reservoir Characterization,
+Improved and Enhanced Recovery,
+Reservoir Simulation,
+Formation Evaluation & Management,
+Information Management and Systems,
+Thermal methods
+
+
+
+
+Introduction
+
+
+Petroleum reservoirs are bounded laterally and vertically by other geologic systems that are also saturated with fluids, which may or may not be the same as that contained in the subject reservoir. Even within the reservoir, fluids immediately underneath (say, gas) the caprock and above (say, water) the base rock may differ from that being targeted (heavy oil). Therefore, it is imperative that any realistic evaluation of heat exchange between a specific reservoir and its adjoining rocks accounts for all these rock elements, their saturating fluids and relevant petrophysical, transport and thermophysical properties.
+
+
+Heat exchange between a petroleum reservoir and its surrounding formations is a common occurrence in thermal floods. In general, the net loss of heat from the reservoir to the overburden, underburden and other adjoining rocks is detrimental to the thermal efficiency and overall performance of thermal flood (Lawal 2020, Doan et al. 2019, Zargar and Farouq Ali 2017a, b).
+
+
+Estimates of potential heat losses to the surrounding rocks are required for proper design and management of thermal floods. Accomplishing this task in practice is computationally intensive. One approach to solving this problem requires a detailed numerical method (Cho et al. 2015, Lawal 2011, Hansamuit 1992)]. This detailed method requires that the overburden and underburden are described explicitly by grid blocks, which extend far above and below the subject reservoir. In most thermal simulators, a large fraction of the grid blocks is defined as inactive for fluid flow, while these same blocks remain active to describe heat flow within the formation. Although this treatment often yields high accuracy, the additional computational costs in relation to the associated incremental value is a concern. As a result, this method is less attractive for screening studies (Lawal 2020).
+
+
+To simply the estimation of thermal losses across boundaries, some workers have demonstrated the applicability of the heat-exchanger theory (Lawal 2020). Unlike some methods such as the semi-analytical formulation by Vinsome and Westerveld (1980), the former treatment explicitly accounts for key interface (reservoir-overburden and reservoir-underburden) properties such as thermal conductivity, thickness, and heat capacity as well as relevant thermal properties of the adjacent formations and their saturating fluids. In essence, the technique introduced by Lawal (2020) considers reservoir-overburden interface wall, the reservoir-underburden wall as well as the overburden and underburden systems as thermal resistors in series.
+
+
+Regardless of the method used to estimate heat losses to adjoining rocks, it is useful to determine the need (or otherwise) for a rigorous assessment of potential subsurface thermal losses that would occur during the operating lifetime of the project. To address such question, one needs to understand the timescales of temperature responses of the directly heated reservoir and the surrounding formations, which are heated indirectly via the reservoir. A comparison of such timescales against the anticipated project lifetime would justify the need to invoke rigorous evaluation methods at the screening stage of the study.
+
+
+In thermal floods, the reservoir hosts the primary heat source such as steam, hot water and electromagnetic heaters (Sharma et al. 2021, Wang et al. 2019, Abraham et al. 2016, Lawal and Tendo 2015). Assuming that the reservoir is bounded by competent rocks in the vertical and lateral directions, heat transport from the hot reservoir to the colder surrounding formations is limited to conduction. Because the surroundings do not receive heat directly from the primary heat source, one would expect some time-delay in the thermal response of the surroundings in relation to the reservoir. But how large is this time-delay and how could this affect the performance of a thermal flood?
+
+
+Typically, the active lifetime of a thermal flood is equivalent to some 20 - 30 years of continuous heating. To engender proper field management, it would be helpful to evaluate the time-lag in responses of the reservoir and its adjoining rocks to a perturbation in the temperature of the primary heat source. Such understanding is relevant in determining the appropriate boundary conditions to be used to describe the thermal flood in question. Examples of boundary conditions that may be influenced by this knowledge are adiabatic vs. non-adiabatic description.
+
+
+Covington et al. (2011) investigated the mechanisms of heat exchange between water in a conduit and its surrounding rocks. Although the system that they examined was not a thermal flood in a petroleum reservoir, their theoretical work and field data provide useful insights into the timescale of heat exchange in their example karst system. Their results underscore conduction as a key mechanism in explaining the time-lag between a heated system and its surrounding porous medium.
+
+
+On the assumption that heat flows in series from the source through the reservoir to its surrounding formations, this paper employs lumped-parameter system analysis to investigate timescales of temperature responses of the petroleum reservoir and its adjoining formations to temperature perturbations during a thermal flood. The reservoir-surrounding system is described as sub-systems of individual thermal capacitors and resistors. Separate transfer functions are presented and solved for the limiting scenario of non-interacting reservoir and surroundings. For simplicity, solutions are provided for the case of a step-change in temperature of the heating medium, however the same procedure can readily be applied to evaluate other forms of input signals.
+
+
+Model formulation and solution
+
+
+For convenience, the entire system of petroleum reservoir, boundaries and the surrounding formations is described as a lumped-parameter system. As a result, the sub-systems of reservoir and surroundings are modelled as individual thermal capacitors, which have thermal resistors and are in series (Fig. 1). To quantify the full range of dynamics, two limiting scenarios of interactions between the reservoir and surrounding formations are considered.
+
+
+Figure 1View largeDownload slide Lumped model of injector-reservoir-surroundings systemFigure 1View largeDownload slide Lumped model of injector-reservoir-surroundings system Close modal
+
+
+Reservoir and surroundings interact: In this case, the reservoir and its surroundings have stronger influence on one another. In essence, heat flux from reservoir to surroundings via the intervening layer is sensitive to the difference in average temperatures in the reservoir and surroundings at any instant. This implies that the surrounding loads the reservoir.
+
+
+Reservoir and surroundings are non-interacting: In this case, reservoir dynamics affect the surroundings, but the converse is not true. Heat flux from reservoir to surroundings through the reservoir-surrounding intervening layer is influenced primarily by the average temperature in the reservoir at that instant. Temperature transients in the reservoir are largely insensitive to temperature changes in surrounding rocks, which serve as heat sinks. We assume that the downstream subsystem (surrounding) does not "load" its upstream counterpart i.e., petroleum reservoir (Marlin 1995, Coughanowr 1991).
+
+
+However, for simplicity, we limit the modelling to non-interacting systems. In line with the general understanding that a non-interacting system yields a faster response than corresponding interacting system (Marlin 1995, Coughanowr 1991), insights gained from this work should provide lower bounds of timescales of heat transfer between a reservoir and its adjoining formation, which often exhibit some interactions in most realistic thermal floods.
+
+
+The following equations describe the lumped-parameter heat balance for the reservoir and the surrounding formations. The formulation of these equations assumes that (i) heat inflow to the reservoir is convective, while heat outflow to the adjacent formation is conductive; (ii) heat outflow from the surroundings to an imaginary ultimate sink is conductive; and (iii) injection plane, reservoir and surrounding rocks have same cross-sectional area.
+
+
+ρfcpfAvfTf=ρrcprAhrϕrdTrdt+κpATrzp(1)
+
+
+κpATrzp=ρacpaAhaϕadTadt+κuATazu(2)
+
+
+where subscripts f, r and a refer to the heating fluid, reservoir, and surrounding formation, respectively. ρ is density, cp is specific heat capacity (J kg−1 K−1), T is average temperature (K),h is net formation thickness (m), A is cross-sectional area (m2), κ is thermal conductivity (W m−1 K−1), z is thickness of interface layer in the direction of heat flow (m), t is time (s), ϕ is porosity (fraction). T∞ is the average temperature of the ultimate heat sink. Subscript p refers to the reservoir-surrounding formation boundary layer, while u represents the interface between the surrounding formation and another adjacent formation, which is considered the ultimate heat sink in this work.
+
+
+Solution for Tr: Eq. 1 can be solved for the temperature response of the reservoir by applying Laplace transform to obtain the following. Note that the variables Tf and Tr are written in their deviation forms i.e., change from steady state, hence the quantities T'f and T'f⁠.
+
+
+T'f(s)=τrsT'r(s)+βrT'r(s)(3)
+
+
+Eq. 3 can be manipulated to yield the following transfer function relating how average reservoir temperature responds to a change in heating fluid temperature in Laplace domain.
+
+
+T'r(s)T'f(s)=1τrs+βr(4)
+
+
+The following definitions have been introduced to make the foregoing expressions appear elegant. Rr and τr are the thermal resistance (m2 K W−1) and time-constant (s) of the reservoir, respectively. βr is the ratio of conductive heat outflow from the reservoir to convective heat inflow into the same reservoir. The quantity 1/βr is the steady-state gain of the transfer function described by Eq. 4.
+
+
+Rr=zpκp(5)
+
+
+τr=ρrcprhrϕrρfcpfvf(6)
+
+
+βr=1ρfcpfvfRr(7)
+
+
+For a step change in the heating fluid temperature, the corresponding change in the average reservoir temperature in Laplace domain is given by
+
+
+T′r(S)=1s(τrs+βr).(8)
+
+
+By the application of Laplace inversion, we obtain the following expression for the response of T'r(t) to a step change in T'f(t).
+
+
+Tr'(t)=1βr1-e-βr tτr.(9)
+
+
+Solution for Ta: Following from the procedure applied to solve for Tr, Eq. 2 can be solved for the temperature response of the surrounding formation. Hence, the following is the equivalent of Eq. 2 in Laplace domain. Ra and τa are the thermal resistance (m2 K W−1) and time-constant (s) of the surrounding formation, respectively. R is the ratio of reservoir thermal resistance to that of the surrounding porous medium.
+
+
+T'r(s)=τasT'a(s)+RT'a(s),(10)
+
+
+where
+
+
+τa=Rrρacpahaϕa,(11)
+
+
+R=RrRa,(12)
+
+
+Ra=zuκu.(13)
+
+
+From Eq. 10, we derive the following transfer function relating T'a and T'r⁠, where the latter is only an intermediate disturbance to the former.
+
+
+T'a(s)T'r(s)=1τas+R(14)
+
+
+For practical applications, we need a transfer function that connects T'r to the originating disturbance T'f⁠, which induces changes to temperatures of both reservoir and its adjacent formation. This transfer function is derived by combining Eqs. 15, 14 and 4 to obtain Eq. 16.
+
+
+T'a(s)T'f(s)=T'a(s)T'r(s)xT'r(s)T'f(s)(15)
+
+
+T'a(s)T'f(s)=1(τas+R)(τrs+βr)(16)
+
+
+A comparison of the transfer functions in Eqs. 4 and 16 indicates that the dynamics of surroundings is second order, while the reservoir is first order. As a result of any change in the behaviour of the heating medium, the response of the surrounding is expected to lag that of the reservoir. 1/Rβr is the steady-state gain of the transfer function described by Eq. 16.
+
+
+Again, for a step change in T'f(t), we apply Laplace inversion to derive the following expression for the response of T'a(t).
+
+
+T'a(t)=1Rβr{1+(τaτrτrR−τaβr)(βrτre−Rtτa−Rτae−βrtτr)}(17)
+
+
+where τr≠0τa≠0⁠, and (τrR−τaβr )≠0⁠.
+
+
+From a review of the underlying transfer functions as well as Eqs. 9 and 17, it is clear that parameters τr, τa, R and βr are sufficient to fully characterize the magnitudes and timescales of responses of the reservoir and adjacent rocks to perturbations in the heating medium.
+
+
+Simulation examples
+
+
+We simulate different numerical states of the parameters τr, τa, R and βr. Input dataset for the reference case is given in Table 1. With the objective of assessing the full range of responses for the examples under consideration, sensitivity tests are conducted on the four characterizing parameters individually. In principle, insights gained from these parametric tests should aid the design and management of thermal floods.
+
+
+Table 1Input data for the reference-case simulation τa (s)
+            . τr (s)
+            . βr
+            . R
+            . 8.64 × 107 8.64 × 105 1.0 1.0 τa (s)
+            . τr (s)
+            . βr
+            . R
+            . 8.64 × 107 8.64 × 105 1.0 1.0 View Large
+
+
+Results and discussion
+
+
+Fig. 2 (a-b) displays the transient responses of the reservoir and surrounding temperatures to a unit-step change in heating-fluid temperature. It should be emphasized that these responses refer to changes in the corresponding output from their respective prior steady states. In Fig. 2a, where τa/τr=100.0⁠, T'r reaches its new steady state in about 80 days after a step change in T'f⁠. In comparison, T'a remains largely unresponsive within this first 80-day period. From these results, T'a does not reach its new steady state until about 5,500 days after the heating-fluid temperature perturbation was introduced.
+
+
+Figure 2View largeDownload slide Step responses of reservoir and surroundings (effects of τa)Figure 2View largeDownload slide Step responses of reservoir and surroundings (effects of τa) Close modal
+
+
+Fig. 2b shows the dynamics in the case of an order-of-magnitude reduction in τa, while other parameters are kept constant. With a significant reduction in τa (i.e., τa/τr=10.0⁠), a sharp improvement in the response speed of T'a is observed, but the dynamics of T'r remain unchanged. Following a close evaluation of Figs. 2a and 2b, the ratio τa/τr appears to have major influence on the timescales, hence transfer lag, of T'r and T'a responses. The results in Fig. 2 are consistent with the expected asymptotic behaviours and steady states of the output.
+
+
+For the same step change in T'f⁠, transient behaviours of T'r and T'a are shown in Fig. 3 for sensitivities conducted on τr. In Fig. 3a, the case of τa/τr=0.1 yields behaviours of T'r and T'a that are generally comparable. Although not readily visible on the current display, a close examination of the early-time profiles in Fig. 3a would reveal a time-delay of about 320 days before T'r attains 20% of its final stabilized value. This response time is about 100 days slower than that taken by T'r to reach the same 20% state. The maximum response speed of the leading subsystem (reservoir) occurs at time t = 0, while the minimum response of the lagging subsystem (surroundings) is observed at the same time t = 0.
+
+
+All the results in Fig. 3 assume that the time-constant of the reservoir is 10% of the surrounding's. This suggests that, if they were to be considered as individual first-order systems, the surrounding should exhibit a much faster response than the reservoir under the same conditions. However, as an integrated system, the reservoir's behaviour is first order while the surrounding is second order. Accordingly, even if the surrounding is characterized by much lower time-constant on its own, its response will always lag that of the reservoir through which any perturbation on the heating fluid is transported to the surroundings. This inherent transfer lag explains the sluggishness of the surrounding relative to the reservoir in the cases presented in Fig. 3. The importance of reservoir characteristics to the dynamics of surrounding rock is underscored by Figs. 2b and 3b. Although these plots are based on same values of τa, R, and βr, reducing the ratio τa/τr by a factor of 1,000 prolongs the steady-state time of the lagging T’a by a factor of 10 i.e., from ~5,500 to ~54,000 days.
+
+
+Figure 3View largeDownload slide Step responses of reservoir and surroundings (effects of τr)Figure 3View largeDownload slide Step responses of reservoir and surroundings (effects of τr) Close modal
+
+
+While keeping τa, τr, and βr at the reference states, Figs. 4a and 4b are graphical displays of the simulated transient behaviours for R = 0.1 and 10.0, respectively. At R = 0.1, in which the thermal resistance of the reservoir-surrounding interface is just 10% of the corresponding resistance of the surrounding-ultimate sink boundary, response of T'a is much faster than the case of R = 10.0. However, despite a two-order of magnitude difference in the R values, speed of response in T'r does not exhibit significant difference in the two cases of R. Within the parameter space explored, these results suggest that the parameter R has strong effects on the transient response of T'a⁠, but not quite on that of T'r⁠.
+
+
+Figure 4View largeDownload slide Step responses of reservoir and surroundings (effects of R)Figure 4View largeDownload slide Step responses of reservoir and surroundings (effects of R) Close modal
+
+
+Figs. 5a and 5b are the step responses of T'r and T'a to βr states of 0.1 and 10.0, while keeping the other parameters at their reference states. Again, the results are consistent with the behaviours seen in the earlier parametric tests. Specifically, T'a response remains slower than the corresponding T'r response. Furthermore, the quantities 1/βr and 1/Rβr remain the primary controls on the final stabilized states of T'r and T'a⁠, respectively.
+
+
+Figure 5View largeDownload slide Step responses of reservoir and surroundings (effects of βr)Figure 5View largeDownload slide Step responses of reservoir and surroundings (effects of βr) Close modal
+
+
+Although τa/τr ratio influences the dynamics of T'a and T'r⁠, it is noteworthy that these dynamics are also sensitive to the absolute values of τa and τr. This point is reinforced with the cases in Table 2. Fig. 6 compares the times for T'a and T'r to reach their respective steady-state responses to a step change in input signal for these three cases characterized by the same τa/τr=5.0⁠, βr = 1.0 and R = 1.0, but different magnitudes of τa and τr.
+
+
+Figure 6View largeDownload slide Estimated times for T'r and T'a to reach steady states for the cases in Table 2 Figure 6View largeDownload slide Estimated times for T'r and T'a to reach steady states for the cases in Table 2  Close modal
+
+
+Table 2Input data for additional sensitivity tests Case
+            . τa (s)
+            . τr (s)
+            . τa/τr
+            . τr
+            . R
+            . A 1.0 × 107 2.0 × 106    B 4.3 × 106 8.6 × 105 5.0 1.0 1.0 C 2.5 × 106 5.0 × 105    Case
+            . τa (s)
+            . τr (s)
+            . τa/τr
+            . τr
+            . R
+            . A 1.0 × 107 2.0 × 106    B 4.3 × 106 8.6 × 105 5.0 1.0 1.0 C 2.5 × 106 5.0 × 105    View Large
+
+
+Conclusion
+
+
+A lumped-parameter heat balance model has been derived and solved to describe temperature behaviour of a non-interacting reservoir-surrounding system in a thermal flood. It is shown that a time-delay (transfer lag) exists between the response of a reservoir and its surrounding formation during a thermal flood. The dynamics of both subsystems and their transfer lag are fully characterized by the parameters τr, τa, R and βr. These parameters are functions of the petrophysical, transport and thermophysical properties of the heating medium, reservoir, and the adjoining formation.
+
+
+The reservoir exhibits first-order behaviour; hence it does not have a transfer lag. In essence, the maximum rate of change of the reservoir response occurs immediately (at t = 0) after the step change is induced. Conversely, the surrounding is characterized by a second-order behaviour and has a transfer lag, hence the slope of its response curve is always minimal at t = 0. It is worthy of note that neither the reservoir nor the surroundings exhibit oscillatory responses.
+
+
+In addition, though both the reservoir and surrounding temperatures respond asymptotically to a perturbation in the heating fluid, the steady states of these responses are predictable and limited to the numerical values of the quantities 1/βr and 1/Rβr respectively. In essence, though the surrounding always lags the reservoir in terms of response speed, it is possible to have the surrounding achieve a steady-state response that exceeds that of the reservoir under the limiting scenario of negligible interaction between these subsystems.
+
+
+For proper design and management of thermal floods, it is crucial to have a good understanding of the relative impacts of τr, τa, R and βr on the overall system dynamics on a case-by-case basis. Given the cumbersome and expensive nature of thermal-simulation projects, such understanding would be relevant in evaluating the requirements to include the adjacent formations in the scope of detailed thermal numerical-simulation models.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion cpspecific-heat capacity, J kg−1 K−1 hanet thickness of surrounding formation, m hrnet reservoir thickness, m Rratio of Rr to Ra, dimensionless Rathermal resistance of surrounding-ultimate sink boundary, m2 K W−1 Rrthermal resistance of reservoir-surrounding boundary, m2 K W−1 rr/aratio of reservoir response time to that of surroundings, dimensionless T’temperature in deviation form, K Tasurrounding temperature, K Tfinjection (heat source) temperature, K Trreservoir temperature, K vfinflow velocity of heating fluid, m s−1 zpthickness of injector-reservoir boundary, m zuthickness of caprock (reservoir-surrounding boundary), m βrratio of conductive heat outflow to convective heat inflow into the reservoir, dimensionless κpthermal-conductivity of injector-reservoir boundary, W m−1 K−1 κuthermal-conductivity of caprock (reservoir-surrounding boundary), W m−1 K−1 ϕaporosity of surrounding formation, fraction ϕrreservoir porosity, fraction ρabulk density of surrounding formation, kg m−3 ρrreservoir bulk density, kg m−3 τasurroundings time constant, s τrreservoir time constant, s
+
+
+References
+
+
+AbrahamT, AfacanA, DhandhariaP, ThundatT (2016). "Conduction and dielectric relaxation mechanisms in Athabasca oil sands with application to electrical heating", Energy Fuels30, 5630–5642.Google ScholarCrossrefSearch ADS  ChoJ, AugustineC and ZerpaLE (2015). "Validation of a numerical reservoir model of sedimentary geothermal systems using analytical models". Paper SGP-TR-204 presented at 40th workshop on geothermal reservoir engineering, Stanford Univ., Stanford, 26-28 Jan.Google Scholar CoughanowrDR (1991). Process Systems Analysis and Control, 2nd ed., McGraw-Hill Inc., New York.Google Scholar CovingtonMD, LuhmannAJ, GabrovšekF, SaarMO and WicksCM (2011). "Mechanisms of heat exchange between water and rock in karst conduits", Water Resources Research47, W10514, 1–18.Google ScholarCrossrefSearch ADS  DoanQT, FarouqAli SM and TanTB (2019). "SAGD performance variability – analysis of actual production data for 28 Athabasca oil sands well pairs". SPE paper 195348 presented at SPE Western Regional Meeting, San Jose, 23-26 Apr.Google Scholar HansamuitV, Abou-KassemJH and Farouq AliSM (1992). "Heat loss calculation in thermal simulation", Transp. Porous Med. 8, 2, 149–166.Google ScholarCrossrefSearch ADS  MarlinTE (1995). Process Control: Designing Processes and Control Systems for Dynamic Performance, McGraw-Hill Inc., New York.Google Scholar SharmaJ, DeanJ, AljaberiF, AltememeeFN (2021). "In-situ combustion in Bellevue field in Louisiana – History, current state and future strategies", Fuel284, 118992.Google ScholarCrossrefSearch ADS  VinsomePKW and WesterveldJ (1980). "A simple method for predicting cap and base rock heat losses in thermal reservoir simulators", J. Can. Pet. Tech. 19, 3, 87–90.Google ScholarCrossrefSearch ADS  WangZ, GaoD, DiaoB, TanL, ZhangW, LiuK (2019). "Comparative performance of electric heater vs. RF heating for heavy oil recovery", Applied Thermal Engineering160, 114105.Google ScholarCrossrefSearch ADS  ZargarZ and FarouqAli SM (2018). "Analytical modelling of steam chamber rise stage of steam-assisted gravity drainage (SAGD) process", Fuel233, 1, 732–742.Google Scholar LawalKA (2011). Alternating injection of steam and CO2 for thermal recovery of heavy oil. PhD dissertation, Imperial College London.Google Scholar LawalKA (2020). "Applicability of heat-exchanger theory to estimate heat losses to surrounding formations in a thermal flood", J Petrol Explor Prod Technol10, 1565–1574.Google ScholarCrossrefSearch ADS  LawalKA, TendoF (2015). "Steam-alternating-CO2 for heavy-oil recovery". SPE paper 178356 presented at SPE Nigeria Annual International Conference and Exhibition, Lagos, 4-6 Aug.Google Scholar ZargarZ and FarouqAli SM (2017). "Analytical treatment of steam-assisted gravity drainage: old and new", SPE J. 23, 1, 117–127.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211976-MS
+
+
+

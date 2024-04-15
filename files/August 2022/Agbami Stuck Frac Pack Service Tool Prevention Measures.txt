@@ -1,0 +1,232 @@
+----- METADATA START -----
+Title: Agbami Stuck Frac Pack Service Tool Prevention Measures
+Authors: Chidi Elendu, Steve Njoku, Ihechi Ojukwu
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211903-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+It is usually an unnerving moment when a service tool is picked up, after a frac pack pumping operation with the goal to reach the "reverse position". The failure to establish this position could have significant undesirable consequences on the overall well objective, which could range from extensive fishing of the resulting stuck pipe to eventual loss of the well. It, therefore, becomes imperative for the completions planning team in collaboration with other relevant stakeholders to establish an "execution-friendly" reverse-out decision and communication protocol that will prevent a stuck situation.Agbami completions are mostly stacked frac pack with Intelligent Well Completion (IWC) capability to adequately control and monitor production. The first phase completion of the three-phased development was installed in 2007, while production commenced in 2008 [1]. A major consideration for the phased development campaign was to ensure lessons learned from one phase can be applied to the next. The 8-well Infill Drilling campaign was executed from 2017 to 2019 to capture un-swept oil and optimize production from the field. The Agbami frac service tools were successfully upgraded after the initial development phases and deployed on the infill campaign to mitigate the challenges encountered during the third phase frac pack installations. This upgrade, coupled with standardized processes, equipment, and procedures contributed to the improved frac pack installation performance recorded on the infill campaign.Despite the frac pack improvements, a near-miss on one of the completions could have resulted in a stuck service tool where an overpull of up to 160kips was required to move the service tool to reverse out excess proppant. It also took seven attempts and ∼105 kips overpull to move the shifter and close the FS2 fluid loss isolation valve. An investigation into this near-miss identified amongst other opportunities, a gap in the current communication protocol, and the need to improve the operations team's situational awareness of downhole conditions during pumping, at screen-out and at reverse-out.The team leveraged global initiatives on stuck service tool prevention and collaborated with service partners and the rig contractor to develop a fit-for-purpose reverse out and communication protocol. This protocol was successfully implemented in subsequent well completions. A "Frac Pack on Paper" meeting held with all relevant stakeholders: the rig crew; pumping and completion service companies; Chevron's Frac support group, and Chevron's completions and operations teams, to methodically go through the reverse-out and communication protocol which contributed immensely to the huge success achieved on the frac pack operations. The team's effective collaboration with service partners contributed to the ability to respond quickly to these challenges leading to continuous improvement in Agbami frac pack executions.This paper aims to discuss the Agbami stuck service tool challenges, causative factors, and mitigation steps successfully implemented.
+
+
+
+
+
+
+Introduction
+
+
+Agbami field is one of the largest deepwater oil producing fields in Nigeria, it was discovered in the year 1998 [2]. The field is located approximately 70 miles offshore from the nearest Nigerian coastline in water depths between 4,200 ft and 5,410 ft (Figure 1)
+
+
+Figure 1View largeDownload slideAgbami field mapFigure 1View largeDownload slideAgbami field map Close modal
+
+
+Agbami is produced through a floating production, storage, and offloading (FPSO) vessel and a multiwell subsea well program consisting of producers, water injectors and gas injectors (Figure 2). The field development strategy was to optimize the location, placement, and drilling of deepwater production and injection wells in three major stacked reservoir units (A, B, and C), to optimize oil recovery and maximize the project NPV. A phased drilling program was adopted for the field so that lessons learned from one stage could be applied to the next. Production commenced in 2008.
+
+
+Figure 2View largeDownload slideAgbami subsea developmentFigure 2View largeDownload slideAgbami subsea development Close modal
+
+
+Table 1, shows the phased development of the field starting 2008 up to to the completion of the infill campaign in 2019, bringing the total well count to 45. More details on the completion summary are in Table 2.
+
+
+Table 1Agbami wells development by phases   View Large
+
+
+Table 2Agbami Completion Overview   View Large
+
+
+The Agbami formation is comprised of poor to medium consolidated Miocene sandstone reservoirs. They are made up of successfully stacked formation sands of net sand thickness ranging from 25 to 300 fttrue stratigraphic thickness. The initial completions were comprised of multiple stack frac packs with intelligent well control (IWC) upper completions (interval control valves and multiple pressure and temperature gauges for independent metering and well surveillance) to ensure that production intervals from different reservoirs are independently controlled and monitored (see Figure 3). The management of Agbami field is based on sound and effective reservoir management practices involving reservoir voidage balancing, water and gas injection optimization to stabilize reservoir pressure and well performance optimization within various operating constraints.
+
+
+Figure 3View largeDownload slideConventional vs Agbami completion designFigure 3View largeDownload slideConventional vs Agbami completion design Close modal
+
+
+Agbami Frac Pack Design Philosophy
+
+
+The Agbami frac pack design strategy was based on the rock mechanics analysis (RMA) and sanding studies which consider the safe drawdown pressure (SDP) [3]. SDP is the lowest value of the drawdown pressure across the rock face at which formation sand is produced, which is determined by in-situ stresses, pore pressure, formation rock properties, drawdown and wellbore and perforation orientation. The rock properties used in the analysis were estimated using RMA correlations and calibrated with laboratory test data (unconfined compressive strength (UCS), hollow cylinder strength (HCS) and triaxial compression). The decision to install frac pack was based on lower skin, subsea nature of the field and the expected high production capability of the individual wells [4] [5] [6].
+
+
+These are the considerations for the Agbami frac pack design based on the modelling/simulation, field experience and formation evaluation assessments [7] [8] [9] [10]:
+
+
+Target intervals to a maximum completion length of 150ft MDUse alternate path screen (APS) with 2 shunt tubes to ensure annular proppant coverageFrac fluid is YF13x ReFlex, range of gel loading is 30 – 35 lbs/galComplete annular pack across the interval to ensure completion integrityTarget interval proppant coverage designed for 600-1200 Ibs/TvD-ft, with focus on fracture length and width at TSO.Minimum pump rate to continue fracturing should target 18 bpm (validated through simulation)Maximum proppant concentration of 8 – 10 ppaMaximum pump rate of 30 bpm (validated through simulation).Placement of the frac pack should be at ±48 degree inclination.Production casing is 9-5/8" size and screen is 5-1/2" 250 micronsThe perforation is 18 SPF with big hole charges.
+
+
+The fluid design and fluid loss strategy for the Agbami recent wells are shown in Figure 4. This is based on the use of 8.8 ppg NaCl brine (temperature corrected to get the desired overbalance) and the minimum required overbalance of 250 psi for the perforated intervals [1] [7] [11].
+
+
+Figure 4View largeDownload slideFluid design and loss prevention strategy [12]Figure 4View largeDownload slideFluid design and loss prevention strategy [12] Close modal
+
+
+Historical Service Tool Events
+
+
+There are no specific literature available on the existence of the stuck service tool from the major service companies that could be accessed. One of the service companies in Nigeria confirmed that the only issue on record was an instance when collet locator was installed wrongly, "upside down" resulting in the change of the thread connection from "pin × pin" to "box × pin". Searches produced some information on historical high potential and actual stuck service tool as presented in Table 3 with the attendant causes and what the aftermath of the events was.
+
+
+Table 3Stuck service tool events   View Large
+
+
+Potential Stuck Event [13]
+
+
+After the screen-out of the frac pack at ∼5500 psi, the pressure in annulus was equalized and the FSV was opened. The service tool was picked up and tubing pressure bled to 2000 – 95 psi. Subsequently, the annulus was pressured to 2,500 psi while stripping to reverse circulating position. While attempting to move tool to reverse position, 130k overpull was observed. The workstring was reciprocated severally to free the service tool with 130k-160k overpull after which reverse out of the excess proppant commenced with the pumps staged up to 20 bpm, 2750 psi.
+
+
+The service tool was picked up to 16,450 ft, the Frac head assembly was disconnected and traversed to the auxiliary mouse hole. The rig continued to pick up (P/U) from 16,450 ft to 16,418 ft MD. As the seals were dumped, fluid losses at the rate of 158 bph was observed. The rig continued to POOH and shifted FS-2 closed but had to reciprocate the string up and down at 16,240 ft before the shifter located on the FS-2 on the 7th attempt with 105k over pull. The well was flow checked for 30 mins @ 16,180 ft MD but was static. This implied that the FS-2 was closed, and formation is isolated.
+
+
+Lessons Learnt from The Event
+
+
+The preliminary findings discovered the following [14]:
+
+
+Tubing Pressure was bled off prior to service tool reaching the reverse circulation position which would have caused U-tube of proppant into the frac port as shown in Figure 5.There were gaps in the current communication protocol.○Roles and responsibilities were not understood and communicated.○Instructions flow in a haphazard manner.○Manifold operator took instructions from the frac master instead of the tools man.There was gap in the situational awareness of the downhole conditions at screen-out.The pressure requirements post-screenout were calculated on individual basis.Various material limitation, e.g., tensile strength was known but not documented in the PoA.There was no malfunctioning of equipment like pump, manifold, etc.
+
+
+Figure 5View largeDownload slideSurface and Bottom hole events at screen-outFigure 5View largeDownload slideSurface and Bottom hole events at screen-out Close modal
+
+
+Prior to ROC tool activation (see Figure 6), the formation was exposed to annulus hydrostatic above VCH packer, the BHP was in communication to both annulus above the packer and workstring via MCS and frac port. Due to the exposure the surface pressures on both tubing and annulus must be adjusted to balance BHP and prevent U-tubing into either annulus or workstring. On ROC tool activation, pressure below tool was expected to decline to reservoir pressure
+
+
+Figure 6View largeDownload slideFlow path on ROC tool activationFigure 6View largeDownload slideFlow path on ROC tool activation Close modal
+
+
+The estimated downhole tool movement from WD Circulating to Reverse position was ∼ 8.4ft
+
+
+▪Surface workstring movement should account for stretch due to differences in fluid in workstring and annulus.▪Proppant in the workstring▪Pressures held on the workstring and annulus at surface
+
+
+The reverse-out roles, responsibilities and protocol should be clearly communicated and understood.
+
+
+In order to develop the full awareness and preparedness for post-screen-out responses after the frac pack, the reverse out drills should incorporate every aspect of the anticipated screen-out events. The flow path at reverse circulating position is shown in Figure 7, this is an indication of the position of the ROC tool.
+
+
+Figure 7View largeDownload slideFlow path at reverse positionFigure 7View largeDownload slideFlow path at reverse position Close modal
+
+
+Figure 8 shows the surface pump pressure response based on the near stuck event and the block positions, it is evident that human factor played a significant role as a causative factor (bleeding off DP pressure and moving the tool.
+
+
+Figure 8View largeDownload slideEvents prior to reaching reverse circulating positionFigure 8View largeDownload slideEvents prior to reaching reverse circulating position Close modal
+
+
+The strategy for the frac pack execution is always to have the ROC fully closed before getting to the reverse position. The BHP as shown in Figure 9 was in communication because the ROC wasn't closed.
+
+
+Figure 9View largeDownload slideROC position analysisFigure 9View largeDownload slideROC position analysis Close modal
+
+
+Implementation of the Lessons Learnt
+
+
+Several gaps were identified during the preliminary investigation of the near stuck event that may have contributed to the event. The major gap observed was closed by the checklist (Table 4) This was developed to help with the frac planning and execution process to minimize the risk of sticking the frac pack service tool.
+
+
+Table 4Frac Pack Planning and Execution Checklist  View Large
+
+
+The gap in the communication protocol and hierarchy was closed by the development of responsibility and accountability document with the appropriate channel of flow for all frac pack operations at screen out as shown in Figure 10.
+
+
+Figure 10View largeDownload slideCommunication protocol at screenoutFigure 10View largeDownload slideCommunication protocol at screenout Close modal
+
+
+Prior to moving the service tool to reverse circulating position at the screenout, drill pipe and annulus pressure calculations were performed. However, just as the tool started to move, the DP side was bled off too quickly, and at that moment there were both fluid movement as well as pipe movement. These movement led to mobilization of proppant into the packer bore and service tool interface.
+
+
+These were the calculations and considerations for the system pressures prior to screenout and performed on excel, see Figure 11:
+
+
+BHP (after screenout)=ANN_PRES (after SO)+ANN_HYDROSTATIC (on the annulus side)            DP_PRES + DP_HYDROSTATIC      (on the tubing side)
+
+
+Figure 11View largeDownload slideReverse out pressure spreadsheetFigure 11View largeDownload slideReverse out pressure spreadsheet Close modal
+
+
+The implication of the above equation is that if there is pressure in the annulus after screenout, then the BHP is not reservoir pressure.
+
+
+How to calculate pressure to be kept on the DP side when P/U to reverse: Pres on the DP = ANN_PRES (after SO) + ANN_HYDROSTATIC – DP_HYDROSTATIC + TBG_SF (300 psi)
+
+
+For Agbami 45:ANN_PRES ( after SO )=2,050 psi   ANN_HYDROSTATIC =6,470 psi   DP_HYDROSTATIC =6,415 psi (based on 347 bbl flush pumped)
+
+
+The pressures prior to moving the tool should be:
+
+
+Press on the DP = 2,050 + 6,470 – 6,415 + 300 (TBG_SF) = 2,405 psi
+
+
+Pres on the ANN = 2,050 + 500 (ANN to TBG_SF) + 300 (TBG_SF) = 2,850 psi
+
+
+The maximum overpull encountered during the tool movements depends on the service tool positions and material's tensile rating and is defined by the following:
+
+
+In weight down circulating / squeeze position:
+
+
+overpull is based on the lowest tensile rating from the top of the packer setting tool to the HPT seal mandrel.
+
+
+In reverse position
+
+
+Scenario 1: when the seal mandrel is still in the packer seal bore. Overpull is based on the lowest rated component from top of packer setting tool to bottom of HPT tool, see Figure 13 for tool positions.Scenario 2: after dumping seals. Overpull is based on the lowest rated component from bottom HPT to end of wash pipe. The recommendation going forward was to always include the tensile limits (see Figure 14) of the various component of the service tool in the well specific execution program and a printout posted at the driller's console for easy consultation.
+
+
+Figure 12View largeDownload slideService tool positionsFigure 12View largeDownload slideService tool positions Close modal
+
+
+Figure 13View largeDownload slideService tool component tensile strengthFigure 13View largeDownload slideService tool component tensile strength Close modal
+
+
+Conclusion
+
+
+The investigation primarily revealed that human performance factor was the major causative factor followed by communication protocol not well understood. Below is the summary of what the paper sets out to accomplish.
+
+
+The communication hierarchy protocol was updated to ensure clear understanding of individual responsibilities.Screenout pressure calculation sheet was developed and verified independently for accuracy.Updated well specific execution program to have the various responsible parties as well as the tools’ limitations listings.Several collaborative engagements with all the parties created awareness and confidence in the team.Performed screenout drills with pressure in the system to simulate actual conditions.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgements
+
+
+The author appreciates the support of the concessionaires and project participants throughout the project and for the permission to publish this paper.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion Annannular BHbottomhole BHAbottom hole assembly BHPbottom hole pressure BOPblowout preventer bphbarrel per hour bpmbarrel per minute C&Kchoke & kill CSGcasing CVXChevron DPdrill pipe DSMdrillsite manger FSVfailsafe valve gpmgallon per minute HEChydroxyethyl cellulose IWCintellegent well completion LAlower annular LASliquid additive system LLlesson(s) learnt MDmeasured depth MOPmaximum over pull OEMoriginal equipment manufacturer OIMoffshore installation manager pHpotential of hydrogen POAprogram of action PPpore pressure PPApound of proppant added ppbpound per barrel ppgpound for gallon ppgepound per gallon equivalent PRpipe ram PU or P/Upick up RDTremote data transmission ROCreverse out check RSPMrigsite project manager / company man SFsafety factor SMEsubject matter expert SOscreenout TBGtubing TDtotal depth TVDtrue vertical depth wtweight X/Ocrossover
+
+
+References
+
+
+K.Adegbulugbe, C.Elendu, I.Ugah and I.Ojukwu, "Agbami Next Generation Frac Pack Equipment Development & Deployment," in SPE Nigeria Annual International Conference and Exhibitionv, Lagos, 2020.Google Scholar Wikipedia, "Agbami Field," Wikipedia, April2009. [Online]. Available: https://en.wikipedia.org/wiki/Agbami_Field.T.Klimentos and S.Hassan, "A Case Study Of Rock-Mechanical Property Evaluation And Sanding Analysis In Very Porous Hydrocarbon-Bearing Sands," in SPWLA 42nd Annual Logging Symposium, Houston, 2001.Google Scholar V. J.Pandey, R. C.Burton and M.Nozaki, "Evolution of Frac-Pack Design and Completion Procedures for High Permeability Gas Wells in Subsea Service," in PE Hydraulic Fracturing Technology Conference, The Woodlands, 2014.Google Scholar F. C.Colbert, F. M.Garcia, A.Costa, R.Gachet, H.Mattos and AJunior., "Best Practices for Frac Pack on High Permeability/Unconsolidated Reservoirs: Experience from Offshore Brazil Operations," in SPE International Hydraulic Fracturing Technology Conference and Exhibition, Muscat, 2018.Google Scholar P.Baycroft, K.Webster and S.Mathis, "Optimized Frac-Pack Completion Requires an Appropriate Execution Pace," in SPE International Symposium and Exhibition on Formation Damage Control, Lafayette, 2006.Google Scholar D. W.Norman, Fracpack Technology, Hoston: Chevron Internal, 2010.Google Scholar L.Behrmann and K.Nolte, Perforating Requirements for Fracture Stimulations, Lafayette, Louisiana: Society of Petroleum Engineers, 1998.Google ScholarCrossrefSearch ADS  Agbami Fluid Loss Management Strategy, Chevron Internal.Post Job Report, Lagos: Chevron Internal, 2020.R.Tibbles, K.Govinathan, I.Mickelburgh, S.Jain and P.Wassouf, Understanding Sand Control Installation Failures, Kuala Lumpur: Offshore Technology Conference, 2020.Google Scholar Agbami Completion Basis of Design, Chevron Internal, 2005.D. W.Norman, Fracpacking General Introduction, Houston: Chevron Internal, 2010.Google Scholar D. W.Norman, Fracpacking D3essign Workflow, Houston: Chevron Internal, 2010.Google Scholar "Intelligent Completion Helps Agip and NPDC Make First-Oil Date," Schlumberger, [Online]. Available: https://www.slb.com/resource-library/case-study/co/ic-agip-npdc.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211903-MS
+
+
+

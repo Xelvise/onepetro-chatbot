@@ -1,0 +1,150 @@
+----- METADATA START -----
+Title: OML-ZZZ: Water Production Forecasting Improvement
+Authors: Raphael Agbehi, Ugochukwu Aboaja, Rotimi Osho
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212025-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Reliable production forecasting of all fluid streams involved in hydrocarbon production has remained a perennial problem in the oil and gas industry. This paper presents the methodology and results of an improvement to the water forecasting approach adopted in the management of all the producing fields and reservoirs of OML-ZZZ located in the Niger Delta area of Nigeria. The main objective of our study was to identify and evaluate a means of achieving water/liquid forecast that is representative of field observed trends – a key input for the sizing of planned water dehydration facilities for our fields. Our study made use of an integrated production forecasting solution model with the associated engineering and geoscience data, which optimizes on oil production while forecasting the other fluid streams subject to defined system constraints. Improvement in water forecast was achieved through a review of the abandonment conditions of quit wells which have already reached their abandonment as analogues for producing wells being forecasted. Based on the review, we identified and applied recommended tranches of BSW conditions which have enabled better and more realistic forecasts of gross liquid and water production. The benefits of these improved forecasts include an increase in oil volumes and proper equipment/facilities sizing among others.
+
+
+
+
+Keywords:
+forecast,
+reservoir surveillance,
+production control,
+modeling & simulation,
+production monitoring,
+history,
+water production forecasting improvement,
+upstream oil & gas,
+produced water management and control,
+oml-zzz
+
+
+Subjects: 
+Well & Reservoir Surveillance and Monitoring,
+Improved and Enhanced Recovery,
+Formation Evaluation & Management,
+Produced water management and control,
+Production forecasting,
+Well Operations and Optimization,
+Well Operations, Optimization and Stimulation
+
+
+
+
+Introduction
+
+
+Production forecasting provides a firm foundation for making sound economic and operational decisions involving oil and gas assets. Typically, the output from a forecast includes future production of fluid streams such as gas, oil and water. The focus of this paper is on water production forecast which is typically difficult to predict and is responsible for unrealistic forecasts.
+
+
+Most of the standard approaches to production forecasting for oil producing wells focus on oil production rate as the primary parameter while associated gas and produced water are secondary outcomes. However, the robustness of any approach should not be exclusively assessed by the alignment between the actual production and forecast oil figures. It is also very important to track the accuracy of the water production forecast vis-à-vis the actual production.
+
+
+This is because the impact of inaccurate water production forecast may result in improper sizing of facilities, poor estimates of crude handling and processing costs, and inadequate water disposal options thereby exposing the operator to operational, environmental and mostly economic risks.
+
+
+Forecasting water production can be challenging. Apart from the fact that there is relatively little widely accepted methodology (compared to oil production), actual water production evolves over the life of a field and is dependent on many factors such as aquifer strength, proximity of perforations to the oil/water contact, water fingering phenomenon in the reservoir, withdrawal rate, and well interventions among others. In practice, water production forecast involves applying time-rate varying water cut values on oil production but this approach does not usually capture the evolution of the actual water production over time with reasonable accuracy.
+
+
+Methodology
+
+
+The current approach of predicting water production involves the definition of the initial and abandonment water cut conditions and the reserves to be produced in an integrated production forecasting solution model. The relationship between the water cut conditions and the reserves is a straight-line incline. The straight-line relationship together with an oil forecast will enable the forecast of water production. The slope of this straight-line relationship is indicative of reserves: the water cut incline for a smaller oil reserve forecast is expected to be steeper than the incline for a higher oil reserve forecast.
+
+
+A comparison of actual field measurements of gross liquid production with forecast figures showed that this forecasting approach over-estimated the total liquid production. Also, the historical trends between gross liquid and oil production were not honored (see Fig. 1).
+
+
+Figure 1View largeDownload slideOML-ZZZ: History vs. ForecastFigure 1View largeDownload slideOML-ZZZ: History vs. Forecast Close modal
+
+
+Fig. 1 is a sum of the production histories of all the fields that make up OML ZZZ. We took out the production history of the Epsilon Field which is the largest of all the fields in the OML, with a rich production history spanning over 50 years, and tried to apply trend analysis to it. At this level of granularity (Fig. 2), there is no discernible trend in the production rates to enable a gross liquid/water production forecast.
+
+
+Figure 2View largeDownload slideEpsilon Field Production HistoryFigure 2View largeDownload slideEpsilon Field Production History Close modal
+
+
+The Epsilon Field production history is then broken into four periods – each of 100MMstb cumulative production as seen in Fig. 3. This was done with the aim of revealing trends in the field’s recent production history. We observed some trends in oil and gross rates, but they were not applicable in the field’s recent history, as they occurred in earlier periods.
+
+
+Figure 3View largeDownload slideVarious production periods of the Epsilon FieldFigure 3View largeDownload slideVarious production periods of the Epsilon Field Close modal
+
+
+A new approach for predicting gross liquid/water production rates was proposed given the inability of the current forecasting approach (the blanket application of the limits) to accurately predict future gross liquid/water rates. The objective of the new method is to develop better data-driven strategies based on informed decisions which will help eliminate potential failures or losses during operations before they occur. Another benefit is that accurate liquid forecasts will allow the setting of measurable goals based on current and historical data. Having accurate data and statistics to analyze will allow the operator to decide the amount of change, growth or improvement needed.
+
+
+Having insights into current liquid production along with predicted trends and combining this information into meaningful insights makes for better planning and budget allocation. This will allow for adjustments to the current production strategy and operations to manage any adverse outcomes.
+
+
+A thorough review of all the quit conduits in the Epsilon Field was done in order to define classes of abandonment water cut conditions. The review showed that 23 out of 104 drainage points quit at water cut > 70%; 26 drainage points quit at water cut values between 50% and 70%; while 55 drainage points quit between 0% and 50%. Previous abandonment water cut for drainage points in OML ZZZ ranges from 10% to 99% derived mostly from well models that have not been calibrated with current reality.
+
+
+Incorporating the finding from the review of quit wells into the forecasting approach involved defining the following water cut rules: For any producing string with 0 <= WCUT < 50%, set the abandonment water cut to 75%If 50% <= WCUT < 70%, set the abandonment water cut to 85% andFor strings with WCUT >= 70%, set the abandonment water cut to 95%
+
+
+Using these rules, the proposed gross liquid/water forecasting methodology with these banded limits is therefore an enhancement over the previous approach and the results also corroborates this claim as can be seen in Fig. 4, 5, 6 & 7 below.
+
+
+Figure 4View largeDownload slideApplication of water cut rules to OML-ZZZ’s production forecast (BSW: No Further Work Case -NFW)Figure 4View largeDownload slideApplication of water cut rules to OML-ZZZ’s production forecast (BSW: No Further Work Case -NFW) Close modal
+
+
+Figure 5View largeDownload slideApplication of water cut rules to OML-ZZZ’s production forecast (BSW: NFW + Future Activities)Figure 5View largeDownload slideApplication of water cut rules to OML-ZZZ’s production forecast (BSW: NFW + Future Activities) Close modal
+
+
+Figure 6View largeDownload slideApplication of water cut rules to OML-ZZZ’s production forecast (Gross liquid: No Further Work Case -NFW)Figure 6View largeDownload slideApplication of water cut rules to OML-ZZZ’s production forecast (Gross liquid: No Further Work Case -NFW) Close modal
+
+
+Figure 7View largeDownload slideApplication of water cut rules to OML-ZZZ’s production forecast (Gross liquid: NFW + Future Activities)Figure 7View largeDownload slideApplication of water cut rules to OML-ZZZ’s production forecast (Gross liquid: NFW + Future Activities) Close modal
+
+
+Presentation of Data and Results
+
+
+The preceding water cut rules were derived empirically using Epsilon Field production data. Fig. 4 and Fig. 6 show an improvement in the gross liquid forecast resulting from the application of these rules to the no further work forecast case while Fig. 5 and Fig. 7 even further demonstrate the improvement in the full lifecycle forecast (with future development).
+
+
+We observed an improvement in the gross liquid forecast over the previous approach (see Fig. 4, 5, 6 & 7) as the BS&W after the application of these rules is lower than the BS&W before the application of the rules. Unlike the previous method where the gross liquid production exceeded field measurements, the application of these new water cut conditions have enabled better forecasts where both the gross liquid and oil production are in alignment with observed historical trends. The gross liquid production is no longer over-predicted as was previously the case. This has also allowed the proper sizing of facilities, surface equipment and water disposal projects in the future development forecast cases. Expectedly, the forecasted volume of oil production has increased with the decrease of water production.
+
+
+Conclusions
+
+
+The forecasting of gross liquid/water production has been a difficult problem in the oil industry. This is because actual water production evolves over the life of a producing field. The practice of applying a water cut value from well models not calibrated with current reality or analogue data in production forecasting tends to yield unreliable gross liquid and hence water forecasts. These inaccurate forecasts lead to wrong sizing of facilities, inadequate or over designed water disposal options and excessive crude handling cost estimates.
+
+
+This paper has introduced a simple but effective means of forecasting liquid production that ensures a forecast that is both in trend with historical data and does not over-predict when compared with actual field observed measurements. The approach involved reviewing all quit strings in the company’s portfolio and coming up with rules guiding water cut abandonment conditions. The method described here is mainly applicable to brown field reservoirs post water breakthrough.
+
+
+Future work will look at further refinement to ensure that the historical variance between gross and oil rates is maintained in the forecast. Possible applications to gas wells will be also investigated. Review of well models in OML ZZZ and the update of their abandonment conditions with current reality is also recommended by this study.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Glossary
+
+
+GlossaryAbbreviationExpansion BS&WBasic Sediment and Water NFWNo Further Work OMLOil Mining Lease WCUTWater Cut
+
+
+Acknowledgement
+
+
+The authors of this paper wish to thank the Technical Team members for their contributions and the Management of XXX Limited for their permission to publish this paper.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212025-MS
+
+
+

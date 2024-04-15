@@ -1,0 +1,297 @@
+----- METADATA START -----
+Title: A Comparison of Tidal Signal Extraction and Bourdet Smoothening for Removal of Tidal Effect Induced Artifacts in Pressure Transient Analysis
+Authors: David Nnamdi, Karen Ochie, Rouzbeh Moghanloo
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212009-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The results of pressure transient analysis (PTA) are very important in reservoir characterization; however, this analysis can be affected by some non-reservoir behavior such as gas breakthrough, phase segregation in the wellbore, tidal effects, all of which can perturb the result accuracy. When data is acquired for PTA offshore, it can contain tidal effect, causing noise which can lead to misinterpretation when the test is analyzed, hence its impact should be accounted for in the analysis. Tides are experienced as the rise and fall of sea levels due to the variation in the earth's gravitational potential exerted by the moon and the sun, and the rotation of the Earth. Tidal signals have been observed to mask late time response for pressure build up tests and will significantly hinder correct interpretation of reservoir boundaries if left unaddressed. The effects of tidal pressure signals on the pressure derivative of pressure build-up tests are studied with the aim of comprehensively exploring the deviation from expected responses given known reservoir boundary conditions. Subsequently a refined method for pure tidal component removal from pressure derivative data is presented and compared to simpler Bourdet smoothening (L) and filtration of data points used in evaluation.This work focused on an efficient method to analyze data containing tidal effects. The Bourdet derivative and log cycle filtration was effective in removing tidal signal effects on late time boundary identification with the drawback being having multiple possible interpretations of the IARF. Extracting the tidal signal gave a more defined IARF period and late time boundary effect period with only minor oscillations in the late time but the rigor of extracting the tidal signal without sufficient regional tidal information may prove to major hindrance to this process.
+
+
+
+
+Keywords:
+pressure transient testing,
+society,
+fluid dynamics,
+reservoir characterization,
+petroleum engineer,
+filtration,
+efficiency,
+upstream oil & gas,
+pressure transient analysis,
+amplitude
+
+
+Subjects: 
+Reservoir Characterization,
+Reservoir Fluid Dynamics,
+Formation Evaluation & Management,
+Pressure transient analysis
+
+
+
+
+Introduction
+
+
+Several methods exist for the determination of information on reservoir characteristics such as seismic and geological studies, logging techniques, static pressure analysis, reservoir simulation or pressure transient analysis. Pressure Transient Analysis (PTA) is an inverse solution where the pressure response is analyzed to determine other information on the reservoir such as formation permeability, connected pore volume, degree of formation damage or stimulation, wellbore storage coefficient, fracture length and so on. The result from the PTA is very important in reservoir characterization, however this analysis can be affected by some non-reservoir behavior such as gas breakthrough, phase segregation in the wellbore, tidal effects, and so on, which can perturb the result accuracy. Long durations of some of these phenomena in the wellbore can also result in the reservoir being affected (Adrian, Chaco, Moreno, & UNICAMP, June 2016). The impact of these non-reservoir effects should be accounted for when interpreting well tests to ensure a representative well test analysis (Shchurenko, et al., 2018).
+
+
+Tidal effects in wells have been observed since AD77 and became more popular with the development of pressure gauges first in water wells and then petroleum reservoirs (Hailstone & Sasol, 2018). Tides are experienced as the rise and fall of sea levels due to the variation in the earth's gravitational potential exerted by the moon and the sun and the rotation of the Earth. While the sea level is rising in some location, it is falling in others and this causes a pressure loading and unloading which would be eventually transmitted to rocks below the seabed (El Faidouzi & ADMA-OPCO, 2017). Tidal effects are found as ocean tides offshore (Hemala & Balnaves, 1986) or as earth and barometric tides onshore (Hailstone & Sasol, 2018). The tide effects have distinct phases, frequencies, and amplitudes behaviors, however, in offshore wells, amplitude is the preeminent tide effect (Wu, Ling, & Liu, 2013). Tides can be classified into three types depending on their time periods and these are distributed around the world as shown in Figure 1. Semi diurnal tides have amplitudes with two highs and two lows during a day, diurnal tides have one high and one low in one day, and mixed tides have two highs and two lows in one day like the semi diurnal tides, but the tides have different heights (Gowtham T., Rouzbeh, Vamsi, & Srikanth, 2016). Ocean tides causes pressure variation that would be eventually felt by the reservoir with a time shift and attenuation and in turn affect the pore pressure and pore volume. The tidal efficiency which is directly proportional to the formation compressibility/total compressibility ratio is measured by the ratio of the change in pore pressure in the reservoir to the pressure change at the seabed, hence tidal signals would affect the oil build-up more in relation to gas wells with efficiencies as low as 10% in comparison to oil – as high as 40%. In high permeability formations, tidal effect can severely distort the pressure derivative in pressure transient analysis. The effect of ocean tides is generally deduced when the oscillation in the pressure derivative is present for times more than a few hours and this is more visible when the test duration is larger than the period of the tides that is close to 12 hours. Distortion of the pressure derivative caused by tidal effects may mask important reservoir information such as boundary conditions and should be removed before interpretation. The presence of boundaries in reservoir affects the well test data in very subtle way, hence, it can be affected by tidal signals.
+
+
+Figure 1View largeDownload slideTide Classification Around the World (beltoforion.de, 2021)Figure 1View largeDownload slideTide Classification Around the World (beltoforion.de, 2021) Close modal
+
+
+Several authors have proposed techniques for filtering and eliminating tidal effects from PTA data. (Levitan & Vinh, 2003) used a reference tidal signal from sea floor pressure or tidal potential function to minimize the amplitude and separate the tidal signal from real PTA data. (Chang & Firoozabadi, 2000); (Araujo, Campos, & and Moreno, 2012) used Fast Fourier Transforms (FFT) to analyze the pressure data in a frequency domain, hence, easily indicating the tidal component frequency. (Zhao & Reynolds, 2009) regression from already known tide components for estimation and this was a better approach than the Fast Fourier Transforms because it handles the tidal effect in wholesome rather than in partiality. The advantage of this technique is majorly that it is an inconsequential calculation, however, the downside is that there is a possibility of the entire tidal component not being filtered hence some harmonic component would be left in the provided pressure data.
+
+
+The effects of tidal pressure signals on the pressure derivative of pressure build-up tests are studied with the aim of comprehensively exploring the deviation from expected responses given known reservoir boundary conditions. Subsequently a refined method for pure tidal component removal from pressure derivative data is presented and compared to simpler Bourdet smoothening and filtration of data points used in evaluation. This work focuses on an efficient method to analyze data containing tidal effects.
+
+
+Methodology
+
+
+Tial Signal Simulation
+
+
+To generate the pure tidal signal at surface, a slightly modified version of the equation listed in (Gowtham T., Rouzbeh, Vamsi, & Srikanth, 2016) paper is utilized. This equation is shown below:
+
+
+TDsbp=Σi=1nAi*Cos(2*t*180Ti)(1)
+
+
+TDrp=Rt*TDsbp(2)
+
+
+Where:
+
+
+TDsbp = Pure tidal signal at seabed (psi)
+
+
+Ai = Amplitude of tidal signal (in psi)
+
+
+ t = Time (hrs)
+
+
+Ti =Harmonic period (hrs)
+
+
+TDrp = Pure tidal signal at reservoir depth (psi)
+
+
+Rt = Tidal efficiency (fraction)
+
+
+Equation 1 suggests there can be several tidal components, each having its unique harmonic period and amplitude that can result in the tidal signal observed. A list of the major global tidal components and their harmonic periods (Schwiderski, 1980)are listed below:
+
+
+Table 1Major global tidal components and their harmonic periods   View Large
+
+
+Tidal efficiency
+
+
+The tidal efficiency Rt is expressed at the ratio of change in loading pressure (pressure from overlaying sea water) to the change in the stress of the solid rock and change in pore pressure (Faidouzi, 2017). Rt is largely affected by porosity, formation and fluid compressibility and several methods for its estimation have been explored by authors such as (Van Der Kamp & Gale, 1983) and (Dean, Hardy, & Eltvik, 1994), and they may require lab experiments to be carried out on core samples to measure bulk compressibility under uniaxial and hydrostatic strain condition.
+
+
+Tidal Extraction Algorithm
+
+
+The process of extracting the pure tidal oscillatory components from the actual build-up pressure response is a 2-phase process. One of the methods presented here is an adaptation of equations put forward by (Acuna, 2016) Phase 1: Matching the linear pressure derivative late time signal.
+
+
+Using the measured shut-in bottomhole pressures and time, calculate the pressure change Δp and log pressure derivative Δp′ with zero smoothening. If Bourdet smoothening algorithm is used to calculate the log derivative, set lag time (L) = 0.Calculate the derivative of the pressure derivative in tidal region dpdt using:dpdt=Δp′torΔp′t+c(3)Where c is a vertical shift factor used to set the horizontal axis of symmetry of the tidal derivative to zero (Acuna, 2016) and may be positive or negative. Note that dpdt contains both the pressure and tidal response.Using informed Ti guesses based on analysis of the plot of dpdt vs t (explained further in  appendix 1), and estimates of Ai and Rm calculate the tidal signal match TDm with the following equation: TDm=Rm*Σi=1nAi*Cos(2*(t+s)*180Ti)(4)Where:Rm = the matched tidal efficiency (an arbitrary number with no real meaning)s = the phase shift of tidal signal (hrs)The values for Rm, Ai, s and c (if necessary) can be obtained using a simple least square regression optimization routine. This is available in excel as the "Solver" add-in and works by minimizing an objective function which is the difference Root Square Error (RSE) of data points in the late time region of the build-up test as this is most affected by tidal signal and a pure oscillatory component may be observed. RSE is calculated between dpdt and TDm.Calculate:Δp′corr=Δp′−(TDm*t)(5)This is the corrected log pressure derivative signal after removal of pure tidal signal.
+
+
+Phase 2: Matching and extracting the pure tidal signal.
+
+
+Using eqn (1) and (2), compute the pure tidal signal at reservoir depth TDrp, using the regressed values of Ai and the guessed Ti and an arbitrary guess of RtCalculate the corrected bottomhole pressure Pwscorr = Pws − TDrpCalculate the corrected pressure change Δpcorr and derivative Δp′corrCreate a new objective function (RSE) between Δp′corr and Δp′ and use Solver to determine RtThe resulting corrected bottomhole pressure, pressure change and pressure derivative (Pwscorr, Δpcorr & Δp′corr) can be plotted against original data to evaluate efficiency of tidal removal.
+
+
+The algorithm for tidal signal removal allows for adequate matching of the pressure derivative response before extracting the pure tidal signal. Visual aids such as linear plots of dpdt and TDm against time will help to qualitatively evaluate how effectively the pressure derivative response has been matched.
+
+
+Case Study
+
+
+To demonstrate the effects of tidal signals on late time response, pressure response was simulated for a highly permeable reservoir in the offshore Niger-Delta region of Nigeria given a known production rate and shut-in history. The choice of location is due to a refined knowledge of the regional tidal oscillations in Nigeria defined as semidiurnal with two inequalities with tidal range varying between 1m – 3m (Awosika & Folorunsho, 2000). For this study, the Principal Lunar and Principal Solar semidiurnal (M2 & S2) tidal components with were used. The amplitudes used to generate the tidal signal were 2.45psi and 0.5psi for M2 and S2 tidal components respectively and they reflect the pressure changes that may be observed at seabed due to changes in water level (water gradient assumed to be 0.45psi/ft).
+
+
+In generating the pure tidal signal for this study, Rt is assumed to be 0.25 (i.e., 25% of the seabed tidal signal is observed at the reservoir).
+
+
+The generated pure tidal signal at reservoir depth is shown in Figure 2 below.
+
+
+Figure 2View largeDownload slideGenerated pure tidal signal at reservoir depth.Figure 2View largeDownload slideGenerated pure tidal signal at reservoir depth. Close modal
+
+
+Reservoir pressure response simulation
+
+
+Kappa Saphir test design module was used to generate drawdown and shut-in pressures for a given rate history for 4 different boundary conditions. The boundary conditions are:
+
+
+Infinite acting reservoirClosed boundary (circle) with reservoir radius of 1300ftConstant pressure boundary at reservoir radius of 1300ftChannel with each fault lying 650ft from the wellbore.
+
+
+The reservoir fluid properties and flow history used for the simulation are listed in Table 2 below.
+
+
+Table 2Reservoir Parameters   View Large
+
+
+In all four cases, the well is designed to produce for 150hrs at 3000stb/d after which it is shut in for 72hrs. The gauge resolution is set to 0.02psi, the standard for quartz pressure gauges and a sampling frequency of 5seconds to 15mins were used in the early and late time periods of the test, respectively. The simulated tidal signal was used to adjust the Kappa shut-in response and a plot of pressure change and pressure derivative for all four boundaries is listed in Figure 3 a-d:
+
+
+Figure 3View largeDownload slideImpact of tidal signal noise on the pressure derivative plotFigure 3View largeDownload slideImpact of tidal signal noise on the pressure derivative plot Close modal
+
+
+Analysis of Figure 3 shows the impact of tidal signal noise on the pressure derivative plot. For all four boundary types, the data is distorted to show a unit slope line in the late time region which at the early stages may be incorrectly misinterpreted to be the onset of a channel boundary or intersection of 2 wedged sealing faults. In this study, we assume the data corrupted by tidal noise to be our measured data and based on the methodologies outlined earlier, attempt to remove the tidal component to correctly interpret reservoir boundary. Two boundary types were focused on for the rest of the study; (1) Closed boundary and (2) Channel boundary.
+
+
+Results
+
+
+Case 1: Closed boundary tidal component extraction
+
+
+An initial match is done to find the optimal match parameters 1. This is followed by a match on the Rt to extract the true tidal signal as described earlier. Table 3 a–d lists the initial and final guesses for the phase shift, matched tidal efficiency, M2 and S2 amplitudes of the phase signal, and tidal efficiency. The harmonic periods are assumed to be known; hence original values are used for matching.
+
+
+Table 3 a–dMatched parameters before and after the LSR optimization   View Large
+
+
+Analysis of Table 3 above shows that matched amplitudes and tidal efficiency differ from the parameters used to generate the pure tidal signal that was used to "corrupt" data initially. However, a very good match is obtained as shown in Figure 4. This indicates that the tidal signal solution is non-unique and different combinations of amplitudes and tidal efficiencies can give the same oscillatory pressure response observed in the reservoir. In the tidal signal matching/correction plot shown in Figure 4, pre- and post-match curves are shown for the pressure derivative, modeled signal and true tidal signal extracted.
+
+
+Figure 4View largeDownload slideTidal signal matching/correction plotFigure 4View largeDownload slideTidal signal matching/correction plot Close modal
+
+
+The log-log plot of the resulting Δp and Δp′ of the of the tidal signal dominated pressure vs corrected pressure signal is shown in Figure 5 below:
+
+
+Figure 5View largeDownload slideResulting plot of the of the tidal signal dominated pressure vs corrected pressure signalFigure 5View largeDownload slideResulting plot of the of the tidal signal dominated pressure vs corrected pressure signal Close modal
+
+
+Some noise is still observed in the late period as there are still oscillating pressure components not fully extracted, however, a clear dip in the pressure derivative for the corrected data is observed and can be effectively used to interpret a closed boundary system and its distance from the wellbore.
+
+
+Case 2: Channel Boundary system
+
+
+Here, separate initial guesses were made for the match parameters; (1) The guessed amplitude for the S2 tidal component was much larger than the M2 and (2) The guessed amplitude for the M2 and S2 signal were equal and smaller numbers. This was done to evaluate the influence of initial guesses on the final optimization solution. The matched parameters before and after the LSR optimization is shown in Table 4 a-h.
+
+
+Table 4Matched parameters before and after the LSR optimization   View Large
+
+
+Results shown in Table 4 suggests that the use of initially high estimates of the amplitudes can result in an unrealistic matched value after the application of the LSR optimization algorithm. The algorithm tries to offset these high amplitude numbers by using very small Rm and Rt values for the final match. The quality of the match in both scenarios are however comparable but still different from the parameters used to initially create the signal, again indicating the non-uniqueness of the solution. This is shown in Figure 6.
+
+
+Figure 6View largeDownload slideTidal signal matching/correction plotFigure 6View largeDownload slideTidal signal matching/correction plot Close modal
+
+
+A log-log plot of the resulting Δp and Δp′ of the of the tidal signal dominated pressure vs corrected pressure signal is shown in Figure 7 Again, some noise is observed at the very late time, but the channel boundary one-half slope line is clearly defined and can be interpreted successfully.
+
+
+Figure 7View largeDownload slideResulting plot of the of the tidal signal dominated pressure vs corrected pressure signalFigure 7View largeDownload slideResulting plot of the of the tidal signal dominated pressure vs corrected pressure signal Close modal
+
+
+Bourdet smoothening and log cycle filtration as an alternative to tidal signal removal.
+
+
+(Bourdet, Ayoub, & Pirard, 1989) defined a smoothening algorithm to calculate the pressure derivate function (Hosseinpour-Zonoozi, Ilk, & Blasingame, 2006). The algorithm is defined as follows:
+
+
+Δp'=(Δp1ΔX1ΔX2+Δp2ΔX2ΔX1)ΔX1+ΔX2
+
+
+Where Δp′ is the pressure derivative, Δp is the pressure change and ΔX is the log cycle lag time and can otherwise be defined as L. A representation of the Bourdet derivative is shown in Figure 8 below:
+
+
+Figure 8View largeDownload slideVariable's definition (Fekete.com, Conventional Analysis (Flow/Buildup or Injection/Falloff) > Derivative Analysis, n.d.)Figure 8View largeDownload slideVariable's definition (Fekete.com, Conventional Analysis (Flow/Buildup or Injection/Falloff) > Derivative Analysis, n.d.) Close modal
+
+
+In all the steps described for removing tidal signal in the previous subsection, L was assumed to be Zero (0) such that no smoothening of the data was done in the calculation of the pressure derivative. However, if an L value of 0.1-0.2 is chosen, significant improvements in the pressure derivative for the pressure data with tidal signal can be seen. In this case presented, the effect of smoothening is comparable to that of tidal signal removal as the boundary can be clearly interpreted. The effect of the tidal signal now only visibly affects the selection of the infinite acting radial flow (IARF) period with minor errors.
+
+
+Log cycle filtration describes a process of reducing the number of data points for analysis for any given log cycle. The advantage of doing this is further filtration of the data points that come from pressure gauges with high sampling frequency (such as quartz gauges) and can significantly reduce noise from tidal effects. Log-log plots of pressure change and pressure derivative for the tidal signal corrupted pressure data for the channel boundary is shown in in Figure 9. In 9a, the data is smoothened by L = 0.2 and in 9b the smoothened data is also filtered to 10 data points per log cycle. The filtration is done in Kappa Saphir.
+
+
+Figure 9View largeDownload slideSmoothening and Log cycle filtration for channel boundaryFigure 9View largeDownload slideSmoothening and Log cycle filtration for channel boundary Close modal
+
+
+Discussion and Recommendations
+
+
+Based on the study carried out, tidal signals have been observed to mask late time response for pressure build up tests and will significantly hinder correct interpretation of reservoir boundaries if left unaddressed. Two methods presented for removal of tidal oscillation effects are: (1) extraction of the underlying pure tidal signal from the measured pressure data and (2) using Bourdet smoothening and log cycle filtration to reduce oscillations shown in derivative plot.
+
+
+In extracting the tidal signal, selection of the harmonic period (Ti) to use is crucial to obtaining a suitable match and while this variable can be included in the LSR optimization routine, it is highly discouraged. This is because different regions globally have different tidal signals with known harmonic periods and varying amplitudes. It is suggested that the transient data interpreter studies the oscillatory signals of the late time data using a linear plot of dpdt vs time and compare them to known oscillatory signals for different harmonic periods before selecting suitable ones for a match.  Appendix A shows a plot of different pure tidal signals at different harmonic periods for such comparison.
+
+
+It is recommended that in running the LSR optimization, certain constraints (such as Rm ≤ 1) be included. This will aid in obtaining a better match. If the Bourdet derivative is used, the suggested log cycle lag time should not exceed 0.3 as crucial reservoir boundary information may be masked.
+
+
+An alternative method for tidal signal removal is the Fast Fourier Transform (FFT), a version of the Discrete Fourier Transform that is more computationally efficient. FFT transforms data from time domain to frequency domain and the tidal signal frequencies and their amplitudes can be visibly observed on a plot of amplitude vs frequency and facilitates easy extraction. This has been described by Wu et. al (2013). In their study, they observed that to filter out tidal signal, the frequency resolution (inverse of time of shut-in) must be 0.002 hour-1 or less indicating a shut in-time of at least 500hrs which is impracticable. Wu et al proposed a solution to this using a zero-padding technique which essentially adds zero amplitude samples to the data available before implementing FFT.
+
+
+In our study detailed earlier, the buildup is simulated for 72 hrs we found it superfluous to implement the zero-padding technique rather than utilizing the regression algorithm since the aim of the study was to comparatively evaluate Tidal signal extraction vs Bourdet smoothening for late time boundary interpretation.
+
+
+Conclusion
+
+
+This paper illustrates the effectiveness of Bourdet derivative and log cycle filtration in removing tidal signal effects on late time boundary identification with the drawback being having multiple possible interpretations of the IARF which gives the reservoir transmissibility information that is crucial to reservoir characterization. Extracting the tidal signal gives a more defined IARF period and late time boundary effect period with only minor oscillations in the late time but the rigor of extracting the tidal signal without sufficient regional tidal information may prove to major hindrance to that process.
+
+
+The combination of tidal signal extraction, Bourdet smoothening factor and log cycle filtration may yield the best dataset for obtaining quality reservoir information from a buildup test pressure data that is be-ladend with tidal noise, but this may not be possible in all cases. A trade off must then be made between both methods if all the required information for tidal signal extraction is not readily available.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgement
+
+
+The Carbon Utilization and Storage Partnership (CUSP) at the University of Oklahoma is immensely acknowledged for facilitating the publication of this paper.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion TDsbp= Pure tidal signal at seabed (psi) Ai= Amplitude of tidal signal (in psi) t= Time (hrs) Ti=Harmonic period (hrs) TDrp= Pure tidal signal at reservoir depth (psi) Rt= Tidal efficiency (fraction) Rm= the matched tidal efficiency (an arbitrary number with no real meaning) s= the phase shift of tidal signal (hrs)
+
+
+Appendix
+
+
+In figure A below, pure tidal signal plots for a few known harmonic periods are shown for use in comparing with linear plots of dpdt vs time. These plots should aid pressure transient data interpreter quickly identify common diurnal and semidiurnal tidal signals.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+References
+
+
+Acuna, J. A. (2016). A Simple Method for the Removal of Tidal Effects in Pressure Transient Analysis. SPE Western Regional Meeting. Anchorage, Alaska, USA: Society of Petroleum Engineers. doi:https://doi.org/10.2118/180368-MSGoogle ScholarCrossrefSearch ADS  Adrian, P. M., C. Y., Moreno, R. B., & UNICAMP. (June2016). Second Semilog Pressure Derivative in Pressure Transient Analysis of Gas-Condensate Wells with Strong Phase Redistribution: Field Case Study. SPE Trinidad and Tobago Section Energy Resources Conference (pp. 1–13). Port of Spain, Trinidad and Tobago: Society of Petroleum Engineers. doi: 10.2118/180771-MSGoogle ScholarCrossrefSearch ADS  Araujo, M., Campos, W., & and Moreno, R. (2012). iltering of Tide Effects in Formation Evaluation Data. SPE Latin America and Caribbean Petroleum Engineering Conference. Mexico City, Mexico: Society of Petroleum Engineers. doi: 10.2118/153566-MSGoogle Scholar Awosika, L., & Folorunsho, R. (2000). Nigeria. The Ocean Data and Information Network of Africa, 127–133. Retrieved from http://fust.iode.org/sites/fust.iode.org/files/public/images/odinafrica/Chapter_7_14_Nigeria.pdfGoogle Scholar beltoforion.de. (2021, 264). Diurnal Tides and Semiduurnal Tides. Retrieved from beltoforion.de: https://beltoforion.de/en/tides/tidal_cycles.phpBourdet, D., Ayoub, J., & Pirard, Y. (1989). Use of Pressure Derivative in Well-Test Interpretation. SPE Formation Evaluation, 293–303. Retrieved from https://blasingame.engr.tamu.edu/z_zCourse_Archive/P648_19A/P648_19A_Reading_Portfolio/SPE_012777_(Bourdet)_Pressure_Derivative_for_PTA_(OCR)_(pdf).pdfGoogle Scholar Faidouzi, M. M. (2017). Contribution of Tidal Analysis to Reservoir Monitoring - Field Case Study in a Fractured Reservoir Offshore Abu Dhabi. Abu Dhabi International Petroleum Exhibition & Conference. Abu Dhabi, UAE: Society of Petroleum Engineers. doi:https://doi.org/10.2118/188837-MSGoogle ScholarCrossrefSearch ADS  Fekete.com, Conventional Analysis (Flow/Buildup or Injection/Falloff) > Derivative Analysis. (n.d.). Retrieved from Fekete: http://www.fekete.com/san/theoryandequations/welltesttheoryequations/derivative_analysis.htmGowtham, T., Rouzbeh, M. G., Vamsi, K. B., & Srikanth, P. (2016). Possible Misinterpretations in Well Test Analysis Due to Unfiltered Tidal Signal. SPE Western Regional Meeting. Anchorage, Alaska, USA: Society of Petroleum Engineers. doi: https://doi.org/10.2118/180464-MSGoogle ScholarCrossrefSearch ADS  Hailstone, J., & Sasol, I. E. (2018). Systematic Use of Tidal Effects for Reservoir Appraisal and Well Integrity Monitoring in a Near-Coast Onshore Environment. SPE Europec featured at 80th EAGE Conference and Exhibition. Copenhagen, Denmark: Society of Petroleum Engineers. doi: 10.2118/191354-MSGoogle ScholarCrossrefSearch ADS  Hemala, M. L., & Balnaves, C. (1986). Tidal Effect in Petroleum Well Testing. SPE Offshore South East Asia Conference and Exhibition. Singapore: Society of Petroleum Engineers. doi: 10.2118/14607-MSGoogle ScholarCrossrefSearch ADS  Chang, E., & Firoozabadi, A. (2000). Gravitational Potential Variations of the Sun and Moon for Estimation of Reservoir. Journal of Petroleum Technology, 5(4), 456–465. doi: 10.2118/67952-PA.Google Scholar Dean, G., Hardy, R., & Eltvik, P. (1994). Monitoring compaction and compressibility changes in offshore chalk reservoir. SPE Formation, 9(1), 73–76. doi: https://doi.org/10.2118/23142-PAGoogle ScholarCrossrefSearch ADS  El Faidouzi, M. M., & ADMA-OPCO. (2017). Contribution of Tidal Analysis to Reservoir Monitoring - Field Case Study in a Fractured Reservoir Offshore Abu Dhabi. Abu Dhabi International Petroleum Exhibition & Conference. Abu Dhabi, UAE: Society of Petroleum Engineers. doi: https://doi.org/10.2118/188837-MSGoogle ScholarCrossrefSearch ADS  Hosseinpour-Zonoozi, N., Ilk, D., & Blasingame, T. A. (2006). The Pressure Derivative Revisited — Improved Formulations and Applications. SPE Annual Technical Conference and Exhibition. San Antonio, Texas, U.S.A: Society of Petroleum Engineers. Retrieved from https://blasingame.engr.tamu.edu/0_TAB_Public/TAB_Publications/SPE_103204_(Zonoozi)_Pressure_Derivative_Revisited.pdfGoogle ScholarCrossrefSearch ADS  Levitan, M. M., & Vinh, P. (2003). Identification of Tidal Signal in Well Test Pressure Data. SPE Annual Technical Conference and Exhibition. Denver, Colorado: Society of Petroleum Engineers. doi: https://doi.org/10.2118/84376-MSGoogle ScholarCrossrefSearch ADS  Schwiderski, E. W. (1980). Ocean tides, part I: Global ocean tidal equations. Marine Geodesy, 3(1-4), 161–217. doi: 10.1080/01490418009387997Google ScholarCrossrefSearch ADS  Shchurenko, A., Arbatskii, T., Dadakin, N., Rymarenko, K., Nukhaev, M., & Musin, R. (2018). Features of the Well Test Interpretation in Complicated Conditions of Intensive Segregation of Phases in the Wellbore and the Manifestation of the Effects of Abnormal Pressure Growth. SPE Russian Petroleum Technology Conference (pp. 1–24). Russia, Moscow: Society of Petroleum Engineers. doi: 10.2118/191561-18RPTC-MSGoogle Scholar Van Der Kamp, G., & Gale, J. E. (1983). Theory of earth tide and barometric effects in porous formations with compressible grains. Advancing Earth and Space Science, 19(2), 538–544. doi: https://doi.org/10.1029/WR019i002p00538Google Scholar Wu, X., Ling, K., & Liu, D. (2013). Deepwater Reservoir Characterisation Using Tidal Signal Extracted from Permanent Downhole Pressure Gauge. International Petroleum Technology Conference. Beijing, China: Society of Petroleum Engineers. doi: 10.2523/IPTC-16711-MSGoogle ScholarCrossrefSearch ADS  Zhao, Y., & Reynolds, A. (2009). Estimation and Removal of Tidal Effects from Pressure Data. Journal of Petroleum Technology, 14(1), 144–152. doi: 10.2118/103253-PA.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212009-MS
+
+
+

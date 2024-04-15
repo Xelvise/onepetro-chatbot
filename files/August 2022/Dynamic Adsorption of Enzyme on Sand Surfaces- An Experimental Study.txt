@@ -1,0 +1,140 @@
+----- METADATA START -----
+Title: Dynamic Adsorption of Enzyme on Sand Surfaces- An Experimental Study
+Authors: Tinuola Udoh, Utibeabasi Benson
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211905-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Enzyme can reduce interfacial tension between oil and water thereby mobilising more oil than would originally be produced but its adsorption on the porous rock surfaces reduces its efficiency. This study presents experimental investigation of dynamic adsorption of enzyme on sand surfaces. The experiment was carried out at varied brine salinities and enzyme concentrations on different sand grain sizes. The concentration depletion method that accounts for the difference in enzyme concentrations in solution before and after its contact with the sand was used to determine the enzyme adsorption on relevant surfaces. The effluent sample from the adsorption process was collected after every three minutes until equilibrium was reached and the final concentration of the enzyme in the effluent solutions was measured and used to determine its adsorbed concentration on the sand surfaces. The results of this study show that increase in concentration of enzyme results in increase in its adsorption on sand surfaces. Also, increase in brine salinity increased enzyme adsorption on the sand surfaces but increase in sand grain size however reduced its adsorption. The result of this study is relevant in the design of enzyme enhanced oil recovery process.
+
+
+
+
+Keywords:
+upstream oil & gas,
+enhanced recovery,
+enzyme,
+salinity,
+concentration,
+enzyme concentration,
+journal,
+static adsorption,
+adsorption,
+brine salinity
+
+
+Subjects: 
+Improved and Enhanced Recovery
+
+
+
+
+Introduction
+
+
+Enzymes are a specific group of proteins that are synthesized by living cells to work as catalysts for the many thousands of biochemical reactions [1]. In enhanced oil recovery (EOR) process, enzyme flooding has gained relevance due to its ability to lower interfacial tension between oil and water thereby mobilizing more oil to the production wells [2, 3]. The enzyme EOR process has a great potential of maximizing oil recovery factor of existing reservoir rocks, where a significant volume of the unrecovered oil is targeted after the conventional method, its adsorption rate may however reduce its efficiency [4, 5, 6]. Adsorption is a dynamic process that involves an interaction between the adsorbed substance (adsorbate) and the substance on which adsorption takes place (adsorbent). Adsorption may result from physisorption or chemisorption process. The difference between them is usually based on their temperature dependence. In physisorption process, adsorption reduces generally with increase in temperature while chemisorption adsorption process, adsorption increases with temperature [7].
+
+
+From literatures, two methods are generally used to determine the adsorption of different adsorbates on solid surfaces. These methods are static and dynamic adsorption processes. The static method allows adsorbate solution to reach equilibrium with crushed solid surfaces over a period. In the case of dynamic process, the solid grains packed in a column are flooded with adsorbate solution and the effluent concentration of the adsorbate at different cumulative injected volumes is determined [8]. A few studies have been conducted on static adsorption of enzyme, but little or no studies on dynamic adsorption of enzyme are available. For example, Udoh [9] investigated static adsorption of rhamnolipid and greenzyme on carbonate and sandstone rock surfaces and observed strong affinity of rhamnolipid for sandstone surfaces while greenzyme adsorbed more carbonate surfaces. Also, in the study conducted by Udoh and Ekanem [10] on static adsorption of greenzyme on sand surfaces of different grain sizes at varied temperatures, their results showed that the adsorption of greenzyme on sand surfaces increases with increase in its concentrations and decrease in sand particles but reduces with increase in temperature.
+
+
+Furthermore, salinity of the brine also plays an important role in the adsorption of enzyme. According to Udoh [9], increase in salinity leads to increase in enzyme adsorption on the porous rock surfaces (carbonate and sandstone). Also, small grain size rock surfaces exhibit high adsorption efficiency because of their large surface areas available for adsorption [10]. Hence, the aim of this study is to experimentally investigate the dynamic adsorption of enzyme on different sand surfaces in different brine salinities relevant to hydrocarbon reservoirs. The concentration depletion method which involves comparison of concentrations of enzyme in aqueous solutions before and after their dynamic contacts with sand surfaces was used to determine the enzyme equilibrium concentration from effluent analyses.
+
+
+Material and method
+
+
+Materials and sample preparation
+
+
+Brine
+
+
+The brines used in this study were prepared based on the composition of the formation brine of the reservoir used as case study. The formation brine has salinity of 32g/L with the compositional breakdown of 98.2% sodium chloride, 0.6% calcium chloride, 0.8% magnesium carbonate, 0.2% potassium chloride and 0.2% sodium sulphate. The salts were dissolved in distilled water and three brine salinities (10%, 50% and 100%) were used during this experiment. The 100% salinity is the formation brine, while the 50% and 10% brines are fifty and ninety percent diluted formation brine. The details of the compositional breakdown of the brines are presented in Table 1.
+
+
+Table 1The brine compositional breakdown. Components
+            . 100% Brine (g/L)
+            . 50% Brine (g/L)
+            . 10% Brine (g/L)
+            . NaCl 31.4240 15.712 3.1424 CaCl2 0.1920 0.0960 0.0192 MgCO3 0.2560 0.1280 0.0256 KCl 0.0320 0.0320 0.0064 Na2SO4 0.0320 0.0320 0.0064 Components
+            . 100% Brine (g/L)
+            . 50% Brine (g/L)
+            . 10% Brine (g/L)
+            . NaCl 31.4240 15.712 3.1424 CaCl2 0.1920 0.0960 0.0192 MgCO3 0.2560 0.1280 0.0256 KCl 0.0320 0.0320 0.0064 Na2SO4 0.0320 0.0320 0.0064 View Large
+
+
+Enzyme
+
+
+The enzyme used in this study is a commercial enzyme with 100% concentration supplied by the Biotech Processing Supply, Dallas, Texas. Four different concentrations of the enzyme solutions (1-, 3-, 5- and 10 wt. %) were prepared with distilled water and saline solutions and used in this study.
+
+
+Dynamic adsorption
+
+
+The experimental variables investigated in this study are salinity, grain size and enzyme concentration variations based on the concentration depletion method [8]. This method involves comparison of enzyme concentrations in the aqueous solutions before and after their dynamic contacts with different sand surfaces. The experiment was carried out with different enzyme concentrations, brine salinities and sand grain sizes. The sand grains used this experiment were gotten from a river in Akwa Ibom state, Nigeria. Prior to the test, the sand grains were sorted into three sizes (0.424, 0.85 and 1.70 mm) with the aid of orbital mechanical shaker. 150 g of each grains size was then cleaned with methanol and distilled water, to remove dirt and impurities from the sand. Thereafter, the sand grains were dried in the oven at 70 °C for a period of 24 hours. After cooling, the different grain sizes were loaded into the sand-pack columns that were used for the dynamic adsorption tests. Fixed mass of sand (32.6 g) was measured and packed continuously into the sand pack column after a mesh of 0.30 mm size was placed in the column to prevent grain migration during flooding. The relevant fluids (distilled water and brines) were first injected through the sand pack to ensure saturation of the porous system. Thereafter, the enzyme solutions were injected through the system and the effluents from the flooding were collected periodically for analysis. The conductivity method was used to determine the concentrations of enzyme in all the effluents based on the measured conductivities of enzyme-aqueous solutions and their relevant concentrations before flooding. The effluents from each flooding were collected and their conductivity was measured every three minutes untill an equilibrium concentration (i.e., the point at which the concentration of effluents did not change with time) was reached. The final concentrations of enzyme were determined from effluents measured conductivity using Equation 1:
+
+
+C0A0=C1A1 .(1)
+
+
+The dynamic adsorption of the enzyme on sand surfaces was calculated using Equation 2:
+
+
+q=C0V−∑i=1nC1V1m ,(2)
+
+
+where A0 and A1 are the initial and final conductivity of enzyme solutions before and after flooding, respectively (μS/cm), q is the enzyme adsorption on sand surface (mg/g), C0 is the primary enzyme concentration before adsorption (wt.%), V is the total volume of injected enzyme solution until the effluent concentrations reached equilibrium (mL), C1 is the effluent enzyme concentration (wt.%), V1 is the volume of every collected effluent sample (mL), m is the mass of the sand in the pack column (g) and n is the total number of the effluent samples collected until equilibrium was attained. This procedure was repeated for different enzyme concentrations and brine salinities on the three grain sizes.
+
+
+Results and discussion
+
+
+Figure 1 shows the effect of variation in the concentrations of enzyme on its adsorption on different grain sizes. A general increase in the adsorption of enzyme was observed with increase in its concentration in all the solution irrespective of the different grain sizes. For instance, increase in enzyme concentrations from 1 wt.% to 10 wt.% on 0.424 mm grain size resulted in increase in adsorption from 0.03 mg/g to 1.61 mg/g. For 0.85 mm grain size, increase in concentrations from 1 wt.% to 10 wt.% also gave a corresponding increase in adsorption density from 0.02 mg/g to 1.29 mg/g. Finally, for 1.70 mm grain size, similar trend was observed with increase in concentrations from 1 wt.% to 10 wt.% that resulted in increase in adsorption density from 0.01 mg/g to 0.95 mg/g. The observed increased in enzyme adsorption with increase in its concentrations is related its molecular interactions on the sand surfaces. At low concentration, a spontaneous adsorption of enzyme occurs, but as the concentration increases, lateral interactions between the adsorbed and bulk molecules takes place until equilibrium is reached, and the adsorption density plateaus [9]. The maximum adsorption is attained when the equilibrium is reached, and the adsorption density becomes relatively constant.
+
+
+Figure 1View largeDownload slideThe effect of varied enzyme concentrations on its adsorption on different grain sizes.Figure 1View largeDownload slideThe effect of varied enzyme concentrations on its adsorption on different grain sizes. Close modal
+
+
+Also, the effect of sand grain size variation on enzyme adsorption can be seen in Figure 1. Generally, the adsorption of enzyme on the different grain sizes increases with increase in the concentration of enzyme until all the surfaces were covered and equilibrium condition was attained. This is evidenced by the plateaued adsorption density that remain constant with increase in enzyme concentration in the aqueous solution. The highest adsorption density of 1.59 mg/g was however observed with the smallest size grains (0.424 mm), while the lowest adsorption of 0.97 mg/g was observed with the biggest size grains (1.70 mm) and an intermediate adsorption of 1.27 mg/g was observed with medium size grains (0.85 mm). That is, the adsorption of enzyme on sand surfaces decreases with increase in grain sizes. This is consistent with the results of the previous study by Udoh and Ekanem [10] on static adsorption of greenzyme on sand surfaces in which decrease in adsorption was observed with increase in the sand grain sizes. This was attributable to availability of more adsorption site on smaller grains than the bigger grains. The observed enzyme adsorption in this study is however higher than their study due to variance in the quantity of sand grains available for adsorption. This shows that irrespective of the adsorption method (static or dynamic) used, the enzyme adsorption reduces with increase in the grain sizes.
+
+
+The results of the combined effect of grain size and salinity on enzyme adsorption are presented in Figure 2. Generally, a decrease in adsorption of enzyme was observed with increase in the size of the grains respective of the brine salinity being used. For the 10% salinity, increase in grain size from 0.424mm to 0.85mm and 1.70mm led to reduction of the adsorption of enzyme from 1.15 mg/g to 1.01 mg/g and 0.96 mg/g, respectively. Also, the use of the 50% salinity brine resulted in reduction of adsorption of enzyme from 1.31 mg/g to 1.25 mg/g and 1.18 mg/g on grain sizes 0.424 mm, 0.85 mm and 1.70 mm, respectively. Finally, the use of 100% salinity gave a corresponding decrease in adsorption of enzyme from 2.58 mg/g to1.52 mg/g and 1.41 mg/g on grain sizes 0.424 mm, 0.85 mm and 1.70 mm, respectively. This further shows that, the smaller the grain size, the more the adsorption of enzyme on the surfaces due to increased surface areas. This result is consistent with previous study on static enzyme adsorption on different sand grains in which higher adsorption was observed on small grain size [10].
+
+
+Figure 2View largeDownload slideThe effect of combined salinity variation and grain size difference on enzyme adsorption in (a) 10% salinity, (b) 50% salinity and 100% salinity brines.Figure 2View largeDownload slideThe effect of combined salinity variation and grain size difference on enzyme adsorption in (a) 10% salinity, (b) 50% salinity and 100% salinity brines. Close modal
+
+
+The brine salinity plays a fundamental role in the adsorption of enzyme. Previous study [9] showed that increase in brine salinity can lead to increase in adsorption of enzyme on the porous rock surfaces. Figure 3 shows the results of the effect of brine salinity on the adsorption of enzyme on different grain sizes. Increase in adsorption was observed with increase in salinity and reduction in grain sizes. Figure 3a shows the effect salinity on the adsorption of enzyme on 0.424 mm grain size. Increase in salinity from 10% to 50% and 100% resulted in a corresponding increase in adsorption of enzyme from 1.15 mg/g to 1.31 mg/g and 1.58 mg/g. Figures 3b and 3c show the effect of salinity on adsorption of enzyme on the 0.85 mm and 1.70 mm grain sizes. It was observed that increase in salinity from 10% to 50% and 100% also increased the adsorption of enzyme from 1.01 mg/g to 1.25 mg/g and 1.52 mg/g, respectively for 0.85 mm grain size and from 0.96 mg/g to 1.18 mg/g and 1.41 mg/g, respectively for 1.70 mm grain size. This shows that lower adsorption of enzyme will be achieved in low salinity brine than high salinity formation brine and emzyme adsorption decreases with increase in grain size irrespective of the brine salinity.
+
+
+Figure 3View largeDownload slideThe effect of brine salinity on enzyme adsorption on grain size (a) 0.424 mm (b) 0.85 mm and (c) 1.70 mm.Figure 3View largeDownload slideThe effect of brine salinity on enzyme adsorption on grain size (a) 0.424 mm (b) 0.85 mm and (c) 1.70 mm. Close modal
+
+
+Conclusion
+
+
+Dynamic adsorption of enzyme on three different grain sizes (0.424 mm, 0.85 mm and 1.70 mm) was systematically investigated with varied brine salinities and enzyme concentrations. The results show that increase in the concentrations of enzyme and brine salinity resulted in increase in adsorption of enzyme on the sand surfaces irrespective of the grain size. The reverse was however the case with the grain sizes, as increase in grain size resulted in decrease in adsorption of enzyme on the sand surfaces.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+R. A.Copeland, Enzymes: a practical introduction to structure, mechanism, and data analysis, John Wiley and Sons, 2000.Google Scholar T. H.Udoh, "Experimental Investigation of Temperature Effects on Low Salinity Enzyme Enhanced Oil Recovery Process," Nigeria Journal of Technological Development, vol. 17, no. 3, pp. 156–164, 2020.Google ScholarCrossrefSearch ADS  T.Udoh and J.Vinogradov, "A Synergy between Controlled Salinity Brine and Biosurfactant Flooding for Improved Oil Recovery: An Experimental Investigation Based on Zeta Potential and Interfacial Tension Measurements," International Journal of Geophysics, vol. 2019, pp. 1–15, 2019.Google ScholarCrossrefSearch ADS  H.Nasiri, K.Spildo and A.Skauge, "Use of enzymes to improve waterflood performance," in Paper presented at International Symposium of the Society of Core Analysts, Noordwijk, Netherlands, 2009.Google Scholar T.Udoh, L.Akanji and J.Vinogradov, "Experimental Investigation of Potential of Combined Controlled Salinity and Bio-Surfactant CSBS in Enhanced Oil Recovery EOR Processes," in Paper SPE 193388 in SPE Nigeria Annual International Conference and Exhibition. Society of Petroleum Engineers. 10.2118/193388-MS, Lagos, Nigeria, 2018.Google Scholar T.Udoh and J.Vinogradov, "Effects of Temperature on Crude-Oil-Rock-Brine Interactions During Controlled Salinity Biosurfactant Flooding," in Paper SPE 198761 presented in SPE Nigeria Annual International Conference and Exhibition, Lagos, Nigeria, 2019.Google Scholar T. H.Udoh and V.Ekanem, "Experimental Investigation of Greenzyme Adsorption on Sand Surface," ABUAD Journal of Engineering Research and Development, vol. 3, no. 1, pp. 83–89, 2020.Google Scholar A.Rashidi, A. R. S.Nazar and H.Radnia, "Application of Nanoparticles for Chemical Enhanced Oil Recovery," Iranian Journal of Oil & Gas Science and Technology, vol. 7, no. 1, 2018.Google Scholar P.Somasundaran and G. E.Agar, "The zero point of charge of calcite.," Journal of colloid interface science, vol. 24, no. 4, pp. 433–440, 1967.Google ScholarCrossrefSearch ADS  A.Barati-Harooni, A.Najafi-Marghmaleki, S. M.Hosseini and S.Moradi, "Experimental Investigation of dynamic adsorption-desorption of new nonionic surfactant on carbonate rock: Application to enhanced oil recovery (EOR)," Journal of Energy Resources Technology, 139(4), vol. 139, no. 4, 2017.Google Scholar T.Udoh, "Comparative Study on Adsorption of Biologically Generated Surface Active Agents on Carbonate and Sandstone Rock Surface," International Journal of Current Research and Academic Review, vol. 7, no. 2, pp. 21–36, 2019.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211905-MS
+
+
+

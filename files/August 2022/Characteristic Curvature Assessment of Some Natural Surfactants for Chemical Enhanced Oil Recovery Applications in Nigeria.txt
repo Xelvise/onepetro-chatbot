@@ -1,0 +1,282 @@
+----- METADATA START -----
+Title: Characteristic Curvature Assessment of Some Natural Surfactants for Chemical Enhanced Oil Recovery Applications in Nigeria
+Authors: Jeffrey Gbonhinbor, Ann Obuebite, George Kuradoite, Augustine Agi
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211996-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Chemical enhanced oil recovery (CEOR) application of natural surfactants is based on potential interfacial tension (IFT) alterability and eco-friendly considerations. The reduced IFT is associated with microemulsion formation in relation to a surfactant’s characteristic curvature. Lately, surface activities of natural surfactants have gained interest in Nigerian laboratory studies with no attention given to their hydrophilicity/hydrophobicity. This research focuses on molecular weight determination, micelle formation, and characteristic curvature evaluation of readily available natural surfactants. Four plants that are known to possess relevant surfactant properties were selected for this evaluation. Freezing point dipping method was used to determine the average molecular weight of each surfactant. Critical micelle concentration (CMC) was ascertained by electric conductivity tests. Characteristic curvature was evaluated from microemulsion formulations of toluene and aqueous surfactant mixtures. Formulated aqueous surfactant mixture consists of a combination of selected natural surfactant and a reference surfactant. Sodium dodecylsulphate (SDS) was adopted as the reference surfactant throughout this work. The analysis was configured in line with the hydrophilic-lipophilic deviation (HLD) model set to 0. Results yielded average molecular weights of examined surfactants between 128.3 g/mol to 186.7 g/mol. Critical micelle concentrations values of 0.45 to 0.60 were derived for all natural surfactants. Estimated characteristic curvature values suggested hydrophobicity with values from 0.116 to 0.194. As a consequence, these natural surfactants possess a tendency to form reverse micelles due oleic phase attraction. Their low positive values make them suitable for lowering IFT in order to mobilise trapped formation oil.
+
+
+
+
+Keywords:
+surfactant,
+concentration,
+jatropha curca,
+enhanced recovery,
+curvature,
+assessment,
+chemical flooding methods,
+dialium guineense willd,
+enhanced oil recovery application,
+natural surfactant
+
+
+Subjects: 
+Improved and Enhanced Recovery,
+Chemical flooding methods
+
+
+
+
+Introduction
+
+
+Oil production sustainability from a watered-out oilfield due to water injection has invoked different techniques in the petroleum industry. Revitalising such production wells often requires augmenting existing injection wells to match a new/different recovery scheme. This succeeding scheme targets discountinued and isolated oil pockets in the formation surrounded by previously injected saline fluid. Hence, progressive exploitation of oil is tied to surmounting viscous and capillary forces present in the formation. These forces can be surpassed by injecting chemicals into the formation in the form of Chemical Enhanced Oil (CEOR) processes. A popular variant of this process encompasses utilising surfactant solutions to adjust the interfacial tension (IFT) between oil and water. Maximum yield of oil is usually accomplished by amending the IFT value to its ultralow state (Healy and Reed, 1973; Sheng, 2015). A bi-continous (middle phase) microemulsion formed by the interaction between oil-water-surfactant systems guarantees this suitable IFT. This becomes attainable at optimal saline concentration owing to the existence of an indistinguishable phase around the invariant point. The magnitude of microemulsion or aqueous micelle formed complements the equivalent value of the system’s IFT (Miller et al., 1977; Mahboob et al., 2022). However, microemulsion systems formed by this interaction is strongly controlled by the surfactant’s characteristic curvature (Nguyen and Sabatini, 2011).
+
+
+Characteristic curvature is an evaluation of a surfactant’s capacity to produce normal micelles, reverse micelles, or intermediate aggregates (Acosta et al., 2008). These conditions are captured by a dimensionless negative or positive numeral which represent a surfactant’s hydrophilicity or hydrophobicity respectively. A hydrophilic surfactant inclines to normal micelles formulation, while reverse micelles lean towards a hydrophobic surfactant in micellar solutions (Acosta et al., 2008). Micellar solutions in oil-water-surfactant systems are oil-external microemulsion, water-external microemulsion, and middle phase microemulsion. Contextually, normal micelles are attributed to oil-external (Type I) microemulsions which indicate a surfactant’s preferential solubility in water. Water-external (Type II) microemulsions are linked to reverse micelles tendencies of a surfactant invidiously soluble in oil. Middle phase (Type III) microemulsions characterise a surfactant’s solubility in both oil and water at zero hydrophilic-lipophilic deviation (HLD) (Salager et al., 1979; Witthayapanyanon et al., 2008). The HLD concept accounts for molecular composition of surfactant, salinity, temperature, oil composition, and presence of cosurfactant or cosolvent (Salager et al., 1979; Acosta et al., 2008; Witthayapanyanon et al., 2008; Nguyen and Sabatini, 2011; Wesson et al., 2012; Jin et al., 2015; Mejia and Kostarelos, 2015; Mavaddat et al., 2016; Kittithammavong et al., 2021). Surfactant selection based on molecular composition has given rise to HLD in relation to surfactants of synthetic and natural origins. While synthetic surfactants are readily sought after, natural surfactants are being considered for ecological reasons.
+
+
+Natural surfactants are amphiphilic compounds derived from plant or animal source via some production means. Surfactants of the animal origin entails synthesising a wide range of microorganisms with varied compositions. The cost implication of producing some natural surfactant from animal source is most likely greater than their synthetic counterparts (Holmberg, 2001). The production process may yield amphiphilic compounds of low or high molecular weight surfactants. Conversely, plant source focuses on selecting a plant with saponin constituent due to its foaming ability in solvents (Sahu et al., 2008; Rai et al., 2021). These surfactants have gained interest in the petroleum industry due to their ability to relatively modify surface in liquid systems (Bachari et al., 2018). Nigeria has adopted this trend with key emphasis on locally sourced plant-based natural surfactants for CEOR processes without field application (Olafuyi et al., 2010; Gbonhinbor and Onyekonwu, 2015; Alawode and Falode, 2021). These studies represented in Table 1 show laboratory investigations with no attention given to their characteristic curvature and molecular weight. Thus, native plant-based natural surfactants like Aspilia africana, Dialium guineense Willd, Vernonia amygdalina, and Jatropha curcas were considered in this study. Okello et al. (2020) phytochemical analysis showed the richness of saponins and other compounds in Aspilia africana. Kone et al. (2004) established the existence of saponins, tannins, alkanoids, flavonoids, terpenoids, and glycosides in Dialium guineense Willd. Wang et al. (2018) isolated four steroidal saponins from aqueous ethanol in combination with leaves of Vernonia amygdalina. Rahu et al. (2021) quanlitative ascertained the presence of saponins and other phytochemicals in extracts of Jatropha curcas.
+
+
+Table 1Summary of Natural Surfactant Investigations in Nigeria Author
+            . Year
+            . Investigation
+            . Gap
+            . Obuebite et al. 2020 CMC assessment on hibiscus plant extract, Elaeis guineenis, and Moringa oleiferaPeformed phase behaviour analysis on natural surfactantsComparative secondary sand pack flooding with natural surfactants and SDS No phytochemical assessementNo characterization in terms of molecular weight and characteristic curvature Izuwa et al. 2021 IFT measurement in oil-water-surfactant systems using local surfactant such as PBAS, RPAS, UPAS, and SCSChemical structure analysis of natural surfactants Ignored molecular weight assessment and characteristic curvature Author
+            . Year
+            . Investigation
+            . Gap
+            . Obuebite et al. 2020 CMC assessment on hibiscus plant extract, Elaeis guineenis, and Moringa oleiferaPeformed phase behaviour analysis on natural surfactantsComparative secondary sand pack flooding with natural surfactants and SDS No phytochemical assessementNo characterization in terms of molecular weight and characteristic curvature Izuwa et al. 2021 IFT measurement in oil-water-surfactant systems using local surfactant such as PBAS, RPAS, UPAS, and SCSChemical structure analysis of natural surfactants Ignored molecular weight assessment and characteristic curvature View Large
+
+
+Materials and Method
+
+
+Materials
+
+
+The leaves of Aspilia africana, Dialium guineense Willd, Vernonia amygdalina, and Jatropha curcas were harvested from scrublands in Niger Delta. They were all sundried for about 6 days prior to their respective pulvurisation and storage in sealed containers. Sodium dodecyl sulphate (SDS) of 288.38 g/mol with an assay of 85% was utilized as the reference surfactant thoroughout this study. A known characteristic curvature value of the reference surfactant (SDS) was taken as -0.92 (Acosta et al., 2008). Toluene of 0.87 g/cm3 density with a 99% purity and EACN of 1 was adopted as the hydrocarbon in this work. Saline solutions were formulated using sodium chloride (NaCl) of 58.44 million Dalton with 99% purity.
+
+
+Experimental Tests
+
+
+Experimental tests consist of molecular weight determination, critical micelle concentration (CMC) measurement, and phase behaviour tests. Molecular weight of all natural surfactants was ascertained using a cryoscopic technique in line with the freezing point depression. This method assesses molecular weight by the dissolution of a solute in a pure solvent. The dissolution of solute molecules in the solvent possesses an inverse relationship with the pure solvent’s freezing temperature. Distilled water of 10g was placed in an enclosed test tube fitted with a wire stirrer, mercury thermometer, and a rubber stopper. The test tube setup was immersed in an ice water bath while being constantly stirred to a few degrees less than its freezing point. A stable temperature reading was readoff from the thermometer when the distilled water’s freezing point was established. A prepared natural surfactant in powdered form was added to the distilled water enclosed in a test tube. The mixture was allowed to stand for 72 hours prior to sieving of the aqueous mixture. Mass of dissolved solute in the aqueous mixture was determined and the experimental procedure was reconducted to measure the freezing point. This approach was employed to all natural surfactants in dried powdered form. Molecular weight of each surfactant was determined by a colligative equation in physical chemistry given as,
+
+
+Mw=kf×M1ΔTf×M2(1)
+
+
+where,
+
+
+Mw = molecular weight of solute, g/mol
+
+
+M1 = mass of solute, g
+
+
+M2 = mass of solvent, kg
+
+
+ kf = cryoscopic constant, (1.853 °K kg/moles of water)
+
+
+∆Tf = change in freezing point depression of pure solvent and solution, °C
+
+
+The critical micelle concentration for each natural surfactant was determined by the performance of concentration-electric conductivity test. This test allows the CMC value to be derived from the point of inflection of an electric conductivity-concentration graphical assessment. A constant salinity of 0.1 g/100ml brine solution was utilized to effect mass concentration of dissolved surfactant. A selected powdered surfactant was soaked in the aqueous saline solution for 72 hours prior to sieving. Progressive mass concentration of a natural surfactant was verified by dissolved mass gained in 0.1 g/100ml brine solution. Each dissolved mass gained by the aqueous solution was configured to suit concentrations ranging from 0.1% to 1%. Electric conductivity measurements were implemented for each concentration using an electric conductivity meter. The procedure was repeated for each natural surfactant studied in this research.
+
+
+Phase behaviour tests or salinity scan tests were adapted to experimentally establish the characteristic curvature of all natural surfactants. These tests apply a mixing rule between a surfactant of known characteristic curvature and another surfactant of unknown characteristic curvature. The fundamental concept of this evaluation was taken from the general HLD model given as (Salager et al., 1979),
+
+
+σHLD=ln⁡(S)−K(EACN)−f(a)+σ−aT(ΔT)(2)
+
+
+where,
+
+
+S = electrolyte concentration of surfactant
+
+
+K = empirical constant determined by surfactant’s head group of molecules
+
+
+EACN = equivalent alkane carbon number
+
+
+f(a) = alcohol type and concentration adjustment term
+
+
+σ = characteristic curvature of surfactant
+
+
+aT = empirical temperature constant
+
+
+ΔT = temperature differential
+
+
+Since the characteristic curvature is to be evaluated, Nguyen and Sabatini (2009) suggested that for mixed surfactant systems Eq. 2 becomes,
+
+
+σσln⁡(S*S1*)=X2(σ1−σ2)(3)
+
+
+where,
+
+
+S∗ = optimal salinity of mixed surfactant
+
+
+S1* = optimal salinity of reference surfactant
+
+
+X2 = mole fraction of test surfactant
+
+
+σ1 = characteristic curvature of reference surfactant
+
+
+σ2 = characteristic curvature of test surfactant
+
+
+Phase scans were performed with toluene with an aqueous mixture of a natural surfactant and SDS at different ratios. Tests utilised 2 ml of toluene and 2 ml of surfactant in a 5 ml test tube. The loaded test tubes were agitated daily for 3 days and left to equilibrate for 14 days. Since optimal salinity were established by visual inspection, scans were fine tuned between suspected optimal electrolyte concentrations.
+
+
+Results and Discussion
+
+
+The average molecular weight of Aspilia africana, Dialium guineense Willd, Vernonia amygdalina, and Jatropha curcas were obtained as 128.29g/mol, 186.73g/mol, 158.58g/mol and 150.3g/mol respectively. These values were calculated from the average of the 3 experimental investigations for each natural surfactant. This analysis was based on a fairly stable freezing point of distilled water measured from -2.7°C to -3.1°C. All analysed freezing point of aqueous natural surfactants showed an inverse relationship between mass gained and temperature obtained. These results conform to the fundamental principles associated with colligative properties employed in freezing dipping technique. All determined molecular weight of analysed natural surfactants fall below the molecular weight of SDS. Tables 2 through 5 show a summary of the molecular weight analyses of each natural surfactant.
+
+
+Table 2Molecular Weight Analysis of Aspilia Africana S/N
+            . M1 (g)
+            . V (cc)
+            . θ1 (°C)
+            . θ2 (°C)
+            . MW (g/mol)
+            . 1 0.49 7.0 −2.9 −4.0 118.36 2 0.50 6.5 −3.0 −4.1 140.90 3 0.52 7.0 −3.1 −4.2 125.60 S/N
+            . M1 (g)
+            . V (cc)
+            . θ1 (°C)
+            . θ2 (°C)
+            . MW (g/mol)
+            . 1 0.49 7.0 −2.9 −4.0 118.36 2 0.50 6.5 −3.0 −4.1 140.90 3 0.52 7.0 −3.1 −4.2 125.60 View Large
+
+
+Table 3Molecular Weight Analysis of Dialium guineense Willd S/N
+            . M1 (g)
+            . V (cc)
+            . θ1 (°C)
+            . θ2 (°C)
+            . MW (g/mol)
+            . 1 0.64 11.9 −2.70 −3.1 196.14 2 0.57 10 −2.60 −3.2 176.70 3 0.55 10.5 −2.80 −3.3 187.36 S/N
+            . M1 (g)
+            . V (cc)
+            . θ1 (°C)
+            . θ2 (°C)
+            . MW (g/mol)
+            . 1 0.64 11.9 −2.70 −3.1 196.14 2 0.57 10 −2.60 −3.2 176.70 3 0.55 10.5 −2.80 −3.3 187.36 View Large
+
+
+Table 4Molecular Weight Analysis of Vernonia amygdalina S/N
+            . M1 (g)
+            . V (cc)
+            . θ1 (°C)
+            . θ2 (°C)
+            . MW (g/mol)
+            . 1 0.53 8.1 −2.8 −3.6 152.125 2 0.55 8.3 −2.9 −3.7 166.894 3 0.60 8.9 −3.0 −3.8 156.729 S/N
+            . M1 (g)
+            . V (cc)
+            . θ1 (°C)
+            . θ2 (°C)
+            . MW (g/mol)
+            . 1 0.53 8.1 −2.8 −3.6 152.125 2 0.55 8.3 −2.9 −3.7 166.894 3 0.60 8.9 −3.0 −3.8 156.729 View Large
+
+
+Table 5Molecular Weight Analysis of Jatropha curcas S/N
+            . M1 (g)
+            . V (cc)
+            . θ1 (°C)
+            . θ2 (°C)
+            . MW (g/mol)
+            . 1 0.52 9.5 −2.9 −3.5 169.679 2 0.53 9.8 −3.0 −3.7 155.668 3 0.54 10 −3.1 −3.9 125.54 S/N
+            . M1 (g)
+            . V (cc)
+            . θ1 (°C)
+            . θ2 (°C)
+            . MW (g/mol)
+            . 1 0.52 9.5 −2.9 −3.5 169.679 2 0.53 9.8 −3.0 −3.7 155.668 3 0.54 10 −3.1 −3.9 125.54 View Large
+
+
+CMC values of Aspilia africana, Dialium guineense Willd, Vernonia amygdalina, and Jatropha curcas were estimated as 0.6%, 0.45%, 0.50%, and 0.50% respectively. Their corresponding points of inflection suggest an inverse relationship with molecular weights estimated. These trends implies that a higher molecular weight surfactant will result in a lower CMC value. Similar results were obtained by Obuebite et al. (2020) in their analysis of other native natural surfactants relative to SDS. This infers that more relative concentration will be needed for natural surfactants in CEOR tests. Figures 1 through 4 illustrates concentration-electric conductivity test for analysed natural surfactants.
+
+
+Figure 1View largeDownload slideElectric Conductivity Test for Aspilia africanaFigure 1View largeDownload slideElectric Conductivity Test for Aspilia africana Close modal
+
+
+Figure 2View largeDownload slideElectric Conductivity Test for Dialium guineense WilldFigure 2View largeDownload slideElectric Conductivity Test for Dialium guineense Willd Close modal
+
+
+Figure 3View largeDownload slideElectric Conductivity Test for Vernonia amygdalinaFigure 3View largeDownload slideElectric Conductivity Test for Vernonia amygdalina Close modal
+
+
+Figure 4View largeDownload slideElectric Conductivity Test for Jatropha curcasFigure 4View largeDownload slideElectric Conductivity Test for Jatropha curcas Close modal
+
+
+The characteristic curvature of Aspilia africana, Dialium guineense Willd, Vernonia amygdalina, and Jatropha curcas were derived as 0.136, 0.116, 0.131, and 0.194 respectively. These positive values of characteristic curvature infer hydrophobicity of natural surfactants and surfactant tendencies to form reverse micelles (Acosta et al., 2008). Such positive values favour water-external microemulsions in relation to high salinity in phase scans. However, their corresponding low hydrophobic values suggest a minimum tendency to form reverse micelles. This implies that these natural surfactants may be useful for high saline Niger delta formations. Figures 5 through 8 represent optimal salinity assessment of natural surfactant mixtures with SDS.
+
+
+Figure 5View largeDownload slideOptimal Salinity Assessment of Aspilia Africana + SDSFigure 5View largeDownload slideOptimal Salinity Assessment of Aspilia Africana + SDS Close modal
+
+
+Figure 6View largeDownload slideOptimal Salinity Assessment of Dialium guineense Willd + SDSFigure 6View largeDownload slideOptimal Salinity Assessment of Dialium guineense Willd + SDS Close modal
+
+
+Figure 7View largeDownload slideOptimal Salinity Assessment of Vernonia amygdalina + SDSFigure 7View largeDownload slideOptimal Salinity Assessment of Vernonia amygdalina + SDS Close modal
+
+
+Figure 8View largeDownload slideOptimal Salinity Assessment of Jatropha curcas + SDSFigure 8View largeDownload slideOptimal Salinity Assessment of Jatropha curcas + SDS Close modal
+
+
+Conclusion
+
+
+The study approach of this research implies the following:
+
+
+All natural surfactants emanating from plant-based sources exhibit relatively low molecular weight against their synthetic counterparts. However, their low cost, negligible toxicity, and availability may be regarded as an advantage over their synthetic competitors.Selected plant-based natural surfactants demonstrated relatively higher CMC values over reported value of SDS. This may permit a wider range of concentration investigative studies for surfactant flooding practices.A very low hydrophobic trend was observed for all natural surfactants in this study. These surfactants may fair favourably with IFT reduction in CEOR operations for high saline reservoirs.
+
+
+Based on findings, it is recommended that:
+
+
+Studies must be expanded to accomodate dry extraction production, other phase behaviour tests, adsorption tests, and core flooding tests. These gray areas must be addressed in order to promote further clarity prior to pilot field tests.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Acosta, E.J., Yuan, J.S., and Bhakta, A.S.2008. The Characteristic Curvature of Ionic Surfactants. J. Surfactant Deterg. 11(2): 145-158.Google ScholarCrossrefSearch ADS  Alawode, A.J., and Falode, O.A.2021. Enhanced Oil Recovery Practices: Global Trend, Nigeria’s Present Status, Prospects and Challenges. CJAST40(8): 79-92.Google Scholar Bachari, Z., Isari, A.A., Mahmoudi, H., Moradi, S., and Mahvelati, E.H.2018. Application of Natural Surfactants for Enhanced Oil Recovery – Critical Review. Proceedings at the World Multidisciplinary Earth Sciences Symposium, Prague, Czech Republic.Google Scholar Gbonhinbor, J.R., and Onyekonwu, M.O.2015. Experimental and Simulation Study on Aqueous Protein to Improve Oil Recovery. Int. J. Petroleum Engineering1(4): 271-289.Google ScholarCrossrefSearch ADS  Holmberg, K.2001. Natural Surfactants. Current Opinion in Colloid and Interface Science6(2): 148-159.Google ScholarCrossrefSearch ADS  Healy, R.N., and Reed, R.L.1973. Physicochemical Aspects of Microemulsion Flooding. Paper Presented at the Fall Meeting of SPE of AIME, Las Vegas, Nevada. SPE-4583-MS.Google Scholar Kone, W., Atindehou, K.K., Terreaux, C., Hostettmann, K., Traore, D., and Dosso, M.2004. Traditional Medicine in North Cote-d’Ivoire: Screening of 50 Medicinal Plants for Antibacterial Activity. J. Ethnopharmacol. 93(1): 43-49.Google ScholarCrossrefSearch ADS PubMed Mahboob, A., Kalam, S., Kamal, M.S., Hussain, S.M.S., and Solling, T.2022. EOR Perspective of Microemulsions: A Review. J. Pet. Sci. Eng. 208(A): #109312. https://doi.org/10.1016/j.petrol.2021.109312.Google Scholar Mavaddat, M., Riahi, S., and Bahramian, A.2016. The HLD Model for Optimum Phase Behavior Formulation of Tenary Surfactant Mixtures. Proceeding at the 15th European Conference on the Mathematics of Oil Recovery, Amsterdam, Netherlands.Google Scholar Mejia, A.B.Jr., and Kostarelos, K.2015. Characteristic Curvature Evaluation of Anionic Surfactants for Enhanced Oil Recovery Applications. Proceedings of NCUR, Cheney, WA.Google Scholar Miller, C.A., Hwan, R-.N., Benton, W.J., and Fort, T.Jr.1977. Ultralow Interfacial Tensions and Their Relation to Phase Separation in Micellar Solutions. J. Colloid Interface Sci. 61(3): 554-568.Google ScholarCrossrefSearch ADS  Izuwa, N.C., Nwankwo, I.V., Nwachukwu, A., Ohia, N.P., Uwaezuoke, N., Duru, U.I., Obah, B., and Ekwueme, S.T.2021. Suitability Evaluation of Locally Sourced Surfactants for Enhanced Oil Recovery (EOR) in Niger Delta. International Journal of Oil, Gas, and Coal Engineering9(5): 71-82.Google ScholarCrossrefSearch ADS  Jin, L., Jamili, A., Li, Z., Lu, J., Luo, H., Shiau, B.J.B., Delshad, M., and Harwell, J.H.2015. Physics Based HLD-NAC Phase Behavior Model for Surfactant/Crude Oil/Brine Systems. J. Pet. Sci. Eng. 136(1): 68-77.Google Scholar Kittithammavong, V., Charoensaeng, A., and Khaodhiar, S.2021. A Normalized HLD (HLDN) Tool for Optimal Salt-Concentration Prediction of Microemulsions. Appl. Sci. 11(19): #9151. https://doi.org/10.3390/app11199151.Google ScholarCrossrefSearch ADS  Nguyen, T.T., and Sabatini, D.A.2009. Formulating Alcohol-Free Microemulsions Using Rhamnolipid Biosurfactant and Rhamnolipid Mixtures. J. Surfactants Deterg. 12(2): 109-115.Google ScholarCrossrefSearch ADS  Nguyen, T.T., and Sabatini, D.A.2011. Characterisation and Emulsification Properties of Rhamnolipid and Sophorolipid Biosurfactants and Their Applications. Int. J. Mol. Sci. 12(2): 1232-1244.Google ScholarCrossrefSearch ADS PubMed Obuebite, A.A., Onyekonwu, M., Akaranta, O., Ubani, C., and Uzoho, C.2020. An Experimental Approach to Low Cost, High Performance Surfactant Flooding. Scientific African8(1): #e00361. https://doi.org/10.1016/j.sciaf.2020.e00361.Google Scholar Olafuyi, O.A., Chukwuma, M.C., and Adewole, E.S.2010. Enhanced Oil Recovery (EOR) Potential in Nigeria. Journal of Economics and Engineering. 1(1): 35-40.Google Scholar Okello, D., Lee, J., and Kang, Y.2020. Ethnopharmacological Potential of Aspilia Africana for the Treatment of Inflammatory Dieseases. Evidence-Based Complementary and Alternative Medicine2020(1): #8091047. https://doi.org/10.1155/2020/8091047.Google ScholarPubMed Rahu, M.I., Naqvi, S.H.A., Memon, N.H., Idrees, M., Kandro, F., Pathan, N.L., Sarker, N.I., and Bhutto, M.A.2021. Determination of Antimicrobial and Phytochemical Compounds of Jatropha Curcas Plant. Saudi Journal of Biological Science28(5): 2867-2876.Google ScholarCrossrefSearch ADS  Rai, S., Acharya-Siwakoti, E., Kafle, A., Devkota, H.P., and Bhattarai, A.2021. Plant Derived Saponins: A Review of Their Surfactant Properties and Applications. Sci3(4): #44. https://doi.org/10.3390/sci3040044.Google ScholarCrossrefSearch ADS  Sahu, N.P., Banerjee, S., Mondal, N.B., and Mandal, D.2008. Steroidal Saponins. Fortschr. Chem. Org. Naturst. 89(1): 127-141.Google Scholar Salager, J.L., Morgan, J.C., Schechter, R.S., Wade, W.H., and Vasquez, E.1979. Optimum Formulation of Surfactant/Water/Oil Systems for Minimum Interfacial Tension or Phase Behavior. SPE J. 19(2): 107-115. SPE-7054-PA.Google Scholar Sheng, J.J.2015. Status of Surfactant EOR Technology. Petroleum1(2): 97-105.Google ScholarCrossrefSearch ADS  Wang, J., Song, H., Wu, X., Zhang, S., Gao, X., Li, F., Zhu, X., and Chen, Q.2018. Steroidal Saponins from Vernonia Amygdalina Del. Molecules23(3): #579. https://doi.org/10.3390/molecules23030579.Google ScholarCrossrefSearch ADS  Wesson, L.L., Lohateeraparp, P., Harwell, J.H., and Shiau, B-.J.2012. Next Generation Surfactants for Improved Chemical Flooding Technology. Final Report for University of Oklahoma, Norman, OK.Google Scholar Witthayapanyanon, A., Harwell, J., and Sabatini, D.2008. Hydrophilic-Lipophilic Deviation (HLD) Method for Characterizing Conventional and Extended Surfactants. J. Colloid Interf. Sci. 325(1): 259-266.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211996-MS
+
+
+

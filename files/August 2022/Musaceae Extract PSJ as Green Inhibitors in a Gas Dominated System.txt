@@ -1,0 +1,241 @@
+----- METADATA START -----
+Title: Musaceae Extract PSJ as Green Inhibitors in a Gas Dominated System
+Authors: Virtue Urunwo Wachikwu-Elechi, Sunday Sunday Ikiensikimama, Joseph Atubokiki Ajienka
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212017-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The performance of 1-5wt% Musaceae extract (PSJ) and Mono-Ethylene Glycol (MEG) was screened on a 39.4-inch locally fabricated laboratory mini flow loop mounted on an external framework. Performance analysis using initial and final pressure, change in pressure (∆P) and inhibition efficiency showed that PSJ did better in all weight percentages except in 1wt%. The final pressures (Pi) for PSJ were 99, 127, 128, 128 and 120 psi while those of MEG were 105, 99, 120, 119 and 112. ∆P values for 1-5wt% of PSJ were 51, 23, 22, 22 and 30 psi while those of MEG were 45, 51, 30, 31 and 38 psi. Inhibition Capacity (IC) values for PSJ were 55.26%, 76.82%, 80.70% (3 and 4wt%) and 73.65% while those of MEG were 60.53%, 55.26%, 73.68%, 72.81% and 66.67%. The PSJ did better than MEG. It is locally sourced, commercially available and non-toxic to the environment, so it is recommended for field trial and developed as a gas hydrate inhibitor.
+
+
+
+
+Keywords:
+remediation of hydrates,
+upstream oil & gas,
+production chemistry,
+hydrate remediation,
+asphaltene remediation,
+wax inhibition,
+scale remediation,
+subsea system,
+production monitoring,
+meg
+
+
+Subjects: 
+Well & Reservoir Surveillance and Monitoring,
+Production Chemistry, Metallurgy and Biology,
+Pipelines, Flowlines and Risers,
+Flow Assurance,
+Offshore Facilities and Subsea Systems,
+Fluid Characterization,
+Improved and Enhanced Recovery,
+Non-Traditional Resources,
+Information Management and Systems,
+Inhibition and remediation of hydrates, scale, paraffin / wax and asphaltene
+
+
+
+
+Introduction
+
+
+Hydrate is an ice-like clathrate structure which is formed when gas molecules get trapped in hydrogen-bonded water under low temperature and high pressure conditions (Fu et al., 2001). Generally, there are two main forms of hydrates structure existing in the oil and gas industry. Structure I is formed by water and smaller molecules such as methane, ethane, carbon dioxide and hydrogen sulfide ; while Structure II is formed by larger molecules such as propane and isobutene (Processors et al., 1967). In both cases, the water molecules form the lattice or crystalline structure and the hydrate formers occupy the cavity of the lattice. In recent times, efforts have been directed towards the prediction of a third type of hydrate structure; Structure H with large molecules. A sample hydrate structure is shown in Figure 1.
+
+
+Figure 1View largeDownload slideGas hydrates structures (Processors et al., 1967)Figure 1View largeDownload slideGas hydrates structures (Processors et al., 1967) Close modal
+
+
+Gas hydrates appear similar to ice in structure. Both hydrates and ice show similarity in characteristics and also have crystalline structures. The important difference that natural gas hydrate possess is having the natural gas guest molecule, as an integral part of its structure. With respect to the gas composition and the pressure, gas hydrates can crystallize at temperatures up to 86°F; at which gas co-exist with water (Clark, Frostman, and Anderson, 2005). The formation mechanism of hydrates in pipes is further highlighted in Figure 2, with the flow of water into the pipeline system, giving rise to the trapping of the gas molecules within the hydrates forming cage-like structure. This stage is subsequently followed by the agglomeration of hydrate crystals as a result of the capillary force of attraction, leading to the formation of hydrate plugs within the pipeline system.
+
+
+Figure 2View largeDownload slideFormation of hydrate plug in a pipeline (Clark, Frostman, and Anderson, 2005)Figure 2View largeDownload slideFormation of hydrate plug in a pipeline (Clark, Frostman, and Anderson, 2005) Close modal
+
+
+Effect of Hydrates Formation on Production
+
+
+When free water and gas molecules come together under low temperature and high pressure leads to formation of gas hydrates. Hydrates cause serious challenges from oil and gas facilities (more especially in offshore production fields). Hydrates form typically in gas/ gas condensates wells as well as in oil wells. According to Okereke, (2019), the position and severity of gas hydrate plugs in a well or pipeline/riser system varies and is dependent on the design, flow/operation regime, fluid composition and the well's geothermal gradient. Hydrate formation in pipeline/riser systems or in well bore leads to blockage of production systems, subsea tie back/transfer lines, blow-out preventers (BOPs), choke lines which affects drilling operations in the event of kicks. When the internal diameter of a pipeline or riser is partially or completely plugged by hydrates, dissolution or removal is imperative so as to avoid high pressure build up and eventual collapse of the pipeline (Okereke, 2019; Obanijesu et al.2010)
+
+
+Challenges encountered in oil/ gas production due to the formation of gas hydrates costs the oil and gas industry billions of dollars annually. It impacts on the operating and capital expenditure of oil and gas production. This is as a result of loss in production time (Non-Productive Time) due to shut-in of production wells or pipelines. According to Makogun et al. 1996 and Okereke, 2019, the average annual expenses in a gas/ gas condensate field due to hydrate mitigation is about 5-15 million US dollars.
+
+
+In designing an offshore production system(s), hydrate mitigation strategies are not to be over-emphasized because they help in preventing hydrate plugs formation in pipeline-riser systems, which can cause production down time and in some cases loss of equipment and maybe personnel. The use of chemicals is the most efficient and effective in deep water drilling. These chemicals are classified as Thermodynamic hydrate inhibitors (THIs) and Low Dosage hydrate inhibitors (LDHIs).
+
+
+Thermodynamic Hydrate Inhibitors (THIs)
+
+
+These chemicals shift the hydrate phase boundaries to lower temperatures and higher pressures by reducing the activity of water thereby preventing hydrates from forming. As effective as they are, they are used in very high volumes (10-60%) of water cut and contributes to high cost of operation, environmental issues and logistic problems. Examples Ethylene glycol and Methanol.
+
+
+Mono Ethylene Glycol is an example of the commonly used ethylene glycols as Thermodynamic Hydrate Inhibitors (THIs). Its use is the most common method for gas hydrates management in the oil and gas industry. Its availability makes it commonly used due to the fact that they can compete with water molecules via hydrogen bonding which makes hydrate formation unlikely to occur. For long distance pipeline gas condensate tie-backs, THIs are most appropriate. Methanol (MeOH) and Mono Ethylene Glycol (MEG) are more often used because of their suppression performance according to Brustad et al. (2005). Salmini et al. (2017) are of the opinion that other alcohols can also be used but these two are mostly preferred because they have well developed thermodynamic models for efficient estimation of the required volumes of THI for hydrate inhibition. The disadvantages of THIs is that large volumes are needed to effectively inhibit gas hydrates particularly for high water cut oil and gas wells. Increases in the difference between the stable hydrate temperature and the system operating temperature (sub cooling) also leads to more volume for efficient hydrate mitigation (Thieu and Frostman, 2005; Cooley et al., 2003; Kelland et al., 2006)
+
+
+Low Dosage Hydrate Inhibitors
+
+
+Low Dosage Hydrate Inhibitors are so named because they are very effective in low concentrations unlike thermodynamic hydrate inhibitors (Frostman et al. 2003, Braniff, 2013). If properly applied, it can lead to significant reduction in operating cost in deep water petroleum production which ultimately extends the life of the field (Salmin et al., 2017). They are subdivided into Kinetic Hydrate Inhibitors (KHIs) and Anti-Agglomerants (AAs)
+
+
+Kinetic Hydrate Inhibitors (KHIs)
+
+
+They are made of polymers that are water soluble that delay the onset of hydrate formation. A small amount can hold hydrate formation until the gas /oil is delivered at the processing facility or required destination outside thermodynamic hydrate formation condition (Yang and Tohidi, 2011). Certain fishes that had the ability to withstand extreme cold or freezing (sub-zero sea water temperature) where the basis from which KHIs were discovered (Clark et al., 2005). Pyrrolidone and Caprolactam are examples of KHIs. Their disadvantages include time limit of effectiveness and sub cooling. Example the first generation KHIs were effective at preventing gas hydrate formation at sub cooling of up to 14.4°F and limited to 24 hours (Kelland et al., 2006)
+
+
+Anti agglomerants
+
+
+The Anti-Agglomerants are surface acting agents that prevent gas hydrate by allowing hydrate form but in transportable form such that it does not cause blockages. That is to say that AAs allow hydrate crystals to form but the crystals remain small and do not agglomerate or are non-adherent.
+
+
+AA enables hydrate formation in a non-sticky slurry of hydrate particle, dispersed in the liquid hydrocarbon phase (Fu et al., 2002) (Kelland et al., 2006). Its demerits include its inability to protect gas phase, require liquid hydrocarbon phase and may not be effective at temperature below 38°F (Frostman et al., 2003)
+
+
+Tohidi et al., (1995) presented a thermodynamic model, validated against experimental data, used to predict the solubility of methane in pure or saline water. The results showed that gas hydrates could form from dissolved gas as well as from free gas. Based on the above finding, two mechanisms for hydrate formation in subsea sediments were suggested. It is worthy to note that the hydrate forming gas is assumed to be pure methane to simplify the argument. Obviously compositional variations occurred in multi component systems when hydrates formed. This resulted in changes in equilibrium conditions. Effects of capillary forces and rock type were ignored in their study. Urdahl et al. (1995) and Lund et al. (1995, 1996) used a fully automated 150 bar loop that enabled visual detection of hydrate formation with temperature range of -10 to 150 0C to study gas hydrate formation and inhibition in hydrocarbon gas-water-oil systems. They studied methane rich methane +ethane + propane + water systems in the presence of several different KI's. This was necessitated because of the inaccuracies in correlation from literature and also the exclusion of gas mixtures coupled with the graphical presentation that makes it difficult for usages in simulation and design within computer software packages.
+
+
+Eligaby and Elkamel (1998) presented a comprehensive neural network model for predicting hydrate formation conditions for various pure gases, gas mixtures and various inhibitors. 2387 input-output patterns gotten from diverse dependable sources were used to train the model. The predictions were compared to existing correlations and to real experimental data. The neural network enabled users to accurately predict the hydrate formation conditions for a given gas mixture, without having to do costly experimental measurements. Gillard et al. (1999) essentially studied the kinetics of methane hydrate formation and inhibitor performance in a laboratory scale mini flow loop under pressures up to 75 bars. During the experimental runs, methane was used as make up gas to maintain the pressure at a constant value. First the effects of pressure (35-75 bar), liquid velocity (0.5-3 m/s), liquid cooling temperature ramp (2-15 °C/h), and liquid hydrocarbon amount (0-96 %), on hydrate formation kinetics were investigated. The study showed that the tested kinetic inhibitors and dispersant agents could be effective for the transport of multiphase streams during short periods without plugging. They however were of the opinion that work must be done on their molecular formulation.
+
+
+Kang et al. (1999) used a visual rocking cell to observe hydrate formation in metastable methane, ethane, propane and water systems. They combined the constant pressure-rocking cell with NMR and observed the peak with NMR and visually confirmed this. A similar experiment was used by Seo et al (2001) to investigate three-phase hydrate equilibria in the methane + water + cyclic-ether and nitrogen + water + cyclic-ether systems using a temperature search method up to 120 bars. A similar approach to that Le Parlouer was used by Dalmazzone et al. (2001) for hydrate formation and kinetics investigation by using a modified high pressure Setaram Micro-DSC for water-in-oil emulsions systems up to 40 MPa between 223 and 393 K. Koh et al. (2002) studied hydrates and quantified and compared the effects of various kinetic inhibitors. A laboratory scale mini flow loop of 8 Mpa with visual access was used by Lee et al. (2002) to study the mechanism of hydrate plugging and examine inhibitors that prevented hydrate plugging in natural gas pipelines up to 8 MPa.
+
+
+One of the most detailed flow assurance and loop experiment was described in literature by Mork (2002). He studied the rate of methane hydrate and natural gas hydrate formation in a 100-bar flow loop between 7 and 15 °C to understand the performance and scale-up of a reactor for continuous production of natural gas hydrates. He was able to show that the rate of hydrate formation is strongly influenced by gas injection rate and that the pressure the effect of stirring rate is less significant.
+
+
+A model that determined the limits of operation of operation systems so as to forestall hydrate effects in the event of unplanned shut-ins was presented as an integrated frame work of model-based flow assurance management strategy by Usman et al. (2006). Peng-Robinson equation of state in built into PVT Sim software was used to generate pressure-temperature operating systems. OLGA, a state-of-the-art modelling tool was used to implement the frame work. Their intention was to be able to prevent hydrate formation during unplanned shut-ins in subsea production facilities hence in their analyses, they tried to analyze different scenarios in order to define operating limits.
+
+
+High pressure hydrate dissociation curves, using high pressure stainless steel isochoric cells without agitation to investigate methane hydrate equilibrium in water-hydrate-gas mixtures was reported by Okutani et al., (2008). Hydrate formation was studied by monitoring the changes in the system's pressure under constant rate of cooling. Kneafsey et al. (2010) carried out laboratory tests using various methods and techniques to try to form representative samples of natural gas hydrates. The study presented vast data gotten from fifty-eight (58) tests but the influencing factors for hydrate formation was limited in the examination of homogenously distributed hydrate sediment geared towards making representative samples. Most of the tests were conducted in the same pressure vessel and sleeve which provided a standard by which the samples could be more fairly compared. It also applied a similar bias to many of the tests that may influence the results. They examined nine methods of hydrate formation and were of the opinion that no method as yet performed extremely well. They concluded that combining methods that yield uniform hydrates may perhaps provide uniform samples needed for investigation.
+
+
+The use of synthetic chemicals for gas hydrate mitigation abounds. These chemicals are expensive and detrimental to the environment and usually not readily available especially in the sub-Saharan Africa. This necessitated the sourcing of ecofriendly and readily available compounds as gas hydrate inhibitors. This was studied by Elechi et al., 2018; 2019 and 2020. This study takes a look at varying weight percentages of one of such locally sourced compounds as gas hydrate inhibitors.
+
+
+The extract was gotten from a perennial tree-like herb widely distributed in the tropics. Its stem was obtained from the Botanical Garden of the University of Port Harcourt. The stems were cleaned and cut into smaller chunks, mashed and then strained with a sieve to get out the extract which was collected in plastic bottles and used immediately
+
+
+Experimental Procedure
+
+
+Figure 3 is the flow chart for hydrate formation and inhibition experimental runs. The apparatus used in this study is a locally fabricated laboratory mini flow loop, 12 inches long having internal diameter of 0.5 inch and is encased in a 4-inch PVC pipe which is skid mounted on an external metal frame work. For detail description of the Mini flow loop, refer to Odutola et al., 2017 and Elechi et al. 2018, 2019.
+
+
+Figure 3View largeDownload slideFlow Chart of Hydrate Inhibition Experimental RunsFigure 3View largeDownload slideFlow Chart of Hydrate Inhibition Experimental Runs Close modal
+
+
+Chemical Composition of Musaceae Extract (PSJ) Bioactive components
+            . Quantity present in extract
+            . % Composition in extract
+            . Tannins ++ 0.266213±0.014 Saponins ++ 1.34±0.06 Flavonoids ++ 1.63±0.01 Phenols + 0.00028±0.000032 Alkaloids +++ 2.8±0.32 Bioactive components
+            . Quantity present in extract
+            . % Composition in extract
+            . Tannins ++ 0.266213±0.014 Saponins ++ 1.34±0.06 Flavonoids ++ 1.63±0.01 Phenols + 0.00028±0.000032 Alkaloids +++ 2.8±0.32 Key: + means present in small quantity, ++ means present in appreciable quantity, +++ means present in abundanceView Large
+
+
+Results and Discussions
+
+
+Figure 4 shows the Temperature versus Time plots for PSJ. The temperature profile for all the weight percentages followed same trend as pressure reduction. For 1wt % temperature reduced from 30°C to 6°C. For 2wt % temperature reduced from 30°C to 6.5°C. For 3wt % it reduced from 29°C to 6°C, for 4wt % from 29°C to 6°C and for 5wt %, from 31°C to 6.5°C. The temperature declined gradually till the end of 120 minutes without any increases in temperature at any point in time like in the uninhibited experiment where temperature reduced from 30°C to 25°C in the first 30 minutes, after which it began to increase up to 29.5°C at the end of 120 minutes. This increase aided in more of the gas dissolving rapidly in water and hastened the hydrate formation process, allowing for the formation of critical crystal size due to stable nucleation that formed in the gas and water solution containing the hydrate forming molecules (Liu et al., 2015).
+
+
+Figure 4View largeDownload slideTemperature versus Time for Inhibited and Uninhibited ExperimentsFigure 4View largeDownload slideTemperature versus Time for Inhibited and Uninhibited Experiments Close modal
+
+
+Figure 5 shows the pressure versus Time plots for 1wt to 5wt % of plant extract PSJ. The pressure profile for the various weight percentages of Musaceae extract for time intervals of 20, 40, 60, 80, 100 and 120 minutes were given as follows, for 1wt %, pressure decreased from 150 psi to 113 psi, 106 psi, 101 psi, 100 psi and 99 psi (100 and 120 minutes). For 2wt %, the values of pressure recorded in 20, 40, 60, 80, 100 and 120 minutes for PSJ were 135 psi, 131 psi, 130 psi, 128 psi and 127 psi (100 and 120 minutes). For 3wt%, pressure values for PSJ was 139 psi, 136 psi, 134 psi, 131 psi, 129 psi and 128 psi. Pressure readings recorded for PSJ for 4wt % in 20, 40, 60, 80, 100, 120 minutes were 134 psi, 131 psi, 130 psi, 129 psi and 128 (for 100 and 120 minutes). Pressure readings for PSJ in 20, 40, 60 80 100 and120 minutes for 5wt % were 130 psi, 126 psi, 124 psi, 123 psi and 120psi. In all of these weight percentages, the pressures of the system were well regulated as opposed to that of the uninhibited where the pressure decreased rapidly till the end of 120 minutes as a result of more gas dissolution in water and evolution of latent heat due to the exothermic nature of hydrate formation (Movareji et al., 2016)
+
+
+Figure 5View largeDownload slidePressure versus Time for Uninhibited and Inhibited ExperimentsFigure 5View largeDownload slidePressure versus Time for Uninhibited and Inhibited Experiments Close modal
+
+
+Comparison Plots for Musaceae Extract (PSJ) And Mono ethylene glycol (MEG)
+
+
+Figures 6 to 10 are the Initial and Final pressures versus time plots for PSJ, MEG and uninhibited experiments. Initial and final pressures at the end of the experiment is an indication of how much of the gas was used up in the hydrate formation process. The higher the final pressures, the better the performance of the inhibitor and the less gas dissolved and used for hydrate formation. The initial pressure values are all the same for both inhibited and inhibited experiment. For Figure 6 (1wt %), the final pressure values at the end of 120 minutes for PSJ and MEG were 99 psi and 105 psi respectively. In this wt %, more gas was used up in the system using PSJ. 2wt % PSJ (Figure 7) had final pressure value of 127 psi, and MEG 99 psi. Less gas was used in the system using PSJ than in MEG inhibited systems. Final pressure values using 3wt % PSJ and MEG was 128 psi and 120 psi (Figure 8). From Figure 9, 4wt % values for PSJ were 128 psi and MEG 119 psi. For 5wt % psi, the final pressure values for PSJ were 120 psi while MEG was 112 psi (Figure 10). The final pressure value for the inhibited systems was far more than that of the uninhibited system which had a final pressure value of 36 psi at the end of 120 minutes.
+
+
+Figure 6View largeDownload slideInitial and Final Pressure versus Time for 1wt% PSJ, MEG and Uninhibited ExperimentFigure 6View largeDownload slideInitial and Final Pressure versus Time for 1wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Figure 7View largeDownload slideInitial and Final Pressure versus Time for 2wt% PSJ, MEG and Uninhibited ExperimentFigure 7View largeDownload slideInitial and Final Pressure versus Time for 2wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Figure 8View largeDownload slideInitial and Final Pressure versus Time for 3wt% PSJ, MEG and Uninhibited ExperimentFigure 8View largeDownload slideInitial and Final Pressure versus Time for 3wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Figure 9View largeDownload slideInitial and Final Pressure versus Time for 4wt% PSJ, MEG and Uninhibited ExperimentFigure 9View largeDownload slideInitial and Final Pressure versus Time for 4wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Figure 10View largeDownload slideInitial and Final Pressure versus Time for 5wt% PSJ, MEG and Uninhibited ExperimentFigure 10View largeDownload slideInitial and Final Pressure versus Time for 5wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Figures 11 to 15 show the change in pressure versus time plots for the varying weight percentages of PSJ. The changes in pressure values recorded for PSJ and MEG for 1wt % at the end of 120 minutes was 51 psi and 45 psi respectively. The change in overall pressure difference between PSJ and MEG was 6 psi. For 2wt % the change in pressure at the end of the experiment was 23 psi and 51 psi for PSJ and MEG. The change in overall pressure difference between PSJ and MEG is 28 psi and 16 psi respectively. The change in pressure values for 3wt% were recorded as 22 psi and 30 psi for PSJ and MEG respectively. A difference in values between PSJ and MEG is 8 psi. For 4wt% change in pressure values for PSJ was 22 psi, (but in the different time intervals, 3wt% had lesser change in pressure values (11, 14, 16, 19, 21 and 22 psi) while those for 4wt% (16, 19, 20, 21 and 22 psi). The change in pressure values for MEG was 31psi. The difference here is 9 psi for MEG. For 5wt%, overall PSJ change in pressure values was 30 psi while that of MEG 0was 38 psi. At this wt.%, the difference in change in pressure values between PSJ and MEG was 8 psi with PSJ performing better. The inhibitors were able to prevent hydrate formation with ∆p values less than that of the uninhibited experiment with value of 114 psi.
+
+
+Figure 11View largeDownload slide∆P versus Time for 1wt% PSJ, MEG and Uninhibited ExperimentFigure 11View largeDownload slide∆P versus Time for 1wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Figure 12View largeDownload slide∆P versus Time for 2wt% PSJ, MEG and Uninhibited ExperimentFigure 12View largeDownload slide∆P versus Time for 2wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Figure 13View largeDownload slide∆P versus Time for 3wt% PSJ, MEG and Uninhibited ExperimentFigure 13View largeDownload slide∆P versus Time for 3wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Figure 14View largeDownload slide∆P versus Time for 4wt% PSJ, MEG and Uninhibited ExperimentFigure 14View largeDownload slide∆P versus Time for 4wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Figure 15View largeDownload slide∆P versus Time for 5wt% PSJ, MEG and Uninhibited ExperimentFigure 15View largeDownload slide∆P versus Time for 5wt% PSJ, MEG and Uninhibited Experiment Close modal
+
+
+Inhibition Capacity (IC) Plots
+
+
+The inhibition capacity of PSJ and MEG for 1, 2, 3, 4 and 5wt% is shown in Figure 16. The inhibition capacity for 1wt % PSJ and MEG was 55.26% and 60.53% respectively. For 2wt %, IC values were 79.82% and 55.26% for PSJ and MEG respectively. PSJ values for 3wt % of inhibition was 80.71%, while that of MEG was 73.68%. At 4wt %, IC values were 80.71% and 72.81% respectively for PSJ, and MEG. For 5wt %, the inhibition capacity value for PSJ was 73.68%, while that of MEG was 66.67%.
+
+
+Figure 16View largeDownload slideInhibition Capacity (IC) for 1, 2, 3, 4 and 5wt% of PSJ and MEGFigure 16View largeDownload slideInhibition Capacity (IC) for 1, 2, 3, 4 and 5wt% of PSJ and MEG Close modal
+
+
+At 1wt%, MEG did better than PSJ probably as a result of low driving force in the PSJ inhibited system. For 2, 3, 4 and 5wt% PSJ performed better than MEG by 24.56%, 7.03%, 7.90% and 7.01% respectively.
+
+
+The PSJ had the highest IC at 3wt% and 4wt % respectively. But inhibiting above 3wt% wouldn't be necessary because they had same IC values and so 3wt % is considered the optimum weight % of inhibition for PSJ. This value was higher than even IC of 5wt % of MEG.
+
+
+Conclusion
+
+
+The various weight percentages of the plant extract (PSJ) were able to regulate pressure and temperatures in the systems unlike in the uninhibited system where pressure and temperatures decreased and increased rapidly leading to gas hydrate formation. Based on the comparison done using the initial and final pressure plots, change in pressure and the inhibition capacity (IC) plots, its seen that the PSJ performed better than the synthetic inhibitor Mono ethylene glycol (MEG) in all but 1wt% which could be attributed to low driving force due to low concentrations for the PSJ.
+
+
+The PSJ is locally available in commercial quantities, eco-friendly as compared to MEG which is known to be non-environmentally friendly and detrimental to aquatic and terrestrial life. Further development of PSJ as gas hydrate inhibitor is recommended so as to reduce the cost of oil and gas operation.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Braniff, M.J., 2013. Effect of dually combined under-inhibition and anti-agglomerant treatment on hydrate slurries. Colorado School of Mines. Arthur Lakes Library.Google Scholar Brustad, S., Løken, K.-P., Waalmann, J.G., others, 2005. Hydrate Prevention using MEG instead of MeOH: Impact of experience from major Norwegian developments on technology selection for injection and recovery of MEG, in: Offshore Technology Conference.Google Scholar Clark, L.W., Frostman, L.M. and Anderson, J., 2005. Advances in flow assurance technology for offshore gas production systems., in: Nternational Petroleum Technology Conference. International Petroleum Technology Conference.Google Scholar Clark, L.W., Frostman, L.M., Anderson, J., Petrolite, B., 2005. Low-Dosage Hydrate Inhibitors (LDHI ): Advances in Flow Assurance Technology for Offshore Gas Production Systems. Int. Pet. Technol. Conf.Google Scholar Cooley, C., Wallace, B.K., Gudimetla, R., others, 2003. Hydrate prevention and methanol distribution on Canyon Express, in: SPE Annual Technical Conference and Exhibition.Google Scholar Frostman, L.M., Thieu, V., Crosby, D.L., Downs, H.H., others, 2003. Low-dosage hydrate inhibitors (LDHIs): reducing costs in existing systems and designing for the future, in: International Symposium on Oilfield Chemistry.Google Scholar Ke, W., Kelland, M.A., 2016. Kinetic hydrate inhibitor studies for gas hydrate systems: a review of experimental equipment and test methods. Energy & Fuels30, 10015–10028.Google ScholarCrossrefSearch ADS  Kelland, M.A., Svartaas, T.M., Øvsthus, J., Tomita, T., Mizuta, K., 2006. Studies on some alkylamide surfactant gas hydrate anti-agglomerants. Chem. Eng. Sci. 61, 4290–4298.Google ScholarCrossrefSearch ADS  Makogon, Y.F., others, 1996. Formation of Hydrates in Shut-down Pipelines in Offshore Conditions., in: Offshore Technology Conference.Google ScholarCrossrefSearch ADS  Minami, K., Kurban, A.P.A., Khalil, C.N., Kuchpil, C., others, 1999. Ensuring flow and production in deepwater environments, in: Offshore Technology Conference.Google Scholar Obanijesu, E.O., Pareek, V., Tade, M.O., others, 2010. Hydrate formation and its influence on natural gas pipeline internal corrosion rate, in: SPE Oil and Gas India Conference and Exhibition.Google Scholar Fu, B., Neff, S., Mathur, A., Bakeev, K., 2002. Application of Low-Dosage Hydrate Inhibitors in Deepwater Operations SPE 78823. SPE Prod. Facil. SPE 78823 Volume 17, 133–137. https://doi.org/10.2118/78823-PAGoogle ScholarCrossrefSearch ADS  Fu, S.B., Cenegy, L.M., Neff, C.S., others, 2001. A summary of successful field applications of a kinetic hydrate inhibitor, in: SPE International Symposium on Oilfield Chemistry.Google Scholar Io, A., Kara, F., Nu, O., 2017. Investigation of slug mitigationâ€¯: self-lifting approach in a deepwater oil field34, 157–169. https://doi.org/10.3723/ut.34.157Google Scholar Okereke, N.U., Omotara, O.O., 2018. Combining self-lift and gas-lift: A new approach to slug mitigation in deepwater pipeline-riser systems. Pet J. Sci. Eng. 168, 59–71. https://doi.org/10.1016/j.petrol.2018.04.064Google ScholarCrossrefSearch ADS  Okereke, N. U., Edet, P. E., Baba, Y. D., Izuwa, N. C., Kanshio, S., Nwogu, N., Afolabi, F. & Nwanwe, O. (2019). An assessment of hydrates inhibition in deepwater production systems using low-dosage hydrate inhibitor and monoethylene glycol. Journal of Petroleum Exploration and Production Technology, 1–14. DOIhttps://doi.org/10.1007/s13202-019-00812-4Google Scholar Processors, N.G., Association, S., others, 1967. Engineering Data Book.Salmin, D.C., Majid, A.A.A., Wells, J., Sloan, E.D., Estanga, D., Kusinski, G., Rivero, M., Gomes, J., Wu, D.T., Zerpa, L.E., others, 2017. Study of Anti-Agglomerant Low Dosage Hydrate Inhibitor Performance, in: Offshore Technology Conference.Google Scholar Thieu, V., Frostman, L.M., 2005. Use of Low-Dosage Hydrate Inhibitors in Sour Systems. SPE Int. Symp. Oilf. Chem. https://doi.org/10.2118/93450-MSGoogle Scholar Dalmazzone, D., Clausse, D., Dalmazzone, C. and Herzhaft, B. (2004). The Stability of Methane Hydrates in Highly Concentrated Electrolyte Solutions by Differential Scanning Calorimetry and Theoretical Computation. American Minerologist. 89 (8).Doi:
+              https://doi.org/10.2138/am-2004-8-904.Google Scholar Elechi, V. U., Ikiensiskimama, S. S., Ajienka, J. A.Akaranta, O, and Okon, O. E. (2019). Investigation of Plant Family Costaceae Extract as Gas Hydrate Inhibitor in a Simulated Offshore Environment". International Journal of Science and Engineering Investigations. 8(84).92–102.ISSN: 2251-8843. http://www.ijsei.com/papers/ijsei-88419-14.pdfGoogle Scholar Elechi, V. U., Ikiensikimama, S. S., Ajienka, J. A., Akaranta, O., Onyekonwu, M.O., Odutola, T.O. and Okon, O. E. (2018): "GasHydrate Inhibition in a Simulated Offshore Environment Using Local Inhibitor. SPE Paper 193439-MS, presented at the SPE Nigeria International Annual Conference and Exhibition held in Lagos, Nigeria. https://doi.org/10.2118/193439-MSGoogle Scholar Elgibaly, A. A. and Elkamel, A. M. (1998). A New Correlation for Predicting Hydrate Formation Conditions for Various Gas Mixtures and Inhibitors. Fluid Phase Equilibra. 152, 23–42. Elsevier.Google ScholarCrossrefSearch ADS  Gillard, C., Monfort, J. P., and Peytavy, J. L. (1999). Investigation of Methane Hydrate Formation in a Recirculating Flow Loop: Modeling of the Kinetics and Test of Efficiency of Chemical Additives on Hydrate Inhibition. Oil and Gas Science and Technology IFP54, (3). 365–374.Google Scholar Kang, S. P., Chun, M. K. and Lee, H. (1998). Phase Equilibria of Methane and Carbondioxide Hydrates in the Aqueous MgCl2 Solution. Fluid Phase Equilibria, 147:229–238.Google ScholarCrossrefSearch ADS  Kneafsey, T.J., Rees, E. V., Nakagawa, S. and Kwon, T. H. (2010). Examination of Hydrate Formation Methods: Trying to Create Representative Samples. Lawrence Berkley National Libraray.Google Scholar Koh, C. A.Westacott, R. E., Zheng, W., Hirachand, K., Creek, J. and Soper, A. K. (2002). Mechanism of Gas Hydrate Formation and Inhibition. Fluid Phase Equilibria. 194-197:143–151. Doi:
+              https://doi.org/10.1016/S0378-3812(01)00660–4.Google ScholarCrossrefSearch ADS  Liu, Y. K., Zhang, J., Liu, Y. L., Yan, X. H. and Zhanj, J. (2015):"Experimentaland Modelling Studies on the Prediction of Gas Hydrate Formation". Journal of Chemistry.Vol. 2015. Article ID 198176.pp 5.Google Scholar Lund, A., Urdahl, O. and Kirkhorn, S. S.(1996):"Inhibition of Gas Hydrate Formation by means of Chemical Additives-II. An Evaluation of the Screening Method. Chemical Engineering Science. Vol.51, pp 3449–3458. https://doi.org/10.1016/0009-2509(95)00410-6Google ScholarCrossrefSearch ADS  Mork, M. (2002). Formation Rate of Natural Gas Hydrates: Reactor Experiments and Models. Ph.D.Thesis submitted to theNorwegian University of Science and Technology.Google Scholar Movareji, M. K., Charffarkhah, A. and Sadeghi, A. (2016). Effect of Three Representative Surfactants on Methane Hydrate Formation Rate and Induction Time. Egyptian Journal of Petroleum, 26, 231–339. www.elsevier.com/locate/egyjp.Google Scholar Odutola, T. O., Ajienka, J. A., Onyekonwu, M. O. and Ikiensikimama, S. S. (2017): "Design, Fabrication and Validation of a Laboratory Flow Loop for Hydrate Studies". American Journal of Chemical Engineering. Vol5, No.3-12, pp 28–41.doi: 
+              https://doi.org/10.11648/j.ajche.s.2017050301.14Google Scholar Okutani, K., Kuwabara, Y. and Mori, Y. H. (2003). Surfactants Effects on Hydrate Formation in an Unstirred Gas/ Liquid System: An Experimental Study using Methane and Sodium Alkyl Sulfates. Chemical Engineering Science, 63 (1): 183–194. Doi: 
+              https://doi.org/10.1016/j.ces.2007.09.012.Google ScholarCrossrefSearch ADS  Seo, Y. T., Kang, S. P. and Lee, H. (2001). Experimental Determination and Thermodynamic Modeling of Methane and Nitrogen Hydrates in the presence of THF, Propylene oxide,1-4-dioxane and Acetone. Fluid Phase Equilibra, 189, Elsevier. 99–110.Google ScholarCrossrefSearch ADS  Tariq, M., Rooney, D., Othman, E., Aparico, S., Atilhan, M. and Khraisheh, M.(2014): "Gas Hydrate Inhibition: A Review of the Role of Ionic Liquids". Industrial and Engineering Chemistry Research. Vol. 53, No.46, Pp 17855–17868.Google ScholarCrossrefSearch ADS  Toshidi, B., Danesh. A.. and Todd, A. C. (1995). On the Mechanism of Gas Hydrate Formation in Subsea Sediments. Department of Petroleum Engineering, Herriot-Watt University Edinburg. EH14 4AS, Scotland.Google Scholar Urdahl, O., Lund, A., Mork, P. and Nilsen, T. N.(1995):"Inhibition of Gas Hydrate Formation by Means of Chemical Additives"- Development I. of an Experimental Set-Up for Characterization of Gas Hydrate Inhibitor Efficiency with Respect to Flow Properties and Deposition. Chemical Engineering Science Vol.50, No. 5. Pp 863-870.Google ScholarCrossrefSearch ADS  Usman, M. A., Olatunde, A. O., Adeosun, T. A. and Egwuenu, O. L. (2012). Hydrate Management: Strategies in Subsea Oil and Gas Flow lines at Shut-In Condition. Petroleum and Coal Journal. 54, (3). 191–202. ISBN 1337-7027Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212017-MS
+
+
+

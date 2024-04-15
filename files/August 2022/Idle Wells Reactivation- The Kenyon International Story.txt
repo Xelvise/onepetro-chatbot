@@ -1,0 +1,277 @@
+----- METADATA START -----
+Title: Idle Wells Reactivation- The Kenyon International Story
+Authors: Victor Ekpenyong, Amieibibama Joseph
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211955-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+With increasing concern for life and environmental safety, and an encouraging upward trajectory in the oil price, there is the need for the government and operators to actively invest in the reactivation of idle wells by putting the right enablers in place. Reactivation of idle wells has been proven to be more economically attractive to add to existing potentials than new exploratory activities. This paper showcased a case study of the reactivation of AKOS-004LS well, and outlined strategies developed by Kenyon International in collaboration with the Nigerian Upstream Regulatory Commission to effectively manage idle wells in Nigeria for economic and social benefits. AKOS-004LS is a dual completed well with a combined potential of about 5,300bopd before it was shut-in due to a previous recorded fire incident that compromised the integrity of the well structure. As part of the reactivation process, the well structural integrity was restored, sustained casing pressure issue investigated and resolved, and a zonal change was carried out in the long string to produce new oil and additional barrels to the operator. The estimated cost for a conventional rig-based workover operation to restore the structural integrity of the well is about $12m but the workover operation was eventually executed at a cost far below $5m with the deployment of the proprietary rigless Integrated Wells Management Plan by Kenyon International. The combined potential of the well was also restored to its original potential of about 5,300 bopd, producing optimally from both strings. This proprietary Integrated Wells Management Plan by Kenyon International is a game changer as it has proven to to be technically efficient, cost effective and has the potential to reduce the number of emerging idle wells, thus, contributed to incremental potential and overall reduction in health and safety concerns.
+
+
+
+
+Keywords:
+upstream oil & gas,
+production enhancement,
+well intervention,
+downhole intervention,
+reactivation,
+casing design,
+reservoir surveillance,
+casing and cementing,
+completion installation and operations,
+knowledge management
+
+
+Subjects: 
+Casing and Cementing,
+Well & Reservoir Surveillance and Monitoring,
+Formation Evaluation & Management,
+Safety,
+Environment,
+Professionalism, Training, and Education,
+Information Management and Systems,
+Casing design,
+Perforating,
+Communities of practice
+
+
+
+
+Introduction
+
+
+Every well has a life cycle and a sequence of operation with its peculiarities. There are no two identical hydrocarbons in compositions, thus every well must be completed based on the peculiarities of the hydrocarbon in place. For example, conventional black oil reservoirs may not be completed and operated like volatile oil reservoirs and reservoirs with waxy crude oil. Waxy crude oil must be produced considering their particularities to prevent wax deposition at temperatures below the pour-point. Even though, at early stages, as in most cases, a well may produce optimally as designed, this will eventually change over time as depletion occurs. More so, depletion is synonymous with some challenges that may not be inherent at the onset. Unlike waxy crude, which is inherent, some challenges such as HBSW, HGOR etc could be due to depletion and bad production practices. Generally, brown fields are associated with production challenges due to declining production such as mechanical failures, low production rates, frequent workovers, low oil price (Batohie, 2016). These challenges do not only increase the operational costs but could also lead to intermittent shut-ins and complete abandonment when the problem gets exacerbated and thus, could render a well inactive (Hassan et al, 2014, Batohie, 2016). Thus, any well with reasonable and incremental potential but shut-in for at least two years or more and has not been properly plugged and abandoned such that it may pose operational threat and affect the overall economics of oil and gas business can be termed an idle well.
+
+
+Like the global oil industry, the Oil and Gas industry in Nigeria is dynamic. With the yearly production decline rate of 20%, many wells are increasingly emerging as idle wells. Following decreasing number of restoration wells and few drilling operation, and most importantly, life and environmental safety, coupled with an encouraging upward trajectory in the oil price, there is the need for the government and operators to actively invest in the reactivation of Idle wells by putting the right enablers in place than exploring for new prospects.
+
+
+When these oil and gas wells are not operated and maintained on a regular basis, they present several hazards to the environment as well as public health and safety. Most of these wells are not properly secured, wellhead vandalized and deteriorated which then create a conduit for contaminants such as hydrocarbons to enter freshwater aquifers and pose potential risks to surface water, air quality, soils, and vegetation, leading to a huge liability risk to the operator and government.
+
+
+Following fluctuating and low oil prices, many companies would prefer to reactivate idle wells that are economically attractive to boost declining oil production from locked in potentials as viable options to new explorations and production (Batohie, 2016). However, reactivation of idle wells requires series of evaluations to unravel their prospects of adding to the potential of current production. Depending on the factor that has caused a well to be idle, it is very important to determine before reactivation that there are still sufficient remaining recoverable reserves from that well. And once it is ascertained that sufficient remaining recoverable reserves exist, then the wellbore integrity is inspected, the well location condition is assessed and rig accessibility determined (Batohie, 2016). Thereafter, an economic evaluation is carried out putting the costs of the various activities to determine the viability of the reactivation. However, when the current open zone seems not economically viable for reactivation, uphole prospects or New Reserves Types (NRT) are investigated and the potential of these zones analyzed. Every activity must economically justify any reactivation measures to be taken. Even where workover operations are necessitated, the gains from reactivation must outweigh the costs of reactivation. And where reactivation seem quite difficult to achieve, such wells can be reclassified as idle or temporary abandoned in compliance with industry and statutory regulatory provisions which may subsequently be plugged off and decommissioned.
+
+
+Reactivation of idle wells are usually conducted in three major phases (Khor et al, 2014, Batohie, 2016|):
+
+
+Phase 1 (screening): Where wells’ histories are reviewed to identify underperforming wells and the potential gain if reactivated using data obtained from candidate wells earmarked for reactivation.Phase 2 (detailed screening): this phase involves in-depth evaluation to screen and select candidate wells for reactivation. In this phase, the root cause of inactivity is investigated, and proven reserves evaluated. Well tests and economic evaluations are done here to ascertain the well productivity, feasibility, and prospects of reactivation.Phase 3 (Implementation): this is the execution phase where detailed job design and execution are tailed to reactivate the idle well. It also involves the deployment of personnel and equipment for intervention to reactivate the wells.Phase 4 (Review). this involves the revision of all activities carried out, the low and high points of activities, lessons learnt and the determination of the success rate of the reactivation project.
+
+
+Nigeria has a huge number of idle wells particularly onshore and the swamp region of Niger Delta with huge locked-in potentials (BOPD) that can add to the dwindling volume of production sufficient to support the economy. Most of these are as a result of youth restiveness, clamour for resource control, bunkering activities etc. that has forced operators to flee and left many wells abandoned. Many of these wells have huge potentials and pose serious environmental risks. For this reason, and with our success story in the activation of idle wells in the country, Kenyon International came up with an integrated management approach to manage idle wells. This paper outlines strategies developed by Kenyon International in collaboration with the Nigerian Upstream Regulatory Commission to reactivate AKOS- 004LS, an idle well in Niger Delta that was abandoned for over 10 years following a fire incident from bunkering activities that burnt the wellhead and associated surface facilities.
+
+
+Background
+
+
+AKOS-004LS was drilled in 1989 to a depth of 13,126ftah with a maximum deviation of 49.5° at 5900ftah. The well was completed as Dual String Producer in the swamp region of Niger Delta on C6000W (short string) and D9500W (long string). This well had a production potential of 4600 bopd from the short string and 700 bopd from the long string, thus a combined potential of 5,300 bopd. Unfortunately, due to early water breakthrough and HBSW on the long string, production had been on the short string alone with a potential of 4600 bopd while the long string was shut-in. Following serious bunkering activities on AKOS-004S, a fire incident occurred that burnt the wellhead and compromised the structural integrity of the well in 2011 and thus, it was shut-in and abandoned. The well became inactive and idle for over 10 years after the fire incident. This led to a dilapidated platform and wellhead jacket, corroded, bent and torn surface casing, very poor structural integrity, and a significant sustained casing pressure. Moreover, the well was also reported to have a sustained annulus-A casing pressure of 1,000psi, and an exposed B-annulus from the weight of the Xmas tree. Hence, due to well integrity issues, safety concerns and the locked-in recoverable potentials, AKOS-004LS was justifiably recommended for well integrity remediation on the wellhead, plugging of the watered-out zone to shutoff the excess water production and the addition of more perforations on sand D9500W to produce the 700bopd locked-in potential from the long string. The workover operation by Kenyon International was planned to reactivate this well and restore structural integrity with an estimated cost far below $12m to avoid potential catastrophic event such as wild well blowout or a wild well fire with resultant negative environmental impact.
+
+
+Method
+
+
+To achieve the reactivation of AKOS-004LS, well integrity remediation was carried out in three different phases and or milestones which are;
+
+
+First Milestone: Well Securement.Second Milestone: Well Integrity Repairs.Third Milestone: Well Restoration
+
+
+First Milestone -Well Securement Scope Program
+
+
+The aim of this rigless intervention which forms the first phase of the entire well intervention remediation is to isolate the existing intervals on well AKOS-004LS and create a standard minimum of two-barrier tested systems both in the tubing and annulus to allow for structural repairs. This will involve the following:
+
+
+Mobilize spread, position and secure at AKOS-004SL well slotCarry out extensive wellhead maintenanceErect scaffoldPressure test Xmas tree valves to 300/3000 psi low -and-high pressure test for 10/15 minutesRigup slickline and drift string to XN nipple on long stringSet plug and prong on XN and XA landing nipple on SS and SL where applicableInflow test set plugs or pressure test as applicable.Install NRVSecure annulus with VR-Plugs and manual gate valvesNipple down Christmas tree and secure well with temporary abandonment flange
+
+
+The estimated duration of this phase is one week (7days) from the date of mobilization. Thereafter, we proceeded to phase 2 (structural repairs)
+
+
+Second Milestone - Well Integrity Repairs
+
+
+After the successful execution of the first phase of securing the well; comes the second phase, Well Integrity Repairs. The aim of this phase is to restore the well integrity focusing on solidifying the well structures, installation of composite wrap for pressure containment, extension of 26″ stove pipe, installation of Gusset and the replacement of the existing jacket with a new structure. The estimated duration of this phase is 15 days. The following constitute some of the procedures for the major activities in this phase:
+
+
+Installation of Wellhead Jacket
+
+
+To install the wellhead jacket, all safety measures was put in place with personnel properly briefed. The following procedure was followed to execute the phase:
+
+
+Cut out and remove the old and corroded well head platform with crane of between 30 to 50 tonPosition pilling crane, piling hammer and set pilling lead toolCommence pilling the 4-jacket leg column to resistanceCut the piles at a mark-up levelCast to install re-enforcement and concrete cast to the cap levelInstall prefabricated wellhead jackets on top of the pile caps and weld on site to install all the members which include: lifting gantry, riser clamps, floor grating, fenders, ladders and handrailsCut off few inches of 26″ corroded pipe and chop off the cement inside to create for extension pipe
+
+
+The stages for installation of the new wellhead jacket are summarized as shown in Figure 1.
+
+
+Figure 1View largeDownload slideStages for the installation of wellhead Jacket at AKOS-004LSFigure 1View largeDownload slideStages for the installation of wellhead Jacket at AKOS-004LS Close modal
+
+
+Composite Wrap Installation
+
+
+The installation of the composite wrap is to correct the bent. The following procedure was adopted:
+
+
+Cleaning of the 13-3/8″ surface casingApplication of adhesiveInstallation of fibre glass applicationVisual inspection during curingCarrying out adhesive testing andGood housekeeping
+
+
+Figure 2 shows the prototype of the composite wrap installed to correct the bent on the 13-3/8″ surface casing
+
+
+Figure 2View largeDownload slideComposite wrap installationFigure 2View largeDownload slideComposite wrap installation Close modal
+
+
+Stove Pipe Extension and Gusset Installation
+
+
+To install the stove pipe and gusset, preliminary talks was held with concerned personnel to:
+
+
+Spot equipment /materials on barge including welding machineEnsure that all consumables such as electrodes, cutting discs, oxy-acetylene bottles and fittings are in placeInspect fabricated split pipe and existing 26″ stove pipeTake necessary measurements and ensure compatibility and make adjustments andmodifications on fabricated split pipe where necessaryConstruct sitting base with gusset for the fabricated split pipe to rest onPick new split pipe with crane, set and align while taggingCommence welding split pipe and thereafter allow to cool for 24 hoursCarry out MPI inspectionMix and fill casing with 15.8ppg G-class neat cement for 15ft of slurry in 16″x13-3/8″ casing annulus
+
+
+Figure 3 shows the design of the prototype 26″ stove pipe extension while Figure 4 is the design of the new gusset to be installed
+
+
+Figure 3View largeDownload slide26″ Stove Pipe ExtensionFigure 3View largeDownload slide26″ Stove Pipe Extension Close modal
+
+
+Figure 4View largeDownload slideInstallation of GussetFigure 4View largeDownload slideInstallation of Gusset Close modal
+
+
+Third Milestone – Well Restoration/Optimization
+
+
+The final phase of the idle well reactivation process is the well restoration/optimization phase where production restoration intervention is initiated. This phase involves re-installation and testing of the Xmas tree, isolation of the existing reservoir in the long string and perforation of a shallower reservoir. The estimated duration of the activities in this phase is 14 days.
+
+
+To achieve the objectives of this phase, the following summarized major activities were implemented:
+
+
+The work area was cleared after the installation of the wellhead jacketThe refurbished Xmas tree was nipple up and bolts tightenedErection of scaffold and pressure testing of Xmas tree void and cavityPressure testing of tree valves to 300/3000 psi low-and high-pressure tests for 10/15 minutes. This is to monitor leaks. More so, WPCE well site pressure test was recommended at 125% of the maximum anticipated wellhead pressure not to exceed 100% WCPE working pressure for the lowest working pressure rated equipment in the WPCE stack.Installation and pressure testing of flow arm valves of both strings for integrity checksRetrieval of NRV from long string with special fabricated toolRigging up slickline, retrieval of SCSSV, PX plug and drift long string to XN NippleRIH with E-line dummyCarry out Carbon-Oxygen log from 9650ftah to 11,499ftah (original RKB)Installation of through tubing (TT) magna-range permanent bridge plug at 11,517ftahRIH and dump 10ft of cement on Magna-Range plugUsing information from C-O log, RIH and perforate reservoir intervalLift well well to produce life crude to environmental bargeRu SL on Long string and install new WRSCSSSV on XXO landing nippleLine up long string to productionRU SL on short string, retrieve WRSCSSSV and PXN-Plug/prongInstallation of WRSCSSSV and line well up to productionInstall anti-theft locks and CCUs on Xmas tree valvesHandover to client
+
+
+The perforation of the interval 11454ft-11468ft on sand D9500W was achieved using the Halliburton Perforating toolkit ( HPTK). The charge and gun information and performance are shown in Figure 5 and Table 1 respectively.
+
+
+Figure 5View largeDownload slideCharge performance- 2″ Millennium HMX (101208224)Figure 5View largeDownload slideCharge performance- 2″ Millennium HMX (101208224) Close modal
+
+
+Table 1Charge and gun information on perforation Charge information
+            . Gun Information
+            . Charge type Millennium Gun size 2in powder HMX Gun position Eccentered Part number 101208224 SPF 6 Phase angle 60 deg Shot pattern spiral Bank angle 60 deg Rotation 0 deg API Target strength 6019 psi Clearance 0 in Charge information
+            . Gun Information
+            . Charge type Millennium Gun size 2in powder HMX Gun position Eccentered Part number 101208224 SPF 6 Phase angle 60 deg Shot pattern spiral Bank angle 60 deg Rotation 0 deg API Target strength 6019 psi Clearance 0 in On/off
+            . Shot
+            . Orientation (deg)
+            . Clearance (in)
+            . Formation Penetration (in)
+            . Effective Perforation Tunnel (in)
+            . EHD 3.500 (in)
+            . EHD 9.620 (in)
+            . On 1 0 0.99 4.39 2.54 0.184 0.121 On 2 60 0.68 4.41 2.55 0.191 0.125 On 3 120 0.18 4.36 2.52 0.212 0.138 On 4 180 0.00 4.28 2.47 0.218 0.141 On 5 240 0.18 4.36 2.52 0.212 0.138 On 6 300 0.68 4.41 2.55 0.191 0.125 On/off
+            . Shot
+            . Orientation (deg)
+            . Clearance (in)
+            . Formation Penetration (in)
+            . Effective Perforation Tunnel (in)
+            . EHD 3.500 (in)
+            . EHD 9.620 (in)
+            . On 1 0 0.99 4.39 2.54 0.184 0.121 On 2 60 0.68 4.41 2.55 0.191 0.125 On 3 120 0.18 4.36 2.52 0.212 0.138 On 4 180 0.00 4.28 2.47 0.218 0.141 On 5 240 0.18 4.36 2.52 0.212 0.138 On 6 300 0.68 4.41 2.55 0.191 0.125 View Large
+
+
+A reservoir monitoring Tool-3Detector (RMT3D) log was acquired on AKOS XL/S well to:
+
+
+Monitor and obtain information on current Gas, Oil and Water contactsAcquire relevant data to enable re-calibration of reservoir dynamic modelsAcquire information that will provide a guide for the production optimization including re-perforation and /or zone switchObtain information that will support decision making for further drilling, workover or well intervention jobsCheck for fluid communication between and across different completions, reservoirs, and Geo-compartmentsIdentify possible bypassed hydrocarbon zones
+
+
+The RMT3D was run in two modes (CO and Sigma). CO mode data was acquired in four separate intervals as follow: 9880-10270 ft MD (C6000W reservoir), 10538-10632 ft MD (Wet sand, used for calibration), 10770-10930 ft MD (D5000W reservoir) and 11440-11512 ft MD (D9500W reservoir). And Sigma mode data was acquired in a continuous pass, 9880-11510 ft MD, spanning all three reservoirs (C6000W, D5000W and D9500W)
+
+
+Kenyon Idle Wells Integrated Management Plan
+
+
+Idle Well Management Plans is necessary for either plugging and abandoning long-term idle wells or returning them to production. An integrated idle well restoration plan is necessary where well intervention and subsurface assessments are executed to yield the best results especially in late life fields.
+
+
+Kenyon International has developed an idle well management process as shown in Figure 6 as well as an Integrated Wells Management Plan (IWMP) as shown in Figure 7 to address the management and execution of idle wells in the country. This plan is an integrated plan that involves the collaboration of the client (operator) from the planning to execution of the project.
+
+
+Kenyon International strategy in collaboration with the National Upstream Regulatory Commission will help reduce the number of current and emerging idle wells, increase, and sustain the national yearly production, and ultimately protect and address the health and safety concerns posed by idle wells. The highlighted cross-section is expanded to show the integrated management strategy working in collaboration with operators along the idle wells critical candidate selection processes as shown in Figure 6 and the integrated execution strategy as shown in Figure 7 respectively.
+
+
+Figure 6View largeDownload slideIdle Wells Management process- critical candidate selection processesFigure 6View largeDownload slideIdle Wells Management process- critical candidate selection processes Close modal
+
+
+Figure 7View largeDownload slideIntegrated Idle Well Management strategy- Integrated Execution StrategyFigure 7View largeDownload slideIntegrated Idle Well Management strategy- Integrated Execution Strategy Close modal
+
+
+Results and Discussions
+
+
+Figure 8 shows the 13-3/8″ casing before and after repairs while Figure 9 shows the installation of the wellhead jacket, showing its state before and after the installation by Kenyon International. These repairs were done successfully without recording any safety issues.
+
+
+Figure 8View largeDownload slideBent and repaired 13-3/8″ surface casing of AKOS XL/SFigure 8View largeDownload slideBent and repaired 13-3/8″ surface casing of AKOS XL/S Close modal
+
+
+Figure 9View largeDownload slideInstallation of the dilapidated wellhead jacket, before and after repairs.Figure 9View largeDownload slideInstallation of the dilapidated wellhead jacket, before and after repairs. Close modal
+
+
+The summary of the CarbOxSat and GasSat analysis is shown in Table 2. As can be seen in Table 2, the following information were obtained and analyzed from the different sands:
+
+
+C6000W: current oil-water contact at about 10070ft. Oil observed in this interval from 9989ft - 9995.5ft, 9997.5ft-10070ft, with saturation ranging from 20-62%. Below the contact some remaining oil is still observed with a saturation of 3-36%. The saturation peaks observed at about 10052ft and 10059.5ft are the product of the split interval when environmental corrections were applied to try to compensate for the effect of water on the annulus.D5000W: current oil-water contact at about 10882ft. Oil observed in this interval from 10779ft - 10819ft, 10824ft -10840ft, 10843ft -10882ft with saturation ranging from 10-54%.D9500W: Oil computed in this interval from 11440ft - 11444ft, 11448.5ft - 11451ft, 11458ft - 11467ft, and 11468ft - 11499ft with saturation ranging from 18-68%. The saturation peaks observed at 11480ft and 11486ft are the product of the split interval when environmental corrections were applied to try to compensate for the effect of water on the annulus.
+
+
+Table 2Summary of Carbon Oxy Saturation and Gas Saturation Analysis Reservoir logged
+            . Logged depth (MD/TVDSS)
+            . Perforation interval (MD/TVDSS) (if any)
+            . Oil/Gas Saturation (%)
+            . Average Porosity (%)
+            . Present Contacts (MD/TVDSS)
+            . Summary of Results
+            . C6000W 9880-10270 ftMD/8641.9-8947.4 ftTVD 10020-10060 ftMD/8752-8783.6 ftTVD 20-26% 20-30% 10070 ftMD/8791.4 ftTVD Oil observed in this reservoir in the following intervals: 9989ft - 9995.5ft, 9997.5ft - 10070ft, with saturation ranging from 20-62%. Below the contact, some remaining oil is still observed with a saturation of 3-36% D5000W 10770-10930ftMD/ 9322.5-9439.3 ftTVD  10 -54% 7 -26% 10882 ftMD/9404.5 ftTVD Oil observed in this reservoir in the following intervals: 10779ft - 10819ft, 10824ft - 10840ft with saturation ranging from 10 -54% D95500W 11440 -11512ftMD/ 9801.8 - 9853.2 ftTVD 11470 -11480 ftMD/ 9823.2-9830.4 ftTVD 18 - 68% 10-25% 11500ftMD/ 9844.6 ftTVD Oil computed in this reservoir in the following intervals: 11440ft - 11444ft, 11468 ft - 11499 ft with saturation ranging from 18 - 68% Reservoir logged
+            . Logged depth (MD/TVDSS)
+            . Perforation interval (MD/TVDSS) (if any)
+            . Oil/Gas Saturation (%)
+            . Average Porosity (%)
+            . Present Contacts (MD/TVDSS)
+            . Summary of Results
+            . C6000W 9880-10270 ftMD/8641.9-8947.4 ftTVD 10020-10060 ftMD/8752-8783.6 ftTVD 20-26% 20-30% 10070 ftMD/8791.4 ftTVD Oil observed in this reservoir in the following intervals: 9989ft - 9995.5ft, 9997.5ft - 10070ft, with saturation ranging from 20-62%. Below the contact, some remaining oil is still observed with a saturation of 3-36% D5000W 10770-10930ftMD/ 9322.5-9439.3 ftTVD  10 -54% 7 -26% 10882 ftMD/9404.5 ftTVD Oil observed in this reservoir in the following intervals: 10779ft - 10819ft, 10824ft - 10840ft with saturation ranging from 10 -54% D95500W 11440 -11512ftMD/ 9801.8 - 9853.2 ftTVD 11470 -11480 ftMD/ 9823.2-9830.4 ftTVD 18 - 68% 10-25% 11500ftMD/ 9844.6 ftTVD Oil computed in this reservoir in the following intervals: 11440ft - 11444ft, 11468 ft - 11499 ft with saturation ranging from 18 - 68% View Large
+
+
+Conclusion
+
+
+The different milestones of the well integrity remediation project were carried out successfully and the bent 13-3/8 casing was fully restored. As a preventive measure, Kenyon International also introduced external 4-leg piles to protect and prevent the well from external pressure or impact. The well structural integrity was restored, the sustained casing pressure issues was resolved, and a zone change was carried out in the long string to produce live crude of 700 BOPD at a cost far below the estimated $12m rig based operation; thus saving the client substantial reactivation cost. AKOS-004LS was successfully restored to its original potential through a rig-less well intervention spread, currently producing optimally at a combined potential of 5,300 bopd; 4600 bopd from the short string and 700 bopd from the long string respectively.
+
+
+The success story was possible through the Kenyon International West Africa Idle Well Management Plan which includes an integrated job planning solution, effective technical solution, scope prioritization, effective resources, and an effective collaboration with the operator. It is strongly recommended that companies use the integrated idle wells management plan to reduce the number of emerging idle wells by carrying out idle well restoration programs which will ultimately lead to an overall significant contribution of additional for Nigeria and the protection of the environment. With this strategic Idle Well Management Plan, idle wells will be effectively managed in Nigeria for economic and social benefits.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Batohie, G.Mature FieldRejuvenation by Reactivation of Idle Well in Petrotrin's Land Acreage, presented at the SPE Trinidad and Tobago Section Energy Resources Conference Port of Spain, Trinidad and Tobago, 13-15 June 2016Hassan, H.S.; Oktobaren, R.; Yahia, Z.Fit for Purpose Technology for Idle Well Reactivation- A novel Application of Surface Jet Pumps in Offshore Malaysia, presented at the Offshore Technology Conference Asia, Kuala Lampur, Malaysia, 25-28 March, 2014.Khor, Y.Y.; Ismail, S.S.; Prahawinarto, B.; Mohamad, M.H.; Nik Sin, N.H.Breathing Second Life into an Old Well through Coiled Tubing Cement Squeeze for Brown Fields in Malaysia, presented at the SPE/ICoTA Coiled Tubing and Well Intervention Conference and Exhibition, Woodlands, Texas, USA, 25-26 March, 2014
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211955-MS
+
+
+

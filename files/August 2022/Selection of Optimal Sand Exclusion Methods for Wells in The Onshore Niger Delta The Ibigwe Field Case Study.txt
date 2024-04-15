@@ -1,0 +1,242 @@
+----- METADATA START -----
+Title: Selection of Optimal Sand Exclusion Methods for Wells in The Onshore Niger Delta: The Ibigwe Field Case Study
+Authors: Chukwudalu Emmanuel Chime, Ibinabo Greenson Kalio
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211983-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Sand production is a pertinent issue in oil and gas well engineering and a major cause of concern for the production engineer. He can plan for it, or he can prepare for it, albeit he would rather have it nipped in the bud right from the well’s completion phase. Sand production is costly, reducing the lifetime and durability of pipelines and production facilities, inadvertently impacting the company’s balance sheet negatively and in some cases reducing the life and productivity of the well itself. This paper critically evaluates sand production in the Niger Delta, using the Ibigwe field operated by Waltersmith Petroman Oil Limited as a case study. It proffers optimal sand exclusion methods for wells in the Niger Delta by analysing various subsurface datasets and historical sand production from offset wells within the field. The subsurface datasets identified as relevant to this study include sonic transit time, depth of burial of zones of interest, particle size analysis, geomechanical data (specifically unconfined compressive stress logs), Rate of Penetration (ROP) and other data logs. Evaluating all relevant data to the subject is imperative as discovered during research; none of the datasets listed above can be analysed in isolation, rather interdependently. The selection of an optimal sand exclusion method consequently affects the deployment of an effective completion mechanism and as such, this endeavour should be carried out conscientiously.
+
+
+
+
+Keywords:
+structural geology,
+upstream oil & gas,
+completion installation and operations,
+niger delta,
+reservoir geomechanics,
+consolidation,
+optimal sand exclusion method,
+reservoir characterization,
+strength,
+sand control
+
+
+Subjects: 
+Reservoir Characterization,
+Professionalism, Training, and Education,
+Information Management and Systems,
+Exploration, development, structural geology,
+Reservoir geomechanics,
+Communities of practice,
+Knowledge management,
+Completion Installation and Operations,
+Sand Control
+
+
+
+
+Introduction
+
+
+Based on extant research, the onshore region of the Niger Delta has been observed to have a dearth of data related to Geomechanical studies on operational areas. In some cases, this problem comes combined with a poor record of sand production history in producing wells as is the case for the subject of this paper. The unavailability of data from these studies resulted in onshore operators searching for valid alternative methods of determining the degree of sand consolidation across depths of interest; this in turn advises the choice of sand control method.
+
+
+The Ibigwe field is peculiar for two reasons: the absence of an extensive Geomechanical study, and inadequate records of historical sand production.
+
+
+A focused study group was set up to evaluate the feasibility of predicting sand consolidation and its consequent effect on sand production in Ibigwe field using existing field data and logs. The output of this study was intended to feed into the planned Ibigwe-N well sand exclusion programme and that of subsequent wells.
+
+
+History of the Ibigwe Field
+
+
+The Ibigwe marginal field is located in OPL 2004, onshore in the eastern part of the Niger Delta Basin. It was discovered by Shell in 1965 and was produced from 1971 to 1989 when it was shut in. The Ibigwe field was part of the assets put forward in the 2003 marginal field bid round and was awarded to Waltersmith Petroman Oil Limited. It was put back into production in 2008 following the reentry of existing wells and the drilling of several new wells.
+
+
+Geology of the Ibigwe Field
+
+
+The Ibigwe field is located in the onshore portion of the Niger Delta basin within the Greater Ughelli depobelt. Studies show that the field’s overall structural configuration is a concentric roll-over anticline formed on the hanging wall side of a NW-SE trending major growth fault. The typical Niger Delta tri-partite stratigraphy is present in the field, the deep seated Akata marine shales are overlain by the intermediate paralic Agbada sand and shale sequences, overlain by the continental alluvial and upper coastal plain sands of the Benin Formation. The producing reservoirs of this field were encountered within the Agbada formation, which is characterized by multiple, laterally continuous sand bodies interspersed with shale and mudstone beds. Studies of whole log motifs and paleontological samples have resulted in an interpretation of the depositional environment as ranging from open marine, shoreface, tidal flats in some intervals and channel sands.
+
+
+Sand Production Prediction
+
+
+Accurate prediction of timeline for reservoir failure which may result in sand production is key in making decisions regarding choice of sand control method. The production of sand depends on three main components:
+
+
+Rock strength and intrinsic geomechanical properties of the rock.Regional stresses acting on reservoir perforation or wellbore.Loads acting on the perforation or wellbore due to the combined presence of flow, the hole, presence of water and reduced pore pressures.
+
+
+Evaluation of Sand Consolidation
+
+
+The criteria identified and considered for predicting sand consolidation includes but not limited to:
+
+
+Sonic transit timeFormation depth of burialGeomechanical studyHistorical sand production from fieldField knowledge/well densityRate of penetration and any other data/logs
+
+
+These criteria are evaluated in greater detail below
+
+
+Sonic Transit Time
+
+
+Sonic transit time denoted as Δt measures the time taken for sound waves to travel through formation intervals. It is also referred to as interval transit time. Geologically, sonic transit time varies with lithology and rock texture, it has been observed to increase as effective porosity increases.
+
+
+Sonic transit time, Δt, can be used as a strength indicator, characterizing the strength of rocks accurately. Estimates and equations of Δt have been obtained from the Depth versus Δt plot for oil reservoirs, effectively established for clean sands in the Niger Delta (Abiola et al., 2014).
+
+
+The equation for oil wells is given as:
+
+
+Z=2.56Δt2−620.95Δt+44563.11(i)
+
+
+In order to calculate Δt values given a depth, the equation is rearranged as follows:
+
+
+Δt=(620.95−√((620.95)2−10.24*(44563.11−Z)))/5.12(ii)
+
+
+NB: This equation is valid for formations in the Niger Delta with depths greater than or equal to 6865ftss.
+
+
+The range of sonic transit time for estimating formation consolidation is listed as:
+
+
+Consolidated formation: < 90 mspf (95 mspf in some literature)Medium consolidated: 95 – 110 mspfUnconsolidated: > 110 mspf
+
+
+Data on sonic transit time is available for Well C, Well K and Well N but is limited to depth of ca. 7,700 ft TVDSS (see figures 1, 2, and 3).
+
+
+Figure 1View largeDownload slidePlot of depth against sonic transit time for Well CFigure 1View largeDownload slidePlot of depth against sonic transit time for Well C Close modal
+
+
+Figure 2View largeDownload slidePlot of depth against sonic transit time for Well KFigure 2View largeDownload slidePlot of depth against sonic transit time for Well K Close modal
+
+
+Figure 3View largeDownload slidePlot of depth against sonic transit time for Well NFigure 3View largeDownload slidePlot of depth against sonic transit time for Well N Close modal
+
+
+On the other hand, a unique discovery was made while drilling Well N. Fluid samples were taken from two points in zone 1 and zone 2 (see figure 4). The interval transit time at the sample point in zone 2 was higher than the sample point in zone 1, ideally this should indicate better sand consolidation in zone 1.
+
+
+Figure 4View largeDownload slideLog showing fluid sampling zones for Well NFigure 4View largeDownload slideLog showing fluid sampling zones for Well N Close modal
+
+
+Figure 5View largeDownload slideData plot showing UCS distribution for formation of interest traversed by Well KFigure 5View largeDownload slideData plot showing UCS distribution for formation of interest traversed by Well K Close modal
+
+
+However, during sampling in zone 1, sand was being produced alongside formation fluid, which is an early indicator of future sand production from that zone. Evaluation of drill cuttings showed that zone 1 had a cleaner sandstone package albeit with small grain size, zone 2 had a rattier sandstone package but the grain size was medium to large.
+
+
+This is an indication that interval transit time alone was insufficient to confirm formation consolidation, the particle grain size of a formation, in this case sandstone is also as important.
+
+
+Depth of burial of formation
+
+
+The Greater Ughelli depobelt (consisting of OML 16, 21, 26, 27, 30, 34, 41 and 42) stands out as the most prolific sand producing depobelt amongst the depobelts of the Niger Delta with over 90% of its reservoirs producing sand over the 5pptb threshold, regardless of sand control installation and depth of formation (Vincent et al., 2012).
+
+
+The depth criterion for judging whether formation rock is consolidated cannot be generalized, depositional environment is a very important consideration in the decision to install sand control. However, it has been observed that depth criterion as an indication of consolidation can be used in specific depositional environment (Vincent et al., 2012).
+
+
+The rule of thumb in the Niger Delta is that formations <10,000 ft depth of burial are classified as unconsolidated. However, this rule is generic; taking into cognizance that there could be outliers, we did not find enough information or data to deviate from this rule of thumb during the course of this study.
+
+
+Geomechanical study
+
+
+The availability of a Geomechanical study is a valid way to discountenance the rule-of-thumb in sand exclusion for well N completion. Unfortunately, no such study has been conducted on the producing Ibigwe block or the appraisal block of interest. However, a range of values for Unconfined Compressive Strength of the target formation can be gotten from log interpretations. Classification of rock hardness from Unconfined Compressive Strength (UCS) values is shown in Table 1.
+
+
+Table 1Classification of rock hardness (from Attewell & Farmer 1976) Strength Classification
+            . Strength range (MPa)
+            . Typical rock types
+            . Very weak 10 - 20 weathered and weakly-compacted sedimentary rocks weak 20 - 40 weakly-cemented sedimentary rocks, schists Medium 40 - 80 competent sedimentary rocks: some low-density coarse-grained igneous rocks Strong 80 - 160 competent igneous rocks: some metamorphic rocks and fine-grained sandstones Strength Classification
+            . Strength range (MPa)
+            . Typical rock types
+            . Very weak 10 - 20 weathered and weakly-compacted sedimentary rocks weak 20 - 40 weakly-cemented sedimentary rocks, schists Medium 40 - 80 competent sedimentary rocks: some low-density coarse-grained igneous rocks Strong 80 - 160 competent igneous rocks: some metamorphic rocks and fine-grained sandstones View Large
+
+
+Values of UCS for Ibigwe Well K were obtained from logs, a log plot showing the spread of UCS can be found inFigure 4.
+
+
+The data points in the above figure show that the formation traversed by Well K has a range of UCS values trending lower than 20 Mpa, based on the rock strength classification according to Attewell & Farmer, this formation can be said to be weakly-compacted and weathered. The exception is a few outliers probably indicative of cemented zones.
+
+
+Historical sand production from field
+
+
+Sand production has been recorded on some of the legacy wells in Ibigwe field, with the drilling of new wells, sand exclusion methods are constantly being updated to mitigate sand production based on past sand production data. The goal is to continue accurate tracking and record keeping of sand production on subsequent wells drilled in the Ibigwe field.
+
+
+Field knowledge/well density
+
+
+There is some knowledge on the environment of deposition and formation characteristics for the producing Ibigwe block where we have existing producing wells. There is limited knowledge for the hanging wall/appraisal block that IB-N is targeting which is predicted to be overpressured.
+
+
+Rate of Penetration (ROP) and any other data/logs
+
+
+Log data can be used to assess rock strength. Logs are best used when calibrated to core data as there is no direct relationship between any wireline-derived data and rock strength (Simangunsong et al., 2006).
+
+
+Core data is currently unavailable, albeit core acquisition is planned for subsequent wells, hence analysis of core data did not form a part of our evaluation on this study. Sonic transit time obtained from evaluation of sonic logs has already been covered.
+
+
+Research on the use of ROP as a measure/indicator of rock strength revealed some inherent challenges in the use of ROP to judge formation consolidation, these include drilling speed, the impact of overpressure and the effect of other drilling parameters on ROP values.
+
+
+Conclusion
+
+
+This study shows that formations in the Ibigwe field consist of relatively poorly consolidated sands, with high probability of sand production over the life of the well as formation integrity decreases due to the effects of reservoir depletion.
+
+
+On the other hand, results of this study reveal a number of key considerations in the selection of optimal sand exclusion methods for wells in the onshore Niger Delta.
+
+
+In the process of determining degree of sand consolidation, the evaluation of all relevant data to the subject is imperative; none of the datasets evaluated in this study could have been analysed in isolation, rather an interdependent evaluation gives more credibility to the result. This is evident from the discovery made during fluid sampling on Well N, zone 1 identified to be relatively more consolidated based on values of sonic transit time had produced sand as part of fluid sample while zone 2 identified to less consolidated based on values of sonic transit time did not produce sand.To further reduce the uncertainty around sand consolidation, it is important to understand the interplay between particle size distribution, sorting, grain shape, and packing; alongside how this interplay influences the overall strength of the formation.The selection of an optimal sand exclusion method consequently affects the deployment of an effective completion mechanism and as such, this endeavour should be carried out conscientiously. Some operators have reported successful completion of wells in various fields without sand exclusion deployment, however it is best to carry out this kind of study with available data, no matter how scant, prior to making a decision as regards completing wells without sand exclusion mechanisms.
+
+
+Limitation
+
+
+This paper does not focus on the merits or demerits of various sand control methods, rather it places the spotlight on the data analysis that goes into the determination of formation sand consolidation and rock strength which advises the selection of an appropriate sand control method.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgements
+
+
+The authors wish to thank the management of Waltersmith Petroman Oil Limited’s Asset Development and Subsurface Engineering Discipline Teams for granting the permission to publish this paper. Special thanks to Idowu Odumboni, Gbemiga Ipinyemi and Chuks Kalu amongst others.
+
+
+References
+
+
+Abass, H. H., Nassr-El-Din, H. A. and BaTaweel, M. H., 2002. Sand Control: Sand Characterization, Failure Mechanisms, and Completion Methods. SPE 77686.Google Scholar AbiolaS. O., VincentO. N., FelixO. O., Ajienka, J. A., 2014. Review of Sand Production from Oil Well Completions across Depositional Environments in the Niger Delta. SPE-172484-MSGoogle Scholar Olakunle, A., Erasmus, N., Peter, O., Wendell, D., 2008. Expandable Sand Screen Deployment in Cased Hole Completions: SPDC Experience. SPE 128601Google Scholar P. B.Attewell & I. W.Farmer1976. Principles of Engineering Geology: Chapman & Hall, LondonGoogle ScholarCrossrefSearch ADS  Simangunsong, R. A., Villatoro, J. J. and Davis, A. K., 2006. Wellbore Stability Assessment for Highly Inclined Wells Using Limited Rock-Mechanics Data. SPE 99644.Google Scholar Vincent, O. N., Abiola, S. O., FelixO. O., Ajienka, J. A., 2012. Sanding in Oil Well Reservoir Completions. SPE 163010Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211983-MS
+
+
+

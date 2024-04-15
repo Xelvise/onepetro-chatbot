@@ -1,0 +1,236 @@
+----- METADATA START -----
+Title: Imperatives of Modular Refineries and their Impact on Product Availability in Nigeria
+Authors: Evelyn Bose Ekeinde, Adewale Dosunmu, Diepiriye Chenaboso Okujagu, Josephine Omolola Ugherughe
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211932-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Nigeria is richly blessed with crude oil, with a proven reserve of 37billion barrels. Despite the abundance of this "black gold", Nigeria has over the years lacked the capacity to meet the country's demand for petroleum products locally and has resorted to the importation of petroleum products. This is largely due to the fact that the four state-owned conventional refineries, with a combined refining capacity of 445,000 bpd have been operating below optimal conditions, with a combined capacity utilization of 17% in 10years, from 2009 to 2018. Though establishing conventional refineries is highly capital intensive and significantly takes a long time to build and commission, the modular refinery option is however a less capital intensive alternative. This paper discusses the vital roles or importance of modular refineries as well as how it impacts on the availability of petroleum products in the Nigeria. It was discovered that Nigeria has lots of benefits to reap from exploiting modular refinery initiative, amongst which are eliminating fuel shortages and deficits, job creation, overall improvement of the economy and GDP growth, conservation of foreign exchange, among others. It was concluded that the right policy drive to encourage investors to dive into this initiative be put in place to enable Nigeria transit into an exporter of petroleum products.
+
+
+
+
+Keywords:
+reserves evaluation,
+nigeria government,
+refinery,
+product availability,
+downstream oil & gas,
+africa government,
+modular refinery,
+petroleum resource,
+sustainability,
+asset and portfolio management
+
+
+Subjects: 
+Reserves Evaluation,
+Sustainability/Social Responsibility,
+Asset and Portfolio Management
+
+
+
+
+Introduction
+
+
+Crude oil is one of the resources which Nigeria is predominantly endowed with. Nigeria's proven crude oil reserve was estimated at about 37 billion barrels as at 2018, which made the country 8th in OPEC's proven reserves (OPEC Annual Statistical Bulletin, 2019). However, crude oil is a complex mixture of hydrocarbons ranging from very light to very heavy molecules. In its unrefined state, crude oil is of no value, until refined/processed into useful petroleum products which are suitable for use as fuels and other industrial applications. Refining adds value to crude oil by separating it into a mix of different valuable products (Treese et al., 2015). A petroleum refinery therefore consists of processing plant/equipment that refines crude oil into a variety of finished products ranging from LPG, naphtha, gasoline, kerosene, jet fuel, diesel, fuel oil, lube oil, wax and bitumen. A Refinery can be described as the link between raw, unprocessed crude oil and refined petroleum products.
+
+
+Despite the large reserve of crude oil and a combined in-country refining capacity of 445,000barrels/day, Nigeria has been plagued with the challenge of local refining. These refineries have operated grossly below installed capacity for decades, operating at a capacity utilization hovering between 15% to 25% (Ogbuigwe, 2018). The inability to harness local refining to meet the demands for petroleum products has turned Nigeria into a net importer of petroleum products. Nigeria is Africa's most important crude oil producer, according to the US Energy Information Administration. It was, nevertheless, Africa's third largest importer of petroleum merchandise in 2017, with imports accounting for more than 80% of all merchandise consumed (Olumide and Ayodele 2017).
+
+
+History Of Refining In Nigeria
+
+
+The first commercial finding of crude oil in Nigeria occurred in 1956 in Oloibiri, now known as Bayelsa State. Shell D'Arcy drilled the first successful well following the discovery, and development work started in 1957. As the country's population grew and demand for petroleum products increased, Shell BP-Petroleum Development Company decided to start on a project to construct Nigeria's first refinery. This was a straightforward hydro skimming plant built in Port Harcourt with a daily capacity of 38,000 barrels of petroleum. In 1965, the project was completed and commissioned. Later, the prime refinery was debottlenecked to incorporate a naphtha catalytic reforming unit, increasing processing capacity to 60,000 barrels of oil per day. The Old Port Harcourt Refinery is currently operating as this renowned refinery.
+
+
+NNPC Refineries
+
+
+Nigeria now operates four state-owned refineries, all of which are operated by the Nigerian National Petroleum Corporation (NNPC). These refineries are as follows:
+
+
+The Old Port Harcourt Refinery (OPHR), which began operations in 1965, has a nameplate capacity of 60,000 barrels of crude oil per day.Warri Refining and Petrochemical Company (WRPC), which began operations in 1978 with a nominal capacity of 125,000 barrels of petroleum per day.Kaduna Refining and Petrochemical Company (KRPC), which began operations in 1980 with a nominal capacity of 110,000 barrels of crude per day.The New Port Harcourt Refinery (NPHR), which began operations in 1989, has a nominal capacity of 150,000 barrels of crude oil per day.
+
+
+The four refineries have a combined refining capacity of 445,000 barrels per day.
+
+
+Figure 1View largeDownload slideRefining capacities of NNPC's refineriesSource: Nigerian National Petroleum Corporation.Figure 1View largeDownload slideRefining capacities of NNPC's refineriesSource: Nigerian National Petroleum Corporation. Close modal
+
+
+With the four refineries operating optimally, at designed capacity, the following yield of product is expected.
+
+
+Table 1Expected product make for NNPC refineries PRODUCT
+            . YIELD %
+            . EXPECTED PRODUCT PER DAY (LITRES)
+            . LPG 4.00 2,830,200 PMS 34.50 24,410,475 HHK 15.00 10,613,250 AGO 27.00 19,103,850 FUEL OIL 14.00 9,905,700 CONSUMPTION/LOSS 5.50 3,891,525 TOTAL 100.00 70,755,000 PRODUCT
+            . YIELD %
+            . EXPECTED PRODUCT PER DAY (LITRES)
+            . LPG 4.00 2,830,200 PMS 34.50 24,410,475 HHK 15.00 10,613,250 AGO 27.00 19,103,850 FUEL OIL 14.00 9,905,700 CONSUMPTION/LOSS 5.50 3,891,525 TOTAL 100.00 70,755,000 Compiled by Author; Data source: PPQC department of PHRCView Large
+
+
+Current Status Of NNPC Refineries
+
+
+Nigeria currently depends almost absolutely on importation to meet the demand for petroleum products. The reason is not far-fetched, since the local refineries were plagued with very low-capacity utilization, or worse still, completely out of service at the moment. The fall in NNPC refinery efficiency is said to have started in the early 1990s, when the then-military government ordered the company to close commercial bank accounts and relocate them to the central bank, giving it more political clout and command (Ogbuigwe, 2018).
+
+
+As a result, repairs and significant maintenance tasks in refineries were unable to be completed on time due to the numerous bureaucratic processes required. Significant decisions like as whether to do turnaround maintenance, which contractors to engage, and many others became susceptible to the influence of the government rather than corporate specialists. This certainly became a draw back to the smooth and efficient running of the refineries, culminating into a decline in performance as experienced till date.
+
+
+Modular Refineries
+
+
+According to Chemex Global, the pioneer of modular refineries. A modular refinery is a processing plant composed entirely of skid mounted structures. Each of which comprises a part of the entire processing plant and connect various components through the interstitial pipes to create an easy to manage process. They are smaller than conventional refineries, with processing capacity ranging from 1,000bpd to 30,000bpd (Olumide and Ayodele 2017). Modular refineries are mini-refineries. Modular topping plants or crude distillation units are the most straightforward and cost-effective method of extracting valuable fuels from crude oil. Within fourteen months of contract execution, a topping plant can be operational, providing host communities with vital fuels for automobiles, power generation, and job possibilities (Ogundari et al. 2016). Furthermore, construction of a modular refinery is less capital intensive, ranging from $1 million to $15million, compared to a conventional refinery which would cost up to hundreds of millions or even billions of dollars, depending on the refinery's complexity and configuration.
+
+
+Cenam Energy Partners discovered the many configurations for modular mini-refineries, ranging in sophistication from simple to complex. They are as follows:
+
+
+Atmospheric – Topping Unit: It is a cheap distillation unit that can make diesel and kerosene from raw crude oil. There are also naphtha and fuel oil as byproducts, so they make a lot of things.Toping Unit with Gasoline Train: with the addition of regenerative agents or hydrotherapy (Higher capital costs) thus producing high-octane unleaded gasoline and high-octane LPG. This configuration can put together isomerization units to make more premium unleaded gasoline. It can also make more gasoline with a higher octane rating.Vacuum Distillation Unit: The addition of a second distillation tower to separate the fuel components from the atmospheric tower resulted in clean heavy diesel (vacuum gas oil) and dirty heavy residual oil.Hydrocracker Unit – Full Conversion: The hydro-cracker unit (which has a high capital cost) transforms light and heavy gas oils into more marketable products with a lower boiling point. The yield of a hydro-cracker unit may add to the profitability of a refinery.
+
+
+Advantages Of Modular Refineries Over Conventional Refineries
+
+
+ Modular Refineries
+            . Conventional Refineries
+            . 1,000 to 3,000bpd capacity Capacity higher than 100,000bpd Flexible and can be constructed in phased manner, adding modules to meet demand Not as flexible as modular refineries Lower capital cost, ranging from $1Million to $15Million Higher capital investment, up to hundreds of millions or billions of dollars A short payback period A longer payback period Minimum space/land requirement Significant space/land requirement Quick and easy installation Significantly longer time for construction and commissioning Greater control over the work process and environment during construction Minimal control over the environment during construction. Modular Refineries
+            . Conventional Refineries
+            . 1,000 to 3,000bpd capacity Capacity higher than 100,000bpd Flexible and can be constructed in phased manner, adding modules to meet demand Not as flexible as modular refineries Lower capital cost, ranging from $1Million to $15Million Higher capital investment, up to hundreds of millions or billions of dollars A short payback period A longer payback period Minimum space/land requirement Significant space/land requirement Quick and easy installation Significantly longer time for construction and commissioning Greater control over the work process and environment during construction Minimal control over the environment during construction. View Large
+
+
+Nigeria's Petroleum Products Import And Consumption
+
+
+Table 2Q1 2020 Import and Consumption Statistics PRODUCT
+            . IMPORT (LITRES)
+            . CONSUMPTION (LITRES)
+            . Q12020
+            . Q1 2020 DAILY
+            . Q12020
+            . Q1 2020 DAILY
+            . PMS 5,262,043,244 57,824,651 5,362,844,850 58,932,361 AGO 1,655,475,407 18,192,037 1,552,479,405 17,060,213 HHK - - 8,730,243 95,937 ATK 258,267,461 2,838,104 283,899,586 3,119,776 LPFO 28,325,499 311,269 23,361,917 256,724 LPG 232,004,217 2,549,497 290,240,278 3,189,454 PRODUCT
+            . IMPORT (LITRES)
+            . CONSUMPTION (LITRES)
+            . Q12020
+            . Q1 2020 DAILY
+            . Q12020
+            . Q1 2020 DAILY
+            . PMS 5,262,043,244 57,824,651 5,362,844,850 58,932,361 AGO 1,655,475,407 18,192,037 1,552,479,405 17,060,213 HHK - - 8,730,243 95,937 ATK 258,267,461 2,838,104 283,899,586 3,119,776 LPFO 28,325,499 311,269 23,361,917 256,724 LPG 232,004,217 2,549,497 290,240,278 3,189,454 Source: National Bureau of Statistics, 2020.View Large
+
+
+Imperative Of Modular Refinery
+
+
+The modular distillery concept is not new, though. But it gained traction in Nigeria with the launch of the 7 Big Wins Plan to Expand Nigeria's Oil and Gas Industry (2015-2019). Its objective is to create a stable and conducive oil and gas landscape through increased openness. Efficiency, stable investment environment and environmental protection (Federal Ministry of Petroleum Resources, 2017).
+
+
+The need for a revolution of in-country refining thus became paramount in promoting product availability in the country, heralding the adoption of the modular refinery alternative/initiative in Nigeria.
+
+
+For Nigeria, modular refinery alternative is of vital importance for the following reasons:
+
+
+To eradicate petroleum products shortfall and promote product availability in the countryTo enable Nigeria evolve into a net exporter of petroleum products against the current import regimeTo create enormous investment opportunities in the midstream/downstream industry, resulting in GDP growth and employment creation.To minimize the use of foreign exchange for the importation of petroleum products.To curb the multi-faceted scourge of pipeline vandalism, product theft, illegal refining and environmental degradationTo create jobs and arrest youth restiveness in the Niger Delta region.
+
+
+Eradicating petroleum product shortfall and promoting product availability in the country
+
+
+Nigeria, a nation built on petroleum has ironically suffered petroleum products shortfall. This is because the state -owned refineries operate far below installed capacities, with an average capacity utilization of 17% in ten years (2009-2018). Even if the four in-country refineries, which have a combined refining capacity of 445,000 bpd, were to operate optimally, the product yield for petrol, which is the most consumed fuel in Nigeria cannot exceed 24million liters per day. This would be far ls than the daily consumption of petrol in Nigeria, which was estimated at about 59 million litres per day during the first quarter in 2020 and account for only 50% of the country demand for petrol. The same applies to other petroleum product such as fuel oil, aviation fuel etc.
+
+
+This scenario depicted above is however very far from current realities and we can only imagine the deficits in supply of petroleum product, occasioned by the underutilized in country refining capacity. In a bid to meet the demand for refined petroleum products. Nigeria has depended on the importation of fuels. It is expected that the ongoing rehabilitation of the state-owned refineries would restore the refineries to full operating capacity. This alone however would not meet local demand. The modular refinery option is therefore a perfect alternative to meet in-country demands and eradicate the problem of fuel shortage, other than the importation of petroleum products
+
+
+The revolution of Nigeria into a net exporter of petroleum product against the current import regime
+
+
+In 2019, Nigeria's daily crude oil production was estimated at about 1.7million bpd, making it Africa's leading oil state (OPEC Annual Statistical Bulletin, 2020). Ironically, Africa's leading oil state is equally the largest importer of refined petroleum products in the region. This is absolutely an anomaly caused as a result of the country's inability to optimally refine crude locally.
+
+
+To address this discrepancy, policy interventions such as the federal Ministry of Petroleum Resources's ‘7 Big Wins’ effort (2019) and the (National Petroleum Policy, 2017). have been implemented. These strategies emphasised the economic advantages that a revitalised refining industry might bring to Nigeria. Dr. Ibe Kachukwu, then-Minister of State for Petroleum Resources in Nigeria, unveiled the ‘7 Big Wins’ initiative aimed at increasing the petroleum industry in a transparent and efficient manner, while also fostering a more stable investment climate (National Petroleum Policy, 2017). He admitted that the project will necessitate new collaborations between key stakeholders, new technologies, new ideas, and innovations. In terms of ‘refining and local manufacturing capability,’ the 7 Big Wins Initiative follows the following strategy: "Completing the rehabilitation and enhancing utilization of our local refineries in addition to setting up of co-located refineries and modular refineries to guarantee effective supply and distribution of products across the country and African sub-region, being a key focus area of the 2015 administration." According to the Initiative, the strategy was aimed at helping Nigeria transit "from being a massive importer of petroleum products to a net exporter of petroleum products and value-added petrochemicals to diversify our export base and enhance im-port substitution, GDP growth and employment generation." If these policies are adequately driven, modular refineries have a lot of benefits to the economy, amongst which is the capacity to help Nigeria transit from a massive importer of petroleum products into a net exporter of petroleum products.
+
+
+Curbing the multi-faceted scourge of pipeline vandalism, product theft, illegal refining and environmental degradation.
+
+
+Network of pipelines convey both crude oil to the refineries and petroleum products for evacuation. The socio-economic problems of pipeline vandalism and products loss have resulted into huge loss of revenue to the Nigerian Government. This act has also resulted in incessant environmental degradation and pollution.
+
+
+According to Ogbuigwe (2018), pipeline vandalism began in the late 1990s. He attributed the major reasons for pipeline vandalism to;
+
+
+Agitations for resource control in the Niger Delta have resulted in an increase in militancy.Theft of crude oil and petroleum products outright.
+
+
+This spate of Pipeline vandalism and product theft is linked to the dissatisfaction of the people of the Niger Delta, as they perceived the region was unjustly treated and has not significantly benefited from oil wealth. The stolen crude is refined illegally, in a crude manner. This manner of refining is economically, environmentally and socially destructive. It poses a lot of risk and harm to the populace by the introduction of poor-quality products which do not meet specifications into the market. More so, since the crude is stolen, the business model for this illegal refining in the creeks are unacceptable because it is at zero cost of crude oil. The modular refineries initiative would go a long way in addressing these issues. With the right policies in place and licenses issued to establish modular refineries, crude oil can be legally and adequately refined while producing products that meet specifications with minimal and controlled impact on the environment
+
+
+Conservation of foreign exchange for the importation of petroleum products.
+
+
+Nigeria is almost totally dependent on the importation of refined petroleum products to meet local demands. Importation puts a strain on the foreign exchange of the country. In 2016, the Minister of Finance reported that 30% of the foreign exchange in Nigeria was spent on fuel imports. Since Nigeria imports more than it exports, there is relatively less demand for its currency, weakening the Naira against international currencies. In-country refining, via modular refineries, would help conserve the foreign exchange utilized for the importation of petroleum products. When Nigeria is able to meet local demands and even export, the Naira gets strengthened and appreciates in value.
+
+
+Presenting huge investment opportunities in the mid-stream/downstream sector that will result in GDP growth and job creation.
+
+
+To calculate a country's GDP, you add up all of the goods and services generated within its borders. GDP growth rate measures how fast the components of an economy are growing. Because of its vast crude oil reserves, Nigeria is usually known as an oil economy. In terms of GDP, the petroleum industry makes up less than 10% of total output. On the other hand, the petroleum sector in several Gulf States provides up to 30% or more of their GDP growth. According to National Bureau of Statistics, between third quarter of 2018 and first quarter of 2020, the oil sector has contributed less than 10% to the country's GDP, with oil GDP of 9.5% in the first quarter of 2020, while the non-oil sector contributed 90.5% to GDP growth in the same quarter (Figure 2).
+
+
+Figure 2View largeDownload slideContribution of oil and non-oil sector to GDP growthSource: National Bureau of Statistics 2020.Figure 2View largeDownload slideContribution of oil and non-oil sector to GDP growthSource: National Bureau of Statistics 2020. Close modal
+
+
+Figure 3View largeDownload slideContribution of oil refining sector to GDP growthSource: National Bureau of Statistics 2020.Figure 3View largeDownload slideContribution of oil refining sector to GDP growthSource: National Bureau of Statistics 2020. Close modal
+
+
+According to the International Monetary Funds, Nigeria's economy is heavily dependent on the oil sector, where oil revenue accounts for about 40% of the Federal Government's revenue and oil production accounts for over 95% of the country's export.
+
+
+Nigeria's petroleum business needs expand consumer opportunities. . Dependence on importation of refined petroleum products negatively impacts on the growth of the economy.
+
+
+Only in-country refining, other than imports can be effective in boosting the oil sector's contribution to the growth of the Nigeria's economy. To increase GDP, domestic refining must be leveraged to supply petroleum products for consumption. Petroleum products are in high demand from other industries such as power and electricity, petrochemicals, and fertiliser. Modular refinery alternative alongside the rehabilitation of the country's 445,000bpd refineries are well thought options to achieve this.
+
+
+Impact Of Modular Refineries On Product Availability In Nigeria
+
+
+In all ramifications, in-country refining offers huge benefits to the nation. These benefits ranges from job creation to strengthening the currency against international currencies and ultimately enhancing the availability of petroleum products in the country. For Nigeria, being Africa's leading oil state, the era of swapping petroleum for fuels is long overdue to be ended. With conventional refineries unable to meet local demands, then modular refinery option is advantageous in meeting local demands. The deficits that exist between in- country refining capacity and consumption/demand which over the years resulted into massive importation, can be closed by setting up modular refineries.
+
+
+Dr. Ibe Kachikwu was optimistic about the prospects of modular refineries in 2017 when he said, "from the modular refineries, we will be able to process about 200,000 barrels of crude and put them into the system." According to PcW experts, "modular refineries are assumed to be set up close to crude sources either within existing refineries or onshore marginal fields. They are also assumed to be set up close to consumption clusters, thereby making them better for domestic supply". This certainly would be an advantage to domestic supply and availability of petroleum products as products could readily be made available to communities around the refineries without incurring excessive cost on transportation.
+
+
+Conclusion
+
+
+The need for Nigeria's refining revolution cannot be overemphasized. It is an anomaly for Africa's leading oil state to be the largest importer of refined petroleum products in the region. The price is quite enormous. With crude oil prices relatively low, there is no better time to take advantage of in-country refining than now. While the rehabilitation of the state-owned conventional refineries progresses, private investors should be given the enabling environment to set up modular refineries to boost the country's production of petroleum products. It is certain that a combination of the 650,000bpd Dangote refinery, rehabilitated 445,000bpd NNPC refineries and modular refineries will adequately meet and surpass the nation's demand for petroleum products and ultimately cause Nigeria to emerge as an exporter of petroleum products.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Federal Ministry of Petroleum Resources (2017). General requirements and guidance information for the establishment of modular refineries in Nigeria. Accessed fromhttps://www.dpr.gov.ng/wp-content/uploads/2018/03/GENERAL-REQUIREMENTS-AND-GUIDANCE-INFORMATION-FOR-THE-ESTABLISHMENT-OF-MODULAR-REFINERIES-IN-NIGERIA.pdfNigerian Bureau of Statistics (2020). Nigerian Gross Domestic Product Report Q1 2020. Accessed fromhttps://nigerianstat.gov.ng/elibraryNigerian Bureau of Statistics (2020). Petroleum Products Importation and Consumption Statistics Report Q1 2020. Accessed fromhttps://nigerianstat.gov.ng/elibraryNigerian National Petroleum Policy (2017). NNPC Annual Statistical Bulletin 2018. Accessed fromhttps://www.nnpcgroup.com/NNPCDocuments/Annual%20Statistics%20Bulletin%E2%80%8B/ASB%202018%201st%20Edition.pdfOgbuigwe, A. (2018). Refining in Nigeria, history, challenges and prospects. Applied Petrochemical Research8, 181–192. https://doi.org/10.1007/s13203-018-0211-zGoogle ScholarCrossrefSearch ADS  Ogundari, I., Adepoju, A. O., Akinwale, Y. O. and Akarakiri, J. B. (2016). The modular petroleum refinery alternative as an energy security and environmental sustainability strategy in Nigeria: A technology policy assessment.Google Scholar Treese, SA; Pujado, PR. DavidS; Jones, J. (2015) Handbook of Petroleum Processing. (2nd Edition) Springer International Publishing, 10.1007/978-3-319-14529-77Big Wins of the Federal Ministry of Petroleum Resources: http://petroleumresources.gov.ng/7-big-wins/ (accessed December 2019)Google ScholarCrossrefSearch ADS  Olumide, A; AyodeleO (2017). Nigeria's Refining Revolution PricewaterhouseCoopers LimitedGoogle Scholar OPEC Annual Statistical Bulletin, 2019. Accessed from:https://www.opec.org/opec_web/en/data_graphs/330.hOPEC Annual Statistical Bulletin, 2020. Accessed from:https://www.opec.org/opec_web/static_files_project/media/downloads/publications/ASB_2020.pdf
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211932-MS
+
+
+

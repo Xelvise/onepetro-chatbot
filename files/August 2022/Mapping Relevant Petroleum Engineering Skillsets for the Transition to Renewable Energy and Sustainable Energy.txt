@@ -1,0 +1,251 @@
+----- METADATA START -----
+Title: Mapping Relevant Petroleum Engineering Skillsets for the Transition to Renewable Energy and Sustainable Energy
+Authors: Esuru Rita Okoroafor, Chinyere Princess Offor, Ekeoma Isaac Prince
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212040-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+In the last century, the global energy mix has been primarily dominated by fossil fuels. However, commitments to tackling climate change have accelerated the conversations on transitioning to a lower-carbon future. This is beginning to influence governmental policies, investors' and shareholders interests, workforce preferences, academic curriculum adaptations, and student choices. Given the coordinated approach from government, industry, and academia necessary to facilitate this transition, it becomes increasingly essential to map the relevant skillsets for the energy transition. This paper aimed to identify the skill sets oil and gas students and professionals have that will be relevant in advancing a renewable and sustainable energy future. The study focused on students and professionals within Nigeria to address the conditions unique to the country and other fossil-fuel-dependent developing and emerging countries.First, a survey was conducted on students and young professionals to identify the knowledge gap in clean energy technologies and digitalization technologies. Subsequently, the skills oil and gas professionals have were mapped with the different renewable and sustainable energy technologies to identify overlaps between the oil and gas industry and low-carbon energy technologies.The results showed that the technical competencies of oil and gas industry professionals were most relevant in carbon storage, hydrogen storage, and geothermal energy. On the other hand, non-core oil and gas competencies such as project management, HSE (health, safety, and environment), and business development skills, cut across all low carbon technologies. These competencies appeared to be more relevant for renewable energy resources like solar, wind, and hydropower. Data science and digital skills cut across all the new energy technologies. The main deliverables of this study were a skillset map and a progressive curriculum that embraces digitalization, entrepreneurship, and clean energy technologies.This study provides a skillset map where students and professionals can identify their competency gaps for renewable and sustainable energy technologies. This will enable them (and organizations) to know how to develop upskilling and reskilling strategies and provide academia with insights on how to modify the current oil and gas engineering curriculum in universities. Although the paper drew on data-driven insights within Nigeria, the findings apply to schools and organizations globally.
+
+
+
+
+Keywords:
+upstream oil & gas,
+artificial intelligence,
+respondent,
+stakeholder,
+social responsibility,
+transition,
+mapping relevant petroleum engineering skillset,
+storage,
+curriculum,
+energy
+
+
+Subjects: 
+Environment,
+Sustainability/Social Responsibility,
+Sustainable development
+
+
+
+
+Introduction
+
+
+Background
+
+
+Over the past century, the energy mix has been evolving. In previous years, the main drivers for energy transitions have been scarcity, high prices of the preferred energy resource, or availability of a more efficient energy resource. There have, however, been vital milestones to facilitate the energy mix, as shown in Figure 1, leading up to what we have today. The current energy transition is being driven by the need for cleaner energy with minimal environmental impact. Fossil fuels have been identified as the largest single source of greenhouse gas emissions, and thus, there has been a move towards increased integration of renewable energy and low-carbon energy technologies into every area where energy resources are required.
+
+
+Figure 1View largeDownload slideVital milestones that have facilitated the energy mix of todayFigure 1View largeDownload slideVital milestones that have facilitated the energy mix of today Close modal
+
+
+The global primary energy consumption by source (Figure 2) from the work by Ritchie et al. (2020) shows that fossil fuels have dominated the energy mix for over a century. It is anticipated that the energy mix will continue to evolve in the coming years to accommodate technologies that minimize greenhouse gas emissions and the associated societal and climate impact. According to the IEA (2020), worldwide energy demand is projected to increase by 24% by 2040, advanced economies will decrease their demand by 7%, and developing countries will increase it to 42%. Fossil fuels are expected to supply 74% of the energy needs, and their demand will grow 13% (IEA, 2020). Demand for renewable energy is expected to grow faster (83%) than other types of energy, although its total demand will still be below any of the fossil energies. The changes to the energy mix are also happening simultaneously with changes in governmental policies, investors' and shareholders' interests, workforce preferences, academic curriculum adaptations, and student choices. Therefore, it is of interest to identify the workforce necessary to facilitate the energy transition.
+
+
+Figure 2View largeDownload slide2020 Global primary energy consumption by energy sourceFigure 2View largeDownload slide2020 Global primary energy consumption by energy source Close modal
+
+
+Key Aspects of Low-Carbon Energy Technologies and Sustainability
+
+
+There exist several decarbonization mechanisms to curb greenhouse gas emissions. These include but are not limited to developing energy-efficient buildings and vehicles, energy conservation, changes in land use, carbon capture and storage, and fuel switching. In this paper, we will focus on fuel switching, the complementary energy storage for fuel switching, and other oil and gas industry greenhouse gas emission reduction strategies (including carbon capture and sequestration).
+
+
+Fuel switching involves replacing high carbon-emitting fuels with low-carbon energy resources such as solar, wind, hydro, biomass, geothermal, nuclear, and tidal energy. These energy resources have the potential to decarbonize high carbon-emitting sectors such as electricity and heat production for homes and commercial buildings, transportation, and industrial processes in different capacities. Due to the seasonality and intermittency of some renewable energy resources, energy storage is required. Energy storage refers to the capture of energy produced at one time for use at a later time to reduce imbalances between energy demand and energy production. Traditional storage options include batteries (lithium-ion, flow, lead-acid, and sodium batteries), thermal (for example, molten salt, ice storage in buildings, chilled water heaters, and dispatchable hot water heaters), or mechanical systems (such as flywheel and pumped hydropower). These technologies can be combined with software that controls the charge and discharge of energy. Emerging energy storage technologies at different stages of technology development include compressed air, superconducting magnets, underground pumped storage, and hydrogen storage.
+
+
+Objectives and Scope of the Study
+
+
+The training of future engineers will play an essential role in building the workforce to support the energy mix. A low-hanging fruit will be to leverage the skills and expertise of professionals from closely related fields. However, it is unclear what skills are transferable between the closely related fields, how much training would be required for professionals, and how much fundamental training students should receive to prepare them to take on roles related to the energy transition.
+
+
+In this paper, we use the oil and gas industry as a reference industry that can provide skills and experience for several aspects of the energy transition. The objective was two-fold: first, to identify the skill sets oil and gas students and professionals have that will be relevant in advancing a renewable and sustainable energy future. Secondly, to highlight areas of a typical petroleum engineering curriculum that can be modified to accommodate the changing needs of the energy industry.
+
+
+The study focused on students and professionals within Nigeria to address the conditions unique to the country and other fossil-fuel-dependent developing and emerging countries.
+
+
+Methods
+
+
+This section describes the method used to gather data, develop the skillset map, and the proposed curriculum update.
+
+
+Survey to understand the knowledge gaps and interests of students and young professionals
+
+
+We designed a survey to identify the knowledge gaps in clean energy technologies and digitalization technologies. We also wanted to understand the impact of COVID-19 on students learning and the ability of young professionals to get and be retained in jobs in Nigeria. We reached out to students and young professionals studying and working in the oil & energy industry, respectively. We received 136 responses, out of which 86 respondents were students and 50 respondents were Young Professionals.
+
+
+Skillset Mapping
+
+
+We compared the traditional oil and gas skills needed for different disciplines with the key aspects of low-carbon energy technologies and sustainability. For each oil and gas discipline, we checked to what degree the skillset was relevant to the key aspects of low-carbon energy technologies. We ranked the degree of relevance from zero to three, with zero being no significant relevance of skills between oil and gas and the low carbon energy technology. The number one represents low oil and gas skills transferable to the key aspects of low-carbon energy technologies. The number two represents medium oil and gas skills transferable to the key aspects of low-carbon energy technologies, while number three represents strong oil and gas skills transferable to the key aspects of low-carbon energy technologies.
+
+
+Curriculum Updating
+
+
+Based on the results from the survey and the skillset map, we identified areas of a typical Petroleum Engineering curriculum that may need to be updated to accommodate the new skills desired and required by students and young professionals. We used the University of Petroleum Engineering curriculum (Petroleum Engineering, 2022) available publicly as an example. We then went on to propose how skill gaps can be filled at the undergraduate level, including the role of stakeholders.
+
+
+Results and Discussion
+
+
+Survey Results and Analysis
+
+
+Out of the 136 survey responses received, 86 respondents were students, while 50 were young professionals. Some of the survey questions were targeted at students, while others were targeted at young professionals. In this section, we present the responses relevant to understanding the skillset gaps and how they can impact the future curriculum. In Appendix A, we list the results of the complete survey.
+
+
+On the question of how well students and young professionals felt their school's curriculum prepared them for the Petroleum Industry, 35% of respondents preferred to be neutral on their perspective. 27% of respondents felt their school's curriculum is doing a great job in preparing them for the industry. In comparison, 25% of respondents felt more work needs to be done on their school's curriculum to give them a headstart in their oil and gas industry careers. The percentages were extracted from the response seen in Figure 3.
+
+
+Figure 3View largeDownload slideHow respondents felt about the role of their school's curriculum in preparing them for the Petroleum IndustryFigure 3View largeDownload slideHow respondents felt about the role of their school's curriculum in preparing them for the Petroleum Industry Close modal
+
+
+When asked to prioritize what they would like to change about their current Petroleum Engineering curriculum, the students and young professionals responded that having access to multiple internships, infusing software training into the curriculum, and dedicating more time to field trips were the more important to them. It can be deduced that the students and young professionals wanted more hands-on training and more industry exposure (Figure 4).
+
+
+Figure 4View largeDownload slideFactors to prioritize if updating the Petroleum Engineering CurriculumFigure 4View largeDownload slideFactors to prioritize if updating the Petroleum Engineering Curriculum Close modal
+
+
+We investigated how students and young professionals gain skills relevant to artificial intelligence, technical writing, and networking. Many of them learned from their schools, fundamental concepts for artificial intelligence like linear algebra, calculus, and probability and statistics. Many of the respondents lacked modern programming languages, and the few who had the skills were primarily self-taught as shown in Figure 5. There appeared to be a balance between technical writing skills for journal writing.
+
+
+Figure 5View largeDownload slideHow the respondents were gaining technical and non-technical skillsFigure 5View largeDownload slideHow the respondents were gaining technical and non-technical skills Close modal
+
+
+Many students and young professionals indicated an interest in pursuing an advanced degree in renewable energy and concepts related to sustainable energy. 84% of the respondents consider pursuing an advanced degree in energy transition and sustainable energy studies a likely option, with 45% very likely to take that route (Figure 6). This indicates a growing interest in learning more about the energy transition and sustainable energy technologies.
+
+
+Figure 6View largeDownload slideLikelihood of the respondents pursuing an advanced degree in topics related to the energy transitionFigure 6View largeDownload slideLikelihood of the respondents pursuing an advanced degree in topics related to the energy transition Close modal
+
+
+To understand what areas of the energy transition students and young professionals had knowledge gaps, we sampled their opinion on their knowledge related to renewable energy and low-carbon energy technologies. Figure 7 shows that most students and young professionals had a basic understanding of renewable energy and low-carbon energy concepts. The top areas where the respondents had no idea were tidal energy, hydrogen, geothermal energy, and carbon capture, utilization and storage.
+
+
+Figure 7View largeDownload slideRespondents' knowledge of concepts related to renewable energyFigure 7View largeDownload slideRespondents' knowledge of concepts related to renewable energy Close modal
+
+
+The main takeaways from the survey are: There is a need to revamp the current Petroleum and Natural Gas Engineering curriculumThe classes and the curriculum need to have room for more industry exposure and hands-on trainingThe programming languages taught in the schools need to be upgradedThere is a growing interest in learning more about the energy transition and sustainable energy technologies. These need to be infused into the Petroleum and Natural Gas Engineering curriculum as is deemed fit.
+
+
+Skillset Mapping
+
+
+We mapped oil and gas disciplines to concepts related to renewable energy and low-carbon energy technologies. To enable users understand and interpret the mapping, we provide some context and an example.
+
+
+For the Geoscience discipline, we considered Geology, Geophysics, Geochemistry, Geographic Information System (GIS) Mapping, Geostatistics, and Rock mechanics. For Formation Evaluation, we considered Open hole logging, Cased hole logging, Core Analysis, and Formation Testing. For the Drilling and Well Completions discipline, we considered Vertical and Directional well drilling, Well Material Design and Selection, Well Stimulation, Well Integrity, Recompletions / Well Interventions, Drilling and Completions Fluid Selection, Well decommissioning, and Well repurposing.
+
+
+For the Reservoir Engineering discipline, we considered concepts related to Flow in porous media, Recovery mechanisms, Numerical Simulation, Reservoir Characterization, Material Balance, Reservoir Geomechanics, Thermodynamics and Phase Behavior of Fluids, Molecular/Nano-Scale Technology, Secondary Recovery, Enhanced Oil Recovery, Unconventional Reservoir Technology, Natural Gas Engineering, and Asset Management. For Well Production Engineering discipline, we considered Decline curve analysis, Pressure and Rate Testing, Well Performance Analysis, Artificial Lift, Production Logging and Tracer technology, and Tubing Movement and Stress Analysis.
+
+
+For Surface Production and Facilities discipline, we considered Facilities design, gathering systems and process control, Metering, Production Chemistry, Oil, Gas and Water Separation and Fluids Treatment, Flow Assurance, and Surface Production and Storage Equipment. For Offshore Technologies, we considered drilling and production technologies as they are applicable to offshore environments, including subsea technologies.
+
+
+For the concepts related to low-carbon energy technologies, we considered Carbon Capture, Utilization and Storage, Underground Energy Storage (which includes underground air storage, underground hydrogen storage, and subsurface thermal storage), Nuclear / Radioactive Waste Disposal, Geothermal Energy, Solar Energy, Wind Energy, Hydro Power, Tidal Energy, Biomass Energy, Critical Minerals and Rare Earth Elements, Fuel Cells, and other Greenhouse Gas (GHG) Emission Reduction Technologies. By other GHG emission reduction technologies, we refer to both methods that try to remove greenhouse gases, at every step in the value chain of the oil and gas industry. For instance, to reduce methane emissions, there are new sensors and monitoring devices that could be deployed in oil and gas facilities to measure emissions. Upon knowing how much methane is emitted, technologies such as gas injection and on-site power generation can be used to manage waste gas emissions from oil and gas production.
+
+
+From the Skillset map (Figure 8), we see that geoscience skills and reservoir engineering skills, as defined by the domains listed in this paper, cut across most of the low-carbon energy technologies. For instance, geoscience knowledge is needed across all of the low-carbon energy technologies (excluding fuel cells) because geoscience skills can be transferred for site selection of projects related to carbon storage, underground energy storage, solar and wind farms, hydropower plants, etc. Geoscience skills are beneficial for locating and mining of critical minerals and rare earth elements. Geoscience skills from the oil and gas industry can be utilized in geological and geostatistical modeling of ore bodies, ore reserve estimation, understanding the rock mechanics of ore bodies, geophysical imaging and interpretation, minerals processing, remote sensing and mine mapping solutions. The geoscience skills are strongly transferable to carbon storage, underground energy storage in geological media, nuclear and radioactive waste disposal, and geothermal energy.
+
+
+Figure 8View largeDownload slideSkillset map of Oil and Gas skills and competencies mapped to concepts related to low-carbon energy technologiesFigure 8View largeDownload slideSkillset map of Oil and Gas skills and competencies mapped to concepts related to low-carbon energy technologies Close modal
+
+
+Similarly, reservoir engineering skills cut across most of the low-carbon energy technologies. Areas such as underground carbon, air, hydrogen, and thermal storage need some degree of reservoir modeling, forecasting, and monitoring. We also see that concepts such as flow in tilted beds and flow potential competencies are relevant for hydropower. Fuel cells are made of porous materials through which fuel and oxidant are delivered to the active site of the cell where electrochemical reactions take place to generate power, heat, and water. An understanding of fluid flow in porous media, numerical modelling of the convective and diffusive fluid flow processes, species transport, heat/mass transfer, and concepts around permeability anisotropy are relevant for modeling fluid flow in fuel cells. Some aspects of tidal energy projects require numerical models to identify and contrast potential sites for tidal energy extraction. Expertise in pressure transient analysis and understanding of earth stresses can be helpful in Earth tidal analysis. According to Okoroafor et al. (2022), the geothermal energy sector shares similar technical challenges with the oil and gas sector. Hence it is no surprise that, from the skillset map, compared to other energy resources, geothermal energy has the highest rating for transferability of oil and gas skills.
+
+
+A student or professional can use the skillmap to identify areas related to renewable energy and low-carbon technologies for upskilling and reskilling. For instance, a recent petroleum engineering graduate may desire to become a geothermal reservoir engineer. Also, a seasoned reservoir engineer in the petroleum industry may want to take on a role in geothermal reservoir engineering. The skillmap suggests that there will be many transferable skills from the oil and gas discipline to the associated discipline in geothermal energy. Figure 9 shows how a competency assessment can be used to identify the gaps for the two individuals, and from there, they can devise means to close the competency gaps.
+
+
+Figure 9View largeDownload slideCompetency Assessment for Geothermal Reservoir Engineer, Experienced Oil and Gas Reservoir Engineer, and a recent Petroleum Engineering graduate.Figure 9View largeDownload slideCompetency Assessment for Geothermal Reservoir Engineer, Experienced Oil and Gas Reservoir Engineer, and a recent Petroleum Engineering graduate. Close modal
+
+
+Non-core oil and gas competencies
+
+
+The transition to sustainable and renewable energy requires a robust set of non-core oil and gas competencies equally transferable across other industries. These competencies are relevant to having a resilient and valuable career journey for individuals, ensuring business competitiveness and profitability for companies, understanding and fostering economic growth by government, and managing all stakeholders involved in promoting energy prosperity and environmental sustainability across the energy value chain. Identified competencies being utilized for various activities across the oil and gas industry that are relevant to the energy transition are shown in Figure 10. They include Entrepreneurship & Intrapreneurship, Petroleum/Energy Economics, Project Management and Commissioning, Supply Chain and Contract Management, Instrumentation and Controls, Rotating Equipment including Pumps, Compressors & Generators, Health, Safety Security and Environment, Business and Strategy Development, Policies and Regulations, Public and Government Affairs, Legal, Human Resources Management, Financial and Commercial Operations, International Relations and Geopolitics, Digital Technology and Data Science, Media and Communication.
+
+
+Figure 10View largeDownload slideNon-core oil and gas industry competencies that are relevant to the energy transitionFigure 10View largeDownload slideNon-core oil and gas industry competencies that are relevant to the energy transition Close modal
+
+
+Entrepreneurship is an important skill set that plays an essential role in activating other factors of production – labor, land, capital – for the growth of global economies. As the world battles the energy trilemma in trying to achieve energy security, energy security, and environmental sustainability, entrepreneurship is poised to play a crucial role as individuals, organizations, and nations seek to access and utilize energy to achieve economic prosperity and improve the standard of living.
+
+
+An entrepreneur seeks and pursues business opportunities by identifying problems and possible solutions, understanding the risks and rewards, and taking actionable steps to translate the ideas into profitable and sustainable ventures. When utilized within an existing organization, this skillset is referred to as Intrapreneurship. The display of entrepreneurship can be found in a strategy and portfolio team within an oil and gas company that looks at the organizatio's objectives (of safety, production, regulatory compliance, business competitiveness, etc) and identifies green/brownfield assets where resources can be allocated, ranks them according to profitability drawing upon data-driven insights and makes recommendations for management approval. This is also fundamentally required to start and develop sustainable and renewable energy technologies. The energy transition presents numerous business opportunities to harness, such as energy efficiency and conservation, carbon capture and storage, and fuel switching.
+
+
+Other competencies such as Petroleum/Energy Economics, Project Management and Commissioning, Supply Chain & Contract Management, and Financial and Commercial Operations are closely associated with entrepreneurship. Businesses, while solving problems, exist to maximize profits and create value for their shareholders. Therefore, all businesses, including startups, mergers and acquisitions, must have the economics of the opportunities thoroughly assessed, given the competing demands for scarce resources and funding. This requires sound knowledge and application of petroleum/energy economics principles. The economics for businesses must factor in project risks. An understanding of project risks, along with the project lifecycle and factors affecting project scope, cost, and schedule, positions students and young professionals to seek opportunities to be valuable contributors. The contributions that professionals can make are not limited to companies, as opportunities exist in reforms of policies and regulations by government when a thorough understanding of the energy business exists. Implementation of policies that strengthen lean manufacturing and efficient supply chain and contracting management would reduce business costs and improve resilience in the face of price volatility, pandemics, geopolitical tensions, and other uncertainties.
+
+
+Peter Drucker is often quoted as saying, "You cannot manage what you cannot measure." This holds true for activities that are process and performance-driven. Clear targets have been outlined to achieve the Climate change agreements in the Conference of Parties (COP) 26, where leaders from over 120 countries pledged to achieve various United Nations (UN) Sustainable development goals – poverty reduction, access to clean and affordable energy, amongst others. To effectively accomplish these targets, gaps have and are being measured, and actions are being recommended. This is a "gold mine" for students and young professionals because everyone has a role to play in ensuring a safe, secure, and prosperous earth. This is where the knowledge of Instrumentation, Controls, Digital technology, and Data science is critical. Most industries are powered by process instruments and rely on the ability to measure process variables such as pressure, flow, level, and temperature. For example, temperature measurement is crucial to managing global warming, creating energy-efficient buildings, and utilizing heat in energy generation applications. When these data have been acquired, processed, and interpreted, they can then provide valuable insights that can be used. Repetitive and continuous processes can be automated, allowing for little to no human intervention thus ensuring efficiency.
+
+
+Massive electrification ongoing across the globe to combat anthropogenic sources of climate change requires building competence in rotating equipment, including pumps, compressors, and generators positioned across the energy generation, transmission, and distribution value chain. This competence will find applicability in designing and redesigning energy-efficient equipment such as converting fossil fuel combustion engines to hybrid and hydrogen-powered combustion engines.
+
+
+Various stakeholders are involved in driving this energy transition – International companies, National oil companies, Service companies, Refineries and Petrochemical industries, Academia, Community, Media, OPEC+ and non-OPEC members, and the Government. All the stakeholders will be required to contribute towards sustainability by employing various innovative approaches. Stakeholder management at the local, national, and international levels is critical to prevent certain groups from obstructing the energy transition, thus stalling the collaborative efforts. Sound knowledge of Public and Government Affairs, International Relations and Geopolitics is necessary to navigate the transition, as economies chart their fit-for-purpose pathways to achieving it. The backbone of the enabling environment for the energy transition to thrive is effective policies and regulations.
+
+
+Additionally, an overarching aspect of the energy trilemma is environmental sustainability, which assumes the responsibility of conserving natural resources and protecting global ecosystems to support health and wellbeing now and in the future. Health, Safety, Security and Environment are achieved through processes, procedures, systems and humans. Humans are at the forefront of the energy transition and on the receiving end of climate change effects. Humans are required to identify and implement the transition pathways to sustainable and renewable energy. Attracting and retaining exceptional talent to drive the transition, enlightening people to adopt behavioral and lifestyle changes (e.g., promoting energy efficiency and conservation, adopting low-carbon emitting fuels, replacing deforestation with afforestation/reforestation, etc.), and developing policies and regulations require human resources management competencies. Moreover, conflict management and dispute resolution are crucial. The drive to a lower-carbon future can only be successfully executed by the collective participation of all involved stakeholders equipped with the right mindset and competencies.
+
+
+This section thus demonstrates that it is not only the technical skills that are relevant, but the non-core oil and gas technical skills are also relevant to the energy transition and are easier to transfer across industries.
+
+
+Proposed Curriculum Update
+
+
+Based on the findings above, we propose a curriculum update. Fundamental changes that would be made while updating the curriculum include: Use industry software to complement classroom teachingInfuse site tours and field trips as part of activities towards credit for a courseWhere skilled lecturers and professors are not available, they can be invited from other universities, including internationally. Students expressed their willingness to learn remotely.
+
+
+In Table 1, we show a sample curriculum and include (in red) possible additions or updates to the curriculum.
+
+
+Table 1Proposed Undergraduate Petroleum and Gas Engineering Curriculum Update  View Large
+
+
+Conclusion and Recommendations
+
+
+Fossil fuels, especially oil and gas, will continue to play a vital role in the energy mix. However, there is a transition to low-carbon energy resources and technologies. New skills related to low-carbon energy technologies will become increasingly important such as integrating renewables and energy storage for power generation, carbon capture utilization and storage (CCUS), critical metals and rare earth elements for batteries, and other related sustainable development concepts.
+
+
+From this study, we have seen that many of the petroleum engineering and geoscience skills are transferrable to areas such as geothermal energy, underground air and hydrogen storage, carbon dioxide storage, and sequestration. Some elements of these technical skills can be transferable to offshore wind, fuel cells, nuclear waste disposal, tidal energy, hydropower, and mining for critical metals and rare earth elements. Non-core petroleum engineering and geoscience skills can similarly be transferrable and cut across broader areas of the energy transition. Examples include project and risk management, data science and digital technology, energy economics, and supply and contracts management, just to mention a few.
+
+
+The survey response helped identify gaps and interests of students and young professionals for the petroleum engineering curriculum. Based on the survey response, we proposed some updates that could be made to a sample petroleum engineering curriculum.
+
+
+The insights shared in this paper can be utilized by various stakeholders in fossil-fuel-dependent developing and emerging economies as well as other economies as a headstart to upskill and reskill their populace for the transition to renewable energy and sustainable energy.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+HannahRitchie, MaxRoser and PabloRosado (2020) "Energy". Published online at OurWorldInData.org. Retrieved from: https://ourworldindata.org/energy/Google Scholar IEA (2020), World Energy Outlook 2020, IEA, Parishttps://www.iea.org/reports/world-energy-outlook-2020Petroleum Engineering. (2022, May13). Retrieved from http://engineering.uniport.edu.ng/departments/petroleum-engineering/Okoroafor, E.R., Smith, C.M., Ochie, K.I., Nwosu, C.J., Gudmundsdottir, H., & Aljubran, M. (2022). Machine learning in subsurface geothermal energy: Two decades in review. Geothermics, 102.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212040-MS
+
+
+

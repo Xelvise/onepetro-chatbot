@@ -1,0 +1,240 @@
+----- METADATA START -----
+Title: Decommissioning of Oil and Gas facilities in Nigeria: Challenges and Opportunities
+Authors: Abubakar Raji, Shadrach Ogiriki
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211920-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Decommissioning of oil and gas facilities in Nigeria is a relatively new activity. Decommissioning is essentially a set of activities undertaken to manage or dispose aged and worn-out Oil and Gas facilities. The idea of Decommissioning has become paramount in Nigeria due to aging of assets and mature fields operations as they are approaching the end of their economic life. However, presently no facility has ever been decommissioned in Nigeria. Decommissioning is an inherently hazardous exercise that requires meticulous planning, cognate experience, efficient management and other relevant defined skill set for it to be successful. This paper dwells on how to harness the opportunities that come with Decommissioning as well as suggest ways to mitigate some of its challenges.The challenges could be technical, economic, environmental, and legal, but could be further narrowed to include but not limited to poor information management, inadequate regulatory readiness, poor talent management, waste management disposal, lack of previous experience, poor supply chain management, and low portfolio management. While opportunities include securing direct and indirect employment and procurement to home nationals, which in turn could foster the development of local skills, technology transfer, and use of local manpower in capital projects.
+
+
+
+
+Keywords:
+offshore facility decommissioning,
+upstream oil & gas,
+well decommissioning,
+social responsibility,
+asset and portfolio management,
+subsea system,
+information management,
+strategic planning and management,
+sustainability,
+nigeria
+
+
+Subjects: 
+Offshore Facilities and Subsea Systems,
+Environment,
+Sustainability/Social Responsibility,
+Asset and Portfolio Management,
+Strategic Planning and Management,
+Professionalism, Training, and Education,
+Offshore facility decommissioning,
+Waste management,
+Well Decommissioning,
+Facilities Decommissioning and Site Remediation
+
+
+
+
+Introduction
+
+
+Since the discovery of Petroleum in 1956 in Nigeria, Nigeria has been a large producer of Petroleum. Production started onshore before gradually moving offshore. Most matured or aged assets would need to be decommissioned in the next few years. The market for decommissioning is an emerging market which keeps growing. In order for this task to be successful, technological and operational challenges need to be minimized and also take into account economic and environmental considerations (Prasthofer, 1998). According to a recent report released by Wood Mackenzie, between 2018 and 2022 nothing less than $32 billion would be spent on decommissioning around the world, with more to spend in the future. Also, according to United Kingdom Continental Shelf (UKCS) decommissioning market review by Wood Mackenzie in 2018, Nigeria has spent close to $1billion on decommissioning feasibility and environmental impact assessment study.
+
+
+Decommissioning is basically a set of activities to be undertaken to manage or dispose of aged Oil and Gas facilities, then eliminate environmental footprint once a producing field is nearing or reaches the end of its economic life. This includes well abandonment, total or partial removal of disused facilities or leaving the facility in place (Altit and Igiehon, 2007). Decommissioning of offshore installations includes several complex issues on the subject of environment, safety, health, technology, legal, stakeholder, and economics. It also involves carefully drafting and implementation of comprehensive and sustainable solutions that would deal with constant and obvious stakeholders’ concerns. Consequently, the execution and regulation of offshore decommissioning is multifaceted.
+
+
+The defining moment of decommissioning, at least in the North Sea, came as a consequence of the Brent Spar case in 1990s which uncovered an enormous public conflict involving environmental pressure groups like the Greenpeace, general public, shipping interests, the fishing industry, host governments, and last but not the least, Shell (the platform owner). The Greenpeace activists occupied the Brent Spar platform because they were against deep sea disposal of the platform after dismantling. They also wrongly claimed that heavy metals, other chemicals and over 5,500 tonnes of oil were on the Spar, though they later apologized. Shell forcefully evicted these activists after obtaining a legal permission. But the public perception about Shell and brand image was damaged leading to boycott of Shell products across Europe (though other oil production companies supported Shell's position). This event gave evidence that the removal and disposal of decommissioned offshore installations/pipelines should be regulated by international environmental values and standards, and that situation like this confirms that there is always the possibility for social boycott of activities and regulations that are not accepted by the public.
+
+
+The goal of this study was to gain a comprehensive understanding of the Decommissioning practices in Nigeria so far, identifying some of the challenges associated with platform decommissioning/abandonment operation and proffers solutions, and as well as highlight opportunities associated with decommissioning. Interviews with major industry actors, particularly field operators and regulators, were also undertaken. Hence, this paper aims to improve decommissioning debate in Nigeria and review advances in decommissioning of offshore oil and gas production activities in Nigeria.
+
+
+Overview of decommissioning
+
+
+Decommissioning refers to the dismantling, decontamination and removal of process equipment and facility structures. It may be described as the best way to shut down production operation at the end of a field's life. This involves a multidisciplinary process, which requires detailed method that encompass several areas such as environmental, financial, political, health and safety. Well abandonment is part of these activities. Decommissioning has been successfully done in the North Sea and Gulf of Mexico, so the activities involved are well known, from dismantling of structures, plugging of wells, to disposal of waste etc. But these activities are capital and energy intensive, and associated with waste generation as well as concerns for safety of personnel and efficient stakeholder management.
+
+
+Figure 1View largeDownload slideDecommissioning activities taking place.Figure 1View largeDownload slideDecommissioning activities taking place. Close modal
+
+
+The decommissioning of offshore structures is a severing intensive operation. Cutting is often required throughout the structure above and below the water line and mud line. For the cutting technique to be effective, it must be safe, reliable, repeatable, flexible and adaptable under filed conditions, environmentally sensitive and economical (Tularak, Khan and Thungsuntonkhun, 2007).
+
+
+In selecting a decommissioning method for production facility or platform, the following key considerations should be taken into account:
+
+
+The age of the production facility.The location of the production facility and depth of water (for offshore fields)The design and type of platformThe weight of the lifts and Soil strengthEnvironmental conditions such as weather.International and National Laws and Regulations
+
+
+Scale of the challenge
+
+
+According to the Energie Beheer Nederland (EBN) Master plan for decommissioning, the estimated cost of decommissioning platforms often surpasses by 10% while well plugging and abandonment cost surpasses by 50%. In 2014, the cost of decommissioning was estimated to €4.3billion. In the Gulf of Mexico, the Bullwinkle and Pompano platforms are expected to cost an estimated $265million and $203million respectively (Kaiser and Liu, 2014). This shows that decommissioning is very capital-intensive. Decommissioning and abandonment costs have to be considered at the conceptualization stage of field development.
+
+
+The timing of when to undergo decommissioning is a critical factor. Decommissioning starts from cessation of production. Cessation of production could be as a result of two factors – failure in wells that would necessitate a work or future expected cashflow from the field being negative (Kirby, 1999). Companies try to defer decommissioning as much as possible. For oil companies, decommissioning amounts to losing money. When operator cash flow is reduced, there is less money in the budget, so they try to put off decommissioning for as long as possible. They prefer to find reserves and spend on new construction (Ruivo and Morooka, 2001).
+
+
+Figure 2View largeDownload slideOffshore Decommissioning Process (Eke et al., 2021)Figure 2View largeDownload slideOffshore Decommissioning Process (Eke et al., 2021) Close modal
+
+
+Nigeria Oil and Gas Upstream Industry
+
+
+After the discovery of the first commercial oil reserve in Nigeria, further geological and geophysical investigations were conducted and led to discovery of more commercial oil reserves. These subsequent discoveries have impacted positively on the socio-economic development of Nigeria. Hence, the Oil and Gas industry has become the dominant sector influencing the nation's economy because it accounts for about 90 percent of her total revenue generation (Nwaobi, 2005) and over 70 percent of Nigeria's national export earnings (Atakpo and Ayolabi, 2009).
+
+
+Over the past three decades, Nigeria have sometimes attained peak in her exploration and production operations of Oil and Gas both in the upstream sector, producing at 2.4Mbpd at peak production. Nigeria has over 159 oil fields and 1481 wells in operation according to the Nigerian Upstream Petroleum Regulatory Commission.
+
+
+In 2000, there were approximately 7,000 offshore oil and gas platforms and production facilities in operation worldwide with over 500 located in Africa, and Nigeria accounts for most of them (Dempsey, Mathieson and Winters, 2000). These figures must have increased by now due to increased global oil and gas outputs to meet the ever-increasing energy demand.
+
+
+Figure 3View largeDownload slideSome Oilfields in Nigeria (Iheobi et al., 2020)Figure 3View largeDownload slideSome Oilfields in Nigeria (Iheobi et al., 2020) Close modal
+
+
+Major Oil companies in Nigeria are now more inclined to offshore production as a better alternative to onshore production. Offshore production mainly involves producing from water depths exceeding 400 meters or more. Offshore production facilities are less prone to attacks by local militants and vandalism thereby making it attractive to oil producing companies.
+
+
+Challenges of Decommissioning
+
+
+In Nigeria, decommissioning is a relatively new activity. There have been few decommissioning initiatives for our petroleum plants. As more fields fail to generate enough cash to paying operating costs, decommissioning will undoubtedly increase. This shows that increased efficiency and, more critically, industry reform are required. Decommissioning activities, like all other activities in the E&P lifecycle, must follow the defined framework and any regulatory and contractual provisions. Below are some challenges highlighted:
+
+
+An Unprecedented Event
+
+
+The fact that decommissioning has never happened in Nigeria is the biggest challenge so far, and when this is coupled with the high cost and complexity of decommissioning, the need for operators to start planning for it as early as possible becomes imperative as there are no universally applicable decommissioning options for new fields. It is advisable that decommissioning should be factored into the field development (what type of platform would least be hard to dismantle, waste management, efficient energy usage etc.). But for existing aging fields, there are presently no benchmarks for cost, schedule and scope for these types of projects. They can only be extrapolated from those of other regions e.g., the North Sea and Gulf of Mexico where decommissioning has successfully taken place. However, the extrapolated data could be defective and unreliable due to differences in climatic conditions, structural type, water depth, soil type and regulatory frameworks between Nigeria and the other regions.
+
+
+The most important step for a company before starting a decommissioning project is company culture. The company policy must ensure that everyone understands that decommissioning is a process and not just another construction project. Of course, there are small structures that are no more than a project but the large high profile structures will require the full process (Gfiffin and Company, 1998). Because decommissioning is a complex process that necessitates a wide range of knowledge, equipment, and services, which are frequently offered by numerous vendors, costs are likely to rise as the project progresses as seen from previous decommissioning activities worldwide. Decommissioning projects must be designed and managed with tight coordination of the various service providers for safe and cost-effective operations (Price, Ross and Vicknair, 2016).
+
+
+A good starting point for a team is to review industry lessons learned both internally and externally. As an example, review what happened with the Spar case. Are there any similarities? Begin to evaluate how to find the right balance between the environment, cost, technology, safety, regulations and the public interest. This is where a diversified team and a good internal/external network will be helpful.
+
+
+Regulatory readiness
+
+
+The scope of decommissioning planning covers technology, legislation, politics, safety and environment. This means an open discussion is needed between operators and regulators to develop solutions and standards to help in planning and reducing uncertainty (Hustoft and Gamblin, 1995).
+
+
+Regulatory framework is needed to achieve the following;
+
+
+Efficient and prudent use of funds.Incentives and penalties to improve performance.Clearly spelt out role of all stakeholders in the process.
+
+
+There are international, regional and national regulations with regards to decommissioning, examples are the International Maritime Organization (IMO) guidelines, and Oslo/Paris (OSPAR) conventions. Regions and countries also have their regulations for example the Netherlands have EBN guidelines which has a master plan for decommissioning while Malaysia has the Malaysia Master Abandonment Plan Strategy. In the United Kingdom, the Oil and Gas Authority has a decommissioning and repurposing taskforce which has an objective to support the industry to reduce cost and providing direction and oversight to the government. The Oil and Gas Authority has guidance note for decommissioning of the Oil and Gas installation with key details like waste treatment and disposal in environmentally friendly manner and Oil and Gas UK Guidelines for the Suspension and Abandonment of Wells.
+
+
+In Nigeria, the Nigerian Upstream Petroleum Regulatory Commissions (NUPRC) is the main upstream regulator after the assent to the Petroleum Industry Act (PIA) of 2021, but before then, there was Department of Petroleum Resources (DPR) as the upstream regulator. Most DPR regulations do not talk much about decommissioning; DPR has guides for "Construction and Maintenance of Surface Productions" and "Construction and Maintenance of Offshore Structures" but none of them talks about decommissioning except Environmental Guidelines and Standards for the Petroleum Industry in Nigeria (EGASPIN) which is in general terms, it does not talk in detail about decommissioning. The DPR guideline for marginal field only talks about funding of decommissioning activities. The PIA is the main law governing the oil and gas sector in Nigeria, it talks about contributory decommissioning cost but not about abandonment expenditure, and pegged the cost relative to a value, like by certain percent of profit or OPEX, and this could be unrealistic. Also, for fields that have changed hands, what percent would previous owners contribute was not clearly spelt. In December 2019, DPR inaugurated a committee with membership drawn from the private sector, academia and industry professionals to review and develop a framework for decommissioning requirements in Nigeria but up to this moment nothing has been heard from this committee. So NUPRC has a lot to do in terms of developing a framework and it's implementation.
+
+
+There should also be a regulatory framework on how assets are evaluated based on their production potential and net present values in the ever-changing market dynamics which should put the right focus to the right assets to be decommissioned. An asset should be submitted to periodic technical and commercial reviews to relevant stakeholders prior to decommissioning or ceasation of production (CoP), the asset's life could be prolonged, preserved, divested, or decommissioned after these reviews are completed (Mohd Nasahie Akbar Ali, Karim and Rusli, 2020).
+
+
+Cost
+
+
+Decommissioning is a capital intensive project as shown from previous experience with cost overrun frequently happening. According to the Brent Delta Topside Decommissioning Interim Close-Out Report, over 40% of the decommissioning costs on manned installations are associated with the Plugging & Abandonment (P&A) of platform wells, therefore there should new ways of working on driving down costs (Well P&A) and duration (post-CoP Opex). With no prior experience and data in Nigeria like earlier stated, only comparison and extrapolation from other regions from where it has successfully taken place can be used to determine cost of decommissioning, which would be an estimate (it could right or wrong). But also who bears this cost? The host Government or Operator or both, if both what is the sharing formula? When fields have changed hands, what percentage of the decommissionming cost would previous owners contribute? This is not clearly stated in the PIA or any working document. This has to be tackled by the upstream regulator.
+
+
+Talent management
+
+
+As previously stated, Decommissioning has never taken place in Nigeria. Decommissioning involves special skills set and dealings with heavy machinery. Activities such as jet cutting of tubing, casing downhole delivery of cement and handling of explosives are not developed overnight. Licenses are needed to handle explosives (Boschee, 2012). Slick line operators, structural engineers, and project engineers are part of the decommissioning process. These are also skill set that are not classroom based but, on the job based and this require time to be acquired. It takes time to develop the expertise. High level of experience is needed to perform these operations efficiently.
+
+
+Figure 4View largeDownload slideA Cruciform Strengthening Beam being Lifted into Place on decommissioning process (Shell U.K. Limited, 2015)Figure 4View largeDownload slideA Cruciform Strengthening Beam being Lifted into Place on decommissioning process (Shell U.K. Limited, 2015) Close modal
+
+
+Operators have two options when planning to undergo decommissioning – either it is done by the in-house team or outsource the project to another company. Experienced and International companies can have the company team execute the decommissioning activities while others (experienced or inexperienced depending on company policy) can outsource the project and maintaining oversight. With either option, there are shortages of personnel and companies in the decommissioning field in Nigeria. For example, in the United Kingdom, there are decommissioning companies like Aubin group, Rushmore well, and Decomm Engineering. Also in the United Kingdom, educational institutions are thinking towards decommissioning and having research centers on this, but this is not the case in Nigeria. When decommissioning starts in Nigeria in a few years time, it would not be wise to have shortfall in local manpower or experienced personnel. Also operators could be hesitant to commit experienced senior individuals to supervise the decommissioning process when it arises as their abilities could be better used in production-related activities because decommissioning is not a profit making activity.
+
+
+Information management
+
+
+In order to achieve effective well abandonment, well data and downhole conditions are needed. Problems like obstruction in well and/or sustained casing problem could derail the whole project. Without accurate data, well testing must be performed in order to ensure the process comply with safety and environmental regulations. Incomplete or inaccurate data is a major hindrance for proper decommissioning planning. Without good data management, the process becomes cost ineffective. Some companies also do not store their data efficiently, so these data may not be available because of poor record keeping.
+
+
+Also, ownership of some fields has changed overtime in Nigeria and these companies could have different ways of storing and managing information and document control. Historical data of wells could have gone missing or not compatible with the system as ways of storing data in the late 70s, e.g. in floppy disk or on drawings and converting these drawings into as-built drawing comes with its complication.
+
+
+While decommissioning in the South Timbalier area of the Gulf of Mexico, discrepancies were found while measuring pile depth due to rope stretch, resulting in inaccurate measurements before it was rectified (Price, Ross and Vicknair, 2016). This shows data management is very paramount.
+
+
+Waste Management
+
+
+Another huge challenge of decommissioning is in the area of waste generation and management. Wastes include steel, oil, chemicals, production wells, flushing, wellheads etc. One of the primary objectives of decommissioning is protecting the environment and not contributing to pollution of the environment (Shaw, 1994). Therefore, developing a waste management strategy is paramount. Some wastes are reusable while some are not. International regulatory obligations will result in most installations being returned to shore for reuse, recycling or disposal (Tularak, Khan and Thungsuntonkhun, 2007).
+
+
+Figure 5View largeDownload slideBrent Delta Topside Skidded onto Quay 6 ASP Facility Teesside, May 2017 (Shell U.K. Limited, 2015)Figure 5View largeDownload slideBrent Delta Topside Skidded onto Quay 6 ASP Facility Teesside, May 2017 (Shell U.K. Limited, 2015) Close modal
+
+
+Since no decommissioning has taken place in Nigeria, there are no dismantling or scrapping facilities in Nigeria. Though the Niger dock (Snake Island, Lagos) and Dorman have large construction yards in Lagos which could be used for the purpose of dismantling. Solid wastes such as steel would best go for recycling or channel to steel plants which sadly are presently not working optimally in Nigeria. Waste management strategy should be incorporated in the field development such that only reusable and recyclable materials are used for the construction. Build a waste management team to include company personnel, experts, external consultants to plan and oversee this operation and making it compliant with international regulations. Due to the enormous waste generation, keeping track of volume and records must be dealt with in detail. A little spill or accident would result in penalty from regulatory agencies and backlash from local community and stakeholders. The PIA and previous DPR guidelines do not state any specific method of removal or reuse of installations.
+
+
+Stakeholder Management
+
+
+The impact of an oil or gas operation on the communities where it operates lasts long after the assets have been decommissioned. Depending on the nature of the operations, particularly the vicinity of sensitive receptors, the level of influence and/or impact will vary (e.g. communities, commercial and recreational fisheries). Stakeholders are frequently unable to adjust to the changes brought about by decommissioning as a result unrealistic expectations and grievances from stakeholders emerge. This has been found to have an impact on an operator's social license to operate, which has recently been exacerbated by the transparency provided by platforms such as social media. The need to establish and maintain a social license during the decommissioning process is becoming apparent (and beyond). This will necessitate careful planning and wide consultation with all parties, including affected communities and regulators (Genter, 2020)
+
+
+Opportunities of Decommissioning
+
+
+Employment
+
+
+As previously discussed, there would be a lot of decommissioning activities happening in the near future also Monitoring and Maintenance post-decommissioning. When that time comes, it would not be wise to not have local expertise to undertake those projects because if there's no available and capable local manpower, expatriate would be brought to do the job and use locals for cheap and unskilled labour. Nigeria's Local content development agenda in the Oil and Gas sector has the core goal of securing direct and indirect opportunities for employment to citizens, and at the same time fostering the acquisition of local skills, technology transfer, and use of local manpower and manufacturing in capital projects. Decommissioning projects can help achieve this goal by providing employment opportunities for locals thereby boosting the local economy. These projects will ensure safety of the environment and human health if efficiently managed and properly handled in strict compliance to relevant regulations. Local companies that are able to demonstrate competent and relevant construction or deconstruction skills, as well as maintenance or fabrication experience, could be engaged to undertake the projects. This will further enhance their skills and acquire on-the-job experience in the area of Decommissioning of Oil and Gas facilities, thereby making them one of the few experienced Decommissioning companies globally.
+
+
+Technology transfer
+
+
+There are huge opportunities in key regions around the world where the skills and knowledge of people working in the decommissioning industry are going to be very advantageous. So, it is paramount for Government agencies (e.g., Petroleum Technology Development Fund and Nigerian Content Development and Monitoring Board) and companies to invest in decommissioning study. Investing in technology to know what suits our climate, locations, and regulations and to formulate cost-effective strategies. It is also an opportunity to develop an efficient industry that can be exported to other regions especially those similar to our terrain like the Gulf of Guinea. According to the UKCS Decommissioning Cost Estimate 2020 report in the United Kingdom, 2% cost reduction on a like-for-like basis was achieved in 2019, building on the 17% achieved in 2017/2018. This was driven by minor improvement in planning and execution practices, which helped reduce the estimated cost of platform and subsea infrastructure removals in the Northern North Sea (NNS) and Central North Sea (CNS) and reduce cost risk associated with estimating uncertainties. This type of research could be replicated here in Nigeria and if successfully implemented, can be exported to other regions. In Malaysia also PETRONAS has recognized that the upcoming abandonment works will necessitate more innovation and new technology in order to save costs. It is also optimizing costs through its research arms while also building human capabilities in decommissioning works through its Group Research and University collaboration.
+
+
+Waste disposal and management
+
+
+This could be an industry on its own. While not everything may be reusable, the assumption from the outset should be that each and every part will be a valuable building block in a future use, either on or off the site. Recycling and reusing of waste from decommissioning could provide raw materials for other projects and industries. Though there is lack of infrastructure for now, it could be work on in advance. Strategies to be used could include identifying opportunities for engaging relevant stakeholders and ensuring a good level of positive engagements. Also, the Regulators should initiate the Waste disposal and management process as early as possible and develop a sustainable implementation plan. Metals could be reuse or recycled by using them as Steel Rods, Tin Cans, Shipping Containers, and File Cabinets. These metals could be collected, processed, shredded and then melted in furnace at high temperature to produce blocks or sheets which could be sold to manufacturers of metal products. Also, these metals could be smelted to be used as fence or for decoration.
+
+
+Conclusions
+
+
+This work has highlighted different challenges that could confront decommissioning of aged Oil and Gas facilities in Nigeria and proffered some solutions. It is paramount to regard decommissioning as a process with its peculiar nature, as against a one-off project. Decommissioning of Oil production facilities anywhere in the world is challenging, but inevitable. With fast aging facilities in Nigeria's Oil and Gas sector, the need for relevant stakeholders to start planning and preparing for decommissioning on time is emphasized. Early planning and preparation would provide Nigeria the opportunity to tap from the experiences of places where decommissioning has been done and harness it to develop her own local manpower and capacity for decommissioning in Nigeria. Nigeria can then start exporting the skills, know-how, and experience acquired to other countries. Hence, decommissioning can result in win-win situation for all stakeholders and bring about economic benefit and employment generation. This study shows challenges on a substantial scale. Gaps in legislation and the supply chain, to mention a few, have an impact on the readiness to effectively undertake decommissioning. Noting that the inevitable will arrive sooner rather than later, regulators, operators, and service providers have to start working to close these gaps by enacting specialized decommissioning legislation, developing long-term integrated plans, and collaborating with the services sector to assure readiness.
+
+
+However, the success of decommissioning in Nigeria will largely depend on political will on the side of the government and decisive role played by Regulators and Government agencies such as the Nigerian Upstream Petroleum Regulatory Commission, the Petroleum Technology Development Fund and the Nigerian Content Development and Monitoring Board.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Ahmed, A. M. (2005) ‘Brent Spar: An Applied Exploration of Crisis Management A thesis submitted to the University of London’.Altit, F. K. and Igiehon, M. O. (2007) ‘Decommissioning of upstream oil and gas facilities’, 53rd Annual Rocky Mountain Mineral Law Institute, pp. 129–134.Google Scholar Atakpo, E. A. and Ayolabi, E. A. (2009) ‘Evaluation of aquifer vulnerability and the protective capacity in some oil producing communities of western Niger Delta’, Environment Systems and Decisions, 29(3), pp. 310–317. Available at: https://econpapers.repec.org/RePEc:spr:envsyd:v:29:y:2009:i:3:d:10.1007_s10669-008-9191-3.Google Scholar Boroujerdi, N. (2018) ‘UKCS Decommissioning market overview Have many fields have ceased globally and what is the outlook ?’, (December).Google Scholar Boschee, P. (2012) ‘Derrick barges lift Apache's EC 336 platform jacket.’, Decommissioning challenges in the Gulf of Mexico, (April).Google Scholar Caletka, A. and Carringer, C. (2018) Six key issues underpin successful decommissioning strategy. Available at: https://www.offshore-mag.com/field-development/article/16762218/six-key-issues-underpin-successful-decommissioning-strategy (Accessed: 15 September 2021).Dempsey, M. J., Mathieson, W. E. and Winters, T. A. (2000) ‘Learning from Offshore Decommissioning Practices in Europe and the USA’, SPE – Asia Pacific Oil and Gas Conference, (1), pp. 741–746. 10.2118/64444-ms.Google Scholar Department for Business Energy & Industrial Strategy (2018) ‘Guidance notes:Decommissioning of offshore oil and gas installations and pipelines’, Environmental Technology in the Oil Industry, (November), pp. 257–283.Dimka, J. (no date) Prospects of decommissioning oil & gas installations in Nigeria. Available at: http://www.financialnigeria.com/prospects-of-decommissioning-oil-gas-installations-in-nigeria-blog-322.html.NUPRC DIRECTOR INAUGURATES COMMITTEE FOR THE REVIEW AND DEVELOPMENT OF DECOMMISSIONING REQUIREMENTS IN NIGERIA (2019). Available at: https://www.NUPRC.gov.ng/NUPRC-director-inaugurates-committee-for-the-review-and-development-of-decommissioning-requirements-in-nigeria/.Drew, J. (2011) ‘Decommissioning strategy’, (May), p. 18.Google Scholar Day, M. D. and Gusmitta, A. (2016) ‘Decommissioning of offshore oil and gas installations’, Environmental Technology in the Oil Industry, (November), pp. 257–283. 10.1007/978-3-319-24334-4_8.Google Scholar DECC (2011) ‘Decommissioning of Offshore Oil and Gas Installations and Pipelines under the Petroleum Act 1998’, Offshore Decommissioning, 6(March), pp. 21–57.Decommissioning and Repurposing Taskforce (no date). Available at: https://www.ogauthority.co.uk/about-us/north-sea-transition-forum-task-forces/decommissioning-and-repurposing-taskforce/ (Accessed: 21 September 2021).EBN (2017) ‘Netherlands Masterplan for Decommissioning and Re-use’, 2017, p. 125.Eke, E.et al. . (2021) ‘Optimisation of offshore structures decommissioning – Cost considerations’, Society of Petroleum Engineers – SPE Nigeria Annual International Conference and Exhibition 2021, NAIC 2021. 10.2118/207206-MS.Google Scholar Genter, S. (2020) ‘Stakeholder engagement in the decommissioning process’, Society of Petroleum Engineers – SPE Symposium: Decommissioning and Abandonment2019, (December), pp. 3–4. 10.2118/199203-ms.Google Scholar Gfiffin, W. and Company, P. P. (1998) ‘SPE 48892 Managing the Platform Decommissioning’.Google Scholar Gorman, D. G. and Neilson, J. [eds. A. U. (United K. (1997) Decommissioning offshore structures. United Kingdom: Springer, London (United Kingdom).Google Scholar Huijskes, T. D.et al. . (2017) ‘Decommissioning optimization in a multi-operator landscape’, Society of Petroleum Engineers – SPE Offshore Europe Conference and Exhibition2017, (January), pp. 2017–2019. 10.2118/186147-ms.Google Scholar Hustoft, R. and Gamblin, R. (1995) ‘Preparing for decommissioning of the Heather field’, Offshore Europe Conference – Proceedings, pp. 135–147. 10.2523/30372-ms.Google Scholar Iheobi, C.et al. . (2020) ‘Marginal petroleum field profitability analysis’, Society of Petroleum Engineers – SPE Nigeria Annual International Conference and Exhibition 2020, NAIC 2020, pp. 1–28. 10.2118/203663-ms.Google Scholar Kaiser, M. J. and Liu, M. (2014) ‘Decommissioning cost estimation in the deepwater U.S. Gulf of Mexico – Fixed platforms and compliant towers’, Marine Structures, 37, pp. 1–32. 10.1016/J.MARSTRUC.2014.02.004.Google ScholarCrossrefSearch ADS  Kirby, S. (1999) ‘Donan field decommissioning project’, Proceedings of the Annual Offshore Technology Conference, 3, pp. 211–219. 10.4043/10832-ms.Google Scholar Meenan, P. A. (1998) ‘Technical Aspects of Decommissioning Offshore Structures’, Gorman, D. G. and Neilson, J.Decommissioning Offshore Structures. London: Springer London, pp. 23–56.Google ScholarCrossrefSearch ADS  Mohd Nasahie Akbar Ali, I., Karim, M. A. and Rusli, H. (2020) ‘Decommissioning: Turning challenges into opportunities, through the eyes of the regulators’, Society of Petroleum Engineers – SPE Symposium: Decommissioning and Abandonment2019. 10.2118/199179-ms.Google Scholar Nwaobi, G. (2005) ‘Oil Policy In Nigeria: A Critical Assessment(1958-1992)’, Public Economics.Google Scholar OGA (2020) ‘UKCS Decommissioning Cost Estimate 2020’, (August), pp. 1–32. Available at: https://www.ogauthority.co.uk/media/6638/ukcs-decommissioning-cost-estimate-2020.pdf.Oil & Gas Decommissioning: Challenges & Opportunities (2020). Available at: https://www.ogv.energy/news-item/oil-gas-decommissioning-challenges-opportunities (Accessed: 29 September 2021).Prasthofer, P. H. (1998) ‘Decommissioning Technology Challenges‘. 10.4043/8785-MS.Price, W. R., Ross, B. and Vicknair, B. (2016) ‘Integrated decommissioning – Increasing efficiency’, Proceedings of the Annual Offshore Technology Conference, 4(May), pp. 3027–3033. 10.4043/27152-ms.Google Scholar Procaccini, G.et al. . (2021) The Coming Decommissioning Wave in Southeast Asia: What to Expect and the Relevance of Experiences in the North Sea and U.S. Gulf of Mexico. Available at: https://www.akingump.com/en/experience/industries/energy/speaking-energy/the-coming-decommissioning-wave-in-southeast-asia-what-to-expect-and-the-relevance-of-experiences-in-the-north-sea-and-us-gulf-of-mexico.html (Accessed: 29 September 2021).Royal Academy of Engineering (2013) ‘Decommissioning in the North Sea Decommissioning in the North Sea: A report of a workshop held to discuss the decommissioning of oil and gas platforms in the North Sea’, p. 15.Ruivo, F. M. and Morooka, C. K. (2001) ‘Decommissioning Offshore Oil and Gas Fields’, Proceedings – SPE Annual Technical Conference and Exhibition, pp. 3781–3793. 10.2523/71748-ms.Google Scholar Shaw, K. (1994) ‘Decommissioning and abandonment: The safety and environmental issues’, Society of Petroleum Engineers – SPE Health, Safety and Environment in Oil and Gas Exploration and Production Conference 1994, HSE 1994, pp. 293–300. 10.2523/27235-ms.Google Scholar ShellU.K.Limited (2015) ‘Shell U. K. Limited Brent Delta Topside Decommissioning Programme Consultation Draft’, (February), pp. 1–57.Google Scholar Steyn, P. (2009) ‘Oil Exploration in Colonial Nigeria, c. 1903-58’, The Journal of Imperial and Commonwealth History, 37(2), pp. 249–274. 10.1080/03086530903010376.Google ScholarCrossrefSearch ADS  Tularak, A., Khan, W. A. and Thungsuntonkhun, W. (2007) ‘Decommissioning challenges in Thailand’, Society of Petroleum Engineers – Asia Pacific Health, Safety, Security and Environment Conference and Exhibition 2007 – ‘Responsible Performance: Are We Doing the Best We Can’, pp. 338–344. 10.2118/108867-ms.Google Scholar Vann, R. (2020) Offshore decommissioning – challanges and opportunities. Available at: https://www.offshore-mag.com/field-development/article/14168417/offshore-decommissioning-challenges-and-opportunities.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211920-MS
+
+
+

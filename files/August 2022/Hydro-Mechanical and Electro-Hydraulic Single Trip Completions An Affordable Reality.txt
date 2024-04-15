@@ -1,0 +1,286 @@
+----- METADATA START -----
+Title: Hydro-Mechanical and Electro-Hydraulic Single Trip Completions, An Affordable Reality
+Authors: Stanley Akanegbu, James Akinpelu, Okechukwu Ogueli, Andrew Edwards, Oluseyi Ologunkeji, Yahaya Ibrahim, Bruce Robertson, Joseph Ekpuk, Augustine Ekwedike
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212032-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Recent papers describe successful Single-Trip Completions (STC) operations carried out offshore Nigeria and other locations and has successfully shed light on implementation of this advanced technology, which represents a step change in operational efficiency. However, the cost of these STC equipment may be prohibitive for wells drilled in shelf or swamp environments. The delivery of STC relies on different communication methods to communicate with and function the down-hole tools that make up part of the STC assemblies such as the "hydraulically actuated sand screens", the "radio frequency identification (RFID) actuated sleeves", and "valves". These different communication methods permit the running of a closed-loop system to ensure well integrity through-out the deployment and commissioning of the completion system. This paper will discuss pre-job planning, field execution and lessons learned from technologies developed to fit this environment while simultaneously challenging conventional thinking around open hole and cased hole completions systems, while addressing the operator's key drive towards capital efficiency through reduction of rig-days by as much as 50%. While several of the components incorporated in the STC system had been run previously in isolation, this paper will discuss the steps taken to facilitate the first full system approach to the application of sand screens fitted with hydro-mechanical inflow control device sleeves designed to actuate on pressure bleed-off, RFID enabled tools in the first hybrid single trip interventionless sand control completion system, and the time savings realized while ensuring well integrity through-out the deployment. Several components within the completion system have been equipped with novel enabling technology, RFID operated reservoir isolation valve at toe of the completion, wire wrapped sand screens fitted with hydro-mechanical sleeves designed to actuate on pressure bleed down complete with inflow control devices, and fuse actuated remote operated circulating sleeves for annular fluid displacement, which will all be discussed within.
+
+
+
+
+Keywords:
+screen selection,
+completion,
+electro-hydraulic single trip completion,
+flow control equipment,
+completion monitoring systems/intelligent wells,
+completion equipment,
+sand/solids control,
+hmicd,
+upstream oil & gas,
+sand control
+
+
+Subjects: 
+Sand/solids control,
+Screen selection,
+Completion Selection and Design,
+Completion Monitoring Systems/Intelligent Wells,
+Sand Control,
+Completion equipment,
+Flow control equipment,
+Completion Operations
+
+
+
+
+Introduction
+
+
+Convention dictates that well completions are run in two and sometimes three trips, which routinely takes upwards of five (5) to ten (10) days to deploy depending on each completion design and operator’s work program. In deep offshore environments, time savings are critical to the commercial viability of projects, and same can be said for projects being delivered onshore and shallow offshore environments, though while some onshore wells tend to be less prolific, the return-on-investment needs for the operators are similarly critical, and led to the development of the design principles below by the companies of the authors working collaboratelive with each other with due consideration given to key risks, uncertainties and opportunities such as getting the completion to bottom, landing off the tubing hanger, losses during operations, fluid compatability, premature actuation of tools and tool failure: Combination of multiple (upper and lower completions) operations into a Single Trip Stand Alone Screen system completion deployment.Closed system to retain functionality i.e. permit wash-down to shoe, maintain displacement efficiency, permit breaker placement and minimize single point failures / ensure contingency.Inflow control and water or gas shut-off capability.Reduce rig time and associated cost resulting from the Single Trip Stand Alone Screen System.Reduced risk through task elimination.Ensure two barriers philiosphy is always complied with during completion deployment.Reduce well control riskHigh Rate of Return
+
+
+Theory and definitions
+
+
+Upon confirmation of the design principles and consideration of well objectives, a review of historical single-trip completion systems was performed to provide a baseline for improvement. The driver for these historical systems varied from operational efficiency (removal of space-out trip) to enhanced data collection (Sandface DTS).
+
+
+The primary limitation of past single trip system installations was the "open" nature of these installations, which limited washdown and breaker placement capabilities, removed the ability to test the barrier prior to setting the production packer, limited well-control functionalities and the ability to displace the casing.
+
+
+It was determined early that, to ensure functionality of a two- or often three-trip completion, while delivering real efficiencies that directly impacts project costs directly, a "closed" system was imperative. The closed system permits washdown, effective displacement and breaker fluid placement to optimize productivity. However, it carries risks such as several potential single-point failure points, requirement for high pump rate and pressure tolerant tools, aswell as high loss rates to the formation. To mitigate these risks, a high-integrity solution with robust risk assessment, mitigation and contingencies became essential.
+
+
+An assessment of suitable available technology within our portfolio and the wider industry was performed to assess the level of maturity of the main mechanisms for functioning of the individual components. Upon selection of the equipment, a comprehensive evaluation and qualitative risk assessment on each component / system proposed allowed progressing those technologies that best matched the design brief.
+
+
+This paper looks in more detail at the RFID and Hydro-Mechanical (HM) enabled tools, which greatly facilitates the cost-effective completion technology that the Single Trip Completion concept aism to satisfy.
+
+
+Technology Selection
+
+
+In order to realize significant time savings, while it is key that all components within the completion perform to specification, the use of advanced technology to deploy and communicate with the downhole tools was necessary to reduce the number of trips into the well and also remove any interventions necessary to commission the completion system. Various technologies have been used to meet these goals in the most hostile of environments but have led to reduced reliability and decreased industry confidence in advanced technology. The proposed technology needed to be sufficiently robust and reliable to reverse this trend and meet the economic requirements of a lower cost environment. A review of available technology was performed with only those which matched the well objectives and design principles brought forward to the basis of design.
+
+
+Basing the review on previous successful design, test and operations carried out in a deep-water environment (Ref OTC-29428), an extension of this basis of work was carried out which focuses on the cost of the tools and suitability for onshore environments covering land, shelf, and swamp locations.
+
+
+As a first step towards the qualification of Ssingle Trip completion technologies in the Nigerian oil and gas industry, the Nigerian Regulatory Agency work process requires that a detailed virtual technical presentation be made after the submission of the following information and documentation: Technical/functional description of the technologyOperatioal limits of the technologySafet/Risk Assessment ReportFailure mode, Effects and Crticalitt Analysis (FMECA)Reliabilty, Availabilty, and Maintainabilty (RAM) targets)Type Approval Certificates and Type Approval ExaminationsTechnology Readiness Level (TRL)
+
+
+Upon the successful completion of the conceptual design work, the next stage of the assurance process was the completion of Failure Modes, Effects and Criticalities Analysis (FMECA) assessment for the propoed design. The assessment involved the use of system engineering to define the proposed design into lists of components and process steps. Each component and process steps are further examined to identify failure modes, failure mechanisms, effects and consequences. This resulted in the generation of a risk register complete with mitigation steps for the proposed design.
+
+
+Figure 1View largeDownload slideTechnical Readiness Level AssessmentFigure 1View largeDownload slideTechnical Readiness Level Assessment Close modal
+
+
+A concept level basis of design was created, in which component characteristics were described in a sequential manner with each operational aspect. As part of this, a concept wellbore schematic and installation program were created to form the input for a detailed concept risk assessment and failure mode, effects and criticality analysis. (FMECA) The approach presented in Fig. x and y were adopted to leverage various risk management processes available throughout a component’s lifecycle to ensure well objectives would be delivered at the lowest possible risk. By feeding back controls to the high-impact risks identified in the Installation Hazard & Risk Analysis, overall risk levels are minimized. Failure rate statistics were calculated based on Hydro-Mechanical and RFID completion tool population in recent years, when in the latter stages of technology maturation.
+
+
+Figure 2View largeDownload slideRisk management methodologyFigure 2View largeDownload slideRisk management methodology Close modal
+
+
+For both drilling and completion tools, the success rate was calculated at 95.74%. As we can calculate the failure frequency for each actuation method and we know the quantity of tools and actuations involved in a typical well, we were able to calculate a weighted-average probability of success and also the quantum of the consequential impact in terms of time, which was added to well Authorization for Expenditure (AFE) estimates. Based on this detailed review, the conclusion was that, when accounting for secondary communication methods and inherent mechanical contingency options, there is no significant additional risk due to Hydro-Mechanical and RFID tool introduction however significant upside can be realized through avoidance of the mechanical contingency when compared against conventional multi-trip completions. Upon completion of the component level risk management process, a task-based risk assessment reviewed sixty-four separate activities associated with the installation of the completion to identify risks, existing control, further mitigations, and ultimate risk of the activity.
+
+
+Figure 3View largeDownload slideFMECA Flow2Figure 3View largeDownload slideFMECA Flow2 Close modal
+
+
+Aligning technology to the well objectives
+
+
+With the most suitable actuation method determined to address conventional completion flat spots in the timeline curve, a holistic completion system, complete with installation procedure was created and reviewed versus well objectives and design principles. This approach used a simple traffic light system to permit gap identification in the concept and align our rationale for design. As evidenced, the only gap in the technology was the requirement to upscale a 4-1/2" HMICD to meet the 5-1/2" requirements. The engineering design team treated this as a new development completing a DDR held with the client and following extensive testing on the tool. The opportunity was also taken to improve tolerances and minmise friction within the tool.
+
+
+Figure 4View largeDownload slideSingle Trip base case designFigure 4View largeDownload slideSingle Trip base case design Close modal
+
+
+Single Trip completions enablers
+
+
+Concentric Float Shoe
+
+
+The concentric float shoe at the bottom of the string is designed with an auto fill device and valve. This is pre-installed with a floating concentric phenolic ball which enables flow path and automatic filling of the casing string while running in hole. The auto fill feature is deactivated as required with an applied tubing pressure locking the ball on seat. The valve feature in the float shoe prevents back flow and pressure from annulus to the tubing string during washdown operations.
+
+
+Figure 5View largeDownload slideFloat ShoeFigure 5View largeDownload slideFloat Shoe Close modal
+
+
+RFID Reservoir Isolation Valve (RIV)
+
+
+The RFID Reservoir Isolation Valve is an interventionless barrier device that isolates the toe of the completion, which eliminates the need fro a deep-set plug and reduces completion time and risk. The robustly constructed RIV is desgned with debris, mud solids, and cement in mind; the internal operating mechanism is contained with the flow path. The RIV is run in the open position and is closed by circulating RFID tags via a preprogrammed timer. The RIV can be reopned by a frequency modulated pressure signature.
+
+
+Figure 6View largeDownload slideRFID RIVFigure 6View largeDownload slideRFID RIV Close modal
+
+
+Screen Assembly with Hydro Mechanical Inflow Control Device (HMICD)
+
+
+The Hydro-Mechanical sleeve is a new type of Inflow Control Device (ICD) with an appropriately sized wire-wrap screen to provide intervention-less well management device with no additional pressure drop calculated through an advanced choke formula. The screened sleeves can be run-in-hole in the closed position eliminating the need for wash-pipe, intervention, wires, or control line.
+
+
+Operational sequence:Tubing Pressure appliedShifting Sleeve Shears shear screws in up-hole directionAs tubing pressure is bled the shifting sleeve moves in the downhole direction due to an imbalance versus an atmospheric chamber.Once fully stoked, the production ports on the body will be aligned with the shifting sleeve ports
+
+
+This Hydro-mechanical system is designed to provide well control and management without the need for intervention. When required, the sleeve can be hydraulically activated on pressure bleed-off once a pre-determined differrential pressure is reached. The ability to function this tool on the application of pressure. Extensive qualification test program has been carried ahead of field deployment as outlined in fig 7.
+
+
+Figure 7View largeDownload slideHydro-mechanical screensFigure 7View largeDownload slideHydro-mechanical screens Close modal
+
+
+RFID Remotely Operated Sliding Sleeve
+
+
+The primary function of the RFID remotely controlled sliding sleeve is to facilitate casing displacement to completion brine once the isolation packer has been hydraulically set. The ability to open the device with pressure pulses and to close utilizing RFID tags avoids time associated with intervention using a slickline unit.
+
+
+Figure 8View largeDownload slideRFID sliding sleeveFigure 8View largeDownload slideRFID sliding sleeve Close modal
+
+
+Production Packer
+
+
+The production packer provides a reliable seal between the outside of the production tubing and the inside of the casing in demanding wellbore conditions. It exceeds ISO 14310 Level V0 standards for load and pressure.
+
+
+Figure 9View largeDownload slideProduction PackerFigure 9View largeDownload slideProduction Packer Close modal
+
+
+The slip-element-slip configuration enables the packer to withstand pressures up to 10,000psi and temperatures up to 350 degF.
+
+
+The Cut-to-release technology enables easy removal even after the packer has been placed under extreme loads
+
+
+Tubing Seal Receptacle – Automatic Release (TSR – WAR)
+
+
+The tubing seal receptacle is included in the completions design with its versatility of applications where string contraction, expansion and tubing disconnect point for workover is a requirement. It is a one-trip system that supplies up to 30feet of stroke to compensate for the movement of the string and landing of tubing hanger
+
+
+For workover operations, this external assembly can be completely removed enabling string separation and workover above the packer. The seal stacks can be redressed and run back in hole after the workover operation is completed.
+
+
+Figure 10View largeDownload slideTubing Seal Receptacle (TSR)Figure 10View largeDownload slideTubing Seal Receptacle (TSR) Close modal
+
+
+RFID Technology
+
+
+The RFID system uses active antennas in the downhole tools and passive antennas within the tags. RFID tags contain two mainparts. One is an integrated circuit, which stores the command data and also controls the transmission of this data. Thesecond is an antenna for receiving power and physically transmitting the data. When the tag approaches the antenna, theradio frequency (RF) field generated by the active antenna in the downhole tool powers up the tag. This causes it to transmitits command data to the tool via radio frequency. The data is then captured by the antenna and processed by the tool electronics inthe downhole tool. The data can contain the command to function, with or without delay, or change mode of the tool.
+
+
+Both the antenna and tag can be sized and shaped in different ways. Due to the small size of the tag, it allows great freedomof movement and there is no need for direct contact between the tag and downhole tool. This results in a high level of convenience andflexibility. As RFID is a close proximity means of transferring data, no direct line of sight is required. The term close proximity is a relative term, in as much as tags arebeing read from 50 m in the automotive toll industry, where antenna are able to utilize vast amounts of power: in contrast, this would be reduced to 6 to12 inches in the oil industry, demanding far less powerdownhole.
+
+
+When a closed system is present, no flow path is available, and it would not be possible to easily conveyRFID tags to thetool. In this case, communication with the tools can be established by way of frequency modulated pressure cycles. The pressure cycle is based solely on achieving the correct rate of change during the righttime period which avoids the need to achieve specific pressures within a well and decouples the activation method from anyother hydraulic tools in the well.
+
+
+The frequency modulated pressure signature is a timed series of alternating pressure changes, starting with an initial low-to-high transition, followed at a specified time (T) later with a high-to-low transition, and so on, as shown in Fig.11 below.
+
+
+Figure 11View largeDownload slideRFID communication processFigure 11View largeDownload slideRFID communication process Close modal
+
+
+Figure 12View largeDownload slidePressure pulse communication.Figure 12View largeDownload slidePressure pulse communication. Close modal
+
+
+For a successful frequency modulated pressure signature: There must be 3 cycles in total.When the final (4th) low-to-high transition is made, a timer starts and at its conclusion the tool performs its functionTypically, 6 full cycles are applied to increase the operational redundancy.
+
+
+Valid values of T are 3, 5 and 7 minutes. Which T value a specific tool will respond to is determined by the pre-programmed command structure. For example, it is possible to activate different tools by setting them up to respond to different values of T – a circulating sleeve that is set to look for a pulse length of 3 minutes will not respond to 5-minute or 7-minute pulses; therefore, it is possible to activate a different valve, for instance a ball valve, by setting it to look for a 5- or 7-minute pulse length. In the event an error is made during frequency modulated pressure signature operation, the system can be reset by simply holding a stable pressure for a minimum of 10 minutes. When 10 minutes has elapsed, the algorithm will be reset and will be ready to receive a clean frequency modulated pressure signature. To streamline operations, it is recommended to perform the reset pulse at the starting pressure for the next set of sequences.
+
+
+To improve system flexibility, different tools can be set up to be triggered by different timing profiles within the well. In addition, there is logic developed to allow communication of downhole tools via pressure-cycle methods in an open environment to reduce time / fluid volumes. Tools can be programed with independent timers to perform an actuation after a given time period. These timers can be set up to run in parallel to the other actuation methods and act as contingencies in the event that it is not possible to deploy the primary actuation method. They can alsobe setup to run concurrently after each other or following any other actuation method. Timers can beprogrammed directly into the tool prior to installation, or they can be controlled via deployed RFID tags. area were made to the sleeve in order to create a differential pressure to open or close the sleeve with the supplied hydraulic pressure from the control module.
+
+
+Data and Results
+
+
+Well # 1
+
+
+The first well to utilize the HMICD screens was successfully completed in March of 2018. Following a reservoir related water break-through event, the well was intervened in order to log and mechanically close the associated water-bearing compartments. Following production loggin results, it was determined the equipment performed as anticipated. Deployed the following lower completionequipment: PBR Extension, Liner TopPacker, 7" × 5" Liner Hanger, HMICDs with Wire Wrap Screen, KLC Ball Seat and Float Shoe.The lower completion was successfully landed and set at TD. The HMICDs were activated with 4,400 psi applied to the tubingand then functioned by bleeding the pressure off to zero.Injectivity test post upper completion confirmed activation ofHMICDs.later production log confirmed all HMICDs had functioned andindicated water breakthrough in some compartments. An intervention run was then undertaken successfully shifting theidentified HMICD sleeves closed. Shifting forces were in therange of 4,000 to 9,500 lbs.
+
+
+Value
+
+
+Using HMICD the lower completion wassuccessfully installed and commissioned without the need forany additional runs or washpipe and eliminating the additionalrisks, time and money associated.Successful mechanical intervention confirmed the mechanicalcapabilities to allow the closure of sleeves in the event of water breakthrough.
+
+
+Installation History 4-1/2" HMICD
+
+
+56 screens installed6 wells
+
+
+An SIT utilizing a test rig had been planned but due to circumstances surrounding the test rig a flow loop test was instead designed. The main objective of the test was to confirm the primary activaqtion method of the HMICD & RIV under simulated well operating conditions via applied pressures as simulated in the well with the following acceptance criteria: RIV functions closed on delayed timer per operating lofic and appliedpressure tests above and below are successfulAll HMICD’s are not pre-set by the applied pressues until required to function.After cycle pressure testing the HMICD’s above hydrostatic, and then pressure up to open each of the sleeves, within the operating pressures of the tools, each sleeve is fully opened as expected.
+
+
+The flow loop was setup per Fig. X.
+
+
+Figure 13View largeDownload slideSIT flow diagramFigure 13View largeDownload slideSIT flow diagram Close modal
+
+
+The SIT was conducted with representatives from all parties present both in person and virtually. All objectives for the SIT were achieved within the acceptance criteria outlined. The operational logic was demonstrated for both the RIV and the HMICD and both are considered qualified for this application.
+
+
+Conclusions
+
+
+–The successful System Integration Test conducted on the Hydro-mechanical and RFID system as a form of equipment trial enhanced the level of comfort for both the operator and the field operations personnel on the expected functionality of the system at downhole condition.–The HMICD screens offer port geometry sized to be bigger than the minimum restriction in the conventional screen which in turn provide a higher flow area and also offer benefit of mechanical inflow control feature.–With the flunctuations in oil prices and inflation in most parts of the world; ability to save a trip in completions operations with the use of RFID and HMICD had proven to improve OPEX costs for operators while also improving HSE performances while also minimizing field personnel exposure to lengthy completion operations.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Glossary
+
+
+GlossaryAbbreviationExpansion AFEAuthorization for Expenditure CWOPComplete Well on Paper FMECAFailure Mode, Effects and Criticality Analysis HMICDHydro-Mechanical Inflow Control Device NPTNon-Productive Time RFIDRadio Frequency Identification SITSystems Integrity Test STCSingle Trip Completion HSEHealth Safety Environment
+
+
+Acknowledgements
+
+
+The authors of this paper wish to thank everyone from the various service and support companies involved in each stage from conceptual planning, engineering, and manufacturing of the equipment, to planning and execution of the operations.
+
+
+Appendix 1: Anticipated value of Single Trip Completions
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Appendix 2: Single Trip Completion Schematic
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+References
+
+
+O.Ojeh-Ozziegbe, I.Olatunji, O.Alawode, J.Walker, E.Murdoch, D.Patel, Y.Aye; OTC-29428-MS; Successful Instalation of the First Deep Water Single Trip Stand-Alone Screens in the Industry Saves Rig Time on Bonga Projectpresented atOffshore Technology Conference in Houston, 4-7 May 2019.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212032-MS
+
+
+

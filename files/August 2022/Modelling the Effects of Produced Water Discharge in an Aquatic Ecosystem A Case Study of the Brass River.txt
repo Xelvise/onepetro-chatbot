@@ -1,0 +1,365 @@
+----- METADATA START -----
+Title: Modelling the Effects of Produced Water Discharge in an Aquatic Ecosystem: A Case Study of the Brass River
+Authors: Daniel Nduweze Maduagwu, Isioma Frank Agbadiba
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211974-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Produced Water (PW) constitutes a major waste from the production and processing of crude oil, consequently posing a major concern for the environment. Location of the production facility poses a greater risk to environment as this affects how the PW will be handled. Whilst many companies have come up with technologies and processes for the treatment and re-use of PW, treatment and disposal is still a common practice, particularly in the offshore environment.This study demonstrates that the Streeter-Phelps model (S-P model) can be used to evaluate the effect of produced water discharged on water bodies. This was done by comparing the result of an Environmental Evaluation Studies (EES) performed on the Brass River with the S-P model result. Similar trends/results were obtained, implying that the S-P model can be applied for quick determination of the effect on a river. This is important and useful for quick determination of the effect of the PW discharge in real-time and economically.
+
+
+
+
+Keywords:
+produced water discharge,
+nigeria,
+total dissolved solid,
+brass river,
+dissolved oxygen,
+standard,
+effect,
+water management,
+temperature,
+terminal
+
+
+Subjects: 
+Environment,
+Water use, produced water discharge and disposal
+
+
+
+
+Introduction
+
+
+Brass Terminal is located in Twon Brass Community in Brass Local Government Area of Bayelsa State in Nigeria, whose main occupation of the people is fishing and palm oil production. The Terminal is also separated from Brass Town by the man-made Brass Canal, which is parallel to the beach and about 1.57km long and 65m wide, stretching in the East-West direction. The canal is tidal, being influenced directly by the tidal regime of Brass River. Brass Terminal was commissioned in 1973. It comprises of a tank farm of 3,558,000 barrels storage capacity, 2 single mooring-buoys for loading tankers as production assets, crude oil skimming unit, office and residential accommodation. The facility receives crude oil produced by a majoy International Oil Company (IOC) from Delta, Bayelsa, Rivers and Imo states and serves as the processing point for the crude oil prior to shipment.
+
+
+The facility has been in operation for about 43years. During this period, effluent/process water is discharged into an effluent canal within the vicinity. This has brought about several disputes between the host commutity and the terminal operators. Whilst this practice has stopped thanks to the commissioning of a water injection project that ensures all produced water are injected into the reservoir, the host community claimed to have been experiencing a decline in fishes and farm produce and have attributed this decline to the effect of of the produced water been discharged into the canal connected to the Brass River. On the otherhand, the company involved have demonstrated that the produced water was always preoperly treated and met discharge limits and have done proper monitoring and assessment of the area as per legislative requirements. The application of Streeter-Phelps mathematical model and the application of mass balance approach to can be used as an independent and reliable method to determine, if there exists, the effects of the inorganic pollutants in Brass River due to discharge of produced water from the oil terminal, through the Brass canal and eventual entry into the Brass River.
+
+
+Figure A-1View largeDownload slideA Google Satellite image of the Brass Oil Terminal, Brass Canal and RiverFigure A-1View largeDownload slideA Google Satellite image of the Brass Oil Terminal, Brass Canal and River Close modal
+
+
+Statement of Theory and Definitions
+
+
+Produced Water Management Philosophy
+
+
+Produced water is a combination of the formation water and chemicals used to enhance production and it's the highest form of waste generated in oil and gas production activities, it can be up to 80% during production of natural gas from gas reservoirs (Neff and others, 2011). The global daily production of produced water is about 250million barrels from oil and gas activities and about 40% of this wastewater is discharged into the environment (Igunnu and Chen, 2012).
+
+
+In Nigeria the average oil to formation water ratio over time is 1:1 and about 1billion barrels of produced water are disposed annually from oil and gas production activities into the environment (Chikwe and Okwa, 2016). Since the discovery of oil in Nigeria and the subsequent production of same, Nigeria has become essentially dependent on petroleum, needing more than 70% of revenue from oil sales to fund her annual budget, making Nigeria a mono economy (Itumo, 2016).
+
+
+Components of produced water typically includes:
+
+
+Residual hydrocarbonsHeavy metalsDissolved solidsSuspended solidsChemicals used during the oil and gas productionOrganic and inorganic speciesNaturally occurring radioactive materials
+
+
+Among these components, in offshore and onshore oil and gas operations, oil & grease and salt content (in form of conductivity, Total Dissolved Solids (TDS) and salinity) of oilfield produced water are of great concern and require more attention, as the salinity of most oilfield produced water is usually higher than that of seawater (EPA 2004; Joel et al, 2010).
+
+
+Managing produced water in the Oil & Gas industry involves the application of three main methods of pollution prevention standard practices;
+
+
+Employing technologies to minimize the production of produced waterReuse and recyclingIf neither of the above is achievable, then Disposal can be considered.
+
+
+For produced water to be disposed, it must have undergone different levels of treatment comprising of Primary, Secondary and Tertiary; with each level having unique processes involved. The below figure will summarize these 3 levels of treatment of produced water prior disposal:
+
+
+Figure A-2View largeDownload slideStages for Produced Water Treatment before disposal onshore/offshoreFigure A-2View largeDownload slideStages for Produced Water Treatment before disposal onshore/offshore Close modal
+
+
+Produced Water Management at Brass Oil Terminal
+
+
+Brass Oil Terminal receives crude oil with a water-cut of about 40%. The Crude Oil is channeled to a dedicated Gun Barrel where oil is separated from produced water by gravity. The produced water is then sent for further treatment before it is discharged through the Brass canal into the Brass River. The waste water is treated to meet legislative & environmental limits before it is discharged into the river, the sludge is evacuated by third party contractor for off-site treatment and disposal.
+
+
+The treatment process follows a system that aligns with the earlier mentioned 3 levels and is described in the diagram below:
+
+
+Figure A-3View largeDownload slidePlant Description Process of Produced water at Brass Oil TerminalFigure A-3View largeDownload slidePlant Description Process of Produced water at Brass Oil Terminal Close modal
+
+
+Legal and Administrative Framework
+
+
+Nigeria recognizes both national and international legal and administrative frameworks that guide the environment. These legal frameworks are meant to be minimum requirements for operation in the Nigerian environment. The following are some of these legal and administrative frameworks:
+
+
+The regulations and policies for Environmental protection in Nigeria include:The Environmental Impact Assessment (EIA) Act No.86 of 1992Environmental Guidelines and Standards for the Petroleum industry in Nigeria, 2018Mineral Oils Safety Regulations, 1997FEPA EIA Procedural Guidelines, 1995S.I.9–National Environmental Protection (Pollution Abatement in Industries and Facilities Generation Wastes)S.I.15–National Environmental Protection (Management of Solid and Hazardous Wastes) Regulations of 1991The Petroleum Act No.51 of 1969The Petroleum Drilling and Production Regulations–1969The Oil Pipeline Act and Oil and Gas Pipeline Regulation of 1995Land Use Act of 1978Factory Act, 1992Revised National Health Policy, 2004National Health Act, 2005National Guidelines and Standards for Environmental Protection, 1991Federal Environmental Protection Agency, Act No. 58, 1988National Policy on the environment, 1989National Guidelines and Standards for Environmental Pollution Control in Nigeria, 1990
+
+
+Particular attention is to be paid on the Environmental Guidelines and Standards for the Petroleum industry in Nigeria (EGASPIN, 2018) saddled with the responsibility to regulate oil and gas activities in Nigeria. The regulation on the discharge of produced water as proscribed by the EGASPIN is as follows:
+
+
+PART III (E) SECTION 3.6.2
+
+
+Disposal of Produced Formation Water
+
+
+Inland/Near-shore AreaProduced formation/oily waters shall not be discharged into inland and near-shore areas. The disposal options are injection into disposal wells or re-injection to reservoir (sub-surface stratum or strata) approved for the purpose.Offshore/Deep-watersProduced formation/oily waters may be discharged into offshore and deepwater areas provided the following conditions are satisfied;An Oily water treatment system, designed to maintain the treatment efficiency during load variations and to operate with minimum chemical addition, shall be installed;The oil shall be separated from the produced/oily water;As a minimum, the concentration of the dispersed oil in the water to be discharged, shall not exceed 40mg/l (monthly average, otherwise the produced formation/oily waters shall be re- injected).
+
+
+Table A-1Disposal of oily waste water shall be permitted in Inland/Near-shore areas POLLUTANTS OR EFFLUENT CHARACTERISTICS
+            . COMPLIANCE LIMITS: MAXIMUM FOR ANY CONSERVATIVE 30 DAY PERIOD
+            . INLAND
+            . NEAR SHORE
+            . pH 6.5 - 8.5 6.5 - 8.5 Temperature, °C 25 30 Total Hydrocarbon Content, mg/l 10 20 Salinity as Cl; mg/l 600 2,000 Turbidity, NTU Less than 15 of Receiving Medium Total Dissolved Solids (TDS), mg/l 2,000 5,000 Total Suspended Solids (TSS), mg/l Less than 50 of Receiving Medium COD, mg/l 10 125 BOD5, mg/l 10 125 Pb+5, mg/l 0.05 No Limit Total Iron (Fe), mg/l 1.0 No Limit Cu+2, mg/l 1.5 - do - Cr+6 (total) mg/l 0.03 0.5 Zn+2,mg/l 1.0 5 POLLUTANTS OR EFFLUENT CHARACTERISTICS
+            . COMPLIANCE LIMITS: MAXIMUM FOR ANY CONSERVATIVE 30 DAY PERIOD
+            . INLAND
+            . NEAR SHORE
+            . pH 6.5 - 8.5 6.5 - 8.5 Temperature, °C 25 30 Total Hydrocarbon Content, mg/l 10 20 Salinity as Cl; mg/l 600 2,000 Turbidity, NTU Less than 15 of Receiving Medium Total Dissolved Solids (TDS), mg/l 2,000 5,000 Total Suspended Solids (TSS), mg/l Less than 50 of Receiving Medium COD, mg/l 10 125 BOD5, mg/l 10 125 Pb+5, mg/l 0.05 No Limit Total Iron (Fe), mg/l 1.0 No Limit Cu+2, mg/l 1.5 - do - Cr+6 (total) mg/l 0.03 0.5 Zn+2,mg/l 1.0 5 View Large
+
+
+Modeling the Possible Effects of Produced Water on Brass River
+
+
+Streeter-Phelps model follows the principle of SELF PURIFICATION of a streamWhen waste water is discharged into river or stream, the BOD of mix increases initially and DO level starts fallingAs the river travels further, BOD gradually reduces and DO increases and reaches its saturation level, thus the river gets purified on its own. This phenomenon is known as Self-Purification of stream.
+
+
+Figure A-4View largeDownload slideDemonstration of Self Purification Process in a Polluted WaterFigure A-4View largeDownload slideDemonstration of Self Purification Process in a Polluted Water Close modal
+
+
+When pollutional load is discharged into the stream, the Dissolved Oxygen (DO) in the stram goes on reducing. This process is known as deoxygenation. It depends on organic matter present and temperature.The variation or depletion of DO is represented graphically by Deoxygenation curve.At the same time oxygen gets added into the stream through various processes such as photosynthesis, rains etc.The curve representing oxygen gaining process is known as Reoxygenation or Reaeration curve. It depends on advection. In a flowing polluted stream deoxygenation and reaeration processes go hand in hand.
+
+
+Figure A-5View largeDownload slideA typical Dissolved Oxygen Sag Curve.Figure A-5View largeDownload slideA typical Dissolved Oxygen Sag Curve. Close modal
+
+
+The Streeter–Phelps equation can be represented by:
+
+
+D=K′BODLK′2−K′(e−K′(x/v)−e−K′2′(x/v)+Doe−K′2′(x/v))
+
+
+where:
+
+
+D is the dissolved oxygen concentration deficit (value below saturation) in mg/L,
+
+
+K′2 is the re-aeration constant (in day-1),
+
+
+K' is the BOD rate constant for oxidation (day-1),
+
+
+BODL is the ultimate BOD (in mg/L),
+
+
+x is distance downstream from the point source (in miles or kilometers),
+
+
+v is average water velocity (in miles/day or kilometers/day but units must be compatible with distances, x), and
+
+
+Do is the initial oxygen deficit of the mixed stream and wastewater (in mg/L).
+
+
+To apply the above equation, we need to first get real data representing the character of the water body of interest.
+
+
+Table A-2Characterization of the Produced Water from Brass Oil Terminal Parameter
+            . Produced Water
+            . DPR LIMIT
+            . Acidity (mg/L) 7.6 NS Alkalinity (mg/L) 114 NS Ammonia (mg/L) 68.6841 NS Available Phosphorus (mg/L) N.D NS Bicarboante (mg/L) 139.1 NS Biochemical Oxygen Demand (mg/L) 160 125 Chemical Oxygen Demand (mg/L) 320 125 Chloride (mg/L) 10,025 2000 Colour (Pt-Co) 304.84 NS Dissolved Oxygen (mg/L) 0.6 NS Electrical Conductivity (µS/cm) 19280 NS Nitrate (mg/L) 0.7269 NS Nitrite (mg/L) 0.1028 NS Oil & Grease (mg/L) 42.204 20 pH 8.55 6.5-8.5 Reactive Silica (mg/L) 73.319 NS Salinity (ppt) 12.63 NS Sulphate (mg/L) 101.77 200 Temperature 29.5 30 Total Dissolved Solids (mg/L) 18,900 5000 Total Hardness (mg/L) 360 NS Total Phosphorus (mg/L) 0.0582 NS Total Suspended Solids (mg/L) 65 >50 Turbidity (NTU) 67.5 >15 Parameter
+            . Produced Water
+            . DPR LIMIT
+            . Acidity (mg/L) 7.6 NS Alkalinity (mg/L) 114 NS Ammonia (mg/L) 68.6841 NS Available Phosphorus (mg/L) N.D NS Bicarboante (mg/L) 139.1 NS Biochemical Oxygen Demand (mg/L) 160 125 Chemical Oxygen Demand (mg/L) 320 125 Chloride (mg/L) 10,025 2000 Colour (Pt-Co) 304.84 NS Dissolved Oxygen (mg/L) 0.6 NS Electrical Conductivity (µS/cm) 19280 NS Nitrate (mg/L) 0.7269 NS Nitrite (mg/L) 0.1028 NS Oil & Grease (mg/L) 42.204 20 pH 8.55 6.5-8.5 Reactive Silica (mg/L) 73.319 NS Salinity (ppt) 12.63 NS Sulphate (mg/L) 101.77 200 Temperature 29.5 30 Total Dissolved Solids (mg/L) 18,900 5000 Total Hardness (mg/L) 360 NS Total Phosphorus (mg/L) 0.0582 NS Total Suspended Solids (mg/L) 65 >50 Turbidity (NTU) 67.5 >15 View Large
+
+
+The result obtained from the application to the Streeter-Phelp equation will then be compared with data from baseline studied of the area of interest.
+
+
+Table A-3Brass River Monthly Monitoring Data for a year during the discharge of PW into the river PARAMETERS
+            . Units
+            . JAN
+            . FEB
+            . MAR
+            . APRIL
+            . MAY
+            . JUNE
+            . JULY
+            . AUG
+            . SEP
+            . OCT
+            . NOV
+            . DEC
+            . MEAN VALUE
+            . Sampling Coordinate 6° 14 32.2″E 4° 18’17.8 "N
+            . PH - 7.50 7.50 7.50 7.60 7.30 7.30 7.50 7.30 7.80 7.60 7.60 7.90 7.53 Temperature °C 29.4 29.3 30.1 29.8 29.3 26.9 27.7 26.3 24.7 28.4 29.1 29.5 28.38 Conductivity µs/cm 35,300 54,600 44,844 38,500 39,100 27,200 19,800 16,700 21,700 16,300 24,200 37,800 31337.00 Salinity Mg/l 7,850 12,650 10,186 8,600 8,750 5,350 4,000 4,200 4,200 3,050 6,050 9,480 7030.50 Turbidity NTU 1.54 4.48 6.25 0.19 0.64 0.69 1.01 0.36 3.65 1.12 0.71 3.64 2.02 TDS Mg/l 17,700 27,300 22,372 19,200 19,500 13,500 10,000 8,400 10,400 8,100 12,100 18,900 15622.67 Alkalinity ‘’ 62.60 69.4 70.00 60.40 65.1 58.30 58.40 56.2 63.40 60.70 66.1 79.20 64.15 COD ‘’ 6.24 5.90 5.10 4.5 7.36 4.70 5.7 5.20 4.20 4.8 4.50 5.37 5.30 BOD5 ‘’ 2.00 2.10 1.80 1.90 1.60 1.90 2.00 2.00 1.90 2.10 1.80 2.00 1.93 DO ‘’ 2.88 2.82 2.98 3.08 3.10 3.05 3.30 3.00 2.99 2.95 2.95 2.90 3.00 TOC ‘’ 2.33 2.20 1.80 1.80 1.27 0.90 2.60 2.40 2.20 2.40 2.60 3.10 2.13 Sulphide ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Phenol ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Cyanide ‘’ 0.024 0.02 0.015 0.013 0.016 0.016 0.018 0.020 0.012 0.014 0.016 <0.001 <0.001 Nitrate ‘’ 0.50 1.50 1.40 2.40 2.42 3.80 4.80 4.20 4.60 4.90 5.20 5.94 3.47 T. Phosphate ‘’ 0.40 0.66 0.70 0.82 0.62 0.66 0.90 0.7 0.66 0.80 0.9 0.53 0.70 TSS ‘’ 5.30 6.70 9.38 0.67 2.00 2.42 3.56 1.20 5.14 3.92 2.49 5 3.98 THC ‘’ 2.27 0.79 1.74 1.96 1.34 1.44 1.52 1.39 2.14 2.26 2.34 2.16 1.78 TPH ‘’ 1.19 0.69 1.44 1.27 0.97 0.83 0.87 0.96 1.17 1.14 1.34 1.06 1.08 PAH ‘’ 1.07 0.24 0.88 1.05 0.73 0.6 0.56 0.72 0.84 0.71 0.6 0.75 0.73 BTEX ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Arsenic (As) Mg/l <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Lead (Pb) ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Copper (Cu) ‘’ 1.12 0.97 1.62 1.13 0.88 0.79 0.61 0.48 0.36 0.3 0.24 0.29 0.73 Zinc (Zn) ‘’ 0.46 0.39 0.64 0.55 0.12 0.17 0.26 0.30 0.37 0.26 0.29 0.16 0.33 Chromium (Cr) ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Nickel (Ni) ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Iron (Fe) ‘’ 0.73 0.62 0.92 0.55 0.48 0.54 0.50 0.57 0.48 0.44 0.5 0.42 0.56  ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 PARAMETERS
+            . Units
+            . JAN
+            . FEB
+            . MAR
+            . APRIL
+            . MAY
+            . JUNE
+            . JULY
+            . AUG
+            . SEP
+            . OCT
+            . NOV
+            . DEC
+            . MEAN VALUE
+            . Sampling Coordinate 6° 14 32.2″E 4° 18’17.8 "N
+            . PH - 7.50 7.50 7.50 7.60 7.30 7.30 7.50 7.30 7.80 7.60 7.60 7.90 7.53 Temperature °C 29.4 29.3 30.1 29.8 29.3 26.9 27.7 26.3 24.7 28.4 29.1 29.5 28.38 Conductivity µs/cm 35,300 54,600 44,844 38,500 39,100 27,200 19,800 16,700 21,700 16,300 24,200 37,800 31337.00 Salinity Mg/l 7,850 12,650 10,186 8,600 8,750 5,350 4,000 4,200 4,200 3,050 6,050 9,480 7030.50 Turbidity NTU 1.54 4.48 6.25 0.19 0.64 0.69 1.01 0.36 3.65 1.12 0.71 3.64 2.02 TDS Mg/l 17,700 27,300 22,372 19,200 19,500 13,500 10,000 8,400 10,400 8,100 12,100 18,900 15622.67 Alkalinity ‘’ 62.60 69.4 70.00 60.40 65.1 58.30 58.40 56.2 63.40 60.70 66.1 79.20 64.15 COD ‘’ 6.24 5.90 5.10 4.5 7.36 4.70 5.7 5.20 4.20 4.8 4.50 5.37 5.30 BOD5 ‘’ 2.00 2.10 1.80 1.90 1.60 1.90 2.00 2.00 1.90 2.10 1.80 2.00 1.93 DO ‘’ 2.88 2.82 2.98 3.08 3.10 3.05 3.30 3.00 2.99 2.95 2.95 2.90 3.00 TOC ‘’ 2.33 2.20 1.80 1.80 1.27 0.90 2.60 2.40 2.20 2.40 2.60 3.10 2.13 Sulphide ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Phenol ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Cyanide ‘’ 0.024 0.02 0.015 0.013 0.016 0.016 0.018 0.020 0.012 0.014 0.016 <0.001 <0.001 Nitrate ‘’ 0.50 1.50 1.40 2.40 2.42 3.80 4.80 4.20 4.60 4.90 5.20 5.94 3.47 T. Phosphate ‘’ 0.40 0.66 0.70 0.82 0.62 0.66 0.90 0.7 0.66 0.80 0.9 0.53 0.70 TSS ‘’ 5.30 6.70 9.38 0.67 2.00 2.42 3.56 1.20 5.14 3.92 2.49 5 3.98 THC ‘’ 2.27 0.79 1.74 1.96 1.34 1.44 1.52 1.39 2.14 2.26 2.34 2.16 1.78 TPH ‘’ 1.19 0.69 1.44 1.27 0.97 0.83 0.87 0.96 1.17 1.14 1.34 1.06 1.08 PAH ‘’ 1.07 0.24 0.88 1.05 0.73 0.6 0.56 0.72 0.84 0.71 0.6 0.75 0.73 BTEX ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Arsenic (As) Mg/l <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Lead (Pb) ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Copper (Cu) ‘’ 1.12 0.97 1.62 1.13 0.88 0.79 0.61 0.48 0.36 0.3 0.24 0.29 0.73 Zinc (Zn) ‘’ 0.46 0.39 0.64 0.55 0.12 0.17 0.26 0.30 0.37 0.26 0.29 0.16 0.33 Chromium (Cr) ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Nickel (Ni) ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 Iron (Fe) ‘’ 0.73 0.62 0.92 0.55 0.48 0.54 0.50 0.57 0.48 0.44 0.5 0.42 0.56  ‘’ <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 <0.001 View Large
+
+
+Applicaltion of Streeter-Phelps Equation on the Brass Canal
+
+
+To get a more realistic DO value of the effluent as it enters the Brass River from the canal, it is pertinent to model the canal (1572 m) separately using the data on Table 5.2. However, due to some limitations in available data, some realistic assumptions have been made to facilitate the modeling of the dissolved oxygen for the canal. Assumptions include:
+
+
+The Effluent and canal have same BOD parametersThe effluent temperature is > Canal TemperatureThe length of the canal is 1572mThe canal flow rate is same as effluent discharge rate
+
+
+Table A-4Data used for the Demonstration of the Streeter-Phelps’ Model in the Canal Brass Canal Characteristics
+            . BOT Effluent Characteristics
+            . River Flowrate, Qr 0.2567 m3 /s Effluent discharge rate, Qd 0.2576 m3 /s RiverBOD @ 25 °C, BOD0r 160 mg/L Effluent BOD @25 °C, Ld 160 mg/L River Dissolved Oxygen, Dor 0.94 mg/L Effluent Dissolved Oxygen, Dod 0.6 mg/L River Temperature, T 29.5 °C Temperature, Td 30.8 °C River velocity, Ur 0.38 m/s k20 0.115 1/day River Depth, H 2 m teta, θ 1.056  River Ultimate dissolved oxygen, *DO 6.70 mg/L kd 0.193 1/day Brass Canal Characteristics
+            . BOT Effluent Characteristics
+            . River Flowrate, Qr 0.2567 m3 /s Effluent discharge rate, Qd 0.2576 m3 /s RiverBOD @ 25 °C, BOD0r 160 mg/L Effluent BOD @25 °C, Ld 160 mg/L River Dissolved Oxygen, Dor 0.94 mg/L Effluent Dissolved Oxygen, Dod 0.6 mg/L River Temperature, T 29.5 °C Temperature, Td 30.8 °C River velocity, Ur 0.38 m/s k20 0.115 1/day River Depth, H 2 m teta, θ 1.056  River Ultimate dissolved oxygen, *DO 6.70 mg/L kd 0.193 1/day View Large
+
+
+Applicaltion of Streeter-Phelps Equation on the Brass River
+
+
+Using the Streeter-Phelps’ model, a demonstration of the possible pollution of the Brass River as a result of the discharge of produced water from BOT. The values in Table A-5 below were gotten from the characterization of BOT produced water and the analysis on the Brass Terminal.
+
+
+Table A-5Data used for the Demonstration of the Streeter-Phelps’ Model in the River Brass River Characteristics
+            . BOT Effluent Characteristics
+            . River Flowrate, Qr 1093 m3 /s Effluent discharge rate, Qd 0.2576 m3 /s RiverBOD@25 oC, BOD0r 2 mg/L Effluent BOD@25 oC, Ld 160 mg/L River Dissolved Oxygen, Dor 3 mg/L Effluent Dissolved Oxygen, Dod 0.6 mg/L River Temperature, T 29 °C Temperature, Td 30.8 °C River velocity, Ur 0.38 m/s k20 0.115 1/day River Depth, H 40 m teta, θ 1.056  River Ultimate dissolved oxygen, *DO 6.45 mg/L kd 0.193 1/day Brass River Characteristics
+            . BOT Effluent Characteristics
+            . River Flowrate, Qr 1093 m3 /s Effluent discharge rate, Qd 0.2576 m3 /s RiverBOD@25 oC, BOD0r 2 mg/L Effluent BOD@25 oC, Ld 160 mg/L River Dissolved Oxygen, Dor 3 mg/L Effluent Dissolved Oxygen, Dod 0.6 mg/L River Temperature, T 29 °C Temperature, Td 30.8 °C River velocity, Ur 0.38 m/s k20 0.115 1/day River Depth, H 40 m teta, θ 1.056  River Ultimate dissolved oxygen, *DO 6.45 mg/L kd 0.193 1/day View Large
+
+
+Mass Balance for Inorganic Pollutants in the Brass River
+
+
+The inorganic pollutants were derived using the mass balance equation:
+
+
+Input = Output + Accumulation – Decay
+
+
+Assuming a steady state condition (No decay & Accumulation), then
+
+
+Input rate = Output rate
+
+
+Therefore;
+
+
+CeQe + CrQr = CmQm
+
+
+and
+
+
+Qm= Qe + Qr
+
+
+Presentation of Data and Results
+
+
+From the model results for the Canal, the minimum DO is 2.20 mg/L at the end of the canal (entry point to the Brass River at 1572m). The DO trend vs. distance is shown in Figure A-6 below:
+
+
+Figure A-6View largeDownload slidePlot of DO curve for Brass CanalFigure A-6View largeDownload slidePlot of DO curve for Brass Canal Close modal
+
+
+From the model, results for the River shows that as the effluent enters the river with a DO of 2.2 mg/L, there was a quick dilution with the Brass River and after 3 seconds, the DO of the river was able to self-purify, thus there was negligible effect in the Brass River. The DO trend vs. time is shown in Figure A-7, while the DO trend vs. distance is shown in Figure A-8.
+
+
+Figure A-7View largeDownload slideTrend of DO versus distanceFigure A-7View largeDownload slideTrend of DO versus distance Close modal
+
+
+Figure A-8View largeDownload slideTrend of DO versus timeFigure A-8View largeDownload slideTrend of DO versus time Close modal
+
+
+Now, we compare results with those gotten from an Environmental Studies performed on the Brass River where samples were taken from the discharge point and at strategic points along the river. The results from analysis of the samples and result from the model are tabulated as follows:
+
+
+Table A-6Results comparison between Environmental Studies andresults from S-P Model Sample Point
+            . Distance from Discharge Point (km)
+            . Monitored Value (mg/L)
+            . Result from Model (mg/L)
+            . SS-3 0.63 6.27 6.45 SS-4 1.36 6.23 6.45 SS-5 1.83 6.5 6.45 SS-6 3.33 6.52 6.45 SS-7 0.77 6.44 6.45 SS-8 1.37 6.41 6.45 SS-12 1.96 6.73 6.45 SS-15 5.22 6.43 6.45 SS-16 6.69 6.41 6.45 SS-17 8.76 6.43 6.45 SS-18 7.06 6.42 6.45 SS-19 6.86 6.45 6.45 SS-20 6.77 6.43 6.45 SS-21 4.69 6.44 6.45 Sample Point
+            . Distance from Discharge Point (km)
+            . Monitored Value (mg/L)
+            . Result from Model (mg/L)
+            . SS-3 0.63 6.27 6.45 SS-4 1.36 6.23 6.45 SS-5 1.83 6.5 6.45 SS-6 3.33 6.52 6.45 SS-7 0.77 6.44 6.45 SS-8 1.37 6.41 6.45 SS-12 1.96 6.73 6.45 SS-15 5.22 6.43 6.45 SS-16 6.69 6.41 6.45 SS-17 8.76 6.43 6.45 SS-18 7.06 6.42 6.45 SS-19 6.86 6.45 6.45 SS-20 6.77 6.43 6.45 SS-21 4.69 6.44 6.45 View Large
+
+
+The results for the Material balace equation can be summarized in Table A-7 below:
+
+
+Table A-7Results of Inorganic pollutant modelling using Material Balance Compound (mg/L)
+            . River Data
+            . Effluent Data
+            . OUTPUT
+            . Q-river
+            . C-river
+            . Q-effluent
+            . C-effluent
+            . Q-mixture
+            . C-mixture
+            . TDS 0.26 18900 1093 15622.27 1093.3 1563 Salinity 0.26 10025 1093 7030.5 1093.3 7031.2 Oil in Water 0.26 42.204 1093 2.13 1093.3 2.14 Total Suspended Solids 0.26 65 1093 3.98 1093.3 3.99 Compound (mg/L)
+            . River Data
+            . Effluent Data
+            . OUTPUT
+            . Q-river
+            . C-river
+            . Q-effluent
+            . C-effluent
+            . Q-mixture
+            . C-mixture
+            . TDS 0.26 18900 1093 15622.27 1093.3 1563 Salinity 0.26 10025 1093 7030.5 1093.3 7031.2 Oil in Water 0.26 42.204 1093 2.13 1093.3 2.14 Total Suspended Solids 0.26 65 1093 3.98 1093.3 3.99 View Large
+
+
+According to Fondriest Environmental (2013), if dissolved oxygen concentrations drop below a certain level, fish mortality rates will rise. Sensitive freshwater fish like salmon can't even reproduce at levels below 6 mg/L. In the ocean, coastal fish begin to avoid areas where DO is below 3.7 mg/L, with specific species abandoning an area completely when levels fall below 3.5 mg/L. Below 2.0 mg/L, invertebrates also leave and below 1 mg/L even benthic organisms show reduced growth and survival rates.
+
+
+We can infer that some sensitive fishes which were once in the Brass River close to our operation area might have migrated to other areas over time, affecting the socio-economic life of the Twon-Brass community people whose major occupation is fishing.
+
+
+Conclusions
+
+
+Within the limits of the Streeter-Phelps and Mass Balance models, the assumptions made and the quality of the data used, I can conclude that:
+
+
+Due to similar trend in results obtained using the models and data from EES, we have found that the Streeter-Phelps model can be applied for quick determination of DO level of a river.There was no significant effect of the effluent from the canal to the river due to rapid self-purification of the river.However, further analysis may be necessary to investigate the effect of the effluent in the soil and ground water below the canal.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Chikwe, T.N. and Okwa, F.A.2016. Evaluation of the Physico-Chemical Properties of Produced Water from Oil Producing Well in the Niger Delta Area, Nigeria. Journal of Applied Sciences and Environmental Management, 20, 1113–1117. https://doi.org/10.4314/jasem.v20i4.27Google ScholarCrossrefSearch ADS  Diop, S.et al. 2014. The Land/ocean Interactions in the Coastal Zone of West and Central Africa. Springer.Google ScholarCrossrefSearch ADS  Environmental Guidelines and Standards for the Petroleum Industry in Nigeria, 2018Fondriest Environment Inc. FEI2014. Conductivity, Salinity and Total Dissolved Solid. Fundamentals of Environ-mental Measurements. http://www.fondriest.com/environmental-measurements/parameters/water-quality/conductivity-salinity-TDS/Igunnu, E. T., Chen, G. Z.2012. Produced water treatment technologies. International Journal of Low-Carbon Technologies, 2014(9), 157–177.Google Scholar Itumo, V.N.2016. Nigeria's Mono-Cultural Economy: Impact Assessment and Prospects. European Journal of Interdisciplinary Studies. Vol. 8Google Scholar NeffJ. M.et al. 2011. Produced Water: Overview of Composition, Fates and EffectsGoogle Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211974-MS
+
+
+

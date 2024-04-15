@@ -1,0 +1,222 @@
+----- METADATA START -----
+Title: Workflow for Slot Re-Utilization Assessment on Offshore Brown Fields to Improve Re-Development Profitability – A Case Study in Nigeria
+Authors: Mirian Kosi Orji, Ademola Olatunbosun, Gbenga Abe, Uhunoma Osaigbovo, John Agiaye, Toyin Arowosafe
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211927-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+As fields brown out, opportunities tend to shrink in size and recoverable volumes necessitating the design of innovative cost efficient re-development solutions to address increased surface and subsurface challenges. A prominent surface challenge with in-fill drilling on shallow offshore brown fields is slot availability, since the existing platform slots are typically in active use. Some of the known time and cost efficient means of addressing this issue, includes internal slot add-ons, deck extensions for external slot add-ons and shared wellhead systems – all of which can be accommodated up to the design limit of the existing platform. There is also the option of scaled-down platforms such as conductor supported platforms which present a cheaper alternative to conventional jacket platforms.This paper describes a structured approach applied on a brown field in Nigeria, to determine the re-use potential of existing wells on an offshore platform. The case study starts by identifying shut-in wells and active wells which have expected end of producing lives that precede the planned infill drilling period. These wells are then screened out and evaluated for further immediate to near-term utility such as rigless intervention, stimulation, recompletion and workover. The remaining wells form an inventory of the potential donor wells for sidetrack feasibility assessment, which takes into consideration wellbore architecture, casing sizes/depths, environmental regulatory requirements, P&A complexity, surface equipment constraints and well integrity aspects. The identification and categorization of potential donor wells provides the basis for the final step in the workflow which is trajectory feasibility study against identified subsurface targets.The overall objective is to reduce or eliminate the need for new platforms and consequently improve the economics of infill projects.
+
+
+
+
+Keywords:
+upstream oil & gas,
+enhanced recovery,
+drilling operation,
+completion,
+directional drilling,
+subsea system,
+asset and portfolio management,
+evaluation,
+criteria,
+installation
+
+
+Subjects: 
+Drilling Operations,
+Offshore Facilities and Subsea Systems,
+Improved and Enhanced Recovery,
+Asset and Portfolio Management,
+Directional drilling,
+Field development optimization and planning
+
+
+
+
+Introduction
+
+
+Development of shallow offshore fields require installation of platforms – fixed platforms which are anchored to the sea floor. There are several possible platform designs for fixed or permanent platforms – these could include platform made with concrete or steel that are attached to the sea floor or rest on their own mass especially in the concrete designs. The topside design varies widely and depends on the required volume processing capacity, fluid types and property, processing type, quality of required export, pressures etcetera.
+
+
+The unique property of fixed leg platforms that sets it apart is its stability since they are anchored from surface to seafloor, so there is less impact from wind, waves and current. The fixed nature of these platforms also however implies limited topside area and operating load. These platforms are often designed with a template to drill from with a defined set of slots. Since the development of fields typically happens in phases, only a single platform or few are constructed in the initial stages of development. As drilling and development progresses, slots get utilized and slot inventory depletes. The ideal next step is design and install new platforms for new phases of development, however for cost efficiency there are a few strategies that have been deployed in similar environments to allow the introduction of additional slots and drill new wells and access untapped opportunities and lower costs compared to the conventional fixed platform; these include:
+
+
+Scaled-down platforms such as conductor supported platformsInternal slot add-ons – adding slots within the existing structure where the topside area allowsExternal slot add-ons – this typically involves first extending a deck on the existing platform and creating new slots within that extension. This must stay within the design load limits of the platformSlot recovery – this includes permanently abandoning used wells and re-running a new conductor using Drive Pipe Whipstock in order drill a new wellShared wellhead systems – duplex or triplex shared conductor wellhead systems allow multiple wells to be drilled from a single slot, therefore improves slot utility efficiencyMulti-zone wells – This includes single string multizone wells, multi string multizone wells and multilateral wells; and could be designed for sequential production or commingled production with a strategy production accounting from the different zones if required
+
+
+This paper explores an alternate approach for cost effective brown field re-development from existing platforms. This approach centers around re-using existing wells as sidetrack candidates for infill drilling and developing new reservoirs.
+
+
+Field History And Problem Statement
+
+
+The subject of this case study, is a shallow water field located offshore Niger Delta in water depths of approximately 65ft, in NNPC-MPN Joint Venture acreage operated by ExxonMobil (Figure 1). The field was discovered in 1964. Early exploration, appraisal, and development efforts relied on old vintage 2D seismic data with sparse well control. Between discovery and now, 51 producers have been drilled to deplete the oil reserves across five producing reservoir groups with different pressure regime and reservoir fluid properties.
+
+
+Figure 1View largeDownload slideRegional map of Africa showing Mobil Producing JV AcreageFigure 1View largeDownload slideRegional map of Africa showing Mobil Producing JV Acreage Close modal
+
+
+The first development phase commenced in 1967 with initial oil production in the shallowest hydrocarbon bearing reservoir after the installation of the first wellhead platform. After 7 appraisal wells between discovery and 1995, a phased full field development strategy was adopted. This strategy allowed for a moderated capital spend, continuous optimization, and additional subsurface data gathering from the initial set of development wells, thereby de-risking subsurface uncertainties. The first stage of the phased development involved the installation of two wellhead platforms, one production platform and the drilling of 21 wells.
+
+
+This phased development approach has over the years proved valuable. In recent time, the new phase of development wells targets the remaining undeveloped reservoirs and some infill opportunities in the developed reservoirs. These opportunities are smaller in size and recoverable volumes necessitating the design of innovative cost efficient re-development solutions to address increased surface and subsurface challenges. A prominent surface challenge with this new development phase is slot unavailability, since many of the existing platform slots are in active use.
+
+
+Scope
+
+
+This case study was driven by limited slot availability for re-development of several reservoirs within the field. The subject asset has over 50 wells across 2 platforms. Over the life of the field several approaches have been deployed to optimize available slots including multi-zone completions, internal and external slot-adds, slot recovery, re-drills and shared wellhead systems.
+
+
+The approach deployed in this project examines slot/well utility for re-development and infill drilling holistically, at an asset level rather than an individual opportunity level. While the entire project covers multilateral evaluation and feasibility study, the scope of this paper is limited to the slot/well utility evaluation, sidetrack feasibility study and the methodology/criteria deployed for matching slots to new opportunities. This effort is geared towards driving down development costs and improving well economics.
+
+
+Methodology
+
+
+The approach to Slot Re-Utilization in this case study can be outlined in three parts:
+
+
+Slot/well identification and evaluationSidetrack feasibility studyDonor-Opportunity matching exercise
+
+
+Slot/well identification and evaluation
+
+
+Once subsurface opportunities have been identified, the first step in the slot utility evaluation is outlining the status of all the available wells and slots in the field or platform. Below is an illustration of slots and wells available on both platforms in the field.
+
+
+Figure 1aView largeDownload slideSlot illustration of Platform 1Figure 1aView largeDownload slideSlot illustration of Platform 1 Close modal
+
+
+Figure 1bView largeDownload slideSlot illustration of Platform 2Figure 1bView largeDownload slideSlot illustration of Platform 2 Close modal
+
+
+Assessing the status of the wells involves:
+
+
+Identifying all slots and wells on the platform(s)Reviewing the current and future utility of the well and grouping them based on status.Active Wells: These are wells that are currently actively utilized as producers, injectors or other alternate functions. Active wells are examined based on reservoir simulation models to determine economic production limit and consequently end-of-life (EOL). Wells with EOL that precedes planned drilling dates can be included in the selection of wells for sidetrack feasibility evaluation.Shut-in or Idle Wells: These are wells that are currently dormant either as a result of reaching the end-of-active life, in need of intervention or no longer meet the production criteria for the platform or organization (water cut, gas cut etcetera). Shut in wells can be further divided based on future utility, by grouping into two: Wells requiring intervention/workover for production restoration and/or optimization and wells with no further utility. The EOL evaluation and criteria is equally extended to intervention candidates.
+
+
+The flow chart below illustrates the workflow applied in this study for slot and well evaluation.
+
+
+Figure 2View largeDownload slideSlot and well evaluation workflow chartFigure 2View largeDownload slideSlot and well evaluation workflow chart Close modal
+
+
+Sidetrack feasibility study
+
+
+With the available wells narrowed down based on the previous step, potential sidetrack candidates are then identified through the following steps:
+
+
+Opportunity framing
+
+
+With the subsurface opportunities (including subsurface targets) identified, the optimal preliminary well architecture and completions required for reservoir depletion must also be identified. This step is important because it provides the basis for the minimum criteria a donor well must meet to be matched with an opportunity.
+
+
+For example:
+
+
+Thin oil reservoir opportunities, will typically require a horizontal openhole standalone screen completions for optimal drainageStacked reservoirs of similar properties – temperature and pressure -would be better matched with multi-zone completions strategy such as single string multi-zone completions or multilateral completions which requires a 121/4" hole section with a 95/8" production casing or larger to allow the installation of the multilateral completion accessories
+
+
+The table below shows typical well design options which can be matched in several permutations depending on the frame of the opportunity.
+
+
+Table 1Sample completions strategy options Well Trajectory
+            . Completions size
+            . Sandface Completions
+            . Surface Equipment
+            . Number of zones
+            . Production Technique
+            . Vertical 2-3/8 – 2-7/8" Open hole screens Shared conductor wellhead Single zone completions Sequential production Deviated 3-1/2" Open hole gravel pack Single well wellhead Multi-zone completions Multi-zone production with Intelligent completions Horizontal 4-1/2" Cased hole gravel pack   Multi-zone production with Multilateral design Well Trajectory
+            . Completions size
+            . Sandface Completions
+            . Surface Equipment
+            . Number of zones
+            . Production Technique
+            . Vertical 2-3/8 – 2-7/8" Open hole screens Shared conductor wellhead Single zone completions Sequential production Deviated 3-1/2" Open hole gravel pack Single well wellhead Multi-zone completions Multi-zone production with Intelligent completions Horizontal 4-1/2" Cased hole gravel pack   Multi-zone production with Multilateral design View Large
+
+
+Donor wells detail identification
+
+
+This stage of the study was focused on extracting the details of the selected potential donor wells. The objective of this stage is to identify any red flags in the wells’ status in terms pressure and structural integrity and also any limitations per the frame of the opportunities outlined in the previous step.
+
+
+In this case study, the donors were examined and classified based on the following criteria:
+
+
+Fresh Water – Marine water transition zone: In order to protect the fresh water zones, it is important to drill formations with connectivity to fresh water reservoirs with water based-fluids to avoid non-aqueous fluid contamination. Hence the importance of determining the fresh water zone on a well-by-well basis, as this varies across the field albeit a similar ranges. (Petroleum Act, 1990)Casing scheme: Understanding the casing scheme is critical to evaluating the sidetrack potential, since the casing internal diameter limits the bit size with which the sidetrack can be initiated. A 133/8" casing will allow for a 2-hole section sidetrack with a 121/4" hole section (with 95/8" casing) + an 81/2" hole section (with 7" casing/liner) + a 6" contingency hole section; while a 7" casing/liner will only permit the drilling of a 6" hole within the conventional envelop.It is worthy of note that there are other drilling techniques that may be deployed to reach deep intervals, for example under reaming with deployment of unconventional casing sizes such as 8-5/8", 7-3/4", 7-5/8", 6-5/8", 5-5/8" etcetera and other new technologies such as coiled tubing drilling.The illustration below summarizes the casing schemes identified in the field Figure 3View largeDownload slideCasing scheme summary from donor studyFigure 3View largeDownload slideCasing scheme summary from donor study Wellhead category: On the subject asset there are two fundamental wellhead categories –Conventional wellhead system comprising a single well in a single one conductor which could comprise dual string or single string completions.Conductor sharing wellhead (CSW) system is relatively new wellhead solution – was first deployed in 1998. (Anchaboh et al 2001).It consists of two or three wells drilled within one conductor using a duplex or triplex wellhead system. A distinct feature of the CSW systems deployed in the subject field is the design at the time resulted in a slim hole well. As a result, most of the wells within CSWs were completed with 7" production casings, reducing capability for deep or long sidetracks.Cut & Pull Feasibility: The key parameter for evaluating casing cut and pull ability is top of cement behind casing. It is also important to take into consideration the compaction above the top of cement due to drilling fluid weighting agent settling.The top of cement determined theoretically or physically by running a cement log provides an indication of the free point in the casing at which a casing cutter can be deployed to cut and pull the target casing free. Ability to cut and pull the production casings (7" or 9-5/8") at depths below the fresh water – marine water transition zone, greatly improves the sidetrack potential as it allows for shallower sidetrack point and potentially an additional hole section.Completions status: This refers to a general evaluation of the completions strings to assess re-entry and de-completion feasibility. A few questions that guide this evaluation:Can the tubing be assessed?Can the well be killed?Can the tubing retrieved?Are there cables or lines on the tubing that prevent tubing retrieval?Is the tubing retrieval by straight pull? If not any limitations to a cut and pull?Is the production packer depth below the shallowest possible sidetrack depth?Well integrity: Evaluating the well integrity of the well takes into consideration surface well integrity and downhole well integrity. The integrity envelop check for re-entry includes the Xmas tree, wellhead, completions and casings are critical; while sidetrack drilling includes wellhead, casing and cement behind casing at a minimum. These are illustrated below:
+
+
+Figure 4a & 4bView largeDownload slideIllustration of minimum integrity envelop required for re-entry (left) and sidetrack operations (right) reflected in redFigure 4a & 4bView largeDownload slideIllustration of minimum integrity envelop required for re-entry (left) and sidetrack operations (right) reflected in red Close modal
+
+
+Methodology/criteria deployed for matching slots to new opportunities.
+
+
+The methodology used to match donors to opportunities were done in the following steps:
+
+
+Spider plot donor-target matching: This is the first step to honing potential donors for a given subsurface target. The coordinates of subsurface targets are loaded into the trajectory planning tool with the corresponding tolerances, then a spider plot of these and the well paths of the potential donor wells are generated. Figure 5 below illustrates this step. By generating and analyzing this spider plot, targets can get matched preliminarily with donor wells based on proximity and well orientation. For example, Donor 4: Target 2 or Donor 2: Target 3/Target 5 and so forth are easily seen as potential pairs based on plan view orientation. However, to further evaluate this, the wellpath must be viewed relative to the target, and this is best visualized using the lateral and 3-dimensional views using a trajectory planning tool. Figure 5View largeDownload slideIllustration of Spider Plot for Preliminary Donor-Target MatchingFigure 5View largeDownload slideIllustration of Spider Plot for Preliminary Donor-Target Matching Target 4 on the other hand is unlikely to be matched with any of these donors as its orientation is off the trajectory of the existing wells and will require high-risk directional work.Target 1 as indicated in the illustration presents a significant horizontal displacement of up to ∼9,800ft which while not a drilling impossibility, is potentially an extended reach well which will be challenged given the limited depth and hole sections available to be drilled by the identified sidetrack donors.This step is critical to the efficiency of the process as it optimizes the number trajectories to be planned and tested.Trajectory planning and testing: this is the final step in the sidetrack feasibility process. With the narrowed down preliminary donor-target match list, well trajectories are designed using the laid out regulatory and organizational guidelines as shown below:Shallowest possible sidetrack depth based on the previously established fresh water – marine water interfaceDirectional drilling best practices such as dogleg severity limits, maximum sail angle, wellbore stability and hole cleaning parameters including hole angles, operational depth limits based on regional experience, torque and drag and other drilling parameter simulations.Collision avoidanceSubsurface risk avoidance – for example well paths are optimized to avoid faults and other subsurface hazards.
+
+
+It is noteworthy that there could be more than one feasible donor identified and matched to a given and vice versa. The selection will be based on the most optimal well design.
+
+
+RESULTS
+
+
+This slot utility study identified a total of 37 candidates for sidetrack feasibility review against 13 subsurface opportunities. One of the candidates were risked out based on well integrity, five more were eliminated on the basis cut and pull feasibility of the 7" casings. The remaining donors can be grouped as follows:
+
+
+Table 2Sidetrack Feasibility Result Summary by Category 1 2 Hole section Donors9 donors identified12-1/4" Hole Section+ 8-1/2" Hole Section+ 6" Contingency Hole Section Preferred for long interval sidetracks and multilaterals 2 1 Hole section Donors with Single Wellhead systems8 donors identified8-1/2" Hole Section + 6" Contingency Hole Section Preferred for short interval sidetracks and Smart & Dual String completions 3 1 Hole section Donors with TriplexWellhead systems14 donors identified8-1/2" Hole Section + 6" Contingency Hole Section Preferred for short interval sidetracks single string dual zone completions (selective production) 1 2 Hole section Donors9 donors identified12-1/4" Hole Section+ 8-1/2" Hole Section+ 6" Contingency Hole Section Preferred for long interval sidetracks and multilaterals 2 1 Hole section Donors with Single Wellhead systems8 donors identified8-1/2" Hole Section + 6" Contingency Hole Section Preferred for short interval sidetracks and Smart & Dual String completions 3 1 Hole section Donors with TriplexWellhead systems14 donors identified8-1/2" Hole Section + 6" Contingency Hole Section Preferred for short interval sidetracks single string dual zone completions (selective production) View Large
+
+
+Table 3Donor-Opportunity Match Summary S/N
+            . Opportunity Pseudo Name
+            . Optimal Match Donor (Pseudo Name)
+            . Other Feasible Matches (Pseudo Name)
+            . Well Archetype
+            . 1 Opportunity 1 Donor 17 Donor 33 Donor 34 Donor 36 Horizontal well with openhole screens completions (Multilateral candidate) 2 Opportunity 2 No match found – – 3 Opportunity 3 Donor 21 Donor 20 Donor 21 Donor 22 Single string single zone horizontal with openhole screens completions 4 Opportunity 4 Donor 20 Donor 20 Donor 22 Horizontal well with openhole screens completions (Multilateral candidate) 5 Opportunity 5 Donor 20 Donor 35 Horizontal well with openhole screens completions (Multilateral candidate) 6 Opportunity 6 Donor 30  Horizontal well with openhole screens completions (Multilateral candidate) 7 Opportunity 7 Donor 28  Horizontal well with openhole screens completions (Multilateral candidate) 8 Opportunity 8 Donor 28  Horizontal well with openhole screens completions (Multilateral candidate) 9 Opportunity 9 Donor 17  Horizontal well with openhole screens completions (Multilateral candidate) 10 Opportunity 10 Donor 8  Single string single zone horizontal with openhole screens completions 11 Opportunity 11 Donor 30 Donor 33 Donor 36 Horizontal well with openhole screens completions (Multilateral candidate) 12 Opportunity 12 Donor 29  Horizontal well with openhole screens completions (Multilateral candidate) 13 Opportunity 13 Donor 21  Single string single zone horizontal with openhole screens completions (with pilot hole) 14 Opportunity 15 Donor 27  Horizontal well with openhole screens completions (Multilateral candidate) 15 Opportunity 16 Donor 27  Horizontal well with openhole screens completions (Multilateral candidate) 16 Opportunity 17 No match found – – S/N
+            . Opportunity Pseudo Name
+            . Optimal Match Donor (Pseudo Name)
+            . Other Feasible Matches (Pseudo Name)
+            . Well Archetype
+            . 1 Opportunity 1 Donor 17 Donor 33 Donor 34 Donor 36 Horizontal well with openhole screens completions (Multilateral candidate) 2 Opportunity 2 No match found – – 3 Opportunity 3 Donor 21 Donor 20 Donor 21 Donor 22 Single string single zone horizontal with openhole screens completions 4 Opportunity 4 Donor 20 Donor 20 Donor 22 Horizontal well with openhole screens completions (Multilateral candidate) 5 Opportunity 5 Donor 20 Donor 35 Horizontal well with openhole screens completions (Multilateral candidate) 6 Opportunity 6 Donor 30  Horizontal well with openhole screens completions (Multilateral candidate) 7 Opportunity 7 Donor 28  Horizontal well with openhole screens completions (Multilateral candidate) 8 Opportunity 8 Donor 28  Horizontal well with openhole screens completions (Multilateral candidate) 9 Opportunity 9 Donor 17  Horizontal well with openhole screens completions (Multilateral candidate) 10 Opportunity 10 Donor 8  Single string single zone horizontal with openhole screens completions 11 Opportunity 11 Donor 30 Donor 33 Donor 36 Horizontal well with openhole screens completions (Multilateral candidate) 12 Opportunity 12 Donor 29  Horizontal well with openhole screens completions (Multilateral candidate) 13 Opportunity 13 Donor 21  Single string single zone horizontal with openhole screens completions (with pilot hole) 14 Opportunity 15 Donor 27  Horizontal well with openhole screens completions (Multilateral candidate) 15 Opportunity 16 Donor 27  Horizontal well with openhole screens completions (Multilateral candidate) 16 Opportunity 17 No match found – – View Large
+
+
+CONCLUSION
+
+
+The outline of this paper provides insight to a replicable approach to improving re-development economics through slot re-utilisation. The points below summaries the uniqueness of this approach:
+
+
+The approach allows redevelopment and in-fill opportunities to be examined at a field level rather than individuallyEliminated slot constraints and an immediate need for additional platform following the phased development approachThe slot utility analysis considered not only wells available to further utility as at the time of the study but also wells that will become available at the planned drilling start dateIdentified concept with high potential to improve re-development economics by planning re-development through existing wells; potentially reducing development cost by up to 40% per well, which can be further optimized by applying intelligent and multilateral completions.Study revealed 6 potential multilateral pairs consequently reducing slot consumption and optimizing reservoir drainage
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Bybee, K.2008. Production Enhancement in a Brownfield Redevelopment Plan, Journal of Petroleum Technology60 (01): 60 – 62.Google ScholarCrossrefSearch ADS  Ameller, J., Rinaudo, J. D., Merly, C.2020. The contribution of economic science to brownfield redevelopment: a review. Integrated Environmental Assessment and Management16 (2): 2–3.Google ScholarCrossrefSearch ADS  Höök, M.2009. Depletion and Decline Curve Analysis in Crude Oil Production, Licentiate thesis, Global Energy Systems, Department for Physics and Astronomy, Uppsala University. 26–32Petroleum Act, 1990. Petroleum (Drilling And Production) Regulations, No. 25, Part III, Chapter P10, Chapter 350Laws of the Federation of Nigeria (LFN)Anchaboh, L., de Lange, F., van Beelen, C., Tan, R.2001. Conductor Sharing Wellheads – More for Less, SPE Asia pacific Oil and Gas Conference and Exhibition, Jakarta, Indonesia, April 2001, SPE-68699-MS, https://doi.org/10.2118/68699-MSGoogle Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211927-MS
+
+
+

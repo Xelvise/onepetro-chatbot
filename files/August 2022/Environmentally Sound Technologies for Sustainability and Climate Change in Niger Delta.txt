@@ -1,0 +1,195 @@
+----- METADATA START -----
+Title: Environmentally Sound Technologies for Sustainability and Climate Change in Niger Delta
+Authors: Humphrey Otombosoba Oruwari
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211933-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+This paper examines the concepts of environmentally sound technologies and sustainability. Environmentally sound technologies are potential ways capable of mitigating environmental pollution by adopting the use of energy efficient technologies. While sustainability is a process of change in which technological development and institutional change in which the exploitation of resource, the direction of investment, the orientation of technological development and institutional change are made consistent with future as well as present needs. In a broad sense sustainable development must enhance the long-term productivity of the resource base with acceptable environmental impacts. Using literature review and case studies of Britania U, a marginal oil field operator, Total Energy, and Shell Petroleum Development Company (SPDC). We find that environmentally sound technology can mitigate climate change. The study revealed that Britania used the technology which cleans out poisonous elements and emits smokeless air into the environment thereby mitigating climate change. Also, Total Energy, as part of its drive towards clean energy and reduce carbon emissions embarked on installation of solar energy while SPDC reported 17% decrease in routine flaring in 2020 due to the Southern Swamp Associated Gas Project which captured gas produced alongside oil in the Niger Delta. We find that environmentally sound technologies include all those technologies that reduce the negative impact of products and services on the natural environment. Furthermore, environmentally sound technologies have brought about increased opportunities for energy transition into cleaner forms of energy. We therefore recommend that developing countries try as much as possible to develop the internal capacities and embrace environmentally sound technologies to mitigate the negative consequences of climate change.
+
+
+
+
+Keywords:
+upstream oil & gas,
+environmental law,
+sustainability,
+air emission,
+africa government,
+sustainable development,
+world bank,
+operation,
+climate change,
+society
+
+
+Subjects: 
+Environment,
+Sustainability/Social Responsibility,
+Air emissions,
+Climate change,
+Sustainable development
+
+
+
+
+Introduction:
+
+
+Sustainability framework
+
+
+Although a desirable goal, there are contending versions and perspective of sustainability or sustainable development, sharp divergence regarding priorities, mechanisms and methodologies for its attainment because of heterogeneous cultural patterns, ideological inclinations and development goals (Ibibia 2002). Sustainable development has been defined in different ways, but the most frequently quoted definition is from our common future, also known as Brundtland report of World Commission on the Environment and Development (1987) which define it as: "Sustainable development is that development that meets the needs of the present without compromising the ability of future generation to meet their own needs."
+
+
+However, the question of meeting the current oil and gas demand without compromising that of future generation brings about the issue of contested exhaustibility of oil. Some economists believe that the world's resource of oil and gas are nearly infinite, and that it is just a matter of money and technology to produce them all. They reason that, in regards to the size of distribution of accumulations the resource is almost infinite, with a few large fields and an ever-increasing number of ever-smaller accumulation down to a thimbleful, trapped somewhere out of sight,
+
+
+Oil of course is exhaustible in the sense that society's stock of the reserve could not be physically replenish-able. The difficulty in the concept of exhaustion is that geologist estimate the "stock of oil in terms of recoverable reserves. But what is recoverable depends on the cost of extraction relative to the price of oil. Every increase in the price of oil or decrease in the cost of extraction increases the world's stock of recoverable oil. In addition, an increase in price will lead to more research, and will usually results in increasing reserves. In physical sense, all minerals are limited because on the crust of the earth the difference between them and oil is that at this time it is cheaper to extract and use oil. When oil becomes more expensive than other mineral fuels, we stop searching for it and use substitute before we get to the last drop of oil that the earth contains. Thus, oil is really, exhaustible in a physical sense but for the purpose of economic analysis, exhaustion occurs once it is cheaper to use other source of energy.
+
+
+That technology has perhaps masked depletion in many fields goes without saying. The advances in three dimensional (3-D) seismic and computer based analytic techniques as well as other improvements in the transportation refining and marketing stages have remarkably altered the character and structure of the international petroleum industry as put by (Naimi 1995). The objective of the study is to examine the concept of environmentally sound technology and sustainability on climate change in Niger Delta.
+
+
+Sustainability in petroleum operation
+
+
+There is clearly a need to develop a better management approach in oil and gas development, which will have to be environmentally acceptable, economically profitable, and socially responsible. These problems might be solved by developing new technologies that guarantee sustainability. Recently, Khan et al. (2005) and Khan and Islam (2005) introduced a new approach by means of which it is possible to develop a truly sustainable technology. Under this approach, the temporal factor is considered the prime indicator in sustainable technology development.
+
+
+Sustainable petroleum operations development requires a sustainable supply of clean and affordable energy resources that do not cause negative environmental, economic, and social consequences (Dincer and Rosen 2004, 2005). In addition, it should consider a holistic approach where the whole system will be considered instead of just one sector at a time (Mehedi et al. 2007a, 2007b).
+
+
+Recently, Khan and Islam (2005, 2006) developed an innovative criterion for achieving true sustainability in technological development. This criterion can be applied effectively to offshore technological development. New technology should have the potential to be efficient and functional far into the future in order to ensure true sustainability. Sustainable development is seen as having four elements - economic, social, environmental, and technological. Delivery is the overarching concept that drives both implementation and further strategic development as put by (Khan and Islam 2006).
+
+
+Sustainability policy must foster environmental protection and social equity, identify barrier to sustainability and ways to overcoming them. The instrument to implementing sustainability policy may include:
+
+
+Economic (E.g., taxation)Regulatory (Law, certification and standard)Education, communication, information and training.Institutional change (which is a combination of regulatory and economic).
+
+
+Benefits of Sustainable Drilling and Productions
+
+
+The success of high-risk drilling and production operations depends on the use of appropriate technologies. In this section, many emerging technologies have been proposed for drilling and production operations. The main objectives of these proposed technologies are to make development of oil and natural gas cost effective, more efficient, and more protective of the environment. Uses of appropriate technologies will also help find new reserves, improve drilling efficiency, reduce costs, and increase production. The proposed, emerging technologies have had positive environmental benefits in reducing negative impacts on lands, surface waters and aquifers, wildlife, and air quality. Innovations in drilling technology will significantly reduce the environmental impact.
+
+
+This can be achieved, for example, by using smaller drilling pads, smart wells, and measurement while drilling technologies. Better drilling technology can produce more oil and gas from fewer wells. Fewer wells means less land disturbed by drilling operations and the associated surface infrastructure and transportation systems. Use of sustainable technology to produce oil and to meet environmental regulations has developed new, improved techniques and strategies that accomplish both goals. Sustainable drilling and production operations also make good business sense and help protect the environment.
+
+
+Rapid growth of innovative technologies has significantly impacted on the oil and gas development in the last few decades. These trends which have profound implications for the world economy such that, increasingly, major decision around the world on energy issues are driven by sustainability. Industrialization and economic growth are responsible for many industrial environmental dangers in the developing and developing economies of the world. Air pollution caused by emission from fossil fuel combustion is a growing problem. (UNDP, 2000).
+
+
+Environmentally sound technology
+
+
+The availability of energy is critical for economic and industrial development, and so is the emerging consensus on the role of fossil fuels in promoting global warming. However, years of consumption of fossil fuels over the years have led to several of environmental issues. Some of those issues include global warming and air pollution with their attendant health challenges which impact of the quality of life of the world's peoples (Manisalidis, 2020; Martins et al., 2019). In fact, according to the World Bank's Global Gas Flaring Tracker Report, gas flared from the oil and gas industry releases certain pollutants into the atmosphere which include CO2, methane and black carbon, also known as soot (The World Bank, 2021). The pollutants, particularly CO2 are the biggest contributors of climate change which is now biggest risk facing mankind (Anderson, 2016). For instance, the top seven gas flaring countries of Russia, Iraq, Iran, the United States, Algeria, Venezuela and Nigeria are said to account for about 40% of global oil production and about 65% total gas flared into the atmosphere from their oil and gas activities (The World Bank, 2021). Within the last five years, the top seven countries have flared close 500 billion cubic meters of gas into the atmosphere. See Table 1 for volume of gas flared by the big seven for the last five years
+
+
+Table 1Volume of gas flared by the top seven gas flaring countries for 2016-2020 (billion cubic meters) Country
+            . 2016
+            . 2017
+            . 2018
+            . 2019
+            . 2020
+            . Total
+            . Russia 22.37 19.92 21.28 23.21 24.88 111.66 Iraq 17.73 17.84 17.82 17.91 17.37 88.67 Iran 16.41 17.67 17.28 13.78 13.26 78.4 United States 8.86 9.48 14.07 17.29 11.81 61.51 Algeria 9.10 8.80 9.01 9.34 9.32 45.57 Venezuela 9.35 7.00 8.22 9.54 8.59 42.7 Nigeria 7.31 7.65 7.44 7.83 7.20 37.43 Grand Total      465.94 Country
+            . 2016
+            . 2017
+            . 2018
+            . 2019
+            . 2020
+            . Total
+            . Russia 22.37 19.92 21.28 23.21 24.88 111.66 Iraq 17.73 17.84 17.82 17.91 17.37 88.67 Iran 16.41 17.67 17.28 13.78 13.26 78.4 United States 8.86 9.48 14.07 17.29 11.81 61.51 Algeria 9.10 8.80 9.01 9.34 9.32 45.57 Venezuela 9.35 7.00 8.22 9.54 8.59 42.7 Nigeria 7.31 7.65 7.44 7.83 7.20 37.43 Grand Total      465.94 Source: Extracted fromThe World Bank, 2021.View Large
+
+
+In order to evolve a sustainable pattern, reduce the impact of fossil fuels on the planet ensure long-term development, there is now a major shift towards renewables and improve energy efficiency in all sectors (Martins, 2019; UNDP, 2000). Conversely, achieving sustainable energy systems is herculean task despite the efforts made by several stakeholders like governments, international agencies, etc. (Martins, 2019).
+
+
+Again, the rapid globalisation and rationalisation of the energy industries generally and the petroleum industry in particular, coupled with the giant strides in environmentalism has made in the last two decades have highlighted the importance of the transfer of environmentally sound technology, cooperation, and capacity building. It is suggested that environmentally sound technologies (ESTs) that will lower the rate of air pollution be developed and applied in all industries (Manisalidis et al., 2020). ESTs can reduce environmental pollution by adopting of efficient technologies (Kumar et al., 2020). While there is no universally acceptable definition of environmental sound technology (Robinson, 1992). Beside the environmentally soundness of technologies is a relative rather than an absolute term, as it is dependent on technical and economic conditions as well as the level of environmental standard.
+
+
+It was nevertheless agreed at UNCED that Environmentally sound technologies protect the environment, are less polluting, use resources in a more sustainable manner, recycle more of their waste and product, and handle residual waste in more acceptable manner than the technologies for which they were substitutes (Agenda 21) such technology can be referred to as clean technologies and include air pollution cleaning equipment, others are renewable technologies such as such as solar panels and wind turbines increasing the uptake of those technologies can result in several benefits for the environment (UNEP).
+
+
+In the context of pollution, environmentally sound technologies are processes and "product technologies" which generate low or no waste, in order to prevent pollution. Also included in the concept are the "end of pipe" technologies for treating pollution after its generation. Environmentally sound technologies are more than just individual technologies, but systems which include know-how, procedure, goods and services and equipment including organisational and managerial procedure for
+
+
+The need for favourable access to and transfer of environmentally sound technologies to Nigeria cannot be overemphasized. This is partly because the availability of scientific and technological information and access and transfer of environmentally sound technology are essential requirements for sustainable development.
+
+
+Also, Ibibia (2002) submitted that the increasing spate oil and gas exploration and development in Nigeria have brought considerable strain on the Niger Delta environment in Nigeria and highlighted the urgency for diffusion of clean technologies. Not being unmindful of the growing effect of internation environmental law and the changing standards of environmental performance in the home countries of oil and gas multinational enterprise, Nigerian Government have introduced environmental regulatory pressures to bear on oil and gas industry operation.
+
+
+Furthermore, Ibibia (2002) posited that one possible way by which industry can avoid violating these new standards and yet remain competitive is to take the initiative in introducing clean technologies in all aspects of their operations rather than assume that because of their technological backwardness, Nigeria can serve as a dumping ground for obsolete technologies. But more importantly, government have to chart the way forward.
+
+
+In Nigeria, the awareness by country of the damage of pollution arising from project where oil companies are located has increased their cost to the extent communities are demanding for compensation. According to Falobi (2009) natural gas in Nigeria has not attained its potential as a major source of fiscal revenue in the domestic economy because of inadequate funding for infrastructure development, inept pricing of natural gas for domestic gas policy and regulatory framework and environmental degradation due to gas flaring
+
+
+The combination of these factors sub-optimizes Nigeria competitive position in a rapidly evolving and intensely competitive global gas business. However, the gas infrastructure blueprint aims to address these barriers and leverage a diversified industry player base to actualize this. According to This day report of 30th October (2013): Clear gas development policies can help boost the economy, power generation and improve the standard of living for Nigerians. The report stated further that the federal government of Nigeria should harness the potentials of the nation's enormous gas reserves by establishing a win-win situation that would serve as investments in domestic gas projects. The report also sought the creation of positive incentives to encourage local and international investments in the entire gas value chain, while promoting a willing buyer-willing seller market-driven pricing regime.
+
+
+Methodology.
+
+
+The methodology involves collection of secondary data from literature review and the case study of international and indigenous oil and gas operators in Niger Delta region of Nigeria.
+
+
+Result and discussions
+
+
+According to Omar (2010), the exploration and production of oil and gas has as it main purpose to "Extract (in a cost effective, efficient, safe and as environmentally friendly as reasonable) the hydrocarbons that rely in basins under the soil surface (either in land, fresh water bodies or in the seas) and transport, process and deliver the production to a market". He stated further that: The value chain of oil and gas encompasses the chain of technological solutions that make possible to bring the hydrocarbon products from the reservoir to the final market. It is usually divided in Up‐stream, Mid‐stream and downstream.
+
+
+Effective management in the short, medium and long term is prerequisite for the attainment of sustainable development. The key to effective management in the upstream sector lies in careful planning and formulation of policies, strategies, mechanism and law that will enhance the capacities of the people to solve multifaceted economic, social and environmental problems in an integrated fashion. Effective management of the environmental impact of project is a major concern in the oil and gas industry.
+
+
+According to Herriot watt Institute of petroleum studies (2005): Pollution and other forms of environmental damage are common by products of most industrial activities and classified by economist as "externalities" implying zero financial implication to business. In the absence of effective penalties the avoidance of pollution increases operating cost and is likely to reduce rather than to enhance profitability. Therefore there is no direct, economics incentives for profit maximizing organisation to think about pollution. It is consequently necessary for government to build a framework of legislation for environment protection
+
+
+Ecological analysis is necessary especially with the recent environmental degradation caused by pollution related industry. It is concerned with the analysis of possible damage to a manageable level. No industry that has high environmental and climate change concern around the world than oil and gas. For policy maker it should be noted that environmental considerations and public opposition to oil and gas projects affect opportunities for investment and the cost of projects. Technology is both an input and output of business organisation as well as being an environmental influence on them.
+
+
+Environmentally sound technology encompasses evolving group of method and materials for production of essential nontoxic product by oil and gas operators. Oil and gas development are very important drivers for job creation and also a pillar of economic growth in many oil and gas producing country. They play prominent role in the development of developed countries in terms of creating employment opportunities. The oil and gas operators generate waste and pollution from their practices and business because of their informal nature, lack of regulation and supervision. The pollution produces by the oil and gas have contributed immensely to the global warming and natural resources depletion leading to many economic and social problems
+
+
+Case study of application of environmentally sound technologies by energy companies.
+
+
+According to the investor village report (2011): The company Britania – U a marginal field operator currently produces 2.2mmscfd of gas from its Ajapa field out of which 1.8mmscfd is reserved to power the production system on board the Floating Production, Storage and Offloading owned by the company, while the balance of 400sctd is small to be used for anything, rather the company fixed sonic flare tip, which is the latest technology ever to be used in the country, which cleans out the poisonous element and emits smokeless air into the environment.Also, total energy Nigeria limited, as part of its drive towards clean energy and reduce carbon emissions, the company had embarked on the installation of solar energy at its offices, retail outlets, and project sites adding to the deployment of modern technologies in its operations. TotalEnergies, through its Joint Venture with the Nigerian National Petroleum Corporation (NNPC), earned $1.4 million through the sales of Carbon Credit on the United Kingdom market in 2020.The Southern Swamp Associated Gas Solutions project captures gas produced alongside oil in the Niger Delta to help reduce flaring. The Shell Petroleum Development Company of Nigeria Ltd (SPDC) Joint Venture reported a 17% decrease in routine flaring in 2020. Further associated gas flaring reductions by SPDC are anticipated with the completion of commissioning of the Forcados Yokri gas-gathering project in 2021. This is in line with Vijay (2012), submission that: "By reducing gas flaring, oil producing countries and companies are improving energy efficiencies and mitigating climate change. Instead of wasting this valuable resource, we now need to develop gas market and infrastructure so the associated gas can be utilized to generate electricity and cleaner cooking fuels."
+
+
+Conclusion and recommendations
+
+
+The study set out the one of the strategies and mechanisms for implementing the techniques for managing the environmental aspect of the energy industry. It was revealed that technology may involve, but is by no means restricted to equipment, patients processes and copy rights. It is rather o host of intricate interconnected factors that traverse equipment, patients, processes and copyrights and most importantly knowledge of how to invent, manipulate and use the above-mentioned factors towards the attainment of definite goals.in recent time emphasis has shifted from the transfer of technology perse to environmentally sound technology for climate change mitigation.
+
+
+Recommendations
+
+
+Research and development efforts should be geared towards innovation, dissemination and management of environmentally sound technology.Education and training program should be tailored to meet the need for environmentally sound technologies with interdisciplinary outlook.There should be building of capabilities for craft persons, technicians and middle level managers, scientist, engineers and educators as well as developing their corresponding social and managerial support systems.There should be collaborative efforts of governments, industries and individuals for the implementations of environmentally sound technologies.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Anderson, T.R., Hawkins, E. & Jones, P.D. (2016). CO2, the greenhouse effect and global warming: from the pioneering work of Arrhenius and Calendar to today's Earth System Models. Endeavour, 40(3), 178–187.Google ScholarCrossrefSearch ADS PubMed Falobi, E.O.2009: Economic evaluation of natural gas utilization: Nigeria case study University of Lagos. Federal ministry of finance: Available from:www.oagfnig.com (accessed on 12th December 2010).Google Scholar Ibibia, L. W (2002): Environmental Law and policy of Petroleum Development. Strategies and Mechanisms for Sustainable Management in Africa. Pp 265–267Published by Anpez Center for Environment and Development Port Harcourt.Google Scholar Investor Village report (2011): Nigerian marginal fields: navigating through the financing storms: Available at:www.investorvillage.com/groups.asp (accessed on 30th May 2012)Khan, M.I. and Islam, M.R. (2006) Ecosystem-Based Approaches to Offshore Oil a d Gas Operation: An Alternative Environmental Management Technique. SPE Annual Technical Conference and Exhibition, Denver, USA. October 6-8.Google Scholar KumarR., NandaA.H.G., SharmaP. (2020) Environmentally Sound Technologies for Sustainability and Climate Change. In: LealW.Filho, AzulA.M., BrandliL., Lange SalviaA., WallT. (eds) Partnerships for the Goals. Encyclopedia of the UN Sustainable Development Goals. Springer, Cham. DOI:10.1007/978-3-319-71067-9_27-1Google Scholar Mehedi, M., Khan, M.I., Ketata, C., and Islam, M.R. (2007b) A risk management model for the valued ecosystem components in offshore operations, Int. J. Risk Assessment and Management, in press.Google Scholar Naimi, H. E (1995): Oil, Environment and Technology" OPEC Bulletin, October1995, Page 4.Google Scholar OmarR. M (2010): Model for economical analysis of oil and gas deepwater production concepts / Comparisons of Life Cycle Cost of Subsea Production Systems vs. Floating Structures with dry wellheadsa. A master thesis: university of Stavanger 2010.Google Scholar Robinson, N. A (1992): Agenda 21, the united nation procceding vol IV (New: York : Ocean publications, Inc, 1993, p.554Google Scholar The World Bank (2021). The Global Gas Flaring Tracker Report. The World Bank.Manisalidis, I., Stavropoulou, E., Stavropoulos, A. & Bezirtzoglou, E. (2020). Environmental and health impacts of air pollution: A review. Frontiers in Public Health, https://doi.org/10.3389/fpubh.2020.00014.Google Scholar Martins, F., Felgueiras, C., Smitkova, M. & Caetano, N. (2019). Analysis of fossil fuel energy consumption and environmental impacts in European countries. Energies, 12(964), 1–11. DOI:10.3390/en12060964.Google Scholar Mehedi, M.Y., Chhetri, A.B., Ketata, C., and Islam, M.R. (2007a): An Approach for Conflict Resolution in Oil and Gas Operations, Int. J. Risk Assessment and Management, in press.Google Scholar This day report (30th, October2013): Nigeria stunted output from marginal fields. Available athttp://www.hellenicshippingnews.com/News.aspx?ElementId=f0db2f59-d47b-4720-b218-9f5557d78a64 assessed on 2nd November 2013.UNDP2000: United nation development programme, special unit for technical cooperation among developing country.VijayIyer (2012): World Bank see warning sign of gas flaring increase: Available at:https://www.worldbank.org/en/news/press-release/2012/07/03/world-bank-sees-warning-sign-gas-flaring-increase accessed on 14th march 2021.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211933-MS
+
+
+

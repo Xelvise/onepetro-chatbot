@@ -1,0 +1,494 @@
+----- METADATA START -----
+Title: New Oil Formation Volume Factor Correlation for Nigerian Crude Oils
+Authors: Aneel Jordan Atthi, Aliyu Adebayo Sulaimon, Oluwatoyin Kunle Akinsete
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211968-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+A comprehensive description of reservoir fluid properties is critical in developing solutions and resolving reservoir engineering issues. The oil formation volume factor, βo, is an indispensable reservoir fluid property in reservoir engineering calculations. In this study, we used a total of 11040 data points from 1840 oil samples to develop new βo correlations for the Nigerian crude oils specifically, and another set of correlations for the other regions herein referred to as the global crude oils. Linear regression (LR), multiple linear regression (MLR), multiple non-linear regression (MNLR), neural network (NN), support vector machine (SVM), and the group method of data handling (GMDH) techniques were used to develop several correlations. Results show that the GMDH method yielded the best correlation while the MNLR is the least accurate. The root means square error (RMSE) for the Nigerian, and Global correlations are 0.0033, and 0.0256 respectively. The two correlations are reliably better in terms of accuracy than the existing correlations. The new correlations would facilitate a more accurate reservoir characterization, and reliable design of surface equipment.
+
+
+
+
+Keywords:
+pvt measurement,
+machine learning,
+validation,
+upstream oil & gas,
+correlation,
+accuracy,
+reservoir simulation,
+gravity,
+multiple non-linear regression,
+mnlr
+
+
+Subjects: 
+Fluid Characterization,
+Reservoir Simulation,
+Phase behavior and PVT measurements
+
+
+
+
+Introduction
+
+
+The oil formation volume factor (OFVF or βo) is the ratio of the liquid volume at reservoir conditions to the liquid volume at the stock tank or standard condition (Guo, Liu & Tan, 2017). This is the factor that is used to convert reservoir barrels to stock tank barrels. The standard units of oil formation volume factor are usually expressed as units of reservoir volume over standard volume (bbl/STB). In its simplest form, the βo is defined as the ratio of oil volume in its natural resource to the amount of oil present at the surface condition (Elmabrouk, Zekri & Shirif, 2014). Because the vast majority of produced oil and gas measurements are taken at the surface, we must convert measured surface volume to reservoir volume to use this definition. Because produced oil often contains dissolved gas, the value of Bo is always larger than one.
+
+
+When crude oil is produced, it will result in a decline in the amount of oil that is being produced. Shrinkage is the term used to describe this phenomenon. It is possible to determine the shrinkage of produced crude oil by utilizing the formation volume factor (Bo). This component is regarded to be one of the most significant physical features of crude oil since it is directly connected to the calculation of the crude oil, which is referred to as stock tank oil initially in place (STOIIP).
+
+
+As the oil flows from the reservoir to the surface, the oil loses its dissolved gasses which were initially at high pressures and temperatures. Three interesting things occur when the oil moves from the reservoir to the surface. Firstly, as the oil moves from the reservoir to the surface, dissolved gasses tend to be lost, and thus this causes the oil to lose its mass when it finally reaches the surface. Secondly, due to the decline in temperature during this process, the oil tends to shrink. Thirdly, similar to the phenomenon of the increase in the size of a bubble of air rising from the seabed to the surface, the oil in this case also tends to expand due to pressure decline. (McCain, 1993).
+
+
+Methodology and Setup
+
+
+Data gathering
+
+
+The preparation of appropriate data is the first stage in developing a viable model to correlate the βo. These locations include Malaysia, the Middle East, the North Sea, the United States, and Nigeria. Table 1 below states the range of data collected accordingly. All these data are combined to generate a global correlation for the βo. Hence two (2) correlations will be generated in this study: a correlation for the Nigerian crude oil and a general correlation for the global crude oils.
+
+
+Table 1Range of data Nigerian Oil formation volume factor, bbl/STB 1.0230 - 2.4920 Solution gas-oil ratio, SCF/STB 90 – 2637 Gas specific gravity (air=1) 0.612 – 1.386 API gravity, ° API 21.8 – 63.7 Reservoir temperature, °F 32 – 280 Bubble-point pressure (psi), Pb 150 – 17340 Oil formation volume factor, bbl/STB 1.0230 - 2.4920 Solution gas-oil ratio, SCF/STB 90 – 2637 Gas specific gravity (air=1) 0.612 – 1.386 API gravity, ° API 21.8 – 63.7 Reservoir temperature, °F 32 – 280 Bubble-point pressure (psi), Pb 150 – 17340 View Large
+
+
+Data processing
+
+
+A total of five (5) parameters were used as input variables or predictors in the development of the correlations. These include the bubble-point pressure (Pb), solution gas-to-oil ratio (Rs), API gravity, gas gravity (γg), and reservoir temperature (TR). The data are split into three (3) separate sets: the training set, the validation set, and the testing set, which is known as partitioning the data. Training sets are used to build models, whereas validation sets are used to guarantee that the developed models are produced most optimally, and testing sets are used to evaluate the final performance of the models.
+
+
+Developing Model
+
+
+MATLAB, Microsoft Excel, and software called GMDH Shell were used in this study to develop new correlations for the βo. To achieve this, five techniques were used: linear regression (LR), multiple nonlinear regression (MNLR), support vector machine (SVM), neural network (NN), and the group method of data handling (GMDH).
+
+
+Model Analysis
+
+
+The usage of graphical tool aids is used to explain the graphical error analysis and to check the new correlation's correctness and efficiency. The cross-plot approach will be the primary technique used in this study. Additionally, the mean absolute error (MAE) is used to examine this model, which is a technique for determining expected accuracy by averaging the magnitudes of projected mistakes. Additionally, the root-mean-square error (RMSE) is utilized to quantify the difference between the expected and actual values. The correlation coefficient of determination (R2) is used to quantify the degree of the relationship between two factors. The accuracy of the projected system and the average absolute error (AAE) are determined using the symmetry mean absolute percentage error (SMAPE).
+
+
+Results and Discussion
+
+
+Data Collection
+
+
+The specific gravity of the oil, the specific gravity of the gas, the solution gas-oil ratio (Rs), the temperature of the reservoir, and the bubble point pressure (Pb) were all used in this investigation (Bo). The bulk of reported correlations bases their selection of PVT data points on the input requirements of the data points. To avoid data duplication, each of the data groups was examined for duplication and cross-checked with the other data groups in sequence. Table 2 shows the range of data used in this study. These include solution gas-oil ratio (Rs), gas gravity (γg), oil gravity (API), reservoir temperature (°F), and the bubble point pressure, Pb.
+
+
+Table 2Layout the range of the data points Parameters
+            . Malaysia
+            . Middle East
+            . North Sea
+            . US
+            . Nigeria
+            . This Study
+            . Min
+            . Max
+            . Min
+            . Max
+            . Min
+            . Max
+            . Min
+            . Max
+            . Min
+            . Max
+            . Min
+            . Max
+            . Bo 1.1 2.0 1.2 2.5 1.1 2.6 1.0 2.1 1.0 1.7 1.1 2.0 Rs(SCF/STB) 142 1440 181 2266 90.0 2637 76.6 1850 1.3 209.7 142 1784 Yg (air=1) 0.6 1.3 0.8 1.6 0.7 1.3 0.6 1.4 0.6 29.7 0.6 1.3 API (°) 26.6 53.2 28.2 44.6 31.7 42.9 21.8 63.7 0.5 43.6 26.6 53.2 Temperature (°F) 125 280 100 275.0 80 280 58 255 32 270 125 280 Pb 790 3851 590 4640 150 7127 499 4620 400 17340 790 4640 Parameters
+            . Malaysia
+            . Middle East
+            . North Sea
+            . US
+            . Nigeria
+            . This Study
+            . Min
+            . Max
+            . Min
+            . Max
+            . Min
+            . Max
+            . Min
+            . Max
+            . Min
+            . Max
+            . Min
+            . Max
+            . Bo 1.1 2.0 1.2 2.5 1.1 2.6 1.0 2.1 1.0 1.7 1.1 2.0 Rs(SCF/STB) 142 1440 181 2266 90.0 2637 76.6 1850 1.3 209.7 142 1784 Yg (air=1) 0.6 1.3 0.8 1.6 0.7 1.3 0.6 1.4 0.6 29.7 0.6 1.3 API (°) 26.6 53.2 28.2 44.6 31.7 42.9 21.8 63.7 0.5 43.6 26.6 53.2 Temperature (°F) 125 280 100 275.0 80 280 58 255 32 270 125 280 Pb 790 3851 590 4640 150 7127 499 4620 400 17340 790 4640 View Large
+
+
+The data used in this study were obtained from past literature. The data points for each location that were noted down for this study were carefully cross-checked for repetitions or duplication for more comprehensive and reliable data for the development of the correlations. The data was classified as follows: 70% of the data was used for training, 20% for validation, and the remaining 10% was used for testing.
+
+
+Model Development
+
+
+Nigerian Crude Oil
+
+
+GMDH Method
+
+
+Figure 1 shows the experimental and estimated values in a cross plot. The best fit lines can be seen in the cross plot, which shows that the line passes through the majority of the spots. Using this model, the formation volume factor for Nigerian crude oil can be accurately estimated. The expression for the equation for this region is displayed in equation 1.
+
+
+Figure 1View largeDownload slideCross plot of the Oil Formation Volume FactorFigure 1View largeDownload slideCross plot of the Oil Formation Volume Factor Close modal
+
+
+The following is an expression for the equation for this region:
+
+
+βo(rbblSTB)=−0.00350716+0.052122*X1−0.737316*X1*X2+0.348914*X12+0.953492*X2+0.385997*X12(1)
+
+
+Where,
+
+
+X1=0.779402+γO3*0.129703−γO3*T3*0.0244171+T23*0.0149802X2=1.50632+(γg)3*0.492903−γ023*0.128225
+
+
+Linear Regression
+
+
+The cross plot in Figure 2 illustrates the experimental and estimated values for the linear regression model. Based on the cross plot, we can see that this line passes across the majority of the places and provides the best match-fit lines. As previously mentioned, the separation of validation and testing is illustrated in Figures 3 and 4 below, which illustrate the correlation between the two processes, respectively. The scatter plots of the validation and testing regarding the actual data points against the predicted data points. Where the equation is expressed in equation 2 below.
+
+
+Figure 2View largeDownload slideCross plot of the Oil Formation Volume FactorFigure 2View largeDownload slideCross plot of the Oil Formation Volume Factor Close modal
+
+
+Figure 3View largeDownload slideScatter plot of the validation data setFigure 3View largeDownload slideScatter plot of the validation data set Close modal
+
+
+Figure 4View largeDownload slideScatter plot of the test data setFigure 4View largeDownload slideScatter plot of the test data set Close modal
+
+
+βo=0.002618*X1+0.000798*X2+5.04997395531457E−07*X3+0.000595*X4+4.19088391722551E−06*X5+0.935411422498132(2)
+
+
+Where,
+
+
+X1=RS,X2=Yg,X3=Yo,X4=T,X5=Pb
+
+
+Support Vector Machine (MATLAB)
+
+
+After training the Support Vector Machine (SVM) in MATLAB for the Nigerian data, the model then becomes ready for the phase of testing and validation or evaluation by using the cross-validation option in the application. Note that for the Nigerian data they were segregated into groups of training (70%), validation (20%) and testing (10%). As for the application, for this data, the best turned out to be the Medium Gaussian SVM as it displayed the lowest errors and the highest accuracy among all the other SVM available in the library. The output data weights are displayed in Table 3 while the results of validation and testing can be seen in Figure 5 and Figure 6 respectively.
+
+
+Table 3Support Vector Machine (SVM) weights output data 
+            . Weight
+            . Alpha
+            . Iteration
+            . 1
+            . 2
+            . 3
+            . 4
+            . 5
+            . Ai
+            . 1 −0.5854 −1.8116 0.2404 −0.4847 1.6418 −0.1518 2 −0.6822 −1.8094 0.2404 −0.4847 1.0696 −0.0525 3 0.2946 −1.8097 0.3057 0.14654 6.3617 −0.1518 4 0.0012 −1.8096 0.3057 0.14654 4.9315 −0.1518 5 −0.2515 −1.8092 0.3057 0.14654 3.5014 −0.1518 6 −0.7134 −1.8066 0.3057 0.14654 0.6406 −0.1518 7 0.28214 −1.8081 0.3085 0.05955 5.7895 −0.1518 8 0.01375 −1.8087 0.3085 0.05955 4.3594 −0.1518 9 −0.2452 −1.8088 0.3085 0.05955 2.9292 −0.1518 10 −0.4824 −1.8082 0.3085 0.05955 1.4986 −0.1518 
+            . Weight
+            . Alpha
+            . Iteration
+            . 1
+            . 2
+            . 3
+            . 4
+            . 5
+            . Ai
+            . 1 −0.5854 −1.8116 0.2404 −0.4847 1.6418 −0.1518 2 −0.6822 −1.8094 0.2404 −0.4847 1.0696 −0.0525 3 0.2946 −1.8097 0.3057 0.14654 6.3617 −0.1518 4 0.0012 −1.8096 0.3057 0.14654 4.9315 −0.1518 5 −0.2515 −1.8092 0.3057 0.14654 3.5014 −0.1518 6 −0.7134 −1.8066 0.3057 0.14654 0.6406 −0.1518 7 0.28214 −1.8081 0.3085 0.05955 5.7895 −0.1518 8 0.01375 −1.8087 0.3085 0.05955 4.3594 −0.1518 9 −0.2452 −1.8088 0.3085 0.05955 2.9292 −0.1518 10 −0.4824 −1.8082 0.3085 0.05955 1.4986 −0.1518 View Large
+
+
+Figure 5View largeDownload slideScatter plot of the validation data setFigure 5View largeDownload slideScatter plot of the validation data set Close modal
+
+
+Figure 6View largeDownload slideScatter plot of the test data setFigure 6View largeDownload slideScatter plot of the test data set Close modal
+
+
+Neural Network
+
+
+After training the Nigerian data on the MATLAB Neural Network (NN) application, the data was also tested, and the output is shown in the table below. To perform this, the data group were segregated into groups of training (70%), validation (20%), and testing (10%). The testing data was not seen by the neural network to achieve high accuracy of the final results. As for the application, for this data, the best turned out to be the Medium NN as it displayed the lowest errors and the highest accuracy among all the other NN available in the library. The output data weights are displayed in Table 4 while the results of validation and testing can be seen in Figure 7 and Figure 8.
+
+
+Table 4Neural Network (NN) weights output data Hidden Layer
+            . 
+            . Weight
+            . Biases
+            . Iteration
+            . 1
+            . 2
+            . 3
+            . 4
+            . 5
+            . Bj
+            . 1 −0.0289 0.0732 −0.2608 −0.3052 −0.5119 −0.0556 2 0.0853 −0.2272 −0.0835 −0.2384 −0.0420 0.0239 3 0.0733 −0.0123 −0.4460 0.3040 0.23662 −0.0880 4 0.0059 0.1989 −0.0429 −0.1606 −0.3484 −0.0880 5 −0.0150 0.0046 0.3533 0.0255 −0.4679 −0.1220 6 0.2170 −0.3057 0.0476 0.5423 0.2716 −0.0532 7 0.1361 0.1597 −0.6056 −0.1633 −0.3480 0.1720 8 0.0576 −0.3244 0.0717 −0.2832 −0.0927 0.1239 9 −0.0747 −0.0828 −0.2494 −0.1018 0.3042 0.3604 10 −0.3195 −0.1813 −0.1067 0.1717 −0.2580 −0.1118 Hidden Layer
+            . 
+            . Weight
+            . Biases
+            . Iteration
+            . 1
+            . 2
+            . 3
+            . 4
+            . 5
+            . Bj
+            . 1 −0.0289 0.0732 −0.2608 −0.3052 −0.5119 −0.0556 2 0.0853 −0.2272 −0.0835 −0.2384 −0.0420 0.0239 3 0.0733 −0.0123 −0.4460 0.3040 0.23662 −0.0880 4 0.0059 0.1989 −0.0429 −0.1606 −0.3484 −0.0880 5 −0.0150 0.0046 0.3533 0.0255 −0.4679 −0.1220 6 0.2170 −0.3057 0.0476 0.5423 0.2716 −0.0532 7 0.1361 0.1597 −0.6056 −0.1633 −0.3480 0.1720 8 0.0576 −0.3244 0.0717 −0.2832 −0.0927 0.1239 9 −0.0747 −0.0828 −0.2494 −0.1018 0.3042 0.3604 10 −0.3195 −0.1813 −0.1067 0.1717 −0.2580 −0.1118 View Large
+
+
+Figure 7View largeDownload slideThe scatter plots of the validationFigure 7View largeDownload slideThe scatter plots of the validation Close modal
+
+
+Figure 8View largeDownload slideScatter plot of the test data setFigure 8View largeDownload slideScatter plot of the test data set Close modal
+
+
+Multiple Non-Linear Regression (MNLR)
+
+
+The following results in Figure 9 are regarding the Multiple Non-Linear Regression or MNLR for the Nigerian data which displays the experimental values against the estimated values. The formula generated by the MNLR for the oil formation volume factor is shown below in equation 3.
+
+
+Figure 9View largeDownload slidePlot of experimental and predicted valuesFigure 9View largeDownload slidePlot of experimental and predicted values Close modal
+
+
+βo=Pb*0.0000031+0.00058*T+0.00084*Yg+0.00271*Rs+0.93416(3)
+
+
+Where,
+
+
+X1 = Pb, X2 = T, X3 = Yg, and X4 = Rs
+
+
+Statistical and Graphical Error Analysis
+
+
+Table 5 below tabulates the statistical error analysis of the developed models (Bo) for the Nigerian Data Set model. Table 5 quantitatively demonstrates that the models developed in this study outperform those developed in previous studies. In terms of RMSE, the GMDH method correlation is the best to be used following the other models developed in this study. The best illustration of this is in Figure 10.
+
+
+Table 5Statistical error analysis Nigeria
+            . RMSE
+            . R2
+            . SMAPE (%)
+            . MAE
+            . GMDH (This Study) 0.0033 0.9996 0.2102 0.0337 LIN REG (This Study) 0.0674 0.8500 15.526 0.0265 SVM (This Study) 0.0335 0.9600 12.413 0.0172 NN (This Study) 0.1601 0.8300 4.1856 0.0158 MNLR (This Study) 1.2001 0.9560 1.0002 0.0100 Omar 1.4102 0.9100 45.1650 0.0144 Standing 1.6540 0.9700 15.4150 0.0235 Glaso 1.5181 0.9100 4.5176 0.0299 Al-Marhoun 1.2378 0.9200 1.6498 0.0243 Nigeria
+            . RMSE
+            . R2
+            . SMAPE (%)
+            . MAE
+            . GMDH (This Study) 0.0033 0.9996 0.2102 0.0337 LIN REG (This Study) 0.0674 0.8500 15.526 0.0265 SVM (This Study) 0.0335 0.9600 12.413 0.0172 NN (This Study) 0.1601 0.8300 4.1856 0.0158 MNLR (This Study) 1.2001 0.9560 1.0002 0.0100 Omar 1.4102 0.9100 45.1650 0.0144 Standing 1.6540 0.9700 15.4150 0.0235 Glaso 1.5181 0.9100 4.5176 0.0299 Al-Marhoun 1.2378 0.9200 1.6498 0.0243 View Large
+
+
+Figure 10View largeDownload slideRoot Mean Square Error for the correlationsFigure 10View largeDownload slideRoot Mean Square Error for the correlations Close modal
+
+
+In terms of the R2 also the GMDH method as it shows the highest correlation and is followed by the MATLAB Support Vector Machine (SVM). This is best illustrated in Figure 11. As for the Symmetrical Mean Absolute Percentage Error (SMAPE), the best in this study also will be the GMDH method with a reading of 0.210283% while the next best would be the MNLR method with a reading of 1.000259% as illustrated in Figure 12. In terms of the Mean Absolute Error (MAE) however, in this study, the MNLR method has the lowest error which is 0.010053 followed by the ANN method of 0.01586 as shown in figure 13. Results show that the best correlation for the Nigerian crude oil obtained from the GMDH method with the RMSE, R2, and SMAPE values of 0.0033, 0.9996, and 0.2102 respectively. The statistical error analyses of the new Bo compared to the previous correlations are illustrated in figures 10 to 13.
+
+
+Figure 11View largeDownload slideCoefficient of Determination for the correlationsFigure 11View largeDownload slideCoefficient of Determination for the correlations Close modal
+
+
+Figure 12View largeDownload slideSymmetrical Mean Absolute Percentage Error (SMAPE) for the correlationsFigure 12View largeDownload slideSymmetrical Mean Absolute Percentage Error (SMAPE) for the correlations Close modal
+
+
+Figure 13View largeDownload slideMean Absolute Error (MAE) for the correlationsFigure 13View largeDownload slideMean Absolute Error (MAE) for the correlations Close modal
+
+
+Global Dataset
+
+
+GMDH Method
+
+
+The cross plot below in Figure 14 shows the experimental and estimated values. We can see from the cross plot that the line passes across the bulk of the spots and provides the best fit lines. This demonstrates that this model provides a more accurate estimate of the formation volume factor.
+
+
+Figure 14View largeDownload slideCross plot of the Oil Formation Volume FactorFigure 14View largeDownload slideCross plot of the Oil Formation Volume Factor Close modal
+
+
+The equation for this region can be expressed as:
+
+
+βo(rbblSTB)=−0.0681407+X1*0.182542−0.0600287*X12+0.920176*X2+0.0220794*X22(4)
+
+
+Where,
+
+
+X1=1.4629+Rs3*0.14302+Rs3*γg3*0.0379894+Rs32*0.0141038−γg3X2=1.13149+Pb*γg3*0.000254518−Pb^2*1.48742e−08−γg3*0.140463−γg32*0.0443775
+
+
+Linear Regression
+
+
+The experimental and estimated values are depicted in the cross-plot shown in Figure 15 below. Based on the cross plot, we can see that this line passes through the majority of the spots and provides the best fit lines. The expression is represented in equation 5 when it is deployed.
+
+
+Figure 15View largeDownload slideCross plot of the Oil Formation Volume FactorFigure 15View largeDownload slideCross plot of the Oil Formation Volume Factor Close modal
+
+
+βO=0.0000924476111378206*Rs−0.000359*Yg0.0009*Yo+0.000465*T+0.0000631*Pb+0.975696(5)
+
+
+Where,
+
+
+X1= Rs,X2= Yg, X3= Yo,X4 = T, X5 = Pb
+
+
+Support Vector Machine (MATLAB)
+
+
+After training the Support Vector Machine (SVM) in MATLAB for the Global data, the model then becomes ready for the phase of testing and validation or evaluation by using the cross-validation option in the application. Note that Global data were segregated into groups of training (70%), validation (20%) and testing (10%). As for the application, for this data, the best turned out to be the Quadratic SVM as it displayed the lowest errors and the highest accuracy among all the other SVM available in the library. The output data weights are displayed in Table 6 while the results of validation and testing can be seen in Figure 16 and Figure 17 respectively.
+
+
+Table 6Support Vector Machine (SVM) output data 
+            . Weight
+            . Alpha
+            . Iteration
+            . 1
+            . 2
+            . 3
+            . 4
+            . 5
+            . Ai
+            . 1 0.8436 −0.5610 1.0168 1.4974 0.3837 0.2309 2 0.0480 −0.5305 0.9073 0.5370 −0.2158 −0.2309 3 −0.3612 −0.5320 0.8525 0.8502 −0.4563 −0.2309 4 −0.0396 −0.5291 0.7978 0.6831 −0.1458 −0.2309 5 0.1419 −0.5378 0.4266 0.8502 −0.0745 −0.2309 6 −0.3758 −0.5400 0.8525 0.8502 −0.4563 −0.2309 7 −0.1587 −0.5518 0.7673 0.7458 −0.1173 −0.2309 8 −0.2651 −0.5395 0.8647 0.7249 −0.3528 −0.2309 9 −0.0396 −0.5389 0.9620 0.6831 −0.1937 −0.2309 10 −0.0522 −0.5424 0.7369 1.1216 0.0839 −0.2309 
+            . Weight
+            . Alpha
+            . Iteration
+            . 1
+            . 2
+            . 3
+            . 4
+            . 5
+            . Ai
+            . 1 0.8436 −0.5610 1.0168 1.4974 0.3837 0.2309 2 0.0480 −0.5305 0.9073 0.5370 −0.2158 −0.2309 3 −0.3612 −0.5320 0.8525 0.8502 −0.4563 −0.2309 4 −0.0396 −0.5291 0.7978 0.6831 −0.1458 −0.2309 5 0.1419 −0.5378 0.4266 0.8502 −0.0745 −0.2309 6 −0.3758 −0.5400 0.8525 0.8502 −0.4563 −0.2309 7 −0.1587 −0.5518 0.7673 0.7458 −0.1173 −0.2309 8 −0.2651 −0.5395 0.8647 0.7249 −0.3528 −0.2309 9 −0.0396 −0.5389 0.9620 0.6831 −0.1937 −0.2309 10 −0.0522 −0.5424 0.7369 1.1216 0.0839 −0.2309 View Large
+
+
+Figure 16View largeDownload slideScatter plot of the validation data setFigure 16View largeDownload slideScatter plot of the validation data set Close modal
+
+
+Figure 17View largeDownload slideScatter plot of the test data setFigure 17View largeDownload slideScatter plot of the test data set Close modal
+
+
+Neural Network
+
+
+After training the Global data on the Neural Network (NN) application, the data was also tested, and the output is shown in Table 7 below. To perform this, the data group were segregated into groups of training (70%), validation (20%) and testing (10%). The testing data was not seen by the neural network to achieve high accuracy of the final results. As for the application, for this data, the best turned out to be the Narrow NN as it displayed the lowest errors and the highest accuracy among all the other NN available in the library. The output data weights are displayed in Table 7 while the results of validation and testing can be seen in Figures 18 and 19 respectively.
+
+
+Table 7Neural Network (NN) weights output data Hidden Layer
+            . Weight
+            . Iteration
+            . 1
+            . 2
+            . 3
+            . 4
+            . 5
+            . Biases
+            . 1 0.3523 −0.2129 0.3051 −0.0096 0.0287 0.05406 2 −0.1973 0.76791 0.2736 −0.1533 0.2795 0.24182 3 0.0122 0.64836 −0.1510 0.21295 0.1677 0.23553 4 0.3919 −0.4912 0.74189 −0.4703 −0.0243 −0.0896 5 −0.2461 0.7585 0.08943 0.00630 −0.5656 −0.5261 6 0.11777 0.02938 0.25036 0.37277 0.14763 −0.2005 7 0.21717 −0.4663 0.53089 −0.0977 0.35625 0.06571 8 0.46521 −0.4781 0.19451 −0.0721 0.03312 0.47667 9 −0.3132 −0.1243 −0.4058 −0.0116 −0.0797 0.47144 10 0.13973 −0.0844 0.29022 −0.2149 0.25111 −0.2348 Hidden Layer
+            . Weight
+            . Iteration
+            . 1
+            . 2
+            . 3
+            . 4
+            . 5
+            . Biases
+            . 1 0.3523 −0.2129 0.3051 −0.0096 0.0287 0.05406 2 −0.1973 0.76791 0.2736 −0.1533 0.2795 0.24182 3 0.0122 0.64836 −0.1510 0.21295 0.1677 0.23553 4 0.3919 −0.4912 0.74189 −0.4703 −0.0243 −0.0896 5 −0.2461 0.7585 0.08943 0.00630 −0.5656 −0.5261 6 0.11777 0.02938 0.25036 0.37277 0.14763 −0.2005 7 0.21717 −0.4663 0.53089 −0.0977 0.35625 0.06571 8 0.46521 −0.4781 0.19451 −0.0721 0.03312 0.47667 9 −0.3132 −0.1243 −0.4058 −0.0116 −0.0797 0.47144 10 0.13973 −0.0844 0.29022 −0.2149 0.25111 −0.2348 View Large
+
+
+Figure 18View largeDownload slideScatter plot of the validation data setFigure 18View largeDownload slideScatter plot of the validation data set Close modal
+
+
+Figure 19View largeDownload slideScatter plot of the test data setFigure 19View largeDownload slideScatter plot of the test data set Close modal
+
+
+Multiple Non-Linear Regression (MNLR)
+
+
+The following results in Figure 20 are regarding the Multiple Non-Linear Regression or MNLR for the Global data which will display the experimental values against the estimated values where the equation is expressed in equation 6 below.
+
+
+Figure 20View largeDownload slidePlot of experimental and predicted valuesFigure 20View largeDownload slidePlot of experimental and predicted values Close modal
+
+
+βo=0.000754*X1+0.002633*X2+0.000532*X3+0.912573(6)
+
+
+Where,
+
+
+X1 = T, X2= Yg, X3= Rs
+
+
+Statistical and Graphical Error Analysis
+
+
+Table 20 displays the statistical error analysis of the developed models (Bo) for the Global Data Set model. The respective values of RMSE, R2, and SMAPE of 0.0255, 0.9907, and 1.4318 indicate that the GMDH correlation is the best when compared with the remaining correlations. Figures 21 to 24 show the bar chart illustrating the error analyses of the different correlations.
+
+
+Table 20Statistical error analysis Global Dataset
+            . RMSE
+            . R2
+            . SMAPE
+            . MAE
+            . GMDH (This Study) 0.0255 0.9907 1.4318 0.0183 LIN REG(This Study) 0.0339 0.9800 19.5693 0.0231 SVM (This Study) 0.0329 0.9800 19.3057 0.0216 NN (This Study) 0.0311 0.9900 16.9167 0.0194 MNLR (This Study) 1.1024 0.9423 3.2176 0.0324 Omar 1.4102 0.9100 45.1655 0.0144 Standing 1.6540 0.9700 15.4154 0.0235 Glaso 1.5181 0.9100 4.5176 0.0299 Al-Marhoun 1.2378 0.9200 1.6498 0.0243 Global Dataset
+            . RMSE
+            . R2
+            . SMAPE
+            . MAE
+            . GMDH (This Study) 0.0255 0.9907 1.4318 0.0183 LIN REG(This Study) 0.0339 0.9800 19.5693 0.0231 SVM (This Study) 0.0329 0.9800 19.3057 0.0216 NN (This Study) 0.0311 0.9900 16.9167 0.0194 MNLR (This Study) 1.1024 0.9423 3.2176 0.0324 Omar 1.4102 0.9100 45.1655 0.0144 Standing 1.6540 0.9700 15.4154 0.0235 Glaso 1.5181 0.9100 4.5176 0.0299 Al-Marhoun 1.2378 0.9200 1.6498 0.0243 View Large
+
+
+Figure 21View largeDownload slideRoot Mean Square Error for the correlationsFigure 21View largeDownload slideRoot Mean Square Error for the correlations Close modal
+
+
+Figure 22View largeDownload slideCoefficient of Determination for the correlationsFigure 22View largeDownload slideCoefficient of Determination for the correlations Close modal
+
+
+Figure 23View largeDownload slideSymmetrical Mean Absolute Percentage Error (SMAPE) for the correlationsFigure 23View largeDownload slideSymmetrical Mean Absolute Percentage Error (SMAPE) for the correlations Close modal
+
+
+Figure 24View largeDownload slideMean Absolute Error (MAE) for the correlationsFigure 24View largeDownload slideMean Absolute Error (MAE) for the correlations Close modal
+
+
+Conclusion
+
+
+A new set of correlations have been developed specifically for the Nigerian crude oils in one part, and for other crude oils from other regions of the world, hereby termed global correlation. The correlations obtained from the GMDH method with the least error analyses are more reliable than those derived from LR, MNLR, SVM, and the ANN. Furthermore, the GMDH correlations are found to be more accurate than Omar, Standing, Glaso, and Al-Marhoun correlations. The newly developed correlations could facilitate improved reservoir characterization and management.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion BoOil formation volume factor PbBubble Point Pressure RsSolution Gas Oil Ratio γgGas Gravity γoilOil Gravity T(F)Reservoir Temperature SVMSupport Vector Machine NNNeural network GMDHGroup Method of Data Handling
+
+
+References
+
+
+Omar, M., & Todd, A. (1993). Development of New Modified Black Oil Correlations for Malaysian Crudes. SPE Asia Pacific Oil And Gas Conference. https://doi.org/10.2118/25338-msGoogle Scholar Lasater, J. (1958). Bubble Point Pressure Correlation. Journal Of Petroleum Technology, 10(05), 65–67. https://doi.org/10.2118/957-gGoogle ScholarCrossrefSearch ADS  Vasquez, M., & Beggs, H. (1980). Correlations for Fluid Physical Property Prediction. Journal Of Petroleum Technology, 32(06), 968–970. https://doi.org/10.2118/6719-paGoogle ScholarCrossrefSearch ADS  Glaso, O. (1980). Generalized Pressure-Volume-Temperature Correlations. Journal Of Petroleum Technology, 32(05), 785–795. https://doi.org/10.2118/8016-paGoogle ScholarCrossrefSearch ADS  Al-Marhoun, M. A. (1988). PVT Correlations for Middle East Crude Oils. Journal of Petroleum Technology, 40(05), 650–666. https://doi.org/10.2118/13718-paGoogle ScholarCrossrefSearch ADS  Petrosky, G., & Farshad, F. (1998). Pressure-Volume-Temperature Correlations for Gulf of Mexico Crude Oils. SPE Reservoir Evaluation & Engineering, 1(05), 416–420. https://doi.org/10.2118/51395-paGoogle ScholarCrossrefSearch ADS  Osuna, E., Freund, R., & Girosit, F. (n.d.). Training support vector machines: an application to face detection. Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition. https://doi.org/10.1109/cvpr.1997.609310Burges, C. (1998). Data Mining And Knowledge Discovery, 2(2), 121–167. https://doi.org/10.1023/a:1009715923555CrossrefSearch ADS  Cortes, C., & Vapnik, V. (1995). Support-vector networks. Machine Learning, 20(3), 273–297. https://doi.org/10.1007/bf00994018Google Scholar Kartoatmodjo, T., & Schmidt, Z. (1994). A large data bank improves crude physical property correlations. Oil and Gas Journal; (United States), 92:27. https://www.osti.gov/biblio/7013088-large-data-bank-improves-crude-physical-property-correlationsGoogle Scholar Frashad, F., LeBlanc, J. L., Garber, J. D., & Osorio, J. G. (1996). Empirical PVT Correlations For Colombian Crude Oils. All Days. https://doi.org/10.2118/36105-msGoogle Scholar Al-Shammasi, A. A. (1999). Bubble Point Pressure and Oil Formation Volume Factor Correlations. Middle East Oil Show and Conference. https://doi.org/10.2118/53185-msGoogle Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211968-MS
+
+
+

@@ -1,0 +1,466 @@
+----- METADATA START -----
+Title: Enhancing Reservoir Stimulation through Mathematical Remodeling of Pre-Flush Acidizing Volume Algorithm for Different Reservoir Flow Geometries
+Authors: Justice Chidera Osuala, Daniel Ikechukwu Egu, Anthony John Ilozobhie, Blessing Ogechi Nwojiji
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211916-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Studies show that an average of 35% of reservoir acid stimulation operations executed every year fails because of limited knowledge of downhole acid placement. Existing models designed for acid pre-flush volumes are limited to Linear, Radial and Ellipsoidal reservoir geometries, therefore, do not account for geological drifts of a typical heterogenic reservoir. This can be erroneous while estimating acid placement volumes as reservoirs can deviate from defined flow geometries due to their dynamic and heterogeneous nature, thereby challenging to estimate acid volumes precisely for stimulations. This study aims to foster sustainability in reservoir flow engineering by deriving a mathematical model that evaluates volumes for reservoirs with flow geometries that deviate from linear and radial. This was established to help introduce a new geometry contributing to the accountability of complex and heterogeneous reservoirs. Sensitivity analysis and investigation using reservoir core data from SPDC Petroleum Chemistry Laboratory were carried out to understand the relationship between Linear, Radial and Modified flow geometries. Analytical results for linear, radial and the fied were generated. These results proved the precision of the modified equation for calculating pre-flush acid volume for reservoir acid stimulation operation.
+
+
+
+
+Keywords:
+drillstem testing,
+result,
+production enhancement,
+downhole intervention,
+upstream oil & gas,
+geometry,
+accuracy,
+regression,
+parameter,
+radial flow geometry result
+
+
+Subjects: 
+Formation Evaluation & Management,
+Acidizing,
+Drillstem/well testing,
+Well Intervention,
+Well Operations, Optimization and Stimulation
+
+
+
+
+Introduction
+
+
+Any unintended impedance to the flow of fluids into or out of a wellbore is referred to as Formation Damage (Mukul, 2007). These damages cause skin production (Amanat, 2004 & Egu, 2014). Well stimulation is a technique used to improve fluid flow from the reservoir and enhance well productivity by dissolving the rock or creating new channels around the wellbore (Schechter, 1992; Schlumberger, 2000 & Crowe et al., 1992).
+
+
+The most applied stimulation techniques are.
+
+
+❖Matrix treatment (Acidizing):❖Hydraulic fracturing (Halliburton, 2000).
+
+
+In carrying out Matrix Treatment Stimulation process, HF acid mixture is used to clear the wellbore of skins. Smith and Hendrickson (1965) illustrated the reactive nature of HF acid with silica which makes it exceptional in the application of sandstone acidizing. Hydrochloric, sulfuric, and nitric acids do not react effectively to the sandstone formation, thereby causing precipitates. Interestingly, this can further cause reduced permeability (Gomez, 2006 & Mohammed et al., 2020). Dowell Division of Dow Chemical discovered that sandstone formation particles such as sand grains, feldspar and clays react with HF acid which results to precipitate production that poses as wellbore damages (USOSTI, 1965 & Frenier and Hill, 2002). To this effect, the need to prepare the wellbore with precipitate-control mixtures known as Pre- flush Acids is important to avoid further damage during acid stimulation. Pre-flush containing approximately 15%wt of HCL acid is usually injected into a well before the HF/HCL mixture is injected for sandstone acidizing treatment (Abdelmoneim and Nasr-El-Din, 2015). This is used to prevent the reaction of hydroﬂuoric acid (HF) with formation (Al-Harthy, 2008). The stages of safe acid placement for matrix acid stimulation are Pre-flush, Main Acid, and Post-Flush (Gomaa et al., 2015). In placing pre- flush acids, the knowledge of the reservoir geometry is usually needed in calculating the volume of acid to be injected the and injection rate (Boyun, et al., 2007 & Egu and Ilozobhie, 2021). Existing volume calculation assumes linear, radial, and ellipsoidal reservoir geometries. Investigations prove that reservoir geometry varies because of geological deformations that change the geo-orientation of a reservoir (Hussein, 2016 & Ilozobhie and Egu, 2020). To this effect, the available calculation models designed based on assumptions that the reservoir flow geometry is either linear, radial or ellipsoidal can increase errors in estimating pre-flush volume and injection rates. A new model for linear-Radial flow geometry is developed in this paper for the estimation of pre-flush volume and flow rate for reservoirs with linear- Radial (Modified) flow geometry. This will reduce errors in volume estimation.
+
+
+This study aims to design and comparatively evaluate the volumes of pre-flush acids for acid stimulation and develop a model for a reservoir with flow geometry that deviates from linear or radial flow profile assuming a liner-radial flow geometry (modified flow geometry).
+
+
+To achieve this aim, the following objectives are considered.
+
+
+To design a suitable and convenient mathematical algorithm for linear-radial flow deviation geometry of a typical Niger-delta reservoir.To carry out sensitivity analysis and investigate comparatively the relationship between linear, radial, and Modified flow geometries.
+
+
+Materials and Description of Processes Materials
+
+
+Microsoft Office Excel.Statistical sensitivity analysis software (SPSS)Reservoir core data from Shell Petroleum Development Company of Nigeria Ltd. (SPDC) Petroleum Chemistry Laboratory.
+
+
+Processes Developing Average Acid Volume for Linear Geometry
+
+
+An equation for calculating acid volume for linear flow geometry is given and contains eight parameters with varying values. These parameters are shown in Table 1 below.Parameters as shown in Table 1 were entered into the Acid volume calculator for linear flow for different values assigned to each of them. Results were entered into the Microsoft Office Excel spreadsheet following the procedures below.Each of the linear flow geometry parameters contains nine values.Taking porosity for example, each value for porosity was varied as other parameters were kept constant.Acidvolumewasgeneratedforeachvaluebeenvariedasotherparameterswerekeptconstant.This gave a total of nine results of acid volume for a particular value of porosity.This is repeated for other values of porosity.An average is taken for the nine results of acid volume for all varying values of porosity and plots with mathematical equations were generated.The result of the average acid volume for each porosity value is entered in a separate column of the excel spreadsheet and an average of these results was taken; this was now called "Average Acid Volume While Varying Porosity".This was repeated for all the parameters in the linear flow geometry.After which, a sheet was created where all the average acid volume while varying porosity was entered. This was used to generate a plot.
+
+
+Table 1Parameters for Acid Volume Estimation in Linear Flow Geometry   View Large
+
+
+Developing Average Acid Volume for Radial Geometry
+
+
+An equation for calculating acid volume for radial flow geometry is given and contains seven parameters with varying values. These parameters are shown in Table 2 belowParameters as shown in Table 2 were entered into the Acid volume calculator for radial flow for different values assigned to each of them. Results were entered into the Microsoft OfficeExcell spreadsheet following the procedures below.Each of the radial flow geometry parameters contains seven values.Taking wellbore radius for example, each value for wellbore radius was varied as other parameters were kept constant.Acid volume was generated for each value been varied as other parameters were kept constant. This gave a total of seven results of acid volume for a particular value of porosity.This is repeated for other values of wellbore radius.An average is taken for the seven results of acid volume for all varying values of wellbore radius and plots with mathematical equations were generated.The result of the average acid volume for each wellbore radius value is entered in a separate column of the excel spreadsheet and an average of these results was taken; this was now called "Average acid volume while varying wellbore radius.This was repeated for all the parameters in the radial flow geometry After which, a sheet was created where all the average acid volume while varying wellbore radius was entered. This was used to generate a plot.
+
+
+Table 2Parameters for Acid Volume Estimation in Radial Flow Geometry   View Large
+
+
+Developing Acid Volume for Modified Geometry
+
+
+The acid volume estimation considering modified flow geometry was created using the mathematical method of a Combination of Equations. The linear and radial flow geometry equations for acid volume estimation were combined to generate an equation for the modified flow equation.
+
+
+An equation for calculating acid volume for modified flow geometry is generated and contains ten parameters with varying values. These parameters are shown in Table 3 below.Parameters as shown in Table 3 were entered into the Acid volume calculator for modified flow for different values assigned to each of them. Results were entered into the Microsoft Office Excel spreadsheet following the procedures below.Each of the modified flow geometry parameters contains ten values.Taking acid flux for example, each value for acid flux was varied as other parameters were kept constant.Acid volume was generated for each value been varied as other parameters were kept constant. This gave a total of ten results of acid volume for a particular value of acid flux.This is repeated for other values of acid flux.An average is taken for the ten results of acid volume for all varying values of acid flux and plots with mathematical equations were generated.The result of the average acid volume for each acid flux value is entered in a separate column of the excel spreadsheet and an average of these results was taken; this was now called "Average acid volume while varying acid flux.This was repeated for all the parameters in the modified flow geometry.After which, a sheet was created where all the average acid volume while varying acid flux was entered. This was used to generate a plot.
+
+
+Table 3Parameters for Acid Volume Estimation in Modified Flow Geometry   View Large
+
+
+Comparative Analysis of Acid Volume for Modified, Radial and Linear Flow Geometries
+
+
+Related parameters in acid volume for linear, radial, and modified flow geometries were entered into a separate excel spreadsheet with corresponding values of average acid volume gotten when those parameters were varied for each of the flow geometriesRelated parameters in acid volume for linear and modified flow geometries were entered in a separate excel spreadsheet with corresponding values of average acid volumeRelated parameters in acid volume for radial and modified flow geometries were entered in a separate excel spreadsheet with corresponding values of average acid volumeGraphical plots were generated for each case to compare the variations in existing flow geometries (linear & radial) with the modified flow geometry.
+
+
+Results and Discussion Results
+
+
+The resulting information from the analysis estimation for pre-flush acidization volume for different flow reservoir geometries was conclusive as different parameters were varied to estimate the volume of acid. The modified flow geometry was further analyzed and was discovered that it added value to the method for the volume of acid estimation.
+
+
+Results of Acid Stimulation for Linear Flow Geometry Results of average acid volume with Specific Surface Area of the reservoir
+
+
+This gave a linearly increasing profile from 55.53gal/ft at a specific surface area of 11.1 to a maximum value of 160.98gal/ft at a specific area of 19. The mathematical modeled result is given as; y = −0.023x6 + 2.103x5 – 77.85x4 + 1525x3 – 16678x2 + 96531x – 23099; with a square regression of 0.996, this indicates an appreciable degree of accuracy as shown in Figure 1.
+
+
+Figure 1View largeDownload slideAverage Volume of Acid Varying Specific Surface Area in Linear Flow GeometryFigure 1View largeDownload slideAverage Volume of Acid Varying Specific Surface Area in Linear Flow Geometry Close modal
+
+
+Results of average acid volume with Acid Flux (U)
+
+
+This gave a linearly decreasing profile from 9.37484E+15gal/ft at an acid flux of 0.011ft/min to a minimum value of 24352.1735gal/ft at an acid flux of 0.03ft/min. It maintained an insignificant declination from an acid flux of 0.03 ft/min to 0.09 ft/min at an average acid volume of 243252.1735gal/ft to a minimum value of87.22975637gal/min. The mathematicamodelleded result is given as. Y = 24x6 + 24x5 + 23x4 + 22x3 + 20x2 + 18x + 16; with a square regression of 0.996, this proves a good degree of accuracy as shown in Figure 2.
+
+
+Figure 2View largeDownload slideAverage Volume of Acid Varying Acid Flux in Linear Flow GeometryFigure 2View largeDownload slideAverage Volume of Acid Varying Acid Flux in Linear Flow Geometry Close modal
+
+
+Results of average acid volume with Penetrating Distance in the reservoir
+
+
+This generated an increasing profile of acid volume from 64.516gal/ft to a maximum value of 152.514gal/ft with an increase in penetrating distance from 0.26ft to 0.34ft. The mathematical model obtained from the plot is given as. Y = 25014x3 – 16400x2 + 4146x – 3445. With a squared regression of 1, this indicates a high level of accuracy as shown in Figure 3.
+
+
+Figure 3View largeDownload slideAverage Volume of Acid Varying Penetrating Distance in Linear Flow GeometryFigure 3View largeDownload slideAverage Volume of Acid Varying Penetrating Distance in Linear Flow Geometry Close modal
+
+
+Results of average acid volume with Porosity of the reservoir
+
+
+This showed an increase in the volume of acid from190.88gal/ft to a maximum value of 132.09gal/ft as porosity was increased from 20% to 43%. The mathematical model obtained is given as. Y = − 8662x4 + 13478x3 – 7576x2 + 1554x + 89.06; with a squared regression of 1indicating high level of accuracy as shown in Figure 4.
+
+
+Figure 4View largeDownload slideAverage volume of acid varying porosity in linear flow geometryFigure 4View largeDownload slideAverage volume of acid varying porosity in linear flow geometry Close modal
+
+
+Results of average acid volume with Volume Fraction
+
+
+This showed an increasing profile from 27.65gal/ft to a maximum value of 67380.2gal/ft at a volume fraction of 0.0006 to 0.08. The mathematical modeled result is given as; Y = 4E+16x5 – 7E+14x4 + 4E+12x3 – 1E+10x2 + 1E+07x – 5153; with a squared regression of 0.999, this indicates an allowable degree of accuracy as shown in Figure 5.
+
+
+Figure 5View largeDownload slideAverage Volume of Acid Varying Volume Fraction in Linear Flow GeometryFigure 5View largeDownload slideAverage Volume of Acid Varying Volume Fraction in Linear Flow Geometry Close modal
+
+
+Results of average acid volume with Length of Core
+
+
+This gave a constant acid volume of 123.39gal/ft at an increasing value of the length of the core from 0.137ft to 0.9ft as shown in Figure 6.
+
+
+Figure 6View largeDownload slideAverage Volume of Acid Varying Length of Core in Linear Flow GeometryFigure 6View largeDownload slideAverage Volume of Acid Varying Length of Core in Linear Flow Geometry Close modal
+
+
+Results from acid volume with Reaction Rate Constant
+
+
+This gave a curved increasing profile from 46.29gal/ft at a reaction rate of 7 to a maximum value 181.01gal/ft at a reaction rate of 15. The mathematical modelled result is given as; y = 0.135x3– 2.740x2+25.92x–47.44; with a squared regression of 1 indicating a high degree of accuracy as shown in Figure 7.
+
+
+Figure 7View largeDownload slideAverage Volume of Acid Varying Reaction Rate Constant in a Linear Flow GeometryFigure 7View largeDownload slideAverage Volume of Acid Varying Reaction Rate Constant in a Linear Flow Geometry Close modal
+
+
+Results of average acid volume with Acid Capacity Number (NAC,f)
+
+
+This gave a declining profile from 1137.79gal/ft with an acid capacity of 0.0071 to a minimum value of 90gal/ft with an acid capacity of 0.09. The mathematical modeled result is given as; y = −4E+9x5 + 1E+9x4 – 1E+8x3 + 6E+6x2 – 16970x + 2063. The degree of accuracy was measured with a squared regression of 0.999 indicating as shown in Figure 8.
+
+
+Figure 8View largeDownload slideAverage Volume of Acid Varying Acid Capacity Number in a Linear Flow GeometryFigure 8View largeDownload slideAverage Volume of Acid Varying Acid Capacity Number in a Linear Flow Geometry Close modal
+
+
+Results of Acid Stimulation for Radial Flow Geometry Results of acid stimulation with Acid Capacity (Nac,F)
+
+
+This gave a declining profile from 2295.4gal/ft at an acid capacity of 0.007 to a minimum value of 187.8gal/ft at an acid capacity of 0.09. The mathematical modelled result is given as. y = −7E+09X5 + 2E+09X4 – 2E+08X3 + 1E+07X2 – 34013X + 4129; with a squared regression of 0.999, this indicates a good degree of accuracy as shown in Figure 9.
+
+
+Figure 9View largeDownload slideAverage Volume of Acid Varying Acid Capacity Number in a Radial Flow GeometryFigure 9View largeDownload slideAverage Volume of Acid Varying Acid Capacity Number in a Radial Flow Geometry Close modal
+
+
+Results of acid volume with Damkohler's number
+
+
+This gave an increasing profile from 309.61gal/ft with Damkohler's number of 0.46 to a maximum value of 467.9gal/ft with a Damkohler's number of1.2. The mathematical modeled result is given as, y = 76.92x2 + 85.52x + 254.2. With a squared regression of 1, this indicates a high level of accuracy as shown in Figure 10.
+
+
+Figure 10View largeDownload slideAverage Volume of Acid Varying Damkohler's Number in a Radial Flow GeometryFigure 10View largeDownload slideAverage Volume of Acid Varying Damkohler's Number in a Radial Flow Geometry Close modal
+
+
+Results of acid volume with Acid Flux
+
+
+This gave a smooth curve of an increasing profile of 282.1gal/ft at an acid flux of 0.0114gal/min to a maximum value of 1367.0gal/ft at an acid flux of0.09gal/min. The mathematical modelled result while varying acid flux for radial flow is given as. y = −2E+07x4 – 2E+06x3 + 14630x2 + 478.9x + 260.8; with a squared regression of 1, this indicates a high degree of accuracy as shown in Figure 11.
+
+
+Figure 11View largeDownload slideAverage Volume of Acid Varying Acid Flux in a Radial Flow GeometryFigure 11View largeDownload slideAverage Volume of Acid Varying Acid Flux in a Radial Flow Geometry Close modal
+
+
+Results from acid volume with Length Of Core
+
+
+This gave a smooth curve declining profile from 583.3gal/ft at the core length of 0.5ft to a minimum value of 322.9gal/ft at the core length of1.3ft. The mathematical modelled result is given as. y = − 2254x5 – 11564x4 – 23764x3 + 24676x2 – 13196x + 3330, having a squared regression of 1; this indicates a high level of accuracy as shown in Figure 12.
+
+
+Figure 12View largeDownload slideAverage Volume of Acid Varying Length of Core in a Radial Flow GeometryFigure 12View largeDownload slideAverage Volume of Acid Varying Length of Core in a Radial Flow Geometry Close modal
+
+
+Result of acid volume while varying Wellbore Radius
+
+
+This gave an almost linearly increasing profile from 220.1gal/ft to a maximum value of 720.4gal/ft at a wellbore radius of 0.3ft to 1.1ft. The mathematical equation generated is given as; y = 242x2 + 283.8x + 114.2. It generated a squared regression of 1 showing that the prediction is accurate as shown below in Figure 13.
+
+
+Figure 13View largeDownload slideAverage Volume of Acid Varying Wellbore Radius in a Radial Flow GeometryFigure 13View largeDownload slideAverage Volume of Acid Varying Wellbore Radius in a Radial Flow Geometry Close modal
+
+
+Result of acid volume with Acid Injection Rate
+
+
+This gave a sharp declining profile from 54383.4gal/ft to 1420.7gal/ft at an acid injection rate of 0.1gal/min to 0.2gal/min respectively and maintained an insignificant declination from 626.7gal/ft to a minimum value of 308.5gal/ft with an acid injection rate of 0.3gal/min to0.9gal/min. The mathematical equation generated while varying acid injection rate in a radial flow is given as. y = 2E+07x6 – 6E+07x5 + 8E+07x4 −6E+07x3 + 2E+07x2 – 4E+06x + 28507. A squared regression of 0.99 was generated indicating that the prediction is accurate as shown below in Figure 14.
+
+
+Figure 14View largeDownload slideAverage Volume of Acid Varying Acid Injection Rate in a Radial Flow GeometryFigure 14View largeDownload slideAverage Volume of Acid Varying Acid Injection Rate in a Radial Flow Geometry Close modal
+
+
+Result of acid volume with Porosity
+
+
+This gave a linearly increasing profile from 251.6gal/ft to a maximum value of 540.9gal/ft at a porosity of 20% to43%. The mathematical equation generated is given as. y = 2E-09x3 – 3E-09x2 + 1258x – 2E-10. A squared regression of 1 was generated indicating that the prediction is accurate as shown below in Figure 15.
+
+
+Figure 15View largeDownload slideAverage Volume of Acid Varying Porosity in Radial Flow GeometryFigure 15View largeDownload slideAverage Volume of Acid Varying Porosity in Radial Flow Geometry Close modal
+
+
+Results of Acid Stimulation for The Modified Flow Geometry Results of average acid volume with Volume Fraction
+
+
+This gave a curved declining profile from 5949.5gal/ft to a minimum value of 2925.8gal/ft at Vs of 0.0006 to 0.003 and began to increase from 2925.8gal/ft to a maximum value of 4862.8gal/ft at Vs of 0.006 to 0.008. The mathematicmodelledled result is given as. y = 1E+18x6 – 4E+16x5 + 4E+14x4 – 3E+12x3 + 8E+09x2 – 1E+07x + 11176. The plot generated a squared regression of 0.998 indicating a high level of accuracy as shown in Figure 16 
+
+
+Figure 16View largeDownload slideAverage Volume of Acid Varying Volume Fraction in Modified Flow GeometryFigure 16View largeDownload slideAverage Volume of Acid Varying Volume Fraction in Modified Flow Geometry Close modal
+
+
+Results of average acid volume with the Rate of Reaction
+
+
+This gave a declining profile from 4147.5gal/ft to a minimum value of 3382.6gal/ft at a reaction rate of 7min to 15min. The mathematical modelled result is given as. y = 0.130x4 – 7.115x3 + 154.0x2 – 1576x + 9759. The plot gave a squared regression of 1 indicating a high level of accuracy as shown in Figure 17 
+
+
+Figure 17View largeDownload slideAverage Volume of Acid Varying Reaction Rate Constant in Modified Flow GeometryFigure 17View largeDownload slideAverage Volume of Acid Varying Reaction Rate Constant in Modified Flow Geometry Close modal
+
+
+Results of average acid volume with Specific Surface Area
+
+
+This gave a declining profile from 4108.9gal/ft to a minimum value of 3536.6gal/ft at a specific surface area of 11.1 to a maximum value of 19. The mathematical modelled result is given as. y = −0.536x3 + 33.26x2 – 701.1x + 8524. The plot gave a squared regression of 1 indicating a high accuracy as shown in Figure 18.
+
+
+Figure 18View largeDownload slideAverage volume of acid varying specific surface area in modified flow geometryFigure 18View largeDownload slideAverage volume of acid varying specific surface area in modified flow geometry Close modal
+
+
+Results of average acid volume with Porosity
+
+
+This gave an increasing profile from3441.1gal/ft to a maximum value of 8654gal/ft at a porosity of 0.2 to 0.43. The mathematical modelled result is given as. y = 39182x3 – 14799x2 + 20120x – 297.2. The plot gave a squared regression of 1 indicating a high level of accuracy as shown in Figure 19.
+
+
+Figure 19View largeDownload slideAverage Volume of Acid with Porosity in Modified Flow GeometryFigure 19View largeDownload slideAverage Volume of Acid with Porosity in Modified Flow Geometry Close modal
+
+
+Results of average acid volume with Length of Core
+
+
+This gave a curved declining profile from 15682.7gal/ft to a minimum value of 1334.8gal/ft at the length of core of 0.137ft to a maximum value of 0.9ft. The mathematical modelled result is given as. y = 2E+06x6 −7E+06x5 +9E+06x4 – 7E+06x3 +3E+06x2 – 61398x + 61928. The plot gave a squared regression of 0.99 indicating a good level of accuracy as shown in Figure 20.
+
+
+Figure 20View largeDownload slideAverage Volume of Acid with Length of Core in Modified Flow GeometryFigure 20View largeDownload slideAverage Volume of Acid with Length of Core in Modified Flow Geometry Close modal
+
+
+Results of average acid volume with Acid Flux
+
+
+This gave a sharp decline from 312713gal/ft to 15349gal/ft and insignificantly dropped to the minimum value of 12632.5gal/ft at an acid flux of 0.0114ft/min to a maximum value of0.09ft/min. The mathematical modelled result is given as. y = 1E+14x6 – 5E+13x5 + 6E+12x4 – 4E+11x3 + 2E+10x2 −3E+08x + 2E+06. The plot gave a squared regression of 0.997 indicating a good level of accuracy as shown in Figure 21.
+
+
+Figure 21View largeDownload slideAverage Volume of Acid with Acid Flux in Modified Flow GeometryFigure 21View largeDownload slideAverage Volume of Acid with Acid Flux in Modified Flow Geometry Close modal
+
+
+Results of average acid volume with an Acid Capacity Number
+
+
+This gave a declining profile from 19459gal/ft at the acid capacity of 0.0071 to a minimum value of 1535gal/ft at an acid capacity of0.09. The mathematical modeled result is given as; y = −6E+10x5 + 2E+10x4 –2E+09x3 + 1E+08x2 – 3E+6x + 35293. The plot gave a squared regression of 0.99 indicating a good level of accuracy as shown in Figure 22.
+
+
+Figure 22View largeDownload slideAverage Volume of Acid with Acid Capacity Number in Modified Flow GeometryFigure 22View largeDownload slideAverage Volume of Acid with Acid Capacity Number in Modified Flow Geometry Close modal
+
+
+Results of average acid volume with Acid Injection Rate
+
+
+This gave an insignificantly declining profile from 4502.4gal/ft at an acid injection rate of 0.1gal/min to a minimum value of 4254gal/ft at an acid injection rate of0.9gal/min. The mathematical modelled result is given as. y = −12677x5 + 36775x4 – 41170x3 + 2228x2 – 5925x + 4909. Squared regression was 0.998 indicating a good degree of accuracy as shown in Figure 23.
+
+
+Figure 23View largeDownload slideAverage Volume of Acid with Acid Injection Rate in Modified Flow GeometryFigure 23View largeDownload slideAverage Volume of Acid with Acid Injection Rate in Modified Flow Geometry Close modal
+
+
+Results of average acid volume with Penetrating Distance
+
+
+This gave a linearly increasing profile from 3756.7gal/ft at a penetrating distance of 0.26ft to a maximum value of 5142.8gal/ft at a penetrating distance of0.34ft. The mathematical modelled result is given as. y = 1102.1x2 + 10709x + 227.5. Squared regression was 1 indicating a high degree of accuracy as shown in Figure 24.
+
+
+Figure 24View largeDownload slideAverage Volume of Acid with Penetrating Distance in Modified Flow GeometryFigure 24View largeDownload slideAverage Volume of Acid with Penetrating Distance in Modified Flow Geometry Close modal
+
+
+Results of average acid volume with Wellbore Radius
+
+
+This gave an increasing profile from 2380.7gal/ft at a wellbore radius of 0.3ft to a maximum value of 25310.3gal/ft at the wellbore radius of 1.1ft. The mathematical modelled result is given as. y = −6938x3 + 28075x2 + 665.4x – 164.4. Squared regression was 1 indicating a high degree of accuracy as shown in Figure 25 
+
+
+Figure 25View largeDownload slideAverage Volume of Acid Varying Wellbore Radius in Modified Flow GeometryFigure 25View largeDownload slideAverage Volume of Acid Varying Wellbore Radius in Modified Flow Geometry Close modal
+
+
+Derived Mathematical Equations for Acid Volume Assuming Modified Flow Geometry (Linear – Radial Flow Geometry)
+
+
+Damkohler's Number linear – Radial flow geometry NDa,saverage=Vs∗Ef,s∗Ss∗0.5UL−1+0.0891∗3.143∗r2∗qi−1Dimensionless acid penetration distance linear – Radial flow geometry ELR=0.5XL−1+0.5r2rW−0.5Dimensionless acid volume linear – Radial flow geometry Θave=expNDa,saverage*ELR−1+ELR÷(NAC,F)∗NDa,saverageVolume of acid for linear – Radial flow geometry ΘaveL+3.143∗ h∗r2
+
+
+Evaluating Results for Acid Volume in Linear Flow Geometry
+
+
+Averaged acid volume took a drastic increase from 96.412gal/ft to a value of 1.04165E+15gal/ft and an instant drop to a low value of 102.7gal/ft then a minor variation in the values was maintained. The mathematical modeled result is given as y = −4E+12x6 + 1E+14x5 – 1E+15x4 + 7E+15x3 – 2E+16x2 + 3E+16x -2E+16. The plot showed a squared regression of 0.983 as indicated in Table 4 and Figure 26.
+
+
+Table 4Evaluating Results for Acid Volume in Linear Flow Geometry   View Large
+
+
+Figure 26View largeDownload slideEvaluating Results for Acid Volume in Linear Flow GeometryFigure 26View largeDownload slideEvaluating Results for Acid Volume in Linear Flow Geometry Close modal
+
+
+Evaluating Results for Acid Volume in Radial Flow Geometry
+
+
+The average volume of the acid plot gave a minor variation of increase and decrease in values of acid volume b ut took a sharp increase to 6510.50gal/ft due to high injection rate but dropped drastically to 399.76gal/ft due to a stable value of porosity. The mathematical modeled result is given as; y = − 44.51x6 + 961.2x5 – 8113x4 + 34069x3 – 74458x2 + 79384x – 31209. The plot showed a squared regression of 1 as indicated in Table 5 and Figure 27.
+
+
+Table 5Evaluating Results for Acid Volume in Radial Flow Geometry   View Large
+
+
+Figure 27View largeDownload slideEvaluating Results for Acid Volume in Radial Flow GeometryFigure 27View largeDownload slideEvaluating Results for Acid Volume in Radial Flow Geometry Close modal
+
+
+Evaluating Results for Acid Volume in Modified Flow Geometry
+
+
+The estimated volume of acid in the modified flow geometry had a minor variation of increase and decrease but took a sharp increase to 44380.7gal/ft due to high acid flux but dropped drastically to 4302gal/ft due to a controlled value of acid injection rate. The mathematical modelled result for acid volume in modified flow geometry is given as; y = 18.42x6 – 548.5x5 + 6204x4 – 33596x3 + 90762x2 – 11425x + 55186. The plot showed a squared regression of 0.474 as indicated in Table 6 and Figure 28.
+
+
+Table 6Evaluating Results for Acid Volume in Modified Flow Geometry   View Large
+
+
+Figure 28View largeDownload slideEvaluating Results for Acid Volume in Radial Flow GeometryFigure 28View largeDownload slideEvaluating Results for Acid Volume in Radial Flow Geometry Close modal
+
+
+Discussion
+
+
+Comparative Analysis of Linear, Radial, and Modified Flow
+
+
+The modified flow equation has been developed and was compared to other existing flow geometries of linear and radial nature. Related parameters in each of the flow geometries were used to make these comparisons.
+
+
+Comparing Related Parameters in All Flow Geometries
+
+
+A plot as shown in Figure 29 generated from Table 7 showed an obvious deviation in the linear flow from that of radial and modified flows. In Petroleum Engineering, acid volume estimation considers radial flow geometry because of the heterogeneity of the reservoir making the flow in the reservoir almost impossible to flow in a direction as in the case of the linear flow. Figure 29 indicates a high level of accuracy in the modified flow consideration as it coincides with the radial flow geometry.
+
+
+Table 7Comparing Related Parameters in all Flow Geometries   View Large
+
+
+Figure 29View largeDownload slideComparing Related Parameters in All Flow GeometriesFigure 29View largeDownload slideComparing Related Parameters in All Flow Geometries Close modal
+
+
+Comparing Related Parameters in Linear and Modified Flows
+
+
+Even though the related parameters in linear and modified flow geometries are more than that of radial and modified flow as indicated in Table 8, the degree of difference between the linear from the modified is high as shown in Figure 30 and Table 8. This indicates the level of heterogeneity of the modified flow geometry which is more valued in the estimation of acid volume.
+
+
+Table 8Comparing Related Parameters for Linear & Modified   View Large
+
+
+Figure 30View largeDownload slideComparing Related Parameters in Modified and Linear Flow GeometryFigure 30View largeDownload slideComparing Related Parameters in Modified and Linear Flow Geometry Close modal
+
+
+Comparing Related Parameters in Radial and Modified Flows
+
+
+The plot in Figure 31 generated from Table 9 shows a coincidental degree of the radial and modified flow geometries despite the few numbers of related parameters in the two flow geometries. This indicates that the modified flow geometry adds value to the estimation of acid volume.
+
+
+Figure 31View largeDownload slideComparing related parameters in modified and radial flow geometryFigure 31View largeDownload slideComparing related parameters in modified and radial flow geometry Close modal
+
+
+Table 9Comparing Related Parameters for Radial and Modified   View Large
+
+
+Comprehensive Analytical Results for Linear, Radial and Modified
+
+
+From Figure 32, it was observed that acid volume for linear flow geometry has a high standard error of mean deviation as high as 1.30206E+14 and the predicted acid volume assuming a modified flow geometry has a lower error of 4000.9 which was overlapping with the radial flow assumption indicating a high degree of similarity.Standard deviation from the mean value of the acid volume assuming linear flow geometry gave a high value of 3.65279E+14, a lower value of 12650.7 for the predicted acid volume and a lower level of 2282.9.The variance degree of acid volume for linear flow was indicated to be 1.36E+12; Radial and modified had a lower value of 5211792 and 160039156 respectively. The results, therefore, prove the degree of confidence and accuracy of the radial and modified flow acid volume.
+
+
+Figure 32View largeDownload slideComprehensive analytical results for linear, radial, and modified generated from SPSS.Figure 32View largeDownload slideComprehensive analytical results for linear, radial, and modified generated from SPSS. Close modal
+
+
+Conclusion
+
+
+In conclusion, the modified model for acid volume estimation for acid stimulation jobs should be regarded as a sophisticated acid volume estimation tool as it will be able to account for combined flow geometries at once. The study clearly states that more than 35% of acid stimulation jobs executed every year fail due to limited knowledge of downhole acid placement and flow geometry. The oil and gas industry today estimates acid volume for stimulation jobs considering majorly two types of flow geometries: the linear and radial flow geometries. Study shows that this can lead to erroneous acid volume estimation and unsuccessful acid placement operation due to the heterogeneity of the reservoir. A mathematical model is generated assuming Linear-Radial flow geometry (Modified flow geometry) and it accounts for reservoir flow geometry deviation along a linear to radial profile.
+
+
+Deriving equations for modified flow geometry showed more related parameters with the linear flow geometry compared to that of the radial flow geometry, but the degree of coincidence was very low. However, the modified flow geometry acid volume was coincidental with the radial flow geometry acid volume; this proves the degree of accuracy of the modified flow geometry.
+
+
+The study can therefore conclude that modified flow geometry can be assumed for acid stimulation acid volume estimation for linear flow geometry since they have lots of similar parameters and for radial flow geometry since both acid volume results are coincidental.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+   View Large
+
+
+References
+
+
+Abdelmoneim, S.S. and Nasr-El-Din, S. (2015). Determining the optimum HFconcentration for stimulation of high-temperature sandstone formations. Society of Petroleum Engineers. SPE-174203-MS.Google Scholar Al-Harthy, S. (2008). Options for high-temperature well stimulation. Oil Field Review, volume 20, pp 52–62.Google Scholar Amanat, U. C. (2004). Pressure build-up analysis techniques for oil wells. In Oil well testing handbook. Gulf Professional Publishing. 10.1016/B978-0-7506-7706-6.X5089-9.Google Scholar Buyon, G., C., Williams, L. and Ali, G. (2007). Matrix Acidizing in Petroleum Production Engineering, A Computer-Assisted Approach. 1st Edition. Gulf Professional Publishing.Google Scholar Crowe, C., Masmonteil, J., Touboul, E. and Thomas, R. (1992). Trends in matrix acidizing. Oil Field Review4(4):24–40.Google Scholar Ilozobhie, A.J. and Egu, D. I. (2020). Dynamic Reservoir Sand Characterization of an Oil Field in the Niger Delta from Seismic and Well Log Data. Arabian Journal of Geosciences. https://doi.org/10.1007/s12517-021-06542-4.Google Scholar Gomaa, A. M., Stolyarov, S. and Cutler, J. (2015). Retarded HF system to deeply stimulate sandstone formation and eliminate the need for pre-flush and post-flush acid stages: experimental and field cases. Paper presented at International Petroleum Technology Conference, Doha, Qatar, 7-9 December.Google Scholar Gomez, J. N. (2006). Design, set up and testing of a matrix acidizing apparatus. Texas A & M University, Texas, United State of America.Google Scholar Halliburton (2000). Hydraulic fracturing best practice series. Halliburton, Houston, U.S.A.Hussein, H. K. (2016). Fundamentals of Engineering Geology. 1st Edition. University of Technology Printing Press Department, University of Technology. Baghdad, Iraq.Google Scholar Mohammed, S., Cairns, A. J. and Qasim, S. (2020). Low Viscosity Acid Platform: Benchmark Study Reveals Superior Reaction Kinetics at Reservoir Conditions. Paper Presented at International Petroleum Technology Conference, Dhahran, Kingdom of Saudi Arabia, January 2020.Google Scholar EguD. I. and Ilozobhie, A. J. (2021). Adumbrative heterodox dictum of wellbore aggregates from sapient recovery factor penchants for honed field praxis. SPE-208223-MS paper virtually presented at the SPE Nigeria Annual International Conference and Exhibition, 2-5 August, Nigeria. https://doi.org/10.2118/208223-MSGoogle Scholar Egu, D.I. (2014). Effective Field Development Management of a gas field in the Niger Delta. SPE-172425- MS paper presented at the 2014 NAICE conference, 5-7 August, Lagos, Nigeria. https://doi.org/10.2118/172425-MS.Google Scholar Frenier, W. and Hill, D. G. (2002). Effect of Acidizing Additives on Formation Permeability During Matrix Treatments. Paper Presented at International Symposium and Exhibition on Formation Damage Control, Lafayette, Louisiana, February2002.Google Scholar Mukul, M. S. (2007). PetroWiki PEH: Formation damage. Last Modified April 26, 2017. Accessed October 21, 2021. https://petrowiki.org/PEH:Formation_Damage.Google Scholar Schechter, R. S. (1992). Oil well stimulation. Prentice-Hall, Englewood Cliffs.Google Scholar Schlumberger (2000). Reservoir stimulation. Wiley, Chichester.Smith, C. F., and Hendrickson, A. R. (1965). Hydrofluoric acid stimulation of sandstone reservoirs. SPE- 980-PA.USOSTI (1965): U.S. Department of Energy Office of Scientific and Technical Information. Dowell introduces alcoholic mud acid treating techniques. Vol. 58:23 of Calif. Oil World Petroleum Industry, United States. 5959583.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211916-MS
+
+
+

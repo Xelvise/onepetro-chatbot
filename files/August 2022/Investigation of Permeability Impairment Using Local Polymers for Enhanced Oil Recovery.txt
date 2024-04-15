@@ -1,0 +1,405 @@
+----- METADATA START -----
+Title: Investigation of Permeability Impairment Using Local Polymers for Enhanced Oil Recovery
+Authors: Chidinma Uzoamaka Uzoho, Enaanabhel Ade, Mike Obi Onyekonwu
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211922-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The use of viscosity enhancer in Polymer flooding decreases mobility and improves sweep efficiency of flood water. However, there is a likelihood of permeability impairment due to the polymer retention onto the rock surface. This leads to formation damage. Therefore, a good assessment and evaluation of this problem is important to oil recovery sustenance. In this study, the permeability reduction caused by some local polymers in Nigeria used for Enhanced Oil Recovery was investigated. A laboratory study was carried out using unconsolidated core plugs (sands packs) and crude oil from the Niger Delta field. Two of the core plug samples (control samples) were flooded with simulated brine concentration and viscosity of 20000ppm and 0.949cP respectively. Cisus populnea (Okoho), Abelmoschus esculentus (Okro), Irvingia gabonensis (Ogbono) and Gum Arabic were used as polymers. Water breakthrough time, oil recovery and mobility ratio results obtained from fourteen samples were recorded and compared with that obtained from using only brine. The permeabilities of core plug samples were estimated prior to and after polymer flooding by pressure drop calculation. Residual Resistant Factor (RRF) and adsorption capacity of these polymers at same concentrations of 1000 ppm, 2500 ppm and 5000 ppm were also estimated. At 5000ppm, the RRF and mobility ratio for Cisus populnea, Abelmoschus esculentus, Gum Arabic and Irvingia gabonensis were 2.341/0.91., 1.354/0.35, 2567/0.56 and 3/0.66 respectively. The percentage reduction in permeability and displacement efficiency for Cisus populnea, Abelmoschus esculentus and Gum Arabic are 3.9%/75.30%, 2.7%/89.50% and 4.2%/77% respectively. It was observed that there was no-flow while flooding with Irvingia gabonensis at 5000ppm. The results from the study indicate that Irvingia gabonensis triggered the highest permeability impairment while Abelmoschus esculentus gave the least permeability impairment. The best performed polymer is Abelmoschus esculentus with highest displacement efficiency, reduced mobility ratio, lowest RRF values, lowest static and dynamic adsorption.
+
+
+
+
+Keywords:
+enhanced recovery,
+irvingia gabonensis,
+nigeria,
+flow in porous media,
+concentration,
+brine,
+upstream oil & gas,
+polymer,
+permeability,
+gum arabic
+
+
+Subjects: 
+Reservoir Fluid Dynamics,
+Improved and Enhanced Recovery,
+Flow in porous media,
+Chemical flooding methods
+
+
+
+
+Introduction
+
+
+A better alternative to water flooding is addition of some chemicals like polymers to the flooding process. However; there are several interactions of the particles of polymers and the rock grains which results to polymers being adsorbed on the grain surfaces, some are trapped in the narrow pore throats, and others are hydro-dynamically stopped in no flow zones of the flooding system. These various mechanisms results to formation permeability impairment which leads to formation damage. A typical oil field life goes through three distinct phases where various techniques and skills are used to maintain crude oil production at maximum levels and optimum conditions. The primary idea of these techniques is to force these fluids (hydrocarbons) to the well where it will be pumped to the earth surface. These recovery phases include: primary, secondary and tertiary. In the early (primary) phase, the reservoir uses its natural energy and forces the fluid to earth surface, while secondary stage production is achieved mainly by injecting brine or gas into hydrocarbon bearing rock to supply additional energy. Tertiary recovery entails using other fluids, mainly chemicals other than water and natural gas to produce the left over hydrocarbon that was not produced after the second phase. Conventional production methods recover on average about one third of original oil present in the reservoir. The remaining 60-70% stays in subsurface because it is either too expensive or technically demanding to recover. Obviously, oil firms are interested in techniques to recover or extract these left over hydrocarbons. At the end of water flood project, a good quantity of the hydrocarbons is still left in subsurface. One technique employed at the tertiary phase of the field in order to recover the remaining oil is polymer augmented water flooding (Chemical Enhanced oil recovery) which can substantially increase recovery efficiency.
+
+
+Lots of the hydrocarbon production in the Niger Delta region, Nigeria are under primary recovery. The Secondary recovery phase in this region has just commenced and yet to advance to the tertiary stage, this stage is where little recovery is made despite having over 40% oil subsurface. Most oil field chemicals used in Nigeria are imported and the overall expenses of these imported chemicals are usually high. This emphasizes the need to identify and produce local materials/chemicals for enhanced chemical recovery. Producing these local chemicals will not only reduce overall expense of chemical importation but also improve the economy of the nation and provide employment for the masses. Investigations on identification and use of these locally produced polymers, alkaline, surfactants etc. is ongoing in the University of Port Harcourt, Nigeria, Faculty of Engineering, Department of Petroleum and Gas Engineering (Uzoho et. al., 2019). Results gotten from these academic works so far are promising hence its imperative to conduct a research on permeability impairment using these local polymers for enhanced oil recovery. Local materials like Cisus populnea (Okoho), Abelmoschus esculentus (Okro), Irvingia gabonensis (Ogbono) and Gum Arabic were used as polymers in this work as EOR agents in a sand-pack oil displacement system in the laboratory. From obtained results, most of these local materials gave acceptable recovery and can be used as substitute to synthetic chemicals.
+
+
+Methodology
+
+
+Experiment Materials
+
+
+The aim and objectives were achieved by flooding prepared unconsolidated sand-pack samples with the materials and apparatus listed below:
+
+
+Unconsolidated sand-pack samples, Distilled water, Laboratory grade Sodium Chloride (NaCl – 99% purity with molecular weight 58.44), Local polymers (Gum Arabic, Cisus-Polpunea (Okoho), Abelmoschus esculentus (Okro), and Irvingia gabonensis(Ogbono), Crude oil sample, Sieve plates, Test tubes, Measuring cylinders (1000ml, 750ml, 500ml, 250ml), Pyrometer (Density bottle), Spatula, PVC pipe (5.08 cm ID), Beakers, Stop watch, Cannon U-tube Viscometer, Electronic Weighing Scale, Positive Displacement Pump, Thermometer, Digital Venier Caliper, Core Flood Apparatus, Oven dryer, pH meter.
+
+
+Samples Preparation
+
+
+Sand-Packs
+
+
+Cylindrical unconsolidated sand-packed plugs were built using friable beach sand; sands were washed and dried in order to remove the impurities and dirt. With a sieve plate; the samples were separated into 50-250 µm particle sizes. A known weight of aluminum foil was used to wrap the sand samples into a cylindrical shape of about 7 cm and 3 cm of length and diameter respectively. The weight, length and diameter of each of the sand-packs were recorded.
+
+
+Brine Preparation
+
+
+The brine concentration used was 20 g/l. Its preparation was achieved by:
+
+
+Weighed 20g of salt (NaCl – 99% purity with molecular weight 58.44).Introduced the 20g salt into a beaker and dissolve with 30ml distilled water, stir with magnetic stirrer until complete solution of the salt was achieved.Introduced the salt solution into 1000ml measuring cylinder; add additional distilled water up to the 1000ml mark.
+
+
+Crude Oil
+
+
+The crude oil used for this research was gotten from a Niger Delta field with Viscosity and Density values of 20.2533cP and 0.9057877g/cm3 respectively at temperature of 28oC. These fluid properties (Density and Viscosity) were estimated using Pyrometer (Density bottle) and Cannon U-tube viscometer respectively.
+
+
+Preparation of Polymer solutions
+
+
+Three different local polymers of same concentrations of 1000ppm, 2500ppm, and 5000ppm each were used for this study and each was prepared as follows:
+
+
+Abelmoschus esculentus (Okro) polymer
+
+
+Fresh Abelmoschus esculentus (Okro) were harvested from the farm in Rivers State, Nigeria. The vegetables were sliced and dried for two weeks. Other steps involved include:Pulverize the dried Abelmoschus esculentus (Okro) vegetable.Introduce the pulverize vegetable to a sieve and collect the finer more powdery form.With the electronic weighing balance, measure 1g of the pulverized Okro.Introduce the 1g of Okro into a beaker and dissolve with 30ml brine at 50oC, stir with magnetic stirrer until the Okro dissolves completely and form a uniform gel solution.Introduce the Okro solution into a 1000ml measuring cylinder and add additional brine up to the graduated mark of 1000ml.The mixture properties are measured and recorded.Concentration values of 2500ppm and 5000ppm were achieved by following steps "iii to vi". With 2.5g and 5g of Okro respectively.
+
+
+Cisus Populnea (Okoho) Polymer
+
+
+Fresh Cisus Populnea (Okoho) stem was harvested from the farm in Benue State, Nigeria. Other preparative steps include:
+
+
+Peel the bark of Cisus Populnea (Okoho) stem.Weigh 1g of the peeled stem and soak it in 500ml beaker of warm brine at 50oC for five minutes.Squeeze out the sap and introduce the solution into a sieve making it particle free.Introduce the particle free Cisus Populnea (Okoho) solution into a 1000ml measuring cylinder and add additional brine up to the 1000ml mark of the cylinder.Measure the Density and Viscosity of the solution.Concentration values of 2500ppm and 5000ppm used in this study were achieved following steps "i to iv" with 2.5g and 5g of Cisus polpunea (Okoho) respectively.
+
+
+Irvingia gabonensis (Ogbono) Polymer
+
+
+Concentrations of the Irvingia gabonensis (Ogbono) used were 1000ppm, 2500ppm and 5000ppm; the seeds of Irvingia gabonensis (Ogbono) were obtained in the forest from Rivers State Nigeria. Other procedures involved are as follow:
+
+
+Dry and Pulverize the Irvingia gabonensis seeds.Sieve the pulverized Irvingia gabonensis to obtain a finer and powdery form.With electronic weighing balance measure 1g of the powdered Irvingia gabonensis.Dissolve the 1g Irvingia gabonensis with brine at 50oC in a 30ml beaker and stir it with magnetic stirrer until a complete uniform solution is obtained.Introduce the solution into a 1000ml measuring cylinder and add additional brine (970 ml) up to the 1000ml mark of the cylinder.Measured the Density and Viscosity of the solution.Other concentration values of 2500ppm and 5000ppm are obtained using 2.5g and 5g respectively and following step "iii to vi"
+
+
+Gum Arabic polymer
+
+
+Gum Arabic was harvested from the farm in Kaduna State, Nigeria. Same procedure used in formulating the Okro polymer solution was also employed here.
+
+
+With the weighing balance measure 1g of Gum Arabic and dissolve it in 30ml beaker filled with brine at 50oC and stir with the magnetic stirrer until a complete uniform solution is obtained.Introduce the dissolved Gum Arabic solution into a 1000ml measuring cylinder and add additional brine up to the 1000ml mark of the cylinder.The mixture properties are measured and recorded.Concentration values of 2500ppm and 5000ppm used in this study were achieved by following steps i to iii with 2.5g and 5g of Gum Arabic respectively.
+
+
+Flooding Process
+
+
+The whole exercise started with saturation process of the control samples (A and B).
+
+
+Sample A (control sample) was loaded into the rubber core holder and flooded with brine at constant flow rate through the sand-pack for 1hour until constant pressure drop was read from the pressure gauge. Flowrate (Q) and Pressure drop (∆P) were recorded.The sample was removed, measured and the saturated weight recorded.The sample was inserted back and flooded with oil to displace brine out to irreducible water saturation (drainage process).The brine volume displaced from core was recorded as original-oil-in-place (OOIP).The effective permeability to oil of the sand-pack sample Kro at Swi was calculated and recorded.Brine was re- injected through the already oil-saturated sand-pack sample and a stop watch set to record the water breakthrough time.Flooding with the brine continued until plenty water and little oil was produced.The sample was remove from the core holder and the flood line clean with solvent (water + detergent).The second control (sample B) was loaded and the procedure done with sample A was repeated.Sample A1 was loaded in the core holder and procedure i to viii repeated.The polymer accumulator was connected to a pump and the stop watch set.The sample was flooded with polymer solution until the first drop of polymer solution appeared from the core holder outlet; this time was recorded as polymer solution breakthrough time. The recovered oil volume at this stage was also recorded.The Polymer flooding continued until very little oil comes out of the model with plenty polymer; total fluid volumes, pressure drop and time were recorded.The inlet line of the pump from polymer was removed and connected back to the brine accumulator and flooding process initiated with brine; the rate and pressure drop of brine (calculate sand-pack sample permeability after polymer flood) were recorded.The sample was removed and the flow lines were cleaned with solvent to set the model ready for other flooding test.Samples A2 to A12 were loaded to the core holder then same procedure done to A1 was repeated but with different polymers and at different concentrations. Resistance Factor (RF) and Residual Resistance Factor (RRF) were also calculated.
+
+
+General Overview of the Experiment
+
+
+This research used four local polymers of equal concentrations of 1000ppm; 2500ppm, and 5000ppm; two sand-pack samples were kept as control samples for ordinary water flooding. Three sand-pack samples for each polymer type with the three different concentrations at same laboratory temperature. The prepared sand-pack; saturated and pre-saturated weights were recorded. The sand-pack pore capacities were evaluated using Saturation method. Each of the sand-pack connate water was established by injecting oil through the sand-pack until no mobile water was seen coming out of the flow-line (drainage process). Subsequently brine permeability was measured using the Darcy model. All polymer solutions with different concentrations were prepared using 2% (20000ppm, 20g/L) laboratory prepared brine at 28oC. Permeabilities of sand-pack samples were re-measured after flooding with polymer solution in order to find out and compare the degree of the damage caused by a particular polymer and its concentration to the sand-pack. Permeability reduction was studied theoretically using Residual-Resistance- Factor ratio; inference on Adsorption of polymers on porous media was also studied using Static and Dynamic process as described in below.
+
+
+Study of Permeability Reduction
+
+
+Study of Permeability Reduction caused by local Polymer Flooding for EOR was achieved in this work by mounting sand packed in the core-holder then flow experiment was performed. Resistance Factor (RF) as well as Residual Resistance Factor (RRF) from equations 1 and 2 respectively were employed as criteria for permeability reduction analysis (Knoblock et. al., 2018). The RRF value greater than unity (RRF > 1) means formation permeability is reduced after polymer flooding, whereas RRF < 1 means formation permeability has increased after polymer flooding and RRF = 1, implies that formation permeability remained the same after polymer flooding.
+
+
+RF=ΔP (polymer)ΔP (bring before polymer injection)(1)
+
+
+RF=ΔP (Bring after polymer injection)ΔP (Bring before polymer injection)(2)
+
+
+Γm=(CoVo−∫i=1nCiVi)/m(3)
+
+
+Where;
+
+
+Γm is dynamic adsorption
+
+
+CoVO = polymer mass before flooding
+
+
+CiVi = mass of polymer effluent
+
+
+m = weight of sand-pack (porous medium)
+
+
+Study of Adsorption
+
+
+Polymer adsorption was studied using Static method and Dynamic process (Saurabh et. al., 2014, Pengyu Bao et. al., 2018). In Static method, three batch experiments for polymer adsorption process were examined at temperature, 28oC, for concentrations of 1000ppm, 2500ppm and 5000ppm. The procedure of batch experiment includes:
+
+
+50g clean sand particles were mixed with 200ml polymer in a 250ml Erlenmeyer flask.The experiment was conducted by constantly agitating the mixture with a mechanical tumble at constant temperature (28oC) for two (2) hours to reach an equilibrium condition.Test samples (10ml) were been taken from flask at each ten (10) minutes for 2 hours to be analyzed. Equation 4 was then used to estimate adsorption quantity of the polymer.
+
+
+β=pm−paM(4)
+
+
+Where;
+
+
+β (g/g) = static adsorbed particles
+
+
+Pm (g) = mass of polymer before mixing with sand Pa (g) = mass of polymer after adsorption
+
+
+M (g) = weight of sand particles
+
+
+In Dynamic method (Pengyu Bao et. al., 2018), gravity was allowed to control the flow; to achieve this, a porous media was prepared using PVC pipe of 2.54cm and 29.48cm internal radius and length respectively. To reduce heterogeneity while compacting the porous medium, water was introduced while shaking the tube simultaneously until compaction exercise was completed. A filter was used to cover the two ends of the pipe to stop grains from falling out.
+
+
+Petro-physical properties of the porous medium were estimated. Dynamic adsorption amount were examined by introducing estimated polymer concentration, density, volume, and mass into the PVC pipe (tube) porous media placed vertically and allowing the polymer pass through it under gravity and the polymer volume recovered with a beaker. The time and the recovered volume were recorded. For comparative study; the process was repeated with other polymer samples at equal concentrations of 1000ppm, 2500ppm and 5000ppm. A pictorial view of the test set-up is drawn in figure 1. Dynamic polymer adsorption amounts were estimated using the mass balance relation in Equation 3.
+
+
+Figure 1View largeDownload slideSchematic diagram of Dynamic adsorption model set-up experiment, under gravity.Figure 1View largeDownload slideSchematic diagram of Dynamic adsorption model set-up experiment, under gravity. Close modal
+
+
+Results and Discussion
+
+
+The data documented are experimental results from analysis while others were gotten from empirical model and simple arithmetic. Logical reasoning was also applied. The crude used for this experiment is classified as slightly heavy (Table 1). Results from Table 2 indicate that polymer concentration plays a vital role in formulating the solution; high concentration resulted to higher thickness.
+
+
+Table 1Properties of Crude Oil Fluid Type
+            . Density (g/cc)
+            . Temperature (°C)
+            . Dynamic Viscosity (cP)
+            . OAPI
+            . Crude oil 0.90578 28 20.25335 24.72 Fluid Type
+            . Density (g/cc)
+            . Temperature (°C)
+            . Dynamic Viscosity (cP)
+            . OAPI
+            . Crude oil 0.90578 28 20.25335 24.72 View Large
+
+
+Table 2Properties of Test Fluid Samples Sample
+            . Conc.(ppm)
+            . Density (g/cc)
+            . Viscosity (cP)
+            . pH
+            . Brine (NaCl) 20000 1.002 0.9798 6.8 Crude Oil NA 0.90578 20.2533 NA Okoho 1000 0.9872 1.0532 5.9 Okoho 2500 1.0032 1.3830 5.5 Okoho 5000 1.0097 2.0683 5.2 Okro 1000 1.0412 0.9987 7.2 Okro 2500 1.0432 1.0089 6.9 Okro 5000 1.0452 1.1093 6.5 Gum Arabic 1000 1.0353 1.4052 4.8 Gum Arabic 2500 1.0583 2.0681 4.6 Gum Arabic 5000 1.0683 4.0631 4.3 Ogbono 1000 1.0034 0.9284 4.5 Ogbono 2500 1.0045 1.4743 4.6 Ogbono 5000 1.0130 3.9683 5.1 Sample
+            . Conc.(ppm)
+            . Density (g/cc)
+            . Viscosity (cP)
+            . pH
+            . Brine (NaCl) 20000 1.002 0.9798 6.8 Crude Oil NA 0.90578 20.2533 NA Okoho 1000 0.9872 1.0532 5.9 Okoho 2500 1.0032 1.3830 5.5 Okoho 5000 1.0097 2.0683 5.2 Okro 1000 1.0412 0.9987 7.2 Okro 2500 1.0432 1.0089 6.9 Okro 5000 1.0452 1.1093 6.5 Gum Arabic 1000 1.0353 1.4052 4.8 Gum Arabic 2500 1.0583 2.0681 4.6 Gum Arabic 5000 1.0683 4.0631 4.3 Ogbono 1000 1.0034 0.9284 4.5 Ogbono 2500 1.0045 1.4743 4.6 Ogbono 5000 1.0130 3.9683 5.1 View Large
+
+
+The runs from the control sample of A and B shows that the breakthrough time occurred after producing 0.95ml and 0.92ml of oil at 22minutes and 18minutes respectively. Water cut then rises rapidly to high value. However at higher viscosity values on flooding fluid i.e. while using EOR agents; the breakthrough time was prolonged and more oil were recovered. We noticed a delay in breakthrough time with higher polymer viscosity and concentration (Table 3, Table 4, Figure 2)
+
+
+Figure 2View largeDownload slideChart of Breakthrough Time against Polymer Concentrations Table 3: Recoveries during Brine FloodingFigure 2View largeDownload slideChart of Breakthrough Time against Polymer Concentrations Table 3: Recoveries during Brine Flooding Close modal
+
+
+Table 3Recoveries during Brine Flooding Core Plug Sample
+            . Initial Oil Saturation in Core Plug (cm3)
+            . Oil Recovered (cm3)
+            . BT. Time (mins.)
+            . A (control) 10.62 0.950 22 B (control) 12.31 1.120 18 A1 12.8 8 24 A2 12.5 7.8 21 A3 14.00 8 23 A4 14.9 8.1 22 A5 15.0 9.0 21 A6 16.1 9.7 20 A7 15.50 8.30 24 A8 16.30 7.80 22 A9 14.30 7.30 19 A10 16.15 8.00 23 A11 23.96 10.10 21 A12 18.62 7.21 20 Core Plug Sample
+            . Initial Oil Saturation in Core Plug (cm3)
+            . Oil Recovered (cm3)
+            . BT. Time (mins.)
+            . A (control) 10.62 0.950 22 B (control) 12.31 1.120 18 A1 12.8 8 24 A2 12.5 7.8 21 A3 14.00 8 23 A4 14.9 8.1 22 A5 15.0 9.0 21 A6 16.1 9.7 20 A7 15.50 8.30 24 A8 16.30 7.80 22 A9 14.30 7.30 19 A10 16.15 8.00 23 A11 23.96 10.10 21 A12 18.62 7.21 20 BT = Breakthrough TimeView Large
+
+
+Table 4Oil Recoveries during Polymer Flooding Sand- pack Sample
+            . Test Fluid
+            . Conc. of Polymer (ppm)
+            . Polymer Viscosity (cP)
+            . Residual Oil at start of Polymer Flood (cm3)
+            . Oil Recovered after Polymer Flood (cm3)
+            . BT Time (mins)
+            . ED (%)
+            . A1 Okoho 1000 1.0532 4.800 2.850 41 59.38 A2 Okoho 2500 1.3830 4.700 3.400 45 72.34 A3 Okoho 5000 2.0683 6.000 4.500 50 75.30 A4 Okro 1000 0.9987 6.800 5.372 52 79.00 A5 Okro 2500 1.0089 6.000 5.322 56 88.70 A6 Okro 5000 1.1093 6.400 5.728 58 89.50 A7 G.Arabic 1000 1.4052 7.200 3.996 41 55.50 A8 G. Arabic 2500 2.0681 8.500 5.918 44 69.62 A9 G. Arabic 5000 4.0631 7.000 5.39 49 77.00 A10 Ogbono 1000 0.9284 8.150 3.360 43 41.23 A11 Ogbono 2500 1.4743 13.900 6.975 44 50.18 A12 Ogbono 5000 3.9683 7.210 2.725 - 37.79 Sand- pack Sample
+            . Test Fluid
+            . Conc. of Polymer (ppm)
+            . Polymer Viscosity (cP)
+            . Residual Oil at start of Polymer Flood (cm3)
+            . Oil Recovered after Polymer Flood (cm3)
+            . BT Time (mins)
+            . ED (%)
+            . A1 Okoho 1000 1.0532 4.800 2.850 41 59.38 A2 Okoho 2500 1.3830 4.700 3.400 45 72.34 A3 Okoho 5000 2.0683 6.000 4.500 50 75.30 A4 Okro 1000 0.9987 6.800 5.372 52 79.00 A5 Okro 2500 1.0089 6.000 5.322 56 88.70 A6 Okro 5000 1.1093 6.400 5.728 58 89.50 A7 G.Arabic 1000 1.4052 7.200 3.996 41 55.50 A8 G. Arabic 2500 2.0681 8.500 5.918 44 69.62 A9 G. Arabic 5000 4.0631 7.000 5.39 49 77.00 A10 Ogbono 1000 0.9284 8.150 3.360 43 41.23 A11 Ogbono 2500 1.4743 13.900 6.975 44 50.18 A12 Ogbono 5000 3.9683 7.210 2.725 - 37.79 ED = Displacement efficiency; BT = Breakthrough timeView Large
+
+
+Table 5 shows clearly that mobility control was achieved during the polymer flooding processes. This was deduced when comparison was made between water oil mobility ratio and polymer oil mobility ratios that were calculated at different polymer concentrations. Figure 3 revealed that when concentration increased, mobility ratio was reduced significantly.
+
+
+Table 5Summary of Polymer Characteristics for Different Concentrations Core Plug Sample
+            . Test Fluid
+            . Conc. (ppm)
+            . Water Oil Mobility Ratio M
+            . Polymer Oil Mobility Ratio M
+            . RF
+            . RRF
+            . A (control) Brine 20000 1.25 - - - B(control) Brine 20000 1.29 -   A1 Okoho 1000 1.70 0.99 2.872 1.303 A2 Okoho 2500 1.76 0.97 3.342 1.801 A3 Okoho 5000 1.68 0.91 3.941 2.341 A4 Okro 1000 1.78 0.75 2.671 1.041 A5 Okro 2500 1.61 0.42 3.151 1.237 A6 Okro 5000 1.77 0.35 3.721 1.354 A7 G.Arabic 1000 15.24 1.01 4.317 1.442 A8 G.Arabic 2500 8.34 0.75 4.523 1.843 A9 G.Arabic 5000 12.84 0.56 5.179 2.567 A10 Ogbono 1000 1.74 0.99 5.374 2.100 A11 Ogbono 2500 1.79 0.83 5.632 2.873 A12 Ogbono 5000 1.68 0.66 - 3 Core Plug Sample
+            . Test Fluid
+            . Conc. (ppm)
+            . Water Oil Mobility Ratio M
+            . Polymer Oil Mobility Ratio M
+            . RF
+            . RRF
+            . A (control) Brine 20000 1.25 - - - B(control) Brine 20000 1.29 -   A1 Okoho 1000 1.70 0.99 2.872 1.303 A2 Okoho 2500 1.76 0.97 3.342 1.801 A3 Okoho 5000 1.68 0.91 3.941 2.341 A4 Okro 1000 1.78 0.75 2.671 1.041 A5 Okro 2500 1.61 0.42 3.151 1.237 A6 Okro 5000 1.77 0.35 3.721 1.354 A7 G.Arabic 1000 15.24 1.01 4.317 1.442 A8 G.Arabic 2500 8.34 0.75 4.523 1.843 A9 G.Arabic 5000 12.84 0.56 5.179 2.567 A10 Ogbono 1000 1.74 0.99 5.374 2.100 A11 Ogbono 2500 1.79 0.83 5.632 2.873 A12 Ogbono 5000 1.68 0.66 - 3 View Large
+
+
+Figure 3View largeDownload slideGraph of Mobility Ratio of Polymer and ConcentrationFigure 3View largeDownload slideGraph of Mobility Ratio of Polymer and Concentration Close modal
+
+
+The recovery was computed for fourteen independent runs. Comparing the results from control samples A and B using brine with viscosity of 0.949cP and that from A1 to A12 with viscous polymer solutions of Cisus populnea (Okoho), Gum Arabic, Irvingia gabonensis (Ogbono) and Abelmoschus esculentus (Okro) as chasing fluid indicates that viscous fluid enhances the recovery of oil (Table 3 and Table 4). All the viscosified solution performed better compared to the ordinary water of 0.9798cP. For all solution used, slight increment in viscosity improve the displacement as well as recovery of oil apart from Ogbono polymer which recovery droped at a viscosity of 3.9cP and could not flow easily through the glass viscometer at 5000ppm (Figure 4). This consequence might be as a result of particles blockage of pore spaces of the sand-pack. Abelmoschus esculentus (Okro) solution performed better than Irvingia gabonensis (Ogbono), Cisus populnea (Okoho) and Gum Arabic solution. Also more recoveries were recorded from Abelmoschus esculentus (Okro) using equal concentrations in formulating the solution.
+
+
+Figure 4View largeDownload slideOil Recovery against Polymer ConcentrationFigure 4View largeDownload slideOil Recovery against Polymer Concentration Close modal
+
+
+It was also seen that concentration plays a role in adsorption effect and reduction in permeability by these polymers (Table 6). There was a significant increase in RRF value as well as adsorbed particles amount when polymer concentration was raised (Figure 5).
+
+
+Figure 5View largeDownload slideConcentration effects on Residual Resistance Factor (RRF)Figure 5View largeDownload slideConcentration effects on Residual Resistance Factor (RRF) Close modal
+
+
+Table 6Permeability of Core Plug Samples before and after Polymer Flooding Core Sample
+            . Kbefore (mD)
+            . Kafter (mD)
+            . % K Reduction
+            . RRF (-)
+            . Porosity (%)
+            . A 577.815 577.815 - - 27.4 B 493.409 493.409 - - 29.0 A1 824.121 803.518 2.5 1.303 22.0 A2 766.437 745.743 2.7 1.801 25.1 A3 948.911 911.903 3.9 2.341 27.0 A4 1007.884 986.718 2.1 1.041 24.0 A5 759.017 740.042 2.5 1.237 25.0 A6 639.754 622.481 2.7 1.354 25.0 A7 730.395 710.674 2.7 1.442 23.0 A8 828.147 804.131 2.9 1.843 31.5 A9 720.397 690.140 4.2 2.567 24.0 A10 617.873 596.248 3.5 2.100 27.45 A11 587.409 564.500 3.9 2.873 30.38 A12 577.815 577.815 - 3 33.54 Core Sample
+            . Kbefore (mD)
+            . Kafter (mD)
+            . % K Reduction
+            . RRF (-)
+            . Porosity (%)
+            . A 577.815 577.815 - - 27.4 B 493.409 493.409 - - 29.0 A1 824.121 803.518 2.5 1.303 22.0 A2 766.437 745.743 2.7 1.801 25.1 A3 948.911 911.903 3.9 2.341 27.0 A4 1007.884 986.718 2.1 1.041 24.0 A5 759.017 740.042 2.5 1.237 25.0 A6 639.754 622.481 2.7 1.354 25.0 A7 730.395 710.674 2.7 1.442 23.0 A8 828.147 804.131 2.9 1.843 31.5 A9 720.397 690.140 4.2 2.567 24.0 A10 617.873 596.248 3.5 2.100 27.45 A11 587.409 564.500 3.9 2.873 30.38 A12 577.815 577.815 - 3 33.54 Kbefore = Estimated permeability of plug before flooding with polymerKafter= Estimated permeability of plug sample after EOR operationView Large
+
+
+It was revealed that sand-pack samples permeability were reduced by some percentage after flooding the system with polymers compared to when it was not flooded with these polymers (Table 6). Sand-pack samples RRF and RF values are also summarized in Table 5. We suspect that polymer swelling nature or attachments on surfaces of grains may have likely lower the cavities inside the sand-pack. It was observed that raising the concentration gave rise to higher RF, and RRF numbers (Knoblock et. al., 2018; Sameer et. al., 2018).
+
+
+Figure 6View largeDownload slideExperimental Adsorption Curves of PolymersFigure 6View largeDownload slideExperimental Adsorption Curves of Polymers Close modal
+
+
+The adsorption data from Table 7 and Figure 6 shows the extent at which polymer stick to rock grains which intensifies when the concentration is increased. The extent of adsorption differs among the polymers at same concentration and Irvingia gabonensis (Ogbono) had the highest number of sticking particles among the tested local polymers used. We also noticed a wide discrepancy between the level of static adsorption and dynamically retained figures. This could be as a result of mechanical entrapment and hydrodynamic retention present in dynamic polymer flooding (Table 7).
+
+
+Table 7Estimated Adsorbed Amount of Polymer Polymer
+            . Conc. (ppm)
+            . Dynamic Adsorption (µg/g)
+            . Static Adsorption (µg/g)
+            . Okoho 1000 26.70 86.22 Okoho 2500 27.70 94.31 Okoho 5000 36.70 115.6 Okro 1000 24.55 84.08 Okro 2500 26.60 87.32 Okro 5000 30.50 92.22 G. Arabic 1000 27.12 87.34 G. Arabic 2500 39.41 100.21 G. Arabic 5000 48.22 109.21 Ogbono 1000 29.77 96.43 Ogbono 2500 39.55 100.54 Ogbono 5000 50.33 124.42 Polymer
+            . Conc. (ppm)
+            . Dynamic Adsorption (µg/g)
+            . Static Adsorption (µg/g)
+            . Okoho 1000 26.70 86.22 Okoho 2500 27.70 94.31 Okoho 5000 36.70 115.6 Okro 1000 24.55 84.08 Okro 2500 26.60 87.32 Okro 5000 30.50 92.22 G. Arabic 1000 27.12 87.34 G. Arabic 2500 39.41 100.21 G. Arabic 5000 48.22 109.21 Ogbono 1000 29.77 96.43 Ogbono 2500 39.55 100.54 Ogbono 5000 50.33 124.42 View Large
+
+
+Conclusion
+
+
+Base on the experimental results in this work, it was concluded that:
+
+
+A simple formulation and injection of Gum Arabic, Cisus pulpunea (Okoho), Irvingia gabonensis (Ogbono) and Abelmoschus esculentus (Okro) solution through porous media recovers more oil than ordinary brine injection.Reduction in mobility leads to a significant increment in recovery of oil.Polymer EOR reduces permeability of formation; hence it would be more efficient in reservoirs with high porosity and permeability values.Retention of polymers is as a result of adsorption on the grains, some free particles block the narrow passage ways mechanically, and others are hydrodynamic retention due to high ?ow rates.The retained polymer reduces the ?ow area, thus the ?ow capacity (permeability) of the system.The best performed polymer among all the ones tested is Abelmoschus esculentus (Okro), it has lowest values of static and dynamic adsorption amount, highest efficiency, and lowest permeability reduction compared to the others.
+
+
+Recommendation
+
+
+It was clearly proven from this research that locally sourced polymers in Nigeria can fit in EOR operations; though there are likely permeability reduction and adsorption effect flooding for EOR. Base on inherent limitation in this research study;
+
+
+It is advisable that:
+
+
+A more detailed research on this should be considered to simulate reservoir conditions in Nigeria.A proper study on the chemistry of these selected polymers as well as their compatibility with hydrocarbons be carried on subsequent studies.Government, Industries, Universities and Research Institution in Nigeria should work together on this project. This will bring about the production of local chemicals in Nigeria and make us have a valuable product in the global market. It will also make our local content initiative a reality and a success.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Appendix
+
+
+Table A:1Properties of Sand-pack Samples Plug sample
+            . Length (mm)
+            . Diameter (mm)
+            . Bulk Vol. (cm3)
+            . Pore Volume (cm3)
+            . Porosity (%)
+            . Permeability (mD)
+            . A(control) 57.99 35.37 56.98 15.62 27.4 577.815 B(control) 55.1 37.31 60.24 17.52 29.0 493.409 A1 66.94 31.82 53.28 11.71 22.0 824.121 A2 62.02 31.76 49.13 12.33 25.1 766.437 A3 64.02 29.00 42.29 11.42 27.0 948.911 A4 63.98 28.13 39.76 9.54 24.0 1007.884 A5 62.04 31.92 49.65 12.41 25.0 759.017 A6 52.03 31.84 41.47 10.37 25.0 639.754 A7 65.60 33.46 57.68 14.34 23.0 730.395 A8 71.30 32.76 60.10 18.96 31.5 828.147 A9 66.18 33.84 59.52 14.27 24.0 720.397 A10 62.89 35.62 62.63 17.19 27.45 617.873 A11 60.53 35.84 61.09 18.56 30.38 587.409 A12 57.99 35.37 57.00 19.12 33.54 577.815 Plug sample
+            . Length (mm)
+            . Diameter (mm)
+            . Bulk Vol. (cm3)
+            . Pore Volume (cm3)
+            . Porosity (%)
+            . Permeability (mD)
+            . A(control) 57.99 35.37 56.98 15.62 27.4 577.815 B(control) 55.1 37.31 60.24 17.52 29.0 493.409 A1 66.94 31.82 53.28 11.71 22.0 824.121 A2 62.02 31.76 49.13 12.33 25.1 766.437 A3 64.02 29.00 42.29 11.42 27.0 948.911 A4 63.98 28.13 39.76 9.54 24.0 1007.884 A5 62.04 31.92 49.65 12.41 25.0 759.017 A6 52.03 31.84 41.47 10.37 25.0 639.754 A7 65.60 33.46 57.68 14.34 23.0 730.395 A8 71.30 32.76 60.10 18.96 31.5 828.147 A9 66.18 33.84 59.52 14.27 24.0 720.397 A10 62.89 35.62 62.63 17.19 27.45 617.873 A11 60.53 35.84 61.09 18.56 30.38 587.409 A12 57.99 35.37 57.00 19.12 33.54 577.815 View LargeTable A:2Initial Saturation Result of Sand-pack Samples Plug sample
+            . Dry Weight (g)
+            . Saturated Weight (g)
+            . Fluid Wt. (g)
+            . Pore Volume (cm3)
+            . A (control) 142.24 157.89 15.65 15.62 B (control) 134.12 151.67 17.55 17.52 A1 137.68 149.41 11.73 11.71 A2 127.86 140.22 12.36 12.33 A3 128.65 140.09 11.44 11.42 A4 126.01 135.57 9.56 9.54 A5 121.36 33.79 12.43 12.41 A6 125.6 135.99 10.39 10.37 A7 136.23 150.60 14.37 14.34 A8 132.15 151.15 19.00 18.96 A9 136.44 150.74 14.30 14.27 A10 127.75 144.97 17.22 17.19 A11 111.87 130.47 18.60 18.56 A12 111.98 131.14 19.16 19.12 Plug sample
+            . Dry Weight (g)
+            . Saturated Weight (g)
+            . Fluid Wt. (g)
+            . Pore Volume (cm3)
+            . A (control) 142.24 157.89 15.65 15.62 B (control) 134.12 151.67 17.55 17.52 A1 137.68 149.41 11.73 11.71 A2 127.86 140.22 12.36 12.33 A3 128.65 140.09 11.44 11.42 A4 126.01 135.57 9.56 9.54 A5 121.36 33.79 12.43 12.41 A6 125.6 135.99 10.39 10.37 A7 136.23 150.60 14.37 14.34 A8 132.15 151.15 19.00 18.96 A9 136.44 150.74 14.30 14.27 A10 127.75 144.97 17.22 17.19 A11 111.87 130.47 18.60 18.56 A12 111.98 131.14 19.16 19.12 View Large
+
+
+References
+
+
+Barnes, A. L. (1962), "The use of a Viscous Slug to improve Water Flood Efficiency in a Reservoir partially invaded by Bottom Water", Pet J. Tech.1147–53Google Scholar Buckley, S.C. & Leverett, M.C. (1942), "Mechanism of Fluid Displacement in sands", Trans AIME107, 146Google Scholar Caudle, B. H. and Witte, M.D (1959), "Production Potential changes during sweep-out in a five-spot system", Trans AIME216, 446Google Scholar Craft. B. C.. and Hawkins, M. F.Jr. (1959), "Applied Petroleum Reservoir Engineering" Prentice-Hall, Inc. New Jersey347, 380Google Scholar Craig, F. F., Jr., 1971. "The Reservoir Engineering Aspects of Waterflooding", Monograph Series, 3, SPE, Richardson, Texas, USA.Google Scholar Dyes, A. B.Caudle, B. H., and Erikson, R. A. (1954) "Oil production after Breakthrough-As influenced by mobility ratio", Trans., AIME, 201, 81Google Scholar Omar, A. E. (1982), "Plugging and Adsorption problems with Tertiary Polymers" Oil and gas Journal, 193-197 Pengyu, Bao et al 2018 IOP Conf. Ser.: Earth Environ. Sci. 113 012070Google Scholar SameerA., SyedM., et al. 2018, "An Overview on Polymer Retention in Porous Media".Google Scholar Saurabh, M.AchintaB., AjayM., (2014), "Effect of Polymer Adsorption on Permeability Reduction in Enhance oil Recovery".Google Scholar Sheng, J.J. (2010) "Modern Chemical Enhanced Oil Recovery Theory and Practice". Elsevier, Amsterdam.Google Scholar Sheng, J.J., Leonhard, B. and Azri, N. (2015), Status of Polymer Flooding Technology. Journal of Canadian Petroleum technology. Doi: 10.2118/174541-PAGoogle Scholar Ezeddin, S. (2000), "Mobility Control by Polymers under Bottom-Water Conditions, Experimental approach" Soc. Pet. Eng. J1–9Google Scholar Knobloch, L. O., Hincapie Reina, R. E., Foedisch, H. and Ganzer, L. (2018) Qualitative and Quantitative Evaluation of Permeability Changes during EOR Polymer Flooding Using Micromodels. World Journal of Engineering and Technology, 6, 332–349. https://doi.org/10.4236/wjet.2018.62021Google ScholarCrossrefSearch ADS  Mungan, N. (1971) "Improved water flooding through mobility control" cdn. J. chem. Eng. 49, 32.Google ScholarCrossrefSearch ADS  Sorbie, K.S. (1991), "Polymer Improved oil Recovery", Blackie & Sons Ltd., London312–340Google ScholarCrossrefSearch ADS  Stiles, W. E (1949), "Use of permeability distribution in water flood calculations", Trans AIME186–189Google Scholar Szabo, M. T. (1973), "Laboratory Investigation of factors influencing polymer flood performance" Soc. Pet. Eng.338–346, Trans. AIMEGoogle Scholar Tarek, A. (2006), "Reservoir Engineering Hanbook", Linacre House, Jordan Hill, Oxford, OX2 8DP. UK.Google Scholar Thomas, A. (2016) Polymer Flooding. InTech. https://doi.org/10.5772/64623Uzoho, C.U, Mike, O. O, and Onyewuchi, A. (2019) "Chemical Flooding Enhanced Oil Recovery Using Local Alkali- Surfactant-Polymer" World Journal of Innovative Research. https://doi.org/10.31871/WJIR.7.1.3Google Scholar Willhite, G.P., Green, D.W., 1998. Enhanced Oil Recovery. SPE Textbook Series, 6. Henry, L. Doherty Memorial Fund of AIME, Society of Petroleum Engineers, Richardson, TX.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211922-MS
+
+
+

@@ -1,0 +1,343 @@
+----- METADATA START -----
+Title: Modelling Degradation Time of Hydroxyethyl Cellulose-Based Polymeric Fluids
+Authors: Anthony Okon John, Ogbonna Friday Joel, Franklin Chukwuma
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212022-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Sand production from hydrocarbon wells is known not to have any economic value. Hydroxyethyl cellulose is one of the polymers of choice used to formulate gravel carrier fluids used to transport proppants to the desired intervals in hydrocarbon wells, drilled in unconsolidated formations, to stop or minimize sand production. Viscous polymeric fluids must be degraded to ensure good wellbore cleanout and good hydrocarbon production. Polymer Degradation is a function of several variables such as temperature, pH, salinity, type and concentration of gel breakers and polymers. The success of gravel pack operations in the field depends greatly on the fluid design, which must first be qualified in the laboratory. It is often difficult to predict the degradation time of polymer fluids used in gravel pack operations because it’s a function of many variables. Therefore, in this study, a more detailed study of the effect of temperature, sodium persulfate breaker concentration and hydroxyethyl cellulose polymer concentration were performed. A model equation, capable of predicting the break time of hydroxyethyl cellulose-based polymeric fluid mixed in 2% by weight of potassium chloride brine, at various temperatures for different concentrations of sodium persulfate breaker, was developed based on data from laboratory experiments with the aid of Mini tab 17 software using factorial regression analysis. From the analysis, temperature has the highest impact on the degradation rate of hydroxyethyl cellulose with an effect estimate of -281.7, while breaker concentration and polymer concentration have an effect estimate of -113.4 and 128.8 respectively. From the analysis of variance, the coefficient of determination, R Squared, was 0.8792. The process of degradation of hydroxyethyl cellulose-based fluid similar composition can be more easily and faster optimized using this model.
+
+
+
+
+Keywords:
+upstream oil & gas,
+sand control,
+polymer concentration,
+fracturing fluid,
+fracturing materials,
+equation,
+degradation,
+proppant,
+concentration,
+break time
+
+
+Subjects: 
+Hydraulic Fracturing,
+Gravel pack design & evaluation,
+Fracturing materials (fluids, proppant),
+Sand Control,
+Completion Operations
+
+
+
+
+Introduction
+
+
+Hydroxyethyl cellulose (HEC) is widely used in different industrial sectors. It is used in different operations in the petroleum industry such as well drilling, completion, hydraulic fracturing, and workover. It is one of the polymers used as viscosifier in the formulation of gravel carrier fluids, used to transport proppants to the desired interval in hydrocarbon wells, drilled in soft or unconsolidated formations. This serves to control or prevent the production of formation sand during hydrocarbon production.
+
+
+HEC, a non-ionic cellulose derivative, is manufactured by an etherification reaction of cellulose with gaseous ethylene oxide after treating sodium hydroxide (Abass et al. 2013). In this, the hydrogen atoms in the cellulose hydroxyl group are substituted by hydroxyethyl group, making the polymer to be water-soluble. HEC is used to increase the viscosity of brines during gravel pack operations. The high viscosity aid in the suspension and transport of proppants. Formation damage potential of polymeric fluids is a major concern. HEC is one of the polymers with the least potential of causing formation damage if properly mixed since it is synthetic and does not contain cellular debris, known to be responsible for formation damage (El-Dhabi and Bulgachev, 2011).
+
+
+Since it is non-ionic, HEC is insensitive to salinity and is effective in viscosifying at low concentrations. Microscopic globules, microgels, and clumps of unhydrated polymers, fisheyes formed during manufacturing, storage and mixing because of its high solubility can be eliminated by the adoption of proper mixing procedures such as controlling the pH of the mix water during dispersion of the powder HEC before hydration, shearing and filtration of the hydrated gels (Vollmer and Alleman, 2001; Hayatdavoudi et al. 1994). Pre-dispersed HEC powder in a solvent, Liquid HEC gel concentrate, may also be used to improve mixability problems. HEC solutions are non-Newtonian, exhibit a shear-thinning rheological profile and their viscosity reduces with temperature (John et al. 2017).
+
+
+After transportation of proppants to the desired interval in the wellbore, the viscosity of the viscous fluid needs to be reduced to enable deposition and compact parking of the proppants through the process of degradation of the polymer used as the gelling agent. Gel breakers, usually incorporated into the mixing of the polymeric fluid, are employed to gradually degrade the polymer, and facilitate good cleanup of the wellbore by improving the regained permeability of the proppant pack and formation, ensuring good hydrocarbon production. The reaction of the gel breakers must be controlled and optimized, in order not to jeopardize the gravel packing process.
+
+
+The known gel breakers may be classified as enzymes, acids, and oxidizers (Jennings, 1996). Cellulose polymer breakers, cellulase, function within a specific temperature and fluid’s pH range; acids and oxidative breakers function similarly by attacking the backbone of the polymer chain, breaking it into smaller units via hydrolysis and several oxidation-reduction reactions, without oxidizing the resulting polymer (Montgomery, 2013). Oxidizer breakers include hypochlorites, persulfates and peroxides.
+
+
+Peroxides type acts by releasing oxygen when they come in contact with water, while persulfates undergo thermal decomposition to produce free sulfate radicals (Montgomery, 2013). The rate of polymer degradation by gel breakers depends on several factors such as temperature, fluid’s salinity, pH, type and concentration of polymer, type and concentration of gel breaker. (Cole and Ali 1994; Al-Muhammad et al., 2007; Sarwar et al, 2011; Al-Muntasheri 2014).
+
+
+Therefore, it’s often not easy to predict the degradation of break time of polymeric fluids because it’s a function of many variables. Generally, polymer degradation rate increases with increasing temperature and increasing breaker concentration, while it tends to decrease with an increase in polymer concentration (John et al. 2016). Since fluid viscosity can impact particle suspension properties of fluids, optimal concentration of breaker must be selected for different wellbore conditions, depending on the type of polymer employed.
+
+
+The success of gravel pack operations in the field depends greatly on the fluid design. The fluid design includes the type and concentration of additives used to formulate the fluid system. To meet up the requirement of the objectives of the project and wellbore conditions. The fluid must first be optimized and qualified through specific testing in the laboratory before deploring deployment in the field.
+
+
+In this study, a mathematical model, capable of predicting the break time of Hydroxyethyl cellulose-based fluid designed for gravel pack operation at different temperatures at different for different concentrations of Sodium Persulfate (SP) breaker, was developed from data obtained from laboratory experiment. This paper also explains the interactions between temperature, SP breaker concentration and HEC polymer concentration and how these parameters impact the break time of the HEC polymeric fluid.
+
+
+Materials and Methods
+
+
+40 lbs./1000gal (40ppt) HEC polymer fluid was prepared in 2% by weight of water (bwow) potassium chloride (KCl) brine and mixed in the order shown in Table 1, using a waring blender, operated at maximum speed between 7 and 8, using sodium carbonate for full polymer hydration, surfactant added and mixed for 30 minutes.
+
+
+Table 1HEC Polymer Fluid Recipe Chemical
+            . Concentration per 1000 gal
+            . Amount per L
+            . 2% KCl (bwow) 1000 gal 1000 ml Biocide 1 0.15 lb 0.018 g Biocide 2 0.15 lb 0.018 g Iron Control Agent 10 lb 1.2 g HEC Gelling Agent 40 lb 4.8 g Sodium carbonate 15 lb 1.8 g Surfactant 1 gal 1.0 ml SP Breaker 5 lb 0.6 g Chemical
+            . Concentration per 1000 gal
+            . Amount per L
+            . 2% KCl (bwow) 1000 gal 1000 ml Biocide 1 0.15 lb 0.018 g Biocide 2 0.15 lb 0.018 g Iron Control Agent 10 lb 1.2 g HEC Gelling Agent 40 lb 4.8 g Sodium carbonate 15 lb 1.8 g Surfactant 1 gal 1.0 ml SP Breaker 5 lb 0.6 g View Large
+
+
+After the gel hydration, before adding the breaker, 200cc of the gel was measured into the waring blender and an equivalent amount of breaker was added and blended for 1 minute, poured into a glass jar, sealed, and placed in a water bath preheated to the test temperature to determine the break time of the HEC polymer fluid.
+
+
+The break time was determined for varying concentrations of sodium persulfate (SP) breaker at 5ppt, 10ppt and 20ppt at different temperatures of 140, 160 and 180°F, using Fann Viscometer model 35 with F1 spring, B1 bob and R1 rotor combination. This was done by determining the viscosity in centipoise (cP) at a machine speed of 300 revolutions per minute (rpm), equivalent to 511 sec-1 shear rate. Acceptable break time is the time the fluid’s viscosity drops to 10cP or below at 511 sec-1 shear rate.
+
+
+The experiment was repeated for 60ppt HEC polymer fluid.
+
+
+Results and Discussion
+
+
+The result of the break time for the 40ppt and 60ppt HEC polymer fluid mixed in 2% bwow KCl brine, with 5, 10, and 20ppt SP breaker concentrations at 140, 160 and 180°F is summarized in Tables 2 and 3. The HEC polymer showed a good response to changes in polymer concentration, breaker concentration and temperature, thereby showing a good break profile. The results confirmed findings from literature that the rate of polymer degradation increases with temperature, breaker concentration and decreases with polymer concentration (John et al. 2017; Al-Muntasheri, 2014).
+
+
+Table 2Break Time for 40ppt HEC Fluid Breaker Concentration (ppt)
+            . 140
+            . Temperature (∘F)160
+            . 180
+            . 
+            . 
+            . Break Time (min)
+            . 
+            . 5.0 200 70 30 10.0 140 40 20 20.0 90 20 10 Breaker Concentration (ppt)
+            . 140
+            . Temperature (∘F)160
+            . 180
+            . 
+            . 
+            . Break Time (min)
+            . 
+            . 5.0 200 70 30 10.0 140 40 20 20.0 90 20 10 View Large
+
+
+Table 3Break Time for 60ppt HEC Fluid Breaker Concentration (ppt)
+            . 140
+            . Temperature (∘F)160
+            . 180
+            . 
+            . 
+            . Break Time (min)
+            . 
+            . 5.0 730 145 35 10.0 450 90 20 20.0 290 60 15 Breaker Concentration (ppt)
+            . 140
+            . Temperature (∘F)160
+            . 180
+            . 
+            . 
+            . Break Time (min)
+            . 
+            . 5.0 730 145 35 10.0 450 90 20 20.0 290 60 15 View Large
+
+
+Materials and Methods
+
+
+Figures 1 and 2 showed that the best-fit equations for the relationship between break time and temperature for various SP breaker concentrations is power model for the 40ppt HEC Fluid and exponential for 60ppt HPG within the tested temperature range. The HEC polymer fluid degradation rate increases with temperature at the same breaker concentration, with the 40ppt HEC fluid showing more response to degradation than the 40ppt fluid at the same condition.
+
+
+Figure 1View largeDownload slideEffect of Temperature on Break Time of 40ppt HEC FluidFigure 1View largeDownload slideEffect of Temperature on Break Time of 40ppt HEC Fluid Close modal
+
+
+Figure 2View largeDownload slideEffect of Temperature on Break Time of 60ppt HEC FluidFigure 2View largeDownload slideEffect of Temperature on Break Time of 60ppt HEC Fluid Close modal
+
+
+Figures 3 and 4 show the trend between break time of HEC polymer fluid and SP breaker concentrations at different temperatures, with the logarithm and power-law models best describing the relationship for the 40ppt and 60ppt HEC fluids respectively.
+
+
+Figure 3View largeDownload slideEffect of SP Breaker concentration on Break Time of 40ppt HEC FluidFigure 3View largeDownload slideEffect of SP Breaker concentration on Break Time of 40ppt HEC Fluid Close modal
+
+
+Figure 4View largeDownload slideEffect of SP Breaker concentration on Break Time of 60ppt HEC FluidFigure 4View largeDownload slideEffect of SP Breaker concentration on Break Time of 60ppt HEC Fluid Close modal
+
+
+The equation can be expressed as follows for the 400ppt HEC fluid:
+
+
+BT=b−a*ln(C)(1)
+
+
+Where BT is break time in minutes; C is breaker concentration (ppt); a and b are coefficients.
+
+
+Coefficients a and b are functions of temperature and can be determined for the 40ppt HEC fluid by regressing the values a and b in each equation against the respective temperatures in Figure 3.
+
+
+Thus, for 40ppt EC, coefficients a and b in equation (1) can be expressed as follows:
+
+
+a=2.70007E+16 T−6.7638(2)
+
+
+b=−9.7459E+17 T−7.2189(3)
+
+
+Where T is temperature in °F.
+
+
+Therefore, for the 40ppt HEC fluid,
+
+
+BT=−9.7459E+17  T−7.2189−2.70007E+16 T−6.7638ln(C)(4)
+
+
+Similarly, the best equation of fit for 60ppt HEC Fluid can be described as follows:
+
+
+BT=a*C−b(5)
+
+
+Similarly, coefficients a and b for 60ppt HEC fluid can be determined by regression of the values in the equations in Figure 4 against respective temperatures.
+
+
+Thus, for the 60ppt HEC gel, coefficients a and b in equation (5) can be expressed as follows:
+
+
+a=2.1837E+30 T−12.586(6)
+
+
+b=1.7421−0.2181 ln(T)(7)
+
+
+Therefore, for 60ppt HEC,
+
+
+BT=(2.1837E+30 T−12.586)(C0.2181 ln(T)−1.7421)(8)
+
+
+Therefore, equation (4) and (8) are capable of predict break time of 40ppt HEC and 60ppt HEC polymer fluids respectively, mixed with 2% KCl, using SP breaker at different temperatures. These equations will be most accurate between 140 and 180°F and variations may occur depending on the grade of the gelling agent, quality of additives, the salinity of brine used as mix fluid and pH of the fluid system since oxidizer breaker efficiency depends on pH (Hayatdavoudi et al. 1994).
+
+
+To determine the impacts of the various parameters that affect the rate of the polymer fluid degradation and how these parameters interact with one another, a factorial regression of the laboratory test results in Tables 1 and 2 was performed using Mini tab 17 software.
+
+
+With the aid of the software, the relationship between fluid design parameters, breaker concentration, temperature, and polymer concentration, represented by B, T and C respectively and the break time, denoted by BT is further presented in two-dimensional form of surface plot as shown in Figure 5. This shows the break time as a function of two variables for a particular plot.
+
+
+Figure 5View largeDownload slideSurface PlotsFigure 5View largeDownload slideSurface Plots Close modal
+
+
+The cube plot in Figure 6 shows the interactions of the design parameters and their effect on break time for the model equation. This can help to optimize the fluid design and indicates the parameters to adjust to achieve a given break time. The highest polymer concentration at the lowest breaker concentration and lowest temperature yields the longest break time.
+
+
+Figure 6View largeDownload slideModel Cube PlotFigure 6View largeDownload slideModel Cube Plot Close modal
+
+
+The regression result summary and Analysis of Variance (ANOVA) are presented in Tables 4 and 5. The coefficient of determination, R Squared, which shows how efficient the mathematical model predicts the break time, was 0.8792, which means that the model can explain 87.92% of the variability of the break time results. The adjusted R-Squared for the size of the model was 79.46%.
+
+
+Table 4Analysis of Variance Source
+            . DF
+            . Adj SS
+            . Adj MS
+            . F-Value
+            . P-Value
+            . Model 7 523333 74762 10.40 0.001    Linear 3 347171 115724 16.09 0.000       B 1 40002 40002 5.56 0.040       T 1 233882 233882 32.53 0.000       C 1 73286 73286 10.19 0.010    2-Way Interactions 3 118006 39335 5.47 0.017       B*T 1 29733 29733 4.13 0.069       B*C 1 9844 9844 1.37 0.269       T*C 1 78429 78429 10.91 0.008    3-Way Interactions 1 12257 12257 1.70 0.221       B*T*C 1 12257 12257 1.70 0.221 Error 10 71907 7191   Total 17 595240    Source
+            . DF
+            . Adj SS
+            . Adj MS
+            . F-Value
+            . P-Value
+            . Model 7 523333 74762 10.40 0.001    Linear 3 347171 115724 16.09 0.000       B 1 40002 40002 5.56 0.040       T 1 233882 233882 32.53 0.000       C 1 73286 73286 10.19 0.010    2-Way Interactions 3 118006 39335 5.47 0.017       B*T 1 29733 29733 4.13 0.069       B*C 1 9844 9844 1.37 0.269       T*C 1 78429 78429 10.91 0.008    3-Way Interactions 1 12257 12257 1.70 0.221       B*T*C 1 12257 12257 1.70 0.221 Error 10 71907 7191   Total 17 595240    View Large
+
+
+Table 5Model Summary S
+            . R-sq
+            . R-sq(adj)
+            . R-sq(pred)
+            . 84.7983 87.92% 79.46 % 49.72% S
+            . R-sq
+            . R-sq(adj)
+            . R-sq(pred)
+            . 84.7983 87.92% 79.46 % 49.72% View Large
+
+
+The parameter estimates for the model are described in Table 6. The parameter having the highest impact on the rate of degradation of the polymer fluid or break time is temperature with an effect estimate of -281.7, followed by polymer concentration and then breaker concentration with effect estimates of 128.8 and -113.4 respectively. Interactions between temperature and polymer concentration and between breaker concentrations and temperature also have significant impacts, with effect estimates of -163.1 and 119.7 respectively. The negative sign is an indication of an inverse relationship. The lowest impact is observed in the interactions between the three parameters. The impact of the design parameters and their interactions is further described in Figures 7 and 8.
+
+
+Table 6Parameter Estimates Term
+            . Effect
+            . Coef
+            . SE Coef
+            . T-Value
+            . P-Value
+            . VIF
+            . Constant  130.1 20.2 6.45 0.000  B -113.4 -56.7 24.0 -2.36 0.040 1.00 T -281.7 -140.8 24.7 -5.70 0.000 1.02 C 128.8 64.4 20.2 3.19 0.010 1.02 B*T 119.7 59.9 29.4 2.03 0.069 1.02 B*C -56.2 -28.1 24.0 -1.17 0.269 1.02 T*C -163.1 -81.6 24.7 -3.30 0.008 1.02 B*T*C 76.9 38.4 29.4 1.31 0.221 1.02 Term
+            . Effect
+            . Coef
+            . SE Coef
+            . T-Value
+            . P-Value
+            . VIF
+            . Constant  130.1 20.2 6.45 0.000  B -113.4 -56.7 24.0 -2.36 0.040 1.00 T -281.7 -140.8 24.7 -5.70 0.000 1.02 C 128.8 64.4 20.2 3.19 0.010 1.02 B*T 119.7 59.9 29.4 2.03 0.069 1.02 B*C -56.2 -28.1 24.0 -1.17 0.269 1.02 T*C -163.1 -81.6 24.7 -3.30 0.008 1.02 B*T*C 76.9 38.4 29.4 1.31 0.221 1.02 Where B is Breaker concentration; T is Temperature and C is polymer concentrationView Large
+
+
+Figure 7View largeDownload slideStandard EffectsFigure 7View largeDownload slideStandard Effects Close modal
+
+
+Figure 8View largeDownload slideInteractions PlotsFigure 8View largeDownload slideInteractions Plots Close modal
+
+
+The contour plots shown in Figure 9 help to predict the break time in the various regions of the model parameters. More so, Figures 10 and 11 depict the residues for the model from the mathematical analysis.
+
+
+Figure 9View largeDownload slideContour Plots for the modelFigure 9View largeDownload slideContour Plots for the model Close modal
+
+
+Figure 10View largeDownload slideProbability PlotFigure 10View largeDownload slideProbability Plot Close modal
+
+
+Figure 11View largeDownload slideResidual by Predicted modelFigure 11View largeDownload slideResidual by Predicted model Close modal
+
+
+A mathematical model capable of predicting the break time of various concentrations of hydroxyethyl cellulose base polymeric fluid mixed using 2% KCl brine for different concentrations of sodium persulfate gel breaker at different temperatures was developed and expressed in equation (9).
+
+
+BT=−4232+152B+24.4T+127.6C−0.88B*T−4.47B*C−0.728T*C+0.0256B*T*C(9)
+
+
+Where BT is the Break Time in minutes, T is temperature in °F, C is HEC polymer concentration in ppt, and B is SP breaker concentration in ppt.
+
+
+The model will be effective in the various ranges of the parameters used for the laboratory experiment and some variations may occur because of differences in product quality, salinity, and fluid pH.
+
+
+Conclusion
+
+
+Fluid design is vital to the success of gravel pack operations. The additives must be selected to formulate a fluid, capable of measuring up with the job objectives, formation, and downhole conditions. It is very essential for the fluid to be validated in the laboratory and optimized before deploring.
+
+
+Temperature, gel breaker and gelling agent concentrations have been confirmed to affect the rate of degradation of polymeric fluids. These parameters and their interactions impact differently on the break time of hydroxyethyl cellulose-based polymer fluid, with temperature recording the highest impact. These parameters can therefore be used to optimize fluid designs.
+
+
+An efficient mathematical model capable of predicting the break time of hydroxyethyl cellulose-based polymer fluid at different temperatures, for different concentrations of sodium persulfate type oxidizer breaker and HEC polymer concentration has been developed.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgment
+
+
+The authors which to thank the management and staff of the World Bank African Centre of Excellence in Oilfield Chemical Research (ACE-CEFOR), Institute of Petroleum Studies, University of Port Harcourt.
+
+
+References
+
+
+Abbas, S., Sander, A.W. and Danovan, J.C. (2013). Applicability of HEC Polymer for Chemical EOR. SPE 165311, Kuala Lumpur, Malaysia, July2-4July.Google Scholar Al-Mohammed, A.M., Nasr-El-Din, H.A., Al-Fuwaires, O.A. and Al-Aamri, A.D. (2007): Degradation of High pH Borate Gels. IPTC 11585, Dubai, U.A.E., December4-6.Google ScholarCrossrefSearch ADS  Al-Muntasheri, G.A. (2014): A Critical Review of Hydraulic Fracturing Fluids over the Last Decade. SPE 169552, Denver, Colorado, U.S.A., April16-18.Google ScholarCrossrefSearch ADS  Cole, R.C. and Ali, S.A. (1994): A Comparative Study of Succinoglycan Gravel Pack Gel Properties to Those of HEC. SPE 28533, New Orleans, Louisiana, September25-28.Google ScholarCrossrefSearch ADS  El-Dhabi, F. and Bulgachev, R. (2011): Gravel Packing Depleted Reservoirs, Proc. SPE European Formation Damage Conference, Noordwijk, The Netherlands, 7-10 June 2011, SPE 143929.Google Scholar John, A.O., Joel, O.F. and Chukwuma, F.O. (2017): Evaluating the Effect of Temperature and Breaker Concentration on Degradation of Crosslinked Hydroxypropyl Guar Fluid. American Journal of Engineering Research (AJER), Volume 6, pages 34–40.Google Scholar Montgomery, C. (2013): Fracturing Fluids. ISRM Specialized Conference Paper,Brisbane, Australia, May 2013.Google Scholar Sarwa, M.U., Cawiesel, K.E. and Nasr-El-Din, H.A. (2011): Gel Degradation Studies of Oxidative and Enzyme Breakers to Optimize Breaker Type and Concentration for Effective Break Profile at Low and Medium Temperature Ranges. SPE 140520, Woodlands, TX, January24-25.Google Scholar Vollmer, D.P. and Alleman, D.J. (2001): HEC No Longer the Preferred Polymer. SPE 65398, Houston, Texas, February13-16.Google ScholarCrossrefSearch ADS  John, A.O., Joel, O.F. and Chukwuma, F.O. (2016): Evaluating the Effect of temperature and Polymer Concentration on Properties of xanthan Gravel Pack Fluids. SPE 184312-MS, Lagos, Nigeria, 2-4August.Google ScholarCrossrefSearch ADS  Hayatdavoudi, A., Mehdizadeh, A.M., Scott, C. and Mabel, C. (1994): Degradation Mechanism of the HEC Gel in Connection with Prevention of the Formation Damage: Part 1. SPE 27366, Lafayette, Louisiana, February7-10.Google ScholarCrossrefSearch ADS  JenningsA.R.Jr., (1996): Fracturing Fluids - Then and Now. SPE 36166-Technology Today Series, JPT, 604–610.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212022-MS
+
+
+

@@ -1,0 +1,172 @@
+----- METADATA START -----
+Title: Managing Well Performance Under Reservoir Uncertainty: Case Study of a Niger Delta Well
+Authors: Erasmus Nnanna, Mofoluwake Nyeche
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211945-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Managing well performance under reservoir uncertainty requires robust definition of the operating limits of the well. It also requires flexibility for reacting to observed performance trends and adjusting the well operating envelope to guarantee safe operations and stable production. BAJE-8 experienced anomaly in production performance occasioned by exposure of part of the drain hole to a gas pocket near the gas cap. The well definition carried uncertainty in fluid contact and there was also inability to map intra-reservoir faults and shales around the proposed landing depth of the drain hole. Uncertainty in the size of the gas pocket also led to the inability to accurately predict the timing of the blowdown. Prudent reservoir management enabled by proactive well monitoring and surveillance led to timely review and modification of operating conditions of the well when abnormally high GOR was observed from the well. The strategy was to blowdown the gas cap while monitoring changes in the well parameters with expectation that parameters would normalize once the gas pocket is blown down. The GOR and FTHP showed a peak in performance and steadily declined within the 6-month period of blow down.The blowdown pushed the well performance parameters towards the previously predicted ranges prompting modification of the operating envelope. This rollercoaster well performance occasioned by subsurface uncertainty lasted for some 6 months and was successfully managed. The well performance now aligns with predictions and the well has sustained production in the last 18 months.
+
+
+
+
+Keywords:
+completion installation and operations,
+inflow performance,
+upstream oil & gas,
+uncertainty,
+baje-8,
+prediction,
+reversal,
+knowledge management,
+blowdown,
+choke
+
+
+Subjects: 
+Reservoir Characterization,
+Formation Evaluation & Management,
+Professionalism, Training, and Education,
+Information Management and Systems,
+Well performance, inflow performance,
+Communities of practice,
+Knowledge management,
+Completion Installation and Operations
+
+
+
+
+Introduction
+
+
+Brown field development relies on field performance data whose accuracy could influence the project value drivers. Models are history-matched, with prediction generated, and this forms the basis of the economic valuation that ultimately leads to investment decisions. Whereas uncertainties cannot be eliminated in hydrocarbon maturation, the use of low-base-high cases enable decision makers to maintain visibility on the range of promise and ensure adequate mitigations are put in place should the low-case scenario materialize.
+
+
+Projects may also be discontinued because of the low-case realization being too low with exposure for loss of value especially if there is no credible mitigation to put in place. Projects that involve drilling of infill wells in brown fields often enjoy favorable economics because of the reduced facility scope due to reliance on the existing brown field infrastructure. Green field development on the hand comes at a premium cost due to the need to construct facilities.
+
+
+In fully appraised fields with fluid contacts fairly known from open hole logs, drilling surprises are usually minimal. For brown fields with significant fluid migration from many years of production, accurate delineation of contacts may be challenging thereby leading to uncertainty in the volumes and value. This uncertainty may be mitigated by phasing the drilling in a way that ensures data acquisition is carried out on earlier wells on the sequence to optimize wells with greater uncertainties. Despite best endeavors to manage these risks as low as reasonably practicable, some wells present challenges during drilling leading to wells that may require special reservoir management considerations to safeguard value. Amirlatifi et al1 presented the use of large-scale data to manage uncertainty in well performance management. They highlighted how data analytics was used to understand performance trends and relationships thereby improving asset understanding and identifying areas of improvement. Wellhunt2  presented how to evaluate operating limits for wells under reservoir and completion uncertainties. The paper highlighted various factors that affect well performance and how uncertainties in those parameters can be managed to guarantee optimum well performance.
+
+
+This paper details the key lessons learnt from operating BAJE-8 well within the design envelope in the presence of subsurface uncertainties. It also highlights how proactive and focused performance monitoring revealed reversal in well performance in line with the subsurface realization underpinning the reservoir management
+
+
+Subsurface Uncertainty Management
+
+
+BAJE-8 located in the Niger Delta was drilled as a horizontal development well into a circa 50 ft tvd oil rim reservoir to a total depth of 9300 ft. Several subsurface uncertainties were quantified for the development of the reservoir into which the BAJE-8 was to be drilled into. The more significant of these uncertainties are the GOC, reservoir architecture and faulting pattern (Figure 1). Logged GOC from several wells into this reservoir show a range of about 6 ft-tvd. Correlation panels from the same wells show that the reservoir is heterogeneous and compartmentalized into 4 sand units and fault blocks which could not be resolved with the available seismic due to its poor quality. To manage GOC and compartmentalization uncertainty and mitigate against early water breakthrough, a pilot hole was drilled, and the horizontal leg of the well was planned to be landed close to the gas cap.
+
+
+Figure 1View largeDownload slideCorrelation panel showing reservoir architecture [Left] and Fluid distribution plot [Right]Figure 1View largeDownload slideCorrelation panel showing reservoir architecture [Left] and Fluid distribution plot [Right] Close modal
+
+
+Early Well Performance
+
+
+BAJE-8 located in the Niger Delta was drilled to a total depth of 9300 ft as a horizontal development well. During drilling, the fluid contact uncertainty in the reservoir was mitigated by planning the horizontal well landing close to the estimated gas-oil contact (GOC) despite the uncertainty also carried in the GOC itself. It was thought that the impact of early water breakthrough would be more severe compared to gas ingress since the facility has export gas compressor to monetize the gas.
+
+
+The well started production at 60% choke opening as planned but produced at a rate of about 800 bopd and FTHP of 2300 psig with an extremely high GOR of 13,000scf/stb. This was outside the GOR design envelope of the well. In line with statutory GOR control, the well was planned for shut-in but was allowed a few more days of production under observation for possibility of GOR reversal. Shortly after open-up, annulus pressures began to rise and later exceeded the Maximum Allowable Annular Surface Pressure (MAASP) prompting well integrity risk assessment. The well was closed-in for integrity workover on the suspicion of non-integral packer. Noise logging was later carried out to confirm the leaking packer and workover was programmed for the well. Figure 2 shows the noise log signature confirming the non-integral packer.
+
+
+Figure 2View largeDownload slideBAJE-8 Noise Log InterpretationFigure 2View largeDownload slideBAJE-8 Noise Log Interpretation Close modal
+
+
+The workover successfully restored the well integrity. However, the abnormally high GOR performance continued. The associated high wellhead pressure was observed to be close to the pressure rating of the flowline spool piece with a credible threat of exceeding the burst rating of the line and loss of containment.
+
+
+The Tandem Choke Solution
+
+
+With the imminent threat of loss of containment for the flowline spool piece, a proposal to install a fixed choke upstream the variable choke was adopted. Figure 3 shows the surface schematic of the well before and after the choke modification.
+
+
+Figure 3View largeDownload slideBAJE-8 Surface Modification with Additional ChokeFigure 3View largeDownload slideBAJE-8 Surface Modification with Additional Choke Close modal
+
+
+The tandem choke was modelled in GAP software to estimate the pressures on the line to guarantee the integrity of the spool piece and get a handle on the expected well performance. Figure 4 shows the picture of the GAP model while Figure 5 shows the pressure and production predictions.
+
+
+Figure 4View largeDownload slideThe Tandem Choke ModelFigure 4View largeDownload slideThe Tandem Choke Model Close modal
+
+
+Figure 5View largeDownload slideSpool Piece Pressure and Well Rate PredictionFigure 5View largeDownload slideSpool Piece Pressure and Well Rate Prediction Close modal
+
+
+Figure 5 shows that with the introduction of the additional choke, the pressure fell well below the rating of the spool piece rating thereby restoring the surface integrity of the well. However, this safety net only applies when the well is in production because the choke has no effect in bringing down the pressure when the well is closed in. The lines were to be protected during shut-in by tripping close the surface controlled subsurface safety valve (SCSSSV).
+
+
+Well Performance Reversal and Forensic Analysis
+
+
+Production started from BAJE-8 in February 2020 but was closed-in after one month due to high casing head pressure. Following successful well integrity workover, the well commenced steady production in August 2020 and produced for some weeks with stable but high GOR, before the GOR began to decrease gradually. Four weeks after, and in-between 2 well tests, one week apart, there was a sudden 50% reduction in GOR and FTHP drop of about 40%. Figure 6 shows the composite well performance plot for the well showing the steady drop in GOR.
+
+
+Figure 6View largeDownload slideBAJE-8 Well Performance PlotFigure 6View largeDownload slideBAJE-8 Well Performance Plot Close modal
+
+
+A forensic analysis of well performance attributed the abnormally high GOR to the landing of a portion of drain-hole in a gas pocket (Figure 7). Further evaluations showed that the poor seismic resolution around the drain- hole area also presented some uncertainty on fault mapping. Hence, there was a credible chance that the drain- hole may have landed partly in a gas pocket whose size was also uncertain. With these valuable insights, the strategy was then to produce the well under observation while monitoring the GOR performance for the possibility of blowing down the gas pocket.
+
+
+Figure 7View largeDownload slideBAJE-8 Well Cross-Section showing Partially exposed Gas PocketFigure 7View largeDownload slideBAJE-8 Well Cross-Section showing Partially exposed Gas Pocket Close modal
+
+
+The strategy was successful as the blowdown of the gas pocket progressed smoothly until well performance parameters returned to normal and in line with the initial prediction. Furthermore, the estimated gas pocket GIIP range (400 – 700 MMscf) was compared with the free gas produced (1100 MMscf) over the gas pocket blow down period as shown in Figure 8. This volume variance is primarily due to poor seismic quality. The well performance parameters normalized around January 2021 and that prompted an update of the well operating envelope. Further studies will be initiated to update the sub-surface structure and volumes in line with the observed performance reversal.
+
+
+Figure 8View largeDownload slideBAJE-8 Gas pocket blowdown productionFigure 8View largeDownload slideBAJE-8 Gas pocket blowdown production Close modal
+
+
+Conclusion
+
+
+BAJE-8 presented a classic case of the impact of subsurface uncertainty on management of well performance. The uncertainty led to well performance surprises, loss of well integrity requiring workover for restoration, production deferment, surface wellhead and multiphase flowmeter (MPFM) modifications. Whereas the uncertainty was known, it could not be accurately quantified previously and that led to the challenges faced in managing the well.
+
+
+The well started at an extremely high GOR and later returned to normal parameters after the gas pocket blowdown. The fixed wellhead choke is now planned to be uninstalled during the next shut-down window since the performance reversal has restored the pressures within the operating envelope of other surface facilities.
+
+
+Figure 9 shows a comparison of the predicted gross rate and FTHP with the pre- and post-blowdown performance. The pre-blowdown gross rate was low because of the superior mobility of free gas in the drain hole. Post-blowdown, the actual performance had a close match with the prediction.
+
+
+Figure 9View largeDownload slidePre-and Post-Blowdown Performance Comparison with PredictionFigure 9View largeDownload slidePre-and Post-Blowdown Performance Comparison with Prediction Close modal
+
+
+Lessons Learnt
+
+
+Worst-Case Scenario Definition with Uncertainty: Worst-case scenario analysis used for determining the rating of packer and surface equipment must adequately account for the uncertainty being carried in the well. The initial GOR produced from the well was not envisaged thereby pushing the limit of the performance of the production packer leading to its eventual failure. Absolute worst-case scenarios must be considered for safety critical components in the presence of subsurface uncertainty.
+
+
+Performance Reversal Phenomenon: The GOR performance reversal validated the assumption of gas pocket around the drain hole. The steady decline in gas production confirmed the presence of limited volume of free gas available to the well. The current performance of the well also confirms that the larger gas cap is properly isolated behind 9 5/8-in casing with effective cement bond.
+
+
+Proactive Surveillance: The abnormal well performance led to the decision to increase surveillance on the well. The improved monitoring revealed subtle changes to well performance parameters for timely intervention by the integrated team. Exception-based surveillance is crucial for unravelling performance anomalies.
+
+
+Improvised Gas Measurement: The abnormally high GOR exceeded the measurement range of the MPFM. The team relied on measurement by difference validated by well performance models as a stop gap. This approach gave sufficient accuracy before the MPFM was repaired and modified to handle the high gas production. Experience from this well reinforces the importance of maintaining robust well and reservoir models for the asset to manage measurement gaps when they do occur.
+
+
+Further Studies: Further studies to be initiated in this reservoir to accurately define the structure and update the volumes in line with the observed performance of this well.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Amirlatifi, A; Block, G; Abou-Sayed, A; Abou-Sayed, A. S and Zidane, A: "Well Performance in New Frontiers: Reducing Risk and Uncertainty Through Large Scale Data Analytics", paper OTC 28934 presented at the 2018 Offshore Technology Conference, Houston, Texas, 30 April –3 May.Wellhunt, C.D: "Well Performance with Operating Limits Under Reservoir and Completion Uncertainty" paper SPE 84501-PA, SPE Drilling & Completions, September2006.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211945-MS
+
+
+

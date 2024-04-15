@@ -1,0 +1,188 @@
+----- METADATA START -----
+Title: Machine Learning Prediction Versus Decline Curve Prediction: A Niger Delta Case Study
+Authors: Ifeoluwa Jayeola, Bukola Olusola, Kale Orodu
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211956-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Several analytical techniques have been identified to obtain reliable estimates of production. Out of these numerous methods, decline curves are the most extensively used technique for the production forecast of Niger Delta Reservoirs. However, a major setback in applying the decline curve is its inability to adapt predictions to different past operational scenarios and uncertainties. With the emergence of big data and increasing computational power, machine learning techniques are increasingly being used to solve problems like this in the oil and gas industry. The objective of this paper is to present the application of a machine learning-based framework to predict the future performance of producing wells in some reservoirs in Niger Delta. In this paper, a machine learning model (Neural Networks model) was used to detect the non-linear relationship between the inputs in the production data and predict the future production rate of wells. The model is trained using available data from a Niger Delta Reservoir. Further data, excluded from the training data set, was used to assess the ability of the neural network to rapidly learn the basic shape of the time series data and model the non-linear relationship of the data for prediction. The different case studies are compared to forecasts from conventional decline curves to demonstrate the advantage of applying machine learning techniques to production forecasting. The proposed technique indicates high accurate prediction and learning performance for crude oil forecast of producing wells, especially for cases with changing operating conditions. The study also reflects that the performance of the model is largely influenced by the model-optimization technique. The research work provides empirical evidence that the proposed model can be applied to production forecasting, addressing complexities that other statistical forecast methods cannot implement. The proposed application of computational techniques in forecasting problems has proven to be a robust and reliable method of forecasting the future performance of producing wells. The procedures adopted in this work can also be extended to wells outside of the Niger Delta.
+
+
+
+
+Keywords:
+upstream oil & gas,
+artificial intelligence,
+prediction,
+petroleum engineer,
+machine learning,
+application,
+forecasting,
+algorithm,
+deep learning,
+society
+
+
+Subjects: 
+Information Management and Systems,
+Artificial intelligence
+
+
+
+
+Introduction
+
+
+Hydrocarbon production forecasting includes the estimation of the ultimate recoverable reserves and calculation of oil production profiles, which are critical factors for business planning, asset evaluation, and decision making in the oil and gas industry. Tools like Decline Curve Analysis, Computer Simulations, Material Balance, Volumetric Calculations, and Pressure Transient Analysis have been applied in different scenarios to achieve the goal of production forecasting. The emergence of big data and the evolution of computing technology has enabled the development of data-driven techniques to solve problems within the oil and gas industry. Several studies have been done on the application. of Machine learning for oil production forecasting. Elmabrouk et al. (2014) developed an ANN model trained using the feedforward backpropagation algorithm to forecast the production of wells in an oil field located in the Sirte Basin of Libya. Muradkhanli (2018) also developed an ANN model to predict oil in the State Oil Company of Azerbaijan Republic. In both papers, the model was limited in performance when significant predictors were not included in the training process. Determining the optimum algorithm with the desired accuracy was chosen through a trial and error method. Mamo and Dennis (2020) developed an ANN model to predict production for a hydrocarbon reservoir underwater injection. The model was found to give robust pattern classification and pattern recognition; however, it was seen that the prediction accuracy of the model was affected when the measurements of some data points were not local, thus causing a discrepancy between the simulated output and validation data. In other cases, the ANN model was limited in performance when some of the data points were not representative of a larger area. Thus, many authors have proposed the use of deep learning architectures. Chakra et al. (2013) developed higher order neural networks (HONN) to forecast production from an oil field reservoir with limited parameter data. Wang et al. (2019) designed a deep neural network for production forecasting in the Bakken shale reservoir. Omrani et al. (2019) applied the deep learning approach for short-term, mid-term, and long-term forecasts of several North Sea gas wells. However, Recurrent Neural Network has been the most suitable out of these different algorithms as it is well suited for sequential data. Each time step is stored in the internal state of the network to provide a temporal memory property. RNN can handle the complexity of the solution with desired prediction accuracy, given the production data characteristics. However, the major weakness of RNN is carried out during the requirement of learning long-range time dependencies. Thus, the proposed model for this study is the Long Short Term Memory (LSTM) Network, as it can capture sequential information over the long-term effects. Sun et al. (2018) developed an LSTM approach for production forecasting for single and aggregated well-time series models. The model's architecture contains three gates to control the information process; the input gate, the output gate, and the forget gate. This allows the model to perform well for datasets with long-term dependencies. The model used was shown to give better production prediction and more flexible capability. The result showed a very close match between the actual production rates of oil, gas, water, and predicted rates.
+
+
+This study also explores how the machine learning model performs comparatively under different optimizers. The optimization algorithm chosen by a deep learning practitioner determines the training speed and the final predictive performance of their model. To date, no theory adequately explains how to make this choice. The commonly used optimizer is the gradient descent algorithm, which optimizes the objective function by following the steepest descent direction. However, many times, the choice of this optimizer is based on trial and error.
+
+
+Model Description
+
+
+In this study, eight years of production data of five wells in the Southeast offshore Niger Delta Basin was used to train, validate, and test the LSTM Algorithm. Oil, water, and gas production are recorded daily and are defined as the network's inputs to give production predictions as the output variable of the model. LSTM is a specialized variant of RNN that mitigates the gradient vanishing problem posed by the conventional recursive neural architecture. The model was built using Keras with a TensorFlow backend in Python. The LSTM model was created by stacking multiple LSTM layers on top of each other, a sequential input layer followed by multiple hidden states with activation and an output layer.
+
+
+Each sequential layer contains 50 memory units and a return sequence that allows it to provide a sequence output rather than a single value output to the LSTM layer below. The subsequent LSTM layer can have the required 3D input. A dropout layer is applied after each LSTM layer to reduce overfitting and improve generalization error. Finally, the output layer is a dense layer with a linear activation function that collects input from all the neurons in the previous layer. The required libraries for building the model include:
+
+
+NumpyMatplotlibPandasKerasScikit-learn
+
+
+Research Design
+
+
+The proposed model consists of multiple layers of LSTM modules, and an optimization algorithm that applies backpropagation to compute the gradients needed during the optimization process to adjust the output to each epoch's weights. Each LSTM layer consists of a cell, an input gate, an output gate, and a forget gate to process the data. The algorithms are trained on an established set of preprocessed historical well data represented in a 3-dimensional array to suit the LSTM memory cell requirements.
+
+
+The model can learn from the set of preprocessed during training and depict patterns in the data. After training, the performance algorithm is evaluated with the test data through a process known as backtesting to represent the accuracy of the trained model effectively.
+
+
+Data Collection
+
+
+To test for accuracy, approximately 20 wells and ten features were selected to test and train the machine learning models. The historical data were recorded between the years 2011-and 2019 and scattered throughout the field. The parameters of the data set include Flow hours, Barrels of oil per day, Liquid flow rate potential, BSW, Barrels of liquid per day, Oil flow rate potential, Oil flow rate, Liquid flow rate, GOR, Gas flow rate, Gas flow rate potential and Produced water flow rate. In this study, 70% of the historical data was used to train and validate, while the rest of the available data was used to test the model's effectiveness. In machine learning, a different set of data must be used for both the training and testing phases to prevent overfitting and ensure accuracy.
+
+
+The LSTM model requires the right set of historical data for the production forecast. The accuracy of the machine learning model depends substantially on the availability of useful data. To get an accurate forecast, we must construct the data set and transform the data correctly to avoid misinterpreting a trend or missing a pattern that is just starting to emerge.
+
+
+Data Preprocessing
+
+
+The first step to modeling a neural network is to process the raw input data to implement the neural network. Historical production data from the field are prepared and combined into a single dataset (Data Integration), missing values in the data are sorted to ensure the quality of the data in terms of completeness (Data cleaning), and the raw data is organized into a suitable format for machine learning (data transformation).
+
+
+The dataset contains 34705 data points ranging from April 2011 to April 2019 on 15 wells in a field in the Niger Delta basin. The dataset was divided into training and test data.
+
+
+Feature Engineering
+
+
+The process involves existing datasets to extract features via data mining techniques that better represent the underlying problem to the predictive models, resulting in improved machine learning model performance. In this research study, Scikit- Learn's MinMaxScaler was used to scale our dataset to numbers between zero and one to achieve feature scaling. The input data is also converted to a 3-dimensional array, 60 timestamps, with one feature at each step.
+
+
+Model Training
+
+
+Firstly, the input data is reshaped into a three-dimension array. The three dimensions of this input are batch size, time-steps or 'lookback,' and the number of features. After defining the number of units, initializers, activation function, loss function, and an optimization algorithm, the input layer sequentially receives the data and passes it to the LSTM layers. An LSTM model with 50 neurons is created and trained for prediction assigning random biases and weights. The procedure continues iteratively for the given number of batches. To increase the representational power of the model, our neural network architecture is composed of four LSTM layers and a dense layer to consolidate output. The learning rate is set to 0.001, and it decays every five epochs. We train the model with 100 sequences per batch for 15 epochs. The training process ends immediately after the maximum number of the epoch or any other stopping criterion is reached.
+
+
+To get an insight into the performance of the optimizers, the model was assessed on different optimizers. The two optimization schemes used are Stochastic Gradient Descent (SGD) and adaptive moment estimation (ADAM).
+
+
+Output Generation
+
+
+To generate a production forecast, the model is tested with the testing data set. The model is fitted to the shape and location of the time series in the historical dataset and produces an accurate prediction after some epochs. To test our simulation result, we pick one existing well, which was previously unknown to the LSTM model, and predict the production. The prediction profile from the Neural Network is compared to the real production profile to see the trend of the results.
+
+
+Visualization
+
+
+Data visualization allows visual and graphical tools like charts, graphs, and maps to represent the trends, outliers, and patterns in the available historical well data. Data visualization is simply a visual representation of data. In this research work, Matplotlib, a plotting library for the Python programming language, was used to visualize the result of the predicted production profile and the real production profile.
+
+
+RESULTS
+
+
+In this study, the model is compared with the actual production rate of two wells to assess the ability of the neural network to predict based on datasets that were not on the training dataset. Two neural networks with different optimizers are compared to depict the effect of the optimization parameter and learning rate on the accuracy of neural networks.
+
+
+The testing result shows that the LSTM model can predict close results to actual data. The results showed a high degree of accuracy. The model is seen to rapidly learn the basic shape of the time series and model the non-linear relationship of the data for prediction. More results for different wells are shown:
+
+
+The plot of predictions vs. actuals almost overlaps with each other to the extent that the blue and red curves are closely aligned, as seen in the below plot. Adaptive Moment Estimation, or Adam optimization scheme, updates each parameter's learning rates by storing the exponentially decaying average of past squared gradients and past gradients.
+
+
+Figure 4.1View largeDownload slideProduction data versus prediction using LSTM using ADAM optimizer of WELL AFigure 4.1View largeDownload slideProduction data versus prediction using LSTM using ADAM optimizer of WELL A Close modal
+
+
+Figure 4.2View largeDownload slideResults for the production of an existing well using ADAM optimizer of WELL BFigure 4.2View largeDownload slideResults for the production of an existing well using ADAM optimizer of WELL B Close modal
+
+
+Figure 4.3View largeDownload slideMore results for the production of an existing well using ADAM optimizerFigure 4.3View largeDownload slideMore results for the production of an existing well using ADAM optimizer Close modal
+
+
+Figure 4.4View largeDownload slideResult of Production Forecast model trained using SDG optimizer for Well AFigure 4.4View largeDownload slideResult of Production Forecast model trained using SDG optimizer for Well A Close modal
+
+
+Figure 4.5View largeDownload slideResult of Production Forecast model trained using SDG optimizer for Well B ebok25Figure 4.5View largeDownload slideResult of Production Forecast model trained using SDG optimizer for Well B ebok25 Close modal
+
+
+The model was also trained using the Stochastic Gradient Descent (SDG) optimizer, which uses just one static learning rate for all parameters during the entire training process.
+
+
+One can see that the optimizer used determines the speed at which the algorithm converges to the minimum value. For the first model, the Neural Network's performance showed an accuracy performance of 94% using the Adam optimizer. This is because the Adam optimization algorithm lowers the learning rate, allowing a more statistically sound descent. However, with the SDG optimizer, the accuracy performance for the forecast model was relatively lower.
+
+
+Table 4.1Average comparative result of the optimizers OPTIMIZER
+            . MAP
+            . RMSE
+            . VALIDATION ACCURACY
+            . MAPE
+            . ADAM 27594.564008213747 166.116116039997 96.4173134736893% 112.44575692779681 SDG 83072.612280458359 288.223198720121 77.459785901114% 245.4297640023119 OPTIMIZER
+            . MAP
+            . RMSE
+            . VALIDATION ACCURACY
+            . MAPE
+            . ADAM 27594.564008213747 166.116116039997 96.4173134736893% 112.44575692779681 SDG 83072.612280458359 288.223198720121 77.459785901114% 245.4297640023119 View Large
+
+
+Based on this result, Adam Optimizer got the highest training and validation accuracy for the forecasting model compared to the Stochastic Gradient Descent Optimizer.
+
+
+CONCLUSION
+
+
+In this research work, the application of LSTM to crude oil forecasting in the petroleum industry has been studied using real-time historical production data of a field in the Southeast offshore Niger Delta Basin. The model is trained, validated, and compared with actual data history to demonstrate the technique's prediction and learning performance. The predictive approach which was used in the study can describe the non-linear relationships between the original production data and the model's output, including complexities that other statistical forecast methods cannot implement.
+
+
+The LSTM model was created by stacking multiple LSTM layers on top of each other, a sequential input layer followed by multiple hidden states with activation and an output layer. To prevent overfitting, Dropout regularization was applied to train the model to ensure a robust model by reducing interdependent learning amongst the neurons. The model was trained with two different optimizers: SDG, and Adam to explore how they perform comparatively. Several forecasts were developed from the good data in the oil field to demonstrate the prediction abilities of the computational model.
+
+
+The forecasting performance has proven that the proposed LSTM model can be applied to long-term time series forecasting in the petroleum industry. The research work empirically evidences that choosing the right kind of optimizer is vital for training the LSTM model. An LSTM architecture trained by the ADAM optimizer provides superior training and validation accuracy on every forecast. The proposed application of Computational techniques in forecasting problems has proven to be a robust and reliable method of forecasting the future performance of producing wells. The study also reflects that the model-optimization technique largely influences the performance of the model.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Aizenberg, I., Sheremetov, L., Villa-Vargas, L., & Martinez-Munoz, J. (2015). Multilayer Neural Network with Multi-Valued Neurons In Time Series Forecasting Of Oil Production. Elsevier.Google ScholarCrossrefSearch ADS  Al-Fattah, S. M., & Startzman, R. A. (2001). Neural Network Approach Predicts U.S Natural Gas Production. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Aliguliyev, R., & Imamverdiyev, Y. (2017). BIG DATA STRATEGY FOR THE OIL AND GAS INDUSTRY: GENERAL DIRECTIONS. Problems of information technology.Google Scholar Arabnia, H., Stahlbock, R., & Heilig, L. (2020). Principles of Data Science, Transactions on Computational Science and Computational Intelligence. Springer.Google Scholar Bhaya, W. (2017). Review of Data Preprocessing Techniques in Data Mining. Journal of Engineering and Applied Sciences.Google Scholar Boah, A., Borsah, A., & Brantson. (2018). Decline Curve Analysis and Production Forecast Studies for Oil Well Performance Prediction: A Case Study of Reservoir X. The International Journal of Engineering and Science.Google Scholar Chakra, C., Song, K.-Y., Saraf, D., & Gupta, M. (2013). Production Forecasting of Petroleum Reservoir applying Higher-Order Neural Network(HONN) with Limited Reservoir Data. International Journal of Computer Applications.Google Scholar Du, Weiss, Xu & Li. (2003). Obtain an Optimum Artificial Neural Network Model For Reservoir Studies. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Elmabrouk, Shirif, & Mayorga. (2014). Artificial Neural Network Modeling for the Prediction of Oil Production. Petroleum Science And Technology.Google ScholarCrossrefSearch ADS  Ferreira da Silva, L. C., Mattos, R. C., Emerick, A. A., & Ebecken, N. F. (2007). Predictive Data-Mining Technologies for Oil-Production Prediction in Petroleum Reservoir. Society of Petroleum Engineers.Google Scholar Gu, J., Liu, W., & Liu, W. (2020). Forecasting oil production using ensemble empirical model decomposition-based Long Short-Term Memory neural network. Petroleum Science & Engineering.Google Scholar Boomer, R. (1995). Predicting Production Using a Neural Network (Artificial Intelligence Beats Human Intelligence). Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Bougrain, L. (2004). Practical Introduction to Artificial Neural Network. Elsevier.Google ScholarCrossrefSearch ADS  Cao, Q., Banerjee, R., Gupta, S., Li, J., Zhou, W., & Jeyachandra, B. (2016). Data-Driven Production Forecasting Using Machine Learning. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Hanga, K., & Kovalchuk, Y. (2019). Machine learning and multi-agent systems in oil and gas industry applications: A survey. Elsevier.Google ScholarCrossrefSearch ADS  Iyke, A. C., & Princewill, O. N. (2018). Comparative Study of Oil Production Forecast by Decline Curve Analysis and Material Balance. European Journal of Engineering Research and Science.Google Scholar Jaja, A., Oguntona, B., & Eme, V. (2016). Improved Short Term Oil Production Forecast - Application of Well Decline Rates to Generate Field Decline Rate. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  José FranciscoMartínez-Trinidad, Jesús ArielCarrasco-Ochoa, José ArturoOlvera-López, JoaquínSalas-Rodríguez, ChingY. Suen (Eds.). (2014). Pattern Recognition.Google Scholar Kazienko, P., Lughofer, E., & Trawinski, B. (2015). Editorial on the special issue "Hybrid and ensemble techniques in soft computing: recent advances and emerging trends". Soft computing.Google Scholar Khaksarfard, R., Tabatabaie, H., Mattar, L., & Markit, I. (2019). Investigation of Time-Series Clustering to Forecast Wells with a Short Producing Life. Unconventional Resources Technology Conference. Society of Petroleum Engineers.Google Scholar Kubota, L., & Souto, F. (2019). Application of Machine Learning to Oil Production Forecast under Uncertainties- The Linear Model. Offshore Technology Conference.Google Scholar Kumar, A. (2019). A Machine Learning Application for Field Planning. Society of Petroleum Engineering.Google ScholarCrossrefSearch ADS  La Rosa, M., Rizzo, R., Ravi, V., Fiannaca, A., & Urso, A. (2018). Data Mining: Classification and Prediction. Elsevier.Luo, G., Tian, Y., Bychina, M., & Ehlig-Economides, C. (2019). Production-Strategy Insights Using Machine Learning: Application for Bakken Shale. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  M. Adibifard, S. T.-N. (2014). Artificial Neural Network (ANN) to estimate reservoir parameters in Naturally Fractured Reservoirs using well test data. Journal of Petroleum Science and Engineering.Google Scholar Mamo, B., & Dennis, A. (2020). Artificial neural network-based production forecasting for a hydrocarbon reservoir underwater injection. Petroleum Exploration Development.Google Scholar Masini, S. R., Goswami, S., Kumar, A., & Chennakrishnan, B. (2019). Decline Curve Analysis Using Artificial Intelligence. Abu Dhabi International Petroleum Exhibition & Conference. Society of Petroleum Engineers.Google Scholar Maucec, M., & Garni, S. (2019). Application of Automated Machine Learning for Multi-Variate Prediction of Application of Automated Machine Learning for Multi-Variate Prediction of Well Production. Society of Petroleum Engineers.Google Scholar Mohammadpoor, M., & Torab, F. (2018). Big Data analytics in oil and gas industry: An emerging trend. He Ai Advancing Research Evolving Science.Google ScholarCrossrefSearch ADS  Mukherjee, T., Burgett, T., Ghanchi, T., Donegan, C., & Ward, T. (2019). Predicting Gas Production Using Machine Learning Methods: A Case Study. Society of Exploration Geologists.Google ScholarCrossrefSearch ADS  Muradkhanli, L. (2018). Neural Networks for Prediction of Oil Production. Elsevier.Google ScholarCrossrefSearch ADS  Nguyen, H., & Chan, C. (2005). Applications of Data Analysis Techniques for Oil Production Prediction. Elsevier.Google ScholarCrossrefSearch ADS  Noshi, C., & Schubert, J. (2018). The Role of Machine Learning in Drilling Operations; A Review. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Nurafza, P., Budhram, K., & Julier, R. (2018). Development Well Risking Of Production Forecasts. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Omrani, P., Vecchia, A., Dobrovolschi, I., Baalen, T., Poort, J., Octaviano, R., … Munoz, E. (2019). Deep Learning and Hybrid Approach Applied to Production Forecasting. Abu Dhabi International Petroleum Exhibition & Conference. Society of Petroleum Engineers.Google Scholar Rao, & Gudivada, V. (2018). Computational Analysis and Understanding of Natural Languages: Principles, Methods, and Applications. In G.Shobha, & RangaswamyS., Machine Learning. Elsevier.Google Scholar S.Elmabrouk, E.Shirif and R.Mayorga(2014). Artificial Neural Network Modeling for the Prediction of Oil Production.Google Scholar Sagheer, A., & Kotb, M. (2018). Time Series Forecasting of Petroleum Production using Deep LSTM Recurrent Networks. Neurocomputing.Google Scholar Suhag, A., Randith, R., & Aminzadeh, F. (2017). Comparison of Shale Oil Production Forecasting using Empirical Methods and Artificial Neural Networks. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Sun, J., Ma, X., & Kazi, M. (2018). Comparison of Decline Curve Analysis DCA with Recursive Neural Networks RNN for Production Forecast of Multiple Wells. SPE Western Regional Meeting. Society of Petroleum Engineers.Google Scholar Wang, S., Chen, Z., & Chen, S. (2019). Applicability of deep neural networks on production forecasting in Bakken shale reservoirs. Elsevier.Google ScholarCrossrefSearch ADS  Weiss, W., Balch, R., & Stubbs, B. (2002). How Artificial Intelligence Methods Can Forecast Oil Production. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Yang, L., Yen, J., Ching, Y., & Zhong, H. (2001). Neural-Network Approach To Predict Well Performance Using Available Field Data. SPE Western Regional Meeting. Society of Petroleum Engineers.Google Scholar Yu, Y., Si, X., Hu, C., & Zhang, J. (2019). A Review of Recurrent NeuralNetworks: LSTM Cells and Network Architectures. Neural Computation.Google Scholar Yunan, L., & Yifu, H. (2017). Decline Curve Analysis for Production Forecasting Based on Machine Learning. Society of Petroleum Engineers.Google Scholar Zhan, C., Sankaran, S., LeMoine, V., Graybill, J., & Sher Mey, D.-O. (2019). Application of Machine Learning for Production Forecasting for Unconventional Resources. Unconventional Resources Technology.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211956-MS
+
+
+

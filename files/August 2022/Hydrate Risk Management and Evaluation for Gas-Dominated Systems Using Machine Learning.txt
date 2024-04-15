@@ -1,0 +1,362 @@
+----- METADATA START -----
+Title: Hydrate Risk Management and Evaluation for Gas-Dominated Systems Using Machine Learning
+Authors: Toyin Olabisi Odutola, Israel Bassey, Anita Igbine, Celestine Udim Monday
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212000-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Advancements in oil and gas production have led to the exploration and production of hydrocarbons in unstable regions including offshore (deep & ultra-deep) reservoirs. As production increases, flow assurance continues to be a prevalent problem in wells and flowlines.It is necessary to develop flow assurance analysis models for hydrate formation in gas pipelines. Analyses have shown the difference in thermodynamic and kinetic behaviors in the different hydrate phase systems (water, gas, oil). This study presents a data-driven gas hydrate diagnosis model for monitoring and risk evaluation in gas pipelines by performing, hydrate growth rate diagnosis for flow assurance in gas-dominated flow systems. Data used for learning was obtained from hydrate flow loop experiments performed under controlled gas-dominated flow conditions where thermodynamic conditions were obtained at each time step. Regression Algorithms were applied to develop a fit for a model to predict the hydrate risk level given thermodynamic conditions alongside the flow rate. The developed hydrate model was also applied to study the performance in flow operations. The ridge regression model showed the best performance among the models with a root mean squared error of 0.1682 and a correlation coefficient of 0.9595. The results obtained showed that the model can be deployed for use in a hydrate risk analysis endeavor, and the algorithm used in development can be further improved.
+
+
+
+
+Keywords:
+upstream oil & gas,
+flow assurance,
+flowrate,
+experiment,
+algorithm,
+temperature,
+prediction,
+neural network,
+machine learning,
+plot
+
+
+Subjects: 
+Flow Assurance,
+Information Management and Systems,
+Hydrates,
+Artificial intelligence
+
+
+
+
+Introduction
+
+
+Gas hydrates are ice-like clathrates composed of gas (guest molecules) trapped in water (host molecules). Hydrates form in conditions of high pressure (typically above 30 bar) and low temperature (below 20°C), though the precise pressure and temperature conditions for the formation of hydrates depend on the composition of the fluids (Sami et al., 2013). The guest molecules in hydrates are methane, ethane, propane, isobutane, and non-hydrocarbon gases (CO2, H2S, or N2).
+
+
+Gas hydrates result from the 3D stacking of cages of H-bonded water molecules that are unstable and require gas molecules to stabilize. The Gas hydrate structure is made up of five water cages: pentagonal dodecahedron, tetrakaidecahedron, hexatetrahedron, irregular dodecahedron, and the icosahedron (Zou, 2017).
+
+
+Hydrates were first prepared in the laboratory by Joseph Priestly in 1778, the discovery of gas hydrates is attributed to Sir Humphrey Dave in 1811 when he cooled an aqueous solution of saturated chlorine to get chlorine hydrate (Sloan and Koh, 2008). Hydrates gained popularity in 1934 when Hammerschmidt published the results of the inspection of U.S gas pipelines showing that it was hydrated and not Ice, that plugged the pipelines. (Makogon, 1981).
+
+
+While hydrates often look like ice, their crystalline lattice of water molecules are filled with gas (such as methane, ethane, butane, and sometimes heavier gas) and are stabilized by van der Waals forces. Natural gas hydrates are porous and leave no residue or waste upon combustion.
+
+
+Their thermal conductivities and electrical resistivities are also less than those of ice (Zou, 2017).
+
+
+Three structures of gas hydrates have been identified, these are Structure I, II, and H. Von Stackelberg and his team were able to determine Structure I and Structure II (sI and sII) hydrates by summarizing the results of hydrate diffraction experiments. Structure H hydrates were discovered years later by Ripmeester et al (Sloan, 1998).
+
+
+Gas hydrates pose a problem in drilling and can be catastrophic when encountered in the formation. Gas hydrates can form when drilling into shallow sediments with gas or when mud circulation is stopped, resulting in gas kick during drilling. Hydrates can cause well control problems when they solidify and choke the well or kill lines. Hydrates can also form in risers and drill string stopping the circulation of drilling fluid, leading to stuck pipe (Sami, 2013). One major problem with hydrates is that they can form anywhere under the right conditions.
+
+
+Gas hydrate deposition can lead to the reduction of the internal diameter of flow lines and cause flow restrictions, increased surface roughness, increased pumping pressure, and reduced throughput. In severe cases, hydrates can plug off flow lines and result in production losses and production shut down (Odutola et al., 2014). Because of these risks, research into ways to prevent and eliminate the formation of hydrates has grown over the years.
+
+
+Common methods of inhibiting hydrates are by removal of one of the hydrates forming components, increasing the temperature, or reducing the pressure of the system beyond hydrate forming conditions, and injecting an inhibitor to decrease hydrate stability conditions. These techniques keep the system out of thermodynamically stable conditions by changing the composition, pressure, or temperature of the system and are known as thermodynamic inhibition (Sloan, 1991).
+
+
+Artificial intelligence (AI) refers to the branch of computer science concerned with building smart machines that can mimic human intelligence and problem-solving ability. The application of AI to solve flow assurance problems in the oil and gas industry has grown over the years.
+
+
+Qin et al (2020), carried out a simulation using the hydrate growth model with a multiphase flow simulator to predict hydrate film growth on the pipe surface using a black oil field case to verify the performance of the tool. A transient simulation study of the effect of shut-in/restart on hydrate film growth showed that the hydrate plugging risk could be higher during transient operations due to hydrate film growth.
+
+
+In a study by Seo et al. (2021), a machine learning model was applied to predict hydrate volume fraction and formation location with an R-square value of 97% and 99% respectively. The OLGA simulation software was used to generate data for the model and stacked auto-encoder, and a neural network model was used in data training and validation. Landgrebe and Nkazi (2019) used a multilayer deep learning regression to predict the gas hydrate equilibrium pressure using gas composition and temperature as input. The model was validated using 10-fold cross-validation and holdout validation.
+
+
+Monday and Odutola (2021) determined the optimal weight percent of three plant hydrate inhibitors (A, B and C) by experimenting with different weight percentages from 0.01 wt.% - 0.1wt.% using a laboratory hydrate flow loop (Odutola et al., 2019). The weight percentage with the least pressure drop within the flow loop was then used to train three supervised models and one Artificial Neural Network. All models had accuracy above 90%.
+
+
+This study focuses on the use of machine learning algorithms for hydrate risk management in gas-dominated flow systems. The models developed depend on the relationship between flowrate, temperature, and pressure to determine the fractional hydrate growth rate on a gas-dominated flow system.
+
+
+Methodology
+
+
+To establish a relationship between the flow rate, temperature and pressure conditions, and the hydrate film growth fraction, an experiment was prepared with a hydrate flow loop. The experiments were performed under five (5) flowrate conditions, and data were obtained for each of these conditions. The volume of effluent, hydrate start time, temperature, and pressure were measured for each experimental run. The data obtained from the experiment was used in the machine learning model development following data manipulation and conditioning. The methods employed for the development of the predictive models are presented in this section.
+
+
+The experimentation consists of a locally designed flow loop, a refrigerator, liquid circulation electric pumps, a manual pump, control panel, inhibitor vessel, gas cylinder for the carriage of the gas used in the experiment, stainless steel pipe, meters, and gauges. The full experimental procedure is not entirely covered in this paper; however, it is presented in unpublished reports. The flow loop used is schematically presented in figure 1.
+
+
+Figure 1View largeDownload slideFlow Diagram of the Mini Flow Loop (Odutola et al., 2017)Figure 1View largeDownload slideFlow Diagram of the Mini Flow Loop (Odutola et al., 2017) Close modal
+
+
+Machine Learning Modelling
+
+
+Machine learning model development is a data-driven approach for solving specific problems ranging from exposition to robust predictions. The data obtained from the experiment was selected as a foundation for the model development. To obtain the final dataset to be fed into the pipeline, preprocessing techniques were employed on the dataset to ensure its readiness for use. The data obtained from the experiment contained the following variables:
+
+
+TimeFirst Temperature Reading (degC)Second Temperature Reading (degC)Third temperature Reading (degC)First Pressure Reading (Psi)Second Pressure Reading (Psi)Third Pressure Reading (psi)Fourth Pressure Reading (Bar)Fifth Pressure Reading (Psi)Sixth Pressure Reading (Psi)Hydrate Formation State.Flowrate
+
+
+A statistical summary of the data obtained from the experiment is presented in Table 1, showing the count values, mean values, median values, limits, percentile values, and standard deviation.
+
+
+Table 1Statistical Summary of Data Obtained from Experimental Process. 
+            . count
+            . mean
+            . std
+            . min
+            . 0.25
+            . 0.5
+            . 0.75
+            . max
+            . time 305 60 35.2715 0 30 60 90 120 T1 305 3.436066 6.854216 −2 −1 0.5 5.5 27 T2 305 9.711475 5.638102 6 6 7 11 31 T3 304 23.12171 3.591564 20 20 22 24 34 P1(psi) 305 108.8984 11.40116 95 100 108 119 150 P2(psi) 305 127.4066 11.53193 112 119 128 138 170 P3(psi) 304 108.9112 11.41775 95 99.75 108 119 150 P5(psi) 305 116.0721 10.20069 104 108 113 124 150 P6(psi) 305 119.9016 9.962603 106 111 118 128 150 Hydrate 305 0.393443 0.489316 0 0 0 1 1 Flowrate 305.0 145 7.082688 135 140 145 150 155 
+            . count
+            . mean
+            . std
+            . min
+            . 0.25
+            . 0.5
+            . 0.75
+            . max
+            . time 305 60 35.2715 0 30 60 90 120 T1 305 3.436066 6.854216 −2 −1 0.5 5.5 27 T2 305 9.711475 5.638102 6 6 7 11 31 T3 304 23.12171 3.591564 20 20 22 24 34 P1(psi) 305 108.8984 11.40116 95 100 108 119 150 P2(psi) 305 127.4066 11.53193 112 119 128 138 170 P3(psi) 304 108.9112 11.41775 95 99.75 108 119 150 P5(psi) 305 116.0721 10.20069 104 108 113 124 150 P6(psi) 305 119.9016 9.962603 106 111 118 128 150 Hydrate 305 0.393443 0.489316 0 0 0 1 1 Flowrate 305.0 145 7.082688 135 140 145 150 155 View Large
+
+
+The data obtained as shown in Table 1 was analyzed to assess its suitability and establish the needed relationship with the target variable.
+
+
+The accumulation of hydrate in a gas-dominated flow system involves the development of film on the inner section of the pipe wall. Beyond the basic predictions of hydrate formation conditions, and hydrate occurrence in a gas flow system for risk management, it is necessary to determine the fractional hydrate development at specific conditions in a flowline which can be utilized for various forms of sensitivity analysis, design constraints, and inhibition administration control. From the experiment performed, the occurrence conditions (time, temperature, pressure) for each flowrate were obtained. A growth assumption was made for the hydrate formation conditions using the volume of effluent obtained at the end of the experiment, and the volume administered at the start of the experiment. The rate of growth of the hydrate in the flow loop was assumed to be constant, and the fractional hydrate formation at each time step of the experiment was computed using the stated variables. Equation 1 shows the relationship established for the fractional hydrate formation at each time step.
+
+
+xh=v1−v2v2[1]
+
+
+Where:
+
+
+x_h is the fraction of hydrate formed from the fluid (-),
+
+
+v_1 is the volume of fluid administered at the start of the experiment, ml,
+
+
+v_2 is the volume of effluent obtained at the end of the experiment, ml.
+
+
+Equation 1 was used to determine the fractional volume of hydrate formed at the end of the experiment. Using the assumption that the hydrate formation growth rate is uniform, the obtained fraction was extrapolated by subtracting the fractional change by time step count for the conditions in the hydrate formation zone. This process was repeated for the different flowrates utilized in the experiment. With this process, a fractional volume of hydrate at each time step in the hydrate formation zone was obtained, yielding the target variable for the supervised learning algorithms to be employed in the machine learning pipeline.
+
+
+With the data obtained, average values were also computed for the temperature and pressure values as obtained from the experiment. This action was performed as a calculated action to increase the options to be used as input/independent variables in developing the machine learning model. The average values were added to the data and exploratory data analysis was then performed on the dataset to determine the final dataset to be used.
+
+
+From the exploratory data analysis, it was observed that there were some correlations between the average pressure and the target variable. the best relationship was observed on the P4 (bar) variables. This was determined as the optimum pressure variables and selected to represent the pressure relationship with the hydrate formation.
+
+
+For the temperature variables, it was observed that a single temperature could not be solely selected because of the apparent differences in the temperatures at each time step. For this reason, the average temperature was selected as an input variable. the time was also left as one of the input variables as it showed a very good correlation with the fractional film formation and growth. The flowrate was also selected as one of the useful variables in the development of the model as the study was based on the effects of flowrate. Given these selections, other variables were dropped from the dataset.
+
+
+Table 2 shows an updated statistical summary of the data used in the development of the model. This statistical summary is based on the data selected to be processed and used in the development of the models.
+
+
+Table 2Statistical Summary of Selected Data for Model Development. 
+            . count
+            . mean
+            . std
+            . min
+            . 0.25
+            . 0.5
+            . 0.75
+            . max
+            . Time 156 60 35.2715 0 30 60 90 120 Flowrate 156 145 7.082688 135 140 145 150 155 Percentage formation 156 0.082211 0.125717 0 0 0 0.1532 0.433 Avg temp 156 12.07896 5.275252 8 8.666667 9.5 13.33333 30.66667 P4 (bar) 156 0.253656 0.097117 0.1197 0.13905 0.2387 0.354675 0.3994 
+            . count
+            . mean
+            . std
+            . min
+            . 0.25
+            . 0.5
+            . 0.75
+            . max
+            . Time 156 60 35.2715 0 30 60 90 120 Flowrate 156 145 7.082688 135 140 145 150 155 Percentage formation 156 0.082211 0.125717 0 0 0 0.1532 0.433 Avg temp 156 12.07896 5.275252 8 8.666667 9.5 13.33333 30.66667 P4 (bar) 156 0.253656 0.097117 0.1197 0.13905 0.2387 0.354675 0.3994 View Large
+
+
+Analysis of the data showed that the data for the percentage formation was abnormally skewed, hence a technique was required to ensure a better distribution of the data. Observation of the data shows that the median, 25th percentile and the minimum are all zero. Using this data in its original state would cause poor prediction with the model. The results obtained from the exploratory analysis are presented in the next section.
+
+
+To handle this problem, standardization was employed on the data to scale the data attributes to have a mean of 0 and a variance of 1. This was performed to reduce the features to a common scale without distorting the differences in the range of the values. A statistical summary of the values obtained after standardization is presented in Table 3.
+
+
+Table 3Statistical Summary of Values after Standardization. 
+            . count
+            . mean
+            . std
+            . min
+            . 0.25
+            . 0.5
+            . 0.75
+            . max
+            . Time 156 1.96424E-16 1.003221 -2.42657 -0.77534 0.050278 0.875894 1.598309 Flowrate 156 1.90161E-15 1.003221 -1.50543 -0.8147 -0.12398 1.257475 1.257475 Avg temp 156 -2.47665E-16 1.003221 -1.27806 -0.97869 0.069084 0.817497 2.913054 P4(bar) 156 -3.84308E-16 1.003221 -1.38376 -1.18284 -0.15449 1.043011 1.505536 Percentage formation 156 1.66534E-16 1.003221 -1.19216 -1.06379 -0.09191 0.879088 2.019396 
+            . count
+            . mean
+            . std
+            . min
+            . 0.25
+            . 0.5
+            . 0.75
+            . max
+            . Time 156 1.96424E-16 1.003221 -2.42657 -0.77534 0.050278 0.875894 1.598309 Flowrate 156 1.90161E-15 1.003221 -1.50543 -0.8147 -0.12398 1.257475 1.257475 Avg temp 156 -2.47665E-16 1.003221 -1.27806 -0.97869 0.069084 0.817497 2.913054 P4(bar) 156 -3.84308E-16 1.003221 -1.38376 -1.18284 -0.15449 1.043011 1.505536 Percentage formation 156 1.66534E-16 1.003221 -1.19216 -1.06379 -0.09191 0.879088 2.019396 View Large
+
+
+The table shows that the distribution discrepancy has been overcome and regression analysis can be performed on the data to develop models for the prediction.
+
+
+Three machine learning regression algorithms were employed in the development of the prediction models utilized in this study. The algorithms employed are:
+
+
+Linear Regression (Multivariate)Ridge RegressionLight Gradient Boosting Machine (LGBM)
+
+
+The regression algorithms were selected based on the simplicity of the dataset obtained and to reduce complexities in remodeling the data for further analysis and development.
+
+
+For the development of the Ridge Regression, 13 alphas were tested to determine the optimum weighting to be used for the model development and training. Cross-validation was performed on each iteration to determine the performance after changes on each alpha. The mean squared error was used as the error metric for the computation. In developing the model, a Stochastic Average Gradient Descent was used as the solver for the model. It used an iterative process that uses a random sample of previous gradient values for its optimization. The alphas for each iteration were obtained and the best was selected to fit the model.
+
+
+To develop the LGBM model, the root mean squared error was used for scoring in the selection of the hyperparameters. The parameters were obtained using an iteration based on python’s random generation modules. The model was fit based on the optimum values obtained from the process, and training was performed.
+
+
+The mean squared error and the R-Squared values were used to test the performance of the models developed with the three algorithms.
+
+
+Results and Discussion
+
+
+After the experiment, data were obtained for each flowrate run. The data obtained from the experimental run are presented in Figures 2, 3, 4, 5, and 6. The plots show the changes in the pressure and temperature as the run is performed over time.
+
+
+Figure 2View largeDownload slidePlot of Temperature against Time for 135V FlowrateFigure 2View largeDownload slidePlot of Temperature against Time for 135V Flowrate Close modal
+
+
+Figure 3View largeDownload slidePlot of Temperature against Time for 140V FlowrateFigure 3View largeDownload slidePlot of Temperature against Time for 140V Flowrate Close modal
+
+
+Figure 4View largeDownload slidePlot of Temperature against Time for 145V FlowrateFigure 4View largeDownload slidePlot of Temperature against Time for 145V Flowrate Close modal
+
+
+Figure 5View largeDownload slidePlot of Temperature against Time for 150V FlowrateFigure 5View largeDownload slidePlot of Temperature against Time for 150V Flowrate Close modal
+
+
+Figure 6View largeDownload slidePlot of Temperature against Time for 155V FlowrateFigure 6View largeDownload slidePlot of Temperature against Time for 155V Flowrate Close modal
+
+
+The plots show the discrepancy between the recorded temperature values, hence justifying the use of average temperature values in the data fed into the model development environment.
+
+
+To model the relationship between the hydrate formation and the flow rate, a plot was created between the flow rate and the volume of effluent obtained at the end of the experiments based on a 1500 ml initial volume. The plot is presented in Figure 7. The plot shows that there is a direct relationship between hydrates formation and flow rate ingas do gas-dominated flow systems. The relationship can also be observed on a boxplot in figure 8 between the fractional hydrate formation and the flowrate. The plot shows the increasing distribution as the flowrate increases.
+
+
+Figure 7View largeDownload slidePlot of Volume of Hydrate formed against flowrate showing the relationship between the formation and flowrate.Figure 7View largeDownload slidePlot of Volume of Hydrate formed against flowrate showing the relationship between the formation and flowrate. Close modal
+
+
+Figure 8View largeDownload slideBoxplot between the Percentage hydrate formation and the Flowrate showing distribution changes (increase) as the flowrate increasesFigure 8View largeDownload slideBoxplot between the Percentage hydrate formation and the Flowrate showing distribution changes (increase) as the flowrate increases Close modal
+
+
+In the exploratory data analysis as explained in the previous section, a correlation plot was obtained to observe the relationship among the variables. The plot shows how well the variables correlate with each other. A correlation plot was created for the initial variables from experimentation and another plot was created after the variables used for the model development were selected. The plots are presented in Figure 9 and Figure 10. The correlation shows that the variables are very distinct from each other, hence the need for data processing before creating a model fit.
+
+
+Figure 9View largeDownload slideCorrelation plot showing the relationship between experimental parametersFigure 9View largeDownload slideCorrelation plot showing the relationship between experimental parameters Close modal
+
+
+Figure 10View largeDownload slideCorrelation Plot of Variables Selected after Data AnalysisFigure 10View largeDownload slideCorrelation Plot of Variables Selected after Data Analysis Close modal
+
+
+The plot shows that the pressure values are all poorly correlated with the percentage formation, and only the P4 (bar) has a fair correlation value. The average temperature was also selected ahead of the other temperature variables for the reasons earlier stated.
+
+
+A poor correlation is observed between the flowrate and the percentage formation because of the count of distinct values existing between the two variables. Based on knowledge of data analysis, it was assumed that the flowrate will only properly correlate with the percentage formation if it is used alongside other variables with distinctive values during modelling.
+
+
+From further analysis of the data, a univariate distribution analysis was performed on the target variable to determine if actions need to be taken on the dataset. It can be recalled from the previous section that the mean, percentile values, and limits of the target variable showed unsatisfactory attributes. A distribution plot shows more information on the observation made in Table 2. The distribution plot is presented in Figure 11 
+
+
+Figure 11View largeDownload slideDensity Plot Showing the Distribution of Values for the Target VariableFigure 11View largeDownload slideDensity Plot Showing the Distribution of Values for the Target Variable Close modal
+
+
+The plot shows that the system is heavily skewed at zero, and evenly distributed between 0.1 and 0.4. This distribution tends to yield errors when fitted to a model. To show how poorly a model will be fitted with these variables, a simple linear regression was performed on the data in this form and cross-correlated with test target variables. The result of this model fit is presented in Figure 12.
+
+
+Figure 12View largeDownload slideCross-Correlation Plot of Data Fitted with unprocessed normalized Data.Figure 12View largeDownload slideCross-Correlation Plot of Data Fitted with unprocessed normalized Data. Close modal
+
+
+Figure 13 shows that the prediction was performed very poorly because of the distribution existing in the variables obtained. To solve this, Standardization of the data was performed.
+
+
+Figure 13View largeDownload slidePlot Showing Cross-Validation Error for Each Alpha.Figure 13View largeDownload slidePlot Showing Cross-Validation Error for Each Alpha. Close modal
+
+
+With the preparation of the data for model development, the models were fitted following the algorithms in use. As stated in the previous section, regression algorithms were employed for the development. The models after development were cross-correlated with the test dataset to check the accuracy of the models developed. From the development with Ridge Regression, a plot was created showing the validation root mean squared error for each alpha as it changes with each iteration. The plot is presented in Figure 13.
+
+
+The best alpha was obtained and used to fit the ridge regression model and the correlation plot was created. The correlation plot for Ridge Regression is presented in Figure 14. This shows that contrary to figure 12, a better fit was created after the processing of the dataset was performed.
+
+
+Figure 14View largeDownload slideCross-Correlation Plot of Predicted Fractional Volume with the Actual Fractional Volume Showing the performance of the Ridge Regression Hydrate Risk Level Analysis ModelFigure 14View largeDownload slideCross-Correlation Plot of Predicted Fractional Volume with the Actual Fractional Volume Showing the performance of the Ridge Regression Hydrate Risk Level Analysis Model Close modal
+
+
+The correlation was also performed for the Linear Regression and the Light Gradient Boosting Machine. The plots obtained for these models are presented in Figure 15 and Figure 16. The plot shows that the models were able to give a good fit for the data used.
+
+
+Figure 15View largeDownload slideCross-Correlation Plot of Predicted Fractional Volume with the Actual Fractional Volume Showing the performance of the Linear Regression Hydrate Risk Level Analysis ModelFigure 15View largeDownload slideCross-Correlation Plot of Predicted Fractional Volume with the Actual Fractional Volume Showing the performance of the Linear Regression Hydrate Risk Level Analysis Model Close modal
+
+
+Figure 16View largeDownload slideCross-Correlation Plot of Predicted Fractional Volume with the Actual Fractional Volume Showing the performance of the Light Gradient Boosting Machine Hydrate Risk Level Analysis ModelFigure 16View largeDownload slideCross-Correlation Plot of Predicted Fractional Volume with the Actual Fractional Volume Showing the performance of the Light Gradient Boosting Machine Hydrate Risk Level Analysis Model Close modal
+
+
+To give a more proper insight into the performance of the models, the root mean squared error and coefficient of correlation were employed. These metrics were applied to each of the developed models and compared to find the best-performing model. The results of the model evaluation are presented in Table 4.
+
+
+Table 4Model Evaluation Using Coefficient of Correlation and Root Mean Squared Error. 
+            . Ridge Regression
+            . LGBM
+            . Linear Regression
+            . RMSE 0.1682 0.2343 0.232 R-Squared 0.9595 0.9354 0.9376 
+            . Ridge Regression
+            . LGBM
+            . Linear Regression
+            . RMSE 0.1682 0.2343 0.232 R-Squared 0.9595 0.9354 0.9376 View Large
+
+
+The results presented in Table 2 show a satisfactory performance of the regression models developed for determining the hydrate risk level at given conditions of temperature and pressure in a gas-dominated flow system.
+
+
+Conclusion
+
+
+In production and flow assurance endeavors, it is important to access every prevailing condition to determine measures to be put in place and conditions that can be managed and mitigated before the system is put to work. For this work, a hydrate risk level analysis model based on the fractional hydrate formation volume was developed depending on the flowrate, temperature, and pressure. Machine learning models were employed to perform the necessary prediction for the regression problem and the models were also evaluated to determine the performance. It was observed that the Ridge Regression with a Root Mean Squared Error of 0.1682, and a correlation coefficient of 0.9595 gave the best model and the algorithm followed can be employed for the prediction of the expected risk level of hydrate formation in a flow system given the prevailing or expected conditions.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion RMSERoot Mean Squared Error LGBMLight Gradient Boosting Machine TTemperature PPressure STDStandard Deviation MinMinimum MaxMaximum
+
+
+References
+
+
+Landgrebe, M. K. B., & Nkazi, D. (2019). Toward a Robust, Universal Predictor of Gas Hydrate Equilibria by Means of a Deep Learning Regression. ACS Omega, 4(27), 22399–22417. https://doi.org/10.1021/acsomega.9b02961Google ScholarCrossrefSearch ADS PubMed Makogon, Y. F.Hydrates of Natural Gas; Penn Well Publishing: USA, 1981Google ScholarCrossrefSearch ADS  Monday, C. U., & Odutola, T. O. (2021). Application of Machine Learning in Gas-Hydrate Formation and Trendline Prediction. https://doi.org/10.2118/208653-msGoogle Scholar Odutola, T. O., Ikiensikimama, S. S., & Appah, D. (2014, August). Chemical Compromise: A Thermodynamic and Ionic Solution for Hydrate Control. In SPE Paper 172410-MS Presented at SPE Nigeria Annual International Conference and Exhibition held at Eko Hotels, Lagos (pp. 5-7). https://doi.org/10.2118/172410-MSGoogle Scholar Qin, H., Qu, A., Wang, Y., Zerpa, L., Koh, C., Bodnar, S., Daly, S., Palermo, T., & Mateen, K. (2020). Predicting Hydrate Plugging Risk in Oil Dominated Systems using a Transient Hydrate Film Growth Prediction Tool. https://doi.org/10.4043/30545-msGoogle Scholar Sami, N. A., Sangwai, J., & Subramanian, B. (2013). Gas Hydrate Applications and Problems in Oil and Gas Industry. International Journal of Scientific & Engineering Research4(8).Google Scholar Sloan, D. E., Koh, C. A. (2008). Clathrate Hydrates of Natural Gases. Published by CRC Press, USA.Google ScholarCrossrefSearch ADS  ToyinO, O., & ChukwuemekaE. U. (2019). Simulation of Laboratory Hydrate Loop Using Aspen Hysys. Engineering and Applied Sciences, 4(3), 52. https://doi.org/10.11648/j.eas.20190403.11Google ScholarCrossrefSearch ADS  Zou, C. (2017). Natural Gas Hydrate. Unconventional Petroleum Geology, 391–404. https://doi.org/10.1016/b978-0-12-812234-1.00014-5Google Scholar Seo, Y., Kim, B., Lee, J., & Lee, Y. (2021). Development of AI-Based Diagnostic Model for the Prediction of Hydrate in Gas Pipeline. Energies, 14(8), 2313. https://doi.org/10.3390/en14082313Google ScholarCrossrefSearch ADS  Sloan, E. D. (1991). Natural Gas Hydrates. Journal of Petroleum Technology, 43(12), 1414–1417. https://doi.org/10.2118/23562-paGoogle ScholarCrossrefSearch ADS  Sloan, E. D., Jr. (1998). Clathrate Hydrates of Natural Gases. Second Edition, Revised and Expanded. Taylor & Francis.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212000-MS
+
+
+

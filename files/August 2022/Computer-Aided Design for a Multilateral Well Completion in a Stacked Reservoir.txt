@@ -1,0 +1,481 @@
+----- METADATA START -----
+Title: Computer-Aided Design for a Multilateral Well Completion in a Stacked Reservoir
+Authors: Faith A. Bamgboye, Promise O. Longe, Boniface A. Oriji
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211980-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Over the years, multilateral well technology has been one of the most rapidly evolving and widely utilized production technologies for new and maturing reservoirs. Multilateral wells have the potential for reservoir productivity improvement. The characteristics used to evaluate multilateral well completion are connectivity, isolation, and accessibility. All these focus on the completion design of the main bore, lateral bores, and junctions that connect the lateral and main bores. Hence, one of the factors to consider in designing multilateral wells is the junction type, which depends on the required degree of mechanical integrity and pressure integrity at each lateral. Previous studies establish that the lateral junctions are a critical element of multilateral completions and can fail under formation stresses, temperature-induced forces, and differential pressures during production. Thus, the reliability of a multilateral completion design is the ability to construct and complete the multilateral junction successfully. The Technology Advancement of Multilaterals (TAML) has categorized the distinct types of multilateral junctions based on support and hydraulic integrity provided at the junction. The objectives of this paper are: (1) to provide a detailed discussion on each classification level and the conditions in which they are applicable, (2) to present a conceptually digitized application of a multilateral well on a stacked reservoir XXXX in a Niger Delta field using SEPAL software. To achieve the latter goal, after a preliminary and detailed casing design, we applied the SEPAL software to design and digitize the proposed multilateral well schematics for the stacked reservoir. From the analysis, a multilateral level 5 junction was selected to overcome specific problems (e.g., wellbore collapse) due to the unconsolidated sands of the reservoir in the field of interest.
+
+
+
+
+Keywords:
+directional drilling,
+reservoir,
+api casing collapse,
+drilling operation,
+junction,
+integrity,
+upstream oil & gas,
+lateral,
+requirement,
+multilateral well completion
+
+
+Subjects: 
+Drilling Operations,
+Directional drilling
+
+
+
+
+Introduction
+
+
+A multilateral well is a single well with one or more wellbore branches radiating from the main borehole. It may be an exploration well, an infill development well, or re-entry into an existing well. Multilateral completion systems allow the drilling and completion of multiple lateral boreholes within a single main bore. It describes the assembly and installation of a downhole pipe and related equipment so that oil and gas can be efficiently and safely extracted from various target zones of the reservoir. Multilateral well completions can be carried out in new and existing wells. Between 1980 and 1995, only 45 multilaterals well completions were reported; however, since 1995, hundreds of multilateral wells have been completed. This increased number of multilateral wells is related to a rapid sequence of advances in drilling multilateral wells—directional and horizontal drilling techniques, advanced drilling equipment, and coiled tubing drilling, Bosworth et al., (1998). Well completions for multilateral wells are very different from vertical wells or even single-leg horizontal wells. The critical distinguishing component in a multilateral well completion is the junction construction, which provides communication and conduction between the laterals and the main borehole.
+
+
+Cooper and Dowell (1988) explained the many circumstances to consider before deciding to drill horizontal wells, and these must also be considered in the final completion design. Some of these circumstances include (1) Thin reservoirs: the productivity index (PI) for a horizontal well reflects the increased area of contact of the well with the reservoir. (2) Vertical permeability: The productivity obtained by drilling a horizontal well partially depends on the magnitude of the vertical permeability and the length of the drain hole. The ratio of vertical permeability to horizontal permeability is high; a horizontal well may produce more cost-effectiveness than a vertical well. (3) Heterogeneous reservoirs: where horizontal drain-hole may provide several advantages when reservoir heterogeneity exists in the horizontal plane. This type of horizontal wellbore in the reservoir provides potential for far more information about the reservoir than would typically be available. As logging and completion techniques become more sophisticated, this aspect of horizontal wells is likely to be very advantageous. Other circumstances include recovery from water flooding and field development plans.
+
+
+Economides et al. (2001) discussed the three major categories of multilateral well designs, reservoir consideration, and their application. The 3 categories are open-hole multilateral wells, limited-isolation/access multilateral systems, and complete multilateral systems. Garrouch et al. (2004) presented the various lateral completion types that must be designed to fit the production constraints and the reservoir characteristics; for consolidated formations: (a) Open-hole, (b) pre-drilled or slotted-liner. (c) Pre-drilled or slotted liner with external casing packers. (d) Cased, cemented, and perforated, while for unconsolidated formations: (a) Open-hole with pre-drilled liner and stand-alone screen, (b) Open-hole with stand-alone screen, and (c) Open-hole gravel pack.
+
+
+Safare (2004) noted that multilateral well systems had developed rapidly based on technological advancements in the oil industry since their introduction. In the upstream sector, which involves exploration and production, the aim is to produce hydrocarbons optimally and efficiently. In carrying out this task, the following are some challenges faced:
+
+
+Difficult reservoir conditions such as tight formations or laminated reservoirs,Complex geologic conditions such as compartmentalized or stacked reservoirs,Efficient and effective reservoir management and development plans.
+
+
+Multilateral well technology provides innovative solutions to the above areas, and positive results have been obtained regarding production and finances. Figure 1 shows the geometries of multilateral wells ranging from a single drain-hole to multiple well branches in horizontal-fanned, vertical stacked or dual-opposed arrangements. These geometries are determined by the number of targets, depths/pressures, well construction parameters, and risk analysis.
+
+
+Figure 1View largeDownload slideCommon geometries of multilateral wells (Fraija et al., 2002).Figure 1View largeDownload slideCommon geometries of multilateral wells (Fraija et al., 2002). Close modal
+
+
+Many issues are involved in completion selection, and design of a multilateral well. The main concerns include borehole stability at the junctions and in the main wellbore and laterals, production/injection control, and re-entry for workover or stimulation. Hill, Zhu & Economides (2008) stated some factors to consider when designing a multilateral well completion. These factors are reservoir structure, junction formation characteristics, the differential pressure at the junction, production and injection management, and re-entry capacity.
+
+
+In pursuing optimum production, low-cost benefit, and maximum recovery of reserves, multilateral completions can provide a great advantage. The following failures include equipment-use failure, cementing issues of the junction or lateral, excessive drawdown causing junction collapse occurs when well completion is not sufficiently designed or reviewed when well plans changed. Computer-aided design of multilateral well completions helps mitigate these failures. It allows flexibility in selecting, designing, and optimizing appropriate multilateral well-completion design, thereby increasing reliability. Thus, this paper describes the conceptual design and analysis for the optimum multilateral well design using a computer-aided design approach. This approach will guide the effective selection of completion design, optimum casing design, effective equipment design, and easy modification of the multilateral well completion design, if necessary.
+
+
+Multilateral Well Completion Levels
+
+
+The Technology Advancement of Multilaterals (TAML) system for multilateral junction classification is based on support and hydraulic integrity provided at the junction. Wells were categorized according to the type of junction used to join the main bore to the lateral and produced standards that were designated TAML Levels 1 through 6. The ascending order of these levels reflects the junction's increasing mechanical and pressure capability. Consequently, cost, complexity, and risk also increase at the higher TAML levels (Flatern, 2016). They are as follows:
+
+
+Level 1: It's an open-hole lateral drilled from an open-hole mother-bore. There is no mechanical support or hydraulic isolation at the junction. Level 1 completions have been selected for many multilateral wells from the early stage of multilateral well development because of their simplicity and low cost. The requirements are consolidated, highly competent formations because of the lack of junction and lateral support. (Hill et al., 2008). Production control and zonal isolation generally are not available in commingled production. In Level 1 wells, re-entry is also not guaranteed. These disadvantages limit the applications of Level 1 multilateral completion.Level 2: Here, the main borehole is cased and cemented, but the laterals have simple completions such as an open hole, a slotted liner laying in the lateral from the main bore, or a prepacked screen laying in the lateral from the main bore. There are two ways to create the lateral at the junction, either by pre-milled windows or by milling through the casing. Consequently, the complexity is increased. But since the casing supports the junction, it achieves more borehole stability than Level 1 completion. After drilling the lateral, a standard Level 2 completion is to set a sliding sleeve at the junction between two packers and leave the lateral open hole. With the sliding sleeve open, both laterals produce commingled. For zonal isolation in this completion, a plug can be set in the lower packer to shut off the lower lateral for water coning and other production problems. To shut off the upper lateral section by closing the sliding sleeve. Notice that commingled production from both laterals cannot be separated once inside the tubing. Re-entry is also limited in this completion because of the sliding sleeve (Hogg, 1997).Level 3: The main wellbore is cased and cemented, and the lateral is cased but not cemented. The main advantage of Level 3 completion is that the mechanical integrity at the junction is improved compared with Level 2 completions. A Level 3 junction provides sand control means for unconsolidated formations and provides limited junction support for heavy-oil production. Since hydraulic integrity is not available in Level 3 completions without cement at the junction, junction failure is still a problem when pressure drawdown is substantial after a production period.Level 4: The main borehole and the lateral are cased and cemented at the junction for this type. Level 4 provides better mechanical integrity and hydraulic isolation by cementing at the junction compared to Level 3. It can withstand higher-pressure differential and prevent sand problems at the junction. The completion procedure is more complicated because it takes more trips and has more equipment. Level 4 completions can be created either by milling a window in the casing from the main wellbore or by using a pre-milled casing. After the lateral is drilled, a liner is placed and cemented in the lateral.Level 5: These completions were developed based on Level 4 systems with improvements in pressure integrity. The junction's full pressure integrity is achieved by running tubular and packers in the main wellbore and the lateral. In a typical Level 5 completion, there is a dual packer above the junction location and two more packers below the junction in the lower part of both the main wellbore and the lateral. Two tubing strings are run below the dual packer into the main wellbore and the lateral, and the additional packers seal them in the main wellbore and the lateral. Level 5 multilateral offers the best solution for multilateral wells in weak, incompetent environments that are susceptible to wellbore collapse.Level 6: This is the most advanced completion in multilateral well technology. Full pressure integrity and hydraulic isolation at the junction are achieved with casing strings, both in the main wellbore and in the lateral. A Level 6 junction has several significant advantages compared with other multilateral completions. It is a single component completion, the junction completion process is much simpler, and it eliminates the debris from downhole milling or wash-over processes. The resulting completion offers maximum flexibility while minimizing risk and complexity. The current primary limitations of Level 6 junctions are the larger hole size required and the high cost (Hill et al., 2008). It is typically employed at the bottom of a casing string. After the casing and junction are cemented into place, the laterals are drilled and tied back to the junction with some cemented lateral liner and hanger assembly (Sarfare, 2004).
+
+
+Figure 2View largeDownload slideTAML Classification of Multilateral Completions (Butler et al., 2017)Figure 2View largeDownload slideTAML Classification of Multilateral Completions (Butler et al., 2017) Close modal
+
+
+Complete Multilateral Well System
+
+
+A complete multilateral system provides two to five laterals from one new or existing wellbore. The system must also be compatible with cementing operations for liners, slotted liners, and prepacked screens for sand control.
+
+
+Applications
+
+
+The lateral wellbore is cased back to the primary bore exit in this design. The liner casing string is mechanically connected to the primary bore casing; the lateral-to-main-wellbore junction must be hydraulically sealed. Any complete lateral bore or portions of any lateral can be isolated to control the production inflow profile. Each lateral must also be accessible for re-entry without rig intervention.
+
+
+Reservoir Considerations
+
+
+Proper reservoir modeling and target selection must occur during the project planning phase, and a stable, non-sloughing, impermeable shale or hard rock formation is desirable at the exit point. However, if the target selection requires exit in unconsolidated sands or in the producing interval itself, the unconsolidated sand can be stabilized with cement or plasticized material. Since low to medium build rates will be used to simplify casing installation, engineers must select targets and plan drill paths with such considerations in mind.
+
+
+Installation Considerations
+
+
+The primary bore is drilled, and the primary production casing string is cemented in place across all anticipated lateral-bore exit points. The primary bore is typically drilled into a producing zone and completed for final production.
+
+
+Figure 3View largeDownload slideComplete (Advanced) Multilateral Well System (Economides et al., 2001)Figure 3View largeDownload slideComplete (Advanced) Multilateral Well System (Economides et al., 2001) Close modal
+
+
+Advantages of Multilateral Wells
+
+
+Multilateral wells leverage the existing advantages of horizontal wells with further improvements to produce multilayer pay zones [Oluwadairo, (2018), Rivera, et al., (2003)] compared the economics of levels 3 and 6 multilateral junction configurations to a horizontal well for a natural flow of oil of gravity between 20 – 29° API in a homogeneous reservoir, and permeability ranging from 10 mD to 1250 mD. Results showed that the two-branched multilateral produced 13% more oil than the horizontal well in a high permeability reservoir. The multilateral produced 80% more oil than the horizontal well in a low permeability reservoir with low viscosity oil and 10 to 15% less water than the horizontal well. Horizontal wells have the following benefits over vertical wells: better sweep efficiencies, decreased water, and gas coning tendencies, increased exposure to natural fractures in the formation, and increased efficiency of draining relatively thin formation layers, ultimately leading to higher productivity indices from the well. In summary, multilateral provide the following advantages:
+
+
+Greater contact area to reservoir ratio and increased exposure to natural fracture systems via multiple laterals.Low cost-benefit ratio: reduced capital spent on drilling the well, wellhead installation, platform risers, and completion equipment compared to multiple wells. An operator in the Arabian Gulf reported 35% savings per well, despite 44% extra cost compared to a single horizontal (Al-Umair, 2000).Access to multiple pay zones, including thin layers or older and formerly depleted reservoirs from a single location.Well slot optimization and minimized environmental impact or footprint in offshore and harsh or remote locations.Extend the life of an existing field development by drilling laterals out of the existing wellbores and tapping into reserves that were not recovered during the earlier production stage.Accelerated production, i.e., higher flow rates at lower pressure drops than single-bore wells.
+
+
+Methodology
+
+
+This section includes the procedures involved in this study, including the theoretical assumptions. The usage of SEPAL (Structured Engineering Presentation and Analytics Leverage) in this study comprises the design, digitization, and management of well schematics on a single platform. This SEPAL module is used to generate conceptual well-completion schematics (initial), store completion schematic as deployed (final), and manage changes to well configurations because of intervention over time. All these data can be queried and retrieved from the database when required. The SEPAL Well Schematic Management module output is a digital well status diagram that can be queried for various engineering analyses and easily updated to capture the evolution of schematics over the life of the well.
+
+
+Figure 4View largeDownload slideWorkflow of studyFigure 4View largeDownload slideWorkflow of study Close modal
+
+
+Data
+
+
+Table 1PVT Data for Reservoir XXXX Reservoir
+            . Pi(psia)
+            . Saturation Pressure (psia)
+            . Rsi (SCF/STB))
+            . Temp (°F)
+            . Bo (RB/STB)
+            . API
+            . Oil Viscosity (cP)
+            . XXXX 4409 4159 982 172 1.578 33.04 0.35 Reservoir
+            . Pi(psia)
+            . Saturation Pressure (psia)
+            . Rsi (SCF/STB))
+            . Temp (°F)
+            . Bo (RB/STB)
+            . API
+            . Oil Viscosity (cP)
+            . XXXX 4409 4159 982 172 1.578 33.04 0.35 View Large
+
+
+Table 2Structural Data for Reservoir XXXX Sand A  Top = 10113 (ft) Vertical Permeability = 468.52 (mD) Base = 10167 (ft) Horizontal Permeability = 113.19 (mD) Contact = 10153 (ft) Swi = 0.18 Thickness = 64 (ft) Porosity = 0.23 Sand B  Top = 10169 (ft) Vertical Permeability = 368.52 Base = 10190 (ft) Horizontal Permeability = 93.34 (mD) Contact = 10173 (ft) Swi = 0.16 Thickness = 21 (ft) Porosity = 0.24 Sand C  Top = 10208 (ft) Vertical Permeability = 568.52 Base = 10243 (ft) Horizontal Permeability = 123.19 (mD) Contact = 10216 (ft) Swi = 0.22 Thickness = 35 (ft) Porosity = 0.23 Sand A  Top = 10113 (ft) Vertical Permeability = 468.52 (mD) Base = 10167 (ft) Horizontal Permeability = 113.19 (mD) Contact = 10153 (ft) Swi = 0.18 Thickness = 64 (ft) Porosity = 0.23 Sand B  Top = 10169 (ft) Vertical Permeability = 368.52 Base = 10190 (ft) Horizontal Permeability = 93.34 (mD) Contact = 10173 (ft) Swi = 0.16 Thickness = 21 (ft) Porosity = 0.24 Sand C  Top = 10208 (ft) Vertical Permeability = 568.52 Base = 10243 (ft) Horizontal Permeability = 123.19 (mD) Contact = 10216 (ft) Swi = 0.22 Thickness = 35 (ft) Porosity = 0.23 View Large
+
+
+Preliminary Analysis
+
+
+Determination of the Casing Setting Depth
+
+
+The principle of selecting the casing shoe setting depths starts with the knowledge of pore pressure, fracture gradient, and mud density. These can be obtained using the following equations:
+
+
+Pore Pressure (P. P) Gradient=Pore PressureDepthpsi/ftEquation 1
+
+
+Fracture Gradient (F. G)=(SD−PD)*(y1−y)+(PD) psi/ftEquation 2
+
+
+Where SD = Overburden Pressure in psi/ft
+
+
+PD = pressure gradient at depth of interest
+
+
+y = Poisson's ratio = 0.35
+
+
+P. P Gradient in ppg=P. P Gradient0.052Equation 3
+
+
+F. G in ppg=F. G0.052Equation 4
+
+
+Design F. G =F.G in ppg−0.52Equation 5
+
+
+Mud Weigth =P. P Gradient in ppg+0.52Equation 6
+
+
+Table 3Casing Setting Depth Data Depth (ft)
+            . Pore Pressure (ft)
+            . P.P Gradient (psi/ft)
+            . Fracture Gradient (psi/ft)
+            . P.P Gradient (ppg)
+            . Mud Density (ppg)
+            . Design F.G (ppg)
+            . 0 — — — — — — 1000 195 0.195 7.74 3.75 4.25 7.24 2000 390 0.195 7.74 3.75 4.25 7.24 3000 625 0.208 7.86 4.01 4.51 7.36 4000 950 0.238 8.11 4.57 5.07 7.61 5000 1350 0.270 8.40 5.19 5.69 7.90 6000 1800 0.300 8.67 5.77 6.27 8.17 7000 2400 0.343 8.74 6.59 7.09 8.24 8000 3160 0.395 9.82 7.60 8.10 9.32 9000 3610 0.401 9.88 7.71 8.21 9.38 10000 4120 0.412 9.97 7.92 8.42 9.47 11000 5100 0.464 10.43 8.92 9.42 9.93 Depth (ft)
+            . Pore Pressure (ft)
+            . P.P Gradient (psi/ft)
+            . Fracture Gradient (psi/ft)
+            . P.P Gradient (ppg)
+            . Mud Density (ppg)
+            . Design F.G (ppg)
+            . 0 — — — — — — 1000 195 0.195 7.74 3.75 4.25 7.24 2000 390 0.195 7.74 3.75 4.25 7.24 3000 625 0.208 7.86 4.01 4.51 7.36 4000 950 0.238 8.11 4.57 5.07 7.61 5000 1350 0.270 8.40 5.19 5.69 7.90 6000 1800 0.300 8.67 5.77 6.27 8.17 7000 2400 0.343 8.74 6.59 7.09 8.24 8000 3160 0.395 9.82 7.60 8.10 9.32 9000 3610 0.401 9.88 7.71 8.21 9.38 10000 4120 0.412 9.97 7.92 8.42 9.47 11000 5100 0.464 10.43 8.92 9.42 9.93 View Large
+
+
+Figure 5 below shows a plot pore pressure gradient in ppg, the mud weight in ppg, the design fracture gradient, and the fracture gradient against depth. This graphical representation is done to obtain the setting depth for each of the proposed casing strings:
+
+
+Figure 5View largeDownload slideCasing Settling SelectionFigure 5View largeDownload slideCasing Settling Selection Close modal
+
+
+Detailed Design
+
+
+The detailed design includes the determination of casing specifications: the grades, the connection type, and the weight of each casing string. The selection process compares the pipe ratings with the design loads such as bursts and collapse and applies minimum acceptable safety standards (i.e., design factors). The API design factors are essential "safety factors" to design safe, reliable casing strings. The following will be used in this study:
+
+
+Collapse (From External Pressure): 1.125
+
+
+Burst (From Internal Pressure): 1.1
+
+
+Collapse and Burst Requirements
+
+
+Collapse Pressure, Pc=0.052×Mud Weight×Depth×Design FactorEquation 7
+
+
+Burst Pressure, PB=P. P Gradient×Depth×Design FactorEquation 8
+
+
+Table 5Input Data, Obtained from Figure 5  Setting Depth
+            . P.P Gradient
+            . Mud Weight
+            . Main Wellbore 0—100ft 0.2382 psi/ft 5.08 ppg 0—4,000ft 0.2382 psi/ft 5.08 ppg 0—7,500ft 0.3702 psi/ft 7.62 ppg 0—10,400ft 0.4295 psi/ft 8.76 ppg Lateral Wellbores 10,000—10,133ft 0.4295 psi/ft 8.76 ppg 10,140—10,170ft 0.4295 psi/ft 8.76 ppg 10,180—10,212ft 0.4295 psi/ft 8.76 ppg Setting Depth
+            . P.P Gradient
+            . Mud Weight
+            . Main Wellbore 0—100ft 0.2382 psi/ft 5.08 ppg 0—4,000ft 0.2382 psi/ft 5.08 ppg 0—7,500ft 0.3702 psi/ft 7.62 ppg 0—10,400ft 0.4295 psi/ft 8.76 ppg Lateral Wellbores 10,000—10,133ft 0.4295 psi/ft 8.76 ppg 10,140—10,170ft 0.4295 psi/ft 8.76 ppg 10,180—10,212ft 0.4295 psi/ft 8.76 ppg View Large
+
+
+Conductor Pipe (20 inch)
+
+
+Collapse
+
+
+PC = 0.052 × 5.08 × 100 × 1.125 = 29.72 psi
+
+
+Burst
+
+
+PB = 0.2328 × 100 × 1.1 = 25.61 psi
+
+
+Figure 6View largeDownload slideSelection of Conductor Casing Based on API Casing Collapse, Burst, and Tensile PropertiesFigure 6View largeDownload slideSelection of Conductor Casing Based on API Casing Collapse, Burst, and Tensile Properties Close modal
+
+
+From the API specification table, casing grade H-40 satisfies the conductor casing's collapse and burst pressures requirements.
+
+
+Surface Casing (16 inch)
+
+
+Collapse
+
+
+PC = 0.052 × 5.08 × 4000 × 1.125 = 1188.72 psi
+
+
+Burst
+
+
+PB = 0.2328 × 4000 × 1.1 = 1024.32 psi
+
+
+Figure 7View largeDownload slideSelection of Surface Casing Based on API Casing Collapse, Burst, and Tensile PropertiesFigure 7View largeDownload slideSelection of Surface Casing Based on API Casing Collapse, Burst, and Tensile Properties Close modal
+
+
+From the API specification table, casing grade K-55 satisfies the surface casing's collapse and burst pressures requirements.
+
+
+Intermediate Casing (13⅜ inch)
+
+
+Collapse
+
+
+PC = 0.052 × 7.62 × 7500 × 1.125 = 3343.28 psi
+
+
+Burst
+
+
+PB = 0.3702 × 7500 × 1.1 = 3054.15 psi
+
+
+Figure 8View largeDownload slideSelection of Intermediate Casing Based on API Casing Collapse, Burst, and Tensile PropertiesFigure 8View largeDownload slideSelection of Intermediate Casing Based on API Casing Collapse, Burst, and Tensile Properties Close modal
+
+
+From the API specification table, casing grade P-110 satisfies the collapse and burst pressures requirements of the Intermediate Casing.
+
+
+Production Casing (9⅝ inch)
+
+
+Collapse
+
+
+PC = 0.052 × 8.76 × 10400 × 1.125 = 5329.58 psi
+
+
+Burst
+
+
+PB = 0.4295 × 10400 × 1.1 = 4913.48 psi
+
+
+Figure 9View largeDownload slideSelection of Production Casing Based on API Casing Collapse, Burst, and Tensile PropertiesFigure 9View largeDownload slideSelection of Production Casing Based on API Casing Collapse, Burst, and Tensile Properties Close modal
+
+
+From the API specification table, casing grade N-80 satisfies the production casing's collapse and burst pressures requirements.
+
+
+Production Liner I (7 inch)
+
+
+Collapse
+
+
+PC = 0.052 × 8.76 × 10133 × 1.125 = 5192.76 psi
+
+
+Burst
+
+
+PB = 0.4295 × 10133 × 1.1 = 4787.34 psi
+
+
+Production Liner II (7 inch)
+
+
+Collapse
+
+
+PC = 0.052 × 8.76 × 10170 × 1.125 = 5211.72 psi
+
+
+Burst
+
+
+PB = 0.4295 × 10170 × 1.1 = 4804.82 psi
+
+
+Production Liner III (7 inch)
+
+
+Collapse
+
+
+PC = 0.052 × 8.76 × 10212 × 1.125 = 5233.24 psi
+
+
+Burst
+
+
+PB = 0.4295 × 10212 × 1.1 = 4824.66 psi
+
+
+Figure 10View largeDownload slideSelection of Production Liners Based on API Casing Collapse, Burst, and Tensile PropertiesFigure 10View largeDownload slideSelection of Production Liners Based on API Casing Collapse, Burst, and Tensile Properties Close modal
+
+
+From the API specification table, casing grade C-90 satisfies the collapse and burst pressures requirements of the production liners of the three layers.
+
+
+Table 6Proposed Casing Information Casing Name
+            . Casing Setting Depth Interval (ft)
+            . Casing Setting Depth (ft)
+            . Casing Size (in)
+            . Casing Grade
+            . Nominal weight (lbs/ft)
+            . From
+            . To
+            . TVD
+            . MD
+            . Conductor 0 100 100 100 20 H-40 94 Surface 0 4,000 4,000 4,000 16 K-55 84 Intermediate 0 7,500 7,500 7,500 13⅜ P-110 80.7 Production 0 10,400 10,400 10,400 9⅝ N-80 53.5 Production Liner I 10,000 10,133 10,133 900 7 C-90 29 Production Liner II 10,140 10,170 10,170 900 7 C-90 29 Production Liner III 10,180 10,212 10,212 900 7 C-90 29 Casing Name
+            . Casing Setting Depth Interval (ft)
+            . Casing Setting Depth (ft)
+            . Casing Size (in)
+            . Casing Grade
+            . Nominal weight (lbs/ft)
+            . From
+            . To
+            . TVD
+            . MD
+            . Conductor 0 100 100 100 20 H-40 94 Surface 0 4,000 4,000 4,000 16 K-55 84 Intermediate 0 7,500 7,500 7,500 13⅜ P-110 80.7 Production 0 10,400 10,400 10,400 9⅝ N-80 53.5 Production Liner I 10,000 10,133 10,133 900 7 C-90 29 Production Liner II 10,140 10,170 10,170 900 7 C-90 29 Production Liner III 10,180 10,212 10,212 900 7 C-90 29 For the vertical section of the wellbore, the True Vertical Depth (TVD) = Measured Depth (MD)View Large
+
+
+Output from the SEPAL Software
+
+
+The Figure 11 above depicts the optimum multilateral well schematic showing various downhole equipment for the Reservoir XXXX. The components of the completion system are discussed further:
+
+
+Figure 11View largeDownload slideOptimum Multilateral Well Completion SchematicFigure 11View largeDownload slideOptimum Multilateral Well Completion Schematic Close modal
+
+
+Surface Controlled Subsurface Safety Valve (SCSSV)
+
+
+The SCSSV acts as a fail-safe to isolate the wellbore in case of mechanical system failure or damage to the surface production-control facilities. The control system operates with hydraulic control pressure used to hold open a ball or flapper assembly that will close if the control pressure is lost.
+
+
+Gas-lift Mandrel
+
+
+The gas-lift mandrel is assembled with the production tubing string to provide a means of locating gas-lift valves. At a later time, when the well cannot produce naturally because of a reduction in pressure, the gas-lift system will become necessary
+
+
+Packer
+
+
+The packers in the producing zones act as a sealing device that isolates and contains produced fluids and pressures within the tubing string. The dual-access and the single-access packer in the vertical section of the well support some of the tubing weight and prevent downhole movement of the tubing strings.
+
+
+Intervention Discriminator
+
+
+This tool helps access the laterals 2 and 3 selectively; also, the production from each lateral is commingled through the 3½ inch.
+
+
+Inflow Control Valve
+
+
+The presence of surface-controlled, variable inflow control valves to control the commingled production from laterals 2 and 3 and prevent crossflow. This device provides an overall capability to effectively manage the reservoir and production over the life of the well, which prolongs the field life, thus improving overall economic performance and field economics.
+
+
+Autonomous Inflow Control Device (AICD)
+
+
+The AICD in the lateral zones can help balance hydrocarbon flow as it enters the production string. The significant function here is to delay gas and water influx and reduce gas and water influx on breakthrough
+
+
+Downhole Flowmeter
+
+
+The downhole flow meter enables a less intrusive flow monitoring of the producing zones. It may be equipped with at least a sensor designed to sense a parameter (e.g., pressure and temperature) related to fluid flow.
+
+
+Frac-Pack
+
+
+Due to the unconsolidated sands of the Reservoir XXXX, a frac-pack sand control method is used to improve the productivity of the producing zones over the life of the well. Frac-packing merges two distinct processes—hydraulic fracturing and gravel packing.
+
+
+Conclusion
+
+
+The optimum multilateral well completion proposed in this work satisfies the conceptual design requirements. These requirements include the casing preliminary and detailed designs and selecting the appropriate equipment needed to ensure efficient operation of the well. Hence, taking a digital approach in designing multilateral wells provides solutions to the problems earlier stated. The schematics obtained is a crucial parameter during the planning phase of constructing the well and can be followed through to the completion of the well, production, and re-entry operations. The Level 5 lateral junction type is selected for this well completion design to overcome wellbore collapse due to the unconsolidated sands of the reservoir.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgment
+
+
+We want to thank the management of CypherCrescent Limited for the support for this paper; granting the license to use the SEPAL and the permission to publish this paper. Finally, we also wish to thank Dolapo O., Lowell U., Diepreye Y., and Paul (IDSL) for their contribution, invaluable support, encouragement, corrections, and gentle guidance in the successful completion of this work.
+
+
+References
+
+
+Cooper, R. E., & Dowell, P. T. (1988). "An Overview of Horizontal Well Completion Technology." Paper presented at the International Meeting on Petroleum Engineering, Tianjin, China. doi:https://doi.org/10.2118/17582-MSGoogle Scholar Hogg, C. (1997). "Comparison of Multilateral Completion Scenarios and their Application". Paper presented at the SPE Offshore Europe, Aberdeen, United Kingdom. doi:https://doi.org/10.2118/38493-MSGoogle Scholar Bosworth, S., El-Sayad, H. S., & Ismail, G. (1998). Key Issues in Multilateral Technology. Schlumberger Oilfield Review.Google Scholar Umair, N. A. (2000). "The First Multilateral/Dual lateral well completion in Saudi Arabia". Paper presented at the IADC/SPE Asia Pacific Drilling Technology, Kuala Lumpur, Malaysia. doi:https://doi.org/10.2118/62771-MSGoogle Scholar Economides, M. J., Collins, D. R., HottmanW. E., & LongbottomJ. R. (2001). Horizontal, Multilateral, and Multibranch Wells in Petroleum Production Engineering.Google Scholar FraijaJ., OhmerH., & PulickT. (2002). New Aspect of Multilateral Well Construction. Schlumberger Oilfield ReviewGoogle Scholar Hill, A. D., Ding, Z., & Economides, M. J. (2008). Multilateral well. Society of Petroleum Engineers.Google Scholar Flatern, R. (2016). Multilateral Wells. Schlumberger Oilfield Review.Google Scholar Butler, B., Grossmann, A., Parlin, J., & SekhonC. (2017). Study of Multilateral-Well-Construction Reliability. SPE Drilling and Completion32(01): 42–50. doi:
+              https://doi.org/https://doi.org/10.2118/175437-PAGoogle ScholarCrossrefSearch ADS  Oluwadairo, K. (2018). Multilateral Well Modeling from Compartmentalized Reservoirs. Memorial University of Newfoundland St John's, Newfoundland & Labrador Canada. Faculty of Engineering and Applied Science. Department of Oil and Gas Engineering.Google Scholar Rivera, N., Spivey, J. P., & Sehbi, S. B. (2003). Multilateral, intelligent well completion benefits explored. Retrieved fromhttp://www.ogj.com/articles/print/volume-101/issue-15/drilling-production/multilateral-intelligent-well-completion-benefits-explored.htmlGoogle Scholar Garrouch, A. A., Lababidi, M. S., & EbrahimA. S. (2004). An Integrated Approach for The Planning and Completion of Horizontal and Multilateral Wells. Journal of Petroleum Science and Engineering44 (2004) 283–301Google ScholarCrossrefSearch ADS  ManojSarfare. (2004). Reservoir Studies of New Multilateral Well Architecture. Texas A&M University, Department of Petroleum Engineering.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211980-MS
+
+
+

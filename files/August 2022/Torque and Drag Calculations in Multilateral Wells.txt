@@ -1,0 +1,465 @@
+----- METADATA START -----
+Title: Torque and Drag Calculations in Multilateral Wells
+Authors: Darlington Etaje, Roman Shor, Reza Lashkari
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212027-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Multilateral drilling technology has advanced to the point that it is now feasible to explore and extract resources from previously unprofitable reservoirs. It may also help to enhance field development management by allowing for more efficient fluid flow from the formation. Despite its various benefits, a multilateral well has some drawbacks and requires a significant amount of technical work to optimize drilling parameters and depth and well trajectory rise. The most critical issues occur for a fish-bone lateral when the turns are formed for each lateral. The measurements of WOB are complex and may be inaccurate, leading to torque and drag values that are miscalculated or misread. Currently, the soft-string model and the intermittent contact due to drillstring stiffness are used in torque and drag models. But they also have some limitations, such as the neglection of dimensional changes in the string components when assuming clearance of contact and the inability to fully model the irregularity of the actual well path when assuming complete contact throughout the wellbore. The suggested model is unique in its capacity to estimate precisely anticipate drillstring-wellbore contact forces and solve torque and drag parameters from surface to total depth using a conditional alternating use of the assumption that there is continuous contact of the wellbore wall and the drill string while turning to each lateral and clearance between the drill string and wellbore-wall when drilling through straight sections. The model shows how well path design calculation is done for multilateral wells. A non-constant curvature trajectory is built into the model. The unique procedure for calculating torque and drag in multi-lateral wells is explained with several actual field data tests.
+
+
+
+
+Keywords:
+wellbore,
+string model,
+stiffness,
+radial clearance,
+drilling operation,
+assumption,
+reservoir,
+friction,
+upstream oil & gas,
+drillstring design
+
+
+Subjects: 
+Drillstring Design,
+Drilling Operations,
+Torque and drag analysis,
+Directional drilling
+
+
+
+
+Introduction
+
+
+Over the last century, advances in drilling technology and processes have made it feasible to drill multilateral wells, which are branching wells. Multilateral drilling is created after directional, sidetrack, and horizontal drilling. This technology field has progressed from being an emerging technology to one that currently allows for the commercial exploitation of previously uneconomic reserves. A successful multilateral well may considerably decrease reservoir development costs by digging numerous lateral wells in one borehole, expanding the oil-drainage area, and delivering more efficient fluid flow from the formation (Yanping, Rongquan, Hui, & Jun, 2009). Furthermore, multilateral wells may improve field development management and raise oil recovery rates (Mammadov, 2020). Such multilateral wells have shown significant promise for cost-effective field development (Manshad et al., 2019).
+
+
+Unique Calculations for Production in Multilateral Wells
+
+
+"Root wells" are multilateral wells with laterals dug from main vertical wellbores. Fishbone wells are multilateral wells with laterals dug out from main horizontal wellbores. Because all laterals (rib holes) share almost the same pressure in the main wellbore, predicting fishbone well production is straightforward (backbone hole). Because the pressures in the laterals might be substantially varied, and wellbore hydraulics plays a vital role, predicting root well productivity is more complex (Guo, Sun, & Ghalambor, 2014).
+
+
+Fishbone Wells:
+
+
+Figure 1View largeDownload slideSchematic of a reservoir segment with a fishbone well draining it (Guo et al., 2014).Figure 1View largeDownload slideSchematic of a reservoir segment with a fishbone well draining it (Guo et al., 2014). Close modal
+
+
+Before the rib holes start to interfere, the flow regime in a fishbone well might be pseudo linear. If the drainage area is significant compared to the drilled section of the reservoir, the radial flow may dominate later. Raghavan and Joshi (1993) proposed a mathematical model for predicting the productivity of root wells. The model employs an effective wellbore radius (horizontal radial flow) to simulate fluid flow to the horizontal drain holes. Retnanto and Economides (1996) proposed a straightforward definition of multilateral well productivity for pseudo-steady-state flow. To cover the whole drainage region, they combined a one-dimensional linear-flow model with a two-dimensional radial flow model to arrive at their formulation. In the same way that Raghavan and Joshi (1993) offered a mathematical model, Larsen (1996) proposed a mathematical model in which horizontal drain holes are mimicked by vertical wellbores situated at the midpoints of the well components. Within the reservoir, a pseudo-linear-radial-combined model assumes two regions: an inner drilled area and an outer non-drilled region. The model implies that pseudo-steady-state pseudo linear flow between the rib holes dominates the inner area, while pseudo-steady-state radial flow dominates the outside region (Guo et al., 2014). According to Furui et al. (2003), when you solve equations for production rates, you get:
+
+
+q=1(1JPL+1JR)(p¯−pwf)
+
+
+for oil reservoirs, and:
+
+
+q=1(1JPL+1JR)(p¯2−pwf2)
+
+
+for gas reservoirs, where:
+
+
+JPL=∑j=1n7.08×10−3kHLiμoBo{Ianiln[hIanirwi(Iani+1)]+πybih−Iani(1.224−si)}
+
+
+for oil reservoirs, and:
+
+
+JPL=∑j=1nkHLi1424μ¯gz¯T{Ianiln[hIanirwi(Iani+1)]+πybih−Iani(1.224−(si+Dq))}
+
+
+for gas reservoirs, and:
+
+
+JR=kHh141.2Boμo(12ln4AγCArPL2)
+
+
+for oil reservoirs, and:
+
+
+JR=kHh1424μ¯gz¯T(12ln4AγCArPL2)
+
+
+For gas reservoirs. The equivalent radius of the inner region may be estimated by:
+
+
+rPL=2(n+1)y¯bL¯π
+
+
+where yb and L are the average rib hole drainage distance and rib hole length, respectively. The drainage area shape factor CA may be computed based on the reservoir form and the position of the reservoir's inner region if the fishbone well is used to drain an entire reservoir with physical no-flow barriers. If the fishbone well is used to drain just a piece of a reservoir, the CA should be calculated using the drainage area's form, with the inner region in the middle. The drainage area's aspect ratio (length to width) may be calculated as follows:
+
+
+RA=(n+1)y¯b2L
+
+
+CA = 39.51-8.5214RA may estimate the shape factor. All of the equations above are deterministic. Therefore they may be used to forecast the actual well IPR. Different correlations that rely on the fluid type may be used to predict the tubing performance relationship of fishbone wells.
+
+
+Root Wells:
+
+
+A root well's bottom segment comprises many horizontal wells joined together. However, the productivity of a root well is not just the sum of the productivities of the different laterals due to pressure drops in the wellbore sections unless the inflow performance relationships of all the laterals are correctly integrated with knowledge of the wellbore hydraulics. A generalized root well construction is shown in Figure 2. The root well may be seen as a succession of well branches, each with three sections: vertical, curved, and horizontal. The symbols H, R, and L stand for the vertical length, the radius-of-curvature, and the horizontal length of the vertical, curved, and horizontal sections, respectively. Figure 3 illustrates the parameters used to characterize a root well. The notations K, h, and P represent permeability, thickness, and average pressure in the reservoir area drained by a lateral branch. The pressures at the heel and kick-out point are denoted by Pwf and Pkf, respectively. The symbols Phf and q represent wellhead pressure and well production rate. To anticipate the production of a root well with n roots, apply the following trial-and-error technique (Guo et al., 2014).
+
+
+Figure 2View largeDownload slideStructure of a simplified multilateral well (Guo et al., 2014).Figure 2View largeDownload slideStructure of a simplified multilateral well (Guo et al., 2014). Close modal
+
+
+Figure 3View largeDownload slideSymbols to describe a multilateral well (Guo et al., 2014).Figure 3View largeDownload slideSymbols to describe a multilateral well (Guo et al., 2014). Close modal
+
+
+At the given wellhead flowing pressure phf n, assume a value of the total well flow rate qt, and calculate the pressure at the kick-out point of lateral n and pkf n using the tubing performance relationship (TPR) function ℑn:
+
+
+
+
+
+Calculate the production rate by doing an inflow-outflow analysis for lateral n. Combine the TPR of the curved section with the IPR of the horizontal section by solving for qn using the two relations below:
+
+
+
+
+
+Where ℵn and ℜn are IPR, TPR (curved section) functions for the lateral n. Calculate the flowing pressure at the kick-out point of lateral n-1 and pkf n-1 using the TPR function of the vertical section with flow rate (qt-qn), that is:
+
+
+
+
+
+Perform an inflow-outflow analysis for lateral n-1 to calculate the production rate from that lateral. This is accomplished by combining the curved section's TPR and the horizontal section's IPR and then solving for qn-1 using the following two relations:
+
+
+
+
+
+Calculate the flowing pressure at the kick-out point of lateral n-2 and pkf n-2 using the TPR function of the vertical section with flow rate (qt-qn-qn-1) that is,
+
+
+Using the TPR function of the vertical section with flow rate (qt-qn-qn-1), calculate the flowing pressure at the kick-out point of lateral n-2 and pkf n-2.
+
+
+
+
+
+Calculate the production rate from lateral n-2 by doing an inflow-outflow analysis. Combine the TPR of the curved section with the IPR of the horizontal section by solving for qn- 2 from the two relations below:
+
+
+
+
+
+Steps 3 through 6 should be repeated until the lateral 1 (q1) flow rate is determined.
+
+
+Compare the computed total flow rate (q1 + q2 + … + qn) to the qt (assumed total flow rate). If the (q1 + q2 + … + qn) – qt exceeds the tolerance, use the value of (q1 + q2 + … + qn) as a new assumption for the total flow rate qt and repeat steps 1–6.
+
+
+Exit the loop if (q1 + q2 + … + qn) – qt is less than the set tolerance. Therefore, the qt is a projection of the root well's production rate. The Hagedorn-Brown correlation, discussed in Chapter 5, may be used to derive the tubing performance functions ℑ and ℜ for oil wells. Different IPR models may determine lateral inflow performance relationship function ℵ.. One of the challenges in estimating root well productivity is accounting for the mixed characteristics of fluids (oil, water, and gas) from all roots in hydraulics simulations for various wellbore sections. The mixing rule may be used at any point trial-and-error process (Guo et al., 2014).
+
+
+Multilateral Well Drilling Dynamics
+
+
+Drilling for oil, gas, and geothermal wells is a costly endeavour. Drilling operations often need specialized, expensive equipment and technology. Drilling complicated wells, such as HPHT and horizontals, necessitates the use of experienced workers. As a result, the operating firms want to finish and complete their wells with the least amount of NPT and the least amount of money. They must take the necessary measures and make the appropriate judgments before and during drilling. Torque and drag created in the wellbore during drilling are one of the variables that often cause NPT. Miscalculated and misconstrued values result in equipment and time losses, which have unfavourable outcomes. Many stiff string models have been devised. However, there is no industry standard formulation, making the model impracticable. (Çağlayan, 2014).
+
+
+Torque and Drag Calculations Used in The Industry
+
+
+Drilling these complicated wells demands precise planning to decrease drilling friction and achieve desired goals within set precision, whether to access reserves remote from current facilities or to expose reservoir portions for production and reservoir management benefits. These dangers include clogged pipes, worn drill strings, and tiredness. This goal will be met by using torque and drag (T&D) models to anticipate precise measurements of the drill string to borehole friction forces (Abughaban, 2017). During the well planning stage, a torque and drag model is often employed to check if the planned well route can be drilled and finished or not. It's also utilized to keep real-time track of torque and drag readings and take safeguards and preventive measures when such values exceed the permissible limits (Çağlayan, 2014). The industry requires easy-to-use instruments for torque and drag calculations so that field people can do accurate estimates quickly. It has been noticed that field employees lack a thorough understanding of torque and drag theory and cannot do rapid calculations to determine if the current drilling procedure is adhering to torque and drag limits. Furthermore, the results of torque and drag calculations performed throughout the well route design process may highlight potential hazards and help avoid issues from occurring. The well route may be constructed to reduce torque and drag issues while efficiently hitting desired target reservoirs. Finally, when performing unexpected operations or modifying the wellbore trajectory, the equipment required and drilling parameters that must be used may be determined in a realistic way utilizing the results of torque and drag calculations (Çağlayan, 2014).
+
+
+Benefits Of Accurate Torque and Drag Calculations
+
+
+Torque and drag caused by the contacts between the drill string and the borehole or casing are one of the most significant restrictions in hydrocarbon exploration, particularly during directional drilling. As a result, torque and drag analyses and calculations are critical for proper design to avoid equipment and financial losses. Optimizing drilling parameters to limit or eliminate torque and drag is crucial to preserve well conditions, avoid drill string failures, and minimize drilling costs. As a result, attention must be used to maintain torque and drag within acceptable levels. Lower torque and drag might benefit drilling operations, such as increased ROP and drilling interval. Torque and drag modelling is a valuable tool for well design, but it is also helpful in predicting and preventing drilling difficulties (Çağlayan, 2014).
+
+
+Difficulty of Torque and Drag in Multi-Laterals
+
+
+Lower torque and drag might benefit drilling operations, such as increased ROP and drilling interval. Torque and drag modelling is a valuable tool for well design, but it is also helpful in predicting and preventing drilling difficulties (Butler, Grossmann, Parlin, & Sekhon, 2017). Despite its numerous advantages, directional drilling has several drawbacks and requires a significant amount of technical effort since adjusting drilling parameters becomes more complex as the well grows more profound and the well trajectory changes. Torque and drag, caused by friction between the borehole and the drill string, are two of the most significant restrictions. Torque and drag created in the wellbore during drilling are one of the variables that often cause NPT. Equipment and time are lost due to miscalculated and misread values, which has unintended repercussions (Çağlayan, 2014).
+
+
+Step By Step Guide to Doing Torque and Drag Calculations in Multilateral Wells
+
+
+T&D models nowadays are either based on continuous drill string to wellbore contact (soft-string model) or intermittent contact owing to drill string stiffness (stiff-string model) (Abughaban, 2017). The original T&D researchers created rudimentary models; the idea was, presumably, to start simple and build complexity as needed. Because the whole drill string is considered to have negligible bending stiffness, these models are now known as "soft string." It's possible that early researchers were astonished by how well, or even that, such a simple model functioned. On the other hand, soft-string variants are the workhorse of today's business. Consider the drill string a weighted cable to visualize the underlying physics for soft-string models (Mason & Chen, 2007). The weighted cable's geometry completely matches the shape of the wellbore, ensuring that the drill string's inclination, azimuth, and curvature at each point along the wellbore are identical. Because of friction with the wellbore, drag is created by the axial movement of the drill string up or down. A force of magnitude equal to the coefficient of friction multiplied by the normal (or contact) force between the drill string and the wellbore determines resistance to drill string movement (Sheppard, Wick, & Burgess, 1987). Torque is generated by the drill string's circumferential, or rotary, movement against the wellbore, produced by friction. The critical issue is estimating the resistance to rotational motion and deciding on a moment arm radius. The torque radius was two-thirds of the distance between the pipe-body radius and the tool-joint radius (Johancsik, Friesen, & Dawson, 1984), and it was a valid assumption that tool joints carry two-thirds of the side load and the pipe body one-third. Others have used the tool-joint radius as the torque radius, probably based on the idea that tool joints carry the full sideload, or contact force, implying that the pipe body is not in touch with the wellbore. Because of these assumptions, the soft-string model cannot have radial clearance between the wellbore and any point along the drill string. On the other hand, one of the most significant advantages of these assumptions is that they eliminate a difficult problem: determining all contact sites between the drill string and the wellbore (Tikhonov et al., 2014).
+
+
+Every torque and drag model should consider drill string components, their weights, casing depths, formation types, frictional forces, drilling fluid density, and sound profile (inclination and azimuth) (Çağlayan, 2014).
+
+
+Soft String Model:
+
+
+The frictional force is calculated by multiplying the normal force between the wellbore and the drill string by the friction coefficient (Çağlayan, 2014).
+
+
+The normal force, Fn, the equation is shown in equation 1:
+
+
+ффFn=(FtΔфsinθ)2+(FtΔфWsinθ)2(1)
+
+
+where Ft is the tension force at the lower end of the string element. ∆ф is the change in azimuth angle over the string element. θ is the inclination at the lower end of the string element. W is the buoyed weight of the string element. After calculating the normal force, equations 2 and 3 are used to compute the change in tension and torque (Çağlayan, 2014):
+
+
+ΔT=Wcosθ±μFn(2)
+
+
+ΔM=μFnR(3)
+
+
+Where ∆T is the increment in tension across the string element. ∆M s the increment in torque across the string element. μ is the coefficient of friction between the string and wellbore. R is the radius of the string element. The Soft String Torque and Drag Models all assume the drill string consists of small pieces connected by connections that transfer torsion, tension, and compression but not bending moment. Starting at the bottom of the drill string and working upward to the surface, the fundamental equations of friction are applied to each segment. Each tiny period of drill string provides torque, drag, and weight increases. The cumulative loads on the string are calculated by adding forces and torque values. The weight on the bit and bit torque values for drilling operations are stated as initial conditions at the bit (Çağlayan, 2014).
+
+
+Stiff String Model:
+
+
+The bending stiffness does not contribute to the normal force in the curved portion, according to studies by (Ho, 1986), (McSpadden & Newman, 2002) and (Mitchell & Samuel, 2009) for wellbores with continuous curvature. The central notion is that a non-constant curvature trajectory (i.e., a spline) must be used to account for stiffness. The first and second derivatives of the well-path (non-zero first and second-order derivatives) exist. The assumption of a non-constant curvature trajectory (i.e., spline) in which the well-first path's and second derivatives (non-zero first and second-order derivative) exist would need complex advanced trajectory computations. Furthermore, assuming a stand-off between the pipe and the wellbore and calculating the pipe's deflection equation in the wellbore, then calculating the second and third derivatives of the deflection to obtain the bending moment and shearing forces, results in complicated differential equations with unknown boundary conditions that are difficult to determine. The following assumptions have been made in this model (Mirhaj, Kaarstad, & Aadnoy, 2016): It is unaffected by curvature.NORMAL force will be added to the force necessary to form the pipe along the wellbore. The bending moment produced at a bend produces this extra normal force. Increased friction force based on the Coulomb friction model will be estimated from the additional normal force.Because the model is for a constant curvature bend, it will generate a constant bending moment, and the corresponding normal force will be computed from this constant bending moment.At the bottom of the curved portion, where the curved and straight parts meet, all equal normal forces will be applied. This is a conservative assumption. Thus, the bending moment and corresponding normal force in the bend will be overestimated.At the straight and curved parts intersection, friction caused by corresponding normal force will be added to the 3D soft-string model.Even for constant curvature well-paths and continuous contact between the wellbore-wall and the pipe, this basic model will account for pipe stiffness.
+
+
+The diagram below depicts how the model will behave in a curve. The curved section is assumed to be fixed at one place, and a constant bending force, M, is applied at the support. The goal is to figure out how much more normal force is generated by the bending moment, M. One thing to remember is that the normal force F is perpendicular to the bent at each location, which is why a constant bending moment will be generated throughout the bend. As a result, the bending moment may be calculated assuming that the arm length is equal to the curve length (Figure 4) (Mirhaj et al., 2016).
+
+
+Figure 4View largeDownload slideA constant bending moment along the constant-curvature bend by a curved segment fixed at one end (Mirhaj et al., 2016).Figure 4View largeDownload slideA constant bending moment along the constant-curvature bend by a curved segment fixed at one end (Mirhaj et al., 2016). Close modal
+
+
+The fixed end (support-end) of the wellbore is regarded as the start of the bend, and the extra normal force is computed at the opposite end of the curved section as follows: We begin by calculating the bending moment as follows.
+
+
+ M=EIRM=Fstiff⋅L
+
+
+Substituting equation (1) into (2) will give:
+
+
+EIR=Fstiff⋅L⇒Fstiff=EI(R⋅L)
+
+
+Force Fstiff is the additional normal force due to pipe stiffness in the bend. This force also indicates the force needed to conform the string to the borehole's shape. The frictional force from F will now be estimated using equation (3) and the Coulomb friction model assumption:
+
+
+Q=μ⋅Fstiff
+
+
+The soft-string model was created in the shape of:
+
+
+F2=F1.eμ|θ1−θ|+βWΔL{sinα2−sinα1α2−α1}
+
+
+The stiff-string model has the same shape, except the F1 will be replaced by F*1 in which:
+
+
+F1*=F1+Q
+
+
+The general stiff-string axial load is equal to the sum of the available 3D soft-string axial load and the extra frictional force:
+
+
+F2*=F1*.eμ|θ1−θ|+βWΔL{sinα2−sinα1α2−α1}
+
+
+Identify The Difference in The Calculation Of Soft String and Stiff String Models
+
+
+The drill string is supposed to operate like a cable/chain in the soft-string model, with shearing forces and bending moments having a minimal contribution to regular forces and consequently friction. In many circumstances, this is a reasonable assumption. (Johancsik et al., 1984) created soft-string torque and drag modelling, which was eventually converted into a standard differential form (Sheppard et al., 1987). It has been widely utilized in industrial applications due to its simplicity and user-friendliness.
+
+
+The most crucial challenges limiting the drilling industry's ability to proceed beyond a given measured depth are wellbore friction, torque, and drag between the drill string and the wellbore wall. As a result, several experiments on torque and drag modelling have been conducted. Different methodologies have been employed in this respect, with the main distinction being how to integrate bending stiffness and shearing forces in T&D calculations. These approaches are (1) the effect of shear forces calculations with the assumption of continuous contact between the wellbore wall and the drill string as well as a constant curvature trajectory, (2) the effect of bending stiffness and shearing forces calculations with the assumption of clearance between the drill string and wellbore-wall, and (3) the effect of bending moment and shearing forces calculations with the assumption of continuous contact between the pipe and wellbore-wall and a non-constant curvature trajectory (i.e. spline type trajectories) (Mirhaj et al., 2016).
+
+
+Today's T&D models assume either continuous drill string to wellbore contact (soft-string model) or intermittent contact owing to drill string stiffness (intermittent contact model) (the stiff-string model). Because the wellbore trajectory is based on the least curvature approach, the bending parameter, change in the rate of curvature, and geometric torsion in the T&D equilibrium equations are all zero in both circumstances (MCM) (Abughaban, 2017). The Soft String Model is the most often used model in the business, while the Stiff String Model is challenging to implement and has no commercial formulation.
+
+
+Soft String Model:
+
+
+The Soft String Model was established by (Johancsik et al., 1984) as a model for directional wells that ignored tubular stiffness effects and assumed the drill string was made up of soft components with weight. Along the wellbore, the string is handled as a heavy cable, which means the wellbore supports contact forces, and the string supports torque forces and axial tension. The calculation of the friction coefficient is crucial for the practical uses of this model. (Mason & Chen, 2007) investigated the Soft String Model, which posits that the stresses on the drill string are only caused by gravity and frictional drag caused by the contact between the wellbore and the drill string. The most crucial assumption is that the drill string is in continuous contact with the wellbore from bottom to top, ignoring radial clearance effects and the bending moment in the Soft String Model (Çağlayan, 2014).
+
+
+Stiff String Model
+
+
+According to (Mason & Chen, 2007), a Stiff String Model should consider string bending stiffness and radial clearance between the drill string and the wellbore since some drill string segments are not in touch with the wellbore. Higher sidewall forces occur when stiff tubular is pushed around deviated parts, and lower sidewall forces occur as the pipe straightens. There will be changes in the contact area between the wellbore and a string component. A Stiff String Model must account for concentrated bending forces by drilling pipe couplings, stabilizers, and casing centralizers. A Stiff String Model is intended to be a more realistic method that accounts for stresses and pressures operating on the string and borehole wall. (Çağlayan, 2014). The following scenarios are deemed to be more relevant for stiff string models:
+
+
+Radial clearances are restricted in well designs.Well-designed trajectories with a lot of twists and turns.Paths with a high degree of dogleg severity (DLS).Stiff tubular casing is used to run the casing.
+
+
+A wide range of numerical approaches is required to produce a Stiff String Model, making it more difficult to solve than Soft String Models.
+
+
+Summary
+
+
+Soft string and stiff string mathematical models are the two kinds of mathematical models used in T&D software. The soft-string variant is the industry standard and is widely accessible. It is employed because of the algorithm's simplicity, the fact that it can be calculated quickly on even the most basic laptop computer, and the results are accurate enough for frequent drilling circumstances. Soft-string models have been replaced with stiff-string ones, which produce more accurate results. Soft-string models provide poor results when the tubular is stiff, the dogleg severity is severe (short radius of curvature), or the annulus has a limited radial clearance (Mason & Chen, 2007). All stiff-string models are not created equal. Some consider bending stiffness but not radial clearance, while others take into account both (Tikhonov et al., 2014).
+
+
+Avoiding Errors in Torque and Drag Calculations in Multilateral Wells
+
+
+Drilling and completing extended-reach and horizontal wells with 3D geometry are complicated by excessive torque and drag. Torque and drag modelling are essential tools for well design and predicting and preventing drilling issues. Because of the high friction, some wells may be bored but not finished. Because stiff-string models are more sophisticated than soft-string models, soft-string models should be used unless using such models creates significant mistakes in the computations.
+
+
+Shortcomings of Soft-String Models
+
+
+Because most of the drill string consists of a jointed drill pipe (or heavyweight drill pipe, for that matter) with considerably different outer diameters for the connection (tool joint) and the pipe body, it is challenging to provide radial clearance. It is simply not accurate to assume that the jointed drill pipe is in continuous contact over its whole length. A considerably more logical assumption would be that each drill string component's most oversized outer diameter is in connection with the wellbore, while the smaller-diameter components are not. The inability to predict radial clearance is irrelevant when calculating T&D using soft-string assumptions since the friction forces on the drill string are independent of the surface area in contact. Soft-string models, as previously stated, ignore bend stiffness, implying that there is no resistance to column buckling. Horizontal wells were not dug, at least not consistently, until soft-string models were invented in the early 1980s. Best practices for drill string design back then recommended keeping the neutral point in the drill collars so that the drill pipe was never run in compression on purpose. This procedure was created to ensure that drill pipe buckling was not possible. On the other hand, horizontal drilling became popular in the late 1980s and is now widely used. The introduction of horizontal drilling necessitated significant modifications in drill string design. Both heavyweight and standard drill pipes are now occasionally intentionally run-in compression. As a result, as a necessity for drilling horizontal wells, it is critical to foresee the beginning of buckling in drill pipes. However, the lack of radial clearance in soft-string T&D models is a significant stumbling block (Tikhonov et al., 2014).
+
+
+Stiff-String Models
+
+
+New and more complicated models were created to address the inadequacies of soft-string models. The stiff-string model is a broad category that encompasses all the other variants.
+
+
+Inclusion of Bending Stiffness
+
+
+Ho (1988) analyzed the flaws in the soft-string model and proposed an updated model that "combines a bottom hole assembly analysis in the stiff collar region, combined with an improved soft string model for the rest of the drill string." The bending stiffness of the drill string is included as an enhancement, but the drill string is still expected to remain in continuous contact with the well-bore (Ho 1988). Mitchell and Samuel (2007) investigated the conventional soft-string concept using an analytical approach like Ho's (1986, 1988). Mitchell (2008) improved the original soft-string model by using a spline model instead of the generally utilized minimum-curvature-interpolation approach for directional surveys. "Less than 0.10 second on a contemporary personal computer," according to the description. Spline interpolation is becoming more widely accepted in the industry as better representing the expected drill string arrangement than minimum curvature. Mitchell's spline model, on the other hand, assumed that the drill string matched the well-path curvature (using the enhanced spline well path), keeping it in constant contact with the wellbore. As a result, radial clearance, an essential component of a holistic stiff-string model, is not allowed in this model (Tikhonov et al., 2014).
+
+
+Preliminary Results of Torque and Drag Analysis for a Multilateral Well
+
+
+Consider a multilateral fishbone well with 2 laterals dug out on either side. This plan was derived from a horizontal program shown in the figure below. Some tweaks were made on the horizontal path with the same operations data to achieve several laterals.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+The tables below show measured depth, azimuth, and inclination progression.
+
+
+Table 1.0Lateral 1: Left Measured Depth (ft)
+            . Inclination
+            . Azimuth
+            . 10206.69 89.29 314.93 10225.46 89.64 314.92 10273.03 90.03 314.56 10500 90.03 314 11000 90.03 328 11200 90.03 333 11400 90.03 8 12000 90.03 8 18487 90.03 8 Measured Depth (ft)
+            . Inclination
+            . Azimuth
+            . 10206.69 89.29 314.93 10225.46 89.64 314.92 10273.03 90.03 314.56 10500 90.03 314 11000 90.03 328 11200 90.03 333 11400 90.03 8 12000 90.03 8 18487 90.03 8 View Large
+
+
+Table 2.0Lateral 1: Right Measured Depth (ft)
+            . Inclination
+            . Azimuth
+            . 10206.69 89.29 314.93 10225.46 89.64 314.92 10273.03 90.03 314.56 10500 90.03 314 11000 90.03 300 11200 90.03 295 11400 90.03 260 12000 90.03 260 18487 90.03 260 Measured Depth (ft)
+            . Inclination
+            . Azimuth
+            . 10206.69 89.29 314.93 10225.46 89.64 314.92 10273.03 90.03 314.56 10500 90.03 314 11000 90.03 300 11200 90.03 295 11400 90.03 260 12000 90.03 260 18487 90.03 260 View Large
+
+
+Table 3.0Lateral 2: Left Measured Depth (ft)
+            . Inclination
+            . Azimuth
+            . 10206.69 89.29 314.93 10225.46 89.64 314.92 10273.03 90.03 314.56 10500 90.03 314 11000 90.03 314 11500 90.03 328 11700 90.03 333 11900 90.03 8 12500 90.03 8 18487 90.03 8 Measured Depth (ft)
+            . Inclination
+            . Azimuth
+            . 10206.69 89.29 314.93 10225.46 89.64 314.92 10273.03 90.03 314.56 10500 90.03 314 11000 90.03 314 11500 90.03 328 11700 90.03 333 11900 90.03 8 12500 90.03 8 18487 90.03 8 View Large
+
+
+Table 4.0Lateral 2: Right Measured Depth (ft)
+            . Inclination
+            . Azimuth
+            . 10206.69 89.29 314.93 10225.46 89.64 314.92 10273.03 90.03 314.56 10500 90.03 314 11000 90.03 314 11500 90.03 300 11700 90.03 295 11900 90.03 260 12500 90.03 260 18487 90.03 260 Measured Depth (ft)
+            . Inclination
+            . Azimuth
+            . 10206.69 89.29 314.93 10225.46 89.64 314.92 10273.03 90.03 314.56 10500 90.03 314 11000 90.03 314 11500 90.03 300 11700 90.03 295 11900 90.03 260 12500 90.03 260 18487 90.03 260 View Large
+
+
+Here are the various well path plots
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+When run as a multilateral fishbone well, the plot is as below.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Here are the general formulas that apply to both the soft string model and stiff string model for torque and drag calculations
+
+
+TensionTop=TensionBottom+TensionChangeTorqueTop=TorqueBottom+TorqueChangeDrag=FrictionFactor*ForceNormalHooklandpull=HooklandStatic−DragpullHooklandSlack=HooklandStatic−DragSlack
+
+
+The next two figures show you the drag plots when the laterals are run as a stand alone drilling program.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+The key point to note here is how the slack off weight begin to reduce drastically as the hole turns into those lateral segments. One can really appreciate the sharp difference when the drag is computed for a horizontal well staying on approximately same azimuth: no major turns into laterals.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+The most important conclusion is that during those lateral turns, weight is lost in the pull up weight and weight is gained in the slack off weight. This could have very significant meaning for the decision-making team at the surface. The drilling team could be overestimating the slack off weight and potentially lead to tool damage. Next is to look at torque calculations for each of these laterals. This is shown in the plots below. A constant weight on bit of 30,000 lb and downhole torque of 12,100 was applied to the calculations.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+The interesting analogy is that the kinds of effects for drag differences between turning into laterals and staying on minimal azimuth changes do not exist for torque analysis. As shown below, the torque plot for the minimal azimuth changes in the lateral is quite like the plots above. The fact that rotation is ongoing, frees up any significant reductions or increases.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Conclusion
+
+
+Analyzing torque and drag for multilateral wells requires attention to pull-up weight and slack-off weight changes when the well path turns into the laterals. There could be significant increases and decreases in these values leading to poor pre-BHA planning. The recommendation would be to run simulations using offset well for all scenarios to be doubly sure of the predicted drag plots.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Abbreviations
+
+
+AbbreviationsAbbreviationExpansion TPRTubing performance relationship T&DTorque and drag MCMMinimum curvature method DLSDogleg severity (°/30 m) IPRInflow Performance Relationship TPRTubing performance relationship
+
+
+Symbols
+
+
+SymbolsAbbreviationExpansion qgGas production rate Mscf/d JPLInner ragion productivity index (Mscf/d-psi2) JRReservoir productivity index (Mscf/d-psi2) P¯Reservoir pressure (Psi) Pwfpressures at heel point (Psi) KHEffective horizontal permeability (md) µoOil viscosity (cp) BoOil formation volume factor (rb/stb) hPay zone thickness (ft) Ianianisotropy index SAverage rib hole skin factor μμ¯gGas viscosity (cp) Z¯Average gas compressibility factor TTemperature in °R rwAverage rib hole radius (ft) Dnon-Darcy flow coefficient qLiquid flow rate (bbl/d) AWell drainage area (acres) γthe specific gravity of the liquid relative to water CADrainage area shape factor rPLThe equivalent radius of the inner region (ft) L¯Rib hole length (ft) y¯baverage rib hole drainage distance (ft) nNumber of rib holes PkfPressures at kick-out point PPLAverage pressure at the edge of the inner region (Psi) Phfwellhead pressure (Psi) ℑTubing performance relationship function qtTotal well flow rate ℵnIPR function for the lateral n ℜnTPR function for the lateral n FnNormal force (lbf) FtTension force at the lower end of the string element (lbf) WBuoyed weight of the string element (lbf) RRadius of the string element (ft) µCoefficient of Friction MBending moment (N.m) EYoung Modulus of Elasticity (Pa) IMoment of Inertia (M4) FstiffAdditional normal force due to pipe stiffness in the bend (N) LCritical survey distance (m) αInclination angle (degree) βAzimuth (degree) WUnit weight of the pipe (Kg/m) F1Axial force at the beginning of the curved section (N) F2Axial force at the end of the curved section (N) F1*Axial force (drag) at the beginning of curved section with taking pipe stiffness into account (N) F2*Axial force (drag) at the end of curved section with taking pipe stiffness into account (N)
+
+
+Greek letters
+
+
+Greek lettersAbbreviationExpansion ∆φChange in azimuth angle over the string element (degree) θInclination at the lower end of the string element (degree) ∆TIncrement in tension across the string element ∆MIncrement in torque across the string element ∆LPipe incremental length (m)
+
+
+References
+
+
+Abughaban, M. (2017). Extending the reach of drilling: better wellbore trajectory and torque & drag models: Colorado School of Mines.Google Scholar Butler, B., Grossmann, A., Parlin, J., & Sekhon, C. (2017). Study of multilateral-well-construction reliability. SPE Drilling & Completion, 32(01), 42–50. doi:https://doi.org/10.2118/175437-PAGoogle ScholarCrossrefSearch ADS  Çaglayan, B. K. (2014). Torque and Drag Applications for Deviated and Horizontal wells: A case study.Google Scholar Guo, B., Sun, K., & Ghalambor, A. (2014). Well productivity handbook: Elsevier.Google Scholar Ho, H.-S. (1986). General Formulation of Drillstring under large deformation and its use in BHA analysis. Paper presented at the SPE Annual technical conference and exhibition.Google Scholar Johancsik, C., Friesen, D., & Dawson, R. (1984). Torque and drag in directional wells-prediction and measurement. Journal of petroleum technology, 36(06), 987–992.Google ScholarCrossrefSearch ADS  McSpadden, A., & Newman, K. (2002). Development of a stiff-string forces model for coiled tubing. Paper presented at the SPE/ICoTA Coiled Tubing Conference and Exhibition.Google Scholar Mirhaj, S., Kaarstad, E., & Aadnoy, B. (2016). Torque and drag modelling; soft-string versus stiff-string models. Paper presented at the SPE/IADC Middle East Drilling Technology Conference and Exhibition.Google Scholar Mitchell, R. F., & Samuel, R. (2009). How good is the torque/drag model?SPE Drilling & Completion, 24(01), 62–71.Google ScholarCrossrefSearch ADS  Sheppard, M., Wick, C., & Burgess, T. (1987). Designing well paths to reduce drag and torque. SPE Drilling Engineering, 2(04), 344–350.Google ScholarCrossrefSearch ADS  Tikhonov, V., Valiullin, K., Nurgaleev, A., Ring, L., Gandikota, R., Chaguine, P., & Cheatham, C. (2014). A dynamic model for stiff-string torque and drag. SPE Drilling & Completion, 29(03), 279–294.Google ScholarCrossrefSearch ADS  Mammadov, S. (2020). Selection of Technologies for Multilateral Wells' Completion in the Achimov Formations of Yamburg Field.The University of Leoben.Google Scholar Manshad, A. K., Dastgerdi, M. E., Ali, J. A., Mafakheri, N., Keshavarz, A., Iglauer, S., & Mohammadi, A. H. (2019). Economic and productivity evaluation of different horizontal drilling scenarios: Middle East oil fields as case study. Journal of Petroleum Exploration and Production Technology, 9(4), 2449–2460. doi:https://doi.org/10.1007/s13202-019-0687-9Google Scholar Mason, C., & Chen, D. C. (2007). Step changes needed to modernize T&D software. Paper presented at the SPE/IADC Drilling Conference.Google Scholar Yanping, Z., Rongquan, R., Hui, W., & Jun, W. (2009). Multilateral drilling & completion technology based on a Solid Expandable Tubular fixing system. Petroleum Exploration and Development, 36(6), 768–775. DOI:https://doi.org/10.1016/S1876-3804(10)60008-0Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212027-MS
+
+
+

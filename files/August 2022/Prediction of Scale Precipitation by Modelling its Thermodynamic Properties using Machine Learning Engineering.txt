@@ -1,0 +1,285 @@
+----- METADATA START -----
+Title: Prediction of Scale Precipitation by Modelling its Thermodynamic Properties using Machine Learning Engineering
+Authors: Joy Chiekumali Ugoyah, Joseph Atubokiki Ajienka, Virtue Urunwo Wachikwu-Elechi, Sunday Sunday Ikiensikimama
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212010-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+During oil and gas production, scaling is a flow assurance problem commonly experienced in most regions. For scale control to be effective and less expensive, accurate prediction of scaling immediately deposition commences is important. This paper provides a model for the prediction of Barium Sulphate (BaSO4) and Calcium Carbonate (CaCO3) oilfield scales built using machine learning. Thermodynamic and compositional properties including temperature, pressure, PH, CO2 mole fraction, Total Dissolved Solids (TDS), and ion compositions of water samples from wells where BaSO4 and CaCO3 scales were observed are analysed and used to train the machine learning model. The results of the modelling indicate that the Decision tree model that had an accuracy of 0.91 value using Area Under Curve (AUC) score, performed better in predicting scale precipitation in the wells than the other Decision tree models that had AUC scores of 0.88 and 0.87. The model can guide early prediction and control of scaling during oil and gas production operations.
+
+
+
+
+Keywords:
+remediation of hydrates,
+asphaltene remediation,
+asphaltene inhibition,
+decision tree learning,
+oilfield chemistry,
+upstream oil & gas,
+hydrate inhibition,
+hydrate remediation,
+scale inhibition,
+wax inhibition
+
+
+Subjects: 
+Production Chemistry, Metallurgy and Biology,
+Information Management and Systems,
+Inhibition and remediation of hydrates, scale, paraffin / wax and asphaltene,
+Artificial intelligence
+
+
+
+
+Introduction
+
+
+Scaling is a flow assurance problem that results from the precipitation of the chemicals dissolved in the formation water and/or injection water during oil and gas production (Nassivera et al., 1979). These inorganic deposits are of different types (differentiated by their compositions), some of the most common scales that occur in the oilfield include CaCO3, CaSO4, BaSO4 (very low solubility, and most problematic), SrSO4, ZnS, PbS, etc. (Nwonodi, 1999). Scale deposition on equipment and facilities results in a decline in production rate and also leads to extra costs due to the replacement of affected equipment; scale removal can be very expensive (Akuanyionwu & Wahid, 2011). Avoiding all extra costs related to scaling is a bit unrealistic. However, costs can be minimized through accurate risk analysis and a focus on scale prevention rather than its removal – a proactive approach. Prediction of scaling can make a scale control program more cost-effective by highlighting facilities where scale will be deposited or not, thereby promoting proper channelling of control efforts (Akuanyionwu & Wahid, 2011).
+
+
+The most common methods of scale control in the industry today are scale inhibitors; these are chemical compounds that are capable of retarding or stopping the formation of scale in over-saturated brine solutions (Mpelwa et al., 2019). Several non-chemical techniques have also been proposed and patented for scale remediation (Hartwig et al., 2014, Heath et al., 2018). Some of these scale control techniques inhibit scale deposition while others remove already deposited scale. In 2007, Vazquez showed in his research that BP had estimated 18% of their well downtime between 1999 and 2003 to be scale-related. This highlights the need for early scale precipitation prediction and control to avoid production downtime due to scale deposition and the process of removal. The objective of Chilingar et al. (2008) was to examine several methods of predicting scale formation. These methods depended mostly on the type of precipitant and the nature of the chemical reactions involved. These methods were computationally complex and based on assumptions that may not be applicable in real-life situations. The limitation to most of the researches that were examined lie in the degree of accuracy, the types of scale formation that can be predicted, and the complexity of the prediction process.
+
+
+Changes in the physical and chemical properties of water such as temperature, pressure, PH, and composition solubility lead to scale formation (Yousuf et al., 2017). When incompatible water like sulphur-rich seawater is injected into the reservoir for pressure maintenance, Ba2+, and Sr2+ combine with S2- present in the reservoir to form barium sulphate and strontium sulphate scales. CaCO3 scale is generally precipitated by a process known as self-scaling where CO2 is lost from the hydrocarbon phase(s) into the water as pressure drops (Dyer & Graham, 2002). This is why in predicting scale formation, it is important to examine the concentration of dissolved gases in the hydrocarbon and scaling ion. Sorbie and Mackay (2000) highlighted Ca2+, Ba2+, and Sr2+ as scaling cations often encountered in oil-bearing formations.
+
+
+Ramstad et al., (2020) studied Calcium carbonate (CaCO3) scale formation risk and defined critical saturation ratio as a parameter that could be used to determine scaling tendency. The critical saturation ratio was calculated by determining the relationships between the thermodynamic and kinetic properties of the reservoir and its fluids. Thermodynamic changes experienced in the reservoir and production system during production change the equilibrium condition of the water and calcite in the system and this causes CaCO3 to be precipitated. Saturation ratio is used to quantify the saturation of ions in an aqueous solution; it is calculated with the following equation:
+
+
+ααSR=αCa2+αCO2−Ksp (CaCO3)(1)
+
+
+Where:
+
+
+SR is the saturation ratio.
+
+
+If SR < 1, the system is undersaturated, hence no precipitation.
+
+
+If SR = 1, the system is saturated, and at equilibrium.
+
+
+If SR > 1, the system is supersaturated and precipitation may occur depending on kinetics.
+
+
+CaCO3 - Calcium Carbonate
+
+
+αCa2+ - activity of coefficient of Ca2+ ion
+
+
+αCO2- - activity of coefficient CO32− ions
+
+
+CO2 mole frac – CO2 mole fraction, dimensionless
+
+
+Ca2+ – calcium ion centration measured in parts per million, (ppm)
+
+
+Ksp-thermodynamic solubility product of calcite
+
+
+The parameters inputted into the thermodynamic calculations are fluid compositions, production rates, temperature, and pressure profiles. The risk of carbonate scaling is generally higher at high temperatures. This is because the solubility of CaCO3 is lower at high temperatures and possible evaporation of water is more likely to increase the concentration of the ions in the solution (Ma et al., 2010). Ramsted et al. (2020) correlated their calculations with field data observed on the Oseberg field in the North Sea, which was produced from oil and gas-condensate wells at various reservoir temperatures (98-128°C). Using saturation ratio to predict scale formation is a complex method that restricts scale prediction to certain temperature ranges and has certain assumptions that are not always true. In this era of big data, machine learning and artificial intelligence have gained a lot of attention as new technologies with very wide potential. Solutions created using machine learning have been applied successfully in diverse fields ranging from Pattern Recognition, Computer Vision, Risk Assessment, Spacecraft Engineering, Finance, social media, Entertainment, Computational Biology to Biomedical and Medical Applications (El Naqa & Murphy, 2015). Using machine learning to predict scale formation eliminates the complexity of determining a saturation ratio by simply making predictions based on past instances of scale formation from recorded data of the thermodynamic and compositional properties of water samples. No assumptions are involved, the computer program simply learns the pattern that lies within the data.
+
+
+The sequential programming approach applied in Atkinson et al. (1991) to predict the quantity of scale formed for the different types of scale considered the effect of temperature and pressure on solubility using classical thermodynamics. The activity coefficients needed were calculated with a modified Pitzer formalism. The program considered all of the possible scales simultaneously. The equation used in the program bears the burden of having complex assumptions and heuristics unlike with the machine learning model where no assumptions are required, instead, the model will be allowed to learn the pattern in the data. Saidoun et al., (2016) used the scale software, ScaleSoftPitzer (SSP2014) to predict the formation of ZnS and PbS scaling risk. SSP has been commonly used for the prediction of carbonate, sulphate, and halide scales. But using it for the prediction of sulphide scales is uncommon. Their simulation results showed that SSP underestimated the saturation ratio for the two sulphide scales within the range of 25°C - 300°C, the machine learning model in this research was able to correctly classify scaling in all temperature ranges.
+
+
+This research work focuses on the prediction of scale precipitation by modelling the thermodynamic properties of CaCO3 and BaSO4 scales using machine learning engineering through data analysis. Depending on the outcome predicted, the type of machine learning algorithm to be used is selected. When a continuous variable is to be predicted, it is a regression problem. From the results gotten in other related researches, the classification of outcomes in this research will be in two categories that is, either scale will be formed or not. This indicates that it is a classification problem. This study seeks to build a model that can enable engineers to determine candidates for scale inhibition accurately.
+
+
+Methodology
+
+
+In this section, the process of analysing a large data set containing thermodynamic properties recorded from different wells, and building machine learning models for predicting scale formation in the wells is reported. The model built is written in Python programming language, software tools used in this research include Google Colab, Scikit Learn library, Numpy, Pandas, Matplotlib. Datawig, and Seaborn.
+
+
+Procedure for the Machine Learning Model Building
+
+
+Data Acquisition
+
+
+The data used for model building in this research was collected from the following secondary data sources: Nwonodi (1999), and Al-hajri et al. (2020). It includes measured properties from wells in different fields in the Niger Delta and the Danish sector of the North Sea. The data set contains thermodynamic and compositional information about different wells and also shows the result of the inspection of wells for scale or no scale. The data set has 17 variables with 541 total data points (instances), with (541, 17) as its vector shape. It has the following parameters:
+
+
+Prediction Features: The thermodynamic and chemical properties used for prediction are shown in Table 2.1.Prediction Target: Inspection Result: scale (replaced in the program with 1) and no scale (replaced in the program with 0)Variables not used for prediction: This includesWell no: Indicating the well the data was read from. One well can appear multiple times because the data was measured at different times in the life of the well.Scale TypeThe type of scale observed in wells in the same field. Most of the data were collected from a carbonate formation therefore CaCO3 is the mode. It is very imbalanced with a ratio of 107:1. This would have given the false information of CaCO3 having a greater effect on scale formation in opposition to BaSO4 with only a few data points to the model. A data set with robust information across different scale types can have the additional benefit of predicting the type of scale that would precipitate in a well.
+
+
+Table 2.1The thermodynamic and chemical properties used for prediction 
+            . Properties
+            . Effect on Scale Deposition
+            . 1. Temperature (°F) The risk of carbonate scaling is generally higher at high temperature. This is because the solubility of CaCO3 is lower at high temperatures and possible evaporation of water is more likely to increase the concentration of the ions in the solution (Ma et al., 2010). 2. Pressure (Psia) Pressure drop experienced in the reservoir and production system during production changes the equilibrium condition of the water and chemical compounds in the system and this causes scale to be precipitated (Ramstad et al., 2020). 3. Carbon dioxide mole fraction (CO2) (dimensionless) CaCO3 scale is generally precipitated by a process known as self-scaling where CO2 is lost from the hydrocarbon phase(s) into the water as pressure drops (Dyer and Graham 2002). 4. PH (Dimensionless) Impacts the solubility of chemical compounds that form scale (Mackay and Graham, 2003). 5. Calcium ion (Ca2+, ppm) A scaling ion that combines with anions like CO32-to form scale. 6. Sodium ion (Na+, ppm) Cation present in the system that can combine with a suitable ion to form scale. 7. Magnesium ion (Mg2+, ppm) Cation present in the system that can combine with a suitable ion to form scale. 8. Iron ion (Fe2+, ppm) Cation present in the system that can combine with a suitable ion to form scale. 9. Bicarbonate ion (HCO3-, ppm) Anion that combines with cations present in the system to precipitate scale. 10. Sulphate ion (SO42-, ppm) This scaling ion can combine with cations present in the formation water to form sulphate scales (Mackay and Graham, 2003). 11. Chlorine ion (Cl-, ppm) Anion that combines with cations present in the system to precipitate scale. 12. Carbonate (CO32-, ppm) Anion that combines with cations present in the system to precipitate scale. 13. Barium ion (Ba2+, ppm) Ba2+ combines with ions like SO42- to form barium sulphate scales. 14. Total Dissolved Solids (TDS, ppm) TDS influences the quantity of ions available for scale formation. 
+            . Properties
+            . Effect on Scale Deposition
+            . 1. Temperature (°F) The risk of carbonate scaling is generally higher at high temperature. This is because the solubility of CaCO3 is lower at high temperatures and possible evaporation of water is more likely to increase the concentration of the ions in the solution (Ma et al., 2010). 2. Pressure (Psia) Pressure drop experienced in the reservoir and production system during production changes the equilibrium condition of the water and chemical compounds in the system and this causes scale to be precipitated (Ramstad et al., 2020). 3. Carbon dioxide mole fraction (CO2) (dimensionless) CaCO3 scale is generally precipitated by a process known as self-scaling where CO2 is lost from the hydrocarbon phase(s) into the water as pressure drops (Dyer and Graham 2002). 4. PH (Dimensionless) Impacts the solubility of chemical compounds that form scale (Mackay and Graham, 2003). 5. Calcium ion (Ca2+, ppm) A scaling ion that combines with anions like CO32-to form scale. 6. Sodium ion (Na+, ppm) Cation present in the system that can combine with a suitable ion to form scale. 7. Magnesium ion (Mg2+, ppm) Cation present in the system that can combine with a suitable ion to form scale. 8. Iron ion (Fe2+, ppm) Cation present in the system that can combine with a suitable ion to form scale. 9. Bicarbonate ion (HCO3-, ppm) Anion that combines with cations present in the system to precipitate scale. 10. Sulphate ion (SO42-, ppm) This scaling ion can combine with cations present in the formation water to form sulphate scales (Mackay and Graham, 2003). 11. Chlorine ion (Cl-, ppm) Anion that combines with cations present in the system to precipitate scale. 12. Carbonate (CO32-, ppm) Anion that combines with cations present in the system to precipitate scale. 13. Barium ion (Ba2+, ppm) Ba2+ combines with ions like SO42- to form barium sulphate scales. 14. Total Dissolved Solids (TDS, ppm) TDS influences the quantity of ions available for scale formation. View Large
+
+
+The dataset contains a lot of missing values; this is a result of incomplete information as the data was collected from multiple sources. One data set source had some important parameters that the second lacked and vice versa. Since all the available parameters were established as important for prediction, the 2 data sources were utilized.
+
+
+Handling Null Values
+
+
+The model contains missing values referred to as null instances for the following variables: Temperature (°F), Pressure (Psia), carbon dioxide (CO2) mole fraction (dimensionless), PH (Dimensionless), Sodium ion (Na+, ppm), Magnesium ion (Mg2+, ppm), Iron ion (Fe2+, ppm), Sulphate ion (SO42-, ppm), Carbonate (CO32-, ppm), Total Dissolved Solids (TDS, ppm) and Scale Type. Null values are symbolized as ‘NaN’ in the data set and program. Scikit Learn algorithms cannot build machine learning models on data sets with missing values, so the null instances were statistically handled using 3 different methods:
+
+
+Replace null values of each variable with the arithmetic mean of the parameter distribution.Datawig SimpleImputer method: The SimpleImputer method is an algorithm that trains on the data set with missing values and creates a new column for the imputed missing values of each variable.The missing values were replaced with zero.
+
+
+Using these 3 methods, 3 control data sets were created and their performances on the training algorithms were compared.
+
+
+Data splitting:
+
+
+All data sets were split into 2 parts: one part for training the machine learning algorithms to learn to classify scaling, called the training set, and the other part for testing the machine learning model's prediction performance after the training, called the test set. The data will be split arbitrarily in the ratio of 8:2 for training and testing respectively. The purpose of splitting the data is to have some part of the data set kept aside so that the machine learning model can be used for predicting the outcome of unseen data (data the model has not seen before). A machine learning model cannot be tested on the data it was trained on, that would mislead the programmer into thinking the model is making correct predictions. The split ratio chosen allows the training set to be large enough for proper model training while setting aside a little amount of the data for testing.
+
+
+Training set: 433 instances
+
+
+Test set: 108 instances
+
+
+The training data was used for model building, while the test set was used for model testing and validation. Machine learning models need to be tested on data they did not learn from during training to verify the accuracy of predictions.
+
+
+Model building: Train algorithms
+
+
+For this study, three (3) algorithms were trained on 3 different data sets, producing a total of nine (9) different models. The model performances were evaluated and the best performing model was selected. The prediction problem is a binary classification problem; the algorithms trained on the data to create the machine learning models include the following classification algorithms from the Scikit Learn library: Logistic Regression, Support Vector Classifier (SVC), and Decision Tree Classifier.
+
+
+After training, predictions of scaling were made and were compared to the observed result. The model testing was done on the test set.
+
+
+Model Performance Evaluation
+
+
+Before any machine learning model is taken to production, the performance of the model needs to be evaluated. Machine learning model performance evaluation aims at evaluating the generalization accuracy of a model. Different types of machine learning algorithms have several evaluation metrics that can evaluate the performance of models based on different principles. The classification algorithms used in this research were evaluated using the Receiver Operating Characteristic curve (ROC curve), and the Area Under a ROC curve (AUC score). These metrics evaluated the models and compared the performance of the different models in determining how correctly they classify the occurrence of scale formation; we will refer to scale (1) as the positive outcome and no scale (0) as the negative outcome. The ROC curve is a plot of the True Positive Rate (Recall) on the vertical axis and the False-negative rate on the horizontal axis. In this study, a high True Positive Rate, where the model highly predicts the occurrence of scale achieves the aim of proactively eliminating the occurrence of scale deposition, and a model that correctly predicts the negative outcome will help to prevent wastage of resources in circumstances where they are not needed. The ROC curve and AUC score were chosen to evaluate the models built in this research for two major reasons:
+
+
+Relevance of the research problem: Correctly predicted scale appearance enables fast proactive response which saves cost. If no-scale situations are falsely classified as scale, the company's resources are wasted. Falsely classified scale appearances that eventually occur can be quite costly.Data imbalance: The ROC curve evaluation metric gives the rates as fractions that are not affected by the population size for the different outcomes. The data set used for model building in this research which has more positive outcomes than negative outcomes will be evaluated unbiased using this metric.
+
+
+2.5.1 ROC curve: Receiver Operating Characteristic curve is a plot of the model's ‘Recall’ versus the model's ‘False Positive Rate’. This metric indicates the probability of the model classifying a proportion of positive values correctly and classifying also a proportion of negative values correctly.
+
+
+2.5.2 ROC_AUC score: the Area Under a ROC curve is calculated for a model, the axes are both probabilities so the maximum value is 1×1=1. A model with 0.5 as its AUC score is a random performing model, it gives the right or wrong answers at random. The closer the AUC score is to 1, the better the model's performance and generalization with future data.
+
+
+Results and Discussion
+
+
+The performances of the 3 algorithms trained on the 3 different data sets are shown in Table 3.1.
+
+
+Table 3.1Evaluation of model performances Data set
+            . SVM model AUC score
+            . Logistic Regression model AUC score
+            . Decision Tree model AUC score
+            . Missing values replaced with average 0.81 0.85 0.91 Missing values replaced using SimpleImputer 0.78 0.78 0.88 Missing values replaced with 0 0.19 0.70 0.87 Data set
+            . SVM model AUC score
+            . Logistic Regression model AUC score
+            . Decision Tree model AUC score
+            . Missing values replaced with average 0.81 0.85 0.91 Missing values replaced using SimpleImputer 0.78 0.78 0.88 Missing values replaced with 0 0.19 0.70 0.87 View Large
+
+
+The AUC score of a model shows the probability of a model to correctly predict both the positive and negative classification outcomes. The three algorithms trained on the data are the Support Vector Machine (SVM) algorithm, Logistic Regression Algorithm, and Decision Tree algorithm. The algorithms were trained on three (3) variations of the data set varying based on how the missing values were handled: Missing values replaced with average, Missing values replaced using SimpleImputer, and Missing values replaced with zero. The values in Table 3.1 show the AUC scores of the nine (9) models in total built. The SVM models have the least AUC scores in the table and perform poorest in predicting scale formation. It can also be observed that the data set where missing values were replaced with zero has the least performing models with the lowest AUC score of 0.19 for the SVM model trained on it; this is in contrast with the data set where missing values were replaced with average as it has the highest performing models. The Decision tree model with the highest AUC score of 0.91 shows that pressure, temperature, and water composition are properties suitable for the prediction of scaling in oil and gas wells; it also shows that machine learning is a suitable technique for this prediction, this is in agreement with Al-hajri et al. (2020) where the compositions of water produced during oil and gas production were used to build a high performing machine learning model.
+
+
+The AUC score is not enough to decide on the best model for the problem. For instance, the SVM model and the Logistic Regression model both built on the SimpleImputer data set in Table 3.1 have the same performance score of 0.78. Sometimes models with higher AUC scores may not appropriately meet the objective of the model (https://www.scikit-yb.org/en/latest/api/classifier/rocauc.html). For this reason, the performance of the nine different models in predicting scale formation on unseen data is plotted on the ROC curve in Figure 3.1.
+
+
+Figure 3.1View largeDownload slideROC curve (Source: Author, 2022)Figure 3.1View largeDownload slideROC curve (Source: Author, 2022) Close modal
+
+
+The ROC curve is a plot of the True Positive Rate (Recall) on the vertical axis and the False-negative rate on the horizontal axis. In this study, a high True Positive Rate, where the model has high success in predicting the occurrence of scale achieves the aim of proactively eliminating the occurrence of scale deposition, while a low False Negative Rate where the model predicts less of the negative outcome (no scale) incorrectly achieves the aim of minimizing wastage of scale inhibition resources from false scale deposition predictions. A high True Positive Rate would be a point in the upper region of the graph, and a low False Negative Rate would be a point found on the left side of the graph, for this reason, the curve nearest to the top left corner of the graph is desirable.
+
+
+The Decision Tree models have higher performances in table 3.1 and are also closer to the left corner in figure 3.1. But the Decision Tree model built with the data set where the missing values were replaced with average has the highest AUC score of 0.91 and is also closest to the top left corner of the ROC curve; this is our chosen model. It shows that the best method for replacing missing values in our data set is to replace them with the average values of the parameters; this is in line with the methods listed for handling missing values in a data set in Enders (2010).
+
+
+A sample of the model prediction result for the chosen decision tree model is compared to the Inspection Results in Table 3.2. All predictions in the sample correspond to the actual inspection values.
+
+
+Table 3.2Model prediction result vs. observed data Inspection Result
+            . Decision Tree model prediction
+            . 1 1.0 0 0.0 1 1.0 1 1.0 1 1.0 1 1.0 1 1.0 0 0.0 1 1.0 1 1.0 Inspection Result
+            . Decision Tree model prediction
+            . 1 1.0 0 0.0 1 1.0 1 1.0 1 1.0 1 1.0 1 1.0 0 0.0 1 1.0 1 1.0 View Large
+
+
+Table 3.2 shows a sample of the predictions made using the Decision Tree model on the test data (data unseen by the model during training) compared to the Inspection Results recorded for those data points. Where 1 is scale and 0 is no scale, the predictions all match with the recorded Inspection results showing that the model is truly able to correctly predict scale deposition. Table 3.2 shows that the predictions of the model are true when compared to the results recorded from the oilfield.
+
+
+Figure 3.2 compares the machine learning model's predicted values to Nwonodi's (1999) scaling index values. When the predictions from the model built were correlated with the predictions of scaling index, a regression, r2 value of 0.8017 was achieved from the cross plot fitted using a 3rd-degree polynomial line as seen in Figure 3.2. The two models are correlated with an r² value of 0.8017, and therefore have similar outcomes for the prediction of scaling.
+
+
+Figure 3.2View largeDownload slideCross plot of the Decision tree model against Nwonodi (1999) model (source: author, 2022)Figure 3.2View largeDownload slideCross plot of the Decision tree model against Nwonodi (1999) model (source: author, 2022) Close modal
+
+
+The machine learning model predicts scaling as 1 and no scale as 0, while Nwonodi's model axis shows the scaling index values where a positive scaling index indicates scale and a negative scaling index no scale. The graph shows that the decision tree model predicts all positive scaling index values as 1 except for the scaling index value of 0.12, the decision tree model also predicts all negative scaling index values as 0. This means that the model's classification of scale and no scale agrees with Nwonodi (1999). The graph can be used to correlate scaling index values to the machine learning model's prediction.
+
+
+Using the line equation of the graph in Figure 3.2, scaling index values can be converted to the machine learning model prediction.
+
+
+Prediction=−15.352S4−8.3125S3+4.9922S2+2.552S+0.1736(2)
+
+
+Where:
+
+
+S = Scaling Index (Dimensionless)
+
+
+Prediction = Machine Learning model prediction (Dimensionless)
+
+
+Conclusion
+
+
+This study experimented the use of machine learning programming techniques to predict scale deposition in oilfield wells. The data set in the study consists of temperature, pressure, PH, Total Dissolved Solid (TDS), and the chemical compositions of water samples recorded from producing wells. The data set used for modelling was found to have missing values; the missing values had to be imputed before it could be used for model building. The missing values were imputed using three different methods. Three different algorithms were trained on the data sets to ascertain the best algorithm suitable for model building. The three algorithms used in this study include the Logistic Regression algorithm, Support Vector Machine (SVM) algorithm, and Decision Tree Algorithm. The models built in the study were evaluated using the Receiver Operating Curve (ROC), and the Area Under the ROC (AUC) score evaluation metric with the objective of guiding engineers to accurately channel their scale mitigation resources to only true scale occurrence events.
+
+
+The Decision Tree model trained on the data set where missing values were replaced with the mean of the variables had the highest AUC score of 0.91 out of 1 and was the chosen model, while the SVM model trained on the data set where missing values were replaced with zero had the lowest performance of 0.19 AUC score.
+
+
+Limitations and Recommendations
+
+
+Despite the quantity of data being recorded in the oil and gas industry, sourcing for clean and complete data was a challenge in this research. As a result of this, the dataset contained a lot of missing values because of incomplete information as the data was collected from multiple sources. Providing open access to oil and gas data online would be beneficial for research in the industry. The development of a User Interface for machine learning models built for scale prediction is recommended for further research.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion CaCO3- Calcium Carbonate CaSO4- Calcium Sulphate BaSO4- Barium Sulphate SrSO4- Strontium Sulphate ZnS– Zinc Sulphide PbS– Lead Sulphide Mol– mole αi- activity of Ca2+ and CO32− ions, respectively Ksp-thermodynamic solubility product of calcite SR- saturation ratio ML– Machine Learning T– Temperature (°F) P– Pressure (Psia) CO2 mole frac– CO2 mole fraction, dimensionless. pH– Dimensionless. Ca2+– calcium ion centration measured in parts per million, (ppm). Na+– sodium ion centration measured in parts per million, (ppm). Mg2+– magnesium centration measured in parts per million, (ppm). Fe2+– iron ion centration measured in parts per million, (ppm). HCO3-- bicarbonate ion centration measured in parts per million, (ppm). SO42-– sulphate ion centration measured in parts per million, (ppm). Cl-– chlorine ion centration measured in parts per million, (ppm). CO32-– Carbonate ion centration measured in parts per million, (ppm). Ba2+– Barium ion centration measured in parts per million, (ppm). TDS– Total Dissolved Solids measured in parts per million, (ppm). Sr2+ -- strontium ion S2-- Sulphur ion CO2– Carbon dioxide SVM- Support Vector Machines ROC– Receiver Operator Curve AUC– Area Under receiver operator Curve NaN– Not a Number FPR= False Positive Rate
+
+
+References
+
+
+Akuanyionwu, O. C. & Wahid, F. (2011). Consideration Factors in Defining an Effective Scale Management Strategy During Early Stages of Field Development Planning. Paper SPE 144502 presented at the SPE Offshore Europe Oil and Gas Conference and Exhibition, UK, 6-8 September.Atkinson, G. & Raju, K., (1991). The Thermodynamics of Scale Prediction. Paper SPE-21021-MS presented at the SPE International Symposium on Oilfield Chemistry, Anaheim, California, 20–22 February.Al-Hajri, M. N., Al-Ghamdi, A., Tariq, Z., & Mahmoud, M. (2020). Scale-prediction/inhibition Design Using Machine-learning and Probabilistic Approach [dataset]. Paper SPE-198646-MS presented at the SPE Gas & Oil Technology Showcase and Conference, Dubia, UAE, 21-23 October.Chilingar, G. V., Mourhatch, R., & Al-Qahtani, G. D. (2008). The Fundamentals of Corrosion and Scaling, (1st ed.). Gulf Publishing Company.Google Scholar Dyer, S. J., & Graham, G. M. (2002). The Effect of Temperature and Pressure on Oilfield Scale Formation. Journal of Petroleum Science and Engineering, Volume 35, Issues 1–2, Pages 95–107, https://doi.org/10.1016/S0920-4105(02)00217-6.Google Scholar EndersC. K. (2010). Applied Missing Data Analysis, (1st ed.). Guilford Press.Google Scholar MaY. F., GaoY. H., FengQ. L. (2010). Effects of PH and Temperature on CaCO3 Crystallization in Aqueous Solution with Water Soluble Matrix of Pearls. Journal of Crystal Growth, Volume 312, Issue 12, 3165–3170.Google Scholar Mackay, E. J., Graham, G. M. (2003). The use of flow models in assessing the risk of scale damage. Paper SPE-80252-MS presented at the SPE International Symposium on Oilfield Chemistry, Houston, Texas, U.S.A, February.Mpelwa, M., Tang, S. F. (1979). State of the Art of Synthetic Threshold Scale Inhibitors for Mineral Scaling in the Petroleum Industry: A Review. Pet.Sci. 16, 830–849. https://doi.org/10.1007/s12182-019-0299-5Google ScholarCrossrefSearch ADS  Nassivera, M., Essel, A. F. (1979). Fateh Field Sea Water Injection-Water Treatment, Corrosion, and Scale Control. Paper SPE-7765-MS presented at the Middle East Technical Conference and Exhibition, Bahrain, 25-28 February.NwonodiC., (1999). Prediction And Monitoring of Scaling in Oil Wells. Unpublished B.Eng. Petroleum Engineering Thesis, University of Port Harcourt.Google Scholar El NaqaI., LiR. & MurphyM. (2015). Machine Learning in Radiation Oncology, (1st ed.). Springer, Cham.Google ScholarCrossrefSearch ADS  Hartwig, K., Wölfel, S. (2014). Scale Removal with Ultrasonic Waves. Paper SPE-169770-MS presented at the SPE International Oilfield Scale Conference and Exhibition, Aberdeen, Scotland, 14-15 May. https://doi.org/10.2118/SPE-169770-MSHeath, S., Bin Ruslan, M. Z., McKay, E., & Ishkov, O. (2018). Non-Chemical Methods for Downhole Control of Carbonate and Sulphate Scales - An Alternative Approach to Scale Management?Paper SPE-190706-MS presented at the SPE International Oilfield Scale Conference and Exhibition, Aberdeen, Scotland, 20-21 June. doi: 10.2118/190706-MSRamstad, K., Sandengen, K., Mitchell, A. F., & Moldrheim, E. (2020). Correlating Calcium Carbonate Scale Risk with Field Experience Data. Paper SPE-200679-MS presented SPE International Oilfield Scale Conference and Exhibition, Aberdeen, Scotland, UK, 24–25 June.Saidoun, M., Mateen, K., Baraka-Lokmane, S. & Hurtevent, C. (2016). Prediction of Sulphide Scales - Improvement of our Understanding of Heavy Metal Sulphide Solubility. Paper SPE-179904-MS presented at the SPE International Oilfield Scale Conference and Exhibition, Aberdeen, Scotland, UK, 11-12 May.Sorbie, K. S., & Mackay, E. J. (2000). Mixing of Injected, Connate and Aquifer Brines in Waterflooding and its Relevance to Oilfield Scaling. Journal of Petroleum Science and Engineering, 27(1-2), 85–106. https://doi.org/10.1016/S0920-4105(00)00050-4Google ScholarCrossrefSearch ADS  Vazquez, O., Mackay, E.J., & Sorbie, K. S. (2017). Modelling of Non-Aqueous and Aqueous Scale Inhibitor Squeeze Treatments. Paper SPE-106422-MS presented at the SPE International Symposium on Oilfield Chemistry held in Houston, Texas, USA, 28 February – 2 March.Yousuf, M. A. & Shaik, F. (2017). Studies on Scale Deposition in Oil Industries & Their Control. International journal for innovative research in science & technology Volume 3, Issue 12.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212010-MS
+
+
+

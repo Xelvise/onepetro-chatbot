@@ -1,0 +1,275 @@
+----- METADATA START -----
+Title: Reducing NPT Amidst Fluctuating Crude Oil Prices: Using Data Analysis to Investigate Well Construction Cost
+Authors: Olawale Isaac Ajayi, Sodiq Adejuwon Kehinde, Unwono James Akpan, David Emudiaga Odesa
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212030-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+During drilling operations, one of the key parameters keenly monitored and measured is the Non-Productive Time (NPT). It is usually desired to be kept as minimal as possible due to its significant contribution to the entire well construction cost. In some instances, some of the factors responsible cannot be controlled such as bad weather conditions or occurrence of natural disasters. However, industry experience shows that a significant chunk of most NPT recorded can be avoided and mitigated with adequate planning, monitoring and prompt decision-making. In order to ensure sustainable oil production amidst the present economic situation of fluctuating crude oil prices occasioned by the imminent energy transition and other related factors, the costs associated with development and production of hydrocarbon assets will require prudent management by eliminating or reducing NPTs. This paper aims to illustrate some of the best in-class operational procedures and actions undertaken by the drilling operations team of a producing company for significant reduction of NPT spanning across seven (7) wells in two (2) of its producing fields. Information from structured daily operations reports were extracted and analyzed with significant focus on the time sheets and contributing factors to Non-Productive Time. Further attempts were made to identify the major contributors and the most efficient processes to eliminate their occurrences. The analysis shows an average of about thirteen percent from the first well drilled in 2018 to the most recent one drilled in 2021. This translates to about USD5.4 million in NPT cost equivalent over the span of the seven (7) wells. The prevalent drilling operational challenges were found to be related to host community issues, location preparation, statutory regulatory compliance issues, logistics, weather conditions, crew competency, well-bore instability, and most prevalently rig equipment failures etc. The data analysis showed a consistent decrease in NPTs for these factors, primarily due to deliberate and concise project planning and execution. The results from these analyses can therefore be used as a framework to improve current drilling practices, in order to achieve significant well construction cost savings and further support the need for sustainable oil production. However, it is important to ensure quality data gathering and structure by insisting on identifying and recording all the NPT-related issues. This will allow prompt forecasting of drilling operational challenges as well as proactively taking concrete steps to mitigating them.
+
+
+
+
+Keywords:
+upstream oil & gas,
+non-productive time,
+data analysis,
+data mining,
+power bi dashboard,
+drilling contractor,
+drilling operation,
+drilling time analysis,
+time depth plot,
+npt
+
+
+Subjects: 
+Drilling Operations,
+Drilling time analysis
+
+
+
+
+Introduction
+
+
+The increasing global energy demand has shown that fossil-energy sources will continue to dominate the energy mix in years to come. This is occasioned primarily by worldwide economic expansion and a global population growth. Despite the evident role that renewable energy sources are expected to play in offsetting some of these demands, at least about a quarter of 2040 global energy demand will be fossil-energy dependent under the current policies scenario presented in the 2021 World Energy Outlook of the International Energy Agency (IEA). Therefore, in order to achieve sustainable fossil fuel production to meet the energy needs of the future, the associated costs of fossil fuels exploration and development would need to be kept low enough to ensure competitiveness compared to other alternatives and one of the sure ways to achieve this will be prudent management of our well delivery processes to eliminate or reduce NPTs incurred during various well delivery operations.
+
+
+Figure 1View largeDownload slideTypical Drilling Activities CycleFigure 1View largeDownload slideTypical Drilling Activities Cycle Close modal
+
+
+The Drilling Campaign under review consists of seven (7) wells across three (3) fields Onshore Niger Delta. Five (5) of the wells are development wells, while two (2) are appraisal wells. The drilling operations for the wells with well depths ranging between 11,265ft-MD and 14,262ft-MD was carried out using two (2) rigs with similar capacities with details in Table 1 and Table 2;
+
+
+Table 1Drilling Rig Specification 
+            . Rig A
+            . Rig B
+            . Drawworks Rating (HP) 2,000 2,680 Drilling Depth (ft) 20,000 25,000 BOP Rating (psi) 10,000 10,000 TDS Capacity (tons) 454 500 Hook Load (lbs) 975,000 1,000,000 Mud Pump Type Triplex Triplex 
+            . Rig A
+            . Rig B
+            . Drawworks Rating (HP) 2,000 2,680 Drilling Depth (ft) 20,000 25,000 BOP Rating (psi) 10,000 10,000 TDS Capacity (tons) 454 500 Hook Load (lbs) 975,000 1,000,000 Mud Pump Type Triplex Triplex View Large
+
+
+Table 2Well by Well Summary 
+            . Asset
+            . Field
+            . Rig
+            . Well Type
+            . Final MD (ft)
+            . Planned Drilling Days
+            . Actual Drilling Days
+            . Well A1 OML A Field A A Development 12,460 43 73.00 Well A2 OML A Field A A Development 11,420 34.33 79.00 Well A3 OML A Field A B Development 12,332 30.83 57.67 Well A4 OML A Field A B Development 14,262 46.83 70.92 Well B1 OML B Field B B Appraisal 13,600 32.96 59.28 Well C1ST OML B Field C B Appraisal 11,265 32.00 54.76 Well C2ST OML B Field C B Development 12,156 56.00 52.56 
+            . Asset
+            . Field
+            . Rig
+            . Well Type
+            . Final MD (ft)
+            . Planned Drilling Days
+            . Actual Drilling Days
+            . Well A1 OML A Field A A Development 12,460 43 73.00 Well A2 OML A Field A A Development 11,420 34.33 79.00 Well A3 OML A Field A B Development 12,332 30.83 57.67 Well A4 OML A Field A B Development 14,262 46.83 70.92 Well B1 OML B Field B B Appraisal 13,600 32.96 59.28 Well C1ST OML B Field C B Appraisal 11,265 32.00 54.76 Well C2ST OML B Field C B Development 12,156 56.00 52.56 View Large
+
+
+Drilling operation is a critical component of crude oil and natural gas exploration and development. It is a highly capital-intensive activity characterized by technical, environmental and economic risks. It may sometimes account to about two-fifth of the entire cost of exploration and development (Cunha 2002). In terms of total exploitation costs, Khodja et. al, 2010 estimates that drilling costs could be as high as a quarter of total oilfield exploitation costs. Typically, drilling costs depends on well location – onshore or offshore, and well depth. According to Hossain and Al-Majed (2014), it may also significantly vary with manpower skills and experience, geologic conditions, rig equipment efficiency, etc.
+
+
+Basbar and Kharusi (2016), demonstrated how the concept of lean manufacturing (by applying Pareto chart and Ishikawa (Fishbone diagram) can be applied to reduce NPT encountered during drilling operations. In their paper, they analyzed data on drilling time from 3 drilling and 6 workover rigs. Their analysis revealed a 27.1% NPT from the 9 rigs with major contribution from crew competence (42.0%), mechanical equipment failure (27.6%), waiting on material (17.2%), operational equipment failure (12.7%), accommodation (0.5%). Given that crew competence contributed the highest proportion to NPT, the authors then developed a competence matrix to evaluate the rig crew’s skill gap in terms of HSE, Technical and Behavioral skills. With the result of this evaluation, specific trainings were organized for both field and office staff. This resulted in a drastic decrease in NPT to 0% within 3 months.
+
+
+Brechan et al (2018), proposed that digitalization can be applied successfully to reduce the oil and gas industry’s constant battle with NPT especially in the well construction and production phase. Their work was directed at developing a Life Cycle Well Integrity Model (LCWIM) with the aim of reducing direct human involvement through digitalization and automation. They opined that a large contribution to NPT arises from downhole failures and went on to suggest that "digitalization may provide a step change in the fight against failure in planning and operations by the support of an interactive software built with learning features".
+
+
+Emhana (2019), analyzed NPT in drilling operations using data from 5 wells in the Ghadames basin in Libya. He classified the total drilling time into productive and non-productive time and went on to further divide the non-productive time into various classes including waiting on order, waiting on service company crew and equipment, lost circulation, fishing, waiting on water, waiting on mud materials, rig repair etc. In addition, the NPT events were further classified as subsurface related and non-geological related. Based on the data available from the 5 wells, it was concluded that about 18% NPT was encountered in drilling the wells (from spud-in to release date).
+
+
+Krygier et al (2020), carried out detailed analysis of NPT data from 93 wells drilled by Maersk Drilling in the North Sea between 2006 and 2019. The project focused on NPTs arising from wellbore stability issues and as recorded from the drilling contractor’s perspective. The authors developed an algorithm to run through drilling reports to identify the occurrence of keywords related to wellbore stability issues. Results of data analyzed in this work indicated that cost of NPT arising from well stability averaged about $2million per well. The analysis also suggested that contractors’ reports more often than not, does not carry the same degree of detail on the causes of NPTs in general as compared to the operators. In order to improve the quality of reports the authors recommended that every report should consist of an observation, NPT incident description and remedial action taken.
+
+
+Barakat et al (2021), focused on the integration of Risk Management, Systems Thinking, Synergy, Continuous Improvement, and Total Quality with NPT philosophy. The concepts herein developed were applied on data from drilling operations from 250 wells drilled with 60 rigs within a period of 1 year. The authors also developed a model to incorporate probabilities within the NPT philosophy. A matrix was established for all the NPT categories with a maximum probability ceiling set up as a reference for unacceptable risk of all NPT categories. Based on the analysis of the drilling data, all NPT of drilling mainly happened during rotating time, with an estimated annual NPT cost of c. $28.7million from the 60 rigs. The authors posited that integrating risk management concepts in the NPT analysis introduces uncertainty, represented by the probability parameter, which aids in optimizing efforts in order to improve overall drilling performance.
+
+
+However, other unplanned costs due to schedule overrun can significantly increase the drilling costs thereby reducing the profitability of the exploration and development investments. A key factor or metric to measure the efficiency of drilling operation; is the concept of Non-Productive Time (NPT) which is used to quantify the effects of these operational inefficiencies. It is often referred to as rig downtime, which are highly undesirable during operations. They are sometimes unavoidable, such as in the event of natural disasters, weather conditions etc. However, other times, they can be avoided with proper planning, excellent project execution, high equipment/tool reliability, and skilled manpower.
+
+
+This study will examine the impacts of avoidable non-productive time on drilling operations and costs for an E&P company across the seven (7) wells. To achieve this, a web-based App using the Microsoft Power Business Intelligence (BI) tool was developed to facilitate reporting, tracking and analysis of Non-Productive Time (NPT) and performance recorded during drilling & completions operations.
+
+
+Prior to this time, the company’s drilling operations and performance were being monitored and reported using various Microsoft Excel sheets, and sometimes valuable information are missed due to the massive data gathered and reported during typical operations. This often leads to inefficient decision making, cost indiscipline and eventually rising well construction cost as a result of inadequate capturing and monitoring of operational data.
+
+
+Methodology
+
+
+For this paper, the Non-Productive Time (NPT) is estimated as time when a typical well delivery operation is interrupted for whatever reason. It may also be defined as the time spent on any unplanned event during well delivery (drilling, completions, and intervention) operations. It is often used as a measure of the effectiveness of well delivery operations, and it is always presented as a percentage of idle time with respect to total operational time. E&P companies, drilling contractors and service companies have different approaches to register NPT and estimate its cost. This will be clearly defined in the contract structure between an E&P Operator, the drilling contractor, and ancillary service providers and in this case - different operational rates may apply.
+
+
+Mathematically;
+
+
+NPT Percent=NPT Hours RecordedOperation HoursNPT Cost Equivalent=∑ni=1(NPT Percent*Total Daily Well Cost)
+
+
+Where n = number of drilling days
+
+
+The approach employed include;
+
+
+Data GatheringData Review and CleaningData AnalysisReporting/Visualization
+
+
+Data Gathering
+
+
+The data employed in this analysis was gathered from the Daily Drilling Report (DDR) prepared for each well and archived in the company’s data base. For this paper, a typical DDR in MS Excel format usually contains a summary of operations carried out at the well location, costs incurred, HSE statistics, and chemical inventory/usage over a 24-hour period (0600hrs to 0600hrs). As standard practice NPT details were also recorded in the DDR. The NPT data including operation date, NPT duration, NPT class (service contractor, rig owner, or operator), affected rig component, daily well cost) were further extracted from the DDR records for each well and compiled in a central database. Further information as regards NPT were also extracted from the NPT tracker usually populated alongside the DDR.
+
+
+Figure 2View largeDownload slideSnapshot of Typical DDR (redacted)Figure 2View largeDownload slideSnapshot of Typical DDR (redacted) Close modal
+
+
+Figure 3View largeDownload slideSnapshot from NPT trackerFigure 3View largeDownload slideSnapshot from NPT tracker Close modal
+
+
+Data Review and Cleaning
+
+
+During the data gathering process it was observed that quite a number of the data recorded on the DDRs were either incomplete or wrongly formatted (date formatting, number formats etc.). To ensure uniformity and ease of analysis, such data had to be reformatted and updated using other available sources of information e.g. End of Well Report (EOWR)
+
+
+Data Analysis
+
+
+The data collated from the DDRs were exported to Power BI and the NPT data were classified and ranked as NPT by service contractor, NPT contribution by class (service contractor, rig owner, or operator).
+
+
+Reporting/Visualization
+
+
+The Power BI tool was also employed to visualize the analyzed data through different charts and trends.
+
+
+Results and Discussions
+
+
+The costs for a typical drilling operation can be subdivided into; pre-spud costs, actual drilling and rotating costs, casing and cementing costs, wireline costs, drilling and non-rotating costs, and NPT Costs. Pre-spud costs relate to costs incurred on activities carried out prior to the commencement of drilling operations, these may include – location preparation, rig move, statutory regulatory charges, long lead items procurement, etc.
+
+
+Some of the factors that primarily influence the well construction costs include; well depth and well location. Other secondary factors that could affect the well construction costs include type of formation encountered, number of hole sections, remoteness of drilling location, casing program, completion accessories complexity, etc.
+
+
+Based on the data analyzed for the seven wells, Well A2 had the longest drilling days of 79 days (Figure 4), further investigation revealed that this was as a result of failure of the TDS (which took circa 16 days for repairs to be completed).
+
+
+Figure 4View largeDownload slideTime Depth Plots of the five (5) wells excluding sidetracked wellsFigure 4View largeDownload slideTime Depth Plots of the five (5) wells excluding sidetracked wells Close modal
+
+
+Figure 5View largeDownload slideTime Depth Plot of the seven (7) wellsFigure 5View largeDownload slideTime Depth Plot of the seven (7) wells Close modal
+
+
+Historical Operations Performance Dashboard
+
+
+This interactive dashboard displays the historical drilling performance based on NPT for all the wells captured in the input data. The report can be filtered to specific Asset, Field and/or Rig.
+
+
+This displays information about the NPT and Cost percentages by well, NPT contribution by Service Contractors and affected rig components, etc.
+
+
+Based on the NPT records across the seven (7) wells across all the assets/fields under consideration, TDS failure contributed the highest NPT with faulty mud pumps being the second highest contributor (Figure 6). These can be attributed to inadequate maintenance of TDS parts and unavailability of sufficient stock of mud pump components spares at the rig site.
+
+
+Figure 6View largeDownload slideVisualization of NPT records across the seven (7) wells Power BI dashboardFigure 6View largeDownload slideVisualization of NPT records across the seven (7) wells Power BI dashboard Close modal
+
+
+It was also observed that we recorded the highest NPT in terms of drilling activity during the second hole section (production hole) (Figure 6) drilling and these could be attributed to the break down of most of the rig equipment due to the wear out of most of their components during the top hole drilling with insufficient spares to change them out. It was observed that the drilling contractor were majorly responsible for NPTs recorded during the drilling campaign. Also, it was observed that among the service contractors the wireline logging crew recorded the highest NPT and this was due to tool failure, signal loss and fishing differentially stuck tool.
+
+
+The trend of contribution to NPTs noticed across the seven (7) was reflected in the analysis of the four (4) wells drilled in OML A (Figure 7), with the top largest contributors being TDS and mud pump failure.
+
+
+Figure 7View largeDownload slidePower BI dashboard of NPT data across wells in OML AFigure 7View largeDownload slidePower BI dashboard of NPT data across wells in OML A Close modal
+
+
+However, analysis of NPT data in OML B reveals that shutdown in operations due to community issues. A comparison of the communities in OML A and OML B reveals more issues of hostility and disruption at well locations in OML B than OML A. More NPTs were also recorded in the drilling of the second hole section in OML B.
+
+
+Figure 8View largeDownload slidePower BI dashboard of NPT data across wells in OML BFigure 8View largeDownload slidePower BI dashboard of NPT data across wells in OML B Close modal
+
+
+Figure 9View largeDownload slidePower BI dashboard of NPT data across wells drilled with Rig AFigure 9View largeDownload slidePower BI dashboard of NPT data across wells drilled with Rig A Close modal
+
+
+Figure 109View largeDownload slidePower BI dashboard of NPT data from Well A2 drilled with Rig A in Field A.Figure 109View largeDownload slidePower BI dashboard of NPT data from Well A2 drilled with Rig A in Field A. Close modal
+
+
+Figure 1110View largeDownload slidePower BI dashboard of NPT data from Well B1 drilled with Rig B in Field B.Figure 1110View largeDownload slidePower BI dashboard of NPT data from Well B1 drilled with Rig B in Field B. Close modal
+
+
+Figure 1211View largeDownload slidePower BI dashboard of NPT data from Well A1 drilled with Rig A in Field A.Figure 1211View largeDownload slidePower BI dashboard of NPT data from Well A1 drilled with Rig A in Field A. Close modal
+
+
+Figure 1312View largeDownload slidePower BI dashboard of NPT data from Well A3 drilled with Rig B in Field A.Figure 1312View largeDownload slidePower BI dashboard of NPT data from Well A3 drilled with Rig B in Field A. Close modal
+
+
+Conclusion and Recommendations
+
+
+NPT is majorly contributed by rig equipment failure, hence, it is important to pay keen attention to the status of rig equipment during rig acceptance test. In addition, availability of sufficient stock of rig equipment component spares must be prioritized before a rig is mobilized and accepted on location.The production hole section (intermediate section) has the tendency to cause extended periods of NPT. This may be attributed to the proneness of this zone to well stability issues. It is recommended that adequate data from offset wells be gathered and analyzed during the well design and planning phase.Community issues, if not properly handled, may lead to extended period of shutdown. Hence, it is important to employ proactive community relations strategies to prevent cases of operation shutdown.Contractual conflicts between the operator, drilling contractor and/or ancillary service providers could also constitute a bottleneck to the success of the drilling operations.Drilling data should be gathered, sorted and formatted appropriately to ensure ease of analysis and making informed decisions.Well cost data on DDR should be classified into tangible and intangible costs to allow for a more representative calculation of NPT cost equivalent.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgement
+
+
+The authors gratefully acknowledge the Management of the Drilling Department, Nigerian Petroleum Development Company for the permission to publish this paper.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion BIBusiness Intelligence DDRDaily Drilling Report EOWREnd of Well Report E&PExploration and Producing IEAInternational Energy Agency HPHorsepower HSEHealth, Safety and Environmental LCWIMLife Cycle Well Integrity Model MSMicrosoft NPTNon-Productive Time TDSTop Drive System
+
+
+APPENDIX
+
+
+Figure 14View largeDownload slideTime Depth Plot for Well A1Figure 14View largeDownload slideTime Depth Plot for Well A1 Close modal
+
+
+Figure 15View largeDownload slideTime Depth Plot for Well A2Figure 15View largeDownload slideTime Depth Plot for Well A2 Close modal
+
+
+Figure 16View largeDownload slideTime Depth Plot for Well A3Figure 16View largeDownload slideTime Depth Plot for Well A3 Close modal
+
+
+Figure 17View largeDownload slideTime Depth Plot for Well A4Figure 17View largeDownload slideTime Depth Plot for Well A4 Close modal
+
+
+Figure 18View largeDownload slideTime Depth Plot for Well B1Figure 18View largeDownload slideTime Depth Plot for Well B1 Close modal
+
+
+Figure 19View largeDownload slideTime Depth Plot for Well C1STFigure 19View largeDownload slideTime Depth Plot for Well C1ST Close modal
+
+
+Figure 20View largeDownload slideTime Depth Plot for Well C2STFigure 20View largeDownload slideTime Depth Plot for Well C2ST Close modal
+
+
+References
+
+
+AdnanSatria, Reducing Non-Productive Time (NPT) in the seven well drilling project on the North Beach of Javafrom PT multi Jaya Tehnik, a thesis in partial fulfilment of the requirements for the degree of Sarjana Teknik Industri, October, 2020.Google Scholar Ashraf, E., Basbar, A., Al Kharusi, A., Al Kindi, A., (2018) Reducing NPT of Rig Operation through Competency Improvement: A Lean Manufacturing ApproachPaper SPE-180066-MS presented at theSPE Bergen One Day Seminar held in Bergen, Norway, April20, 2016.Google Scholar Barakat, M., Abu El Ela, M., Khalaf, F., (2021) Integrating risk management concepts into the drilling non-productive time, published on the Journal of Petroleum Exploration and Production Technology, Vol. 11, January 2021.Google Scholar Brechan, B., Sangesland, S., Dale, S.I., Aranjo, B., (2018) Interactive Experience and Learning Model Can Reduce Non-Productive Time (NPT), Paper OTC-28300-MS presented at theOffshore Technology Conference Asia held in Kuala Lumpur, Malaysia, March 30-23, 2018.Google Scholar Emhana, S., (2018) Analysis of Non-Productive Time (NPT) in Drilling Operations – A case Study of the Ghadames Basin, paper presented at theSecond Scientific Conference of Oil and Gas, Ajdabiya, Libya, February 2018.Google Scholar HossainM.E., Drilling Costs Estimation for Hydrocarbon Wells, published on the Journal for Sustainable Energy Engineering Vol.3, No. 1, September2015.Google Scholar Krygier, N., Adebowale, S., Orozova-Bekkevold, I., A Drilling Company's Perspective on Non-Productive Time (NPT) due to Well StabilityIssues Paper SPE-200732-MS presented at theSPE Norway Subsurface Conference held in Bergen, Norway, November 2 – 3, 2020.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212030-MS
+
+
+

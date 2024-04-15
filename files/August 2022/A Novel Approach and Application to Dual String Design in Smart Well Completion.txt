@@ -1,0 +1,437 @@
+----- METADATA START -----
+Title: A Novel Approach and Application to Dual String Design in Smart Well Completion
+Authors: Daniel Omolewa, Boniface Oriji
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211997-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Completion design is a very important phase in the development of a field, and it has evolved over the years with more sophisticated technology. One of the latest technology trends is the Intelligent Digital Oil fields, which although started decades ago has recently received rapid traction in past few years due to reduced costs and improvement in sensors and data storage. The starting point of this technology is the smart or intelligent well system (IWS). This system significantly improves reservoir management as it enables remote control and monitoring of downhole equipment’s. Consequently, this minimizes the need for any intervention and saves OPEX. However, the IWS has majorly being applied to a single string producer or injector. Previously, a single string completion is used across the multiple zones and hence must be commingled if the zones are to be produced simultaneously. The alternative to produce simultaneously without commingling is to use Dual string completions but they have a major drawback in that they always require some intervention to be done which is expensive. The aim of this project is therefore to test a novel idea of combining a Dual String completion with an Intelligent completion. A hypothetical field with three reservoir zones stacked was used for this study. The objective was to produce the lower zones through the long string as they had similar reservoir pressures and compatible fluids while the upper zone would produce through the short string as it is incompatible with the lower zones. Two cases were considered – with and without lower completions. The major difference in these cases was the position of the accessories. The adopted design uses a feed-through dual packer, two ICVs, and a dual gauge on the long string above the gravel pack packer and on the short string, a permanent gauge is placed above the feed-through dual packer and a total of 6 control lines is required. It is concluded that the design is feasible in both cases, and it solves the short comings of the dual string completions currently being used. The critical consideration is the well architecture. The knowledge from this paper serves as a foundation for what could become a new standard design for smart completions.
+
+
+
+
+Keywords:
+upstream oil & gas,
+casing design,
+well integrity,
+completion equipment,
+completion,
+completion monitoring systems/intelligent wells,
+flowrate,
+dual packer,
+zonal isolation,
+intervention
+
+
+Subjects: 
+Casing and Cementing,
+Information Management and Systems,
+Casing design,
+Completion Selection and Design,
+Completion Monitoring Systems/Intelligent Wells,
+Well Integrity,
+Completion equipment,
+Flow control equipment,
+Zonal isolation
+
+
+
+
+Introduction
+
+
+Completions contribute a major part of the cost of drilling a well, so there is a need to design the best possible completion to minimize the cost of investments. Dual String completions help to selectively produce zones in a multi layered reservoir, but the sliding sleeves used for the selectivity must be opened or closed using wireline services (Ding & Kenji, 2018). This inevitability of carrying out costly well intervention during the lifecycle of a well, especially in subsea wells has led to increased interests in smart well technology which replaces the need for routine well interventions.
+
+
+The Smart or Intelligent completions is a technology that reduces the need for interventions as it enables remote control and monitoring of the well. Several case studies have reported the benefits of this technology. For example, during the study of (Adebayo, et al., 2017), the smart well completion helped to make an uneconomic marginal field economic by enabling commingling from three reservoirs. Although the commingling of multiple reservoirs is strictly regulated in countries like Nigeria, Smart wells’ benefits have been proven in practical applications for commingled and non-commingled production (Al-Ghareeb, 2009).
+
+
+However, while the use of single string completions with smart wells is widely discussed by many researchers, the use of smart wells with dual string completions is largely under researched but has recently shown good faith. In a case study by (Silverwell, 2020), they worked with an operator that had problems with gas lifts in their dual completion wells arising from the low casing head pressures and lack of downhole controls that consequently led to costly interventions. The problem was solved by installing complex dual string intelligent gas lifts and this led to a forecasted 40% production increase.
+
+
+Smart Well Completion
+
+
+A smart well (similarly popular as an intelligent well) is a well equipped with sophisticated completion accessories which monitors well properties, collects, transmits, and analyzes downhole production data, and then allows actions to configure and control parts of the well. Smart well completion is a high-tech control system that automatically controls hydrocarbon production (Wan, 2011). It makes real-time monitoring and control of the wellbore possible. The true test of intelligence is Data (Bello, 2021), so for a well to be called smart or intelligent, it means the well inherently has data processing and decision-making capability. It does this by measuring and monitoring downhole production and transmitting it real-time to surface. Therefore, a well failure that necessitates a workover or abandonment would completely undermine the objective of an intelligent well. It is also popular for its capability for remote water shut off.
+
+
+Areas of Application of SWC
+
+
+Horizontal wellsSubsea satellite wells (Wan, 2011)Deep water accumulations requiring extended reach wells (ERW)Multi zones injection and production wellsHighly productive oil fields with high cost of well interventionAuto-gas lift injection
+
+
+Figure 1 below shows a typical use of intelligent well completion to exploit individual sand zones.
+
+
+Figure 1View largeDownload slideUse of intelligent well to produce several zones in a single well (Gustavo, Marko, & Stan, 2018)Figure 1View largeDownload slideUse of intelligent well to produce several zones in a single well (Gustavo, Marko, & Stan, 2018) Close modal
+
+
+Components of SWCs
+
+
+There are four major components that makeup the Smart well completions
+
+
+Inflow Control Devices (ICD)/Inflow Control Valves (ICV)Downhole SensorsFeed-through PackerControl Lines
+
+
+Dual String Completion
+
+
+Two tubing within a single well casing is referred to as a dual string completion (Chew, Mohamed, Kew, & Jang, 2019). Usually, the strings are designed to reach different depths. The longer tubing string is referred to as the "Long String", while the shorter one is referred to as the "Short String".
+
+
+The benefit of dual strings is seen when multiple zones are to be produced but if the zones are to be commingled, the variations in pressure and production rate between distinct stratum series should be examined to prevent backflow into the lower pressure zone. Another advantage is that incase flow from one of the zones stops or becomes irregular, the zone can be cleverly converted to a gas-lift producer immediately.
+
+
+The major problems of this type of completion are the amplified cost of work-over operations, artificial lift, and sand control (Tausch & Kenneday, 1956). For dual-string production, other artificial lifting mechanisms apart from gas lifts are considered impractical (Wan, 2011).
+
+
+Areas of Applications
+
+
+For zones with incompatible fluids, where commingling could lead to flow assurance issues e.g., scalesFor zones with different pressure regimes which could lead to serious crossflow if their fluids are commingledWhere reserves assurance is critical i.e., excessive water production from one zone may ‘kill’ another zone.Countries where Government regulatory requirements forbid commingling to be able allocate production to different zones.For multipurpose wells with production from one zone and injection into another zone. (Bellarby, 2009)
+
+
+Proposed Dual String Smart Completion
+
+
+The Data of Field X is a hypothetical field modified from previous papers and is used in this study to test the concept. The geology, reservoir and drilling data were used to make decisions on the choice of completion design while respecting the technical constraints.
+
+
+Field Data
+
+
+Block X is situated in Nigeria, and It accounts for some major discoveries in the country’s oil and gas industry. The water depth is about 2000 ft. In this block, there are three (3) stacked reservoirs. Throughout this project, they will be referred to as zone A, zone B and zone C respectively. The field is defined with an extent of about 31250 acres with an original oil in place of 40 billion barrels. The expected flowrate from each well is about 10,000 BOPD.
+
+
+Issue Description
+
+
+Producing from the three zones is quite challenging since the reservoirs are stacked but their fluids are incompatible and are at different pressures. The current industry used IWC configurations will enable good reservoir management to independently produce the zones but since this will be done through a single string, simultaneous production from the zones can’t be done which consequently leads to a longer time to reach plateau or potential of the well.
+
+
+Concept Proposed
+
+
+The dual string offers the possibility to produce the zones simultaneously. The lower zones could be produced through the long string and the upper zone through the short string. Fitting the strings with IWC accessories will address the current challenges of dual strings as the need for costly interventions will be minimized and it also reduces the delay to reach the maximum well potential.
+
+
+Objectives of the Completion Design
+
+
+Well X is to be completed as an oil producer with the following objectives;
+
+
+–To lower the OPEX and minimize the need for future intervention–To design a dual string completion that enables production from the three stacked reservoirs–To design a dual string completion that ensures all operations can be performed in a safe and timely manner–To minimize completion fluid losses–To ensure the tubing can handle the stresses it encounters–To be able to take downhole readings of pressure, temperature, and flowrate
+
+
+The philosophy is to make the subsea completion as simple as possible and ensure it is equipped with the most reliable and economical equipment’s. The goal is to ensure that there is almost no need for any future well interventions.
+
+
+Workflow
+
+
+The completion design steps mainly include designing the IWC with maximum flexibility for control, screening & eliminating unnecessary IWC options and finally evaluating the performance of the IWC. The well is to be completed as a Dual String producer and the casing & drilling program of well X was reviewed to understand the well trajectory and the loads the intermediate and production casings might be exposed to. The well is a vertical well and the summary of the casing program is shown in Table 1 and Figure 2 illustrates the completion design steps in more detail.
+
+
+Figure 2View largeDownload slideBlock flow diagram of completion design processFigure 2View largeDownload slideBlock flow diagram of completion design process Close modal
+
+
+Table 1Summary of casing program Casing
+            . Shoe Depth (ft)
+            . OD (in)
+            . Drift ID (in)
+            . Thread
+            . Grade
+            . Weight (lb/ft)
+            . Surface casing 3000 20 18.81 Buttress C90 106.5 Intermediate casing 5000 13 3/8 12.06 Buttress C90 80.70 Production casing 11350 9 5/8 8.525 VAM Top N80 47 Casing
+            . Shoe Depth (ft)
+            . OD (in)
+            . Drift ID (in)
+            . Thread
+            . Grade
+            . Weight (lb/ft)
+            . Surface casing 3000 20 18.81 Buttress C90 106.5 Intermediate casing 5000 13 3/8 12.06 Buttress C90 80.70 Production casing 11350 9 5/8 8.525 VAM Top N80 47 View Large
+
+
+The scenario for the application the IWC initially involved investigating that the reservoir properties are feasible for this project. This included majorly basic analysis of number of layers, pressure differences between intervals, size of reservoir, composition of fluid and recovery mechanisms. The second step was to study the field environment (offshore or onshore), the well trajectory (deviated or vertical), the type of well (Producer or injector), possible need for artificial lifts etc. The final step in scenario identification is to consider the economics i.e., the added investment costs compared to the added revenue. This step was not considered in detail as it was out of scope for this project. It is assumed to be economically viable.
+
+
+Conceptual Completion Design
+
+
+This stage involved working with Schlumberger Nigeria completions team in the preliminary selection of the required components to meet the completion objectives and then sketches of the possible configurations were made. The possible configurations were then screened to eliminate unnecessary options. As shown in Figure 3 below, the sketches were made on paper and then digitalized using the Adobe Illustrator® software.
+
+
+Figure 3View largeDownload slideScreenshot showing the Completion sketching process on IllustratorTMFigure 3View largeDownload slideScreenshot showing the Completion sketching process on IllustratorTM Close modal
+
+
+Two cases were considered, one with only upper completions and one that includes lower completions i.e., sand control.
+
+
+Completion Selection
+
+
+The components were selected considering the production rate predicted and the stated completion objectives. A preliminary list of components was generated using the experience of the Schlumberger completion team which were then tailored to the project needs.
+
+
+Tubing
+
+
+Table 2 and 3 shows a summary of the characteristics of the tubing selected. The tubing was selected based on three factors: Flowrate, experience and well performance. The 3 ½" tubing was preliminarily selected to meet the required flowrate of 10,000 Bopd. From literature, the required tubing size would have been 4" but from experience the biggest tubing size used in dual string completions is 3 ½" so this was selected for both strings initially. Consideration was then given to the drift ID of the production casing. The main question was "would both strings have sufficient clearance to be run in?". The largest accessory size expected when the two strings will be together is the safety valve. Using two 3.5" string with the safety valves will leave only 0.035" clearance which will make it almost impossible to run the control. Therefore, using the 2 7/8" tubing for the short string and the 3 ½" tubing for the long string was adopted. This gives a minimum clearance of about 0.535". So, the tubing strings with the accessories should be able to be run inside the 9 5/8" casing without getting stuck.
+
+
+Table 2Long String Tubing Design Summary Tubing Sizing
+            . OD (inch)
+            . ID (inch)
+            . Drift (inch)
+            . Connection
+            . Weight (lbs/ft)
+            . Weight (daN/m)
+            . Grade
+            . Collapse (bar)
+            . Burst (bar)
+            . Tension (kdaN)
+            . 3 1/2 3.5 2.992 2.867 VAM TOP 9.2 13.43 N80 726 701 92.2 Tubing Sizing
+            . OD (inch)
+            . ID (inch)
+            . Drift (inch)
+            . Connection
+            . Weight (lbs/ft)
+            . Weight (daN/m)
+            . Grade
+            . Collapse (bar)
+            . Burst (bar)
+            . Tension (kdaN)
+            . 3 1/2 3.5 2.992 2.867 VAM TOP 9.2 13.43 N80 726 701 92.2 View Large
+
+
+Table 3Short String Tubing design summary Tubing Sizing
+            . OD (inch)
+            . ID (inch)
+            . Drift (inch)
+            . Connection
+            . Weight (lbs/ft)
+            . Weight (daN/m)
+            . Grade
+            . Collapse (bar)
+            . Burst (bar)
+            . Tension (kdaN)
+            . 2 7/8 2.875 2.441 2.346 VAM TOP 6.5 9.49 N80 770 729 64.5 Tubing Sizing
+            . OD (inch)
+            . ID (inch)
+            . Drift (inch)
+            . Connection
+            . Weight (lbs/ft)
+            . Weight (daN/m)
+            . Grade
+            . Collapse (bar)
+            . Burst (bar)
+            . Tension (kdaN)
+            . 2 7/8 2.875 2.441 2.346 VAM TOP 6.5 9.49 N80 770 729 64.5 View Large
+
+
+Figure 4View largeDownload slideAuthor with a part of Schlumberger’s completion teamFigure 4View largeDownload slideAuthor with a part of Schlumberger’s completion team Close modal
+
+
+The grade of the tubing was selected based on the burst, collapse and tension pressures that were calculated. Using the developed Excel program for both strings, the burst pressure, the collapse pressure, and tension were calculated. Using the Drilling Data Handbook (DDH), the minimum grade selected for the long and short string is 9.2lb/ft N80 tubing and 6.5 lb/ft N80 tubing respectively.
+
+
+Regarding the connections and type of thread, the VAM TOP was selected due to the high pressures the tubing string is exposed to. It provides the required metal to metal sealing to ensure flow integrity.
+
+
+Dual Packer
+
+
+The dual packer would be used to provide isolation for Zone 1 and support the weight of the long and short strings. Schlumberger’s Ultra dual packer, which is a hydraulically set, pull-to-release packer was chosen so as ease any future workover operation The dual packer would set by the long string by putting a plug inside the bottom no-go nipple. When deciding on the choice of packer to use, the pressure and temperature of the fluids it will be exposed to was considered and the anticipated need for retrieval. It will be run with the upper completions in a single trip.
+
+
+Also, the possibility of passing the hydraulic and electrical lines through them was considered. The chosen dual packer is a feed-through type.
+
+
+Single packers
+
+
+The choice of the single packer depends on the type of completions. The packers to be used in the two cases were investigated
+
+
+Case 1
+
+
+This is shown in figure 5. The single packers would be used to isolate the lower zones in an upper completion only scenario i.e., no sand control intended. The selection of the type of packer is based on reservoir pressure and temperature, feed-through ability and need for ease of retrieval or need to reduce risk of premature release. Weatherford’s HellCat™ 2 Intelligent-Completion Packer was considered. The cut-to-release type was selected to reduce the risk of failure due to the higher pressures it is exposed to. The Schlumberger’s XMP Premium multiport production packer was also considered as it offered the same advantages as the alternatives and since majority of the components will be sourced from Schlumberger, this option was adopted.
+
+
+Figure 5View largeDownload slideCase 1 - Completion sketch (without accessories)Figure 5View largeDownload slideCase 1 - Completion sketch (without accessories) Close modal
+
+
+Case 2
+
+
+A second case was considered, that included lower completion (Figure 6) i.e., sand control included. Here zone 2 and 3 are gravel-packed using gravel-pack packers. The gravel-pack packer would include an extension which will provide the flow path for the slurry. The selection of the type of packer is based on reservoir pressure and temperature and reliability. The Schlumberger’s "QUANTUM MAX HPHT gravel- and frac-pack" packer was selected as its rating (10,000 psi) is sufficient and can be retrieved if necessary.
+
+
+Figure 6View largeDownload slideCase 2 – Completion sketch (without accessories)Figure 6View largeDownload slideCase 2 – Completion sketch (without accessories) Close modal
+
+
+Flow/Interval Control Valve (FCV/ICV)
+
+
+The ICV will enable remote downhole control, which makes it intelligent. The key considerations that were taken were;
+
+
+–The flowrates expected–The reservoir pressure and temperature–Cost–Level of control desired–Number of control lines required
+
+
+The Schlumberger’s TRFC-HN tubing retrievable flow control valve was selected. It has a 7,500-psi pressure rating and 325 °F temperature rating. The valve has a 10-year life span and can handle a flowrate of about 40,000 bbl/d which is reliable enough. It is equipped with 11 possible positions including fully open and closed. It also reduces the number of control lines required to be run as only a single hydraulic control line is used. Two types of ICV’s are used: The annular valve (AP) and the in-line (LP) valve. The AP valve would be used to control the annular flow from zone 2 while the LP valve will be used to control the flow within the tubing.
+
+
+For case 1, the ICVs can be positioned just across the zones but for case 2, they can’t be positioned this close because of the gravel-pack packer ID so they will be positioned above the top gravel-pack packer.
+
+
+Also, the feasibility of including an ICV to the short string was considered. This could be used to control water production from zone 1 during its late life. However, it wasn’t adopted as it was identified as not critical and to lower the total well cost.
+
+
+Permanent Downhole Gauge (PDHG)
+
+
+The PDGH would be used for reservoir monitoring and data gathering. For this design, a dual gauge was selected to take both tubing and annulus data of pressure and temperature simultaneously. The Schlumberger’s Metris EvolveTM system was chosen. It will be configured with the dual sensors. It is rated to 10,000 psi and will housed in the Solid gauge mandrel (SGM).
+
+
+Subsurface Safety Valve (SSV)
+
+
+The SSV was included to ensure the safety of the well. With this, an uncontrolled control flow of hydrocarbon can be prevented peradventure severe damage to the wellhead occurs. The safety valve would be a Surface-controlled subsurface safety valves (SCSSVs). Two types of SCSSVs were considered for the design: The Tubing retrievable type (TR-SCSSV) and the wireline retrievable type (WR-SCSSV). The WR-SCSSV has a smaller OD which reduces the risk of getting stuck considering the control lines and second string. However, it has a very small ID which will prevent any wireline operations. The TR-SCSSV offers a larger internal diameter which allows wireline tools to be run through them, but its disadvantage is its larger outer diameter of about 5". This was chosen because there is still sufficient clearance when considering the 8.525" drift ID of the 9 5/8" casing and the combined OD of the 3 ½" × 2 7/8" tubing strings.
+
+
+Hydraulic and Electric control lines
+
+
+A total of 8 control lines are required conventionally in this design. Two hydraulic lines per valve and one Electric line per gauge. The ICVs will be controlled from the surface using two hydraulic lines. One to open, the other to close. Each ICV will have this pair. However, the adopted option was to use the Schlumberger’s TRFC-HN where only one control line is required per valve. Also, the Schlumberger ManaraTM system was considered which allows only one control line for closing all the ICVs to be run but this option was not adopted as it was considered too expensive and not critical for the completion objectives. Table 4 shows the summary of each system considered.
+
+
+Table 4Summary of required control lines 
+            . Conventional
+            . Adopted
+            . ManaraTM
+            . No. of Electric Lines 2 2 2 No. of Hydraulic Lines 6 4 1 Total 8 6 3 Remark complex Feasible Expensive 
+            . Conventional
+            . Adopted
+            . ManaraTM
+            . No. of Electric Lines 2 2 2 No. of Hydraulic Lines 6 4 1 Total 8 6 3 Remark complex Feasible Expensive View Large
+
+
+Final Completion design
+
+
+Figure 7 shows the basic sketch of the final completion schematic developed using Adobe Illustrator and Figure 8 shows the final completion schematic with all the accessories used in the design.
+
+
+Figure 7View largeDownload slideSketch of final completion schematicFigure 7View largeDownload slideSketch of final completion schematic Close modal
+
+
+Figure 8View largeDownload slideFinal design of the lower completion (Left) and Upper completion (Middle) and full (Right)Figure 8View largeDownload slideFinal design of the lower completion (Left) and Upper completion (Middle) and full (Right) Close modal
+
+
+Well Performance
+
+
+Well X performance was studied using the IPR curves generated in the PIPESIM software. Nodal analysis was carried out with the node at bottomhole. This was done to determine the conditions at which the well will flow. Sensitivity analysis was done on various tubing sizes to select the optimum size. The reservoir data was used to generate the IPR curves.
+
+
+Long String
+
+
+Figure 9 shows the system performance of the long string varying three tubing sizes: 2-3/8", 2-7/8" and 3-1/2". Using a 2-3/8" tubing, the production rate is 4452 STB/d while that of the 2-7/8" and 3-½" tubing was 9176 STB/d and 13,839.01 STB/d respectively. As expected, the larger the tubing size, the higher the achievable rates and since the increase is quite significant, coupled with technical considerations discussed earlier, the 3 ½" tubing size was selected for the long string.
+
+
+Figure 9View largeDownload slide(Left) Long String sensitivity analysis showing flowrates at varying tubing sizes. (Right) Nodal analysis showing long string commingled flow and selectively flow exceeding erosional limitsFigure 9View largeDownload slide(Left) Long String sensitivity analysis showing flowrates at varying tubing sizes. (Right) Nodal analysis showing long string commingled flow and selectively flow exceeding erosional limits Close modal
+
+
+From Figure 9 (Right), it is observed that using the 3 ½" tubing, the total production rate from the two lower zones commingled is 13,839 STB/d while the production rate from Zone B and Zone C selectively is 10,351.99 STB/d & 10,846 STB/d respectively. This is even higher than the expected production rate of 10,000 STB/d. Whilst this is very encouraging, it is also observed that this operating point is outside of the recommended operating envelope. This is because the erosional velocity is exceeded. This means this rate is too high for the tubing size and this can be fixed by bean down. Sensitivity analysis was carried out into to determine the optimum tubing size and bean size.
+
+
+Figure 10 shows the result of the choke size sensitivity analysis on the long string. The flowrates were varying based in the choke sizes; 16/64, 20/64, 24/64, 28/64, 32/64, 36/64. From this analysis, the 3 ½" tubing with a 36/64 choke was selected as it falls within the operating envelope i.e., the erosional velocity was not exceeded. At these conditions, the two zones commingled will flow at 6,359 STB/d with the flowing bottom hole pressure of 5924 psi and wellhead pressure of 2765.65 psi.
+
+
+Figure 10View largeDownload slide(Left) Sensitivity analysis of effect on choke size for the long string (Right) Adopted Long string performanceFigure 10View largeDownload slide(Left) Sensitivity analysis of effect on choke size for the long string (Right) Adopted Long string performance Close modal
+
+
+Figure 10 (Right) shows the result of selective and commingled production using the adopted flowing conditions. Producing Zone 2 only, the well flows at 3731.4 STB/d while Zone 3 alone flows at 4620.59 STB/d. It is therefore recommended to commingle these zones to make it more economical.
+
+
+Short String
+
+
+Figure 11 shows the system performance of the short string varying three tubing sizes: 2 3/8", 2 7/8" and 3 1/2". Using a 2 3/8" tubing, the production rate is 4299.4 STB/d while that of the 2 7/8" and 3 ½" tubing was 7865.08 STB/d and 10508.6 STB/d respectively. Here the 2-7/8" tubing was selected, as the overriding consideration was the increased clearance in the casing. However, this rate is seen to exceed the erosional velocity limits therefore the effect of varying the choke sizes was studied.
+
+
+Figure 11View largeDownload slide(Left) Sensitivity analysis showing flowrates at varying tubing sizes for the short string. (Right) Effect of choke size for the short stringFigure 11View largeDownload slide(Left) Sensitivity analysis showing flowrates at varying tubing sizes for the short string. (Right) Effect of choke size for the short string Close modal
+
+
+Figure 11 shows the result of the choke size sensitivity analysis on the short string. The flowrates were varying based on the choke sizes; 16/64, 20/64, 24/64, 28/64, 32/64, 36/64. From this analysis, the 2-7/8" tubing with a 28/64 choke was selected as it falls within the operating envelope i.e., the erosional velocity was not exceeded. At these conditions, the well will flow at 3876.16 STB/d and flowing bottom hole pressure of 5424.8 psi with a wellhead pressure of 2545.97 psi.
+
+
+Summary of Findings
+
+
+In this project, the novel idea to integrate these aspects for a dual string intelligent well system was attempted. Previously, Intelligent single string completion is used across the multiple zones and hence must be commingled if the zones are to be produced simultaneously. Is this about to change?
+
+
+The well X was selected based on the possibility to achieve this design. The considerations that influenced this decision includes the field size, geology, the number of reservoir zones, fluid properties, the casing program. Two cases were investigated, the first case neglected the need for sand control and the second case included the lower completion. It was discovered that it was impossible to have the intelligent components below a gravel-pack packer due to the OD of these components. Therefore, the designs were slightly different with the difference being the position of the intelligent components. This implies that the annular capacity required to be filled up before reaching the ICV should be considered when lower completions are required.
+
+
+The annular clearance was found to be a challenge in this design. It was discovered that it is near impossible to have the two 3-1/2" strings, except the production casing is bigger than 9-5/8 or the lightest grade of this casing. This is due to the number of control lines required. Therefore, slightly lower production rates can be achieved from the zone producing through this string.
+
+
+In the design of the tubing, it was discovered that the calculations for the collapse ratings were slightly different than that from a single zone. Only the annulus above the dual packer will be full of brine during the producing life of the well, therefore the different densities of the fluids from the different zones were also used in the calculations. In this design, this led to lower values calculated. The calculation for the burst pressures didn’t change. The grades of the two strings were based on the string facing the worse conditions which was the long string. This is to prevent corrosion induced by using different materials.
+
+
+Different levels of intelligence were also discovered to be possible depending on the level of control desired. The more control desired, the more expensive the well becomes. In this design, it was decided that the short string didn’t need to be super intelligent as only remote pressure and temperature measurements were termed critical. Should water cut increase the subsea choke could be bean down to fix it.
+
+
+Also, the number of control lines required to be run is an important consideration. This affects the reliability of the completion and rig space required to handle them. and A maximum of 8 control lines would be required to control and or monitor the three zones. These can be reduced by utilizing more expensive technologies such as Schlumberger’s ManaraTM system. With this system only 3 lines will be required.
+
+
+Conclusions
+
+
+This project has taken the Dual string intelligent well completion strategy from idealization to conceptualization and has shown that this design is technically feasible. The well production and technical objectives were met. The proposed design solves some of the shortcomings of the dual string completion and that of intelligent completions. This design can enable simultaneous production of multiple zones where non-compatible zones exist. It will also minimize the need for any future well interventions. It concluded that the quality of the seals is crucial to ensure proper zonal isolation and more expensive technology are required to reduce the number of control lines required to be feed-through the packers to improve the reliability of the design. Also, it is very difficult to have two 3-1/2" tubing which are the maximum for a conventional dual string completion. This is due to clearance require to run the control lines. Therefore, proper casing design during the initial drilling design phase is required for this design to work. The tubing grade should be based on the highest reservoir pressures. Finally, the design can work for both completions requiring lower completions and those that don’t.
+
+
+Recommendations
+
+
+The success of this research was a result of the collaboration of Schlumberger Nigeria and several professionals with the Author. Industry-academia collaboration is crucial if novel ideas are to be tested. However, a lot more work is needed to be done to take this idea from conceptualization to implementation and here are some recommendations;
+
+
+Detailed design of ICVs/ICDs for dual string completion should be carried outStress and Load simulations of running the gravel pack assembly should be investigatedThe effect of deviation in the design of dual string intelligent completions should be investigatedEconomic analysis of this completion should be carried outDynamic reservoir simulation should be carried out to evaluate the ICV performance
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgments
+
+
+The authors wish to thank the Management and staffs of Schlumberger Nigeria, especially the completions team for the providing the facilities and support to carry out this research. In addition, he wishes to thank the professionals at TotalEnergies, Haliburton and Cyphercrescent that helped review several aspects of the project.
+
+
+References
+
+
+Adebayo, A., Kassim, H., Abiodun, L., Nwankwo, C., Ricky, I., & Magnus, N. (2017). Smart Well Completion Design using Feed-Through Swell Packers in a Gas Well: A Case Study. Society of Petroleum Engineers, SPE-189179-MS.Google Scholar Al-Ghareeb, Z. M. (2009). Monitoring And Control of Smart Wells. Stanford University.Google Scholar Bellarby, J. (2009). Well Completion Design. Aberdeen, UK: Elsevier.Google Scholar Bello, J. (2021, June1). Rethinking intelligent completions: the future is here. Retrieved from offshore-mag: https://www.offshore-mag.com/drilling-completion/article/14203049/weatherford-rethinking-intelligent-completions-the-future-is-hereGoogle Scholar Chew, C. L., Mohamed, Z. Z., Kew, H. C., & Jang, H. L. (2019). Hybrid Model for Determining Dual String Gas Lift Split Factor in Oil Producers. Energies, 12(12), 2284.Google Scholar Ding, Z. P., & Kenji, F. P. (2018). Modern Completion Technology for Oil and Gas Wells. New York, Chicago, San Francisco, Athens, London, Madrid, Mexico City, Milan, New Delhi, Singapore, Sydney, Toronto: McGraw-Hill Education.Google Scholar Silverwell. (2020). Case History: Dual String DIAL System Successfully Installed for Offshore South East Asia Operator. Retrieved from Silverwell Web site: https://www.silverwellenergy.com/case-histories/south-east-asia-offshore-dual-string-completionWan, R. (2011). Advanced Well Completion Engineering. USA: Gulf Professional Publishing.Google Scholar Gustavo, C., Marko, M., & Stan, C. (2018). Intelligent Digital Oil And Gas Fields Concepts, Collaboration, and Right-Time Decisions. Cambridge: Gulf Professional Publishing.Google Scholar Schlumberger. (2021, December24). Schlumberger Media. Retrieved from slb.com: https://www.slb.com/-/media/files/co/product-sheet/ultra-dual-packer-ps.ashxSchlumberger. (2021, December25). Metris. Retrieved from. slb.com: http://www.slb.com/metris
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211997-MS
+
+
+

@@ -1,0 +1,318 @@
+----- METADATA START -----
+Title: Flare Gas to Energy Using Hydrogen Fuel Cell Solid Oxide Fuel Cells: The Nigerian Perspective
+Authors: Chinenye Ezechi, Chukwuemeka Ndulue
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212036-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Energy must be available and affordable to attain energy security as it is fundamental to human and economic development which drives virtually every aspect of the world economy. Globally, the energy demand is increasing; however, the increase is more significant for the African continent due to increased population, industrialization, and economic development. As a proactive measure, technology to meet the demand is crucial to find, develop, process and produce this energy.One of the challenges of the African continent is gas flaring due to gas management solutions and cost-related issues. Based on the African Energy Portal, (Africa Energy Portal, 2020) Nigeria loses about $2.5 billion yearly from 178 flare sites (predominantly onshore sites) nationwide, ranking Nigeria the 7th country on the list of the most flared gas countries in the world. While this is a massive loss in revenue for the major stakeholders, it is also detrimental to public health.While there are other complementary technologies available to help utilize more flared gas, the hydrogen fuel cell has proven to be more instrumental in the quest for acleaner and sustainable energy. With Europe as a frontline adopter, the sustainable energy benefits of a hydrogen fuel cell can be seen in its continuous development, deployment, and utilization in most of its countries. Africa, especially Nigeria has the potential to reduce gas flaring by 70%, (Africa Energy Portal, 2020) via the deployment and usage of fuel cells technologies in the conversion and utilization of flared gas to clean hydrogen gas, which can serve as alternative energy used in a wide range of applications across multiple sectors.This paper focuses on the impact of gas flaring, and the application of evolving hydrogen fuel cell technology as a means of flare gas reduction and gas recovery through steam reforming of methane. It also discusses the constraints of implementing hydrogen fuel cells in Africa, using Nigeria's Oil and Gas Sector as a case study.
+
+
+
+
+Keywords:
+upstream oil & gas,
+electricity,
+united states government,
+hydrogen,
+international energy agency,
+air emission,
+north america government,
+solid oxide fuel cell,
+reaction,
+sofc
+
+
+Subjects: 
+Environment,
+Air emissions
+
+
+
+
+Introduction
+
+
+Globally, supplying hydrogen to industrial users has become a substantial business. Hydrogen demand, which has increased by more than threefold since 1975, continues to rise. The annual demand for hydrogen in its pure form is estimated to be around 70 million tonnes (MtH2/yr). This hydrogen is virtually completely derived from fossil fuels, with hydrogen production accounting for 6% of global natural gas and 2% of global coal. As a result, the production of hydrogen results in CO2 emissions of around 830 million tonnes per year (MtCO2/yr), which is roughly equal to the CO2 emissions of Indonesia and the United Kingdom combined. In terms of energy, annual global hydrogen consumption is roughly 330 million tonnes of oil equivalent (Mtoe), which is higher than the primary energy supply. (International Energy Agency, 2019)
+
+
+Figure 1View largeDownload slideGlobal annual demand for hydrogen since 1975Figure 1View largeDownload slideGlobal annual demand for hydrogen since 1975 Close modal
+
+
+The use of hydrogen fuel cell technology to generate electricity by processing flared gases in a Steam-Methane Reformer (SMR) has primarily been used in the United States, Europe, and Asia; however, we have yet to fully exploit this potential in Africa. (International Energy Agency, 2019).
+
+
+One of the most widely used methods for producing hydrogen is steam methane reforming. Because of the high purity value, cost-effectiveness, and traditional technology required to produce hydrogen, the discussion on its effective use in a fuel cell has become possible. SMR is the reaction of hydrocarbons (natural gas) with steam to produce hydrogen for use as a fuel.
+
+
+Fuel cell research has progressed, with a focus on increased working efficiency, resulting in a variety of fuel cells of various sizes, types, and specifications. The choice of electrolytes, which determines the fuel cell components, remains a major deciding factor. The type of impurity tolerance in the fuel supplied and the temperature at which they operate distinguish these fuel cells. This in-depth examination of the use of flared gas in a fuel cell will aid industry decision-makers and policymakers in determining appropriate countermeasures to reduce gas flaring and increase power generation.
+
+
+Gas Flaring
+
+
+The extraction of crude oil is a precise and potentially dangerous operation. It involves precise technology combined with experience and expertise developed over decades. Part of the current safety regime in the industry involves the burning of the associated gas from crude oil production and this has been practicedfor over 160 years.
+
+
+Flare gas refers to the gases disposed of and flared into the atmosphere, the gas is predominantly hydrocarbon gases that could contain Sulphide and Carbon dioxides as contaminants, hence the gas is treated before being releasedinto the atmosphere.
+
+
+In Nigeria, a country with significant gas flaring and limited energy access, oil producers flare between 7 and 8 billion cubic meters of gas per year.(The World Bank, 2020).
+
+
+Figure 2View largeDownload slideGlobal Gas Flaring and Oil ProductionFigure 2View largeDownload slideGlobal Gas Flaring and Oil Production Close modal
+
+
+Figure 3View largeDownload slideFlare gas by top 10 countries in the worldFigure 3View largeDownload slideFlare gas by top 10 countries in the world Close modal
+
+
+The flaring of the gases is done in controlled combustion via a flare stack that is elevated above the ground and situated at a safe distance from surface facilities and personnel. An alternative to flaring would be venting which is just the release of the hydrocarbon into the atmosphere, however, the flaring of gas effectively destroys the methane and volatile organic carbons (VOCs) in the gas stream (Anon., n.d.)
+
+
+The flaring of these gases is done in line with certain reasons that have supported the continued flaring of gases:
+
+
+–Safety: to prevent blowout and pressure-related risk from oil production, gas flaring allows the pressure conditions to be controlled during production.–Environmental Health: the contaminant gases in Natural gas like sulphides are not environmentally friendly gases and one of the ways to properly dispose of the gases would be burning them.–Economic: the cost of getting the associated gas captured and delivered to market via gas utilization processes could be significant, especially in remote oilfields where the volume and consistency of the gas produced are not significant to ensure economic viability–Regulations: in countries where there is a penalty for the amount of gas flared, some operators find it more economically viable to flare the gas than the cost of capturing and selling the gas
+
+
+With the need to reduce the pollution due to gas flaring several steps have been taken by regulators and governments worldwide to reduce the amount of gas being flared including and not limited to – gas capturing, reducing routine flaring, the incentive to employ gas utilization technology, gas flaring fines, gas flare metering.
+
+
+Being a global practice, the gas flaring activities in Nigeria and Africa is in line with the industry, however, the efforts to reduce the amount of gas flared is not on par, as step such as gas flare metering is not enacted on all oil production sites as at 2021. However, there are regulations in place to ensure flare gas metering.
+
+
+In 2018, the flare gas regulation was approved with objectives to reduce the environmental and social impact of gas flaring, reduce waste etc. In 2016, the Nigerian Gas Flare Commercialization program was launched to help eliminate gas flaring through technically and commercially sustainable gas utilization projects
+
+
+Nigerian National Petroleum Corporation (NNPC) –announced a three-point strategy to control gas flaring by 2020. The plan involves: (Anon., n.d.)
+
+
+–Making new oil and gas field development plans ineligible if they do not have a viable plan to utilize gas–Steady reduction of existing flares through a combination of targeted policy interventions–Re-invigoration of the flare penalty and new legislation which places a ban on gas flaring via Flare Gas (Prevention of Waste and Pollution) Regulations
+
+
+Figure 4View largeDownload slideNigeria Flare volumes versus flare intensity from 2012 to 2021.Figure 4View largeDownload slideNigeria Flare volumes versus flare intensity from 2012 to 2021. Close modal
+
+
+Methodology
+
+
+With the massive gas flaring that has been discussed, steam methane reformation can be used to extract the hydrogen content of the flared gas, and electricity can be generated using a hydrogen fuel cell. This process will be extensively discussed in this chapter to demonstrate the availability of technologies to reduce gas flaring and improve electricity supply.
+
+
+Steam-Methane Reformer (SMR) Technology
+
+
+Hydrogen can be gotten from a variety of sources, biomass, water, and hydrocarbons (fossil fuels). However, the challenge remains that it is closely bonded to other elements. Steam methane reforming like electrolyzing is one of the most extensively used methods to produce hydrogen, it's the process of producing hydrogen for fuel by the reaction of hydrocarbons (natural gas) with steam. Steam methane reforming is performed in a conventional reformer where it is made to go through a reaction with steam in the presence of intense heat, this is followed by two-staged water gas shift (WGS) reactors (high and low temperature), and finally through a hydrogen purification compartment.
+
+
+The typical process flow of a steam methane reforming process is shown below.
+
+
+Figure 5View largeDownload slideTypical Steam Reformation Flow ChartFigure 5View largeDownload slideTypical Steam Reformation Flow Chart Close modal
+
+
+In the steam methane reforming chamber, methane is made to react with high-temperature steam (700°C – 1000°C) under a pressure between 3 - 25 bar in the presence of a Ni-based catalyst to produce hydrogen and carbon monoxide. Basile et al. (2015). This reaction is largely endothermic, that is, heat must be applied to the process for the reaction to be complete.
+
+
+The below equations depict the chemical reactions that take place in the SMR chamber, and the amount of energy needed in the reaction.
+
+
+CH4+H2O+(Heat)⇌CO+3H2 ΔHSR=206  kJ/molCH4+2H2O⇌CO2+4H2 ΔHDSR=165 kJ/mol
+
+
+As seen in the above reaction, the product gives carbon monoxide which is relatively present in high quantity. Therefore, to eliminate this, a shift conversion chamber is introduced.
+
+
+CO+H2O⇌CO2+H2+(Heat) ΔHWGSR=−41  kJ/mol
+
+
+This helps to further break down the carbon monoxide and limits the number of toxins that are exposed to the environment and further generates more hydrogen for economic use.
+
+
+Pressure swing adsorption is a commonly used technique that helps generates high hydrogen purity. Pressure swing adsorption uses the principle of selective adsorption of impurities from the gas stream, this produces 70 – 85% of hydrogen from the stream with 99.99% purity. Basile et al. (2015).
+
+
+Fuel Cell Technology
+
+
+Just like any electrochemical cell, a fuel cell consists of an electrolytic membrane, anode, and cathode. During the operation of a typical fuel cell, hydrogen gas is fed from the reformer passing through the fuel cell's anode while oxygen goes in through the cathode. The catalyst utilized in the cell splits the hydrogen molecules at the anode into electrons and protons, the protons pass through the porous electrolyte membrane, while the electrons are forced through an electric circuit which leads to electric current generation and release of heat. After generating electric currents, the electrons meet the protons and oxygen at the cathode to generate water molecules as a by-product, the cycles go on till the fuel source is isolated.
+
+
+Figure 6View largeDownload slideTypical Reformer and Hydrogen Fuel Cell set-upFigure 6View largeDownload slideTypical Reformer and Hydrogen Fuel Cell set-up Close modal
+
+
+The basic chemical reaction is shown below.
+
+
+2H2+O2→2H2O+2e−
+
+
+Considering the operating and chemical philosophy, fuel cells are considered clean and carbon-free as their only byproducts are electricity, heat, and water. Fuel cells are expandable, they can be combined in stacks to form a larger system. There are currently different types of fuel cells varying in different sizes, types, and specifications. Presently, the key types of fuel cells are alkali, molten carbonate, phosphoric acid, proton exchange membrane, and solid oxide fuel cells.
+
+
+Each type of fuel cell has advantages and drawbacks compared to the others as shown below.
+
+
+Table 1Comparison Table for Fuel Cell Technologies Fuel Cell Type
+            . Operating Temperature
+            . Power
+            . Efficiency
+            . Applications
+            . Advantages
+            . Challenges
+            . Solid Oxide Fuel Cell (SOFC) 500 - 1000°C 1 kW - 2 MW 60% Auxiliary powerElectric utilityDistributed generation Hybrid/gas turbine cycleHigh efficiencyFuel flexibilitySolid electrolyteSuitable for CHP Corrosion and failure of cell components at high temperaturesLong start-up timeLimited number of shutdowns Alkaline Fuel Cell (AFC) <100°C 1 - 100 kW 60% MilitarySpaceBackup powerTransportation Wider range of stable materials allows lower-cost componentsLow temperatureQuick start-up Electrolyte management (aqueous)Electrolyte conductivityCO2 sensitivity in fuel and air (polymer) Proton Exchange Membrane Fuel Cell (PEM) <120°C <1 kW - 100 kW 60% direct H2; 40% reformed fuel Power source (backup)Power source (portable)Generation that is dispersedModes of transportationVehicles with specialized capabilities Solid electrolyte helps with corrosion and electrolyte control. Quick start-up and load followingLow temperature Sensitive to fuel impuritiesExpensive catalysts Phosphoric Acid Fuel Cell (PAFC) 150 - 200°C 5 - 400 kW, 100 kW module (liquid PAFC); <10 kW (polymer membrane) 40% Distributed generation Suitable for CHPIncreased tolerance to fuel impurities Expensive catalystsLong start-up timeSulfur sensitivity Molten Carbonate Fuel Cell (MCFC) 600 - 700°C 300 kW - 3 MW, 300 kW module 50% Electric utilityDistributed generation High efficiencyFuel flexibilitySuitable for CHPHybrid/gas turbine cycle High-temperature corrosion and breakdown of cell componentsLong start-up timeLow power density Fuel Cell Type
+            . Operating Temperature
+            . Power
+            . Efficiency
+            . Applications
+            . Advantages
+            . Challenges
+            . Solid Oxide Fuel Cell (SOFC) 500 - 1000°C 1 kW - 2 MW 60% Auxiliary powerElectric utilityDistributed generation Hybrid/gas turbine cycleHigh efficiencyFuel flexibilitySolid electrolyteSuitable for CHP Corrosion and failure of cell components at high temperaturesLong start-up timeLimited number of shutdowns Alkaline Fuel Cell (AFC) <100°C 1 - 100 kW 60% MilitarySpaceBackup powerTransportation Wider range of stable materials allows lower-cost componentsLow temperatureQuick start-up Electrolyte management (aqueous)Electrolyte conductivityCO2 sensitivity in fuel and air (polymer) Proton Exchange Membrane Fuel Cell (PEM) <120°C <1 kW - 100 kW 60% direct H2; 40% reformed fuel Power source (backup)Power source (portable)Generation that is dispersedModes of transportationVehicles with specialized capabilities Solid electrolyte helps with corrosion and electrolyte control. Quick start-up and load followingLow temperature Sensitive to fuel impuritiesExpensive catalysts Phosphoric Acid Fuel Cell (PAFC) 150 - 200°C 5 - 400 kW, 100 kW module (liquid PAFC); <10 kW (polymer membrane) 40% Distributed generation Suitable for CHPIncreased tolerance to fuel impurities Expensive catalystsLong start-up timeSulfur sensitivity Molten Carbonate Fuel Cell (MCFC) 600 - 700°C 300 kW - 3 MW, 300 kW module 50% Electric utilityDistributed generation High efficiencyFuel flexibilitySuitable for CHPHybrid/gas turbine cycle High-temperature corrosion and breakdown of cell componentsLong start-up timeLow power density Source: Felseghi, R.A. et al. (2019) View Large
+
+
+Solid Oxide Fuel Cell (SOFC)
+
+
+Solid oxide fuel cells amongst others are becoming a more appealing potential option as they promise to help people avoid pollution while also providing a clean and efficient power supply directly from flared gas. SOFC converts chemical energy to electrical energy directly from various gaseous fuels – hydrogen and hydrocarbons - via numerous electrochemical reactions with very low environmental emissions. This hydrogen gas can be produced from natural gas by internal or external steam reforming.
+
+
+SOFCs are composed of four layers, namely, anode, electrolyte, cathode, andinterconnect. Three of the four segments (anode, electrolyte, and cathode) are made of ceramics or solid materials, while the fourth (interconnect) is made of metal.
+
+
+The cathode is filled with air, and the cathode is filled with fuel. At the cathode, oxygen in the air is reduced by absorbing electrons and forming Oxygen gas. These oxygen ions diffuse to the anode via the electrolyte. As a result, when the fuels enter the anode, they absorb oxygen while releasing heat, water, and two electrons.These two electrons will travel to an external circuit to generate power before returning to the cathode. To generate electricity, these cycles will be repeated indefinitely, completing the SOFC circuit. (Afroze et al., 2020). Solid oxide fuel cells (SOFC) operate at a very high temperature, around 1000°C when compared to other fuel cells. This fuel cell has a 60 per cent efficiency, which is significantly higher than the current combustion engines used to generate electricity. With a power output of up to 2MW, it's an excellent choice for a modular power solution.The factors that distinguish this fuel cell from others are shown in the comparative table above.
+
+
+The schematics and working principles of a simple SOFC are depicted in the diagram below.
+
+
+Figure 7View largeDownload slideSchematic diagram of solid oxide fuel cellSource: Yadav and Singh, (2015) Figure 7View largeDownload slideSchematic diagram of solid oxide fuel cellSource: Yadav and Singh, (2015)  Close modal
+
+
+Case Study on Solid Oxide Fuel Cell (SOFC)
+
+
+Themodeling of integration of SOFCs into a flare system at a 2 billion standard cubic feet (bscf)natural gas processing plantfor both off-shore andon-shore applications by the Division of Sustainable Development, College of Science and Engineering, Hamad Bin Khalifa University, Qatar Foundation, Doha, Qatar shows a huge potential in solving the menace of flared gases.(Khalid A, et al 2021). The economic assessment, amount of power generated,the safety of the gas plant during operation and estimation of carbon dioxide equivalents achieved were also studied in the modeling.
+
+
+The study successfully modeled the integration of the flare system and the SOFC system to generate electricity using waste inert gas as a fuel in the SOFC system using on-shore and off-shore inert gas. Their goal was to recover as much on-shore flare gas as possible while also identifying bottlenecks in the system and re-modelling the ultimate flare gas recovery calculation model to address those bottlenecks. As a result, the design of the SOFC system was based on the flow of flare gas during normal plant operation.
+
+
+Figure 8View largeDownload slideSchematic diagram of solid oxide fuel cell with a flare systemFigure 8View largeDownload slideSchematic diagram of solid oxide fuel cell with a flare system Close modal
+
+
+From the model, all of the parameters of SOFCs were calculated and identified utilizing the mathematical setup that had been constructed (Steward et al., 2013). The engineering equation solver software was used to confirm the results. All the equations (Chemical equations, power equations, and energy balance calculations) used were from the fuel cell handbook, in addition to numerous sources (Colpan et al., 2007; Duan et al., 2011; Kabza, 2015; Pianko-oprych and Hosseini, 2017; Semelsberger and Borup, 2004). (Edition and Virginia, 2004).
+
+
+They recovered flare gas from all flare headers after the flare knock-out drums and before flare stacks on day-to-day plant on-shore and off-shore operations. The SOFC system generates electricity, and the exhaust gas from the SOFC is returned to the flare stack. In the event of an emergency, any inconveniences that result in a higher flare gas flow will skip the SOFC system, and flare gas will be sent to the flare stack according to the original design while meeting all safety requirements.After the modeling, the result shows that 20 megawatts of electricity were generated for the onshore plant after feeding the SOFC with 70% of flared gas and fueling with 3.5 million standard cubic feet(MMSCF) of inert gas, thus causing a significant reduction of CO2 equivalent per day from 263 tons to 101 tons. On the other hand, the offshore plant generates 600 kilowatts of electricity with the same amount of flare gas fueled with 105 thousand standard cubic feet (MSCF)of inert gas causing a reduction of CO2 equivalent per day from 9 tons to 3 tons.(Khalid A, et al 2021).
+
+
+The economic analysis of SOFC integration proves that USD 145 million investment will provide a positive net present value of USD 30 million and an internal rate of return of around 6% over 25 yearsindicating that system improvement is conceivable.Also, the financial outcomes with the flare system, as it is well known that the fuel is provided free of charge in this scenario. All economic criteria, such as (Net Present Value) NPV, (Internal rate of return) IRR, and (Return of investment) ROI, reveal that both locations are profitable. The Levelized cost of electricity(LCOE) is an important factor. For onshore operations, the LCOE is 0.03 USD/kWh, which is 50% less than the current pricing in Qatar. Similarly, the LCOE for off-shore operations is 0.20 USD/kWh, which is 50% less than the cost of power generated by off-shore diesel generators, which is around 0.41 USD/kWh. This costcovers the cost of diesel, as well as the cost of shipment and maintenance of the diesel generator. (Khalid A, et al 2021)
+
+
+Figure 9View largeDownload slideSchematic diagram of Onshore and offshore flaringFigure 9View largeDownload slideSchematic diagram of Onshore and offshore flaring Close modal
+
+
+Apart from the numerous fuel cell types and applications mentioned, the aforementioned case study on SOFC emphasizes the importance of the discussed solution in eliminating waste gas flaring and converting flared gas to electricity.
+
+
+Global Data Discussion
+
+
+Insights from the Global Use of the Fuel cell
+
+
+Figure 10View largeDownload slideShowing total Shipments by fuel cell type Source: Felseghi, R.A. et al. (2019) Figure 10View largeDownload slideShowing total Shipments by fuel cell type Source: Felseghi, R.A. et al. (2019)  Close modal
+
+
+According to figure 7, the number of units shipped for use in SOFC technology around the world increased significantly in 2016. Around 2700 units were reported in 2014; by 2018, there had been a significant increase, with 27,800 SOFC units shipped for use. In addition, there has been a significant increase in the supply of various types of fuel cells around the world, indicating the potential for the development and expansion of clean energy through hydrogen.
+
+
+Figure 11View largeDownload slideShowing total fuel cell installed capacity Source: Felseghi, R.A. et al. (2019) Figure 11View largeDownload slideShowing total fuel cell installed capacity Source: Felseghi, R.A. et al. (2019)  Close modal
+
+
+The graph depicts the global distribution of total megawatts generated by hydrogen fuel cells from 2014 to 2018, as reported. The trend shows that hydrogen fuel cells are gaining a lot of traction around the world. These units are designed to be able to replace the grid in areas where access to the grid and grid infrastructure is limited.
+
+
+Figure 12View largeDownload slideShowing a forecasted fuel cell growthFigure 12View largeDownload slideShowing a forecasted fuel cell growth Close modal
+
+
+The above graph was modelled using the growth rate of the last three years, based on data from the graph depicting fuel cell installed capacity. The forecasted growth of fuel cells in those years is expected to be progressive, assuming continued green energy activities. Even though Africa, which is classified as "Rest," is experiencing slow growth, the region's growth rate has a good chance of speeding up if the constraints identified in this paper are eventually explored and prioritized.
+
+
+Benefits of an Hydrogen Economy
+
+
+The hydrogen economy for some countries looks innumerable, while for some it continues to maintain and strengthen its mandate for energy security and active contribution to the world's fight against global warming. The benefits of the hydrogen economy can be broadly classified into three pillars, namely: environmental sustainability, energy security, and economic stimulation.
+
+
+Environmental Sustainability
+
+
+It is estimated that over the years, the planet's average surface temperature has increased by about 2 degrees Fahrenheit, a change which is largely due to increased carbon dioxide emissions in the atmosphere and other human activities on the planet. Emissions of greenhouse gases, such as carbon dioxide and methane, are considered a major global concern. Hydrogen fuel cells produce no harmful emissions, eliminating the costs associated with handling and storing hazardous materials such as battery acids or diesel fuel. When fueled with pure hydrogen, the only byproducts are heat and water, making our products a sustainable, zero-emission energy source. Efficient hydrogen production technologies and carbon capture and sequestration would make hydrogen from natural gas viable feedstock options, even in low-carbon environments.
+
+
+Energy Security
+
+
+For energy to be considered safe, it must be readily available and usable. Hydrogen is the most abundant element on earth, making it readily available for use through various extraction methods. For Africa, this would be a means of energy diversification as it has the largest non-energy population. This can help consolidate low-income economies into the world's high-income economies. Increasing energy independence will benefit many countries that are currently dependent on fossil fuel supplies, and it will solve the problem of increasing fossil fuel prices as supplies dry up. The production, storage, and use of hydrogen will be critical in the continued development of renewables, balancing their intermittent supply mode with stringent end-user demands and avoiding the need for significant network infrastructure modernization.
+
+
+Economic Stimulation
+
+
+Hydrogen presents a one-of-a-kind opportunity to dramatically improve the efficiency with which we produce and consume energy. We can also reduce the impact of external factors on energy prices because it can be produced from a variety of domestically available resources. New businesses will be sparked by the economic and technical success of hydrogen-based distributed energy systems. The development of hydrogen fuel cells will open new economic opportunities for the integrated production of energy services like electricity, transportation fuel, and cooking. When compared to batteries, hydrogen as a fuel has the advantage of a longer run time and faster recharging. Hydrogen has a lot of potential for spurring new economic growth in rural and urban areas that are currently too far away to attract investmentand have access to the national grid.
+
+
+Constraints to the Implementation of Hydrogen Fuel Cells in Africa
+
+
+As seen in this paper, there are a lot of advantages of switching to hydrogen for electrification and transportation. However, there poses a lot of challenges for this transition to be effectively achieved. The constraints can be grouped into the following.
+
+
+Technology and Infrastructure
+
+
+Infrastructure to extract, refine, transport, distribute, and store hydrogen is needed for hydrogen to be used with fuel cells, but this is lacking because the primary focus is on fossil fuels. Countries in Africa with abundant natural gas, such as Nigeria, have recently invested in natural gas networks; however, for hydrogen to be used, envisioned technology for the seamless introduction of hydrogen into existing transmission and distribution natural gas networks must be in place. Unfortunately, this is not the case.
+
+
+Policies and Government Support
+
+
+Green technologies would thrive largely as a result of government support and policies enacted to encourage their development. However, due to the slow growth and adoption of hydrogen technology in Africa, as well as the need for African countries to accelerate their economic growth, the use of flared gas has received less attention. Policies and initiatives to encourage hydrogen development and fuel cell adoption should be implemented, as this will help to attract investment and grow the economy indirectly.
+
+
+Initial High Cost
+
+
+As it is with new development in technologies, fuel cell technology adoption in Africa would be faced with high production costs of hydrogen, high production costs of the fuel cell, high initial investment installation costs, high production costs of systems based on hydrogen fuel cell technologies, the high price of energy generated by hydrogen-based energy systems, high costs for hydrogen storage and, high costs for adaptation of the hydrogen economy.
+
+
+Conclusion and Recommendation
+
+
+This paper has gone into detail about the issues of natural gas flaring in Africa. It has also been demonstrated that, despite Africa's abundant natural resources, we still suffer from under-electrification and low economic growth. As a result, this paper has dissected the possibilities of steam reforming to produce hydrogen and its use in a fuel cell to generate electricity. The benefits and drawbacks of this technology have also been investigated, revealing that much work remains to be done to bring Africa up to speed with other nations in the pursuit of a hydrogen economy.
+
+
+Fuel cell technology is in an advanced stage of development, as shown, and has already been developed around the world. Significant total energy bill reductions can be gained if SOFCs and flares are integrated into all gas plants in Nigeria while maintaining safety measures. It also reduces electricity imports from the national grid, minimizing grid dependency and emissions from these facilities.Finally, widespread adoption of SOFC technology in a variety of oil/gas industry applications is expected to improve system efficiency and result in significant emissions reductions.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Africa Energy Portal, 2020. "Gas Flaring Nigeria Loses $2.5bn yearly". [Online] Available at: https://africa-energy-portal.org/news/gas-flaring-nigeria-loses-25bn-yearly [Accessed 2022].Afroze, S.et al.  (2020) "Solid oxide fuel cell (SOFC); "A new approach of energy generation during the pandemic COVID-19," International journal of integrated engineering, 12(05). DOI: 10.30880/ijie.2020.12.05.031.Google Scholar Basile, A., Liguori, S. and Iulianelli, A. (2015) "Membrane reactors for methane steam reforming (MSR)," in Membrane Reactors for Energy Applications and Basic Chemical Production. Elsevier, pp. 31–59.Google ScholarCrossrefSearch ADS  Colpan, C.O., Dincer, I., Hamdullahpur, F., 2007. "Thermodynamic modeling of direct internal reforming solid oxide fuel cells operating with syngas". 32, pp. 787–795. http://dx.doi.org/10.1016/j.ijhydene.2006.10.059.Google Scholar Control Global, n.d. Ultrasonic Flowmeter. [Online] Available at: https://www.controlglobal.com/articles/2018/why-and-how-to-use-ultrasonic-flowmeters-for-flare-flow-metering/Department of Petroleum Resources, 2018. Guidelines For Flare Gas Measurement…, s.l.: s.n.Fleunta, 2019. Gas flaring in Nigeria- A new strategy. [Online] Available at: https://www.fluenta.com/gas-flaring-in-nigeria-a-new-strategy/ [Accessed March 2022].Fonseca, A. and Assaf, E. M. (2005) "Production of the hydrogen by methane steam reforming over nickel catalysts prepared from hydrotalcite precursors," Journal of power sources, 142(1–2), pp. 154–159. DOI: 10.1016/j.jpowsour.2004.09.026.Google Scholar Fuelcelltoday.com. (2022). "Fuel cell applications - fuel cell today" Available at: http://www.fuelcelltoday.com/applications (Accessed: April2, 2022).International Energy Agency, 2019. "The Future of Hydrogen", International Energy Agency.International Energy Agency, 2019. "Africa Energy Outlook 2019" -Analysis, S.L.: International Energy Agency.Environmental Protection Agency, 2019. Flare Cost Manual, s.l.: Environmental Protection Agency.Earnest Garrison (n.d) "Solid Oxide Fuel Cells" Iit.edu. Available at: https://mypages.iit.edu/~smart/garrear/fuelcells.htm (Accessed: March29, 2022).Felseghi, R.A.et al.  (2019) "Hydrogen fuel cell technology for the sustainable future of stationary applications," Energies, 12(23), p. 4593. DOI: 10.3390/en12234593.Google ScholarCrossrefSearch ADS  International Energy Agency, 2019. Nigeria Energy Outlook,S.L.: International Energy Agency.Kalamaras, C. M. and Efstathiou, A. M. (2013) "Hydrogen production technologies: Current state and future developments," Conference Papers in Energy, 2013, pp. 1–9. DOI: 10.1155/2013/690627.Google Scholar Khalid, A., Yusuf, B., Muhammad, I.A., Muammer, K.2021. "Emission reduction utilizing solid oxide fuel cells at a natural gas processing plant". Elsevier.Google Scholar Levorsen, A. I., 2001. "The Reservoir Rock". In: Geology of Petroleum". 1st ed. S.L.: AAPG SPECIAL PUBLICATION, pp. 52–56.Google ScholarCrossrefSearch ADS  Nnpc, N.D.Industry History. [Online] Available At: Nnpcgroup.Com/Nnpc-Business/Business-Information/Pages/Industry-History.Aspx [Accessed March2022].Google Scholar National Renewable Energy Laboratory, 2010. "1–10 kW Stationary Combined Heat and Power Systems Status and Technical Potential". https://www.nrel.gov/docs/fy10osti/48265.pdfNAPIMS, 2004-2021. Gas utilisation. [Online] https://www.napims.com/gasutilisation.html [Accessed March2022].Ppra, 2008. Nigeria Gas Master Plan. [Online] Https://Pppra.Gov.Ng/Wp-Content/Uploads/2014/11/New-Nigeria-Gas-Master-Plan.Pdf [Accessed 2022].Rhodes, C.et al.  (2002) "Promotion of Fe3O4/Cr2O3 high-temperature water gas shift catalyst," Catalysis Communications, 3(8), pp. 381–384.Google ScholarCrossrefSearch ADS  Rit.edu. (2020). "What is green hydrogen energy?" Available at: https://www.rit.edu/sustainabilityinstitute/blog/what-green-hydrogen-energy (Accessed: April9, 2022).Statista (2020) "Fuel cell shipments globally by application 2019". https://www.statista.com/statistics/732220/shipments-of-fuel-cells-worldwide-by-application/ (Accessed: April2, 2022).Steward, D., Penev, M., Saur, G., Becker, W., Zuboy, J., 2013. "Fuel cell power model version 2: Startup guide, system designs, and case studies". In: Modeling Electricity, Heat, and Hydrogen Generation from Fuel Cell-Based.Google Scholar The World Bank (2020) Global Gas Flaring Tracker Report. Available at: https://pubdocs.worldbank.org/en/503141595343850009/WB-GGFR-Report-July2020.pdf (Accessed: May30, 2022).U.S Department of Energy- Energy.gov, 2022. "Hydrogen production: Natural gas reforming". Available at: https://www.energy.gov/eere/fuelcells/hydrogen-production-natural-gas-reforming (Accessed: March29, 2022).U.S. Energy Information Administration (EIA) (2022) Eia.gov. "Use of hydrogen" - Available at: https://www.eia.gov/energyexplained/hydrogen/use-of-hydrogen.php (Accessed: March29, 2022).Vassiliou, M. S., 2018. "Historical Dictionary Of The Petroleum Industry". 2nd Ed. S.L.: Lanham: Rowman & Littlefield.World Bank, 2020. "Global Gas Flaring Reduction Partnership (GGFR)", https://www.worldbank.org/en/programs/gasflaringreduction/gas-flaring-explainedYadav, S. and Singh, M. K. (2015) "Modelling of Solid Oxide Fuel Cell - A Review," International Journal of Scientific & Engineering Research, 6(4).Google Scholar World Bank, 2021. "Global Gas Flaring Reduction Partnership (GGFR)"Worldbank, 2022. "2022 Global Gas Flaring Tracker Report", https://thedocs.worldbank.org/en/doc/1692f2ba2bd6408db82db9eb3894a789-0400072022/original/2022-Global-Gas-Flaring-Tracker-Report.pdf
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212036-MS
+
+
+

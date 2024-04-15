@@ -1,0 +1,248 @@
+----- METADATA START -----
+Title: The Diagnostics and Recompletion Strategy of a Well with Sustained Casing Pressure
+Authors: Chidi Elendu, Nnaemeka Nwamara, Chidubem Alinnor, Henry Enekhai, Ihechi Ojukwu, James Ayoo, Olugbenga Abolarin
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211908-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Well sustained casing pressure signifies failure in the barrier envelop of any well and results in situations where pressure is observed or recorded in the annuli of a well and this pressure usually rebounds after bleed down. This phenomenon is a precursor to environmental and safety risk to the global oil and gas industry and presents a challenging situation that requires monitoring to understand the severity and management strategy. It is assessed to be a well integrity issue due to noncompliance to well barrier concept. It has become increasingly critical to address wells with sustained casing pressure (SCP) in view of the regulations guiding the industry and the operating environment which is experiencing an escalation of third-party activities. A bridge of well safety portends serious safety, health, environmental, operational, and integrity risks. Well PO-21 was completed as a single string, horizontal completion in the Q-10/PO-20 reservoir in 2004. Although, the well exceeded the production targets, it was subsequently shut-in in 2007 due to SCP. The initial well work attempts were carried out but were ineffective in resolving the SCP concerns: the well works carried out to isolate the casing pressure include tubing hole finding and setting of pack-off to isolate the holes. These activities could not resolve the sustained casing pressure issues with the well until a comprehensive analysis of the well, using a production logging tool comprising of noise and temperature log was deployed which gave a better understanding of the challenges of the well. A Major Rig Work Over (MRWO) was subsequently carried out on well and production was restored.The well has continued to produce. This paper sets out to explore the holistic study of well PO-21: the initial well construction – drilling (casing, cementing, etc.,) and completion (lower and upper) design and operations. It will also showcase the production and nature of the problem observed during the production, the evaluations, and diagnostics carried out to isolate the source of SCP. The step-by-step solution approach in eliminating possible sources will be discussed based on the identified issues with the well using acquired data. The paper will also focus on the MRWO operations, and the several challenging situations encountered which necessitated a management of change from the planned recompletion strategy in response to the observed well condition. The well was successfully recompleted with no loss of containment and several lessons were learnt.
+
+
+
+
+Keywords:
+well integrity,
+upstream oil & gas,
+completion equipment,
+well intervention,
+wellbore integrity,
+casing design,
+sustained casing pressure,
+production enhancement,
+completion installation and operations,
+po-21
+
+
+Subjects: 
+Wellbore Design,
+Casing and Cementing,
+Wellbore integrity,
+Casing design,
+Completion Selection and Design,
+Completion Installation and Operations,
+Well Integrity,
+Well Intervention,
+Completion equipment
+
+
+
+
+Introduction
+
+
+Several articles and studies had explored sustained casing pressure in the light of causes, concerns and impacts to the well and the environment [1], [2], [3]. The indicators point to the migration of formation fluids to the upper wellhead section especially in the annulus that are designed not to have pressure in excess of certain values. The cement – casing interface has been identified as the nucleating site for the pressure transmission especially in the uncemented or contaminated cement section that requires adequate zonal isolation [3] [4]. The prolonged build-up of pressure in the casing annulus will summarily lead to well integrity concerns like surface or underground blowout. The weak bond strength between the casing and cement interface or the cement and formation interface was identified as been contributory to some of the identified SCP cases [5] [6] [7]. Also, thermal and pressure cycles which the wells were subjected to during production, shut-in, injection, stimulation operations, etc., contributed to the exacerbation of the SCP pressure levels [8] [9].
+
+
+Sustained casing pressure for the inner annulus (A-annulus) is diagnosed to have resulted from leaks due to tubing connections and packers not sealing properly, other factors are corrosion and stresses on the tubular goods [10]. The outer annulus SCP is majorly observed to be caused by the failure of the casing interfacing the A-annulus or compromised cement across the annulus. The API RP-90 stipulates the regular (at least once every six months [11]) diagnostic testing of wells with SCP to monitor and appropriately evaluate the severity of the situation with a view to adequately addressing it before it escalates to dangerous levels. The pressure-balance analytical approach for the determination of the two types of the gas pressure behaviors for gas wells with SCP when there is tubing leak was proposed by [12] for leakage point. This model considers the tubing and annulus temperature and pressure responses of the contained fluid to evaluate and determine the leakage point in the tubing. The investigation of the impact of corrosion of casing as contributory to SCP due to leakage along the wellbore interfaces by [13] applies to well PO-21 as will be elaborated in subsequent discussions on this paper.
+
+
+Fields and Well Overview
+
+
+PO field is located offshore Niger Delta in the continental shelf at water depths of ∼150ft. It was discovered in 1976 through PO-02 well. There are eleven oil and gas reservoirs discovered in the field with a total of 17 wellbores drilled and six well bores completed as oil producers together with two water injectors to provide pressure support. The wells were designed as horizontal completion with three casing strings (30" casing, 9-5/8" casing and 7" casing), 6" open hole lateral and subsequently completed with 3-1/2" tubing. The reservoirs are of the late Miocene to middle Pliocene age disctributed across 5 sand series ranging from depth of 3,400ft to 9,300ft-TVDSS.
+
+
+Well PO-21 was drilled and completed in the D-10 sand in 2004. The Type Log (see Figure 1) shows that the reservoir sand penetrated by PO-21 is comprised of clean shoreface sand, with a gross sand thickness ranging from 302 – 391 ft-TVD, with oil and gas column of 129 ft and 200 ft respectively. The average permeability is approximately 540 millidarcies while the porosity, Sw and NTG are 27%, 22% and 0.93 respectively.
+
+
+It was put on production in the first quarter of 2005 and produced till the third quarter of 2007 when it was shut in due to SCP in the "A"-annulus. Attempts were made in 2007 and 2016 to identify and fix the leak points in the tubing but were unsuccessful. In 2018, further diagnostics using temperature and noise logs were conducted which identified multiple leak points in the tubing raning from depths of 1,230 ft to 4,038 ft
+
+
+Figure 1View largeDownload slideReservoir sand type logFigure 1View largeDownload slideReservoir sand type log Close modal
+
+
+Initial Drilling and Completion Operation
+
+
+The PO-21 well was designed as a single openhole horizontal standalone completion with three casing strings (30" structural casing, 9-5/8" surface casing and 7" production casing) and 3-1/2" production tubing, as shown in Figure 2.
+
+
+Figure 2View largeDownload slideInitial completion schematicFigure 2View largeDownload slideInitial completion schematic Close modal
+
+
+The full details of the final hole section depths, casing details, mud types and cement systems are as shown on Table 1.
+
+
+Table 1Hole section description   View Large
+
+
+Tubing and packer accessories were ran and tested to 3500 psi for 20 minutes with little or no leak.
+
+
+The completion materials selection was based on the following time-tested strategy for the Global operations.
+
+
+Ensure well availability throughout the forecasted well lifeAvoid costly workoversMaximize value creation and productivityFollow the Global Material Selection Guidelines
+
+
+To ensure that each field are completed with the right material to meet the service life, the following basic information were used for the materials used: temperature, pressure, fluids type and composition, PVT properties, presence of H2S or CO2, water chemistry, service conditions and offset well data.
+
+
+Well Diagnostic Operation and Production Test
+
+
+The first disgnostic work to identify leaks in tubing was performed in 2007. This involved swapping out the Gas Lift Dummy valves and carrying out a tubing pressure test after which the casing pressure persisted. A ponytail was then used to identify a leak at 1,262ft. The suspected leak was isolated using a pack-off assembly in tubing. However, the casing pressure persisted. In 2016 a circulating plug was used to narrow down possible leaks in the tubing to within 5ft (1,260 – 1265' ft). A 20ft Pack-Off Assembly was then set across the suspected leak section. Again, the casing pressure persisted. This provided the understanding that perhaps there were multiple leak points in the tubing including a possible Production Packer leak. Hence a different approach had to be taken to identify the leaks and profer solutions to bring the well back on production. In 2018, SCP investigation was carried out using a Production Logging Tool (PLT). The PLT included pressure, temperature, spinner, and noise logs. A combination of the noise and temperature signatures proved valuable in identifying 5 possible leak points (1,230 ft, 2,725 ft, 3,690 ft, 3,739 ft and 4,038 ft) in the tubing as shown in both the diagnostic plots (see Figure 3) and the pre-MRWO schematic, Figure 4, below.
+
+
+Figure 3View largeDownload slideDiagnostic plotFigure 3View largeDownload slideDiagnostic plot Close modal
+
+
+Figure 4View largeDownload slidePO-21 Schematic Pre-MRWO showing Identified location of Leaks using PLTFigure 4View largeDownload slidePO-21 Schematic Pre-MRWO showing Identified location of Leaks using PLT Close modal
+
+
+Prior to running the PLT, the well was tested for over 2 days to determine it's producibility as it has been shut in since 2007 with other wells producing in the same reservoir. Results showed ∼1,400BOPD at 0.05% BS&W. This result validated reservoir simulation studies and showed it would be economic to proceed with a MRWO. Prior to shut-in of the well in November 2007, the well had made a cumulative production of 0.85 mmbo, 3.14 bcf and 2.32 mbw.
+
+
+Table 2Well test result   View Large
+
+
+Well Preparation and Retrieval Operation
+
+
+The MRWO was planned to ensure that the economics of the objective was met without any safety concerns. The objective was was to pull the existing compromised upper completion in the well and recomplete the well with 3-1/2" L-80 alloy tubing and upper completion accessories.
+
+
+The scope of work and the high-level procedures covering the MRWO operations are:
+
+
+Skid rig to PO-21Check well head pressure and monitor for losses (the well was killed by the production engineering team prior to rig move)Install BPV and close the SCSSV, to nipple down the production tree.Nipple up the BOP and test same.POOH upper completionBarriers prorior to pulling the completion:tubing – SCSSV and BPVAnnulus – only one barrier (tubing hanger/casing valve)RIH scrapers, clean and circulate well with completion brineMU and RIH with 3-1/2" tubing and accessoriesRU slickline and install tubing plug. Install BPVNipple down BOP, install and test production treeMove rig
+
+
+The actual well work differed significantly from the planned (above high-level procedure). The rig arrived on location in readiness to execute the well work: pull the upper completion and recomplete. The tubing hanger was released while attempting to pull the upper completion free from the lower completion. There was an indication that the tubing had parted downhole with 85klbs weight drop indication on surface while pulling the upper completion. The retrieved tubing showed holes on some tubing joints, and multiple holes with significantly deteriorated condition on the parted joint, Figure 5. All pulled tubing were tested for naturally occurring radioactive materials (NORM), and the joints that indicated presence of NORM were isolated and shipped according to safe handling guidelines.
+
+
+Figure 5View largeDownload slidePulled tubing conditionsFigure 5View largeDownload slidePulled tubing conditions Close modal
+
+
+As a result of the parted tubing, a fishing program was developed to retrieve the remaining tubing left in hole. A mechanical pipe cutter was deployed into the tubing and a cut initiated above the XN nipple landing (with tubing plug installed). This was done to avoid parting the tubing while retrieving since the tubing already showed signs of deteriorated conditions. The cut tubing was successfully retrieved. A complement of fishing BHAs were run to retrieve the remaining tubing sections in the lower completion packer. Once the completion seals were pulled from the lower completion packer the well immediately encountered total losses at the rate of 270 bph. To arrest the losses, lost circulation pill train comprising of hi-vis pill and sized calcium carbonate was pumped to slow the losses and stabilized the loss rate at 6 bph, this is within the acceptable range to continue completion operations.
+
+
+As a result of the conditions of the pulled tubings, the team made the decision to ascertain the condition of the wellbore (production casing). Baker-GE MIT/MTT tool (Multifinger Imaging Tool/Magnetic Thickness Tool) were deployed downhole to log the casing. The logs showed moderate to severe corrosion within the section 3,656 to 3,778 ft-md and a 2" hole at 3,732 ft-md, as highlighted Table 3 and shown in Figure 6. Subsequently, the Hallibuirton RTTS packer was run in conjunction with a Halliburton Straight Shear plug installed in the packer and the casing was pressure tested at intervals to confirm the good sections using the logged data as a reference guide.
+
+
+Table 3Snapshot of caliper log   View Large
+
+
+Figure 6View largeDownload slideImage log of the suspected sectionFigure 6View largeDownload slideImage log of the suspected section Close modal
+
+
+Recompletion Strategy
+
+
+The set of well works following the retrieval operation led the team to evaluate several completion options. Since there were no clear indications for the hole found in the production casing, the team surmised that the use of 3-1/2" blast joint made of 13 chrome alloy will be able to serve the production tubing purpose. While following the Global Tubing Material Selection guide which is patherned after API 5CT/ISO 11960 CS & LAS used in accordance with NACE MR0175, it showed that regular alloy steel was good for the tubing material. There are six wells completed in the PO/020 sand, all the wells were completed with Carbon steel L-80 without any corrosion experienced as was the case on well PO-21. The tubing design was futher evaluated based on the selection criteria: Corrosion Evaluation (temperature: <250°F
+
+
+PH level: 7-8, CO2/H2S ratio: ∼33,842) and Environmental Cracking Evaluation (H2S partial pressure: 0.0017435 psi (sour service application is for > 0.05 psia)) confirmed the suitability of carbon steel alloy tubing as shown in Figure 7 and Table 4.
+
+
+Figure 7View largeDownload slideCorrosion Evaluation chart of carbon and low alloy steel OCTGFigure 7View largeDownload slideCorrosion Evaluation chart of carbon and low alloy steel OCTG Close modal
+
+
+Table 4Tubing guide based on temperature   View Large
+
+
+Tubing design with WellCat showed that the tubing and all upper completion equipment is within the design limits for all load cases analyzed, as shown in Figure 8 and Figure 9. The load cases evalauted were steady state production, pressure test, full evacuation (cold & hot), overpull, running string, injection, tubing leak, shut in and well kill operation.
+
+
+Figure 8View largeDownload slideTubing design limit plotFigure 8View largeDownload slideTubing design limit plot Close modal
+
+
+Figure 9View largeDownload slidePacker envelope plotFigure 9View largeDownload slidePacker envelope plot Close modal
+
+
+To safeguard the wellbore, cement squeeze job was performed across the damaged section of the casing and the casing cleaned out afterwards using a wellbore clean out assembly. The well was subsequently recompleted using two Halliburton RH packers in the upper completion to straddle across the compromised section of the casing that was squeezed, see Figure 10. The packers were tested and well was put back on production.
+
+
+Figure 10View largeDownload slideFinal recompletion schematicFigure 10View largeDownload slideFinal recompletion schematic Close modal
+
+
+Post-Intervention Production
+
+
+The well was tested on various choke sizes and produced at rates up to 2,850 BOPD as shown in Figure 11, with casing pressures of 0 psi. It continues to produce today with CHP of 0 psi which is a validation of the success of the well work.
+
+
+Figure 11View largeDownload slideWell test – predicted vs actualFigure 11View largeDownload slideWell test – predicted vs actual Close modal
+
+
+The well test performed on well PO-21 a year after the intervention recorded the following: 1,872 BOPD @ 1.5% BS&W, 1,825 scf/stb GOR at THP/FLP of 1,450/240 psig on choke 26/64".
+
+
+Lessons Learnt
+
+
+Good MRWO pre-work and diagnostic activities was carried out pre-rig move. This significantly reduced the uncertainty and increased the confidence in the subsurface outcome for the PO-21. Additionally, the use of CT barge to clean-out the tubing ahead of the rig move resulted in significant cost savings and ensured the do-ability of the job prior to mobilization.
+
+
+Extensive prework was done towards selecting appropriate tubulars. This eliminated the need for chrome tubulars which would have delayed execution by 18-24 months.
+
+
+The intervention on PO-21 was a batch operation in conjunction with PO-60, the synergy brought significant savings, both opportunities were accelerated after rig schedule optimization. Majority of the value creation stemmed from one time mobilization of the various required well work equipment and the rig.
+
+
+Discretionary effort was put in by the team to ensure the reuse of PO-21 production tree ensuring the start-up of the well 5 weeks ahead of plan leading to approximately $5MM in value from early production and savings from the tree reuse.
+
+
+Low Alloy Carbon Steel (L80) was recommended for oil production, this is the standard material for most of the oil well production operation in the Niger Delta. If the well will be utilized for gas production, the presence of condensed water and relatively high CO2 partial pressure may necessitate the need for L80 -13Cr tubing and completion equipment (including packers, nipples, SCSSV and tubing hanger).
+
+
+Successful execution of both wells increased production from the field by over 300% and reduced LPO.
+
+
+Conclusions
+
+
+PO-21 MRWO was a best in class well work that restored an over a decade idle well back on production. The successes recorded were due to the "one team" efforts of the multi-functional team in ensuring that the value based well objectives were framed and focused on as a team.
+
+
+The timely resolution of the sustained casing pressure on well PO-21 brought about the well incremental production of over 300 bopd compared to the target and five months ahead of schedule.
+
+
+The cement squeeze operation was not part of the intervention considerations rather was borne out of the results from the MIT/MTT logs in order to mitigate the impact of the hole in the casing.
+
+
+The use of appropriate tools and technologies (in this case MIT/MTT) facilitated quicker evaluation of the challenges experienced on the well, hence enabling faster decision making on the right solution to adopt.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgements
+
+
+The author appreciates the support of the concessionaires and project participants throughout the project and for permission to publish this paper.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion bcfbillion cubic feet BHAbottom hole assembly BOPblow out preventer BOPDbarrel of oil per day bphbarrel per hour BPVback pressure valve BS&Wbasic sediment and water CSGcasing CTcoiled tubing deg Fdegree Fahrenheit FLPflowing line pressure ftfeet GLMgas lift mandrel GORgas oil ratio IPinitial production kbkelly bushing lb/ftpound per feet LPOloss production opportunity MDmeasured depth MITmulti-finger imaging tool MMSTBOmillion standard tank barrel of oil MRWOmajor rig workover MTTmagnetic thickness tool MUmake up NACENational Association of Corrosion Engineers International NRWOnon-rig workover NTGnet to gross PLTproduction logging tool POOHpull out of hole ppgpound per gallon psipound per square inche PVTpressure volume temperature RIHrun in hole RUrig up scf/bblstandard cubic feet/barrel SCPsustained casing pressure SCSSVsurface controlled subsurface valve THPtubing head pressure TOCtop of cement TVDtrue vertical depth TVDSStrue vertical depth subsea
+
+
+References
+
+
+G.Lackey and H.Rajaram, "Modeling Gas Migration, Sustained Casing Pressure, andSurface Casing Vent Flow in Onshore Oil and Gas Wells," Water Resources Research, vol. 55, no. 1, pp. 298 – 323, January2019.Google ScholarCrossrefSearch ADS  T.Heinold, D. S.Porte, U.Qasmi and S.Taoutaou, "A Step Change in Cementing Mitigating Sustained Casing Pressure," in e SPE Annual Technical Conference & Exhibition, Denver, 2020.Google Scholar A. W.Mwang'ande, H.Liao and L.Zeng, "Management of Sustained Casing Pressure in Offshore Gas Wells by a Novel Casing-Surface Design that Suppress Gas Migration at the Casing-Cement Interface," in SPE Gas & Oil Technology Showcase and Conference, Dubai, 2019.Google Scholar I.Kurawle, A.Dieker, A.Soltero and S.Nafikova, "Mitigating Well Construction Challenges of a Caspian Deepwater Exploratory Well: A Cementing Perspective," in SPE Annual Caspian Technical Conference, Virtual, 2021.Google Scholar T.Rocha-Valadez, A. R.Hasan and C. K. S.Mannan, "Assessing Wellbore Integrity in Sustained-Casing-Pressure Annulus," SPE Drilling & Completion, vol. 29, no. 01, pp. 131 – 138, 2014.Google ScholarCrossrefSearch ADS  A.Haastrup, A.Adeyinka, O.Ajakaiye, O.Fatile, S.Aina, O.Adegoke and S.Aliyev, "Sustaining Production in Brownfield Assets by Adapting Existing Rigless Workover Technology to Create Well-Specific Solutions," Lagos, 2020.Google Scholar F. S.Ezani, M.Thuzar, A. K.Kumar and C. H.Lau, "Prevention of Historically Challenging Sustained Casing Pressure from Shallow Gas Through Re-Engineered Cement Design and Execution Methodology," in International Petroleum Technology Conference, 2021.Google Scholar Institute, American Petroleum, API REcommended Practice 90, 1 ed., na: American Petroleum Institute, 2006, p. 16.S.Wu, L.Zhang, J.Fan, X.Zhang, D.Liua and D.Wang, "A leakage diagnosis testing model for gas wells with sustained casing pressure from offshore platform," Journal of Natural Gas Science and Engineering, vol. 55, no. July2018, pp. 276 – 287, 2018.Google ScholarCrossrefSearch ADS  I.Anwar, K.Chojnicki, G.Bettin, M.RedaTaha and J. C.Stormont, "Characterization of wellbore casing corrosion product as a permeable porous medium," Journal of Petroleum Science and Engineering, vol. 180, no. September2019, pp. 982 – 993, 2019.Google ScholarCrossrefSearch ADS  S.Nafikova, A.Bugrayev, S.Taoutaou, G.Baygeldiyev, I.Akhmetzianov, G.Gurbanov and I.Eliwa, "Elimination of the Sustained Casing Pressure using Self-Healing Cement in Turkmenistan Section of the Caspian Sea," in SPE Annual Technical Conference and Exhibition, Calgary, 2019.Google Scholar Y.Wang, D.Gao, J.Wang and C.Meng, "Study on the Integrity Assessment and the Prevention Measures for High Temperature and High Pressure HT&HP Wellbores," in Offshore Technology Conference, Houston, 2020.Google Scholar M.Attard, "The Occurrence of Annulus Pressures in the North West Hutton Field: Problems and Solutions," in SPE Offshore Europe, Aberdeen, United Kingdom, Aberdeen, 1991.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211908-MS
+
+
+

@@ -1,0 +1,222 @@
+----- METADATA START -----
+Title: Condensate Well Production Optimisation in Oredo Field Using Simulated Surface Proportional Integral Derivative Controller, Downhole Transmitter and Wellhead/Bottomhole Chokes
+Authors: Joshua Dala, Lateef Akanji, Kelani Bello, Olalekan Olafuyi, Prashant Jadhawar
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212047-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+A method of optimising gas production from condensate well in Oredo field by simulating surface proportional integral derivative controller, downhole transmitter, wellhead and bottomhole chokes is presented. This method overcomes the potential risk of high backpressure imposed on the production tubing by manual choking or other control solutions using wellhead valve. Firstly, a model of Oredo well O7 is constructed with a closed node constituting the reservoir unit and a surface pressure node on the wellhead. An automated pressure integral derivative controller that senses and controls the bottomhole flowing pressure by actuating the wellhead choke is then installed at the wellhead. Measurement input to the auto-controller is delivered via an insitu transmitter. This design approach is successfully applied to the well O7 model through a commercial multiphase simulator on well models and provides a condensate banking monitoring mechanisms with improved production output.
+
+
+
+
+Keywords:
+drillstem/well testing,
+upstream oil & gas,
+drillstem testing,
+artificial intelligence,
+complex reservoir,
+controller,
+production logging,
+production control,
+bottomhole,
+surface proportional integral derivative controller
+
+
+Subjects: 
+Well & Reservoir Surveillance and Monitoring,
+Reservoir Simulation,
+Formation Evaluation & Management,
+Unconventional and Complex Reservoirs,
+Production logging,
+Drillstem/well testing,
+Completion Selection and Design,
+Completion Installation and Operations,
+Completion equipment,
+Gas-condensate reservoirs
+
+
+
+
+Introduction
+
+
+Gas condensate reservoirs are characterised by an instant or progressive decrease in well production. As reservoir pressure declines below the dew point, a high condensate saturation of fluid develops near the well bore region. This process brings about reduction in gas deliverability due to reduction in effective gas permeability. Kapuni Apportioned Optimisation Spreadsheet (KAOS) has been used by Claire (2001) to optimise production from condensate wells through an examination of both the thermodynamic conditions and the obtained KAOS results.
+
+
+In the Arun gas field, development of wells and facilities stemmed from from four clusters (Pathak et. al., 2004). Gas condensate dropout and associated water from the wells are treated at the points of production. Cluster control program was utilised in operating the wells and cluster process. In the Kuparik River reservoir at Alaskan North slope, the main objective of the optimisation process as applied in this field was to produce maximum oil through gas lift gas allocation to the producing wells (Stoisits et. al., 1994).
+
+
+Supervisory Control and Data Acquisition (SCADA) system has been used in remote monitoring of condensate producing fields (e.g., Mclean and Goranson, 1997) such that an automatic switch prevents liquids accumulation. Further, permeability curves have been used by Coskuner, 1999 to enhance condensate reservoir simulation by providing an understanding of the formation’s behaviour and assisting in the optimisation of the field development. Mendik 2005, presented a gas condensate production optimisation technique by using reservoir modelling and simulation to define the number of wells, location of wells and performance option analysis.
+
+
+Seah et al., 2014, used compositional simulation in gas condensate production optimisation by analysing horizontal well configuration and fluid compositions. Optimal injection and production rates in condensate systems have been identified by using nature-inspired algorithms in simulation (e.g. Janiga, et al., 2018). In temperature transient analysis (TTA) of remote gauges located at a distance from the sandface Dada, et. al. (2018) reconstructed the sandface temperature using both numerical transient thermal simulators and operational practices that tend to minimise attenuation effects.
+
+
+Liang et. al., 2020 proposed an improved genetic algorithm optimisation fuzzy controller for managed pressure drilling by establishing the wellhead back pressure control model and calculating the transfer function. The proposed controller performs better in terms of speed, stability, and robustness. Proportional–integral–derivative (PID) controller PID is widely used because of its simple structure and low maintenance cost (Feng et. al., 2018). Application of combined PID at the wellhead and downhole transmitter in proactive monitoring of condensate banking in producing wells is sparse.
+
+
+Dala et. al. 2021 developed pseudo-pressure functions for describing the distribution of pressure within each region in a condensate reservoir. Within the proposed region 4, which is nearest to the wellbore, the quantities of the gas-to-oil (GOR) and condensate-to-gas (CGR) ratios will reverse trend at the end of region 3. They concluded that the pseudo-pressure values in regions 3 and 4 will depend on the GOR and CGR in the system and will evolve over the life of the well.
+
+
+Methodology
+
+
+A proportional–integral–derivative (PID) controller combines proportional control with integral and derivative corrections to automatically compensate for changes in the system. In essence, a PID controller can be used to force feedback on the condensate wellhead pressure to match the bottomhole dewpoint pressure (setpoint). This is the subject of the current work as described in this section. The overall system control function can be expressed as:
+
+
+u (t)=Kpe(t)+Ki∫e(t)dt+Kpdedt,
+
+
+where, Kp, Ki and Kp, are non-negative coefficients for the proportional, integral, and derivative terms respectively (P, I, and D). Figure 1 is a schematic representation of a PID controller installed at the wellhead in a feedback loop for condensate producing well. A transmitter installed at the bottomhole provides an input for the controller at the wellhead based on the desired bottomhole pressure value or setpoint r(t). The transmitted r(t) is obtained from the analysis of a complementary work reported by Dala et. al. 2021, such that surface choking is trigerred as soon as gas condensate banking threshold pressure is reached. y(t) is the measured process value (PV). Figure 2 is a system representation of the Oredo well 07 showing the reservoir, wellbore, production tubing and tubing head. The locations of the PID (auto-C) and transmitter (TM-1) are also indicated on the system diagram. The design is implemented in a commercial simulator Olga software package.
+
+
+Figure 1View largeDownload slideA schematic diagram of a proportional–integral–derivative (PID) controller in a feedback loop for condensate producing well. r(t) is the desired bottomhole pressure value or setpoint (SP) as provided by the transmitter, and y(t) is the measured process value (PV).Figure 1View largeDownload slideA schematic diagram of a proportional–integral–derivative (PID) controller in a feedback loop for condensate producing well. r(t) is the desired bottomhole pressure value or setpoint (SP) as provided by the transmitter, and y(t) is the measured process value (PV). Close modal
+
+
+Figure 2View largeDownload slideA schematic representation of the well design for a) dual-string completion model and b) single string completion model. The implementation of the surface and downhole choking was carried out on the single-string completion design model only.Figure 2View largeDownload slideA schematic representation of the well design for a) dual-string completion model and b) single string completion model. The implementation of the surface and downhole choking was carried out on the single-string completion design model only. Close modal
+
+
+The primary objective of this investigation is to carry out sensitivity analysis on the application of surface and downhole chokes in numerical simulation models of condensate wells. It is desired to maintain bottomhole pressure above dew point and avoid condensation at the wellbore. The two chokes have been designated as Oredo-7 bottomhole choke valve (O7- BHV) and Oredo-7 wellhead choke valve (O7-WHV) respectively.
+
+
+Mass and momentum conservation equations
+
+
+ρρφ∂∂t(xgρg)=−1A∂∂z(xgA ρgUg)±φ±Sg,
+
+
+where, φ represents the gas condensation rate, ρ is the density, A is the cross-sectional area, U is gas velocity, S is saturation and z is the vertical flow direction. The momentum equation for gas can be written as:
+
+
+ρρρøρ∂∂t(∑xgρgUg)=−(∑xg)∂p∂z−1A∂∂z(∑xgAρgUg2)−∑n12DnfnUn|Un|ρg±g cos ø∑xgρg+ Σ Mp+Me−Md+Σ Mb,
+
+
+and for liquid condensate component
+
+
+ρρρρøø∂∂t(∑xoρoUo)=−xg∂p∂z−1A∂∂z(∑xoAρoUo2)−∑n12DnfnUn|Un|ρg±xogρo cos ø−∑Mp−Me+Md+∑Mb−Cg sin ø∂h∂z
+
+
+and the energy conservation equation within a discretised wellbore for a mass field mi within the whole system can be expressed as:
+
+
+∂∂t(∑gmgEg)+1A∂∂z(A∑gmgUgHg)=S+Q+Hg,(9)
+
+
+where,
+
+
+Hg=hf+gY+12⋅Ug2
+
+
+is the field enthalpy,
+
+
+Eg=ef+gY+12⋅Ug2
+
+
+is the field energy and S is the enthalpy source/sink, and Q is the heat flux through the tubing wall. Other constitutive correlations govern interfacial mass transfer, entrainment / deposition of droplets between liquid and gas, entrainment of gas bubbles in oil and vice-versa, friction at the pipe wall surface and fluid/fluid interface and
+
+
+∑ivi=1
+
+
+i = gas, hydrocarbon bulk, hydrocarbon droplets, water bulk, water droplets. In OLGA numerical application, a finite volume with a staggerred grid technique is used for the discretisation, forward approximation to time derivatives, backward approximation to space derivatives, semi-implicit method and integration time-step is limited by Courant-Friedrich- Levy (CFL) criterion based on fluid transport velocity. Primary variables include five mass fractions, three velocity fields, one pressure field and one temperature field. Secondary variables required by the system include volume fractions, velocities of droplet, flowrates, other temperature and pressure dependent fluid properties, etc.
+
+
+Numerical simulation in OLGA™
+
+
+The OLGA™ transient wellbore numerical simulation pacakage (Schlumberger 2012) was used for the purpose of this investigation. Parameters measured directly from Oredo field were used as input for the numerical simulation study. The reservoir is modelled separately, and the parameters obtained therefrom are used as the lower (reservoir) boundary condition via the closed "source" term definition. A PID controller installed at the wellhead will match the bottom-hole pressure (BHP) or dew point pressure and subsequently activate the downhole and wellhead valves accordingly. Installation of a transmitter feeding the PID controller allows for an adequate reduction in condendensate banking and hence gas production optimisation.
+
+
+Additional parameters required for setting up the OLGA models include: wall and tubing characteristics to replicate the thermal conductivity and temperature gain/loss behaviour across the length of the production tubing. Linear and non-linear opening types of choking are adopted and analysed. Assigned boundary and initial conditions of pressure and temperature include 4030 psia and 189°F. Other essential conditions are imposed as required by the model setup. Flow of fluid from the reservoir to the wellbore is modelled using Fetkovich equations. Fluid PVT was modelled in Multifash and phase envelope of reservoir fluid is shown in Figure 3. Other condensate input data is shown in Table 1.
+
+
+Figure 3View largeDownload slidePhase envelope diagram for reservoir condensate fluid sampled from well O7 in Oredo field.Figure 3View largeDownload slidePhase envelope diagram for reservoir condensate fluid sampled from well O7 in Oredo field. Close modal
+
+
+Table 1Oredo field condesate model input data. Pi (psia) 4,030 T (°F) 189 Pd (psi) 4,030 ɸ (-) 0.25 Pwf (psi) 4,000 h (ft) 6 µo (cp) @ 189.3 °F 0.098 k (mD) 706 ρo (kg/m3) 561 rw (ft) 0.33 Pi (psia) 4,030 T (°F) 189 Pd (psi) 4,030 ɸ (-) 0.25 Pwf (psi) 4,000 h (ft) 6 µo (cp) @ 189.3 °F 0.098 k (mD) 706 ρo (kg/m3) 561 rw (ft) 0.33 View Large
+
+
+Results and analysis
+
+
+Fig. 3. shows the phase envelope associatesd with the Oredo O7 reservoir. The conceptual application of choking in the condensate buildup around the wellbore involves four scenarios viz: choking at the wellhead with varying tubing head pressures, bottom of the tubing constrained by the bottomhole dewpoint pressure, fixed at 4000 psia for all simulation purpose. The design implementation is shown in Figure 4. The bias of the PID controller output signal is 0.2 (i.e. an initial opening of the valves). This was varied up to a value of 0.8, the value used in the reported numerical simulation outputs. The amplification factor is set to 0.02 and the integral time was set to 1E10s which indicates no integral effect. The stroke time, opening time and closing time are all set to 10 sec.
+
+
+Figure 4View largeDownload slideProcess design implementation of the long string completion model of Oredo-7 well. A dual choking strategy involving surface and downhole choking was implemented.Figure 4View largeDownload slideProcess design implementation of the long string completion model of Oredo-7 well. A dual choking strategy involving surface and downhole choking was implemented. Close modal
+
+
+The well performance was monitored using profile graphical plots such as Figure 5 showing the total liquid volume flow (m3/d) along the tubing length and trend plots. In Figure 5, the total liquid volume flow gradually increases at the bottom of the well as the reservoir fluid gets closer to the dewpoint pressure. As the PID controller gets activated, the liquid volume flow reduces paving way for production of gas to be optimised. Figure 6 is a trend plot showing gas volume flow (sm3/d) at standard conditions. As the system tends to hit the dewpoint, the PID controller gets activated allowing flow thereby providing an optimum condensate well performance.
+
+
+Figure 5View largeDownload slideTotal liquid volume flow (m3/d) along the tubing length at steady-state.Figure 5View largeDownload slideTotal liquid volume flow (m3/d) along the tubing length at steady-state. Close modal
+
+
+Figure 6View largeDownload slideA trend plot showing standard gas volume flow, QGST (sm3/d) at the wellhead (an observation point). Imposed tubing head pressure constraint is 200 psia.Figure 6View largeDownload slideA trend plot showing standard gas volume flow, QGST (sm3/d) at the wellhead (an observation point). Imposed tubing head pressure constraint is 200 psia. Close modal
+
+
+Figure 7 is a trend plot showing standard gas volume flow, QGST (sm3/d), pressure profiles at the wellhead and bottomhole, liquid volume fraction at the wellbore and total liquid content along the tubing branch with imposed tubing head pressure of 180 psia. An early time gas flow fluctuation manifests as a result of the activation of the PID controller minimising the effects of condensate banking whilst stabilising the bottomhole flowing pressure and optimising gas production.
+
+
+Figure 7View largeDownload slideA trend plot showing standard gas volume flow, QGST (sm3/d), pressure profiles at the wellhead and bottomhole, liquid volume fraction at the wellbore and total liquid content along the tubing branch. Imposed tubing head pressure constraint is 180 psia.Figure 7View largeDownload slideA trend plot showing standard gas volume flow, QGST (sm3/d), pressure profiles at the wellhead and bottomhole, liquid volume fraction at the wellbore and total liquid content along the tubing branch. Imposed tubing head pressure constraint is 180 psia. Close modal
+
+
+Figure 8 shows a trend plot of standard gas volume flow, QGST (sm3/d), pressure profiles at the wellhead and bottomhole, liquid volume fraction at the wellbore and total liquid content along the tubing branch with an imposed tubing head pressure constraint is 120 psia. The gas production optimisation persists over a much longer period of time while the liquid condensate content in branch decreases at a slightly steeper rate compared to previous case described by Figure 7.
+
+
+Figure 8View largeDownload slideA trend plot showing standard gas volume flow, QGST (sm3/d), pressure profiles at the wellhead and bottomhole, liquid volume fraction at the wellbore and total liquid content along the tubing branch. Imposed tubing head pressure constraint is 120 psia.Figure 8View largeDownload slideA trend plot showing standard gas volume flow, QGST (sm3/d), pressure profiles at the wellhead and bottomhole, liquid volume fraction at the wellbore and total liquid content along the tubing branch. Imposed tubing head pressure constraint is 120 psia. Close modal
+
+
+This analysis allows for a condensate system to be produced at varying flow regimes for a longer period with minimum intervention. A typical flow regime along the length of the production tubing at time t = 11 hours is shown in Figure 9. Stratified, annular and bubble flow regimes can be observed. The automation control system consisting of transmitter, PID controller and valves are collectively capable of prolonging production operation necessary to sustain the system pressure above dew point. A much longer gas production from the condensate reservoir can also be achieved within the scope of this application. Implementation of dual choke at the surface and subsurface brings about a stabilsed flow system indicating a possible prolonged period of production. Data generated from this investigation can be validated using experimentally obtained data under the same setup and consideration. The coupling of the lower boundary conditions to a dynamic simulator or a pseudo-radial model will enhance the simulation set up.
+
+
+Figure 9View largeDownload slideA trend plot showing flow regime along the length of the production tubing at 11 hours.Figure 9View largeDownload slideA trend plot showing flow regime along the length of the production tubing at 11 hours. Close modal
+
+
+Conclusions
+
+
+A simulation approach to optimising gas production from condensate well in Oredo field using PID controller, downhole transmitter, wellhead and bottomhole chokes is developed in this work. This method overcomes the potential risk of high backpressure imposed on the production tubing by manual choking or other control solutions using wellhead valve. A much longer gas production from the condensate reservoir can also be achieved within the scope of this application. Implementation of dual choke at the surface and subsurface brings about a stabilsed flow system indicating a possible prolonged period of production.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion ϕPorosity (-) ρFluid density (kg/m3) μFluid viscosity (cp) θWell inclination angle from horizontal (°) gAcceleration due to gravity (m/s2) f(t)Time function hFormation thickness (ft.) KFormation Permeability (mD) rwWellbore radius (ft.) TTemperature (°F) PwfBottom-hole flowing pressure (psia) PdDew-point pressure (psia) ACross-sectional area, (in2) UGas velocity (ft/s) SFluid saturation (-)
+
+
+Abbreviations
+
+
+AbbreviationsAbbreviationExpansion BHPBottom hole pressure PIDProportional-integral-derivative CFLCourant-Friedrich-Levy WHVWellhead valve BHVBottomhole valve SCADASupervisory Control and Data Acquisition
+
+
+Acknowledgment
+
+
+The authors wish to express their gratitudes to the Nigerian Petroleum Development Company (NPDC) for providing access to the data used in this project. The authors are also grateful to Schlumberger for providing academic licence of transient multiphase dynamic wellbore simulator Olga™ used in this work.
+
+
+References
+
+
+Dada, A., Muradov, K., Wang, H., and Nikjoo, E., VillarrealE., Davies, D. (2018). Mitigation of the Remote Gauge Problem in Temperature Transient Analysis. SPE paper 190863 presented at the 80th EAGE Conference and Exhibition held in Copenhagen, Denmark, 11-14 June 2018.Google Scholar Dala, J., Akanji, L., Bello, K., Olafuyi, O., and Jadhawar, P. (2021). A Pseudo-Radial Pressure Model for Near-Wellbore Condensate Banking Prediction. Paper presented at the SPE Nigeria Annual International Conference and Exhibition, Lagos, Nigeria, August 2021. doi: https://doi.org/10.2118/208449-MS.Google Scholar Feng, H., Yin, C.B., Weng, W.W., Ma, W., Zhou, J., Jia, W.H., and Zhang, Z. Li. (2018). Robotic excavator trajectory control using an improved GA based PID controller, Mech. Syst. Signal Process. 105 (153–168). doi:10.1016/j.ymssp.2017.12.014.Google ScholarCrossrefSearch ADS  Janiga, D., Czarnota, R., Stopa, J., WojnarowskiP., and KosowskiP. (2018). Utilization of nature-inspired algorithms for gas condensate reservoir optimization. Soft Computing, 3May, Volume 23, p. 5619–5631Google ScholarCrossrefSearch ADS  Liang, H., Zou, J., Zuo, K., and Khan, M.J. (2020). An improved genetic algorithm optimization fuzzy controller applied to the wellhead back pressure control system, Mechanical Systems and Signal Processing, Volume 142, 106708.Google ScholarCrossrefSearch ADS  McLean, D. and Goranson, H. (1997) Gas Well Production Optimization Using Expert Systems Technology" SPE paper 38807 presented at the Annular Technical Conference and Exhibition held in San Antonio, Texas, 1997.Google Scholar Seah, Y.H., Gringarten, A.C., Giddins, M.A., and Burton, K. (2014). Optimising Recovery in Gas Condensate Reservoirs. Adelaide, Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Stoisits, R.F., Scherer, P.W., and Schmidt, S.E. (1994). Gas Optimization at the Kuparuk River Field. SPE paper 28467 presented at the Annual Technical Conference and Exhibition held in New Orleans, U.S.A, 1994.Google Scholar Risan, R.M., AbdullahS., and Hidayet, Z. (1988). Condensate Production Optimization in the Arun Gas Field. OSEA paper 88200 presented at the Southeast Asia Conference held in Singapore, 1988.Google Scholar Schlumberger (2012). OLGA Dynamic Multiphase Flow Simulator.Scott, C.E. (2001). Computer Applications to Enhance Production Optimization and Process Efficiency. SPE paper 72168 presented at the Asia Pacific Improved Oil Recovery Conference held in Kuala Lumpur, Malaysia, 2001.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212047-MS
+
+
+

@@ -1,0 +1,205 @@
+----- METADATA START -----
+Title: Comparative Study of Predictive Models for Permeability from Vertical wells using Sequential Gaussian Simulation and Artificial Neural Networks
+Authors: Oluwatosin John Rotimi, Ayodeji Michael Akande, Betty Ihekona, Oseremen Iyamah, Somto Chukwuka, Yao Liang, Wang Zhenli, Oluwatoyin Ologe
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211987-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+This study attempts to estimate permeability from well logs data and also predict values from existing rock sections to points that are missing using Artificial Neural Network (ANN) and Sequential Gaussian Simulation (SGS). Potentially, exploration data is prone to trends that are initiated by the sedimentation process, but a detrending method using Semi-variogram (vertical) algorithm was applied to remove this from the interpreted wells which are all vertical. Permeability modeled for ANN gave an estimated root mean square error (RMSE) of 0.0449, while SGS gave RMSE of 0.1789, both giving a ‘K’ range of 100 – 1000 mD. Although the spatial geology of the area was relegated and not considered, making a spatial prediction influenced from the temporal reference point un-assessable. However, the independent prediction on the overall result shows a better prediction from the ANN, perhaps due to the optimization algorithm used.
+
+
+
+
+Keywords:
+neural network,
+prediction,
+permeability,
+flow in porous media,
+upstream oil & gas,
+machine learning,
+sequential gaussian simulation,
+dataset,
+predictive model,
+algorithm
+
+
+Subjects: 
+Reservoir Fluid Dynamics,
+Information Management and Systems,
+Flow in porous media,
+Neural networks
+
+
+
+
+INTRODUCTION
+
+
+The petrophysical properties which are of great importance to oil and gas exploration and production (e.g. permeability. Saturation, resistivity etc.) are as a result of complex physical and chemical processes (Zhao et al., 2014). These petrophysical properties are essential to understanding the behavior of the reservoir rock and help to ascertain the volume of reservoir fluids present. The physical and chemical processes that occur during the deposition of sediments, result in significant spatial signatures on the properties of the reservoir rock and are used to define how the reservoir properties are spatially correlated for efficient reservoir characterization and hydrocarbon production.
+
+
+Spatial correlation helps to quantify the variability of reservoir rock properties over a great distance and at particular directions. Determining spatial information involves comparing a sample data value at one location with values of the same attribute at other locations. According to Chaki et al., (2018), a process used to quantitatively describe reservoir properties as they vary spatially using available field data is termed reservoir characterization. It has been identified that things closer together tend to have similar properties than things that are farther apart. This is a fundamental geophysical principle (Zhang, 2009).
+
+
+The petrophysical properties to be studied are obtained from geophysical surveys or well logs acquired during drilling. Due to the spatial component, the unknown petrophysical properties can be estimated using geostatistical techniques. The application of geostatistical tool is used to estimate and populate the spatial distribution of petrophysical properties at unsampled locations at different wells (Korjani et al., 2016; Rotimi et al., 2016).
+
+
+The aim of the study dwells on populating petrophysical parameters using geostatistical techniques and implementing a machine learning algorithm for better reservoir characterization.
+
+
+ARTIFICIAL NEURAL NETWORK (ANN)
+
+
+A neural network is a model built after the workings of the brain's architecture. It is composed of a large number of highly coupled processing components resembling neurons, which are connected via weighted connections resembling synapses. A neural network is used to predict values using chosen well log data via a nonlinear regression algorithm. Because neural networks are capable of adapting to severely non-linear issues, they have been used to examine and evaluate reservoirs over time (Fegh et al., 2013). As a result, neural networks are increasingly being utilized to forecast reservoir characteristics based on well log data.
+
+
+The artificial neural network (ANN) model for forecasting petrophysical properties such as shale volume, porosity, and permeability was developed by using well log dataset. The neural network toolbox in MATLAB is used to build, construct, visualize, and simulate the models.
+
+
+The spontaneous potential log readings and resistivity log readings serve as input variable while petrophysical property, porosity and permeability are the target (output) data in the ANN network. The model was built using Levenberg-Marquardt (LM) optimization algorithm in MATLAB, the reason being that it reduces the sum of the error function (Okon et al., 2020). The ANN model used a controlled learning process, it takes the input data which is spontaneous potential (SP) and resistivity log readings to predict the target porosity and permeability data. The workflow is presented in Figure 1.
+
+
+METHODOLGY
+
+
+The Geostatistical techniques of this study employed Variography which resolves directional variance in property significance. According to Gringarten & Deutsch, (1999), the most extensively used tool for modeling porosity, lithofacies, and other petrophysical parameters in terms of spatial variability is the variogram. Semivariograms are used to measure the similarity or dissimilarity of sample values as a function of sample location distances (Hosseini et al., 2019). The mathematical expression for semivariogram is expressed as:
+
+
+γ(h)=12E[Z(Xi)−Z(Xi+h)]2(1)
+
+
+Where Z(Xi) and Z(Xi + h) are referred as values of the sampled variable at location Xi and Xi + h separated by a vector h.
+
+
+Figure 1View largeDownload slideWorkflow used for designing ANN modelFigure 1View largeDownload slideWorkflow used for designing ANN model Close modal
+
+
+Variogram analysis accounts for stationarity of the property (removing trends) and ascertains the heterogeneous nature of the reservoir. Before variogram modeling and geostatistical simulation, any data that demonstrates a systematic redundancy must be removed. Accurate estimates of variogram are needed for reliable prediction by any of the geostatistical techniques to be employed. Accurate variogram analysis depends on the size of the sample, the number of lags at which it is estimated, lag distance, anisotropy and trend (El Khadragy et al., 2017; Rotimi et al., 2014b).
+
+
+There are features of variogram that must be considered for reliable prediction output. This includes the range, the sill and nugget. The sill, which is also known as the amplitude of a certain component of the variogram, is the total variance at which the empirical variogram appears to level off. The amount of spatial correlation reduces as separation distance increases, until there is no spatial correlation at all; this is referred to as the correlation range. Nugget refers to the intersection on the vertical axis, it represents the variability at distances smaller than the typical sample spacing.
+
+
+Using PETREL software, the variogram plots semi-variance against lag distance. When modelling the semivariogram, the variogram features sill, nugget and range are calculated in the two horizontal directions (major & minor) of each variable.
+
+
+Geostatistical Simulation
+
+
+Spatial variation parameters listed above and recovered from variogram analysis are plugged into the geostatistical modelling algorithm to conduct the spatial simulation of the selected petrophysical properties. The goal of geostatistical modelling is to create a three dimensional model that preserves reservoir heterogeneity and does not truncate intrinsic petrophysical parameters (Zhao et al., 2014; Rotimi et al., 2014a).
+
+
+These properties are populated within the boundaries of the wells that have previously been specified. The data to be used for geostatistical modeling must typically fulfill two essential requirements; the variables must generally be stationary (i.e. they must be adjusted for any trend and eliminated if there is any), and the data must generally be regularly distributed (Hosseini et al., 2019). Geostatistical simulation algorithms such as sequential gaussian simulation (SGS) and co-simulation were utilized to populate the petrophysical parameter in this study.
+
+
+Sequential Gaussian Simualtion (SGS)
+
+
+This results in a subsurface model of rock and fluid properties, using stochastic techniques which samples random field data with continuous qualities assuming a framework of spatial correlation (Grana & Azevedo, 2021). It is called sequential because the procedure is continually repeated for each grid point, where a simulated value from a distribution function derived from previously simulated values in the neighborhood of this site is generated at each unsampled location. (Fegh et al., 2013; Rotimi et al., 2014b). SGS demands that the input data (i.e. the upscaled data) have a mean of zero and a standard deviation of one; this suggests a normal distribution transformation. In general, the technique generates a property with a conventional normal distribution, and if the input data are not normally distributed, the outcomes will differ from the input. The semivariogram's output parameters (sill, range, and nugget) are used as input for SGS modeling, and it is critical that the data is normally distributed to prevent producing erroneous results. For conditional sequential gaussian simulation a secondary variable is introduced. When modelling with gaussian co-simulation, the primary variable and the secondary variable must exhibit linear relationship. This means that the primary and secondary variable must have relatable properties before it could be considered to use for co-simulation. Prior to this study, co-simulation was implemented to populate porosity and permeability across the entire reservoir, Vshale serves as the primary data input used for petrophysical modelling of porosity and permeability across the reservoir.
+
+
+ARTIFICIAL NEURAL NETWORK MODEL PERFORMANCE
+
+
+The model was trained multiple times to guarantee consistency. So, a three-layer feed-forward ANN model with 13 neurons in the hidden layer was created. Figure 2 shows the network architecture with Inputs, hidden layer neurons, and target output. Table 1 presents the model's training parameters. The Levenberg-Marquardt training optimization algorithm yielded a mean square error (MSE) of 0.002 at 106 epochs (iterations).
+
+
+Figure 2View largeDownload slideArchitecture of the modelFigure 2View largeDownload slideArchitecture of the model Close modal
+
+
+Table 1Developed parameters of the ANN model STRUCTURE OF THE DATASET
+            . VALUES
+            . Training dataset 6945 (70 % of datasets) Validation dataset 2976 (30% of datasets) Number of input neurons 2 (Spontaneous potential, Resistivity values) Hidden layer used 1 Neurons in hidden layer 13 Number of output 2 (porosity, φ and permeability, k) Learning algorithm (trainlm) Levenberg-Marquardt STRUCTURE OF THE DATASET
+            . VALUES
+            . Training dataset 6945 (70 % of datasets) Validation dataset 2976 (30% of datasets) Number of input neurons 2 (Spontaneous potential, Resistivity values) Hidden layer used 1 Neurons in hidden layer 13 Number of output 2 (porosity, φ and permeability, k) Learning algorithm (trainlm) Levenberg-Marquardt View Large
+
+
+PETROPHYSICAL PROPERTY PREDICTION
+
+
+The most dependable model can then be used to populate the petrophysical properties of different wells after it has been determined and carefully evaluated. Considering the model was chosen based on a variety of statistical analyses. This stage is to generalize the findings of the study by using the ANN model to predict porosity and permeability in unsampled wells throughout the study area. Unlike geostatistical modelling, property prediction using ANN model does not assume stationarity on reservoir properties, but captures linear and non-linear relationship between the input and output variables. For prediction of petrophysical properties for this research, back propagation network was implemented. The process flow is two directional whereby, the training process begins from the input to the hidden layer, where the weight and biases alter the input and gives an output. When the predicted result is not equal to the desired output, the neural network takes note of the feedback error and adds it to adjust its weight and bias.
+
+
+RESULT AND DISCUSSION
+
+
+Permeability Modelling
+
+
+Using log data alone for the prediction of permeability across the surface of the wells gave erroneous results since the log data available for permeability simulation are insufficient and thus led to adopting co-simulation algorithm. The petrophysical modelling used volume of shale as a secondary variable which is densely sampled, and exhibit a good correlation with the primary well-log data. Correlation coefficient – minimal to fair, obtained from the crossplot of volume of shale against porosity as presented in Figure 3 was used as an input variable since porosity and permeability data exhibit similar trends, alongside with a modelled surface for which the property would be simulated. Figure 4 depicts a pictorial representation of generated permeability using co-simulation algorithm.
+
+
+Figure 3View largeDownload slidePorosity and Volume of shale log property crossplot used in the porosity model simulationFigure 3View largeDownload slidePorosity and Volume of shale log property crossplot used in the porosity model simulation Close modal
+
+
+Figure 4View largeDownload slideView of simulated realization of permeability modelling using co-simulationFigure 4View largeDownload slideView of simulated realization of permeability modelling using co-simulation Close modal
+
+
+The distribution of permeability property ranges from 100 md to 1000md, the values are represented by color code, where streaks of red and orange indicates high permeability values. The property increases towards the northeast direction reflecting good flow and has high hydrocarbon prospect. The values of porosity and permeability shown were as a result of sequence of deposition and the differential responses resulting from the various diagenetic regimes of the identified reservoir strata.
+
+
+ARTIFICIAL NEURAL NETWORK MODEL PERFORMANCE
+
+
+Figures 5 & 6 are the performance graphs of the constructed ANN model's training, validation, and overall predictions on real datasets. The ANN model predicted reservoir petrophysical properties that were quite close to the field datasets in the figure. The training dataset had a correlation coefficient (R) of 0.87511, whereas the validation dataset had a correlation coefficient (R) of 0.86554. In addition, when the created ANN model's overall projected reservoir petrophysical parameters were compared to actual reservoir data, the R value was 0.87228. The R value indicated that the ANN model predictions were near to the field's porosity (φ), and permeability (K), datasets.
+
+
+Figure 5View largeDownload slideTraining and validation performance of the output and target dataFigure 5View largeDownload slideTraining and validation performance of the output and target data Close modal
+
+
+Figure 6View largeDownload slideAll performance of the output and target dataFigure 6View largeDownload slideAll performance of the output and target data Close modal
+
+
+As seen in Figure 7, the projected reservoir model petrophysical characteristics and the actual well data are quite comparable depicting a horizontal line relationship. This indicates a 0.3 field permeability for any value of predicted permeability. Statistically, the MSE and RMSE values for permeability are 0.021 and 0.0449, respectively. These findings imply that model predictions match real field data pretty well.
+
+
+Figure 7View largeDownload slideComparison between the ANN predicted value and actual field data for permeabilityFigure 7View largeDownload slideComparison between the ANN predicted value and actual field data for permeability Close modal
+
+
+COMPARATIVE ANALYSIS OF GEOSTATISTICAL TECHNIQUE AND ANN MODEL
+
+
+In employing both geostatistical techniques and artificial neural network for the simulation and prediction of petrophysical properties there is a need to check for the accuracy of the methods used. This is done by estimation of errors from prediction of the petrophysical properties using the developed ANN model and also from the simulation of the reservoir properties using geostatistical techniques.
+
+
+Permeability distribution before (upscaled data) and after modelling (predicted properties) is presented in Figure 8 depicting a fair similarity between the simulated permeability data and upscaled data. The major disparity is found in the lowest permeability ranges while the predicted permeability has about 20 % mismatch error margin on the average across the data. The metrics which are utilized for the prediction errors for this study are RMSE (root mean squared error) and MSE (mean squared error) as this are already obtained from the developed ANN model and based on the data available from the simulated petrophysical property, the metrics are also employed to determine the methods employed, which provided the least error estimate.
+
+
+Figure 8View largeDownload slidePlot of simulated permeability data in comparison with upscaled data onlyFigure 8View largeDownload slidePlot of simulated permeability data in comparison with upscaled data only Close modal
+
+
+CONCLUSION
+
+
+The study has shown how geostatistics alongside machine learning algorithms could be used for population of reservoir properties especially for field at remote locations. The result shows that co-simulation was a better technique than sequential gaussian simulation as it relies on the influence of the secondary variable to populate primary variable. From the simulated realization, it was observed that more heterogeneities were captured when permeability property was populated using co-simulation. Regarding machine learning algorithm, the study indicated that artificial neural network (ANN) has been developed based on multiple-inputs and multiple-outputs (MIMO) for the prediction of reservoir petrophysical property, permeability. The developed ANN model is a back propagation network and Levenberg-Marquardt optimization algorithm was established to be the best learning algorithm.
+
+
+Based on the predictions performance of the ANN model, the conclusion can be drawn that the developed ANN model predicted reservoir petrophysical properties were in good agreement with the corresponding field data, as the obtained RMSE values of the model prediction performance was 0.0449. It could be concluded that both techniques (geostatistics and ANN model) could be better off used as a collaborative method.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+ACKNOWLEDGEMENT
+
+
+Key laboratory of Petroleum Resources Research, IGGCAS and Covenant University and CUCRID are appreciated for supporting this study. The operator of the field of study in Niger Delta is also appreciated for the release of data for this study and permission to publish.
+
+
+References
+
+
+Al, J. M., Al, M. S., Iop, J., Ser, C., Sci, M., Musawi, J. M. Al, & Jawad, M. S. Al. (2019). Study of different geostatistical methods to model formation porosity (Cast study of Zubair formation in Luhais oil field) Study of different geostatistical methods to model formation porosity (Cast study of Zubair formation in Luhais oil field). 0–14. https://doi.org/10.1088/1757-899X/579/1/012031Google Scholar Bjørlykke, K. (2015). Petroleum geoscience: From sedimentary environments to rock physics, second edition. In Petroleum Geoscience: From Sedimentary Environments to Rock Physics, 2nd Edition. https://doi.org/10.1007/978-3-642-34132-8Google Scholar Caumon, G. (2010). Towards stochastic time-varying geological modeling. Mathematical Geosciences, 42(5), 555–569. https://doi.org/10.1007/s11004-010-9280-yGoogle ScholarCrossrefSearch ADS  Chaki, S., Routray, A., & Mohanty, W. K. (2018). Well-Log and Seismic Data Integration for Reservoir Characterization: A Signal Processing and Machine-Learning Perspective. IEEE Signal Processing Magazine, 35(2), 72–81. https://doi.org/10.1109/MSP.2017.2776602Google ScholarCrossrefSearch ADS  El Khadragy, A. A., Eysa, E. A., Hashim, A., & Abd El Kader, A. (2017). Reservoir characteristics and 3D static modelling of the Late Miocene Abu Madi Formation, onshore Nile Delta, Egypt. Journal of African Earth Sciences, 132, 99–108. https://doi.org/10.1016/j.jafrearsci.2017.04.032Google ScholarCrossrefSearch ADS  Korjani, M. M., Popa, A. S., Grijalva, E., Cassidy, S., & Ershaghi, I. (2016). Reservoir characterization using fuzzy kriging and deep learning neural networks. Proceedings - SPE Annual Technical Conference and Exhibition, 2016-Janua. https://doi.org/10.2118/181578-msGoogle Scholar Rotimi, O. J., Zhenli, W., & AfolabiR. O. (2016). Characterizing Geometrical Anisotropy of Petrophysical properties in the middle Shahejie formation, Liaohe Depression, China. International Journal of Applied Environmental Sciences, 11(1), 89–109Google Scholar Zhang, Y. (2009). Introduction to Geostatistics - Course Notes. InCourseNotes.papers2://publication/uuid/20990432-8B19-4169-AC3A-F73E130F2D04Google Scholar Zhao, S., Zhou, Y., Wang, M., Xin, X., & Chen, F. (2014). Thickness, porosity, and permeability prediction: comparative studies and application of the geostatistical modeling in an Oil field. Environmental Systems Research, 3(1), 7. https://doi.org/10.1186/2193-2697-3-7Google ScholarCrossrefSearch ADS  Okon, A. N., Adewole, S. E., & Uguma, E. M. (2020). Artificial neural network model for reservoir petrophysical properties : porosity, permeability and water saturation prediction. Modeling Earth Systems and Environment, 0123456789. https://doi.org/10.1007/s40808-020-01012-4Google ScholarCrossrefSearch ADS  Rotimi, O. J., Ako, B. D., & Zhenli, W. (2014a). Application of rock and seismic properties for prediction of hydrocarbon potential. Petroleum and Coal, 56(1), 41–53Google Scholar Rotimi, O. J., Ako, B. D., & Zhenli, W. (2014b). Reservoir characterization and modeling of lateral heterogeneity using multivariate analysis. Energy, Exploration an Exploitation, 32(3), 527–552Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211987-MS
+
+
+

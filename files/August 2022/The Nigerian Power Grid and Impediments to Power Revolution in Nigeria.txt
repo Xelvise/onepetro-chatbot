@@ -1,0 +1,212 @@
+----- METADATA START -----
+Title: The Nigerian Power Grid and Impediments to Power Revolution in Nigeria
+Authors: Evelyn Bose Ekeinde, Adewale Dosunmu, Diepiriye Chenaboso Okujagu, Chigozie Agbawodikeizu
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211931-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Electricity availability and adequate and efficient supply mechanisms are a huge driving force for a nation's economy and growth. Energy in all its forms (especially electricity) provide the bedrock through which a nation's industrial and technological advancement takes off and is sustained as processes depend on energy availability and utilization to ensure efficient delivery. The power sector reforms in Nigeria was done to reposition the power sector for increased productivity, but Nigerian power issues, vis-à-vis epileptic supply of electric power still persists. This study takes a look into the impediments to power revolution in the country with emphasis on the nation's power grid. It is seen that impediments like low generation capacities, insufficient transmission and distribution network, lack of adequate gas supply for gas-powered generating plants, insufficient investments in other forms of electricity generation like renewable energy, and improper government regulation still hinder reducing the huge gap between the electrical power needs of the population and the actual power generated and distributed. Recommendations are thereby made for further investigations to check restrictions to power generation and losses along the power transmission and distribution chain as well as improved generation and distribution from other energy sources in the country. Improvements in the transmission and distribution network systems to accommodate more power input is also advised.
+
+
+
+
+Keywords:
+upstream oil & gas,
+sustainable development,
+transmission,
+sustainability,
+electricity,
+nigeria,
+maintenance,
+social responsibility,
+grid,
+journal
+
+
+Subjects: 
+Environment,
+Sustainability/Social Responsibility,
+Sustainable development
+
+
+
+
+Introduction
+
+
+Electricity is transferred from the point of generation to the end users. Mostly it travels through long distances through a network of transmission and distribution lines to get used. A power grid consists of a network interconnected to deliver produced electricity to users (consumers). Involved in the grid are generating stations - for electricity production using generators, electrical substations - for increasing voltage of electricity generated (for transmission) and reducing voltage (for distribution), high voltage transmission lines - to transport the high voltage electric power to distances farther from the generating stations, and the distribution lines to connect the end-users (Wikipedia 2020). Thus, the electrical power grid delivers electricity to consumers. The electricity grid is a complex and important system in any country, mostly because energy in all its forms, especially electricity, is a driving force for industrial development and economic sustenance.
+
+
+The effect of electricity availability and efficient supply mechanisms directly affects economic growth via its effect on manufacturing and industrial activities in any country (Ibrahim Alley et al., 2016). It is also seen, that apart from the basic human needs, energy and electrical power play significant roles in driving development, social sector, education, health, transportation, and industrialization of a nation (San Shwe Aung, 2015). C. Zhang, et al., (2017) (in Eric Abokyi et al., 2018) adduces that increased industrial consumption of electricity is a veritable signal of a country's economic growth and development.
+
+
+Background
+
+
+Nigeria became Africa's first country to generate power via hydroelectricity in 1896. (Nigerian Electricity Regulatory Commission NERC, 2017). Nigeria's National Electric Power Authority (NEPA) assumed responsibility for generation, transmission, and distribution of power in 1972. (NERC, 2017). In 2005, following electricity sector changes, NEPA was renamed Electricity Holding Company of Nigeria (PHCN). As a result, the Nigerian Energy Regulatory Commission (NERC) was founded as an independent regulator to manage the electricity generating, distribution, and transmission sectors in the country (NERC, 2017). 23 grid-connected generating units in Nigeria's power generation subsector have a combined installed capacity of more than 12,500MW, yet they produce an average of just 4,000MW of electricity per day for transmission to customers (USAID, 2020). Nigeria's capacity for power generation is grossly low in comparison to the country's estimated 170 million inhabitants (Vincent et al., 2014). The Transmission Company of Nigeria (TCN) operates the electricity transmission network in the country. It is owned by the Federal government and it is responsible for electricity transmission, system operations and electricity trading (NERC, 2017). The national transmission grid has an installed capacity of over 7,500MW but the effective transmission capability is at 5,300MW, which though presently is higher than the average generation figures, but is grossly inadequate even for the installed generation capacity (NERC, 2017). Issues with the national transmission grid consists power losses to reliability issues, coverage span of the grid, age of transmission facilities, and improper maintenance of existing facilities, amongst others (Vincent et al., 2014).
+
+
+The distribution network in the country is plagued with varied issues ranging with poor and substandard distribution lines and facilities, weak and grossly inadequate coverage, aged and overloaded transformers, bad feeder pillars, unwholesome practices by poorly motivated workforce, and insufficient funds for proper maintenance (Vincent et al., 2014).
+
+
+Vincent et. Al (2014) estimates Nigeria's power deficit at about 170,008KW, and the current installed power generation and transmission facilities are a far cry from this figure. Numerous residences and companies in the country have standby generators (which are effectively employed as primary source generators), and while statistics on this captive generation capacity are not publicly available, estimates range between 14 and 20 GW (Get. Invest, 2012). Against this background, pertinent questions arise - Did the privatisation process of the power sector actually position the power generation companies to generate more power? Are the transmission and distribution companies working more effectively post-privatisation? With the strategic gas aggregator and the domestic gas supply obligation in place, have the gas-powered generation companies been able to access on-specification natural gas at the required volumes to enable them run their plants efficiently and generate optimum electric power? What effect does management directives for these facilities come into play, pre- and post-privatisation? What does gas volume utilisation show pre- and post-privatisation, for the gas-powered generation stations?
+
+
+Overview of the Nigerian Power Grid
+
+
+To meet household and industry electrical power needs in the country, the electricity sector comes into play – generating, transmitting and distribution electricity to the various parts of the country. The effective electrical energy generated on a daily average has been grossly insufficient to satisfy power needs of the population in Nigeria (Adedeji, 2016). Unannounced load shedding, frequent partial, and total system collapse and failure exacerbate power issues in the country. Electrical power generating plants produce electricity at 20,000volts. This voltage is raised to a higher voltage (330KV and 132KV in Nigeria's case) by transformers and sent out to the transmission grid. The high voltage is essential to generate the requisite amount of electricity and reduce losses. Since electricity storage in quantities is not feasible, it is generated as needed, this generation level still controlled by transmission facilities available for evacuating generated electricity to the end users (Eskom, 2020). The amount of electricity being consumed at any point in time (minute by minute) determines the quantity to be generated, thereby as demand fluctuates, more electricity generation facilities are brought into play or removed from function as the case may be. Electricity from different generating stations will enter the transmission grid at the correct voltage and frequency (Eskom, 2020).
+
+
+Figure 1View largeDownload slideElectricity generation, transmission, and distributionFigure 1View largeDownload slideElectricity generation, transmission, and distribution Close modal
+
+
+In 1898, the first electric power plant was erected. The Electricity Corporation of Nigeria (ECN) was established in 1951, and the Niger Dams Authority was established in 1962 to promote the country's hydropower development. In 1972, they co-founded the National Electric Power Authority. (Vincent and colleagues, 2014) Among the federal government's power sector reforms in 2000 were the restructuring and privatisation of enterprises previously owned by the National Electric Power Authority (NEPA) (Ajumogobia and Okeke 2015). Nigeria has implemented power sector reforms to ensure that the country has an Electricity Supply Industry (ESI) capable of meeting lawful electricity demands throughout the country while also modernising and expanding its coverage. The result is market structures that stimulate competition in the generation and sale of electricity, attract private investors, and keep the country's economy stable (Ajumogobia and Okeke, 2015). The reforms resulted in the establishment of the Nigerian Electricity Regulatory Commission (NERC), as well as a rural electrification agency and fund, as well as an electric power consumer support fund. The NEPA was disbanded, the defunct enterprises were privatised, and NERC was formed (Ikuobase Emovon, et al., 2018).
+
+
+Power generation in Nigeria consists of gas-fired thermal power facilities and hydroelectric systems (Sambo, A.S et al., 2012). After the breakup of the NEPA-PHCN, the Nigerian Electricity Supply Industry (NESI), which currently has 23 grid-connected producing units, was established. When it comes to electricity generation, hydropower facilities have an installed capacity of just over 2,380MW while thermal power plants have an installed capacity of 10,142MW (Oyewo A. et al., 2018). There are three types of power generation firms: successor generation companies (GENCOS), independent power producers (IPPs), and government-controlled national integrated power projects (NIPPs) (Vincent et al., 2014).
+
+
+Manitoba Hydro International (MHI) operates the transmission arm of Nigeria's electrical system, which is owned by the federal government and administered by Manitoba Hydro International (TCN). There are 32 330 kilovolt and 105 132 kilovolt substations on the 12,300-kilometer-long cable, which is 5,650 kilometres at 330 kilovolts and 6,687 kilometres at the lower voltage (Bada, (2014). Using interstate connections, transmission lines transport high-voltage electricity from power plants to substations. There are many bidirectional transmission lines. Due to the absence of redundancy and the radial nature of Nigeria's transmission system, the country faces reliability issues and a high rate of system breakdowns. In addition, the transmission network is currently overloaded, resulting in considerable transmission losses as a result of inadequate maintenance and vandalism.
+
+
+It is important to note that the low voltage distribution lines are connected to transmission lines by transformer substations. In order to distribute energy locally, it is first transformed to 11,000 volts before being delivered to individual homes at 240 (220) volts. The lines are smaller and cover shorter distances (Callmepower.com, 2015). The distribution company meter the amount electricity used, provides appropriate bills and collects payments for electricity units consumed. The distribution network in Nigeria has a length of 224,838km (NERC 2017). This network was divided into 11 distribution zones, owned by the resulting Electricity Distribution Companies (Discos) from NEPA unbundling. The Ikeja electricity distribution has the longest grid (36,585km) and also the highest peak demand (1,400MW) with high concentration of economic activities in Lagos state (NERC, 2017). The 11 distribution companies are Kaduna distribution, Kano distribution, Yola distribution, Jos distribution, Abuja distribution, Ibadan distribution, Ikeja distribution, Eko distribution, Benin distribution, Port Harcourt distribution, and Enugu distribution (Vincent et al., 2014).
+
+
+The diagram below shows a comprehensive view of the Nigerian power grid, with the generation, transmission and distribution systems, which are the three major sub-sectors of the electrical power system.
+
+
+Figure 2View largeDownload slideThe Nigerian power grid systemSource: geni.orgFigure 2View largeDownload slideThe Nigerian power grid systemSource: geni.org Close modal
+
+
+Regulatory Agencies and Key Institutions
+
+
+Regulatory Agencies
+
+
+The regulatory agencies include (KPMG Nigeria 2013, in Vincent et al., 2014):
+
+
+▪The Federal Ministry of Power (FMP): The federal government's administrative arm, charged with formulating policy and directing other agencies in the power sector.▪Nigerian Electricity Regulatory Commission (NERC): Nigeria's power sector requires an independent regulator to control and oversee it. The Energy Power Sector Reform (EPSR) Act of 2005 established this in 2005.▪Energy Commission of Nigeria (ECN): established in 1988 with the purpose of strategic planning and coordination of national energy strategies.▪Rural Electrification Agency (REA): established under the EPSR Act to promote, encourage, and expand access to electricity in rural and semi-urban areas throughout the country.▪Presidential Task Force on Power (PTFP): was established in 2010 to spearhead the restructuring of Nigeria's power sector.
+
+
+Key Institutions
+
+
+The key institutions include (KPMG Nigeria 2013, in Vincent et al., 2014):
+
+
+▪Niger Delta Power Holding Company Limited (NDPHC): owned by the federal, state, and local governments and responsible with implementing the National Integrated Power Project (NIPP).▪Nigerian Bulk Electricity Trading PLC (NBET): The EPSR Act established a government-owned entity to engage in the procurement of electric power and auxiliary services (from independent power producers and successor generating firms) for later resale to distribution companies and qualifying customers.▪Operator of the Nigerian Electricity Market (ONEM): was authorised to operate as a market operator in the Nigerian Electricity Supply Industry's wholesale electricity market, with responsibilities for market operation and settlement procedures. The ONEM's primary duty is to administer the metering system used by generation, transmission, and distribution businesses.▪Nigerian System Operator (NSO): runs operational services for the Nigerian Electricity Supply Industry, which includes transmission system planning, dispatching, and operation. For the nation's energy grid's security and reliability, it is also responsible▪Gas Aggregation Company Nigeria Limited (GACN): The company was founded in 2010 to promote the use of natural gas in Nigeria's domestic market.▪National Power Training Institute of Nigeria (NAPTIN): The year 2009 saw the establishment of Nigeria's first research centre on electrical challenges and human resource development in Nigeria, as well as a focus on worker capacity building.▪Nigeria Electricity Liability Management Company Limited (NELMCO): To take on and manage non-core assets, all liabilities, and other obligations that would not be taken over by the successor firms, a company limited by guarantee was formed in 2006.
+
+
+Nigerian Power Grid Challenges and Impediments to Power Revolution
+
+
+There are plenty of energy resources in Nigeria, and the government has set up many authorities to monitor electricity generation, transmission, and distribution, yet the country's residents still have to deal with unstable power supplies. Public uproar about the country's lack of electricity supplies, regular power outages, and clear losses in the electrical industry prompted initial reforms in the sector (Okoro, O.I & Chikuni E., 2007). This legislative framework was laid forth by the National Electric Power Policy (NEPP) of 2001 and then codified by the Electric Power Sector Reform (EPSR) Act of 2005 (Eyo Ekpo, et al., 2012). NEPA was acquired by the Power Holding Firm of Nigeria (PHCN), which was then broken up into 18 successor firms: six (6) generation companies (GenCos), one transmission company (TxCo), and eleven (11 DisCos) (Okoro, O.I. & Chikuni E., 2007). The government continued to pay a portion of PHCN, and each of its divisions had its own management team to oversee operations and project implementation. National Integrated Power Projects (NIPP) were launched in 2004 to increase the country's power supply using gas-powered stations. Later, permits were issued to a number of IPPs as part of the infrastructure expansion phase, with these IPPs generating and selling power to utilities or the general public on a privately owned and operated basis (Lawal, 2008; IseOlorunkanmi O. Joseph, 2014).
+
+
+This country's electricity sector is regulated and licenced by the Nigerian Electricity Regulatory Commission (NERC). The Nigerian Electricity Liability Management Company (NELMCO) takes on the liabilities of the successor companies. The Nigerian Bulk Electricity Trader (NBET) purchases power from GenCos and Independent Power Plants (IPP) (Eyo Ekpo, et al., 2012). Prior to November 1, 2013, when the Power Holding Company of Nigeria (PHCN) sold its remaining 11 distribution firms and six power generation firms to private investors under the terms of its now-defunct Power Sector Roadmap announced in 2010, the privatisation process of PHCN's unbundled entities began. The next year, (Ise Olorunkanmi O. Joseph, 2014).
+
+
+These power sector reforms were carried out to improve efficiency in the electric power generation, transmission and distribution system in Nigeria establishing a long-term electricity market structure, where many private operators provide efficient services on a competitive basis to serve a wide range of customers and strengthen the power sector to encourage national development (Eyo Ekpo, et al., 2012; Oladele Adeniji & Osisiogu Obinna, 2014). Privatizing Nigeria's telecommunications sector was a huge success, but restructuring the power sector will be more difficult due to the more diverse infrastructure issues, high investment costs, and little or no competition now available. For electricity consumers, switching service providers (distribution companies) is nearly hard because each provider has a local monopoly in each geographical area. This means that consumers are unable to switch from one service provider (distribution business to another).
+
+
+Major challenges with post-privatisation was availability of funding, insufficient supply of gas to power the GenCos, pricing and end-user tariffs, delays in payment for electricity supplied, wastage and theft of electricity (Oladele Adeniji & Osisiogu Obinna, 2014; Aminu Isa & Peterside Zainab Brown, 2014). Most of the existing assets acquired are aged and averagely higher costs are required for running and maintenance of these assets. Making the plants more modern is of necessity, but this also requires significant capital investment. Government bailout funds for privatised enterprises have remained in place despite the financial difficulties, despite the government's stated goal of reinvesting these monies in the electricity sector (Tejvan Pettinger, 2019). The major challenges and obstacles to power revolution in Nigeria are listed below:
+
+
+Shortage of gas supply
+
+
+Shortage in gas supply occasioned mostly by poor gas transportation infrastructure, reduces availability of gas required to generate electricity in sufficient quantities. Full implementation of the gas master plan is therefore needed to ensure adequate supply of fuel to these power generating companies (Eyo Ekpo, et al., 2012). The National Domestic Gas Supply and Pricing Regulations (2008) maps out the domestic gas market into three divisions, gas-to-power, gas-as-feedstock, and gas-as-alternative fuel, and prescribed an applicable pricing regime for each segment (Etomi, et al., 2019). The gas master plan addresses the setting a price regulation regime, a domestic supply obligation (DSO), and the development of a critical gas network infrastructure. The Strategic Gas Aggregator (SGA), established by the Gas Master Plan, determines the amount of gas that IOCs involved in gas production must make accessible to the domestic market under the DSO (Eyo Ekpo, et al., 2012). Records show that the power and industrial sectors consume between 34% - 47% of the natural gas produced (Etomi, et al., 2019). The gas pipeline network must be improved, and particular note of concern must be taken in regards to maintenance to ensure less disruption to supply of natural gas to these gas-powered electricity generating plants.
+
+
+Deficient Power generation
+
+
+The total installed power generation facilities in the country is far less than the power needs of the present population talk less of the power needed to drive positively Nigeria's economy. There is need for more licenses to be given for setup of more power generating plants, as well as encouragement for those already functioning for increase in generating capacity.
+
+
+As part of the post-privatisation process, the power generating companies (GenCos) and gas producers (IOCs and Nigerian Petroleum Development Company, NPDC) are supposed to draw up a gas sales agreement, and as well have a gas transportation agreement (GTA) with the Nigerian Gas Company (NGC) for gas transportation. The National Gas Code (NGC) primarily governs issues related to gas balancing, gas specification, and gas quality correction. Typical elements of a GTA are the length of the contract, tariffs, termination conditions, capacity reservation, input point and delivery point, gas make-up, ship or pay provisions, off-spec gas and measurement, pressure specification and planned maintenance (Etomi, et al., 2019). All these requirements are pursuant to ensuring availability of gas for power generation, at the right specification and required volumes from the power generation companies.
+
+
+The aging hydroelectric plants is a source of concern too, as presently, they facilities are almost non-existent, adding very low input to the power generated in the country. Also, other sources of energy for power generation should be encouraged especially generating plants to access coal, solar, and wind energy in the country.
+
+
+Inadequate Transmission and Distribution grid facilities
+
+
+Another major challenge is the problem of obsolete transmission equipment in the Transmission Company of Nigeria (TCN), which also is being managed by a Canadian company – Manitoba Hydro International, is still being held back by government bureaucratic processes (Aminu Isa & Peterside Zainab Brown, 2014). Most times, unavailability of transmission systems restrict power generation as production levels are usually set to ensure the national grid is not over-burdened. This places a constraint on overall power generation. Transmission and distribution losses are still significant. Customers are left with insufficient power to run their appliances as a result of power losses. Transmission and distribution equipment that is too old is to blame for most of these losses. There are several incidences of power theft in the country that contribute to this problem, which is exacerbated by inadequate upkeep of these facilities. Insufficient federal funding, radial lines with no backups, overloaded transmission and distribution lines and substations due to high power demand, regular vandalism of the lines, a lack of spare parts for urgent maintenance, and an inadequate technical staff recruitment, capacity building, and training programme are some of the major transmission system problems. There is a lack of coverage in Nigeria's transmission and distribution system as well (Sambo et al., 2012).
+
+
+Data Inadequacy
+
+
+Adequate data showing electrification needs of the different parts of the country rarely exist, making correct estimation of transmission and distribution means hard to plan. This explains why transformers, for example, have a skewed distribution around the country. Decisions in the sector are also affected by this, as seen by the poor location of NIPPs away from places where gas facilities are readily available to far-off areas prompted by political considerations (Okolobah & Ismail, 2013).
+
+
+Poor funding
+
+
+The Nigerian power grid suffers from lack of adequate funding for project implementation, plant and equipment maintenance and so on. This has greatly affected power generation, transmission, and distribution across the country. Firstly, from generation, there has always been the need for assurance that funds used to set up generation facilities will eventually come back through sales of power generated, especially with constraints involved in sourcing natural gas and transmitting finished products. With the introduction of NBET, considerable guarantees have been provided to ensure funds borrowed from financial institutions will not be lost. But this also has a major constraint due to the transmission and distribution issues, especially as losses are huge and many customers are not forthwith making payments.
+
+
+Also funding with regards to expanding the transmission and distribution network to accommodate more MW of electricity is very much needed. This will ensure that any volume of generated power will be transmitted to the end users, who are always willing to use the power.
+
+
+Regulatory barriers
+
+
+Power grid infrastructure investment and development can be bolstered through effective policymaking and implementation. For example, policies like feed-in tariffs or investment tax credits can help increase the percentage of renewable energy in the nation's power generation mix. It is possible to handle concerns related to subsidies and tax exemptions through well-structured policies (Mohammed et al., 2013). Issuing of off-grid licences as well as relaxing connectivity to the grid for off-grid centers having excess power to supply can be achieved with effective legislature.
+
+
+Corruption
+
+
+One of the major sources of power in Nigeria are generator sets. This makes up for the regular black-outs in homes and businesses all over the country as electricity is a requisite for economic activities. This irregular power supply has greatly improved income for some sectors and individuals in Nigeria. In the manufacturing sector, where power failure often means idle machinery and workers, and loss of production, about 750 million naira is spent yearly on purchase and maintenance of generating sets. A recent estimate shows that two-thirds of all electricity produced in Nigeria as ‘backyard’ generators, based at a cost of USD $13 billion a year. Also, those generators consume an estimate of 400,000 to 500,000 tonnes of petrol and diesel, which amounts to 5-6% of Nigeria's total consumption of petroleum products.
+
+
+The poor electricity condition in Nigeria has greatly profited dealers of generators and also has a boost in petroleum product consumption. As a result of this, some of these profit-driven people tend to discourage and frustrate the power revolution just to stay in business.
+
+
+Recommendations and Proposed Solutions
+
+
+The power situation in the country is still depreciating despite obvious increase in daily gas utilisation average for the privatised gas-powered station. It can be deduced that there are still heavy losses experienced along the power sector. More studies should be carried out to determine
+
+
+–Losses and restrictions power transmission presents in Nigeria.–Infrastructure challenges experienced in the supply of natural gas to the gas-powered generation stations.–Infrastructure and financial challenges still present in the transmission and distribution arm of the power sector.
+
+
+Steps should be taken to address issues in the power grid sector and encourage power revolution in Nigeria. This can be achieved by
+
+
+Vivid mop up of the natural gas being flared and making adequate provision for this to be channelled to power stations for more power generation. This will include developing and increasing the pipeline capacity in the country, setting up more power generating stations (especially near the source of the gas supply), etc.Increasing the transmission and distribution capacities in the country. This might be in view of getting more adequate legislation protecting investments of investors in transmission and distribution of electricity.New power lines are being cited as an example (getting approval of new routes and obtaining rights to the necessary land).An equitable method for recovering the expenses of a new transmission line installed in one state that benefits consumers in other jurisdictions is the goal here.Investing in proper maintenance and surveillance of power lines, to reduce vandalism, improve adequate maintenance of these lines, increase reliability and ensure losses of electricity are reduced to very manageable degree. Furthermore, additional power lines are required to maintain the general stability of the electrical system and to link up with new renewable energy generation resources, such as wind and solar power, that are often located distant from where electricity demand is concentrated.More licences should be given for more off-grid and on-grid power generating plants to encourage power generation and distribution especially in areas where the electricity grid is non-existent. More energy generating forms especially in renewable energy generation. This will reduce dependency on fossil fuels for power generation.Transmission lines should be extended to renewable energy producing sites that have high-quality wind and solar resources, which are often a significant distance away from where electricity demand is concentrated.Government interference and bureaucracy should be minimized especially in improving the transmission network to ensure proper and adequate steps be taken especially in rural electrification.Adoption of energy conservative policies to minimize loss and wastage of electricity.Keeping the grid safe from both physical and cyberattacks.
+
+
+Conclusion
+
+
+The importance of electricity to a nation's economic development can never be overemphasized. Over the years, Nigeria's access to electricity has remained below acceptable levels due to factors such as poor infrastructure, corruption, overcrowding of the transmission and distribution grids, and so on. Full privatisation of the power sector, which consolidates the achievements of sector reforms, is a crucial answer to these issues. This should improve funding of power investments, improved investment in renewable energy, maintenance of the power grid systems, and curbing corruption in the power sector. With these proffered solutions, power revolution in Nigeria would be gradually seen, with a boost in the nation's economy at large.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Adedeji, Adesina Akanji (2016). Spatial exploration and analysis of electricity poverty: a case study of Ibadan, Southwestern, Nigeria (Thesis thesis). Department of Geography.Ajumogobia and Okeke (2015). Nigerian Energy Sector: Legal & Regulatory OverviewGoogle Scholar Aminu, Isa & Peterside ZainabBrown (2014). The Impact of Privatisation of Power Sector in Nigeria: A Political Economy Approach. Journal of Social Sciences. MCSER Publishing Rome-Italy. November2014. Vol.5 No. 26.Google Scholar Bada, ASA. (2014). "The future of TCN: Ensuring professional management of and investment in the transmission network". Unpublished work.Google Scholar EricAbokyi, Paul-Appiah-Konadu, IsaiahSikayena and Eric F.Oteng-Abaiye (2018). Consumption of Electricity and Industrial Growth in the Case of Ghana. Journal of Energy, 06Jun2018.Google Scholar EtomiGeorge, EhanmoIvie, OzahSamson, & Abasi-OkopDiana (2019). Gas Regulation. A publication of George Etomi & Partners. March2019Google Scholar IseOlorunkanmiO. Joseph (2014). Issues and Challenges in the Privatised Power Sector in Nigeria. Journal of Sustainable Development Studies. ISSN 2201-4268. Volume 6, No. 1, pgs. 161–174.Google Scholar KPMGNigeria: A Guide to the Nigerian Power Sector, December2013.Lawal, L. (2008). Nigeria: A case Study in Power Shortages. Energy Tribune, April 10, 2008. Okolobah,V & Ismail,Z On The Issues, Challenges and Prospects of Electrical Power Sector in Nigeria International Journal of Economy, Management and Social Sciences2 (6) June2013, Pages: 410–418Google Scholar Mohammed, YS; Mustafa, MW; Bashir, N; & Mokhtar, AS (2013). Renewable energy resources for distributed power generation in Nigeria: a review of the potential. Renewable and Sustainable Energy Reviews, 22, 257–268Google ScholarCrossrefSearch ADS  OkolobahV; and Ishamaid, Z (2013). "On other issues, challenges and prospects of electrical power sector in Nigeria2013.Google Scholar EyoEkpo, WoleOmoboriowo, UyiAkpata, AndrewNevin, & CharudattaPalekar (2012). Privatisation in the Power Sector: Navigating the Transition. PWC – The Roundtable. www.pwc.com/ngNovember 2012.Google Scholar IbrahimAlley, TajudeenEgbetunde, BlessingOligbi (2016). Electricity supply, industrialization and economic growth: evidence from Nigeria. International Journal of Energy Sector Management ISSN: 1750-6220. 7November2016.Google Scholar IkuobaseEmovon, Olusegun DavidSamuel, Chinedum OgonnaMgbemena, Michael KanisuruAdeyeri (2018). Electric Power generation crisis in Nigeria: A Review of causes and solutions. International Journal of Integrated Engineering, Vol. 10 No. 1 (2018) p. 47–56Google Scholar Okoro, O.I. & Chikuni, E (2007). Power Sector Reforms in Nigeria. Journal of Energy in Southern Africa. August2007. Vol. 18 No. 3.Google Scholar OladeleAdeniji & OsisioguObinna (2014). Overview of the Nigerian Power Sector Reform. Stillwaters Law firm. October14, 2014.Google Scholar OyewoAS; Aghahosseini, A; Bogdanov, D; Breyer, C (2018). Pathways to a fully sustainable electricity supply for Nigeria in the mid-term future. Energy Conversion and Management, vol. 178, pp. 44–64. DOI: 10.1016/j.enconman.2018.10.036Google ScholarCrossrefSearch ADS  Sambo, AS; Garba, B; Zarma, IH; Gaji, MM (2012). Electricity generation and the present challenges in the Nigerian power sector. Journal of Energy and Power Engineering, 6 (7), 1050– 1059Google Scholar San ShweAung (2015). Electric Power is the Driving Force for Industrialization. April02, 2015.Google Scholar TejvanPettinger (2019). Advantages and problems of privatisation.May12: 1–3.Google Scholar Vincent, EN; and Yusuf, D (2014). Integrating Renewable Energy and Smart Grid Technology into the Nigerian Electricity Grid System. Smart Grid and Renewable Energy, 5, 220–238.Google ScholarCrossrefSearch ADS  Wikipedia (2020) Electrical substation". energyeducationca. University of Calgary. Retrieved 13August2020.Zhang, C; Zhou, K; Yang, S; and ShaoZ (2017). "On electricity consumption and economic growth in China," Renewable & Sustainable Energy Reviews, vol. 76, pp. 353–368, 2017.Google ScholarCrossrefSearch ADS  http://www.geni.org/globalenergy/library/national_energy_grid/nigeria/nigeriannationalelectricitygrid.shtmlhttps://www.get-invest.eu/market-information/nigeria/energy-sector/https://nerc.gov.ng/index.php/home/nesi/401-historyhttps://www.usaid.gov/powerafrica/nigeriahttps://callmepower.com/faq/energy-markets/difference-between-transmission-distribution#Page%201http://www.eskom.co.za/AboutElectricity/ElectricityTechnologies/Pages/Understanding_Electricity.aspx
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211931-MS
+
+
+

@@ -1,0 +1,197 @@
+----- METADATA START -----
+Title: Application of Machine Learning Algorithm for Predicting Produced Water Under Various Operating Conditions in an Oilwell
+Authors: Eriagbaraoluwa Adesina, Bukola Olusola
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211921-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Production optimization is often required to manage increase of undesired reservoir fluids especially water in oil and gas wells. However, this activity needs to be guided by science and data rather than a trial-and-error approach of changing the operating conditions of the well to determine the corresponding production response. Well performance models are often used to predict well behavior at different operating conditions but one of the disadvantages of this method is the inability to predict the water cut based on given well parameters. In this work, we applied the random Forest Regression model, well test data and well performance model to predict the expected water cut while changing the operating conditions of a well.We had used four wells to demonstrate the application of machine learning to produced water prediction under different operating conditions. Well performance model which is a combination of Presssure Volume Temperature (PVT) model, inflow performance relationship (IPR) model and vertical lift performance (VLP) model was used to generate the well parameters transferred to the machine learning algorithm. A histogram and box plot were first drawn to understand the distribution of the data and filter the outliers within the dataset because outliers skew the model results. A correlation matrix was now used to understand the relationship between the water cut and the following variables: Flowing Tubing Head Pressure, the Bean Size, the Gas Oil Ratio, and liquid production.Thereafter the Random Forest model was applied to the well parameters to get the predicted values. After getting our predicted values from our model, the model results were evaluated with three regression evaluation metrics, the mean absolute error, the mean squared error and the root mean squared error to compare the predicted water cut values with the actual values and return the margin of error in the predictions. The Mean Absolute Error, Mean Squared Error, and Root Mean Squared Error results were within acceptable tolerance. Therefore, given the minimal error values we can conclude that the model can successfully predict water cut values at different operating conditions.Based on our evaluation, the bar chart predicted values and actual values showed minimal error margins indicating the model's accuracy can be trusted.This paper presents a novel way to estimate the water cut of a well under various operating conditions, a prediction that is not available using existing well performance models.
+
+
+
+
+Keywords:
+upstream oil & gas,
+machine learning,
+artificial intelligence,
+decision tree learning,
+dataset,
+produced water discharge,
+prediction,
+machine learning algorithm,
+information,
+spe-211921-ms
+
+
+Subjects: 
+Formation Evaluation & Management,
+Environment,
+Information Management and Systems,
+Water use, produced water discharge and disposal,
+Artificial intelligence,
+Well Operations and Optimization
+
+
+
+
+Introduction
+
+
+In the industry, exisiting analytical software are unable to estimate water cut values when given well test parameters. Therefore, there is a need to develop a methodology to solve this problem. We present an inexpensive and cheaper way to solve a prevailing problem that will greatly reduce water handing costs in the production process.
+
+
+Excess produced water production has many primary and secondary costs. In 2011, through surveys it was predicted that the oil and gas industry spent in excess of 50 billion dollars on treating and handling produced water. The costs include discharge, trucking, reinjection and the treatment of produced water (Freeman Hill, SPE, Steve Monroe, SPE, and Reshmy Mohanan, SPE, Baker Hughes, 2012). Presently, the cost of produced water treatment has increased and the operators are being charged per barrel of water produced. Therefore, reducing the amount of produced water is an important task that a number of oil and gas companies have to face.
+
+
+The present volume of produced water has affected the global oil production capacity. Y. DU, L. Guan and H. Liang (2005) stated that the that the mean global water cut has reached 75%. This means that, around the world oil and gas operators produce significantly more water for each barrel of oil which is produced. Albeit specific figures of water production are diffcult to access, data collected shows that produced water amounts to more than 90% of waste stemming from the E&P industry).
+
+
+Produced water management has become necessary due to the volume involved, the cost of treatment and the significant environmental impact of pollutants. Many oil producing nations have made laws and guidelines on the quality of produced water to be released into the environment. Water treatment and dumping costs vary depending on quantity and location with the demand of environmental compliance making it a significant cost center in the oil and gas industry. According to Y. Du, L. Guan and H. Liang, the average disposal cost is predicted to be US $4 per barrel of produced water. This cost comprises only capital and operating costs and chemicals for treatment and injection. The annual cost of dealing with produced water is predicted to run into billions of dollas globally. This expenditure is solely as a direct cost of water not taking into account greater losses obtained through the loss of production and reduced reserves. Further resources are expended when taken into account money paid as fees for producing excess quantities of produced water.
+
+
+Increased water production decreases well productivity and forces operators to increase water treatment and disposal systems else it leads to serious environmental problems. The minimization of produced water and production water cut has never been more important as small reductions in the cost of treating produced water will result in the expending of less resources, significant cumulative savings and the elimination of adverse environmental impacts. Concerning environmental impacts, water expenditures and regulations are expected to increase annually; with the expected increase in water volume, it's related costs along with fees to be paid it is important to minimize produced water wherever it can be reduced.
+
+
+APPLICATION OF MACHINE LEARNING
+
+
+Predicting water production is a difficult obstacle due to the complexity and time-variant nature of produced water, an example of water cut trend is shown in Figure 1. This feature makes it difficult to apply common models and get accurate predictions, refined methods such as machine learning (decision trees, random forest algorithm and neural networks) can sort through the complex variable interactions and provide more accurate results. Advanced machine learning techniques like clustering algorithms and random forest algorithm understand production behaviours and correlation and make near-accurate predictions using dominant production attributes to estimate water cut values.
+
+
+Figure 1View largeDownload slideBSW values as measured over time for Well 10 (Nigeria). This figure shows the general trend of produced water to continually increase with an increase in time. Over time the BSW values are projected to further increase.Figure 1View largeDownload slideBSW values as measured over time for Well 10 (Nigeria). This figure shows the general trend of produced water to continually increase with an increase in time. Over time the BSW values are projected to further increase. Close modal
+
+
+This presents a novel way the estimate the water cut of well, trying out various combinations of the independent variables and confidently settling on the most optimized combination which minimizes excess produced water and maximizes profit. It's efficiency and ease of use would greatly revolutionize the well selection process. Figure 2 shows the processes involved in estimating the water cut in each well.
+
+
+Figure 2View largeDownload slideFlowchart showing all steps taken in the completion of this project.Figure 2View largeDownload slideFlowchart showing all steps taken in the completion of this project. Close modal
+
+
+Methods
+
+
+Supervised learning, which is a data analytical task that maps the input variables (well test variables) and output value (BS&W), is employed by learning from the well test data.
+
+
+A Random forest algorithm is a supervised machine learning algorithm that is popularly used in both classification and regression problems. It constructs decision trees on various samples and uses their majority vote for classification and mean in case of regression (Sruthi E.R. — 2021). Figure 3 shows a visual representation of this process.
+
+
+Figure 3View largeDownload slideRandom Forest Algorithm Process Flowchart showcasing how the algorithm works to make predictions.Figure 3View largeDownload slideRandom Forest Algorithm Process Flowchart showcasing how the algorithm works to make predictions. Close modal
+
+
+A Random Forest Regression based machine learning model was trained to predict water cut production once the necessary initial well test parameters were provided.
+
+
+The input variables into the model are Date, Flowing Tubing Head Pressure, the Bean Size, the Gas Oil Ratio, and the Current Gross Production (BPD). The output is the BS&W.
+
+
+The model was trained using real data across a range of at least 10 years. Only wells having stable and good behaviors and sufficient data to satisfy the needed information for prediction of the water cut value will be selected.
+
+
+For features, production data was accessible in monthly intervals, along with the specific date the test was administered.
+
+
+The total length of the dataset is 195 rows with 9 features to be used to train the machine learning model.
+
+
+A histogram and box plot are drawn to understand the distribution of the data and to ensure that trends for each feature are consistent.
+
+
+The data was cleaned, starting with searching for and removing all non-numerical values from the dataset. Next, missing values are identified and depending on the situation the rows are dropped, or the empty values are replaced with the median value for the well provided the well data values across months follows consistent trends.
+
+
+Outliers are identified through observing the created histogram and box plots, the outliers are treated by either dropping the outlier row in some cases or using statistical flooring and capping techniques to limit the values to an acceptable range.
+
+
+The well test dataset was randomly split into a training (80%) and testing (20%) dataset. To maximize the accuracy of the model a comparatively large enough training dataset is used in training the model. If this isn't ensured, the model could sometimes be overfitted and score very highly on the training dataset but not generalize well and score poorly of the testing and the validation dataset.
+
+
+A Random Forest regressor was then fitted to the training data. The model was then tuned by tweaking the hyperparameters to further bolster the generalization capabilities and improve the accuracy. Model accuracy was scored on the mean absolute error, the mean squared error and the root mean squared error.
+
+
+Results
+
+
+Due to confidentiality purposes, only a subset of the data used in the building of the prediction model for Well 10 are shown:
+
+
+In the analysis of the correlation matrix, the impact of all the independent variables is accounted for in the result. The figure shows that the value of the water cut has a significant positive correlation with the test date (0.50) and with the gas oil ratio (0.52). This shows the important time has as a factor in influencing the water cut production of well with the water cut value increasing with time. Other factors such as the Gross rate (0.09) and the Flowing Well Head Pressure (FTHP) (-0.16) show lesser significance on the BSW value based on the analysis of the well test data used in this experiment.
+
+
+This assertion is further supported by the feature importance graph (Figure 6) showing in order of their importance the features most considered when predicting a water cut value based on well test parameters. After data cleaning and arranging, the well test data was randomly split into two categories. 20% of the data was put in the testing group while the remaining 80% was put in the training group. A Random Forest Regressor machine learning algorithm was used in fitting the data. After the building and training of the model, the accuracy and usability were tested using the test data.
+
+
+Figure 4View largeDownload slideSubset of well test data used in the training and the validation of the prediction model from Well 10. All parameters used in the training of the model are present here.Figure 4View largeDownload slideSubset of well test data used in the training and the validation of the prediction model from Well 10. All parameters used in the training of the model are present here. Close modal
+
+
+Figure 5View largeDownload slideSubset of dataset for Well 10 showing the comparison between the actual BSW values and the BSW values predicted by the trained model.Figure 5View largeDownload slideSubset of dataset for Well 10 showing the comparison between the actual BSW values and the BSW values predicted by the trained model. Close modal
+
+
+Figure 6View largeDownload slideCorrelation Matrix of well test data features. This shows the relationship between all the numerical variables present in the dataset on a scale of -1 to +1. Variables which are strongly correlated either positively or negatively tend to fall at the extremes.Figure 6View largeDownload slideCorrelation Matrix of well test data features. This shows the relationship between all the numerical variables present in the dataset on a scale of -1 to +1. Variables which are strongly correlated either positively or negatively tend to fall at the extremes. Close modal
+
+
+Figure 7 shows the plot of the residual values – which is gotten by getting the difference between the actual BS&W values and the predicted BS&W values. From the graph it is seen that the model predicts well with most of the residual values falling in or around 0.
+
+
+Figure 7View largeDownload slideFeature importance of random forest regression algorithm showing how important the model considers each variable when making predictions. In our model, the date is the most weighted variable.Figure 7View largeDownload slideFeature importance of random forest regression algorithm showing how important the model considers each variable when making predictions. In our model, the date is the most weighted variable. Close modal
+
+
+Figure 8 further shows the residual dots on the graph being clustered around the middle indicating high accuracy predictions by the machine learning model. The dots are the residual values clustered around a middle line of 0. The further away from the line the dots are the larger the error in prediction by the model.
+
+
+Figure 8View largeDownload slideLine plot of model residuals which is gotten by subtracting the actual BSW values from the predicted values. The further away from 0 the residuals are, the larger the error made in prediction by the model.Figure 8View largeDownload slideLine plot of model residuals which is gotten by subtracting the actual BSW values from the predicted values. The further away from 0 the residuals are, the larger the error made in prediction by the model. Close modal
+
+
+Figure 9View largeDownload slideFitted vs Residual Plot showing the error margin made by the model predictions. The further the dots are from the dotted line, the larger the error made in the predictions by the model. High accuracy by the model can be inferred from the dots clustered around the dotted line.Figure 9View largeDownload slideFitted vs Residual Plot showing the error margin made by the model predictions. The further the dots are from the dotted line, the larger the error made in the predictions by the model. High accuracy by the model can be inferred from the dots clustered around the dotted line. Close modal
+
+
+The train and test results are illustrated in Figure 7 and Figure 8, where the regression metrics are weighted against each other to measure the accuracy of the model. For the train data sample, the mean absolute error (MAE) was 0.846425, the root mean square error (RMSE) was 1.298971, and the coefficient of determination – the adjusted R2 was greater than 0.95. For the train data sample, the mean absolute error (MAE) was 2.432883, the root mean square error (RMSE) was 3.746367, and the coefficient of determination – the adjusted R2 was 0.905109. While the accuracy figures for the model are reduced when used on the test data, the figures are still strong and accurate with minimal error.
+
+
+Figure 10View largeDownload slideMetrics breakdown of model on training data. All metrics are within acceptable ranges. The R-squared value is ∼0.98 showing that the model explains a large portion of the information contained in the dataset.Figure 10View largeDownload slideMetrics breakdown of model on training data. All metrics are within acceptable ranges. The R-squared value is ∼0.98 showing that the model explains a large portion of the information contained in the dataset. Close modal
+
+
+Figure 11View largeDownload slideMetrics breakdown of model on test data. All metrics are within acceptable ranges. The R-squared value is ∼0.91 showing that the model explains a large portion of the information contained in the dataset.Figure 11View largeDownload slideMetrics breakdown of model on test data. All metrics are within acceptable ranges. The R-squared value is ∼0.91 showing that the model explains a large portion of the information contained in the dataset. Close modal
+
+
+The test data results show that the random forest regression algorithm is very promising in predicting the water cut value and optimizing the amount of produced water gotten from the exploration and production process. This improves the applicability of the predictive model.
+
+
+Conclusion
+
+
+Considering the predictions made regarding the oil producing wells and the values of the metrics used to evaluate the model. The prediction weighted against the actual values of the test dataset has a Mean Absolute Error of 2.432, a Root Mean Squared Error of 3.746 and an Adjusted R-squared of 0.891. Given the minimal error values; we can conclude the model is a successful one and can be used for the future prediction of water cut values for oil and gas wells.
+
+
+In the analysis of the correlation matrix, the impact of all the independent variables is accounted for and the relationship between the variables behave as expected. However, from the tests performed on the result of the regression model we can conclude that this approach for predicting the water cut values of wells based on preexisting data is a functional one. The correlation matrix showed that the independent variables affected the water cut as expected. The bar chart graphing the predicted values and actual values showed minimal error margins indicating the model's accuracy can be trusted.
+
+
+This method is limited by both the quantity and quality of data which is used in the training the model. The data should be of a high quality as well as be treated for outliers as those skew the results and increase the margin for error and reduce the accuracy.
+
+
+Another limitation is the tendency of some oil producing wells to bread their accustomed production trends throwing the model askew.
+
+
+This method presents a novel way the estimate the water cut of well, trying out various combinations of the independent variables and confidently settling on the most optimized combination. It's efficiency and ease of use would greatly revolutionize the well selection process.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+FreemanHill, SPE, SteveMonroe, SPE, and ReshmyMohanan, SPE, BakerHughes – "Water Management – An Increasing Trend in the Oil and Gas Industry".ArunKharghoria, SantiagoGonzalez, and AbdullahAbdul Karim Al-Rabah, Kuwait Oil Company; AlokKaushik, ManuUjjal, ManuSinghal, JacoboMontero, GregorioGonzalez, MikeCheers, EllenZijlstra, and KeithRawnsley, Shell – "Application of Big Data Techniques in a Greenfield Heavy Oil Asset in Kuwait – a Feasibility Study".T.Cross*, K.Sathaye, K.Darnell, D.Niederhut, K.Crifasi (Novi Labs) – "Predicting Water Production in the Williston Basin Using a Machine Learning Model".
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211921-MS
+
+
+

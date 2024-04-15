@@ -1,0 +1,285 @@
+----- METADATA START -----
+Title: Hybridization of Optimized Supervised Machine Learning Algorithms for Effective Lithology
+Authors: Ebenezer Aniyom, Anthony Chikwe, Jude Odo
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212019-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Lithology identification is an important aspect in reservoir characterization with one of its main purpose of well planning and drilling activities. A faster and more effective lithology identification could be obtained from an ensemble of optimized models using voting classifiers. In this study, a voting classifier machine learning model was developed to predict the lithology of different lithologies using an assembly of different classification algorithms: Support Vector Machine (SVM), Logistic Regression, Random Forest Classifier, K-Nearest Neighbor, and Multilayer Perceptron (MLP) models. The result of the comparative analysis shows that the implementation of the voting classifier model helped to increase the prediction performance by 1.50% compared to the individual models. Despite a small significance at deployment in real scenario it improves the chances of classifying the lithology.
+
+
+
+
+Keywords:
+lithology,
+upstream oil & gas,
+reservoir characterization,
+neural network,
+artificial intelligence,
+prediction,
+algorithm,
+structural geology,
+machine learning,
+identification
+
+
+Subjects: 
+Reservoir Characterization,
+Information Management and Systems,
+Exploration, development, structural geology,
+Artificial intelligence
+
+
+
+
+Introduction
+
+
+In the past few years’ lithology classification has been speculative to the industry, and accurate prediction of formation tops with lithology identification is now one of the most essential factor for safe and efficient drilling operations. The knowledge of formation tops is required during casing design programs as this will assist in the selection of better casings for efficient isolation of reservoir zones (Abdulhamid et al., 2021). During formation evaluation, classification of lithology is done considering the formation facies, which is a body of rock with specified or similar characteristics and observable attributes such as composition, appearance, and condition of formation. Thus, the ability to predict this facies is essential for reservoir parameter calculations which results in characterization and identification of formations, hydrocarbon zones and water bearing zones (Mohamed et al., 2019).
+
+
+Identification and recognition of patterns in sedimentary rocks has been proposed in time past, with a technique known as core analysis. It involves the collection of physical rock samples which are used for visual interpretation and laboratory analysis to obtain information about the formation (Salehi S.M., 2014). The core analysis is a slow and costly method which requires highly trained and dedicated professionals to accurately detect sedimentary rock properties for the identification of lithology (Xie et al., 2017). The core sample analysis is not reliable because of the different interpretations usually obtained from the core analysis results (O.C. Akinyokun, 2009), thus, the introduction of well logs. A well log is a record of the formations and any event that are encountered in the drilling process (Alcocer, 2003). The process of generating a well log is known as well logging, which could be done while drilling (Logging While Drilling, LWD) or when the bit is pulled out of hole (Wireline Drilling). Well logs data have been used to predict formation lithology overtime and it generates it data usually during the drilling operations. The trend of the well log data is actually used to predict several petrophysical parameters which are relevant to sedimentologists and reservoir engineers. Since well log data could be numerous and complex, thus, it can be burdensome for the geologist to interpret and identify lithology within time allowed (Xie et al., 2017). The introduction of well log data generated several mathematical models used for the prediction of the lithology. Recently, with the advance in technology, computer automated algorithms have been used successfully for the prediction of lithology which is an important part of the drilling operations. In quest to improve the precision of reservoir evaluation and lithology identification, machine learning techniques is being introduced into the prediction of lithology (Xie et al., 2017).
+
+
+Machine Learning is the most current method involving the use of history data to build models capable of detecting new knowledge (Aljubran, et al., 2022). Machine learning aids in creation of new and super-fast approaches for solving problems with enhance algorithms for better computational performance with respect to analysis of large data within a short time (Bressan et al., 2020). Outputs from machine learning predictions are highly reliable for decision making (S., 2015) (Gifford, 2010). Machine Learning method has two categories, the Supervised learning methods, and the unsupervised learning methods. Supervised methods learn from already labeled data, they discover new representations, understand the data, and predict new labels which is compared to already existing labels for precision measurement (Kotsiantis, 2007). Regression and classification are the major approaches used in supervised method, while the unsupervised methods are trained on data without labels (Okoroafor, et al., 2022). The major approaches used in the unsupervised method are clustering and dimensionality reduction (Mohamed et al., 2019). Clustering is an unsupervised machine learning method that groups data into clusters without requiring a training data or label (Lee, 1999). Each cluster consists of samples of same features, with a case study of distinct geological facies. In lithology identification, after applying clustering algorithms on the well log data, the well drilling data can be used in predicting these identified lithologies by means of supervised learning.
+
+
+In this study, an assembly of 6 machine learning algorithms: Support Vector Machine (SVM), Logistic Regression, Random Forest, K Nearest Neighbor (KNN) and Multilayer Perceptron (MLP) were developed. Using geothermal well log data, this study uses a voting classification algorithm to assemble the above mentioned supervised learning algorithms with the aim of enhancing precision for fast and accurate lithology identification and classification.
+
+
+Relevant Studies
+
+
+Ibrahim Mohamed et al. 2019 began to investigate and study lithology classification. Their research was generating insights from Machine Learning Methods by comparing results from supervised learning algorithm, unsupervised learning algorithm and neural networks. From results obtained, they concluded that the supervised classifier models outperformed the unsupervised and the Feed Forward Neural Network Classifier. With SVM ranking the highest in absolute correctness and best performance (Ibrahim Mohamed Mohamed, 2019)
+
+
+Thiago Santi Bressan et al. 2020 engaged in a research for lithology classification, with an objective to apply Machine Learning methods for the classification with multivariate log parameters. The Machine learning models used in their evaluation are modules from the Scikit-Learn libraries, which include; Decision Tree (DecisionTreeClassifier), MultiLayer Perceptron (MLPClassifier), Random Forest (RandomForestClassifier) and the Support Vector Machine Algorithms (SVC). These models were built with preprocessed datasets from offshore wells from the International Ocean Discovery Program (IODP). Subject to performance test, the performance of the Random Forest Algorithm performed better than other models with an accuracy score of above 80%. Though, the performance score is very much acceptable, the model is limited due to its inability to predict in real time. (Bressan et al., 2020).
+
+
+For real time prediction of formation Lithology and tops, Amhed Abdulhamid Modhamouda in 2021 applied Machine Learning Models for Real time prediction of formation lithology from drilling parameters. They applied three different machine learning algorithms (Artificial Neural Networks, Adaptive Neural Fuzzy Interference, Functional Neural Network) in the prediction of the lithology in real time (while drilling). The drilling parameters include ROP, Qm, DSR, SPP, Torque, and WOB which was collected from an onshore gas well in the Middle East. From their research, the Artificial Neural Network outperformed the other models with an accuracy score of 98.1%. This validates the possibility of predicting lithology at real time. (Abdulhamid et al., 2021). This models requires highly trained personnel, thus, the cost of hiring one will be high
+
+
+Yunxin Xie, 2017 implemented the Tuning Process and Model Performance Evaluation Comparison for a better Lithology Identification. Hyperparameter Optimization was their major tool for tuning these models (SVM, ANN, Random Forest, Gradient Tree Boosting), with their performance being measuring the Precision, Recall, and the F1 score during the evaluation (Xie et al., 2017). The tuning process and performance comparison of several models is time consuming and not viable for optimum delivery, thus a better model is required (Xie et al., 2017).
+
+
+For time to be conserved and optimal identification of the lithology done effectively, The Optimization of models for rapid identification of lithology while drilling was carried out by (Sun et al., 2019). This research compares and analyzes three machine learning algorithms for an optimized method of Logging While Drilling (LWD). They concluded that the improved SVM multiple classifiers and Random Forest are effective to solve the complex problem of lithology identification, although with Random Forest model outperforming by an accuracy score of 4% above the improved SVM.
+
+
+Methodology
+
+
+The objective of this study is to develop a voting classification algorithm embedding different machine learning classification algorithms to predict formation lithology.
+
+
+Data Collection
+
+
+Data collected during the drilling operation contained several logs and geological properties from FORGE well 58-32, which is available at the geothermal data repository. The data used in this study included the real-time drilling data, which includes the rate of penetration, rotary, speed, weight on bit, pump pressure and torque for depth up to 7537 ft.
+
+
+Figure 1View largeDownload slideGeologic map and cross section of the Utah FORGE site and environs (modified by Kirby et al, 2018). In cross section the intrusive lithologies of the Mineral Mountains Batholith have been combined and shown as simply "graniod"Figure 1View largeDownload slideGeologic map and cross section of the Utah FORGE site and environs (modified by Kirby et al, 2018). In cross section the intrusive lithologies of the Mineral Mountains Batholith have been combined and shown as simply "graniod" Close modal
+
+
+Analysis of core and cuttings from FORGE well 58-32 shows that alluvium was penetrated in the upper part of the well (0-3500ft regions), and coarse-grained plutonic rocks were encountered in the lower part (4200ft-7536ft region). Separating these two lithologies is a thin sheared and brecciated porphyritic rhyolite (Figure 2)
+
+
+Figure 2View largeDownload slideAt left is a lithology column constructed from compressed images of the well cuttings from 58-32, with a simplified lithologic column at center. At right is XRD data from the plutonic rock analyzed at 100-ft intervals. Two cores were taken at the depths indicated. The proposed EGS reservoir (shown in orange) is at depths greater than 6528ft where temperatures in excess of 347°F (175 °C) have been measured (Clay G. Jones, 2019)Figure 2View largeDownload slideAt left is a lithology column constructed from compressed images of the well cuttings from 58-32, with a simplified lithologic column at center. At right is XRD data from the plutonic rock analyzed at 100-ft intervals. Two cores were taken at the depths indicated. The proposed EGS reservoir (shown in orange) is at depths greater than 6528ft where temperatures in excess of 347°F (175 °C) have been measured (Clay G. Jones, 2019) Close modal
+
+
+Theory
+
+
+Unsupervised Learning
+
+
+In this study, we applied unsupervised machine learning method, clustering on a well log data from the Utah FORGE well 58-32 well, with several well logs (Gamma, Density, Neutron-Porosity, Spontaneous, etc.) to identify the possible geological facies. After successful identification of the lithologies with the clustering algorithm, we applied the supervised machine learning method on the well drilling data to predict the identified lithologies.
+
+
+Clustering is an unsupervised machine learning algorithm that aid in the identification of patterns within a dataset without requiring a training dataset. We applied the K-Means and Hierarchical clustering algorithm to predict the lithology available within the well log data. The Silhouette analysis was performed on the well log data to obtain the optimal number of clusters. With the aid of silhouette_samples and silhouette_score from Scikit Learn metrics the optimal number of clusters was identified. Also, the elbow plot ascertains the claims from the Silhouette analysis.
+
+
+I. K-Means
+
+
+K-means is an unsupervised method with a hyperparameter k which is the number of clusters for which the data is being grouped into. K-means determines clusters centroids, μ. It minimizes the Euclidean distance between each point and the centroid of its labeled cluster using the following algorithm.
+
+
+II. Hierarchical Clustering
+
+
+Hierarchical Clustering groups similar objects into groups called clusters. The endpoint is a set of clusters, where each is cluster is distinct from the other cluster with a broad similarity within each clusters.
+
+
+Supervised Learning
+
+
+I. Support Vector Machine (SVM) – Classification
+
+
+Support Vector Machines (SVMs) algorithms constructs a hyperplane or set of hyperplanes to distinguish between instances of different classes which find the line that maximizes the separation between the points of each class (N, 1998). The output from SVM is the label of a particular point as wtx+b, the goal is to is to maximize the margin. A hard margin does not give room for error, thus leading to overfitting the data. While soft margin allows for error by using a parameter.
+
+
+II. Logistic Regression
+
+
+Logistic Regression is used to predict the probability of a categorical dependent variable. Here, the dependent variable is a binary variable. They predict the probability of a variable as a function of the independent variable.
+
+
+III. Random Forest
+
+
+Random Forest classifier is an aggregate of several decision tree. It is a meta estimator that fit several numbers of decision tree classifiers on various samples of the dataset and improves the predictive accuracy and over-fitting with the use of averaging. The model uses aggregates from each decision tree for predictions. Random forest often takes an input of nestimators which represents the number of trees in the forest with an approximately large return with the sums of the results (James, 2013).
+
+
+IV. K-Nearest Neighbors (KNN) – Classification
+
+
+KNN is one of the simple supervised learning approach. In training a KNN model, it memorizes the positions of all the points with their corresponding values. Then during prediction, the model takes the input data and calculates the k nearest point to that input.
+
+
+V. Multilayer Perceptron
+
+
+A multilayer perceptron (MLP) is a class of the artificial neural network consisting of at least three layers of nodes; an input layer, and an output layer connected by a hidden layer (Nwosu, Ibeh, Onwukwe, & Obah, 2018). Except for the input nodes, it is pertinent to note that the output nodes are produced setting transfer functions called activation functions, which can be linear or nonlinear (Ojoboh, E. P.; Ochie, K. I.; Nwosu, C. J., 2020)
+
+
+VI. Voting Classifiers
+
+
+A voting classifier is a machine learning model that trains on an ensemble if numerous models and predicts an output based on their highest probability of a chosen class as an output. Voting Classifier supports two types of votings; Hard voting & Soft voting.
+
+
+In hard voting the predicted output class is a class with the highest majority of votes, i.e. the class which had the highest probability of being predicted by each of the classifiers. While in soft voting, the output class is the prediction based on average of probability given to that class.
+
+
+Data Exploration and Preparation
+
+
+The well log data collected from the FORGE well 58-32 consisted of several well logs. For the purpose of this study, we selected a few conventional well logs that are necessary for lithology identification. The value count plot was used to show the number of values in the well log data as shown in figure 3(a). From the plot it was realized that there are some features with missing values though not significant enough to affect model, figure 3(b) shows a plot of missing values in the dataset. Since the missing values are not significant, the rows with the missing values were dropped.
+
+
+Figure 3View largeDownload slideWell Log Data Exploration: (a) Value Count plots of the Conventional Logs (b) Missing Values Plots of the well log data (c) RHOB Boxplot for Outlier detection (d) SP Boxplot for Outlier detection (e) NPHI Boxplot for Outlier detection (f) GR Boxplot for Outlier detectionFigure 3View largeDownload slideWell Log Data Exploration: (a) Value Count plots of the Conventional Logs (b) Missing Values Plots of the well log data (c) RHOB Boxplot for Outlier detection (d) SP Boxplot for Outlier detection (e) NPHI Boxplot for Outlier detection (f) GR Boxplot for Outlier detection Close modal
+
+
+Figure (c), (d), (e) and (f) are used to indicate the presence of outliers in the dataset. The boxplots for RHOB, SP, NPHI, and GR datasets, they showed the presence of outliers. The outliers’ presence was handled using the filtering method. A benchmark was set for the filtration with respect to each of the features.
+
+
+There are a total of four conventional well logs that was used in this study. Figure 4, shows visualization of the FMI logs used for this study with respect the depth. The plots consist of the Gamm ray log, Density log, Neutron Porosity log, and the Spontaneous log. The visualization was done to observe the pattern of the log data.
+
+
+Data Preprocessing
+
+
+Data preprocessing was carried out to scale the dataset for uniformity across the dataset. The "sklearn.preprocessing" were used to transform the raw features vectors into a representation that is more suitable. This grants that the features are normally distributed.
+
+
+After scaling the data, we applied clustering algorithm to identify the lithologies present in the well log data. Before the proper application of clustering algorithm, the choice of the optimal number of clusters was done using the Silhouette Analysis with the aid of the silhouette_score from sklearn. metrics. This metric in conjunction with the elbow plot, indicated that three (3) is the best number for clusters (n_clusters=3). The Silhouette analysis output and the elbow plots are shown in Figure 5.
+
+
+Figure 4View largeDownload slideWell Log Plot – Gamma, Density, Neutron Porosity, and Spontaneous LogsFigure 4View largeDownload slideWell Log Plot – Gamma, Density, Neutron Porosity, and Spontaneous Logs Close modal
+
+
+Figure 5View largeDownload slideClustering: Choice of Optimal n_clusters: (a) Silhouette Analysis- For n_clusters = 2 The average silhouette_score is: 0.4908522652164892 (b) Silhouette Analysis- For n_clusters = 3 The average silhouette_score is: 0.5063697375515153 (c) Silhouette Analysis- For n_clusters = 4 The average silhouette_score is: 0.46092282739586865 (d) Silhouette Analysis- For n_clusters = 5 The average silhouette_score is: 0.47823752497893424 (e) Silhouette Analysis- For n_clusters = 6 The average silhouette_score is: 0.4717919371595686 (f) Elbow plotFigure 5View largeDownload slideClustering: Choice of Optimal n_clusters: (a) Silhouette Analysis- For n_clusters = 2 The average silhouette_score is: 0.4908522652164892 (b) Silhouette Analysis- For n_clusters = 3 The average silhouette_score is: 0.5063697375515153 (c) Silhouette Analysis- For n_clusters = 4 The average silhouette_score is: 0.46092282739586865 (d) Silhouette Analysis- For n_clusters = 5 The average silhouette_score is: 0.47823752497893424 (e) Silhouette Analysis- For n_clusters = 6 The average silhouette_score is: 0.4717919371595686 (f) Elbow plot Close modal
+
+
+From the Silhouette analysis plot as shown in figure 5(b), the average silhouette score of n_clusters = 3 performed better with a score of 0.506. And figure 5(f) is an elbow plot that confirms the choice of n_clusters = 3, since a proper elbow was formed from three. With the optimal choice of number of clusters being chosen to be three, two clustering algorithms was applied to the data for proper identification of lithology; the KMeans and Hierarchical Clustering was applied to the well log data. The number of clusters was then compared to with the actual lithology data, to determine the best clustering algorithm.
+
+
+The drilling data with selected features, Depth, ROP, Pump Pressure, WOB, Torque, RPM, and Flowrate was merged with the well log data and used as the input data for supervised learning modeling and prediction of the lithology. The merged data (drilling and well log) was then used as the independent variables. The lithology identified during the clustering becomes the target variable. The entire dataset was divided two with the ratio of 80:20 for training and testing respectively using the "train test split" from sklearn.model_selection.
+
+
+Model Development
+
+
+Five different classifications models were build. The train data was used to train the model while the test data used to predict the target. The models developed include: Support Vector Machine, Logistic Regression, Random Forest Classifier, K-Nearest Neighbor Classifier & MultiLayer Perceptron Algorithm.
+
+
+In this study, our aim is to build an ensemble of models to achieve a better performance in the prediction and identification of lithology. Thus, we applied the ‘Voting Classifier" from the sklearn.ensemble module. This algorithm was used to ensemble the above mentioned five modeling algorithms, with a far more performance index.
+
+
+Accuracy and Model Evaluation
+
+
+The results are evaluated based on the metrics of precision, recall, F1_score and classification accuracy. The performance of different algorithms is examined based on the selected features of the well log data.
+
+
+The recall is the ratio of true positive tp to the summation true positives tp and the number of false negatives fn. It is used to defined the number of relevant items retrieved by the supervised model. While precision is the ratio of true positives tp to the summation of true positives tp and the number of false negatives fn. It is used to define the number of relevant items selected. F1-score provides the harmonic mean of precision and the recall. Used to measure the accuracy of both precision and recall.
+
+
+Results and Discussion
+
+
+Clustering Results
+
+
+Clustering was done to identify the lithologies present in the well log data. Here, we will discuss on the choice of the optimal number of clusters, the choice of the best clustering algorithms to be used with respect to the actual well log data.
+
+
+Optimal choice of number of clusters to be used was determined using the Silhouette analysis with the aid of the silhouette_score from ‘sklearn.metrics’. From figure 5(b), the n_clusters = 3 showcase the best optimal number of clusters. The ‘elbow plot’ also affirms this as shown in figure 6(a). With the optimal number of clusters being three, the KMeans scatter plot in figure 6(b) shows the nature of the clusters.
+
+
+Figure 6View largeDownload slideClustering Output (a) Elbow Plot for Optimal Choice of n_clusters (b) K Means Clusters ViewFigure 6View largeDownload slideClustering Output (a) Elbow Plot for Optimal Choice of n_clusters (b) K Means Clusters View Close modal
+
+
+After the choice of the optimal number of clusters, the next was the application of clustering algorithms, which was done with KMeans Clusters and Hierarchical Clustering Algorithms. KMeans clustering algorithm outperformed the latter with predictions very close to the actual lithology. The actual lithology shown in figure 2, was predicted using the KMeans Clustering and Hierarchical Clustering with results shown in figure 9(a) and figure 9(b) 
+
+
+Model Performance
+
+
+This section compares results of the five machine learning algorithms including the voting classifiers algorithm.
+
+
+Precision, recall, and F1-score are used to evaluate the performance of the models. Figure 8 show the precision, recall and F1-score of each lithology class for SVM, Logistic Regression, Radom Forest Classifier. The lithology identified are Alluvium, Rhyolite and Plutonic Rock respectively. With default parameters applied across the models, the performance is above 90%. The assembly of the models into a voting classifier performed very well, with random forest classifier and multilayer perceptron ranking second in best performance. Support vector machine also performed well with the logistic regression giving an above 90% accuracy score using the f1-score metrics
+
+
+Figure 7View largeDownload slideWell log plot with identified lithologiesFigure 7View largeDownload slideWell log plot with identified lithologies Close modal
+
+
+Figure 8View largeDownload slidePerformance plots of the models developed (a) SVM model (b) Logistic Regression (c) Random Forest Classifier (d) KNeighbor Classifier (e) Voting Classifiers (f) MultiLayer PerceptronFigure 8View largeDownload slidePerformance plots of the models developed (a) SVM model (b) Logistic Regression (c) Random Forest Classifier (d) KNeighbor Classifier (e) Voting Classifiers (f) MultiLayer Perceptron Close modal
+
+
+Figure 9View largeDownload slideConfusion Matrix Plot for Model Performance (a) Support Vector Machine Model (b) MultiLayer Perceptron Model (c) Logistic Regression Model (d) K-Neighbor Classifier Model (e) Random Forest Classifier Model (f) Voting Classifier ModelFigure 9View largeDownload slideConfusion Matrix Plot for Model Performance (a) Support Vector Machine Model (b) MultiLayer Perceptron Model (c) Logistic Regression Model (d) K-Neighbor Classifier Model (e) Random Forest Classifier Model (f) Voting Classifier Model Close modal
+
+
+The confusion matrix in figure 9 indicates lithology classes misclassified to other classes for each model. Overall the Voting Classifier, the Random Forest Classifier and the MultiLayer Perceptron have the highest prediction accuracy. Logistic Regression model misclassified one the lithologies with accuracy less than the aforementioned, while the Support Vector Machine model and the K-Neighbor model performed less than other models. From the confusion matrix it is realized the two classifiers achieved same classification accuracies among the lithology classes.
+
+
+Figure 10 summarizes the trade-off between the true positive rate and false positive rate for a prediction for the prediction models with different thresholds. It shows the balances between each class. The ROC curve in figure 10 shows that the models performed well with a good balance between the true positive and the false positive rate of prediction.
+
+
+Figure 10View largeDownload slideROC Curve (a) ROC for the five classification models (b) ROC curve for voting classifier modelFigure 10View largeDownload slideROC Curve (a) ROC for the five classification models (b) ROC curve for voting classifier model Close modal
+
+
+Conclusion
+
+
+In this study, two clustering algorithms of the unsupervised machine learning method was applied in the identification of lithology present in the well log data obtained from well 58-32 of the Utah FORGE environs. Three distinct lithologies were identified and compared to the actually well log data, the KMeans clustering algorithm performed better than the latter (Hierarchical).
+
+
+With the lithologies identified, the well drilling data was used to predict these lithologies using five machine learning classifiers including the voting classifiers which ensembles the five machine learning classifiers. The drilling dataset was divided into the training and testing dataset with the 80:20 ratios respectively. Training dataset being used to fit the models for prediction of the target.
+
+
+Due to the performance of the clustering algorithm applied in the lithology identification, the classification single models performed well with accuracy scores above 90%. But the results indicate that the Voting Classifier outperformed the other single classification models with a performance increase by 1.50% compared to other individual models. The Multilayer Perceptron and the Random Forest models ranked second in performance, then the support vector and the Logistic Regression performed least. Despite a small significance at deployment in real scenario it improves the chances of classifying the lithology. Thus, the voting classifier should be preferred during lithology identification as it embeds other models and performs best during predictions.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Abdulhamid, A., Elkatatny, S., & Al-abduljabbar, A. (2021). Journal of Petroleum Science and Engineering Application of machine learning models for real-time prediction of the formation lithology and tops from the drilling parameters. Journal of Petroleum Science and Engineering, 203(October2020), 108574. https://doi.org/10.1016/j.petrol.2021.108574Google Scholar Al-Anazi, A. a. (2010). On the Capacity of support machines to classify lithology from well logs. Natural Resources Research, 125–139.Google Scholar Alcocer, Y. (.(2003). study.com. Retrieved fromstudy.com/academy/lesson:study.com/academy/lessonAljubran, J., Nwosu, C., Okoroafor, E., Smith, C., K., O., & Gudmundsdottir, H. (2022). Recent Trends in Artificial Intelligence for Subsurface Geothermal Applications. 47th Workshop on Geothermal Reservoir Engineering Stanford Univeristy. California.Google Scholar ClayG.Jones, J. N. (2019). Petrography of the Utah FORGE site and environs, Breaver County, Utah. Energy & Geoscience Institue, University of Utah, Salt Lake City, Utah, 2–3.Google Scholar Gifford, C. A. (2010). Collaborative multi-agent rock facies classification from wireline well log dat. Engineering Applications of Artificial Intelligence, 1158–1172.Google Scholar Lee, S. D.-G. (1999). Electrofacies characterization and permeability predictions in carbonate reservoirs: role of multivariate analysis and nonparametric regression. SPE Annual Technical Conference and Exhibition.Google Scholar N, V. V. (1998). Statistical Learning Theory. A Wiley-Inerscience Publication, New York City. U.S.Google Scholar Nwosu, J. C., Ibeh, S. U., Onwukwe, S. I., & Obah, B. O. (2018). Determination of Compressibility Factor for Natural Gases Using Artificial Neural Network. Petroleum & Coal, 60(6).Google Scholar O.C. Akinyokun, P. E. (2009). Well Log Interpretation Model for the Determination of Lithology and Fluid Contents. Pacific Journal of Science and Technology, 507, 517.Google Scholar Ojoboh, E. P.; Ochie, K. I.; Nwosu, C. J. (2020). Assessment of Aquifer Susceptibility using Artificial Intelligence: A Case Study of the Warri-Sombreiro Deposits, Niger Delta. In SPE Nigeria Annual International Conference and Exhibition. Lagos: Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Ibrahim Mohamed Mohamed, S. M. (2019). Formation Lithology Classification: Insights into Machine Learning Methods. Society of Petroleum Engineers.Google Scholar James, G. W. (2013). An Introduction to Statistical Learning. Springer, New York City, U.S, 187.Google Scholar Kotsiantis, S. B. (2007). Supervised machine learning: A review of classification techniques. Emerging artificial intelligence applications in computer engineering.Google Scholar Okoroafor, E., Smith, C., Ochie, I., Nwosu, C., Gudmundsdottir, H., & Aljubran, J. (2022). Machine Learning in Subsurface Geothermal Energy: Two decades in review. Geothermics, 102. doi:https://doi.org/10.1016/j.geothermics.2022.102401Google Scholar RahimL. A, T. S. (2009). Lithology unit thickness approach for determining intact rok strength (IRS) of slope forming rock material of crocker formation. Borneo Science, 23–32.Google Scholar S., R. (2015). Python Machine Learning. Packt Publishing Ltd, England.Google Scholar Salehi S.M., H. B. (2014). Automatic identification of formation lithology from well log data: a machine learning approach. Journal of Petroleum Science Research, 73–82.Google Scholar Wang, G. a. (2012). Marcellus shale lithofacies prediction by multiclass neural network classification in the Appalachian Basi. Mathematical Geosciences.Google Scholar Xie, Y., Zhu, C., Zhou, W., Li, Z., Liu, X., & Tu, M. (2017). SC. Journal of Petroleum Science and Engineering. https://doi.org/10.1016/j.petrol.2017.10.028Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212019-MS
+
+
+

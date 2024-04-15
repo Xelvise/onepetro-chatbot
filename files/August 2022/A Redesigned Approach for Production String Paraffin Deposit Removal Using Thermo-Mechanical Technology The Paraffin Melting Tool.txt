@@ -1,0 +1,136 @@
+----- METADATA START -----
+Title: A Redesigned Approach for Production String Paraffin Deposit Removal Using Thermo-Mechanical Technology: The Paraffin Melting Tool
+Authors: Leonard Ogbonnia Okoronkwo, Stella Okene, Cory Kohut
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212046-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Paraffin precipitation and deposition on the internal walls of oil well production string continues to remain an age-long concern for operators especially in mature oilfield regions of the world. Paraffin or wax deposits constitute a major challenge to meeting reservoir production daily target output due to flow restriction along production string. Several options or techniques have been deployed to manage continuous wax deposition including use of hot oil, hot water, scratching and scraping, using of chemicals and even combination techniques. These techniques have yielded different results with some associated concerns ranging from safety, cost to formation damage (permeability impairment). The latest being use of thermochemical fluids to generate in-situ heat and pressure to dissolve wax and flush same from production tubing (Amjed, et al. 2019). However, this combination method presents some challenges including potential completion string corrosion and pipe integrity. This paper will discuss the performance of a field proven thermo-mechanical technique for wax removal. This technique is being currently deployed in Niger-Delta and Gulf-of-Mexico (GoM) regions with excellent results. The thermo-mechanical system utilizes battery packs to generate heat in a heating element, transfers the heat through a patented heat-transfer-fluid to a mechanical cutting head that delivers speedy melting and cutting of deposited wax. The result is a wax-free completion tubing walls.
+
+
+
+
+Keywords:
+paraffin deposit,
+completion installation and operations,
+wax inhibition,
+remediation of hydrates,
+scale inhibition,
+production chemistry,
+scale remediation,
+asphaltene inhibition,
+asphaltene remediation,
+oilfield chemistry
+
+
+Subjects: 
+Production Chemistry, Metallurgy and Biology,
+Flow Assurance,
+Inhibition and remediation of hydrates, scale, paraffin / wax and asphaltene,
+Precipitates (paraffin, asphaltenes, etc.),
+Completion Installation and Operations
+
+
+
+
+Introduction
+
+
+Crude oil majorly contains, among other components, saturated hydrocarbons or paraffins. Paraffins are high molecular weight alkanes, having twenty and above Carbon atoms. Once completion is installed and a well brought online, production continues to induce change in crude composition due to drop (change) in temperature and pressure. With increasing drop in temperature and pressure, dissolved gases, and more soluble components of crude oil separate from the crude. The result is reduction in crude solubility. As production progresses, the heavier crude components start to precipitate and get deposited either in the reservoir rock pore spaces, near-wellbore area, on the walls of production tubing, other completion accessories and along flowlines etc. Continuous precipitation and deposition of paraffins or a combination of paraffins and asphaltenes results in reduction of flow tubing diameter and overall blockage of entire flow if left unmanaged. This would mean of lost of production and associated revenue.
+
+
+Operators look out for the most suitable and cost-effective means of controlling paraffin wax deposition. Some of the techniques currently deployed in oilfields today includes use of hot oil, use of hot water, scratching/scraping (mechanical technique – running slickline scratcher followed by a gauge cutter run). Combination techniques such as use thermochemical fluids and nano chemistry options (Tukenov, 2014). Sadly, use of hot oiling and watering means continuously pumping hot oil or water at certain interval about 7-10 days. This technique also has a major concern that hinges on safely handling of heated oil/water at surface as well as well formation damage (Barker and Mansure, 1994; Khalil et.al, 1997). Similarly, scratching and cutting with gauge (paraffin) cutter, in some cases, means cutting wax every 4-7 days. Cumulatively, these methods result in high maintenance or intervention cost and merely reduce the volume of deposited wax but does not offer a complete wax-free tubing flowing diameter.
+
+
+Thermo-mechanical Paraffin Removal
+
+
+This technique is by itself a combination method. The tool generates heat, by designed, which is conducted through a heating tip (mechanical cutting head) to melt paraffin deposits found on the internal walls of completion string. It employs a combination of battery packs that can generate upto 400W of power, a heating element/control board, designed to sustain heat at the cutting head in a chambered paraffin melting tool (PMT). The power generated is converted to heat within a heating element that forms an integral part of the melting tool. Ultimately, the heat is conducted via a specially designed heat-transfer-fluid (Dynalene) contained in a micro annulus chamber screwed to a spiral/sharp cutting head. The heat conducted to the cutting head generates temperatures up to 455° F. This temperature being well above paraffin melting point (circa 150° F) can melt an entire deposit of wax allowing a vertical well to flow or produce wax-free for extended time. The effectiveness of this thermo-mechanical method validates the conclusion of Guerreiro et. al (2019) regarding the widespread adoption of mechanical and combination methods in the removal of paraffin deposits in flowing vertical wells as well as use of innovative heating devices (Al-Yaari and Fahd 2011). Below shows a solid design piece of the paraffin melting tool, a typical innovative heating device that offers effective thermo-mechanical removal of paraffin wax, a patented design of Sagerider Incorporated.
+
+
+Figure 1View largeDownload slideSagerider paraffin melting toolFigure 1View largeDownload slideSagerider paraffin melting tool Close modal
+
+
+SageRider Paraffin Melting Tool (PMT) Components and Design
+
+
+This section discuses the design and composition of the game-changing paraffin melting tool designed and patented by SageRider Incorporated (SRI). The innovative design of this tool makes it a specific solution targeted at melting all paraffin and asphaltene deposits along the internal walls of a production string.
+
+
+From end-to-end (top to bottom), the tool is a patented battery-powered tool designed to be conveyed on all forms of wireline (slickline, braided line & e-line). The system utilizes heat and a steel cutting head (thermo-mechanical) to remove the paraffin from the production tubing wall and bring tubing back to full drift.
+
+
+From top, the tool has a top sub (with a fishing neck) designed to adapt unto slickline, braided line or e-line tool string. In sequence, the top sub connects to a battery pack housing. The battery pack housing comes modular in design to allow a field technician the freedom to run one or more battery packs. The battery pack is operatively (internally) connected to a heating element, contained in a heating element housing. Physically, the heating element housing is connected to the battery pack housing with a pin-pin bridge connector equipped with elastomeric seals on both pin ends. To ensure controlled power delivery from the battery pack to the heating element, an electrical control board is designed, retained in a control board-housing, and positioned between the battery pack and the heating element. The control board makes it possible for the battery pack to maintain a predetermined temperature at the heating element during operation of the tool. To protect the control board electronic components from potential damage from the heat generated at the heating element, the tool is equipped with specially made insulating material placed between the board and the upper section of the heating element.
+
+
+The heating element housing is designed to have fluid chambers filled with a heat transfer fluid (Dynalene). The electrical energy generated by the battery packs, transferred to the heating element through the control board, is converted to heat in the heating element. The heat diffusing from the element heats up the heat transfer fluid, which further conducts (transfers) the heat to the heating element housing. The tool design terminates with a heating tip (cutting head or spear). The cutting head has a threaded pin that makes up directly to the heating element housing box connection. Incorporated in the design of the heating tip, is a fluid chamber filled with Dynalene heat transfer fluid. The heat transfer fluid transfers heat to the heating element housing and the heating (cutting head) tip. When the tool is deployed down a completion string, the sharp or speared cutting head (heating tip) is capable of dissolving and cutting through paraffin or any asphaltene deposit along its way.
+
+
+This innovatively designed tool uses wire leads to connect from the control board to the battery packs and ensure leak-proof connections by utilizing specially designed elastomeric seals in all connections from the top sub to the cutting head.
+
+
+Battery Pack Design
+
+
+The battery pack is a long cylindrical member designed and modularly connected with pin-pin bridge connectors as required. Commonly, it comprises rechargeable Lithium-ion batteries of type 18650. In a typical design of the tool, the batteries are connected in parallel and managed by a control board. In some configurations of the PMT, a total of thirty-six type 18650 batteries are contained in a battery pack resulting in 4ft pack capable of generating about 48 volts and 9 amperes of voltage and current respectively. Notably, different battery pack configuration is possible due to field conditions, heat, and temperature requirement. Typically, the battery pack configuration is designed and targeted to accommodate a reasonable operating time downhole (1.5 – 2 hours); and ability to maintain the heating tip at temperatures above 350-degree Fahrenheit to be able to melt any paraffin deposit (Paraffins typical melts at 150-degree Fahrenheit).
+
+
+Control Board and Heating Element
+
+
+Cost effective operation incentive rationalized the design of the control board. The control board is designed to fit in a relatively small housing about 1.25 inches. This design reduces the frequency of replacing the rechargeable battery pack; hence, making the operation of the tool cost effective. From its narrow resident space, the board is designed to operate large heating element of four-hundred watts (400 W) and above without damaging the battery pack. Overall, the control board delivers all the required controls needed to ensure efficient operation of the PMT. Its circuit design delivers pulse (while using between 30 mA at resting period and 9A full operation consumption respectively) to the battery pack allowing the battery pack to rest at predetermined interval for chemical stabilization and long-time performance while in operation.
+
+
+Heating Tip (Cutting Head)
+
+
+As noted earlier, the heating tip is a steel member that typically comes as either a spear- headed or spiral-cutting edged head. The design allows the heating tip or head to melt and cut through paraffin deposit while running in hole with the tool. In some designs, a modified gauge cutter with a heat transfer fluid chamber is fitted to the heating element housing to serve as a cutting head. In such design, the gauge cutter heats and cuts through paraffin deposit and provide a passage for the melted paraffin deposit to flow downstream from the cutting depth.
+
+
+Application and Benefits
+
+
+The PMT, a typical thermo-mechanical technology for paraffin or asphaltene deposit removal finds good applications both onshore and offshore where wax removal intervention is required to improve production flow performance. The tool can be deployed on slickline, braided line and e-line tool string, hence an operator is not limited to one deployment option. Its temperature capability makes it possible for an operator to melt, remove and restore full production drift bringing production back to 100%. The technology is cost effective and significantly reduces operating time. It melts and removes paraffin deposit within 60 minutes, an operation that hitherto will require 4-8 hours in a typical mechanical wax cutting operation. Logistics is minimized and easily managed; the tool is about eleven feet (11ft) for a two-48volt battery pack design but comes in a modular stack in a pelican case. The charging accessories are quite portable allowing ease of transfer within and between locations. The battery pack is fully charged within an hour, making back-up battery ready for use as required. The cutting head is field-changeable, field crew can easily change the cutting heads depending on production tubing internal diameter; from 2-3/8" to 4-1/2".
+
+
+Performance of Thermo-mechanical Paraffin Melting Tool (PMT) in the Niger-Delta
+
+
+The PMT was first deployed February 2022 for an operator in the Niger-Delta region by Stelog following more than six months engagement and expected technology performance review. The operator identified some candidate wells during a well intervention campaign. To date, a total of five wells have been de-waxed using this thermo-mechanical technology. The flow performance of all five wells has remained stable for more than ninety (90) days. True evidence that a full drift completion string was re-established following the deployment of PMT on these wells. The paraffin melting tool is a game-changer in paraffin melting and removal today due to its efficiency (safe, reduced logistics, low cost, no damage to formation) and significant timesaving.
+
+
+Among the five candidate wells, one was delivered using two packs of battery in the PMT battery pack housing. With each battery fully charged to 54V, a total of 108V battery pack was deployed. Additional battery pack would result in slight increase in time to total discharge downhole. However, with 108volts battery, about 1.5 hours downhole resident before discharge is achievable and 455°F cutting head temperature guaranteed.
+
+
+In the first well, paraffin deposit was encountered slightly deeper than 200ft. From this dept, a paraffin-free dept was established slightly above 3,780ft in forty-five (45) minutes. With subsequent wells, it was confirmed that with this thermo-mechanical technology, paraffin deposits are melted and produced to surface, with well fluids, in less than sixty (60) minutes. This performance level dwarfs, significantly, other available techniques deployed in the removal of paraffin deposits. Traditionally, most mechanical paraffin cutting options, on slickline, take between 4-8 hours or more to complete paraffin deposit removal depending on the total waxed interval in the completion string.
+
+
+One of the candidate wells transitioned from a flowing tubing head pressure (FTHP) of less than 50 psi to a stabilized FTHP of about 950 psi over a period of ninety (90) days. Ninety days continuous production with no form of flow restriction is significant following less than twenty-four hours slickline intervention using the PMT. The result from this intervention operation is in line with the benefits discussed above.
+
+
+Conclusion
+
+
+It is safe to conclude that thermo-mechanical techniques offer the best option for paraffin deposit removal in onshore and shelf (shallow water) rigless paraffin flow restriction/plugging interventions. Specifically, the Sagerider paraffin melting tool (PMT) delivers a state-of-the-art performance in paraffin or asphaltene deposit removal operation. The tool is available in sizes for up to 4-1/2" production strings. The technology’s ability to generate more than 450°F temperature guarantees full-drift production string in less than 60 minutes of deployment. The technology offers a specially designed handling bag for handling the heated cutting head on surface before running in hole and after it is pulled out of hole. The modular design of the PMT battery pack housing makes it possible to run more than one battery pack. Multiple wells can be dewaxed in a day with more chargeable battery packs on location. To be sure of the temperature generated at cutting head, the system package comes with a surface temperature readout as one of its accessories. This thermo-mechanical technology is safe, does not damage formation (when compared to hot oiling or watering or even thermo-chemical fluids), saves time, less expensive and offers full-drift production string for hundred percent production rates restoration.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Amjed, H., Olalekan, A., Mahomed, M. and Adbulaziz, A. (2019). A Novel Technique for Removing Wax Deposition in the Production System Using Thermochemical Fluids. Paper presented at the Abu Dhabi International Petroleum Exhibition & Conference, Abu Dhabi, UAE, November 2019.Paper Number: SPE-197323-MShttps://doi.org/10.2118/197323-MSGoogle Scholar Al-Yaari, M., and Fahd, K. (2011). Paraffin wax deposition: mitigation and removal techniques. SPE Int 155412(March):14–16Google Scholar Barker, K.M., and Mansure, A.J. (1994). Practical hot oiling and hot watering for paraffin control. Available at: https://www.osti.gov/biblio/10127994. [Retrieved 15 March 2022]Google Scholar Guerreiro, L.P., MatosH.A., and SousaA.L. (2019). Preventing and removing wax deposition inside vertical wells: a review. Journal of Petroleum Exploration and Production Technology (2019) 9:2091–2107https://doi.org/10.1007/s13202-019-0609-xGoogle Scholar Khalil, C.N., Rocha, N.O., and Silva, E.B. (1997). Detection of Formation Damage Associated to Paraffin in Reservoirs of the Recôncavo Baiano. Presented at the International Symposium on Oilfield Chemistry, Houston, 18–21 February. SPE-37238-MS. http://dx.doi.org/10.2118/37238-MSGoogle Scholar TukenovD. (2014). Technology Update: Nanochemistry Drives New Method for Removal and Control of Wax. J Pet Technol66 (12): 30–33. Paper Number: SPE-1214-0030-JPThttps://doi.org/10.2118/1214-0030-JPTGoogle ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212046-MS
+
+
+

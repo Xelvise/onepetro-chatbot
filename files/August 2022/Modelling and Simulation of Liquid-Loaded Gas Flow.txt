@@ -1,0 +1,353 @@
+----- METADATA START -----
+Title: Modelling and Simulation of Liquid-Loaded Gas Flow
+Authors: Chinonso Okafor, Abdulwahab GIWA, Abdulkabir Gidado
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211952-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Liquid loading of gas wells gives rise to problems in the wells and diminishes their complete recuperation. A few authors proposed various models to predict the beginning of liquid loading in gas wells, yet the outcomes from the models regularly show disparities. Turner et al.'s basic model was developed based on the understanding that the liquid droplet is a sphere and stays spherical all through the whole wellbore. Thereafter, Li's model was formulated with the understanding that the fluid drops are flat in shape and stays the same all through. Furthermore, Maduabuchi's model was proposed in line with the previous models by presenting a distortion coefficient "C" to cater for the disfigurement of the liquid droplet along the wellbore and, thus, have the option to effectively foresee the basic rate when the droplet fluctuates from the circular shape to the level shape. In this work, another model has been developed and simulated with the aid of MATLAB program to anticipate liquid loading in gas wells. In the new model of this work, Maduabuchi et al.'s model was utilized while relating the drift flux equations and their parameters (distribution coefficient, C0, and the drift velocity, uD) in a modified form. The drift flux parameters were incorporated to cater for the impacts of mixing of the liquid and gas droplets. The newly developed Model predicted the critical velocity with a fitting accuracy of coefficient of determination (R2) of 0.9547 compared to other models. Maduabuchi et al.'s model has coefficient of determination (R2) of 0.8987, Li et al.'s Model has R2 value of 0.8987 and Turner et al.'s model has coefficient of determination (R2) of 0.8939. Consequently, the new evolved model was discovered to be a quick and robust tool for estimating exactly the beginning of liquid loading of producing gas wells.
+
+
+
+
+Keywords:
+gas well deliquification,
+petroleum engineer,
+determination,
+liquid loading,
+equation,
+model,
+artificial lift system,
+figure 3,
+society,
+deformation coefficient
+
+
+Subjects: 
+Artificial Lift Systems,
+Information Management and Systems,
+Gas well deliquification
+
+
+
+
+Introduction
+
+
+A wide range of equipment and processes encounter two immiscible liquids in today's industries. In the petroleum sector particularly, mixtures of oil and water or gas and water are carried over long distances via tubing/pipes from the well-bore. The accurate design and management of oil production facilities require adequate prediction of the behavior of two-phase flow of hydrocarbon in pipes with different operating conditions.
+
+
+It would be desirable to apply a more unified model to predict the onset of liquid loading in gas wells. This is very important to operators because remedial measures can be implemented quickly to prevent such conditions from occurring. This can also be extending the production life of a gas well, which is the goal of this research, that is, to develop a new mathematical model for liquid loading. However, the mechanism that is responsible for liquid loading remains controversial (Shu et al., 2014).
+
+
+A gas well's inability to remove liquids produced from the wellbore is referred to as liquid loading. Free water present in the formation produced alongside the gas, water condensate, and hydrocarbon condensate that enter the well are vapours. Also, condensates encountered while traveling up the tubing where the well completion is open with sources of liquid content in the gas are vapours. The produced liquid will accumulate in the well, creating hydrostatic pressure in the well against formation pressure. It reduces reservoir drawdown and production into the wellbore bottom. It also reduces the ability of the bottom hole flowing pressure to lift the wellbore to the surface. This results in a reduction in surface production until the well finally ceases production. This phenomenon occurs when the produced gas loses its ability to transport co-produced fluids up the wellbore to the surface production facilities (Coleman et al., 1991). This happens when the gas velocity of the well falls below a particular critical gas velocity (i.e., the gas velocity at which liquid loading occurs).
+
+
+A conventional gas well produces natural gas and, in most cases, conveys liquid or condensate as mist. The related or generated liquid will build up in the well, forming a static column of liquid. Further, it will cause a back pressure against the bottom-hole flowing pressure, reducing production until the well is shut down. To limit the impact of liquid loading on gas output, loading issues should be identified early and assistance supplied to address them correctly and efficiently. Liquid Loading is a problem that affects all types of gas wells. To minimize the negative effects of liquids filling up the well-bore, it is critical to recognize liquid loading symptoms early and then, design an appropriate solution for the gas wells.
+
+
+Over the years, various investigators have come up with models and methods to predict liquid loading in gas wells early. This has been identified as a key step in salvaging the liquid loading problem. The pioneer was Turner et al. (1969). Subsequently, other predictions came up, and most of them were based on the foundation principle of Turner et al. (1969). Some of these models were better than others, but all the models used to make forecasts had advantages and disadvantages.
+
+
+Statement of Problem
+
+
+Liquid loading is problematic to gas wells, ranging from decreasing the gas well production rate to completely preventing gas production from the well. However, if liquid loading can be predicted accurately and on time, a suitable solution can be put together to combat it. This prediction in question is the primary aim of this study and research. The predicting methods at various points and times show various discrepancies. Developing a better prediction mechanism will save maybe hundreds of petroleum gas wells, which would have shut down prematurely due to liquid loading.
+
+
+Aim of the Study
+
+
+The aim of the study is to develop and simulate a new model for predicting critical velocity rate for gas wells that will be based on the premise of Turner et al. (1969), Li et al. (2001) and Maduabuchi et al. (2019).
+
+
+Significance of Study
+
+
+As was earlier stated, that early detection of liquid loading helps the production team prepare a suitable technique and method to tackle the problem. On completion of this study, a mathematical expression that can predict the onset of liquid loading accurately and on time would have been developed. This expression will consider droplet deformation coefficient and drift flux equations and parameters for droplet mixing (collision). Two coefficients namely, the distribution parameter, C0 and the drift velocity, uD representing the drift-flux parameters were introduced to cater for the effects of mixing.
+
+
+Methodology
+
+
+Materials
+
+
+The materials used for this study were as listed below:
+
+
+MATLAB- R2018Turner R.G. et al Data and Predictions of minimum gas flow rate for unloading gas well (Table A-1).TUFFP (Fluid Flow Projects of University of Tulsa) experimental datasets.OLGA (Oil and Gas simulator supplied by SPT group) steady-state synthetic data generated by OLGA Multiphase Toolkit.
+
+
+Development of the New Mathematical Model
+
+
+The model used is a modified form of the new critical velocity equation (Maduabuchi et. al., 2019) model developed as
+
+
+New critical velocity model = Li-s critical velocity model + deformation coefficient × (Turner's critical velocity model − Li's critical velocity model),
+
+
+Vcrit−new=Vcrit−L+C×(Vcrit−T=Vcrit−L)
+
+
+The deformation coefficient used in this work was adapted from Kelbaliyev and Ceylan (2007)
+
+
+λλC=a0b0=R (1−λvWe)R (1+λv2We)
+
+
+A general equation of the drift-flux closure relationship is given as follows: uG=C0uM+uD(2.1)
+
+
+and also
+
+
+uG=uSGaG(2.2)
+
+
+where uG is the actual gas velocity expressed in Equations (2.1) and (2.2),
+
+
+HL=1−aG(2.3)
+
+
+uM is the mixture velocity, which is given as
+
+
+uM=uSG+uSL(2.4)
+
+
+where uSLanduSG are superficial gas and liquid velocities, respectively. C0anduD represent the drift-flux parameters, namely, the distribution parameter and the drift velocity, respectively. aG is the gas hold-up or gas void fraction. Combining Equations (2.1), (2.2), (2.3) and (2.4) and rearranging yields
+
+
+HL=1−uSGc0 [uSG+uSL]+uD(2.5)
+
+
+The liquid holdup, HL, can be estimated by drift-flux model if the parameters C0 and uD are known. Jinho et. al. (2012) proposed this new equation set (Equation 2.5) of these two parameters for drift-flux model and compared the proposed model with previously developed comparative models. In previous studies for low viscosity liquids, the distribution parameter (C0) tends to have a value range of 1.0 < C0 < 1.2. Gokcal (2008) studied distribution parameter for 1,000 > NRe > 5,000. He suggested a larger distribution parameter (C0~2) for low liquid Reynolds number (i.e., NRe<1,000)
+
+
+Reynolds number, NRe is defined as
+
+
+NRe=ρLuMduL(2.6)
+
+
+where ρL is the liquid density, uL is the liquid viscosity, uM is the mixture velocity and d is the pipe inner-diameter.
+
+
+For large Reynolds numbers (Re > 1,000), the distribution parameter tends to vary between a 1.0 and 1.2. Fabre and Line (1992) estimated the distribution parameter, C0 as a function of Reynolds number, NRe
+
+
+C0=2.271+(NRe1,000)2+1.21+(1,000NRe)2(2.7)
+
+
+Also, Ishii (1977) worked on one dimensional drift-flux model and constitutive equations for relative motion between phases in various two-phase flow regimes for churn turbulent flow and gave the formula for calculating distribution parameter (C0) and the drift velocity (uD) as
+
+
+C0=1.2−2.0ρGρL(1−exp−18aG)(2.8)
+
+
+uD=(C0−1) uM+2(gσΔρρL2)14(2.9)
+
+
+Based on the variation of the distribution parameter (C0) with Reynolds number (NRe), Jinho et. al (2012) developed a new closure relationship correlation by combining Equations (2.7) and (2.8), which is relatively simple and accurate, as follows: C0=21+(NRe1,000)2+1.2−2.0ρGρL(1−exp−18aG)1+(NRe1,000)2(2.10)
+
+
+where aG is the gas void fraction. For laminar flow region, the value of 2 is implemented instead of 2.27 in the original Fabre and Line model. For turbulent flow region, 1.2 in Fabre and Line model is replaced to Ishii model for better performance. The inclusion of the liquid Reynolds number allows the prediction of the distribution parameter for a larger range of liquid viscosities.
+
+
+According to Zuber and Findlay, 1965,
+
+
+C0=1.2(2.11)
+
+
+uD=1.53 (gσΔρρL2)14(2.12)
+
+
+The drift velocity (uD) can be estimated by a modified version of Zuber and Findlay model to consider the inclination angle effects as given below
+
+
+uD=A cos θ+B (gσΔρρL2)14sin θ(2.13)
+
+
+where σ is the surface tension between gas and liquid phase, and θ is the pipe inclination angle. The coefficients A and B of Equation (2.13) were obtained from a regression analysis between the predicted liquid holdup and the measured liquid holdup. For the experimental database presented in this study, the resultant values of A and B are given as 0.0246 and 1.606, respectively. On the other hand, the synthetic data yield A = −0.191 and B = 12.59.
+
+
+Combining Equations (2.2), (2.3) and (2.5) and rearranging to make aG the subject of the formula, yields
+
+
+aG=uSGc0 [uSG+uSL]+uD(2.14)
+
+
+Rearranging Equation (2.10) and making ρL the subject of the formula, yields Equation (2.15).
+
+
+ρL=ρg [(2.0 (1−exp−18aG))1.2−[1+(1,000NRe) (C02(1+NRe1,000))]]2(2.15)
+
+
+Turner et al. (1969) proposed that the minimum gas flow velocity necessary to remove liquid drop is given by the Equation (2.16).
+
+
+Vcrit−Tunadjusted=1.593σ14(ρL−ρg)14ρg12(2.16)
+
+
+Li et al. (2001) in their research posited a flat-shaped droplet model with the critical gas flow velocity necessary to remove liquid drop as
+
+
+Vcrit−L=0.7241σ14(ρL−ρg)14ρg12(2.17)
+
+
+Maduabuchi et al model then developed a new critical velocity equation as: New critical velocity model = Li-s critical velocity model + deformation coefficient × (Turner's critical velocity model − Li's critical velocity model),
+
+
+Vcrit−new=Vcrit−L+C×(Vcrit−T−Vcrit−L)(2.18)
+
+
+The deformation coefficient used in this work was adapted from Kelbaliyev and Ceylan (2007).
+
+
+λλC=a0b0=R (1−λvWeR (1+λv2We)
+
+
+C was calculated as 2.261921523 from Maduabuchi et al model. Therefore,
+
+
+Vcrit−new=Vcrit−L+2.261921523  ×(Vcrit−T−Vcrit−L)(2.19)
+
+
+The new modified equation which considers the mixing effects between the liquid and the gas phases in a liquid-loaded gas well was derived by combining Equations (2.15), (2.16), (2.17) and (2.19) as shown in Equation (2.20).
+
+
+Vcrit−new=0.7241σ14(ρg[(2.0(1−exp−18aG))0.2−[(1,000NRe)(C0−2(1+NRe1,000))]]2−ρg)14ρg12     +2.261921523×(1.593σ14(ρg[(2.0(1−exp−18aG))0.2−[(1,000NRe)(C0−2(1+NRe1,000))]]2−ρg)14ρg12−0.7241σ14(ρg[(2.0(1−exp−18aG))0.2−[(1,000NRe)(C0−2(1+NRe1,000))]]2−ρg)14ρg12)(2.20)
+
+
+Model Evaluation
+
+
+To evaluate the new model's accuracy, the obtained predictions were compared with the actual field data and other existing correlations for critical velocity and critical flowrate. The following four statistical error metrics were used as indicators to measure t he accuracy, precision, and performance of the newly developed model and existing correlations.
+
+
+Coefficient of Determination (R2)R2=1−∑i=1n(y^i−yi)2∑i=1n(yi−y¯i)2(2.21)Mean Absolute Percentage Error (MAPE)MAPE=∑i=1n|yi−y^iyi|n×100(2.22)Root Mean Square Error (RMSE)RMSE=∑i=1n(yi−y^i)2n(2.23)Mean Absolute Deviation (MAD)MAPE=∑i=1n|yi−y^i|n×100(2.24)
+
+
+Where, y^i = Prediction point, yi = Actual values, y¯i = mean of all the values and n = number of observations
+
+
+Results and discussion
+
+
+Critical Flowrate and Test Flowrate Relationship
+
+
+Figures 3.1 and 3.2 depict the well status of the gas well at different flowrate conditions using the predicted flowrate; Critical flow rate (MSCF/d) and the actual flowrate; Test flow rate (MSCF/d). These figures (Figures 3.1 and 3.2) are constructed in such a way that if a well's actual test flow rate equals its critical flow rate for liquid removal, the point will be on the diagonal. Therefore, wells that are tested at conditions near load-up should be near this diagonal. Wells that unload easily during a test should be above the diagonal and those that do not unload should be below the line. The ability of a given analytical model to achieve this data separation is a measure of its validity. As can be seen from the Figures 3.1 and 3.2, the most data separation was achieved by the new model in Figure 3.2 and, in turn, provided a better prediction.
+
+
+Figure 3.1View largeDownload slideTest flow rate vs. critical flow rate for Maduabuchi's modelFigure 3.1View largeDownload slideTest flow rate vs. critical flow rate for Maduabuchi's model Close modal
+
+
+Figure 3.2View largeDownload slideTest flow rate vs. critical flow rate for the new modelFigure 3.2View largeDownload slideTest flow rate vs. critical flow rate for the new model Close modal
+
+
+Maduabuchi's model (Figure 3.1) separated the loaded wells from the unloaded ones, with some loaded ones trespassing and entering the unloaded region and vice versa. From Figure 3.2, it can be observed that the new model prediction was quite better than Maduabuchi's model. This was observed to be since all the loaded wells were on the loaded region and all the unloaded ones were on the unloaded region.
+
+
+Comparison between the New Model and the Existing Models
+
+
+Figure 3.3 clearly shows the comparision of the predicted critical flow rate across the models with the actual flow rate; the test flow rate. It was observed that the critical flow rate obtained from the new model was similar to the tested flow rate as they both followed a closely related trend. But for wellhead pressure above 3000 psia, all the models especially the new model were trending differently from the test flowrate. Therefore for further studies, improvements should be made for pressures greater than 3000 psia.
+
+
+Figure 3.3View largeDownload slideCritical flow rate comparison among the new model, Maduabuchi's model, Turner's model, Li's model and the Test flowrateFigure 3.3View largeDownload slideCritical flow rate comparison among the new model, Maduabuchi's model, Turner's model, Li's model and the Test flowrate Close modal
+
+
+The results obtained from different existing models compared with the result obtained from the test are presented such that the critical rate (Qcritical) from a model compared with a test rate (Q) at each pressure point. If the test rate is greater than the critical rate obtained from a model, the well is unloaded, otherwise the well is loaded up.
+
+
+Validation of Developed Model
+
+
+The performance of the non-linear presented models is evaluated using the model's predicted datasets. The results of developed model were evaluated with the statistical metrics as depicted in Table 3.1.
+
+
+Table 3.1Statistical Analysis among the new model, Maduabuchi's model, Turner's model and Li's model Models
+            . Statistical Error Metrics
+            . Predicted data
+            . Critical velocity
+            . Critical flowrate
+            . R2
+            . MAPE
+            . RMSE
+            . MAD
+            . Turner's et al.'s Model 0.8939 82.74 4527 3817 Li's et al.'s Model 0.8987 56.62 3734 2891 Maduabuchi's et al.'s Model 0.8987 52.82 3607 2748 New Model 0.9547 87.71 4156 3606 Models
+            . Statistical Error Metrics
+            . Predicted data
+            . Critical velocity
+            . Critical flowrate
+            . R2
+            . MAPE
+            . RMSE
+            . MAD
+            . Turner's et al.'s Model 0.8939 82.74 4527 3817 Li's et al.'s Model 0.8987 56.62 3734 2891 Maduabuchi's et al.'s Model 0.8987 52.82 3607 2748 New Model 0.9547 87.71 4156 3606 View Large
+
+
+The newly developed Model predicted the critical velocity with a fitting accuracy of coefficient of determination (R2) of 0.9547. Furthermore, the developed empirical model predicted the critical flow rate with a fitting accuracy of MAPE, RMSE and MAD values of 87.71, 4156 and 3606 respectively. The validating accuracy of the former models for the critical flow rate was noticed to be higher than fitting accuracy of the new model because the validation data consist more of pressure above 3,000 psia.
+
+
+Conclusion
+
+
+Having considered the mixing effects of the liquid gas droplets using the drift flux equations and parameters, this work gives a clear demarcation between the unloaded and the loaded well points. The 106 test points from field data employed by Turner et al. (1969) were applied to compare the new method to that of Maduabuchi et al. (2019). The wells produced gas and condensate and/or water from either the tubing or annulus as in single tubing-dual string completions. The newly developed Model predicted the critical velocity with a fitting accuracy of coefficient of determination (R2) of 0.9547 compared to other models. Maduabuchi et al.'s model has coefficient of determination (R2) of 0.8987, Li et al.'s Model has R2 value of 0.8987 and Turner et al.'s model has coefficient of determination (R2) of 0.8939. The analysis of the results of the new model (Table A1) presents a comparison of the four models, Turner et al., Li et al., Maduabuchi et al. and the new study. It can be deduced that the number of incorrectly predicted wells that each of the models of Turner et al., Li et al. and Maduabuchi et al. was found to be less than that of this study.
+
+
+Recommendation
+
+
+The following recommendations will be pivotal to further work on the development of the modified model for the detection of the liquid loading in gas wells:
+
+
+Further studies and improvements should be made for pressures greater than 3000 psia since the models do not follow closely with the trend of the test flowrate.Having more gas well production data in order to validate the model applicability at a wider range.Taking the effects of elevation at different angles into account while noting the mixing of the liquid and the gas phases.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviations:Expansion APIAmerican Petroleum Institute BHPBottom Hole Pressure BOPBlow-Out Preventer FVFFormation Volume Factor IDInner Diameter IFTInterfacial Tension IPRInflow Performance Relationship MATLABMatrix Laboratory ODOuter Diameter PVTPressure Volume and Temperature ReReynold's Number SGSpecific Gravity WGRWater Gas Ratio
+
+
+Acknowledgement
+
+
+I express a deep sense of gratitude to all the Lecturers in the Department of Chemical and Petroleum Engineering, Afe Babalola University, Ado-Ekiti, Ekiti State for their valuable support, information and cooperation which have served as the major contributor towards the completion of this research work.
+
+
+MATLAB CODES
+
+
+  View Large
+
+
+Table A-1Results from new model  View Large
+
+
+References
+
+
+Bolujo, E. O.et al. . 2017. A New Model for Predicting Liquid Loading in Multiphase Gas Wells. International Journal of Applied Engineering Research. 12 (14): 4578–4586.Google Scholar Bruno, F. and Teles, X.2020. A Data-Driven Model for Multiphase Flow in Pipes. Thesis presented to the Graduate Faculty of the Louisiana State University and Agricultural and Mechanical College, LSU Digital Commons. May.Google Scholar Choi, J.et al. . 2012. An Efficient Drift-Flux Closure Relationship to Estimate Liquid Holdups of Gas-Liquid Two-Phase Flow in Pipes, energies. 12: 5294–5306.Google Scholar Coleman, S. B.et al. . 1991. A new look at predicting gas-well load-up. J Pet Technol43 (3): 329–333.Google ScholarCrossrefSearch ADS  Fadairo, A., Olugbenga, F. and Chioma, N.2014. A new model for predicting liquid loading in a gas well. Journal of Natural Gas Science and Engineering. 9 (03): 1–12.Google Scholar Falcone, G. and Barbosa, J. R.Jr, 2013. State-of-the-art Review of Liquid Loading in Gas Wells Keywords. DGMK/ÖGEW- Frühjahrstagung 2013, Fachbereich Aufsuchung und Gewinnung Celle. 129–150.Google Scholar Kim, T.et al. . 2020. Optimization and Extended Applicability of Simplified Slug Flow Model for Liquid-Gas Flow in Horizontal and Near Horizontal Pipes. Energies. 13 (842): 1–27.Google Scholar Li, M.et al. . 2001. New view on continuous-removal liquids from gas wells. Paper SPE 75455 presented at the (2001) Permian basin oil and gas recovery conference, Midland, Texas, 15–16 May.Google Scholar Liu, X., Falcone, G. and Teodoriu, C.2017. Liquid Loading in Gas Wells?: from Core-Scale Transient Measurements to Coupled Field-Scale Simulations 1 Introduction. Journal of Natural Gas Science and Engineering. 157: 1056–1066.Google Scholar Maduabuchi, P., Michael, I. and Okolo, O.2019. Li and Turner Modified model for Predicting Liquid Loading in Gas Wells. Journal of Petroleum Exploration and Production Technology. 9 (3): 1971–1993.Google Scholar Ming, R. and He, H.2017. A New Approach for Accurate Prediction of Liquid Loading of Directional Gas Wells in Transition Flow or Turbulent Flow. Hindawi Journal of Chemistry. 1–9.Google Scholar Gokcal, B.et al. . 2008. Effects of High Oil Viscosity on Oil / Gas Flow Behavior in Horizontal Pipes. Society of Petroleum Engineers (SPE). 24–27.Google Scholar Guo, B.et al. 2005. A Systematic Approach to Predicting Liquid Loading in Gas Wells. Society of Petroleum Engineers (SPE). (1): 1–9.Google Scholar Ita, O. E., Appah, D. and Ikenna, N. C.2019. Dynamic Modeling for Predicting the Onset Time of Liquid Loading in Gas Wells. Journal of Scientific and Engineering Research. 6 (3): 196–203.Google Scholar Nosseir, M. A.et al. . 2000. A New Approach for Accurate Prediction of Loading in Gas Wells Under Different Flowing Conditions. Society of Petroleum Engineers (SPE). 241–246.Google Scholar R.G.Turner, M.G.Hubbard, A. E. D.1969. Analysis and Prediction of Minimum Flow for the Continuous Removal of Liquids from Gas Wells’, Society of Petroleum Engineers (SPE). 1–8.Google Scholar Shea, R., Guner, M. and Yuan, G.2018. A new method of predicting wellbore load up. BHR Group 2018 Multiphase11: 245–253.Google Scholar Vieira, C. and Stanko, M.2019. Applicability of Models for Liquid Loading Prediction in Gas Wells. Society of Petroleum Engineers (SPE). 3–6Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211952-MS
+
+
+

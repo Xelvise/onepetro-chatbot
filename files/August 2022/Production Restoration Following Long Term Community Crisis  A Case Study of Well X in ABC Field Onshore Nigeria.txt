@@ -1,0 +1,304 @@
+----- METADATA START -----
+Title: Production Restoration Following Long Term Community Crisis – A Case Study of Well X in ABC Field, Onshore Nigeria
+Authors: Adewale Philip Adedokun, Olanike Adeoye, Esta Eleluwor, Martins Oluwatobi Oke, Christopher Ibiyomi, Odira Okenwa, Obisike N. Ubendu, Ikenna Obi
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212039-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Following multi-disciplinary reviews, an opportunity was identified to restore production and unlock incremental reserves from well X, a dual completion in two different reservoirs but subsequently deserted due to long term community crisis that led to over 25years of non-production with complete vandalization of well head and flowlines.The method employed involved the strategic resolution of long-term crisis between two communities where well X is located, via a multi-disciplinary effort involving the operating company’s Community Relations, HSSE, Production Engineering, Operations Support and Portfolio Management functions. The installation of a retrofitted well head was done with first line and second line maintenance carried out. Wireline drifting and static bottom hole pressures were acquired for both strings using slickline equipment and a preliminary well test was conducted for both strings with production to a flowback tank.The preliminary result for the long string (LS) indicated a high water cut (>80%), while the result from short string (SS) was in line with expectation (<57%). The test result from the short string informed the decision to construct a new flowline for restoring its production, while further subsurface evaluation is required for the long string (LS). The significance of the short string (SS) result is the unlocking of additional reserves ca. 1.0MMSTB from a reservoir with remaining oil in place estimated at ca. 18MMSTB, where the short string (SS) is the only drainage point currently completed on the reservoir.This solution provides a cost effective and efficient way to increasing production and reserves at minimal expenditure leveraging on multi-disciplinary expertise, using existing infrastructures as well as resolving community crisis, where applicable.
+
+
+
+
+Keywords:
+drillstem testing,
+downhole intervention,
+upstream oil & gas,
+completion installation and operations,
+production monitoring,
+drillstem/well testing,
+x-ls,
+well intervention,
+flowline,
+reservoir surveillance
+
+
+Subjects: 
+Well & Reservoir Surveillance and Monitoring,
+Improved and Enhanced Recovery,
+Formation Evaluation & Management,
+Information Management and Systems,
+Production logging,
+Drillstem/well testing,
+Completion Installation and Operations,
+Well Intervention
+
+
+
+
+Introduction
+
+
+As part of the company objective to increase its production target by 50%, it instituted a multi-disciplinary high impact team (HIT) to identify various opportunities across the asset, that will contribute to achieving the set target. In doing this, various WRFM sessions were held which screened list of candidates, from which well x was identified as a viable candidate to be investigated and studied amongst other, with a view of proposing implementable recommendations.
+
+
+Geology Description
+
+
+Well X is located in ABC field which is part of OML-P concession i, onshore Nigeria. Field ABC was discovered in 1965, consisting of seven (8) producing wells (all dual completion) drilled to date, with one (1) well abandoned. Field ABC is characterized by a NW-SE elongate, dip-closed structure parallel to the north bounding major growth fault. The reservoirs in ABC field consists of mainly channel and shoreface deposits. Hydrocarbons were encountered in ABC field between 7,800ftss and 13,000ftss in thirty-eight reservoirs. Most of the reservoirs have thin oil rims (with oil column between 25ft to 55ft) hence, water coning and gas cusping dominating the producing life of these reservoirs.
+
+
+Field Historical Performance
+
+
+The field generally contains crude of medium quality, which is characterized by in-situ viscosity of 0.335 – 2.85cP and surface tank oil gravity of 19-26°API. The field came on stream in 1970 and by 2002, ca. 37MMSTB of oil, ca.5BSCF of gas and ca.28MMbbl of water have been produced. The peak oil rate of 8000bopd (dry) that the field attained in 1970 has since declined to ca. 1800bopd at 54% BSW.
+
+
+This production was achieved via a total of twenty-two producing intervals completed over ten reservoirs. The wells in this field are flowing with natural energy with strong aquifer supporting the drainage of these reservoirs. However, potential to boost productivity and extend lift life of the wells with the introduction of artificial lift has been identified. Sand production has also been a recurrent problem in this field. Most of the work-over activities were for sand exclusion.
+
+
+Well X Completions and Historical Performance
+
+
+Well X-SS (short string) was completed on Reservoir B and Well X-LS (long string) was completed on Reservoir C respectively in 1970. When production commenced in 1970 from well X-LS, historical production data was available up until 1987 pre-workover, while there was no available information on the historical production data from Well X-SS till 1987 pre-workover.
+
+
+A work over was carried out in 1987 to re-complete well X-SS on Reservoir A and Well X-LS on Reservoir B.
+
+
+Production from well X-SS commenced in 1987 at a rate of 277bopd dry crude on choke 16/64′, while in 1993 well X-SS bean size was changed from 16/64′ to 24/64′, which resulted in a peak gross production ca.800blpd at 34%BS&W(512bopd). In February 1994, a GOR of over 17000SCF/STB was produced from well X-SS interval. This interval was closed-in in September 1996 for low productivity and high gas- oil ratio (GOR), the reported GOR was suspected to be due to gas cusping from the primary gas cap
+
+
+Well X-SS is the only completion on Reservoir A and last production was in 1996.
+
+
+Production from well X-LS commenced in April 1970 at a gross rate of 200blpd at BS&W of less than 1% on bean 16/64′. In 1971, well X-LS bean size was changed from 16/64′ to 80/64′, which resulted in gross production increase to 400blpd. In January 1994, a GOR of over 23000SCF/STB was produced from well X-LS interval. This interval was closed-in in October 1996 for high GOR. The interval was stimulated in May 1997 but did not flow. An attempt to produce from well X-LS in 1998 by swabbing and nitrogen lifting proved abortive. Protracted attempts were made in March 2004 to swab well X-LS to flow, but this also failed. During the swabbing attempts the fluid level remained almost the same at 400ftah.
+
+
+In 2020, site inspection visits to well X location confirms that there was no X-mas tree with the associated accessories and flowlines. Since both well X-SS and well X-LS have been shut-in since 1996, community battle for ownership has led to a crisis and eventual vandalization of well heads and flowline.
+
+
+Key Issues and Solution
+
+
+Following the multi-disciplinary technical review sessions carried out for well X, the key issues identified includes the following: Low productivity from SS and LS respectively.High GOR productionVolatility of the two host communities where well X is locatedLoss of well X xmas tree to theft due to long-term inoperability and community crisisCompletely vandalized well X flowlinesLack of security surveillance for well X
+
+
+The solution employed involved the strategic resolution of long-term crisis between two communities where well X is located, by deploying the scope of work from HSE, community relations, Security, production engineering, operations support and Portfolio Management. The installation of a retrofitted well head was done with first line and second line maintenance carried out. Wireline drifting and static bottom hole pressures were acquired for both strings using slickline equipment and preliminary well test was conducted for both strings with flowback tank.
+
+
+Figure 1 depicts the status of well X and flowline before (left) implementing the strategic solutions, during (middle) and after (right) implementing the strategic solution.
+
+
+Figure 1View largeDownload slideInitial and final status of well X xmas tree and flowline after implementing solutionFigure 1View largeDownload slideInitial and final status of well X xmas tree and flowline after implementing solution Close modal
+
+
+Figure 2View largeDownload slideIntegrated Approach for Implementing Non-Technical and Technical SolutionFigure 2View largeDownload slideIntegrated Approach for Implementing Non-Technical and Technical Solution Close modal
+
+
+Procedures
+
+
+The workflow adopted in implementing workable solutions to restoring well X and well X-SS flowline comprises of structured team formation with multi-disciplinary skill and expertise in non-technical and technical functions in the company.
+
+
+The non-technical team formation focused on a strategy to achieve a peaceful resolution of pending issues between the contending communities. This ultimately facilitated the access to the well site, and enabled mobilization of equipment, while ensuring safety of personnel at well X location before, during and after intervention operation.
+
+
+The technical team focused on the investigation of well X-SS and well X-LS historical performance, reservoir reviews, recommendations for next steps and ultimately provided project economic analysis to support its restoration.
+
+
+Health, Safety and Environment (HSE)
+
+
+Health, safety, and environmental considerations were an integral part of the overall production restoration objective for well X. This involved identification of potential risks and mitigations through a thorough risk assessment, and consequently development of a comprehensive HSE plan, all with the input of subject matter expert (SME) and stakeholders at all levels. The risk assessment evaluated the project-specific risks associated with well X production restoration. Based on the hazard identification (HAZID), eight (8) class of hazards were identified as Major Accident Hazards (MAHs) for well X after they had been assessed as High Risks. These hazards are as follows: Hydrocarbon gas (Loss of Containment)Crude Oil (Loss of Containment)Land Transport Incidents/Accidents (Loss of Control during driving)Armed Conflict (Exposure to Security threats)Violent Crime (Exposure to Security threats)Organised Crime (Exposure to Security threats)Civil Unrest (Exposure to Security threats)Emissions to Air (Loss of Containment/Uncontrolled emission of gas to air).
+
+
+Maintaining operational control during project execution, activities with high risk were managed by establishing and maintaining documented procedures, toolbox talks prior undertaking any activity, strict adherence to wearing personal protective equipment (PPE's), stipulating operating criteria, and ensuring proper supervision and competencies required for execution.
+
+
+Emergency Response (ER) procedures were also provided as guidelines for controlling and managing emergencies on site to bring the situation back under control. Situations which were identified as emergencies include fire, injuries, spills, snake bite, ill health, hostage taking, piracy, community interference, road traffic accidents etc.
+
+
+Community Relations
+
+
+The community relations department in conjunction with Office of the Honorable Commissioner of Oil and Gas, and the field community liaison officer provided various solutions, of which the most effective, realistic, and implementable ones were considered. The considered solutions which led to the resolution of over 25years long term battle for ownership of well X included but were not limited to: Engagement with leadership of the two communities with the aim of securing Freedom To Operate (FTO) documentation.Engagement of qualified contractors from the two communities during well X intervention and flowline construction to ensure hitch free operations.Outsourcing of some material items supplies to qualified community vendors from both community as part of strategy to resolve crisis.Continuous involvement of the two communities during project execution within the limit of approved scope of work where well X is located.
+
+
+Security and Surveillance
+
+
+Due to the volatile and tense nature of the host communities where x-well 1 is located, the security team department in conjunction with the field logistics base armed military personnel, provided constant security coverage during equipment and personnel mobilization to ensure safety of equipment and personnel delivery to well X location. The security coverage provided was before, during and after well intervention and flowline construction.
+
+
+Petroleum Engineering Technical Review (PETR)
+
+
+Petroleum engineering team consists of the technical functions with expertise to evaluate the subsurface and surface management of the vandalized well X-SS and well X-LS completed respectively on reservoir A and B, there historical production performances, propose recommendations and optimization guide.
+
+
+The subsurface evaluation involved the well and reservoir reviews with the aim of establishing production potential from vandalized well X given that over 25years, well X-SS and well X-LS has not been produced (last production date was May 1996) and in-situ conditions probably have changed.
+
+
+Figure 3 below shows the various multidisciplinary data and inputs used in evaluating and assessing well X-SS and Reservoir A performance characteristics and identification of further opportunities.
+
+
+Figure 3View largeDownload slideIntegrated subsurface evaluation of well X-SSFigure 3View largeDownload slideIntegrated subsurface evaluation of well X-SS Close modal
+
+
+The outcome of the subsurface evaluation identified challenges, facts, and opportunities, as well as positive project economic evaluation for well X-SS completed on Reservoir A.
+
+
+Challenges
+
+
+Significant production deferment in the last 25years, due to vandalized well X and well X-SS flowline.
+
+
+Facts
+
+
+Well X-SS has been shut-in since 1996Well X-SS was the only string completed on Reservoir A.Production from well X-SS on Reservoir A commenced at a rate of ca. 277bopd dry crude on bean size 16/64′.Well X-SS was beaned up to bean size 24/64′ resulting in an increase production of ca. 512bopd at 34% BS&W.A very high GOR (>17,000SCF/STB) was produced from the interval, suspected to be gas cusping from the primary gas cap.Well head inspection visits in the year 2020 to well X, confirmed that there was no xmas tree on well X and no flowline for well X-SS.
+
+
+Opportunities
+
+
+Commercially viable remaining oil in place ca. 18MMSTB.Conduct RST to identify current OWC and GOC in reservoir A, for further opportunistic identification and recommendation.Re-perforate upper lobe for attic oilNew drills for increased oil recovery
+
+
+Figure 4 below shows the various multidisciplinary data and inputs used in evaluating and assessing well X-LS and Reservoir B performance characteristics and identification of further opportunities.
+
+
+Figure 4View largeDownload slideIntegrated subsurface evaluation of well X-LSFigure 4View largeDownload slideIntegrated subsurface evaluation of well X-LS Close modal
+
+
+Challenges
+
+
+Significant production deferment in the last 25years, due to vandalized well X and well X-LS flowline.
+
+
+Facts
+
+
+Well X-LS has been shut-in since 1996.There are four (4) strings completed on Reservoir B. They are well X-LS, well Y-SS, well Z-SS and well ZA-SS. Two (2) of the strings (well X-LS and well ZA-SS) are currently shut-in, while two (2) strings (well Y-SS and well Z-SS) are currently producing.Production from well X-LS commenced in April 1970 at a gross rate of 200blpd at a BS&W of less than 1% on bean size 16/64′.Well X-LS was beaned up to bean size 80/64′ in 1971 and gross production increased to 400blpd.A very high GOR (>23,000SCF/STB) was produced from the interval, suspected to be gas cusping from the primary gas cap.Well head inspection visits in the year 2020 to well X, confirmed that there was no xmas tree on well X and no flowline for well X-LS.
+
+
+Opportunities
+
+
+Commercially viable remaining oil in place ca. 64MMSTB.Conduct RST to identify current OWC and GOC in reservoir B, for further validation of identified Zone Change and Perforation opportunity.New drills for increased oil recovery
+
+
+Upon completion of the multi-disciplinary reviews, proposed recommendations were made as follows:
+
+
+To install xmas tree on well X and retrieve all associated downhole barriers from well X-SS and well X-LSRecord closed-in well-head parameters for both well X-SS and well X-LSCarry out slickline tubing drifts and static BHP surveys on well X-SS and well X-LSOpen-up well X-SS and well X-LS and attempt to flow into calibrated flow-back tanks, while measuring flow rates with a flow meter.Collect well head samples from well X-SS and well X-LS for laboratory analysisIf successful flow from well X-SS and well X-LS is achieved and economically viable, install flowline(s)Further Production Engineering and Subsurface recommendations will be based on the interpretation and analysis of the information/data acquired.
+
+
+Well Head Restoration and Testing
+
+
+Following the proposed recommendations and opportunities presented from the subsurface evaluation of well X-SS and well X-LS with potential for increased production and economic profitability at the current oil price, it became imperative to restore the vandalized well X xmas tree and conduct flowability testing to ensure sustained flow from well X-SS and well X-LS, well, prior to commencement of installation of new flowline(s).
+
+
+The restoration of well X xmas tree involves the retrofitting of an idle xmas tree with the well head accessories to ensure proper functioning. Function testing of the retrofitted xmas tree was carried out using hand pump to a pressure rating of 5000psi on both arms of the xmas tree. Observation of the pressure holding effectiveness of the retrofitted xmas tree on both arms through the pressure gauge confirms that there are no leakages on master valve, swab valve and the wing valve of both arms respectively. The xmas tree was mobilized to site and installed successfully on well X with a crane and retrieval of the installed non-return valve (NRV) on well X-SS and well X-LS was carried out. A repeated pressure testing of the installed xmas tree for well X-SS and well X-LS was conducted by opening the xmas tree to reservoir pressures after removal of the surface control subsea safety valves (SCSSSV) and downhole prong and plug of both arms respectively.
+
+
+Slickline operations was used to retrieve the SCSSSV and downhole plug and prong on well X-SS and well X-LS.
+
+
+Static Bottom Hole Pressure (SBHP) were acquired and interpreted to understand the current static pressures in Reservoir A where well X-SS is completed and Reservoir B where well X-LS is completed.
+
+
+Figure 5 shows the result of the acquired SBHP indicating that the tubing was filled with a single-phase fluid in well X-SS.
+
+
+Figure 5View largeDownload slideStatic Bottom Hole Pressure interpretation result for well X-SSFigure 5View largeDownload slideStatic Bottom Hole Pressure interpretation result for well X-SS Close modal
+
+
+Figure 6 shows the result of the acquired SBHP indicating that the tubing was filled with a single-phase fluid in well X-LS.
+
+
+Figure 6View largeDownload slideStatic Bottom Hole Pressure interpretation result for well X-LSFigure 6View largeDownload slideStatic Bottom Hole Pressure interpretation result for well X-LS Close modal
+
+
+Upon complete installation of well X xmas tree, retrieval of down hole prong and plug, and acquisition of SBHPs, well head parameters were taken and recorded for well X-SS and well X-LS.
+
+
+Following the acquisition of SBHP, well X-SS and LS were opened-up to flow using flowback tank until stabilization was achieved and preliminary flow test readings were taken and recorded. The option of using flowback tank, storage tank and vacuum truck for evacuation of production was necessitated due to the absence of flowlines for both well X-SS and LS.
+
+
+Figure 7 and 8 shows the result of the preliminary flowability testing which established the potential of well X-SS and LS respectively.
+
+
+Figure 7View largeDownload slideFlow test result of well X-SSFigure 7View largeDownload slideFlow test result of well X-SS Close modal
+
+
+Figure 8View largeDownload slideFlow test result of well X-LSFigure 8View largeDownload slideFlow test result of well X-LS Close modal
+
+
+The preliminary results of well X-SS and well X-LS was carefully reviewed with the multi-disciplinary asset team experts for the purpose of recommendation on final investment decision (FID) of flowline construction.
+
+
+Project Economic Evaluation for well X-SS
+
+
+Economic analysis of the flowline installation was done to determine the most suitable economic scenario for flowline investment. This was done using the low, mid, and high case oil gains from the preliminary test result of well X-SS for estimation of reserves using decline curve analysis.
+
+
+Figure 9 below shows the economic analysis result of the respective scenario:
+
+
+Figure 9View largeDownload slideEconomic evaluation of well X-SS flowline constructionFigure 9View largeDownload slideEconomic evaluation of well X-SS flowline construction Close modal
+
+
+Based on the economic analysis indicating a positive net cash flow (NCF) and the drive by the asset to manage water production, the final decision was taken to construct new flowline for well X-SS to restore its production, while well X-LS was recommended for further sub-surface evaluation prior flowline construction.
+
+
+Well X-SS Flowline Construction and Commissioning
+
+
+The Projects and Engineering team undertook the task of constructing new flowline with a length spanning 2.4km from the well head to the flow station. The steps involved in the construction of the new flowline includes:
+
+
+Procurement of line pipes and delivery to well X-SS locationPreparation of scope of work and kick-off engagement with qualified community contractorsExcavation, welding, non-destructive testing (NDT), field joint coating (FJC), and laying.Hydrotesting, wrapping of field joints, back-fillingHook-up of flowline to well X-SS and commissioning.
+
+
+Figure 10 shows the completed status of the flowline hooked-up to well X-SS
+
+
+Figure 10View largeDownload slideWellhead with flowline hooked-up to SS [right]Figure 10View largeDownload slideWellhead with flowline hooked-up to SS [right] Close modal
+
+
+Conclusions
+
+
+This solution provides a cost effective and efficient way to increasing production and reserves at minimal expenditure while leveraging on multi-disciplinary technical and non-technical expertise to resolving over 25years long-term battle for ownership of well X located between two communities. With this solution an average production gain of ca. 213bopd at 53% BS&W was successfully achieved from well X-SS with potential increased production at higher bean size when compared with historical performance. The remaining oil in place (ROIP) for Reservoir A is ca. 18MMSTB, which presents a huge economic and commercial viability. Opportunities for drilling new oil producers are being considered to drain the reserves.
+
+
+This solution demonstrates how business objectives are met leveraging on expertise across multi-functional units.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+MariamA.A, Mohamad, K., Mohamad, S., and Ronny, G., Petronas Petroleum Management Unit (PMU), and Hin, W.L and King, C.N, Schlumberger Information Solutions. 2008. Integrated Production Surveillance and Reservoir Management (IPSRM)— How Petroleum Management Unit (PMU) Combines Data Management and Petroleum Engineering Desktop Solution to Achieve Production Operations and Surveillance (POS) Business Objectives. Presented at the SPEIntelligent Energy Conference and Exhibition, Amsterdam, Netherlands, 25–27 February. SPE-111343-MS. http://onepetro.org/SPEIE/proceedings-pdf/08IE/All-08IE/SPE-111343-MS/1791072/spe-111343-msGoogle Scholar SolomonA., BlessingI., SolomonA., and Olanike, A., Heritage Energy Operational Services Limited (HEOSL). 2021. Risk Assessment for well X Production Restoration Project.Google Scholar BlessingI., SolomonA., and OlanikeA., Heritage EnergyOperationalServices Limited (HEOSL). 2021. HSE Plan for well X Production Restoration Project.Google Scholar Shell Petroleum Development Company (SPDC). 2009. Wells Database and Surveillance Report.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212039-MS
+
+
+

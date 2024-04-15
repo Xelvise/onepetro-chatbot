@@ -1,0 +1,255 @@
+----- METADATA START -----
+Title: Towards a Net-Zero Carbon Petroleum Engineering Education
+Authors: Mufutau Babs Oyeneyin
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211972-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Oil and Gas remain a key part of the Energy mix. Therefore sustainable future of the Oil & Gas Industry requires moving towards improving Oil and gas recovery with net zero technologies and Education is key.In this paper attempts have been made to answer the following key questions namely: what is energy transition and relevance to the Oil and Gas industry(OGI)?; Do OGI professionals need discipline/professional transition?; And what are the roadmaps to purposeful transition. The paper ends with key propositions on Energy Transition Petroleum Engineering training curriculum and key net-zero carbon Improved Oil Recovery research and development going forward.
+
+
+
+
+Keywords:
+hydrogen,
+climate change,
+transformation,
+social responsibility,
+energy transition technology,
+petroleum engineering education,
+upstream oil & gas,
+sustainable development,
+co 2,
+ogi
+
+
+Subjects: 
+Environment,
+Sustainability/Social Responsibility,
+Climate change,
+Sustainable development
+
+
+
+
+Introduction
+
+
+Oil and Gas provide a vital contribution to the Global Energy mix. Economic development and progression are known to be symmetrically linked with increasing hydrocarbon consumption but there is increasing evidence of global demand with attendant impact on alleged global warming and carbon footprint. This has led to a clamour for reduction in hydrocarbon exploration and production operations. The question therefore is : Is there a future for Petroleum? In this paper the question is answered with an emphatic YES. The paper goes further to present appropriate facts and data to support the claim as well as forward-looking statements, particularly those regarding Global/African economic growth, population and productivity growth, energy consumption, energy mix, policy support for gas utilisation and renewable energies, sources of energy supply and growth of hydrocarbon supply.
+
+
+Petroleum is a complex mixture of Hydrocarbons(C-H) and other impurities which, depending on composition, Pressure and Temperature can occur as[1-2] :
+
+
+–Liquid known as Crude Oil–Natural Gas–Condensate–Natural Gas Liquids(NGL)
+
+
+There is an array of hundreds of by-products and applications that can be derived from Petroleum. These products include but not limited to the following[1,2] :
+
+
+EnergyGasoline(Petrol)Aviation FuelDieselClothsChemicalsPharmaceuticalsLubricantsFertilisersMedical ProductsPetrochemicalsPlasticsEtc, Etc
+
+
+The Global Energy Mix
+
+
+The key sources of Fuel Energy here referred to as the Energy mix are:
+
+
+OilNatural GasSpecial Shale Oil/Shale Gas( Most recent addition to the Energy Mix)CoalNuclear EnergyHydro/Tidal PowerRenewables Wind Biomass/BioFuels Solar Photovoltaics/Fuel Cells
+
+
+The distribution and demand to 2040 are presented in Figure 1. and Figure 2.
+
+
+Figure 1View largeDownload slidePrimary World Energy Consumption Forecast, Btoe[ref 4]Figure 1View largeDownload slidePrimary World Energy Consumption Forecast, Btoe[ref 4] Close modal
+
+
+Figure 2View largeDownload slideThe Energy MixFigure 2View largeDownload slideThe Energy Mix Close modal
+
+
+The corresponding Carbon Footprints are presented in Figure 3 
+
+
+Figure 3View largeDownload slideEnergy Source Carbon FootprintFigure 3View largeDownload slideEnergy Source Carbon Footprint Close modal
+
+
+Inspite of the recent COP26 resolution [3] on net zero carbon emission targets and recent crisis in Ukraine, it is now apparent and inevitable that world proportion of its Energy demand now and in the foreseeable future is still tied to the global climate change while addressing the negative perception of the OGI. Inspite of the public negativity the OGI remains and will continue to the epicentre of the Energy Mix and core foundation and nucleus of the Energy Transition resources.
+
+
+It has been predicted and it is now recognised that the demand for oil and gas will surpass supply by as much as 400MBbls by 2040 to 2050[4].
+
+
+For Nigeria in particular there is the potential of a three fold difference between demand and supply as projected in Figure 4 
+
+
+Figure 4View largeDownload slideNigeria's Projected Crude Oil Demand versus Supply[8]Figure 4View largeDownload slideNigeria's Projected Crude Oil Demand versus Supply[8] Close modal
+
+
+Whilst this is good for business it is inevitable that the OGI MUST develop a new Business Model towards guaranteeing strategies for effective energy transitions leading to effective net zero carbon footprint in all its operations.
+
+
+This is why leading International Oil and Gas Companies (IOCs) are transforming into ‘’Energy ‘’ companies. Examples include Total Energy[5], Shell Energy[6], Equinor[7], to name a few.
+
+
+And therefore Petroleum Engineers as well as Geoscientists need to transform into ‘’petrotechnical professions [8] with Petroleum Engineering roles needing to straddle upstream, midstream and downstream(See Figure 1) to meet the new OGI Business model challenge.
+
+
+Most Petroleum Engineering educations are still geared mainly towards the upstream. It must change and change fast if it must become relevant to the new Energy Transition Campaign. How this can be achieved is the purpose of this paper.
+
+
+It is known that Greenhouse Gases(Methane and Carbon Dioxide(CO2)) emission is not created because of Oil and Gas but because of how oil and gas are utilized. It is also known that despite many negative campaigns, less than 10% of oil and gas actually goes towards Energy generation[9]. That means Energy Transition is still seriously misunderstood. Therefore sustainbale future of the oil and gas industry requires moving towards improved oil and gas recovery with net zero carbon technologies. To achieve this EDUCATION is key.
+
+
+The key questions therefore are :
+
+
+What is the true meaning of Energy Transition?What is the relevance to the OGI?Do Oil and Gas specialists need Professional Transition?What are the roadmaps to purposeful transitionWhat the new key Busiess Models required ?
+
+
+In order to address these questions this paper has attempted to provide the answers under the following headings:
+
+
+What is Energy Transition?Energy Transition TechnologiesEmerging Business Model RequirementsKey Engineering Science Requirements?The Future–Skills Transformation or Re-Tooling?–Professional/Discipline Transition?–New Energy Curriculum ?–New/Retrofitted PE Curriculum ?Recommended Integrated Energy Programme
+
+
+What is Energy Transition
+
+
+Energy Transition is NOT about replacing oil/gas or other fossil fuels. Nor is it about transition to renewables. It is about transition to low or zero carbon dioxide footprint. It is about decarbonization, low green house gases(Methane and CO2) emissions with associated clean energy and energy efficiency.
+
+
+A number of industry leaders and academics have come to the conclusion that Energy Transition, though driven by political demands, is inevitable and necessary. For the OGI to respond positively demands a restructuring of Petroleum Engineering Education Programme that will be fit for purpose in the new era. One argument by Babiglagly[ref]believe there is a need for substantial changes to Petroleum Engineering Curricula, skills development, teaching and learning styles. He stipulated that ‘’essential elements of engineering skills such as creative design, decision making, problem description and solving, management under high degree of uncertainty with data gathering and processing.
+
+
+In this paper the author believes and has so stated that for the Oil and Gas Industry to be relevant in this new Energy Transition era, demands a new Business Model and a definite transformation of the Petroleum Engineering Education but NOT necessarily a a major transition.
+
+
+The proposed transformation demands more emphasis on the following:
+
+
+The fundamentals of physical sciences and engineering including applied mathematics, Physics, Chemistry, Thermofluids, Multiphase Fluid Dynamics Data Management/Digital EnhgineeringNet zero Improved Oil Recovery Research and DevelopmentLow Emission Operations with zero carbon footprints.
+
+
+These all rounded education should produce the Energy Leaders of tomorrow.
+
+
+Energy Transition Technologies and Relevance to the Oil and Gas Industry(OGI)
+
+
+In this section a listing and basic summary of the different technologies are provided. Details of the fundamental physics and application of the ET Technologies are being addressed in a new and separate ET Technology Handbook by the author of this paper[10]
+
+
+The key Energy Transition Technologies are:
+
+
+Carbon Capture, Utilisation and Storage/Sequestration(CCUS)CCUS is a technology that can capture and make effective use of high concentrations of carbon dioxide emitted by industrial activities. From OGI perspective it involves identifying a dump well and correspondingly depleted porous medium within the stratigraphic structure, with a roboustly sealing cap rock, into which the captured gas can be stored initially ahead of utilisationRenewable EnergiesThese involve the use of of different renewable technologies for energy generation and utilisation. These include Solar Panels, Wind Farms in combination with Fuel CellsThe Hydrogens Power[12]Hydrogen has two key roles to play as the world seeks to achieve net-zero COâ‚‚ emissions by 2050: enabling greater use of renewable electricity; and decarbonizing every part of the global economy, including those COâ‚‚-intensive sectors within the oil and gas industry and other industries that are difficult to decarbonize using renewables.There are different types of hydrogen classified based on colour and production process/utilization namely:Blue hydrogen?Blue hydrogen is when natural gas is split into hydrogen and CO2 either by Steam Methane Reforming (SMR) or Auto Thermal Reforming (ATR), but the CO2 is captured and then stored. As the greenhouse gasses are captured, this mitigates the environmental impacts on the planet. The ‘capturing’ is done through a process called Carbon Capture Usage and Storage (CCUS).Green hydrogen?Green hydrogen is hydrogen produced by splitting water by electrolysis. This produces only hydrogen and oxygen. We can use the hydrogen and vent the oxygen to the atmosphere with no negative impact.To achieve the electrolysis we need power. This process to make green hydrogen is powered by renewable energy sources, such as wind or solar. That makes green hydrogen the cleanest option – hydrogen from renewable energy sources without CO2 as a by-product.Grey hydrogen?Grey hydrogen has been produced for many years. It is a similar process to blue hydrogen – SMR or ATR are used to split natural gas into Hydrogen and CO2. But the CO2 is not being captured and is released into the atmosphere.Pink hydrogen?Like green hydrogen, pink hydrogen is made via electrolysis, but using nuclear energy as its source of power.Yellow hydrogen?In this case electrolysis is achieved solely through solar power.But the key question is whether the future of Hydrogen is multi-coloured especially in relation to the oil/gas industry?The author believes that the future of hydrogen is a transition from grey, through blue, to green hydrogen. One thing that is clear is the important role hydrogen will play in energy transition.Hydrogen can play a role in two key areas: As a form of energy storage for renewable electricity and As a cleaner source of reliable power generation to complement variable renewablesBuilding hydrogen to the scale needed to fulfil these functions will require the decarbonization of traditional hydrogen production through carbon capture, utilization and storage (CCUS).For hydrogen to contribute to net-zero goals, its production needs to expand to a much larger scale, become fully decarbonised and find a cost-effective place in the electricity system as well as IOR processFor the oil/gas industry specifically opportunities for hydrogen production can be through the following sources:Associated Gas gathering, sequestration and StorageAssociated Gas injection for improved oil recoveryProduced water turned to fresh water hydrolysis to Green HydrogenSmart Rigs/Smart Production PlatformsUnmanned platformsThese are now known to reduce carbon footprints and are being increasingly utilised by many IOCs globally especially in the North Sea and Gulf of Mexico[13]Electric OilfieldsMany Diesel Generators are now being replaced by Electric ones supported by renewable solar power sources for most pumping operations as part of the decarbonisation campaign (ref).Gas-To-Liquid Technologies (GTL)Associated and Non-Associated Natural Gases as well as Synthetic Gases from Waste are becoming an important source of the decarbonisation and emission reduction campaign with many of these gases being converted to Liquid for other byproduct applications such as power generation, hydrogen and synthetic fuels productio.Synthetic FuelsSynthetic Aviation Fuels(SAF) and Synthetic Diesel are becoming increasingly popular in the aviation and motorised transport industries.Geothermal EnergyFor the OGI in particular, heat energy from HP-HT wells is increasingly being tapped for geothermal energy prime movers.
+
+
+New OGI Business Model
+
+
+With the decarbonisation target already set it is imperative that the OGI must adopt a new Business Model in order to be at the forefront of the Eergy Transion Campaign. Examples of likely new model areas of immediate relevance include:
+
+
+New Integrated Energy Economics Model to replace Petroleum EconomicsNew Supply Chain Model for the following example areas:–Liquid fuels: (i) crude oil production, (ii) transportation of crude oil (pipeline/shipping), (iii) refining, (iv) distribution of oil products, and (v) end-use of oil products in the transport sector.–Pipeline gas: (i) gas production, (ii) transportation of gas via pipeline, and (iii) end-use of gas in power generation.–GTL: (i) gas production, (ii) gas pipeline, (iii) gas-to-liquid processing, (iv) shipping of GTL products, (v) local distribution of GTL fuel products, (vi) end-use of fuel products in the transport sector.CO2 reduction Technologies
+
+
+There is the need to have a new model to assesses the impact of CO2 reductions from carbon capture and storage (CCS) projects and nature-based solutions (NBS).
+
+
+The Future Going Forward
+
+
+In order for the OGI to be at the forefront of the Energy Transition and meet the COP26 targets, it must address the issues of :
+
+
+–Skills Transformation or Re-Tooling?–Professional/Discipline Transition?–New Energy Curriculum ?–New/Retrofitted PE Curriculum ?
+
+
+A summary of key challenges and net zero opportunities that are essential going forward are :
+
+
+SKILLS TRANSITION? - YESDIGITAL TRANSFORMATION rather than Transition? - YESPEOPLE TRANSFORMATION rather than transition ? - YESBUSINESS MODEL TRANSITION rather than just Tranformation? -YESDISCIPLINE TRANSFORMATION instead of Transition? - YES
+
+
+There is a need for particularly aggressive Petroleum Engineering Programme transformation in the new Energy Transition era as well as aggressive Net Zero R&D programmes in order to meet the challenges that are peculiar and relevant to the OGI.
+
+
+Examples of Net-Zero Technologies IOR Programmes
+
+
+Emission reduction technologiesExamples include :Electric Oilfieds - Electric power from wind, wave, solar for operationsVirtual Oilfield OperationsExamples include:Virtual Core ApplicationNow G&G can gather, cleanse, prepare and visualise core data/integrate Well Log Data in one application [Reference : https://binged.it/2NpYhDY[14]Digital Rock/Digital Core AnalysisReservoir Characterisation in Real-TimePermeability, Effective Porosity and Relative Permeability Evaluation in Real-TimeWater Flooding, etcVirtual Formation Damage Analysis in Real-Time (Figure 5)Reference: https://youtu.be/aOHhlzZB51I?t=10 [15]Carbon Capture Utilisation and Storage(CCUS)Solution to Caprock/rock matrix FOAMING PHENOMENA caused by CO2 interaction with Caprock/strorage matrix that has the potential to change the geomechanical properties of the rock at critical CO2 temperatures and pressuresDevelopment of lifetime leakage free Storge system and Permanent Digital Monitoring SystemUtilisation of CO2 for improved oil recovery especially for viscous and Heavy Oils[16]Oilfield Produced water to green hydrogenThere is technology currently available to turn Oilfield Produced Water to fresh water[17]. Hydrolysis can readily turn the fresh water to Green Hydrogen by HydrolysisTotal subsea/subsurface development and ProcessingThis Closed Loop System can substantially mimimise emission and drastically reduce CO2 footprint.Digital transformationMethane and CO2 monitoring and audit across the entire production systemNanorattm development for hydrocarbon explorationNano stress cage for sand management & well integrity
+
+
+Figure 5View largeDownload slideDigital Rock Analysis for Formation Damage{After Corex [14,15])Figure 5View largeDownload slideDigital Rock Analysis for Formation Damage{After Corex [14,15]) Close modal
+
+
+Key Engineering Science Requirements for Energy Transition
+
+
+The Physical Sciences and Engineering fundamentals that are relevant to Energy transition are presented in Table 2 below:
+
+
+Table 2Key Engineering Science Requirements for Energy Transition Technologies   View Large
+
+
+From the summary it is evident that being properly grounded in the rudiments of these fundamentals will go a long way in helping the current and future Engineers and scientists adapting to Energy Transition Technologies and applications that are relevant to the OGI
+
+
+The thinking therefore is that of transformation of thoughts and application rather than transition.
+
+
+Recommended Integrated Energy Programme
+
+
+It is imperative that there must be transformation of the current tradition Petroleum Curriculum into an integrated Eneegy Programme if the OGI personnel are to meet the challenges of the new Energy Transition operation and application. This Author has made some key recommendations going forward the details of which are presented in Figure 6 below.
+
+
+Figure 6View largeDownload slideRecommended Integrated Energy ProgrammeFigure 6View largeDownload slideRecommended Integrated Energy Programme Close modal
+
+
+The new programme must expand beyond the traditional core Petroleum Subjects namely (Petroleum Geology, Drilling Engineering, Reservoir Engineering, Production Operations, etc.)
+
+
+For the Undergraduate Course, it should expand into a Five-year programme to incorporate extra curricula such as Digital Engineering, Energy Economics and CO2 Reduction Technologies as well as compulsory industrial training in relevant Energy Industries.
+
+
+The Graduate MSc Programme should be expanded to a compulsory two-year duration in order to accommodate the core fundamental sciences as well as Ditigal Engineering plus CO2 reduction Technologies/projects especially for non-engineering candidates.
+
+
+Conclusions
+
+
+In this paper an attempt has been made to address the key Energy Transition questions with emphasis on the questions that are relevant in this new era for the Oil and Gas Industry in Nigeria and globally.
+
+
+The paper focusses specifically on the need for Petroleum Engineering Programme Transformation and Net Zero R&D Technologies to support that for current and future OGI personnel.
+
+
+The key conclusions from this work are :
+
+
+That the goal towards net-zero carbon for Global industry is not negotiableThe OGI is a key player in the transitionThere is a need for global energy transition educationThere is also the need for skills, professional and training programme transformation within the Oil & Gas Industry.Based on the background research in this paper there appears to be limited need for skills Transition but only need for professional transformationThere is a need for a new NET-ZERO integrated Enegy programme to replace the current Petroleum Engineering Curricum as well as dedicated net-zero R & D project initiatives the detailed recommendations of which have been presented in this paper.Value addition of these recommendations will definitely be on the platform of new OGI business model for the OGI in the new Energy Transition era
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Oyeneyin, Babs. (2015): Developments in Petroleum Science, Volume 63 - Integrated Sand Management for Effective Hydrocarbon Flow Assurance. Elsevier. Online version available at:http://app.knovel.com/hotlink/toc/id:kpDPSVISM1/developments-inpetroleum/developments-inpetroleumGoogle Scholar DonW. Green and R.H.Perry(2008): Perry's Chemical Engineers’ Handbook8th Edition,McGraw-Hill, New YorkGoogle Scholar International Energy Agency(2021) : "Net Zero by 2050, A Roadmap for the Global Energy Sector – Special Reprt"Oyeneyin, M. Babs (2021)-"Next decade of oil & gas business in nigeria - Impact of energy transition - impact on education for the future of oil & gas professional", Keynote Paper presentation at NAPE Pre-Conference Workshop, Nov.15.Google Scholar Shell Global Solutions UK(2020),: "the Net Carbon Footprint model, Methodology".Total Energies; https://totalenergies.comAlhajji, Anas F.(2021) : ‘Energy Transition – Dreams vs Reality ‘’, Distinguished Lecturer Paper presented at the Egboga Energy Foundation Centre, Uniport, Sept 16.Google Scholar Oyeneyin, M. Babs(2020) : Energy Transition Technologies – Key fundamentals, New Book in Print.Google Scholar Mitshubishi Heavy Industries(2021) : Hydrogen – Powering Net Zero Future, Special ReportBeckman. Jeremy (2022) : "Shell duplicates minimal platforms to cut cost of UK/Dutch projects". Offshore Journal, JanuaryGoogle Scholar https://binged.it/2NpYhDYEquinor Energy: https://www.equinor.comJudyFeder(2021): "The Challenging Role of Education in the New Era of Energy", Journal of Petroleum technonology, Nov.1.Google Scholar Oyeneyin, Mufutau Babs(2019) : "Beyond Petroleum – Wither Nigeria", Proceedings of The Nigerian Academy of Science, v.12; pp57–70.Google Scholar https://youtu.be/aOHhlzZB511?t=10TchambakE., OyeneyinB and OluyemiG(2015). "The Prospect of Deepwater Heavy Oil Production Using CO2-EOR," Energy Sources, Part A: Recovery, Utilization, and Environmental Effects, Jan; 37:3; pp 318–325; DOI: 10.1080/15567036.2011.585373Google ScholarCrossrefSearch ADS  ChristianEdwards, Douglasgraham, NicholasFowler and LindaA. Lawton(2008):" Biodegradation of Microcystins and Nodularin in Fresh Water’’, Chemosphere, v.73; issue 8; pp1315–1321.Google ScholarCrossrefSearch ADS PubMed 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211972-MS
+
+
+

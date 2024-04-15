@@ -1,0 +1,192 @@
+----- METADATA START -----
+Title: Managing Uncertainties in Wellbore Placement while Drilling Complex Reservoir: Case Study- Onshore, Niger Delta
+Authors: J. A Onyeji, B. O Taiwo, Clement Chukwuka, Adaeze Obi-Chidi, Olufisayo Fagbowore, Olugbenga Abolarin
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211947-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The uncertainties associated with wellbore placement especially in terms of subsurface geology must be understood and minimized to maximize reserves for high returns. In the study area, the target reservoir is characterized as deep-seated hot sand body with intercalations of shale and siltstone. It is directly overlain by a thin bed of calcite. A closer look at the gamma ray log response of the sand puts a question to the reservoir presence, thus making landing point uncertain. Drilling to the target reservoir requires traversing through several depleted reservoirs sandwiched by shale formations that retain their original pressures. This narrows the safe mud weight window that could lead to wellbore instability issues. Other uncertainties include depth and fluid contacts. The objective of the well was to land and geosteer the wellbore in an optimal position within the oil leg. This paper reveals how the above-mentioned uncertainties were managed while drilling GX-04h infill well. The methodologies adopted include the use of reliable rotary steerable system, improved formation evaluation tools, real-time shale volume (Vshale) modeling, real-time pore pressure/ fracture gradient/ shear collapse pressure monitoring, real-time geological modeling, mud logging and effective communication protocols. Real-time Vshale computed and mudlog data helped in differentiating the top of deep-seat hot sand from the overlying shale. The at-bit resistivity measurement and neutron/density data aided in fluid typing/contacts. The approaches employed helped in proper landing of the well and successful drilling/ geosteering of 1000 feet lateral hole section within the oil leg of the target reservoir.
+
+
+
+
+Keywords:
+upstream oil & gas,
+annular pressure drilling,
+structural geology,
+well logging,
+real time system,
+formation,
+reservoir characterization,
+nigeria,
+log analysis,
+niger delta
+
+
+Subjects: 
+Pressure Management,
+Reservoir Characterization,
+Formation Evaluation & Management,
+Information Management and Systems,
+Well control,
+Exploration, development, structural geology,
+Open hole/cased hole log analysis
+
+
+
+
+Introduction
+
+
+Geological Setting
+
+
+Understanding of the subsurface geology of any drilling environment- onshore, shelf, offshore and deepwater is crucial for the successful management of the uncertainties associated with wellbore placement. Generally, optimal wellbore placement is vital for maximizing reserves to production in complex reservoirs. The study area lies within the onshore portion of the Niger Delta oil field, Nigeria (Figure 1). Niger Delta is one of the major regressive deltaic sequences of the world, and it is situated in the Gulf of Guinea on the west coast of Central Africa, north of the equator between latitudes 4°N and 6°N and longitudes 3°E and 9°E, in the southern part of Nigeria (Orajaka et al, 2015). The Tertiary Niger Delta basin has witnessed varying degrees of both syn- and post- depositional deformation with gravity tectonism as a primary deformation process (Ajakaiye and Bally, 2002).
+
+
+Figure 1View largeDownload slideStudy Location (After Corredor et al, 2005 and Onyeji et al, 2017)Figure 1View largeDownload slideStudy Location (After Corredor et al, 2005 and Onyeji et al, 2017) Close modal
+
+
+The study area is consistent with the typical Niger Delta tripartite stratigraphy; Benin, Agbada and Akata Formations. The deep seated Akata Marine Formation is the predominant Niger Delta source rock. It consists mainly of marine shale deposits and is overlain by the paralic Agbada Formation which contains the Niger Delta reservoir intervals. The paralic sequence consists of shore face, beach, and tidal channels sandstones interbedded with marine and interdistributary-bay shales. High sediment supply rates in a large- scale deltaic system resulted in the formation of growth faults and rollover anticlines; both of which combine to provide the primary hydrocarbon migration path and the structural trap mechanism. The Agbada Formation is overlain by the massive, sandy, fluvial dominated Benin Formation. All the wells drilled in the study area to date have only penetrated the top Benin and Agbada formations with all the hydrocarbon pool discovered restricted to the paralic Agbada Formation (Onyeji et al, 2020).
+
+
+Targeted Reservoir
+
+
+The field comprises series of fault assisted closures against the two major structural building faults in the area. The trapping mechanism of the targeted reservoir is formed by a combination of rollover anticlines, canyon incision and fault closure (Onyeji et al, 2017). The GX-04h infill well is the deepest well drilled in the field within the B15 reservoir. The reservoir is made up of moderately to well sorted, sub-rounded, very fine grained, poorly consolidated deep-seated hot (radioactive) sandstone body with intercalations of shale and siltstone. It is directly overlain by a thin bed of calcite, which itself is underlain by a thick column of shale (Figure 2). Core data and log patterns suggest the sand as being predominantly lower to middle shore face deposit originated from wave and tidal dominated deltaic complex during the Miocene age.
+
+
+Figure 2View largeDownload slideTarget Reservoir Type Log showing deep-seated radioactive sandstone unit.Figure 2View largeDownload slideTarget Reservoir Type Log showing deep-seated radioactive sandstone unit. Close modal
+
+
+A closer look at the gamma ray log response of the sand puts a question to the reservoir presence, thus making landing point uncertain. Drilling to the target reservoir requires traversing through several depleted reservoirs sandwiched by shale formations that retains its original pressure, therefore narrowing the safe mud weight window that could lead to wellbore instability issues (see Figure 3).
+
+
+Figure 3View largeDownload slideWellbore stability conditions within shale, depleted sand, and high-pressured sand (After Onyeji, J.A et al, 2019).Figure 3View largeDownload slideWellbore stability conditions within shale, depleted sand, and high-pressured sand (After Onyeji, J.A et al, 2019). Close modal
+
+
+Other uncertainties include depth and fluid contacts. The challenges become how to manage these uncertainties to ensure proper landing and geosteering of the wellbore in an optimal position within the oil leg. Also, safely pull out of hole with drilling bottom hole assembly (BHA) and run completions successfully.
+
+
+Materials and Methodology
+
+
+The following materials were among those deployed for success of the project:
+
+
+Geological software (Petrel, Drillworks Predict, Geolog, Microsoft excel, WellLinks RT)Reservoir Navigator Service tool (RNS)3D seismic dataMud log data (cuttings and gas counts)Improved formation evaluation tools (At-bit resistivity, Gamma ray, Multiple Propagation Resistivity (MPR), Density and Neutron data).
+
+
+The methodology adopted to mitigate the challenges narrated in the previous section include the systematic integration of improved formation evaluation tools with the closed-loop rotary steerable system, real-time shale volume (Vshale) modeling, real-time pore pressure/ fracture gradient/ shear collapse pressure monitoring, real-time geological modeling, mud logging and effective communication protocols (Figure 4).
+
+
+Figure 4View largeDownload slideCartoon showing material and methods usedFigure 4View largeDownload slideCartoon showing material and methods used Close modal
+
+
+Post stacked time migrated (PSTM) and post stacked depth migrated (PSDM)) 3D seismic volumes were used to generate reservoir depth structural map and formation tops/ prognosis in Petrel. The two seismic volumes, PSTM and PSDM utilized to predict formation tops along the GX-04h infill well is based on field experience to minimize depth uncertainties. One-dimensional Mechanical Earth Model (MEM) was built from the offset well data for efficient drilling fluid design and pressure monitoring while drilling. This is to ensure wellbore instability challenges were mitigated since drilling to the target reservoir requires traversing through several depleted reservoirs sandwiched by shale formations that retains its original pressure. Considering the quality of the target reservoir, real-time shale volume computation algorithm was developed to generate Vshale in real time. This is to delineate the top of the target sand. The systematic integration of the improved formation evaluation tools and mudlog data aided in geo-stopping during landing phase. Also, the reservoir navigation forward modelling was deployed for 2D geological modeling and real-time correlation with offset wells and visualization of the structural trends in the reservoir during horizontal drilling.
+
+
+Results and Discussions
+
+
+It is important to note that the GX-04h infill well was designed based on the limited predrill information on the adjacent fault block, which is associated with limited number of offset wells, uncertain geology, as well as poor data quality. As a result of these, a systematic approach was deployed in managing the uncertainties to ensure optimal placement of the wellbore in the complex reservoir.
+
+
+Managing the Uncertainties in Traversing through several Depleted Reservoirs
+
+
+The one-dimensional Mechanical Earth Model (MEM) built from the offset well data was calibrated with well behavior/events. This was used to predict the subsurface geology along the 12-1/4" hole section of GX-40x infill well location (Figure 5).
+
+
+Figure 5View largeDownload slideGX-04h well Mechanical Earth Model (MEM). Note: SFG = shear failure gradient, Shg = minimum horizontal stress, FIN= fracture initiation, OBG = overburden gradient, MWT = mud weight.Figure 5View largeDownload slideGX-04h well Mechanical Earth Model (MEM). Note: SFG = shear failure gradient, Shg = minimum horizontal stress, FIN= fracture initiation, OBG = overburden gradient, MWT = mud weight. Close modal
+
+
+Generally, the reservoirs pressures in the study area are mainly hydrostatic with bottom hole pressure of 8.4ppg except for the producing reservoirs which are mostly depleted with 6.5ppg pressure. From the MEM, pressures in the depleted reservoirs drilled through ranges from 6.5ppg to 8.4ppg, and the maximum shale pore pressures derived from gamma-ray, resistivity and sonic logs using the Eaton's and Bower's methods is 9.0 ppg. Shale shear failure gradient (SGF) / shale collapse pressure calculated using Modified Lade equations varies from 9.7ppg at 4,140'tvd to 10.5ppg at the landing depth (4,400'tvd). Also, other log derived mechanical rock properties such as fracture Initiation (FIN) and minimum Stress (ShG) for sand and shale models shown in the 1-D MEM were calibrated to leak off test (LOT) data. The MEM model aided in efficient drilling fluid design and real-time pore pressure surveillance. However, the well was drilled safely with 10.8ppg mud weight / equivalent circulation density (ECD) of 11.2ppg equivalent mud weight (EMW) ensuring both the mud weight and ECD were not below SFG of 10.5ppg. The mud was treated with lost circulation materials (LCM) while drilling through the depleted reservoirs and maintaining very good hole cleaning. As result of narrow mud weight window, the mud weight was increased to 11.1ppg on fly about 100’ true vertical depth (TVD) prior to the well landing. This is to ensure equivalent static density (ESD) is enough to prevent shear failure when the pumps are shut off. Also, it is a key strategy to pull the bottom hole assembly (BHA) out of hole freely, run and set 9-5/8" casing safely.
+
+
+Managing the Uncertainties in Delineating the Complex Reservoir Top/Landing point
+
+
+Realtime Vshale Computation; Common practice is the computation of shale volume and other petrophysical data used for formation evaluation remotely using real-time data and firm the result with memory data after the well has been drilled. However, during the well planning stage shale end point was generated from the offset well to determine the appropriate algorithm that will predict the true representation of the volume of shale in the deep-seated hot sandstone body.
+
+
+Geological consideration put in place while generating the shale endpoint includes:
+
+
+The total gamma ray response in shale and hot sandstone are similar on the well logs, thus making gamma ray interpretation unreliable.Radioactive minerals have no effect on the combined density and neutron counts on the well logs, therefore shale volume computation using neutron and density logs in combination is more reliable in computing shale volume especially in immature environments (Onyeji et al, 2009).
+
+
+Based on the above considerations, neutron porosity (NPHI) and total density porosity (PHIT_den) from the offset well were used to generate shale end point of target reservoir (see Figure 6).
+
+
+Figure 6View largeDownload slideB-15 Reservoir Histogram Plots showing (A) Neutron porosity shale endpoint, and (B) Density porosity shale endpoint.Figure 6View largeDownload slideB-15 Reservoir Histogram Plots showing (A) Neutron porosity shale endpoint, and (B) Density porosity shale endpoint. Close modal
+
+
+The target reservoir (B-15) shale end point generated from neutron and density data of the offset well were NPHI_SH=0.40597 and PHIT_DEN_SH=0.12683 respectively. These values were incorporated into the real-time shale volume model developed to compute real-time Vshale as density and neutron porosity data is being acquired on GX-04h infill well. The model is updated as data come in via WITSML feed into Petrel (see Figure 7).
+
+
+Figure 7View largeDownload slideWell Log Correlation panel showing real-time Vshale in the new well (GX-04h).Figure 7View largeDownload slideWell Log Correlation panel showing real-time Vshale in the new well (GX-04h). Close modal
+
+
+Figure 8View largeDownload slideSeismic Cross section showing Isopach method using the offset well logs presented a better picture of the true behavior of the subsurface between GX-04h and the offset well when prognosis from seismic volumes fail.Figure 8View largeDownload slideSeismic Cross section showing Isopach method using the offset well logs presented a better picture of the true behavior of the subsurface between GX-04h and the offset well when prognosis from seismic volumes fail. Close modal
+
+
+Figure 9View largeDownload slideWell Log plot showing real-time dip analysis from image logsFigure 9View largeDownload slideWell Log plot showing real-time dip analysis from image logs Close modal
+
+
+Well Landing in the target reservoir and drilling of the horizontal section of the well; In the landing phase, the target reservoir top was found to be much deeper than prognosis generated from the 3D seismic volumes (depth difference of about 40ft). It was observed that the post stacked depth migrated (PSDM) seismic volume was correlating with the actual tops at the shallower section of the well, while the post stacked time migrated (PSTM) was better at deeper section. However, there was depth uncertainties with both seismic volumes. Then we switched to isopach method using the offset well logs, this method presented a better picture of the true behavior of the subsurface between GX-04h and the offset well.
+
+
+Also, prior to landing point, two internal markers (B13 and B14) close to the target reservoir were identified in the offset well and correlated to the GX-04h, this aided to accurately project to the target top reservoir (Figure 7). Real-time Vshale computed from Neutron/Density data helped in differentiating the top of deep-seat radioactive sandstone from the overlying shale. At-Bit resistivity measurement aided in landing the well into the complex reservoir at the targeted inclination. Meanwhile, Image logs confirms cutting down structure. The dips picked from the borehole image logs (gamma ray and density) in real-time confirmed that reservoir structure dipped more than expected (2.0 degrees) to 4.5 degrees (Figure 99).
+
+
+Gamma ray and Neutron/Density Logs confirm further change in dip which made bit to drill to the top of the calcite from 9600 ft MD. A change in inclination at 9720 ft MD was observed from 85.5 degrees to 84 degrees, this took effect to counter the bed dip and bit went back into calcite and into the sand.
+
+
+After placing the wellbore optimally into the target reservoir about 7 feet away from the calcareous base, the horizontal section was successfully drilled keeping the well 100% in the target reservoir. This was achieved with aid of reservoir navigation service platform, which included and not restricted to distance-to-bed boundary calculation used in anticipation of intra-reservoir zone within the drain hole section, a radial lithological mapping around the wellbore (Figure 10).
+
+
+Figure 10View largeDownload slideRNS Geological model showing actual versus planned trajectory, image logs and real-time Vshale.Figure 10View largeDownload slideRNS Geological model showing actual versus planned trajectory, image logs and real-time Vshale. Close modal
+
+
+Fluid type/ contact was delineated using real-time resistivity, neutron porosity, bulk density data and mudlog data. Further confirmation of lithology type and fluid characteristics was done with mud logging data during drilling. A total of 1000 feet drain hole length was achieved at cost effective manner.
+
+
+Lessons learned
+
+
+Proper planning and the use of new technology (steerable system, at-bit resistivity measurement tool, and real-time Vshale modeling) were key to successful execution of the projectDeployment of optimum mud weight program coupled with real-time monitoring of equivalent circulating density is very important while drilling through depleted zonesEffective communication protocol and teamwork were vital
+
+
+Best practices
+
+
+Define geologic markers for detailed stratigraphic correction prior to landing the wellReal-time PP/ FG/shear failure gradient monitoring while drilling through pressure- depleted zonesCalibration of formation pore pressure and wellbore stability models with drilling eventsUnderstanding the geology of the area is critical to successful field development. The hot sand reservoirs, and calcite presence may not be considered initially
+
+
+Challenges
+
+
+Inability to differentiate the hot sand reservoir from the overlying shale using the logging while drilling GR tool in real timeDetermination of real time shale end point for Vshale computationSubsurface structural uncertainty as regards general dipping of the reservoir structureTime delay in real-time data transmission to the base office due to poor network at the rig-site, this affects quick decision making
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Ajakaiye, D.E., and Bally, A.W.2002. Some structural styles on reflection profiles from Offshore Niger Delta. Search and Discovery Article #10031.Google Scholar Corredor, F., Shaw, J. H., and Bilotti, F.2005. Structural styles in the deep-water fold and thrust belts of the Niger Delta, AAPG Bulletin, v. 89, no. 6 (June2005), pp. 753–780.Google ScholarCrossrefSearch ADS  Onyeji, J. A., Ekun, O. A, Asaolu, A. O., Mba, A. P, Owoyemi, A. O., and Nwachukwu, A, P.2020. Tracking and Reduction of Geological Non-Productive Time – A case study of an oil field in Niger Delta Basin, Nigeria: SPE Conference Paper. www.onepetro.org›conference-paper›SPE-203739-MSGoogle Scholar Onyeji, J.A., Mboto, J.S., Stafford, T. W., Ekun, O. A., Adamo, G., and Oladimeji, O. E.2019. A Systematic Approach to Resolving Wellbores Stability Issues While Drilling through Depleted Sandstone Reservoirs, Case Study-GAB Field, Niger Delta, Nigeria. In: Paper presented at the SPE Nigeria Annual International Conference and Exhibition, Lagos, Nigeria, August 2019. https://doi.org/10.2118/198813-MSGoogle Scholar Onyeji, J. A., Adebayo, A.A., Stafford, T.W., Ekun, O.A., Onu, H., and Nwozor, K.K.2017. Effective Real-time Pore Pressure Monitoring Using Well Events: Case Study of Deepwater West Africa - Nigeria. In: A Paper Presented at the SPE Nigeria Annual International Conference and Exhibition held in Lagos, Nigeria, 31 July – 2 August 2017.Google Scholar Orajaka, I. P., Onyeji, J. A., and Nuhu, G.O.2015. Petroleum Geology for Geoscientists. XULON Press, USA (Jul31, 2015) - Science, pp.441–442.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211947-MS
+
+
+

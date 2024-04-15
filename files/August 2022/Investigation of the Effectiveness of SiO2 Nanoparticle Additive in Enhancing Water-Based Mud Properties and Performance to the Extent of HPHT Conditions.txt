@@ -1,0 +1,377 @@
+----- METADATA START -----
+Title: Investigation of the Effectiveness of SiO2 Nanoparticle Additive in Enhancing Water-Based Mud Properties and Performance to the Extent of HPHT Conditions
+Authors: Franklin Okoro, Mary Frank-Okoro, Emmauel Alor
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211940-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+This study investigated the effectiveness of nano-particles, mainly silica, as an additive to water-based muds to the extent of HPHT conditions. Specifically, the study ascertained the impact of silica nano-particles in improving performance of water-based mud, the study also investigated the effect of nano-silica on mud density and also investigated the quality of silica nano-particles as a fluid loss agent and rheology modifier. The laboratory study was divided into four parts: viscosity determination, fluid loss test, sand content determination, and density determination. The experiments were conducted using water-based mud with and without silica nanoparticles. In the course of the study, the rheological, fluid loss properties, the rheological behaviour of the mud, and the cuttings transportation efficiency were directly and indirectly ascertained. From the findings, it was ascertained that nano silica improves mud viscosity, density, and also reduces yield point and fluid loss. With nano silica, the sand content of the drilling mud reduces. The effect of nanosilica in drilling fluids reduced shear stress vs. shear rate readings which could reduce the pump pressure required for mud circulation in drilling operations. Based on these findings, it is recommended that future laboratory studies be done in dynamic conditions in order to investigate the effect of drill pipe rotation on cuttings transportation improvement for water-based mud without and with nano silica.
+
+
+
+
+Keywords:
+nano silica,
+drilling fluid formulation,
+drilling fluid selection and formulation,
+viscosity,
+funnel,
+fluid loss control,
+drilling fluid management & disposal,
+nanoparticle,
+variation,
+upstream oil & gas
+
+
+Subjects: 
+Drilling Fluids and Materials,
+Drilling fluid selection and formulation (chemistry, properties),
+Drilling fluid management & disposal
+
+
+
+
+Introduction
+
+
+At High Pressures and High Temperatures (HPHT), it is exceptionally difficult to perform drilling operations. With respect to drilling liquid, the designed mud weight should be higher in HPHT wells, and should be precisely controlled in narrow mud windows. Additionally, at HTHP conditions, there is often the degradation of mud system, as it becomes unstable at high-pressure high temperature (HPHT) conditions, resulting to fluid loss. As a result of this, there is a need to improve the conventional mud systems with efficient fluid loss control additives, rheology modifying agents and weighting additives.
+
+
+More recently, the use of nanoparticles in drilling fluids has shown to be potential solutions to the experienced drilling fluids issues (Rafati et al., 2018). As a result of the ultrafine size and high surface area to volume proportion of nanoparticles, drilling engineers have the ability to modify the drilling fluid rheology by adjusting the composition, type or size distribution in drilling liquids to take any unique condition when nanoparticles are utilized as additives (Smith et al., 2018). Also, because of the cost effectiveness and accessibility in huge amounts, the utilization of nanoparticles in drilling fluids has offered enormous technical and financial advantages (Abdo and Haneef, 2013). Studies by (Al-Anssari et al., 2016; Ragab and Noah, 2014; Noah et al., 2016) demonstrated that nanoparticles provide solutions like the decrease in filtration loss and friction coefficient, enhancement of drilling fluids rheological properties, gas hydrates inhibition and enhancement of shale stability. Studies have likewise demonstrated the utilization of nanoparticles in high pressure high temperature (HPHT) wells, since it elevates the yield point and electrical stability, and reduction of fluid loss (Rafati et al., 2018).
+
+
+A number of laboratory studies have assessed nanosilica as a drilling fluid additive since Silica (SiO2) nanoparticles are exceptionally stable, very effective, and can work efficiently with other molecules (Abimbola et al., 2014; Yang et al., 2015; Yuan et al., 2013). Earlier adoption of SiO2 nanoparticles were mainly with water-based mud additive and concentrated on the adjustment of rheological properties, decreasing filtration loss and friction, inhibition of shale and hydrate formations, and enhancement of heat transfer, whereas the use for mud property change/adjustment for effective wellbore cleaning and particularly cutting transfer has remained unclear. Therefore, this study formulated a water-based mud containing SiO2 nanoparticle additive in the Lab to ascertain the effect and efficiency on wellbore cleaning and the extent to which SiO2 nanoparticles enhance the mud properties and performance. The study was done to validate the reports in the literature and also confirm specifically the extent of the improvement in mud drilling parameters and performance attributed to SiO2 nanoparticles.
+
+
+MATERIALS AND METHODS
+
+
+MATERIALS
+
+
+FunnelDistilled waterMud sampleAtmospheric filter pressCO2 cartridgePress cupWeighing scaleCylinderFilter paperGlass measuring tubeWash bottleBaroid mud balanceStop watchThermometerViscometer
+
+
+The diagram of the baroid mud balance is shown in Figure 1 
+
+
+Figure 1View largeDownload slideBariod Mud Balance Apparatus (Source: ofite.com)Figure 1View largeDownload slideBariod Mud Balance Apparatus (Source: ofite.com) Close modal
+
+
+METHODS
+
+
+FUNNEL VISCOSITY DETERMINATION (USING THE MARSH FUNNEL) PROCEDURE
+
+
+CALIBRATION
+
+
+Get the funnel and the quart cleaned.Place the funnel in a straight position to be balanced with the quart directly beneath.Bring some fresh water at around 700 F (room temperature)Close the funnel outlet using a finger.Fill the funnel with fresh water till it reaches a certain point indicated with the line inside the funnelQuickly move your finger from the outlet to allow the water into flow from the outlet to the quart below and start the stopwatch.Let the water flow from the funnel to the quart till the water level 946cc, which is indicated by a line inside the quart.When the water reaches the required level, close the outlet of the funnel with a finger again and stop the stopwatchFor the calibration to be correct, the time required for the water to fill 946cc of the quart should be 26+/− 0.5sec.
+
+
+MUD ANALYSIS
+
+
+Prepare 1000cc of the mud sample to be used.Position the clean dry funnel in a vertical position with a finger over the outlet and then pour the freshly acquired sample of mud to be tested through the mesh until the fluid level reaches the bottom of the mesh (approximately 1500 cm3).Swiftly release the finger from the outlet. Measure the time it takes the fluid to fill to the 946cc mark of the cup.Note the temperature of the fluid and the time to the nearest second at the marsh funnel viscosity.
+
+
+The diagram of the marsh funnel is shown in Figure 2.
+
+
+Figure 2View largeDownload slideMarsh Funnel (Source: ofite.com)Figure 2View largeDownload slideMarsh Funnel (Source: ofite.com) Close modal
+
+
+FLUID LOSS TEST (ATMOSPHERIC FILTER PRESS)
+
+
+The atmosphere filter press is a laboratory equipment used in determining the level of filtration for different kinds of flowing fluids using a CO2 cartridge. CO2 cartridge serves as a pressure vessel for the operation instead of electrical automation. The diagram of the filter press apparatus is shown in Figure 3.
+
+
+Figure 3View largeDownload slideHTHP Filter Press for Drilling Fluid Testing with 175-mL, Single-Capped Test Cell and CO2 Pressuring Assemblies (Source: ofite.com).Figure 3View largeDownload slideHTHP Filter Press for Drilling Fluid Testing with 175-mL, Single-Capped Test Cell and CO2 Pressuring Assemblies (Source: ofite.com). Close modal
+
+
+PROCEDURE
+
+
+After coupling the press cup up to the hobPour the sample to be experimented up to the 3 size of the press hob.Place the hob on the wooden base close to the cover and tighten the screw on the cover to faster the press hob in question.Place the cylinder directly under the outlet hole of the press hob for collection of filtrate.Lock CO2 discharge valve.Insert the CO2 cartridge into its cylinder and faster to the cover.Quickly adjust the CO2 pressure value up to 100ps.Take the reading for the first 30 minutes with a stopwatch.Monitor the pressure meter with time as it deviates from 100psi. Ensure to adjust it back.After 30 minutes, reduce the pressure back to the original value from the control valve.Discharge the pressure on the line by adjusting the red knob or pushing it backward.Take the cylinder, collect and measure the filtrate value.Weigh the filter paper. Dry and reweigh the filter paper and filter cake.
+
+
+SAND CONTENT DETERMINATION (SAND SCREEN SET)
+
+
+The sand content test kit is shown in Figure 4. It was utilised with a 10 ml glass measuring tube, graduated to read from 0 to 20% the percentage sand by volume. A 500ml wash bottle and carrying case were included.
+
+
+Figure 4View largeDownload slideThe sand content test kit (source: ofite.com).Figure 4View largeDownload slideThe sand content test kit (source: ofite.com). Close modal
+
+
+PROCEDURE
+
+
+Fill the glass measure tube to "mud" line with mud.Add water to next sari-bad mark. Place thumb over the mouth of the tube & shake vigorously.Pour mixture onto the clean servant. Add more water to the tube and shake, pour onto screen.Discard the liquid that passes through the screen.Repeat step 3 until the wash water is clean. Then wash sand retained on the screen in order to free any adhering mud.Position the funnel to be on top of screen assembly. Slowly invert the assembly & insert top of funnel into the glass tube.Wash sand back into the tube with a fire spray of water on a wash bottleAllow sand to settle. Read and record volume percent sand from graduation on the glass measuring tube.
+
+
+SPECIFIC GRAVITY/DENSITY DETERMINATION (USING THE BOARD MUD BALANCE)
+
+
+PROCEDURE
+
+
+
+
+
+CALIBRATION
+
+
+Release the lid from the cup and fully fill the cup with water.Replace the lid and clean off any water.Replace the balanced arm on the base with the knife-edge resting on the fulcrum.The level vial should be entered when the rider is set on 8.33ppg. If not, add to or remove shot from the vial in the end of the beam.
+
+
+SAMPLE ANALYSIS
+
+
+Release the lid from the cup and fully fill the cup with mud to be tested.Replace the lid and rotate until firmly seated. Making sure the mud is expelled through the hole in the cup.Wash/ wipe the mud from the exterior of the cupPlace the balance arm of the base, with the knife-edge resting on the fulcrum.Reposition the rider until the graduated arm is level, as shown by the level vial on the beam.At the left-hand edge of the rider, read the density on either side of the lever in all desired units disturbing the rider.
+
+
+RESULTS AND DISCUSSION
+
+
+Mud Properties
+
+
+Standard Drilling Mud (Specific Gravity=> 0.25)
+
+
+DENSITY
+
+
+Ib/gal - 7.80
+
+
+Ib/ft3 - 59.30
+
+
+Psi/1000ft2 - 409.4
+
+
+Sand content - 0.05%
+
+
+Drilling Mud with Nano-silica (Specific Gravity => 0.98)
+
+
+DENSITY
+
+
+Ib/gal - 7.95
+
+
+Ib/ft3 - 59.50
+
+
+Psi/100ft2 - 410.2
+
+
+Sand content - 0.04%
+
+
+Standard mud Rheological property
+
+
+Table 1Standard mud Rheological property Dial Reading
+            . RPM
+            . 310 600 294 300 170 200 106 100 60 60 19 30 16 6 Dial Reading
+            . RPM
+            . 310 600 294 300 170 200 106 100 60 60 19 30 16 6 View Large
+
+
+Rheological property of mud with Nano-silica
+
+
+Table 2Rheological property of mud with Nano-silica Dial Reading
+            . RPM
+            . 330 600 300 300 219 200 161 100 93 60 60 30 25 6 Dial Reading
+            . RPM
+            . 330 600 300 300 219 200 161 100 93 60 60 30 25 6 View Large
+
+
+Standard Gel Strength
+
+
+Table 3Standard Gel Strength Time
+            . Gel strength
+            . 10 seconds 13 10 minutes 13 30 minutes 14 Time
+            . Gel strength
+            . 10 seconds 13 10 minutes 13 30 minutes 14 View Large
+
+
+Gel Strength with Nano Silica
+
+
+Table 4Gel Strength with Nano Silica Time
+            . Gel strength
+            . 10 seconds 20 10 minutes 20 30 minutes 21 Time
+            . Gel strength
+            . 10 seconds 20 10 minutes 20 30 minutes 21 View Large
+
+
+Plastic Viscosity
+
+
+Table 5Plastic Viscosity Mud Type
+            . Viscosity
+            . Standard Mud 16 cp Mud with Nano Silica 30cp Mud Type
+            . Viscosity
+            . Standard Mud 16 cp Mud with Nano Silica 30cp View Large
+
+
+Apparent Viscosity
+
+
+Table 6Apparent viscosity Mud Type
+            . Viscosity
+            . Standard Mud 155 cp Mud with Nano Silica 165.5 cp Mud Type
+            . Viscosity
+            . Standard Mud 155 cp Mud with Nano Silica 165.5 cp View Large
+
+
+Yield Point
+
+
+Table 7Yield point Mud Type
+            . Yield point
+            . Standard Mud 278 lb/100ft2 Mud with Nano Silica 270 lb/100ft2 Mud Type
+            . Yield point
+            . Standard Mud 278 lb/100ft2 Mud with Nano Silica 270 lb/100ft2 View Large
+
+
+Standard Mud Fluid Loss (120 psia)
+
+
+Table 8Standard Mud Fluid Loss Time (mins)
+            . volume
+            . 5 2 10 5 15 7 20 8 25 10 30 11.5 35 12 40 12 50 12 Time (mins)
+            . volume
+            . 5 2 10 5 15 7 20 8 25 10 30 11.5 35 12 40 12 50 12 View Large
+
+
+Fluid loss for mud with Nano silica (120 psia)
+
+
+Table 9Fluid loss for mud with Nano silica Time (mins)
+            . volume
+            . 5 1.45 10 3.2 15 5.1 20 6.6 25 7 30 8.4 35 8.5 40 8.6 50 8.6 Time (mins)
+            . volume
+            . 5 1.45 10 3.2 15 5.1 20 6.6 25 7 30 8.4 35 8.5 40 8.6 50 8.6 View Large
+
+
+Discussion
+
+
+
+
+
+Mud Density
+
+
+From Figure 5, the effect of nano silica improved the mud weight by 1.92 percent. This implies that nano silica can be used to increase the drilling fluid density. This in turn will increase the hydrostatic gradient in the well bore so that the pressure in the well bore is higher than formation pressure.
+
+
+Figure 5View largeDownload slideMud density variation with nano silicaFigure 5View largeDownload slideMud density variation with nano silica Close modal
+
+
+Sand Content
+
+
+With nano silica, the sand content reduced by .01% (see Figure 6). High sand content causes excessive abrasion of pump parts and pipe connections, hence the use of nano silica is very desirable.
+
+
+Figure 6View largeDownload slideSand content variation with nano silicaFigure 6View largeDownload slideSand content variation with nano silica Close modal
+
+
+Rheological Property
+
+
+From Figure 7, at 600 RPM, the rheology of the mud improved by 6.45% with nano silica, at 300 RPM, the mud rheology improved by 2.041% with nano silica, at 200 RPM, the mud rheology improved by 28.82%, at 100RPM, the rheology of the mud improved by 51.89%, at 60 RPM, the mud rheology improved by 55%, at 30 RPM, the mud rheology has its most significant improvement of 215.7% and at 6 RPM, the rheology improved by 56.25%. The implication of this is that nano silica generally increases the molecular weight of the mud at the different shear rates and this means that with nano silica, the efficiency of the removal of drilled cuttings to the surface of the well to maintain safe and profitable drilling operations by the mud is significantly improved with nano silica. Obviously, settling of solid particles in drilling fluids represents a major problem.
+
+
+Figure 7View largeDownload slideRheological property variation with nano silicaFigure 7View largeDownload slideRheological property variation with nano silica Close modal
+
+
+Gel Strength
+
+
+Gel strength measurement was made on viscometer using the 3-rpm reading, which were recorded after stirring the drilling fluid at 600 rpm to break gel. The first reading was noted after the mud is in a static condition for 10 seconds. The second reading and the third reading were after 10 minutes and 30 minutes, respectively. Low gel strength indicates inability to suspend cuttings. It can lead to pipe stuck and hole pack off due to insufficient cutting suspension. From Figure 8, it can be seen that at 10 sec, the nano silica improved the mud gel strength by 53.85%, same as in 10 mins and after 30 mins, the gel strength of the mud was improved by 50%. This implies that with nano silica, the ability of the drilling mud to suspend drill solid and weighting material when circulation is ceased is improved significantly. It is also good to note that excessive gel strength will lead to high pump initiation pressure to break circulation after mud is in a static condition for a period of time. High pump pressure may result in formation fracture and lost circulation; hence optimization is needed here.
+
+
+Figure 8View largeDownload slideGel strength variation with nano silicaFigure 8View largeDownload slideGel strength variation with nano silica Close modal
+
+
+Plastic Viscosity
+
+
+From Figure 9, there was a remarkable increase in plastic viscosity with the use of nano silica. The plastic viscosity increased by 87.5% with nano silica. According to Abdo and Haneef (2013), the mechanism behind this observation can be attributed to the decrease in bentonite in the mud as a result of the presence of nano-silica. This leads to reduction in solid particles which decreases the interaction of clay minerals (Kevin & Mahmud, 2019). Increasing the plastic viscosity of the mud results in a remarkable increase in the amount of recovered cuttings. Though, optimization is also needed here as a very high plastic viscosity generates higher resistance in mud which in turns will affect cutting lifting performance. Also, a low PV indicates that the mud is capable of drilling rapidly because of the low viscosity of mud exiting at the bit.
+
+
+Figure 9View largeDownload slidePlastic viscosity variation with nano silicaFigure 9View largeDownload slidePlastic viscosity variation with nano silica Close modal
+
+
+Apparent Viscosity
+
+
+From Figure 10, the apparent viscosity of the mud increased by 6.8% with nano silica. Drilling mud is used to assist the drilling of wellbore into the earth. The mud viscosity is a very important property, as cuttings will settle to the bottom of the well if the viscosity is too low. Fluids that have elevated viscosities are efficient for wellbore cleaning. Hence, the presence of nano silica improves the wellbore cleaning efficiency of the mud.
+
+
+Figure 10View largeDownload slideApparent viscosity variation with nano silicaFigure 10View largeDownload slideApparent viscosity variation with nano silica Close modal
+
+
+Yield Point
+
+
+Figure 11 shows that the yield point reduced by 2.9% with nano silica. Yield Point (YP) is resistance of initial flow of fluid or the stress required in order to move the fluid. Therefore, with nano silica, this resistance to initial flow is reduced. According to Sedaghatzadeh et al. (2016), the mechanism behind the observed reduction in yield point can be attributed to the repulsive nature of the nano-silica with the water phase and other solid clay particles. This repulsive nature prevents the occurrence of flocculation as a result of high temperatures, which can lead to issues like pump pressure loss, which could in turn cause the requirement for an increased pressure for the drilling fluid to pump the flocculated particles through the wellbore (Kevin & Mahmud, 2019). It is good to also point out the pros of high yield strength. A high YP implies a non-Newtonian fluid, one that carries cuttings better than a fluid of similar density but lower YP. Hence, optimization of the yield point is needed.
+
+
+Figure 11View largeDownload slideYield point variation with nano silicaFigure 11View largeDownload slideYield point variation with nano silica Close modal
+
+
+Figure 12View largeDownload slideFluid loss variation with nano silicaFigure 12View largeDownload slideFluid loss variation with nano silica Close modal
+
+
+Fluid Loss
+
+
+As expected, as nano silica improves mud viscosity and density, it also reduces fluid loss. At 5 mins, the fluid loss is reduced by 27.5%, at 10 mins there was fluid loss reduction of 36%, at 15 mins, there was 27.14% reduction in fluid loss, at 20 mins, there was 17.5% reduction in fluid loss, at 25 mins, there was 42.9% reduction in fluid loss, at 30 mins, there was 27% reduction in fluid loss, at 35 mins, there was a 29.2% reduction in fluid loss. At 40 and 50 mins, there were 28.3% reduction in fluid loss.
+
+
+CONCLUSION
+
+
+From the study findings, the following conclusions were made:
+
+
+Nano silica improves mud viscosity, density, and also reduces yield point and fluid loss.With nano silica, the sand content of the drilling mud reduces.The effect of nanosilica in drilling fluids reduced shear stress vs. shear rate readings which could decrease the pump pressure needed for mud circulation in drilling operations, particularly when heavy mud is needed to drill deep formations to balance formation pressures.Well distribution of nanosilica particles in the mud disrupts excessive gel formation between gelling agents. This gel disruption reduces the attractive forces which is crucial for heavy muds and reduces progressive gels.Particle distribution of nanosilica in flowing mud increases cuttings transport and hole cleaning efficiency. This is as a result of the mud flowing in a turbulent condition to the surface, the effect of nanosilica in dispersed form which possesses high surface area to volume ratio increases the interaction with drilled cuttings and enhances colloidal forces.Silica nanoparticles has the capacity to enhance the drilled cuttings lifting performance in degraded mud since it decreases the degradation of rheological properties and as a result enhance lifting capacity of the mud as against mud with no nanosilica.
+
+
+In the future, laboratory studies should be done in dynamic conditions as the present study was done in a static condition. In such dynamic laboratory study, the influence of drill pipe rotation on cuttings transportation enhancement for water-based mud with and with no nano silica can be explored. Future studies can also concentrate on exploring the cuttings transportation efficiency in varying hole inclinations and with and with no varying pipe rotations.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Abdo, J., & Haneef, M. D. (2013). Clay nanoparticles modified drilling fluids for drilling of deep hydrocarbon wells. Applied Clay Science, 86, 76–82http://doi.org/10.1016/j.clay.2013.10.017.Google ScholarCrossrefSearch ADS  Abimbola, M. O., Chukwu, G. A., & Khan, F. I. (2014). Cuttings Transport Evaluation in Deviated Wells. In the International Conference on Marine and Freshwater Environments (pp. 1–10). St. John's, Canada.Google Scholar Al-Anssari, S., Barifcani, A., Wang, S., Maxim, L., and Iglauer, S. (2016), "Wettability alteration of oil-wet carbonate by silica nanofluid."Journal of Colloid Interface. Science. 461, 435–442.Google ScholarCrossrefSearch ADS  Kevin, N.M. and Mahmud, H.B. (2019). Optimization of nano-silica in enhancing the properties of synthetic based drilling fluids for tight gas reservoir conditions. IOP Conference Series: Materials Science and Engineering, 495,p.012075. doi:10.1088/1757-899x/495/1/012075.Google Scholar Sedaghatzadeh, M., Shahbazi, K., Ghazanfari, M., and Zargar, G. (2016). Experimental Investigation of Self-Repeating Effect of Different Nanoparticles on Internal Mud Cake Formation by Water Based Drilling Fluid in Directional Wells, The IADC/SPE Asia Pacific Drilling Technology Conference.Google Scholar Noah, A. Z., El-Semary, M. A., Youssef, A. M., & El-safty, M. A. (2016). Enhancement of yield point at high pressure high temperature wells by using polymer nanocomposites based on ZnO & CaCO3 nanoparticles. Egyptian Journal of Petroleum, 26, 33–40http://doi.org/10.1016/j.ejpe.2016.03.002.Google ScholarCrossrefSearch ADS  Yang, X., Yue, Y., Cai, J., Liu, Y., & Wu, X. (2015). Experimental Study and Stabilization Mechanisms of Silica Nanoparticles Based Brine Mud with High Temperature Resistance for Horizontal Shale Gas Wells. Journal of Nanomaterials, 2015, 1–9. http://doi.org/10.1155/2015/745312Google Scholar Yuan, Y., Cai, J., Wang, J., and Xiao, C. (2013). Experimental study on improving filtration properties of drilling fluid using silica nano-particles. Oil Drilling & Production Technology, 35 (3), 30–41.Google Scholar Rafati, R., Smith, S. R., Haddad, A. S., Novara, R., & Hamidi, H. (2018). Effect of nanoparticles on the modifications of drilling fluids properties: A review of recent advances. Journal of Petroleum Science and Engineering, 161, 61–76 doi:10.1016/j.petrol.2017.11.067Google ScholarCrossrefSearch ADS  RagabA. M. S., and NoahA. (2014). Reduction of Formation Damage and Fluid Loss using Nano-sized Silica Drilling Fluids. Petroleum Technology Development Journal, 2, 75–88.Google Scholar Smith, S. R., Rafati, R., Haddad, A. S., & Cooper, A. (2018). Application of aluminium oxide nanoparticles to enhance rheological and filtration properties of water-based muds at HPHT conditions. Colloids and Surfaces A, 537, 361–371http://doi.org/10.1016/j.colsurfa.2017.10.050Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211940-MS
+
+
+

@@ -1,0 +1,194 @@
+----- METADATA START -----
+Title: Digitalization of Old Generation Equipment for Field Operations Optimization
+Authors: Eriagbaraoluwa Adesina, Bukola Olusola
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211944-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Equipment such as generators and export pumps, among others are crucial in the continuous running of oil and gas operations in the oil field. However, this equipment can fail without prior notice leading to costly downtime, therefore; it is paramount to minimize equipment failure. The unpredictability of equipment failure leads to the repair time being prolonged due to difficulty in scoping and procuring the damaged parts. To solve this problem, we proposed the use of digital control systems and equipment telematics to be installed on analog generation units for data analytics and business efficiency.In the proposed data acquisition strategy, the control systems interpret analog inputs, convert them to digital data, continuously monitor the data, and upload the data to a cloud database for seamless data transfer to data analyst. This data was used in evaluating the performance of the generators, identifying parameters that largely affects the efficiency of the analog machine and then the results were used in the optimization of field operations. Telematics devices convert analog readings such as current, voltage and gauges into digital data, send out event activity reports and receive commands can be installed in old analog equipment. For instance, fuel level sensors are placed in fuel tanks of generators to detect the volume as well as the rate at which the tanks are getting filled up and drained. The sensors also measure fuel temperature and quality. Fuel flow meters directly measure the engine fuel consumption, engine operation time and the fuel rate in the supply line from the storage tank to the generation equipment. In addition, a contactless reader reads and transmits engine parameters of the equipment - the Revolutions per Minute (RPM) of the machine, oil pressure, oil temperature, coolant temperature and other engine parameters to the cloud database storage.The data collated is analysed with statistical methods and data analytical techniques. The engine parameters are weighted and used to determine the performance and the health level of the engine with all parameters being measured in real time. Based on the simulated training dataset and its respective results for each entry, generators can be predicted to be "healthy" or about to be faulty in real time. With this approach, old generation equipment and power output can be constantly monitored and connected to an event detection system.This paper presents a way to digitalise old generation equipment, prevent power outages and prolong the life cycle of generation equipment in oil fields. Finally, the methods presented in this paper can be extended to any analog or old generation equipment requiring performance monitoring.
+
+
+
+
+Keywords:
+big data,
+machine learning,
+old generation equipment,
+artificial intelligence,
+dataset,
+upstream oil & gas,
+data mining,
+generator,
+accuracy,
+digitaliztion
+
+
+Subjects: 
+Information Management and Systems,
+Data mining,
+Artificial intelligence
+
+
+
+
+Introduction
+
+
+In the industry, equipment such as generators and export pumps are crucial to the smooth running of any operation and periodically develop faults leading to downtime and a costly loss of revenue. Most operations in Nigeria use analog monitoring devices in these equipment which is limited in their capability to only make readings. This paper proposes an inexpensive method of digitalising analog monitoring equipment and using the resulting aquired data to aid in predictive analytics, limiting equipment downtime to the barest minimum, increasing efficiency, optimising the entire production process and maximising profit.
+
+
+Breakdown is a gradual degradation of a machine or an equipment. This unpredictable continuous degradation leads to a rise in operating cost, unstable delivery time and decreased profit. Even through a rigorous and strict adherence to maintenance related checklists it is increadibly difficult to manage to have zero downtime as a number of features important to the cause of breakdown are not monitored accurately enough. Breakdown is caused by poor conditions of the equipment, poor maintenance, operating error and design error.
+
+
+The fourth industrial revolution, otherwise known as Industry 4.0, facilitates greater production efficiency, and significantly impacts economic, environmental, and social sustainability (Sreenivasan Jayashree et al., 2022). Industry 4.0 is a technology-driven digital transformation to enable data-driven decision-making based on real-time data to enhance the competitiveness of traditional manufacturing. Moving forward, adopting Industry 4.0 is an evident requirement for manufacturers to remain competitive (Shreyanshu Parhi et al., 2022).
+
+
+It consists of emerging technologies like Internet of Things, wireless sensor networks, big data, cloud computing, and embedded systems in the manufacturing environment (Wang et al., 2016; Ferreiro et al., 2016). The failure of machine parts may lead to breakdown, defects or accidents which causes huge cost and delay in product delivery. According to Ferreiro et al., 2016, the total revenue loss due to breakdown throughout a year in the world is approximately US$ 450 billion. Investing in and using Industry 4.0 reduces idle machines, idle manpower, human input and by extension human error.
+
+
+Predictive diagnostics along with the aid of telematics devices and sensors can aid in reducing unexpected machine downtime, reduce the repair time and find faulty systems and components before failure occurs. Predictive analytics can help point out potential problems before a point is reached where it results in a downtime event.
+
+
+Data collection would occur through sensors and equipment telematics devices. The word "Telematics" is gotten from the amalgamation of the words Telecommunication and Data Processing. It is the blending of machines and remote communication to clearly give information over enormous systems. Data gathered by the telematics device is sent in a digital package to a server after which the data gets decoded. This information is uploaded into the cloud, becomes accessible from anywhere and is used for analytical purposes. These systems greatly increase efficiency and cut down on errors brought about by human hands (Priyabrata Pattanaik et al., 2021).
+
+
+Data analysis is performed on the stored data and from the data, performance and event warning dashboards are created creating an easy way to view performance of equipment from anywhere and be immediately alerted to any problems. As shown in the Figure - 1,2, and 3 below, the dashboards show information about the engine performance, power output, fuel monitoring and event detection.
+
+
+Figure 1View largeDownload slideDashboard showing engine performance and health check features. Key metrics like Fuel volume, Fuel Rate, RPM, Battery, Oil Pressure, Coolant, Fuel temperature, Engine runtime are being displayed.Figure 1View largeDownload slideDashboard showing engine performance and health check features. Key metrics like Fuel volume, Fuel Rate, RPM, Battery, Oil Pressure, Coolant, Fuel temperature, Engine runtime are being displayed. Close modal
+
+
+Figure 2View largeDownload slideDashboard showing equipment power output. Total power, relative power output, power factor, total fuel consumption, RPM, Fuel rate are the metrics on display.Figure 2View largeDownload slideDashboard showing equipment power output. Total power, relative power output, power factor, total fuel consumption, RPM, Fuel rate are the metrics on display. Close modal
+
+
+Figure 3View largeDownload slideDashboard monitoring fuel consumption. Display of fuel consumption over time preventing fuel cheating.Figure 3View largeDownload slideDashboard monitoring fuel consumption. Display of fuel consumption over time preventing fuel cheating. Close modal
+
+
+Figure 4View largeDownload slideSetup for telematic devices. Fuel level sensors in main tank, fuel flow meters, contactless gateways, wifi, telematics gateway.Figure 4View largeDownload slideSetup for telematic devices. Fuel level sensors in main tank, fuel flow meters, contactless gateways, wifi, telematics gateway. Close modal
+
+
+Figure 5View largeDownload slideFuel Flow Meter. For direct fuel consumption measurement inside fuel lines of diesel engines and other equipment.Figure 5View largeDownload slideFuel Flow Meter. For direct fuel consumption measurement inside fuel lines of diesel engines and other equipment. Close modal
+
+
+APPLICATION OF MACHINE LEARNING
+
+
+Predicting faults in analog equipment is a difficult obstacle due to the complexity of the features and parameters needed to be analysed to reach a consensus. Refined methods such as machine learnine (decision trees, random forest algorithm and neural networks) can sort through the complex variable interactions and provide accurate results. Advanced machine learning techniques like clustering algorithms and random forest algorithm understand production behaviours and correlation and make near accurate predictions using dominant production attributes to estimate accurate predictive diagnostic results. Therefore, in this work we had used a random forest algorithm to predict the performance of the equipment. A Random forest algorithm is a supervised machine learning algorithm that is popularly used in both classification and regression problems. It constructs decision trees on various samples and uses their majority vote for classification and mean in case of regression (Sruthi E.R. — 2021).
+
+
+Methods
+
+
+In the proposed data acquisition and analytics strategy, control systems will be installed in analog generation equipment to interpret analog inputs and convert them to digital data. This data will be uploaded via the internet and digital cloud systems to a cloud database. There will be a continuous transfer of data enabling real time analysis and monitoring of equipment performance.
+
+
+Fuel level sensors are to be placed in the fuel tanks to detect the volume as well as the rate at which the tanks are getting filled up and drained. The sensors also measure fuel temperature and quality. Fuel flow meters will also be installed to measure the engine fuel consumption, engine operation time and the fuel rate in the supply line from the storage tank to the generation equipment. Contactless readers are also installed to read and transmit the engine parameters to the cloud database storage.
+
+
+The data being used to undergo this study is the "Diesel Engine Faults Features Dataset" provided by Denys Pestana.
+
+
+The dataset consists of figures simulating diesel engine failures based on a group of algorithms by varying the generator pressure, temperature and fuel volume using the producer's data. The simulation covers the most frequent kinds of faults in diesel engines according to four cases:
+
+
+Normal operationsCompression faultInjected fuel mass faultPressure in the intake manifold fault
+
+
+The simulation data depicting faulty conditions will take the binary value of 1 while normal operating conditions with no fault will take the binary value 0.
+
+
+The database developed by Denys Pestana-Viana et al., 2019 is to mimic all operating conditions, and every possible combination of diesel faults and system variations. The database consists of 84 features and 3500 rows. In this study we will be using a Random Forest classifier to test the system's ability to distinguish between the engine running with a fault (likelihood to fail) and at normal conditions, the algorithm will take the features as input while returning a "0" or "1" to indicate "not faulty" and "faulty" respectively.
+
+
+A Random forest algorithm is a supervised machine learning algorithm that is popularly used in both classification and regression problems. It constructs decision trees on various samples and uses their majority vote for classification and mean in case of regression (Sruthi E.R. — 2021). Figure 6 shows a visual representation of this process.
+
+
+Figure 6View largeDownload slideRandom Forest Algorithm Process Flowchart showcasing how the algorithm works to make predictions.Figure 6View largeDownload slideRandom Forest Algorithm Process Flowchart showcasing how the algorithm works to make predictions. Close modal
+
+
+Figure 7View largeDownload slideFlowchart showing all steps taken in the completion of this project.Figure 7View largeDownload slideFlowchart showing all steps taken in the completion of this project. Close modal
+
+
+Flow Chart
+
+
+A Random Forest Classification based machine learning model was trained to classify diesel generator data as either "faulty" or "not faulty" using the "Diesel Engine Faults Features Dataset" mentioned above. In this project, the input variables are the 84 features with the output being the classification of the data.
+
+
+The total length of the dataset is 3500 rows with 84 features to be used to train the machine learning model.
+
+
+A histogram and box plot are drawn to understand the distribution of the data and to ensure that each feature followed a normal distribution.
+
+
+The data was cleaned, starting with searching for and removing all non-numerical values if present from the dataset. Next, missing values if present are identified and depending on the situation the rows are dropped, or the empty values are replaced with the median for that specific entry. Outliers are identified through observing the created histogram and box plots. Outliers can be treated by either dropping the outlier row in some cases, using statistical flooring and capping techniques to limit the values to an acceptable range or leaving the data as is to avoid interfering with the results. In this project, outliers were left untampered as the data ranges was deemed acceptable.
+
+
+The "Diesel Engine Faults Features Dataset" was randomly split into a training (60%), testing (20%) and validation (20%) dataset. After training the model on the training data, the validation dataset was used to tune the hyperparameters of our machine learning algorithm and increase its accuracy and generalization capabilities before using on the test dataset. Model accuracy was scored on accuracy, recall, precision and f1 score.
+
+
+Accuracy is a measure of the ratio of the correctly predicted entries to the number of total entries. Recall is the ratio of the correctly predicted positive entries to the total number of actual positive entries. Precision is the ratio of the correctly predicted positive entries to the total number of predicted positive entries. F1 score is the weighted average of precision and recall (Data Science Blogathon: Rohit Pant, 2020).
+
+
+Results
+
+
+As the dataset is large, a subset of the data used in the building the classification model will be shown below:
+
+
+As seen in Figure 9 the model overfits slightly on the training data with an accuracy of 0.999, a recall value of 0.999, precision of 1.0 and an F1 score of 0.999. However, the model still generalizes well when fit to the test data showing high scores in all metrics.
+
+
+Figure 8View largeDownload slideSubset of diesel generator data used in the training and the validation of the fault prediction model. All parameters used in the training of the model are present here. Temperature, Pressure and Volume were the primary paraters used in the modelling of the engine simulation.Figure 8View largeDownload slideSubset of diesel generator data used in the training and the validation of the fault prediction model. All parameters used in the training of the model are present here. Temperature, Pressure and Volume were the primary paraters used in the modelling of the engine simulation. Close modal
+
+
+Figure 9View largeDownload slideTable showing the accuracy, recall, precision and F1 score of the model on the training and the test data. Fitting the model to the test data happened after model tuning.Figure 9View largeDownload slideTable showing the accuracy, recall, precision and F1 score of the model on the training and the test data. Fitting the model to the test data happened after model tuning. Close modal
+
+
+An accuracy score, recall score, precision score and F1 score all above 0.90 indicates that the model would be great at correctly classifying future data and correctly differentiating between faulty and non-faulty diesel engines.
+
+
+According to the confusion matrix in Figure 10, when fitting the model to the test data, it correctly classified 654 entries out of 700. 3.14% of the predictions were false positives while 3.43% of predictions were false negatives. These scores show that the model generalizes well and is very good at identifying faults.
+
+
+Figure 10View largeDownload slideConfusion matrix showing the accuracy of the predictions made by the prediction model on the test data. This figure indicates high accuracy predictions by the model.Figure 10View largeDownload slideConfusion matrix showing the accuracy of the predictions made by the prediction model on the test data. This figure indicates high accuracy predictions by the model. Close modal
+
+
+Discussions and Conclusion
+
+
+Considering the predictions made regarding the classification of the entries and the values of the metrics used to evaluate the model. The model has an accuracy of 0.934, a recall value of 0.963, precision of 0.966 and an F1 score of 0.965. Given these scores, we can conclude that this a successful prediction model and one that can be used for predictive analysis regarding faults in diesel generators.
+
+
+Analysis of the confusion matrix also supports this inference.
+
+
+The model's performance is satisfactory and can be trusted. However, a more extensive and comprehensive project would be to be able to identify the specific fault of the generator using data. One way to do this would be to create a subgroup of faults to be able to accurately pinpoint the specific problem.
+
+
+From the tests performed on the result of the classification model we can conclude that this approach for predicting faults in diesel generators is a functional one. The results of the simulated dataset can be used as a model to predict whether a generator is about to be faulty in real time and raise an alert to generate the appropriate response. The same process through which this data was collected and used for analytical purposes extends to other metrics in generation equipment. Fuel level data can be monitored in real time; the volume used can also be estimated and monitored; also, the temperature; coolant levels, and power output levels. All machine performance can be monitored with an event detection system creating a notification whenever a problem is discovered.
+
+
+This method presents a novel way the predict faults early in analog generation equipment by installing telematics devices on them and then analyzing the data to improve productivity, maintenance, and boost profits.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+DenysPestana-Viana, RicardoH. R.Guti´errez, Amaro A.de Lima, Fabr´icioL. e Silva, Luiz Vaz, Thiago deM. Prego, and UlissesA. Monteiro - Application of Machine Learning in Diesel Engines Fault IdentificationRuihanWang, HuiChen, CongGuan, WenfengGong, ZehuiZhang - Research on the fault monitoring method of marine diesel engines based on the manifold learning and isolation forestRoosefert MohanT, Preetha RoselynJ, Annie UthraR, DevarajD, UmachandranK - Intelligent machine learning based total productive maintenance approach for achieving zero downtime in industrial machinery.Data Science Blogathon: Rohit Pant, 2020.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211944-MS
+
+
+

@@ -1,0 +1,220 @@
+----- METADATA START -----
+Title: Hydrogen Production from Petroleum Fields; An Effective Solution to Nigeria’s Energy Needs and Climate Change Mitigation
+Authors: Kawu Musa Idris-Idah, Mukhtar Abdulkadir
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211942-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Nigeria, via the use of Hydrocarbon Reforming technologies, can create a unique link between its existing & planned petroleum projects and Hydrogen production; Clean Hydrogen will be produced from Petroleum fields, water resulting from hydrogen combustion could also be produced for host communities and climate change will be mitigated.This interdisciplinary paper identifies technologies that could be used to produce hydrogen from petroleum fields / refineries, facilitating cleaner energy generation. A one-stop document that could facilitate collaborative hydrogen-petroleum investments, translating into the reduction of carbon emissions and energy poverty. A comparative analysis between technologies is carried out, insinuating solutions that could be quickly deployed. The document narrates the logical journey of energy to hydrogen.There has been no societal development without energy. The manufacturing industries, health sector, employment etc. are all dependent on energy utilisation. Multiple literature has directly linked a nation's standard of living to the availability of energy; thus, nations are always focused on increasing energy utilisation. The utilisation of hydrocarbons (petroleum, coal etc.) has been the driving force for different nations and epochs (industrial revolution, digital revolution etc). Currently, a novel mentality is gaining massive traction; the energy source being utilised should have minimal effects on the environment, irrelevant of its energy density. Strong scientific evidence exists pointing to hydrocarbons as the major cause of climate change. Therefore, efforts are constantly exerted in transitioning to cleaner energy sources. Albeit climate change and its devastating effects, Nigeria and some other nations also face the unique battle of fighting energy poverty. It is important to note that countries that currently consume the most energy (China, Japan, US etc.) are still developing projects associated with hydrocarbons, although also exerting efforts towards cleaner energy sources.Nigeria needs energy solutions that take into cognisance its political environment, high degree of energy poverty and obviously, climate change. The Nigerian government has initiated a drive aimed at developing gas and petroleum refining infrastructure over the years; Hydrogen generation could be inculcated into these policies, thus mitigating climate change, yet also increasing energy availability. Subsequent to the extraction and processing of hydrocarbons, it is then refined or reformed into a variety of products such as gasoline, diesel etc. These are then burnt in engines, producing energy and undesirable emissions responsible for climate change. Whilst hydrogen could be utilized in cars, without producing undersirable emissions.Hydrogen could be fuel that changes the dynamics of the petroleum sector, via a collaborative approach.
+
+
+
+
+Keywords:
+air emission,
+africa government,
+hydrocarbon,
+hydrogen,
+social responsibility,
+energy,
+sustainability,
+sustainable development,
+utilisation,
+nigeria government
+
+
+Subjects: 
+Environment,
+Sustainability/Social Responsibility,
+Air emissions,
+Climate change,
+Sustainable development
+
+
+
+
+Introduction
+
+
+This interdisciplinary paper aims to catalyse a trail of actions that would provide solutions to Nigeria's current multi-pronged battle; its battle against energy poverty and climate change. Its content therefore inculcates concepts derived from both science and social science literature, because it is a strong fact that policies neglecting this dualistic view will most likely not be effective or achieve desired aims.
+
+
+According to BP's latest Statistical Review Report, the world consumed 88 million barrels of oil per day. 4% of this consumption is attributed to Africa; 3 million barrels of oil per day (BP, 2021). Analysis of such data vis-à-vis other data (like growth forecasts, CO2 emissions etc.) paints a conundrum requiring urgent actions; hence the intense drive by the United Nations to ensure an energy transition. Insinuated from IPCC assessments; the world stands a better chance to of not exceeding the "red 1.5oC" temperature if energy transition is global. In direct terms, all countries must be involved for efforts to be effective (IPCC, 2018).
+
+
+Energy, much like any other commodity of value, possesses an inherent delicate persona of "politics"; decisions related to energy can translate into prosperity or instability within a society. A rather tacit observation from the globe is that although numerous statements aiming to reduce the utilisation of fossil fuels have been made, opposing actions like final investment decisions (FIDs) for fossil fuel projects (crude oil, petroleum) are concurrently still occurring in the world. Nations continue to offer licences for exploration and production of fossil fuels from their regions. Global Data (2022) projects that at least 50 new petroleum fields will be online by 2026. Decommissioning is not occurring at the same rate because of the inevitable need for energy utilisation to increase, as nations are consistently attempting to grow their economies.
+
+
+Mirroring this global conundrum is Nigeria (a country estimated to have a population of 400 million by 2050) (World Bank, 2022). An increased population translates into an increased need for readily available energy. As such a nation strives towards improving its relevant economic indices, more energy would be required for growth and development. The swiftness with which Nigeria and the globe transitions to zero carbon energy sources, would truly depend on unique solutions. Solutions that accept current political and economic realities, whilst innovating collaboratively towards reduced emissions.
+
+
+Thus, before us is a perplexing situation. How does Nigeria meet its energy needs in an era where the importance of petroleum projects is evident in our daily activities, whilst also ensuring climate change is mitigated?
+
+
+A proposed Solution: Hydrogen
+
+
+There exists no research work that delineates the logical approach to inculcating Hydrogen into our Petroleum sector, hence this paper obliges a "quadruple" identity; energy, climate change, Nigeria and Hydrogen. This unique identity is aimed at providing an encapsulating document that would translate into "petroleum - hydrogen" projects and investments.
+
+
+The paper thus attempts to answer the questions stated below. It is believed that answers to these questions provide a solid basis for hydrogen to henceforth be inculcated in the field development plans of Nigerian petroleum fields;
+
+
+Why have we always needed energy?What is the relationship between energy and climate change?How do we mitigate climate change?Why hydrogen?
+
+
+A one-stop shop document that doesn't entail answers to the above questions would not be a catalyst for the actualisation of a "petroleum - hydrogen" novelty. This research also highlights the engineering technologies associated with hydrogen production from petroleum and highlights other locations where such technologies have been successfully deployed.
+
+
+The Quadruple Equation; Energy, Climate Change, Petroleum Fields & Hydrogen
+
+
+Figure 1View largeDownload slideA Quadruple EquationFigure 1View largeDownload slideA Quadruple Equation Close modal
+
+
+The Importance of Energy
+
+
+Energy has always been the lifeblood of civilisations. An inextricable analysis of the world's journey across the past millions of years, demonstrates two inseparable components; humans and energy. Every epoch has had humans, that utilised energy for its activities. Innovations happened across time, translating into more energy sources. Hydrogen could be an innovation in Nigeria's energy mix.
+
+
+A colloquial definition amidst scientific literature; energy is defined as the ability or capacity to do work. Nigeria's main energy sources in recent years are; Bioenergy, Solar PV, Hydro, Gas, Oil & Coal. Our consumption is grouped into; Productive uses, Transportation and Residential (IEA, 2019). The collective efforts of the various government agencies of Nigeria (Ministry of Petroleum Resources, Central Bank of Nigeria, Rural Electrification Agency of Nigeria and other agencies) in ensuring energy availability is not an anomaly. According to the CBN, an excess of 1trillion naira has been invested by government into our energy sector over the past 5 years (Vanguard, 2022).
+
+
+To each energy source, is its unique capacity or ability. Some energy sources would produce a greater amount of energy from a comparable volume (a scientific concept termed as "energy density" of an energy source) (J.M.K.C. Donev et al., 2021). Albeit producing a large amount of energy, some energy sources would also cause harm to the atmosphere (a scientific concept measured in "Metric tonnes of CO2 equivalent"). Energy sources are thus of various types / categories, each having its distinct advantages and disadvantages.
+
+
+Societal development occurred only when modalities to extract more energy were discovered. A "point zero" could be ascribed to the epoch of the basic "hunter". The next point could be hunting in packs ("a group of hunters), where each additional hunter would introduce additional energy and thus translating into extra capacity to "hunt". The transition to the stone age, resulted from society's ability to utilise more hands to build; more energy. Man, then transitioned to the industrial age following innovations enabling more energy to be utilised (turbines, refining technology, drilling technology, internal combustion engines etc).
+
+
+It is thus clear, that innovations in the energy sector are imperative; man will always need more energy, to facilitate increased growth and development. Unfortunately, increased energy has also contributed towards the degradation of our environment. As man still requires energy, it would be optimal that innovations in the energy sector yield more energy and avoid harming the environment. Hence, the sustainable energy drive.
+
+
+Nigeria's CO2 emissions are approximated at 100Mt in 2022 (IEA, 2019). Equipment for the production of hydrogen could be inculcated into Nigerian petroleum fields. Innovation is thus achieved; more useful energy is produced from petroleum fields and damage to the environment is alleviated.
+
+
+The Cost of Energy in Nigeria; Climate Change
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+According to the UNFCCC, Climate Change is: ‘a change of climate which is attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods.’ There is overwhelming information attributing unwanted modification of the atmosphere to increased hydrocarbon utilisation; hence the uproar against hydrocarbons (UNFCCC, 2022). According to the latest IEA report, global energy-related CO2 emissions in 2021 were 33 Giga metric tonnes; an approximate increase of 5% from 2020. This was caused by the rebound in economic activity globally, following the covid period (IEA, 2021).
+
+
+The UNFCCC has an underlying philosophy centred on ensuring countries collectively minimize their levels of emissions over time. It is palpable that an absence of energy utilization would translate into reduced development, thus the alternative becomes utilising energy sources that wouldn't produce greenhouse gas emissions. Such requires massive investments and intrepid change in national policies and consumer behaviour. Whereas efforts are being exerted towards the development of a zero-carbon economy, projections inevitably show that dependence of fossil fuels will remain for a while (UNFCCC, 2022).
+
+
+In the Climate Change Vulnerability Index report published, Nigeria has been classified as a "region of high risk". A projection is that 2% - 11% of GDP could be eroded if climate change isn't mitigated (Department of Climate Change, 2021). Urgent solutions are thus needed. Nigeria aims to tame climate change via two measures, Mitigation & Adaptation, as extracted from an official document published by the Nigerian Federal Ministry of Environment (LTV-2050). Mitigation involves reduction of greenhouse gas emissions into the atmosphere via being less dependent on hydrocarbons, whilst adaptation involves building structures like dams that would reduce the damage that could be caused by climate change The vision in this document as quoted; "By 2050, Nigeria is a country of low-carbon, climate-resilient, high growth circular economy that reduces its current level of emissions by 50%, moving towards having net-zero emissions across all sectors of its development in a gender-responsive manner" (Department of Climate Change, 2021).
+
+
+Hydrogen would thus be a unique solution that fits into both measures. Hydrogen is a solution that effectively merges the social, financial and technological requirements of climate change. A petroleum field in existence can produce clean hydrogen. A planned petroleum project (of which there exists numerous), can be designed to produce clean hydrogen. Therefore, a strategy inculcating hydrogen into petroleum projects would be a better option than the ‘as-is’ scenario.
+
+
+The Opportunity for Hydrogen; Petroleum Fields
+
+
+Investopedia describes a petroleum field as a "tract of land used for the purpose of extracting petroleum" (Chen 2020). The exact number of petroleum fields in Nigeria is unclear. Although, NNPC provides a figure; 500 fields. Collectively, oil production approximately 1.4 million barrels of oil per day (NNPC, 2022).
+
+
+In each petroleum field, exists a "gas flare". Oil produced from reservoirs would usually have some volume of associated gas being produced with it. Such volumes of natural gas represent a safety risk; via gas flaring, these volumes of natural gas are burnt and therefore dramatic pressures associated with natural gases are avoided. The alternative would be to process such gases and perhaps transform them into important products like LPG or power, but the stumbling block entailing the absence of expensive gas transportation infrastructure currently exists (World Bank, 2022).
+
+
+Reforming technologies could thus be utilised to reform such hydrocarbon gases into hydrogen. Another golden opportunity is water produced from reservoirs. Such water is also in large volumes and could thus be treated to produce cleaner water. Electrolysis is a form of technology that produces hydrogen from water.
+
+
+Possible scenarios for the production of hydrogen from petroleum fields are therefore;
+
+
+Utilisation of reforming technologies to produce hydrogen from gas that would have otherwise been flared.Utilisation of electrolysers to produce hydrogen from treated water, produced from reservoirs.
+
+
+The addition of hydrogen production to petroleum projects would be an innovation that yields economic and environmental benefits. Climate change would be mitigated as natural gas would be utilised to produce hydrogen and hydrogen would attain a commercial purpose in Nigeria.
+
+
+Table 1 (IEA, 2021) presents projects involving hydrogen production from fossil fuels; it is thus possible. Autothermal reforming and Steam Methan Reforming represent the most utilised technology type. The current existence and already proven reliability of these technologies support the notion or concept for these types of technologies to be utilised in our onshore / offshore fields.
+
+
+Table 1Hydrogen Production Projects (IEA, 2021)   View Large
+
+
+Hydrogen
+
+
+Hydrogen is the most abundant element on earth and is contained in several sources; water, sugar, hydrocarbons, amidst others. In addition to its abundance, it possesses a high energy content (EIA, 2022). Existing Nigerian petroleum fields all have "flare" points where gases are burnt into the atmosphere. There would be no need for such, if the associated methane / gases are utilised to produce hydrogen. The produced hydrogen could then be used to generate electricity via fuel cells or directly as a source of fuel. Existing literature classifies hydrogen as Green Hydrogen, Blue Hydrogen and Grey Hydrogen.
+
+
+Figure 2View largeDownload slideCategories of HydrogenFigure 2View largeDownload slideCategories of Hydrogen Close modal
+
+
+Each colour has been used to differentiate the sources from which hydrogen could be produced. A volume of hydrogen produced from renewable energy sources is "green". Blue hydrogen is produced from natural gas; also included is a CCS (Carbon Capture and Storage) process used to capture most of the emissions. Grey hydrogen involves production of hydrogen from hydrocarbons, without a CCS facility / process in place to capture carbon emissions (J.M.K.C. Donev et al., 2021).
+
+
+Potential hydrogen technologies for Nigeria's petroleum fields following extensive research have thus been identified. The below technologies should be used in amalgamation with a CCS process, to minimise emissions.
+
+
+Hydrogen Production Technologies
+
+
+The below mentioned technologies are to be utilised in conjunction with CCS.
+
+
+Steam Reforming (SMR)
+
+
+In steam reforming, a methane-containing substance (natural gas) reacts with steam to produce hydrogen. Methanol would yield hydrogen at temperatures above 180°C, whilst other conventional hydrocarbons like natural gas, crude oil etc. would require temperatures above 500°C.
+
+
+The entirety of steam reforming can be categorised into four steps.
+
+
+Step 1 (Production of steam)Steam is produced after heating water to a desired temperature in a furnace.Step 2 (Reforming stage)The hydrocarbon then mixes with steam and enters a reformer, where desired temperatures are maintained. Hydrogen and carbon are produced in the reformer, as seen in the equation below. CH4+ H2O⇌CO+ 3H2Catalysts are also utilised in the reformer; nickel, platinum or rhodium-based catalysts. The choice of catalyst is usually dependent on cost and coke formation.A resulting mixture of hydrogen and carbon monoxide (CO) mixture then exits the reformer, to a water- gas shift reactor (WGS).Step 3 (Water Gas Shift Reactor)The WGS reactor contains water which is broken down into its components, Hydrogen & Oxygen, under the influence of an iron chrome-based catalyst. Oxygen then reacts with carbon monoxide in the WGS reactor, to produce carbon (iv) oxide.The conversion of carbon monoxide from the reformer to carbon (iv) oxide has numerous benefits. In comparison to carbon monoxide, carbon (iv) oxide is of lesser danger to nature. It is also useful for other purposes in the manufacturing sector.CO+H2O⇌CO2+H2Step 4 (Pressure Swing Absorption, PSA)The produced hydrogen is further processed via PSA. In PSA, the mixture enters into purifier (a vessel) where contaminants (carbon (iv) oxide, remnant methane, water etc.) are trapped at high pressures. This thus yields purified hydrogen. Subsequent to pumping the hydrogen out of the purifier, the absorbed contaminants are evacuated via depressurisation of the vessel (Sherif et. al., 2015).
+
+
+Partial Oxidation Reforming
+
+
+Partial oxidation involves the reaction of a methane-containing substance and oxygen. The volume of oxygen required is just enough to partially oxidise the hydrocarbon, but not to completely oxidise it. Due to the incomplete oxidation, lesser volumes of CO2 are produced.
+
+
+CH4+12O2⇌CO+2H2CO+H2O⇌CO2+H2
+
+
+In comparison to SMR, it is faster and requires lesser energy (it is actually an exothermic reaction releasing heat to its surroundings). A product gas having a high carbon monoxide content is produced during partial oxidation (> 5%). The addition of a water gas-shift reactor reduces the carbon monoxide content and increases the hydrogen content. A much better design currently being utilised involves the use of a high temperature WGS reactor which would result in faster kinetics and then a low temperature reactor, decreasing the CO content. Research is currently ongoing to develop a single microreactor capable of producing the high and low temperature conditions required.
+
+
+Catalysts can be inculcated into the above process (catalytic partial oxidation) to reduce operating temperatures. However, accurate prediction of temperatures has been noted to be difficult due to the exothermic nature of coke. Examples of catalysts used are Nickel, Rhodium and Copper (Sherif et. al., 2015).
+
+
+Autothermal Reforming
+
+
+In ATR, both steam and catalytic partial oxidation are utilised to produce hydrogen. This method of reforming comprises two zones; a thermal zone and a catalytic zone. Heat from POX / CPOX is later on used in the catalytic zone to produce hydrogen. The first zone presents an exothermic zone and the latter, an endothermic zone. As the heat is generated internally, the otherwise efforts of having an external system to produce much heat is saved (Sherif et. al., 2015)
+
+
+Conclusion
+
+
+This research work utilises a logical narrative to support the incorprotation of hydrogen production tehcnologies into Nigeria's petroleum fields. Such a unique policy demands rationality, hinged on facts and data. The paper thus summarises the relevant data, current realities and technologies that would translate into a "petroleum – hydrogen" policy.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+"Statistical Review of World Energy: Energy Economics: Home."bp global. Accessed May 26, 2022. https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html.IPCC. (2018). Summary for Policymakers. In: Global Warming of 1.5°C. An IPCC Special Report on the impacts of global warming of 1.5°C above pre-industrial levels and related global greenhouse gas emission pathways, in the context of strengthening the global response to the threat of climate change, sustainable development, and efforts to eradicate poverty[Masson-Delmotte, V., P.Zhai, H.-O.Pörtner, D.Roberts, J.Skea, P.R.Shukla, A.Pirani, W.Moufouma-Okia, C.Péan, R.Pidcock, S.Connors, J.B.R.Matthews, Y.Chen, X.Zhou, M.I.Gomis, E.Lonnoy, T.Maycock, M. Tignor, and T.Waterfield (eds.)]. In Press.Google Scholar Global Data. (2022). "Oil and Gas Projects."GlobalData. Last modified January 7, 2022. https://www.globaldata.com/category/oil-gas/."World Development Indicators."DataBank | The World Bank. Accessed March 15, 2022. https://databank.worldbank.org/reports.aspx?source=2&series=SP.POP.TOTL&country=NGA.IEA. (2019). "Africa Energy Outlook 2019."IEA. Accessed March 19, 2022. https://www.iea.org/reports/africa-energy-outlook-2019.Ujah, E. (2022). "Energy crisis: Emefiele to engage NNPC, Power Ministry, others." Vanguard. Last modified March 22, 2022. https://www.vanguardngr.com/2022/03/energy-crisis-emefiele-to-engage-nnpc-power-ministry-others/.Google Scholar NNPC. (2022). "Crude Oil Reserves/ Production."NNPC. Last modified 2022. https://napims.nnpcgroup.com/Pages/Crude-Oil-Reserves-Production.aspx.UNFCCC. (1992). "UNITED NATIONS FRAMEWORK CONVENTION ON CLIMATE CHANGE."UNFCCC. Last modified 1992. https://unfccc.int.J.M.K.C.Donevet al. . (2021). Energy Education - Types of hydrogen fuel [Online]. Available: https://energyeducation.ca/encyclopedia/Types_of_hydrogen_fuel. [Accessed: April 3, 2022].Google Scholar IEA. (2022). "Hydrogen Projects Database."IEA. Last modified 2022. https://www.iea.org/data-and-statistics/data-product/hydrogen-projects-database.Department of Climate Change. (2021). "NATIONAL CLIMATE CHANGE POLICY FOR NIGERIA."Department of Climate Change | Gateway to National Action on Climate Change. Last modified June 2, 2021. https://climatechange.gov.ng/wp-content/uploads/2021/08/NCCP_NIGERIA_REVISED_2-JUNE-2021.pdf.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211942-MS
+
+
+

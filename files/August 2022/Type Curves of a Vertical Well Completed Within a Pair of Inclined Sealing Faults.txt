@@ -1,0 +1,307 @@
+----- METADATA START -----
+Title: Type Curves of a Vertical Well Completed Within a Pair of Inclined Sealing Faults
+Authors: Daniel Eziuzor, Steve Adewole
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211904-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Type curves come in handy when our pressure buildup and pressure drawdown analysis do not yield a straight line hence generating a master curve for wells completed within a pair of sealing faults. The type curves from an observed data is superimposed on the master curve to estimate reservoir system properties. A sealing fault creates image wells, which communicate with each other and the object well. As a result, object well performance can be affected by reservoir boundaries, and positioning of a well therefore must be strategic to ensure oil production for a long time. This is because pressure drop across the producing well is the addition of the pressure drop of the object well and the several image wells created because of the inclination. This is the principle of superposition. The inclination of a sealing fault influences the number of image wells, n, with the model n = (360/θ) -1. With different angles of inclination of the sealing faults, polygons are constructed to determine the distances between the object well and corresponding image wells.In this paper, both dimensionless pressure and dimensionless pressure derivatives type curves as functions of number of image wells, are produced assuming that a vertical well is completed within a pair sealing faults. Wellbore storage and skin effects are considered. The results provide distances for several angles of inclination. Object well design, image well distances and faults angle affect dimensionless pressure and dimensionless pressure derivative. Dimensionless pressure and dimensionless pressure derivative of 2.3026(n+1) per cycle and 0.5(n+1), respectively are observed.Generating dimensionless pressure derivative curves helps the engineer to identify the point where the hump expires and where the straight-line analysis begins. That is the right point for well test analysis.
+
+
+
+
+Keywords:
+drillstem/well testing,
+drillstem testing,
+reservoir characterization,
+upstream oil & gas,
+reservoir surveillance,
+pressure transient analysis,
+pressure transient testing,
+production control,
+inclination,
+boundary
+
+
+Subjects: 
+Well & Reservoir Surveillance and Monitoring,
+Reservoir Characterization,
+Formation Evaluation & Management,
+Pressure transient analysis,
+Drillstem/well testing
+
+
+
+
+Introduction
+
+
+Type curve analysis is a method for quantifying well and reservoir parameters such as permeability, skin, fracture half-length, dual-porosity parameters, and others, by comparing the pressure change and its derivative of the acquired data to reservoir model curve families, called type curves. When a match is found between data and a type curve, the parameters that characterize the behaviour of the model providing a match are thereby determined (Earlougher, R.C. Jr. (1977), Matthews, C.S et al (1967)). Originally, type-curve analysis was done manually using only the pressure change. With the introduction of the pressure derivative, the analysis requires matching both pressure change and its derivative. Computer-assisted matching permits rigorous accounting for superposition in time due to flow-rate variations before and even during (in the case of drawdown analysis) the transient data acquisition, as well as providing a continuum of solutions instead of a type-curve family derived from discrete values for the governing parameters. Type curve are families of the paired pressure change and its derivative computed from a model. The model is usually generated from an analytical solution of the diffusion equation with boundary conditions strategically defined to enable observation of theoretical trends in the pressure-transient response. The boundary conditions that can be defined near the well include constant or variable wellbore storage, limited entry (partial penetration), radial composite (damage skin due to permeability alteration), and a fracture extending the cylindrical wellbore to an extended plane. The borehole trajectory can be vertical, angled, or horizontal. The distant boundary conditions include a sealing or partially sealing planar boundary (fault), intersecting faults and rectangular boundaries (sealing or constant pressure) (Overpeck, A.C et al, (1970), Prasad, Raj K., (1975)).
+
+
+Furthermore, the diffusion equation can be adjusted to accommodate reservoir heterogeneity in the form of dual porosity or layering. Finally, when generated with computer assistance, the type- curve family can account for superposition in time due to flow-rate variations before and even during the transient data acquisition. Originally, type-curve families were printed on specialized (usually log-log) coordinates with dimensionless parameters defining the x and y axes. Today, commercial software can generate the type-curve families on the computer screen, enabling a much more flexible and user-friendly analysis. Further, automated regression (usually least squares) permits an optimized match between the acquired data and a selected model. Type curves have greatly enriched the ability of interpreters to extract potential explanations for transient data trends that differ from the radial-flow behaviour required for conventional semilog analysis (Britton, P.R. et al (1988), Adewole, E.S. (2021)).
+
+
+Type curves provide a powerful method for analysing pressure drawdown (flow) and build-up tests. Fundamentally, type curves are pre-plotted solutions to the flow equations, such as the diffusivity equation, for selected types of formations and selected initial and boundary conditions. Because of the way they are plotted (usually on logarithmic coordinates), it is convenient to compare actual field data plotted on the same coordinates to the type curves. The results of this comparison frequently include qualitative and quantitative descriptions of the formation and completion properties of the tested well (Prasad, R. K., (1975), Tiab, D. and Kumar, A. (1980).
+
+
+Methodology
+
+
+Figure 1 shows a well completed within two sealing faults inclined at angle, θ.
+
+
+Figure 1View largeDownload slideA Vertical Well Completed within Two Inclined Sealing FaultsFigure 1View largeDownload slideA Vertical Well Completed within Two Inclined Sealing Faults Close modal
+
+
+The number of images n, formed is related with the angle of inclination as follows:
+
+
+θn=360θ−1(1)
+
+
+During infinite-acting flow, the horizontal well experiences infinite plane (y and z axes), and slab (x axis) sources in an infinite slab reservoir. Hence, its dimensionless pressure drop is derived during this period as follows (Tiab, D. et al, (1980), Earlougher, R.C. Jr. (1977)):
+
+
+pD=−12Ei−rD24tD+s(2)
+
+
+Following Equation. 1, the dimensionless pressure derivative is
+
+
+p′D=12exp−rD24tD(3)
+
+
+A well between two sealing faults produces images corresponding to the angle of inclination. The larger the angle of inclination, the smaller the number of images produced according to Equation 1. The images can be located either by use of an appropriate software or analytically by trigonometry or by drawing perpendicular rays from one image through a polygon of side (n+1). Where the intersecting ray meets a mirror is an image. Since pressure drop in the object is affected by pressure drops in the image wells, by superposition principle, pressure drop in the object well becomes addition of the pressure drop of the object well and the image wells. In dimensionless pressure form, the total pressure drop in the object well within a pair of faults inclined at an angle is given as:
+
+
+pD=−12Ei−14tD/cD+s+Ei−d1D24tD+Ei−d2D24tD+Ei−d3D24tD+………+Ei−dDn24tD(4)
+
+
+The corresponding dimensionless pressure derivative will be:
+
+
+pD′=12exp−14tD/cD+exp−d1D24tD+exp−d2D24tD+exp−d3D24tD+……..+exp−dDn24tD(5)
+
+
+Where d1, d2, d3 …dn are image well distances from the object well.
+
+
+Equations 4 and 5 are solved for different sealing faults angles, same object well design and object distances from the faults. Results are plotted on same axes as type curves for ideal, damaged, and stimulated object wellbore. Wellbore storage is also varied. Throughout the computation, D = 44.2815ft.
+
+
+Result and Analysis
+
+
+Two intersecting faults inclined at 45 degrees results in 8 a polygon having sides and 7 image wells, and therefore the shortest distance between these image wells and the object well would need to be determined to know the influence each image well has on the object well.
+
+
+A generalized formula of the shortest image to object well distance is generated for each polygon assuming an equal distance "d" from the two inclined sealing faults acting as mirrors. This equal distance has therefore enabled a convergence of different regular polygons depending on the angle of inclination. Where Ow symbolizes Object well, W1 is image well one, W2= image well two, D1 is the shortest distance from image well one to object well, likewise for D2, D3 etc.
+
+
+Octagon: a regular octagon as an interior angle of 135 degrees, A regular octagon has a seven well images with shortest distance from Image well one (W1) to the Object well (Ow) as 2d. The following are the shortest distances from each image well to the object well.
+
+
+Figure 2View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 45°Figure 2View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 45° Close modal
+
+
+Analysis of generalized distance for a regular octagon gives the following distances for an octagon:
+
+
+D1=2d, D2=3.6599d, D3=4.8284d, D4=5.226d, D5=4.8284d, D6=3.6599d, D7=2d
+
+
+Hexagon: A regular hexagon has an interior angle of 120 degrees, five well images with shortest distance from each Image well to the Object well (Ow). The following are the shortest distances from each image well to the object well.
+
+
+Figure 3View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 60°Figure 3View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 60° Close modal
+
+
+The image distances are derived as
+
+
+D1=2d, D2=3.464d, D3=4d, D4=3.464d, D5=2d.
+
+
+Pentagon: A regular Pentagon has an interior angle of 108 degrees and four well images. The following are the shortest distances from each image well to the object well.
+
+
+Figure 4View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 72°Figure 4View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 72° Close modal
+
+
+Analysis of generalized distance for a pentagon gives the following distances:
+
+
+D1=2d, D2=3.236d, D3=3.236d, D4 = 2d
+
+
+Quadrilateral: A Square has an interior angle of 90 degrees, three well images with shortest distance from Image well one (W1) to the Object well (Ow) as ‘2d’. The following are the shortest distances from each image well to the object well.
+
+
+Figure 5View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 90°Figure 5View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 90° Close modal
+
+
+Analysis of generalized distance for a Quadrilateral gives the following distances:
+
+
+D1=2d, D2=23d=3.464 d⁠, D3=2d
+
+
+After generating the type curve it was calculated that the number of images n, to be 2.99 Triangle: Seeing we would have a regular triangle; it would then mean that this is an equilateral triangle having all sides equal with an interior angle of 60 degrees each. Well images produced here are just two following our model.
+
+
+Figure 6View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 120°Figure 6View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 120° Close modal
+
+
+D1= 2d, D2=2d
+
+
+After generating the type curve it was calculated that the number of images n, to be 1.99. Results for other angles are summarized in Table 1.
+
+
+Table 1Results for Regular Polygons θ (angles of inclination)
+            . Number of image wells
+            . Polygons formed
+            . 45 6.99 Octagon 60 4.99 Hexagon 72 3.99 Pentagon 90 2.99 Quadrilateral 120 1.99 Triangle θ (angles of inclination)
+            . Number of image wells
+            . Polygons formed
+            . 45 6.99 Octagon 60 4.99 Hexagon 72 3.99 Pentagon 90 2.99 Quadrilateral 120 1.99 Triangle View Large
+
+
+Type curves of well inclined at an angle of unequal distances
+
+
+Applying our Pd and P'd formula gives us a result similar to that of a regular hexagon yielding number of images to be 4.99.
+
+
+Figure 7View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 60° for Unequal Object DistancesFigure 7View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 60° for Unequal Object Distances Close modal
+
+
+Irregular pentagon
+
+
+Applying our Pd and P'd formula gives us a result similar to that of a regular pentagon yielding number of images to be 3.99
+
+
+Irregular quadrilateral
+
+
+Applying our Pd and P'd formula gives us a result similar to that of a Square yielding number of images to be 2.99. Results for other angles and unequal object well distances are summarized in Table 2.
+
+
+Table 2Results for Irregular Polygons θ (angles of inclination)
+            . Number of image wells
+            . Polygons formed
+            . 45 6.99 Octagon 60 4.99 Hexagon 72 3.99 Pentagon 90 2.99 Quadrilateral 120 1.99 Triangle θ (angles of inclination)
+            . Number of image wells
+            . Polygons formed
+            . 45 6.99 Octagon 60 4.99 Hexagon 72 3.99 Pentagon 90 2.99 Quadrilateral 120 1.99 Triangle View Large
+
+
+Figure 8View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 90° for Unequal Object DistancesFigure 8View largeDownload slideObject and Image Wells Location for Sealing Fault Angle of 90° for Unequal Object Distances Close modal
+
+
+Addition of Positive Skin to Type Curves for Regular Polygons (Equal Object Well Distances)
+
+
+It is observed that our pressure derivative are not affected by skin factor although, our dimensionless pressure having a positive skin had similar if not equal wellbore storage for all the polygons obtained. For a skin factor of zero means that there has not occurred any stimulation to enhance the well reservoir performance, we understand that there was a very short middle time region as we confirm a short straight line between the transient and the late time region. Polygons with more sides then to have to have a lager middle time compared to less sided polygons, for instance we can deduce that a hexagon as a more middle time compared to a quadrilateral as shown in Figures 9 to 12.
+
+
+Figure 9View largeDownload slideType Curves for some Regular Polygons (s = 0)Figure 9View largeDownload slideType Curves for some Regular Polygons (s = 0) Close modal
+
+
+Figure 10View largeDownload slideType Curves for some Regular Polygons (s = 2)Figure 10View largeDownload slideType Curves for some Regular Polygons (s = 2) Close modal
+
+
+Figure 11View largeDownload slideType Curves for some Regular Polygons (s = -1)Figure 11View largeDownload slideType Curves for some Regular Polygons (s = -1) Close modal
+
+
+Figure 12View largeDownload slideType Curves for some Regular Polygons (s = -2)Figure 12View largeDownload slideType Curves for some Regular Polygons (s = -2) Close modal
+
+
+Skin factor of 1: Equal wellbore storage and almost equal middle time region until the skin get larger, do the curves begin to distinctly appear showing a result of increase in skin factor which indicates a damaged well having more larger middle time region before the boundaries are felt.
+
+
+A more positive skin factor makes the hexagon have more distinct and longer middle-time compared to a quadrilateral or a triangle.
+
+
+Addition of Negative Skin to Type Curves for Regular Polygons (Equal Object Well Distances)
+
+
+A negative skin indicates that a well stimulation has occurred which will boost the permeability of the reservoir. From a skin factor of negative one, wellbore storage begins to appear shorter while maintaining the same order of curves from ascending order of a triangle reaching the boundary effects before an octagon. A skin factor of negative two shortens the wellbore storage compared to a factor of -1 meaning that there well enhancement has taken place which the type curves indicate as shown in Figures 11 to 12.
+
+
+Addition of positive skin to type curves for irregular polygons (Unequal Object Well Distances)
+
+
+Zero skin factor shows that there has neither enhancement or damage occurred in the wellbore and so a short wellbore storage compared to the regular polygon of same skin factor, meaning an irregular polygon would perform better in terms of enhancement. A longer wellbore storage exists for a more positive skin factor, the curves also appear to be distinctive as the skin factor increases for the octagon having relatively long middle time region in the order of polygons down to the triangle. Results are shown in Figures 13 to 17.
+
+
+Figure 13View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = 0)Figure 13View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = 0) Close modal
+
+
+Figure 15View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = 2)Figure 15View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = 2) Close modal
+
+
+Figure 16View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = 1)Figure 16View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = 1) Close modal
+
+
+Figure 17View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = 2)Figure 17View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = 2) Close modal
+
+
+Addition of negative skin to type curves for irregular polygons (Unequal Object Well Distances)
+
+
+Negative skin of an irregular polygons has a very short wellbore storage, a skin factor of -5 gave has the octagon showing a longer middle-time region than all other polygons, skin of -4 has an octagon, hexagon and a quadrilateral having middle time regions. Skin factor of -3 has all the polygons fell the boundary of the reservoir at relatively the same time. The middle time appears for the octagon alone and then for the s=-1, the middle time region of all the polygons shows at almost the same time. Results are shown in Figures 18 to 20.
+
+
+Figure 18View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = -1)Figure 18View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = -1) Close modal
+
+
+Figure 19View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = -2)Figure 19View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = -2) Close modal
+
+
+Figure 20View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = -3)Figure 20View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = -3) Close modal
+
+
+Addition of wellbore storage to type curves both regular and irregular polygons.
+
+
+Effect of Wellbore storage of a skin value of -1 and a cd of 100, have all curves of short middle time region. Wellbore storage for a skin value of -1 and a cd of 103, have octagon, hexagon and pentagon curves of longer middle time than the other curves, explaining the inverse relationship cd and pd. Wellbore storage for a skin value of -1 and a cd of 104,105 have results similar to cd=103. Results are shown in Figure 21.
+
+
+Figure 21View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = -1, cD = 1000)Figure 21View largeDownload slideType Curves for some Regular Polygons (Unequal Object Well Distances, s = -1, cD = 1000) Close modal
+
+
+Conclusion
+
+
+Well images of unequal distances between two intersecting faults form irregular polygons which can be difficult to construct since their point of convergence can be uncertain considering the angles of inclination. Software application such as Microsoft Visio can aid in the construction of such polygons.Relative percentage error of the result for the number of image wells is approximately 0.02 percentWells are better placed between faults of higher angles of inclination as they produce less image wells, it therefore means that a well polygon of a triangle would take a longer time before the boundaries are felt compared to an Octagon well polygon.In the generation of the curves, two slopes were gotten in which one of them corresponded to the steady-state flow regime until dimensionless time 100000, we then see a transition where the slope reflects our ‘n’, number of images to indicate that the boundaries are now been felt.Dimensionless pressure gradient is observed to be 2.3026(n + 1) per cycle.Dimensionless pressure derivative is observed to be 0.5(n + 1)
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion θ= Angle of inclination between intersecting faults, degrees (·) n= number of images pD= dimensionless pressure tD= dimensionless time d= Distance between well and inclined faults, ft cD= dimensionless wellbore storage coefficient Ow= Object well
+
+
+References
+
+
+P. OOduh, EzekielAyobami, OkohEmmanuel, CollinsOnah, Michael GOjah, AdewoleE.S. (2021): "Numerical Method Of Estimating Distance Between Wells" paper 207159 presented at the Society of Petroleum Engineers Nigeria Annual International Conference and Exhibition, Lagos, Nigeria, 2-4, August.Google Scholar Michael GOjah, AdewoleE.S. (2021): "Pressure and Pressure Derivatives of a Vertical Well Located Within Two Inclined Faults: Case Study of Basic Angles and Unequal Well Distances from Faults", paper 207138 presented at the Society of Petroleum Engineers Nigeria Annual International Conference and Exhibition, Lagos, Nigeria, 2-4, August.Google Scholar Aiankho VOgbamikhumi, E.S.Adewole: "Characteristics of Dimensionless Pressure Gradients and Derivatives of Horizontal and Vertical Wells Completed within Inclined Sealing Faults" paper 207179 presented at the Society of Petroleum Engineers Nigeria Annual International Conference and Exhibition, Lagos, Nigeria, 2-4, August2021.Google Scholar Johnson OreneJohnson, AdewoleE.S. (2021): "Flow Behaviour of a Horizontal Well Completed within Sealing Faults Inclined at Right Angle" paper 207186 presented at the Society of Petroleum Engineers Nigeria Annual International Conference and Exhibition, Lagos, Nigeria, 2-4, August.Google Scholar Adewole, E.S. (2021): "Signatures of a Horizontal Well Completed Near a Sealing Boundary", Lecture presented in the Lecture Series of Society of Petroleum Engineers, Lagos Section 61 Lecture Series, Virtual, March 31.Google Scholar Britton, P.R. and Grader, A.S. (1988): "The Effects of Size, Shape, and Orientation of an Impermeable Region on Transient Pressure Testing", SPE Formation Evaluation, 3, 595–606.Google ScholarCrossrefSearch ADS  Martinez, S. and Cinco-Ley. H., (1985): "Detection of linear impermeable barriers by transient pressure analysis" paper to SPE, Richardson, Texas.Google ScholarCrossrefSearch ADS  Matthews, C.S and Russell, D.G., (1967): Pressure buildup and flow tests in wells. SPE of AIME, Dallas, Texas.Google Scholar Overpeck, A.C and Holden, W.R., (1970): "Well imaging and fault detection in anisotropic reservoirs", J. Pet. Tech., Oct., pp. 1317–1325; Trans., AIME, 249.Google Scholar Prasad, Raj K., (1975): "Pressure transient analysis in the presence of two intersecting boundaries", J. Pet. Tech., Jan., 89–96; Trans., AIME, 259.Google Scholar Tiab, D. and Kumar, A. (1980): "Detection and Location of Two Parallel Sealing Faults around a Well", Journal of Petroleum Technology, 20, 1701–1708.Google Scholar Davis, E.G. and Hawkins, M.F. (1963): "Linear Fluid-Barrier Detection by Well Pressure Measurements", Journal of Petroleum Technology, 15, 1077–1081.Google ScholarCrossrefSearch ADS  Earlougher, R.C.Jr. (1977): Advances in Well Test Analysis, Monograph Series, SPE, Dallas.Google Scholar Gerard, M. and Horne, R.N. (1985): "Effects of external boundaries on the recognition of reservoir pinch out boundaries by pressure transient analysis", Soc. Pet. Eng.June, pp. 427–436.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211904-MS
+
+
+

@@ -1,0 +1,167 @@
+----- METADATA START -----
+Title: Experimental Investigation on Effect of Enzyme and Nanoparticles on Oil-Brine Interfacial Tension
+Authors: Tinuola Hannah, Oyinkepreye David
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211913-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Interfacial tension (IFT) is an interfacial phenomenon that commonly exist between immiscible liquids such as oil and brine that are found in the hydrocarbon reservoirs. High IFT in combination with high capillary forces plays a fundamental role in residual oil saturation in the reservoir rock pores. The effects of enzyme and silica nanoparticles on crude oil-water and crude oil-brine interactions were investigated and presented in this study. The potential of individual application of enzyme and silica nanoparticles as well as the combination of both were explored under different salinity conditions. The results of this study showed that the application of silica nanoparticles did not significantly reduce oil-brine IFT under different salinity conditions investigated in this study, although the highest reduction was obtained with low salinity brine. The use of enzyme however significantly reduced oil-brine IFT under varied salinity conditions and better IFT reduction was obtained in brines relative to aqueous solution. Finally, the combination of enzyme with nanoparticles effected better IFT reduction than the application of either of them individually in aqueous solution and it also significantly reduced oil-brine IFT in all salinity conditions. This study is a novel investigation on the potential of enzyme-nanoparticles to modify oil-brine IFT and the result of this study is significant to the design and application of enzyme and nanoparticles enhanced oil recovery processes.
+
+
+
+
+Keywords:
+nanoparticle,
+enhanced recovery,
+structural geology,
+drilling fluid management & disposal,
+application,
+enzyme,
+experimental investigation,
+upstream oil & gas,
+residual oil saturation,
+crude oil-brine interaction
+
+
+Subjects: 
+Drilling Fluids and Materials,
+Reservoir Characterization,
+Improved and Enhanced Recovery,
+Drilling fluid management & disposal,
+Exploration, development, structural geology,
+Reduction of residual oil saturation
+
+
+
+
+Introduction
+
+
+Interfacial tension (IFT) is an interfacial phenomenon that commonly exist between immiscible liquids such as oil and brine that are found in the hydrocarbon reservoirs. High IFT in combination of with high capillary forces plays a fundamental role in residual oil saturation in the reservoir rock pores [1]. Reduction in capillary forces can however be achieved by decrease in IFT between oil and brine thereby promoting mixing and the release of residual oil [2]. This great potential of IFT reduction is the primary mechanism by which surface active compounds like surfactant and enzyme enhance oil recovery [3, 4, 5]. Other studies [6, 7, 8, 9, 10] have also proposed IFT reduction as one of the mechanisms by which nanoparticles enhance oil recovery. Some of these studies however did not carry out IFT test while some did not use fluids that are relevant to hydrocarbon reservoirs. The major mechanism by which surface active compounds reduce IFT is by their interfacial adsorption due to their amphiphilic nature that resulted from the presence of both hydrophobic and hydrophilic groups in their molecules. Their interfacial adsorption causes reduction in the interfacial energy because of their ability to partition at the interface of two immiscible fluids thereby promoting mixing between them [11, 12].
+
+
+The application of nanoparticles in enhanced oil recovery process has evolved over the years due to their numerous advantages such as high surface area per unit volume, ultra-small size (1-100 nm), enhanced strength, high chemical reactivity, and electrical properties [13, 14]. In the recent past, the use of nanoparticles has been optimized through hybridization. Previous studies have showed that combination of surfactant with nanoparticles improved oil production better than using surfactant alone [15, 16]. The continuous application of surfactants can however be environmentally challenging due to their non-degradable nature [17]. Other studies have showed that the use of biologically based surface-active compound such as enzyme that are environmentally friendly can also enhance oil recovery [4, 5, 18]. Hence, this study aimed at investigating the potential of hybrid nanoparticles-enzyme mixture on oil-brine IFT modification relative to the application of each of them separately. To our best knowledge, this area of research has not yet been explored, but it has the potential to optimise oil recovery if found efficient and compatible with relevant reservoir fluids. In this study, reservoir fluids from one of the reservoirs in the Niger Delta part of Nigeria were used as case study. This study is significant to the design and application of enzyme and nanoparticles enhanced oil recovery processes.
+
+
+Material and method
+
+
+Materials and sample preparation
+
+
+Brine
+
+
+The brine used in this study is synthetic formation brine that was prepared based on the composition of the formation brine of the reservoir that was used as case study. The formation brine has a salinity of 32 g/L, of which 98.2% is sodium chloride (NaCl), 0.6% is calcium chloride (CaCl2), 0.8% is magnesium chloride (MgCl2), 0.2% is potassium chloride (KCl) and 0.2 is sodium sulphate (Na2SO4). The salinity effect was investigated using 100% formation brine (FMB), 50% formation brine (50D) and 10% formation brine (90D). The 50D brine was prepared based on 50% dilution of the FMB with deionised water, while the 90D brine was prepared based on 90% dilution of the FMB with deionised water. The compositional breakdown of these brines is presented in Table 1.
+
+
+Table 1The compositional breakdown of brines. Components
+            . FMB (g/L)
+            . 50D Brine (g/L)
+            . 90D Brine (g/L)
+            . NaCl 31.4240 15.7120 3.1424 CaCl2 0.1920 0.0960 0.0192 MgCl2 0.2560 0.1280 0.0256 KCl 0.0640 0.0320 0.0064 Na2SO4 0.0640 0.0320 0.0064 Components
+            . FMB (g/L)
+            . 50D Brine (g/L)
+            . 90D Brine (g/L)
+            . NaCl 31.4240 15.7120 3.1424 CaCl2 0.1920 0.0960 0.0192 MgCl2 0.2560 0.1280 0.0256 KCl 0.0640 0.0320 0.0064 Na2SO4 0.0640 0.0320 0.0064 View Large
+
+
+Crude oil
+
+
+The crude oil used in this study is a dead crude oil from the oilfield that was used as case study. The properties of the crude oil measured at 25 °C are presented in Table 2.
+
+
+Table 2Properties crude oil. Oil properties
+            . Quantity
+            . Density at 25 °C (g/cc) 0.9067 Viscosity at 25 °C (cp) 15.2206 API at 25 °C (°) 24.5673 Oil properties
+            . Quantity
+            . Density at 25 °C (g/cc) 0.9067 Viscosity at 25 °C (cp) 15.2206 API at 25 °C (°) 24.5673 View Large
+
+
+Nanoparticles
+
+
+Commercial silica nanoparticles (SiO2) were used in this study. The nanoparticles are 99.5% non-porous silica with no surface treatment and particle size of 10-20 nm. The nanoparticles were gotten from Skyspring Nanomaterials Inc. Houston, USA.
+
+
+Enzyme
+
+
+The enzyme used in this study is a commercial 100% concentrate produced from the DNA of oil eating microbes and supplied by Biotech Processing Supply Dallas, Texas.
+
+
+Experimental method
+
+
+The experimental investigations of the IFT modification potential of silica (SiO2) nanoparticles, enzyme, and the combination of both were carried out in four phases. In the first phase, the IFT of crude oil and deionised water and crude oil and brines (FMB. 50D and 90D) was measured without the presence of either nanoparticles or enzyme. This was aimed at investigating how the brines and water naturally interact with crude oil and the results of this phase were used as basis for determining the efficiency of SiO2 nanoparticles and enzyme in their respective solutions. In the second and third phases, the effect of nanoparticles and enzyme on crude oil-water and crude oil-brines interactions were investigated respectively. In the final phase, the effect of combine SiO2 nanoparticles and enzyme on crude oil-water and crude oil-brines interactions was investigated. All the tests were conducted using the Du Nouy ring method with the aid of Sigma 703D tensiometer. A fixed concentration of 1 g/L of nanoparticles and enzyme was used for all the tests and the experiments were conducted at ambient temperature. For the combined effect investigation, a ratio of one-to-one nanoparticles to enzyme was used.
+
+
+Results and discussion
+
+
+Figure 1 shows the results of the first phase in which only the crude oil-water and crude oil-brine interactions were investigated. A relatively closed IFT with no significant difference in their IFT was observed for all the solutions, although the highest IFT was observed with crude oil-water interaction. The combination of crude oil with brines (50D, 50D and FMB) slightly reduced the IFT relative to the use of deionised water with all the brines showing similar IFT reduction within experimental errors. This observed reduction in crude oil-brines IFT relative to that of crude oil-water is related to the interfacial modification potential of salt ions in aqueous solutions. The presence of salts ions in aqueous solutions reduce interfacial energy due to their adsorption at the interfacial [12]. Hence, reduction in IFT was observed when the brines were contacted with crude oil relative to the deionised water that was characterised by higher surface energy.
+
+
+Figure 1View largeDownload slideThe crude oil-water and crude oil-brines interactions.Figure 1View largeDownload slideThe crude oil-water and crude oil-brines interactions. Close modal
+
+
+The results of the effect of SiO2 nanoparticles on the crude oil-water and crude oil-brines interactions investigated in the second phase are presented in Figure 2. The use of nanoparticles dispersed in aqueous solution alone (nano) slightly reduced the crude oil-water IFT relative to the used deionised water. This shows that the presence of nanoparticles in the aqueous solution is characterised by reduction in interfacial energy due to their adsorption at the interface and this invariably reduced the IFT of crude oil-water relative to the use of deionised water. Further reduction in IFT was observed with the dispersion of SiO2 nanoparticles in the brines of different salinities relative to the used of the deionised water and nanoparticles aqueous solution. This is also related to reduction in interfacial energy that resulted from adsorption of the nanoparticles and salt ions at the interfacial thereby, reducing the crude oil-brine IFT. Considering the effect of salinity variation on the IFT modification of nanoparticles in different brines, the lowest IFT was observed with the 90D brine with lowest salinity and similar effect was observed with 50D and FMB within experimental error. These results generally do not show any effectiveness of SiO2 nanoparticles in IFT reduction either in the presence or absence of salt components. This means that the effective application of this nanoparticles in enhanced oil recovery process will not be majorly attributable to IFT reduction. Although previous studies [19, 20, 21] have proposed IFT reduction as one of the mechanisms by which nanoparticles enhance oil production, this result however showed that the application of this nanoparticles in the reservoir with the brine and crude oil investigated in this study may not be associated with any significant IFT reduction.
+
+
+Figure 2View largeDownload slideThe effect of SiO2 nanoparticles on crude oil-water and crude oil-brines interactions.Figure 2View largeDownload slideThe effect of SiO2 nanoparticles on crude oil-water and crude oil-brines interactions. Close modal
+
+
+Figure 3 presents the results of the third phase experiments in which the effect of enzyme on crude oil-water and crude oil-brines interactions was investigated. A significant reduction of IFT from 26.51 to 14.49 mN/m was observed with the application of enzyme in aqueous solution relative to the deionised water. This is due to the good surface activity of enzyme that made it possible to it to absorb at interfaces thereby reducing the surface energy and interfacial tension. Further reduction in IFT was observed with the application of enzyme in the brines relative to its applications in deionised water and enzyme aqueous solution. This further shows the effect of the interfacial adsorption of enzyme and salt ions at the interface thereby resulting IFT reduction. This is consistent with the previous study that shows that enzyme has good surface activity which is enhanced in saline environment [12]. Evaluating the results of the effect of enzyme on crude oil-brines interaction, it is obvious that no significant effect of salinity variation was seen. This shows that increase in ionic concentration in the high salinity brines (50D and FMB) did not translate to increase in their interfacial adsorption. The results of this test show that the effective enhanced oil recovery application of this enzyme in reservoir with the brine and oil investigated in this study may be attributed to IFT reduction.
+
+
+Figure 3View largeDownload slideThe effect of enzyme on crude oil-water and crude oil-brines interactions.Figure 3View largeDownload slideThe effect of enzyme on crude oil-water and crude oil-brines interactions. Close modal
+
+
+The results of the final phase in which the combined effect of nanoparticles and enzyme on crude oil-water and crude oil-brines interactions was investigated are presented in Figure 4. A significant reduction in crude oil-water IFT from 26.51 mN/m and 26.24 mN/m to 6.50 mN/m was observed with the combined application of nanoparticles and enzyme in aqueous solution relative to the application of deionised water and nanoparticles aqueous solution, respectively. Also, a good IFT reduction from 14 mN/m to 6.50 mN/m was archived relative to the application enzyme aqueous solution along. This shows that the combined application of nanoparticles and enzyme is more efficient than the application of the either of them alone. This suggests that the application of the combined nanoparticles and enzyme in enhanced oil recovery process in the reservoir with the fluids investigated in this study will be associated with better recovery than the application of either of them could archive alone. The brine salinity variations however do not seem to influence the performance of combined nanoparticles and enzyme IFT modification as evident by insignificant IFT reduction modification. This further shows the dominate interfacial activity of enzyme relative to salt ions interfacial modification.
+
+
+Figure 4View largeDownload slideThe effect of combined SiO2 nanoparticles-enzyme on crude oil-water and crude oil-brines interactions.Figure 4View largeDownload slideThe effect of combined SiO2 nanoparticles-enzyme on crude oil-water and crude oil-brines interactions. Close modal
+
+
+Figure 5 shows a comparison between the results of the IFT modifications of crude oil-water and crude oil-brines interactions using nanoparticles, enzyme, and combination of both. From the results, two distinct IFT regimes characterised by high and low IFT were observed. The high regime was defined by the base IFT of the crude oil-water and crude oil-brines interactions in the absence of nanoparticles and enzyme. The application of nanoparticles as an IFT modification agent did not significantly influence the IFT of crude oil-water and crude oil-brines interactions and hence, the results lay in the high regime and signifies no impact. The applications of enzyme and combine nanoparticles-enzyme however fall into the low regime characterised by low IFT due to their capacities to reduce IFT of the crude oil-water and crude oil-brines. This signifies a positive impact that can be explored for additional oil recovery.
+
+
+Figure 5View largeDownload slideComparison between the effects of SiO2 nanoparticles, enzyme and SiO2 nanoparticles-enzyme on crude oil-water and crude oil-brines interactions.Figure 5View largeDownload slideComparison between the effects of SiO2 nanoparticles, enzyme and SiO2 nanoparticles-enzyme on crude oil-water and crude oil-brines interactions. Close modal
+
+
+Conclusion
+
+
+In this study, experimental investigations of the IFT modification potential of silica (SiO2) nanoparticles, enzyme, and the combination of both were conducted under similar conditions and the results show that:
+
+
+Crude oil-water and crude oil-brines interactions were characterised by high IFT.The used silica nanoparticles as an IFT modification agent did not significantly influence crude oil-water and crude oil-brines interactions.The application of enzyme as an IFT modification agent significantly influence crude oil-water and crude oil-brines interactions by reducing their respective IFT.Combination of nanoparticles and enzyme effected the best IFT modification of crude oil-water and crude oil-brines interactions that was characterised by the lowest IFT.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgement
+
+
+The authors appreciate Biotech Processing Supply Dallas, Texas for the supply of the enzyme used in this study.
+
+
+References
+
+
+S.Liu, "Alkaline Surfactant Polymer enhanced oil recovery process," Dissertation Abstracts International, vol. 04, no. 69, 2008.Google Scholar B.Towler, H.Lehr, S.Austin, B.Bowthorpe, J.Feldman, S.Forbis, D.Germack and M.Firouzi, "Spontaneous imbibition experiments of enhanced oil recovery with surfactants and complex nano-fluids," J. Surfactants Deterg, vol. 20, pp. 367–377, 2017.Google ScholarCrossrefSearch ADS  A. M.Johannessen and K.Spildo, "Enhanced oil recovery (EOR) by combining surfactant with low salinity injection," Energy & Fuels, vol. 27, no. 10, p. 5738–5749, 2013.Google ScholarCrossrefSearch ADS  T.Udoh, L.Akanji and J.Vinogradov, "Experimental Investigation of Potential of Combined Controlled Salinity and Bio-Surfactant CSBS in Enhanced Oil Recovery EOR Processes," in Paper SPE 193388 in SPE Nigeria Annual International Conference and Exhibition. Society of Petroleum Engineers. 10.2118/193388-MS, Lagos, Nigeria, 2018.Google Scholar T.Udoh and J.Vinogradov, "A Synergy between Controlled Salinity Brine and Biosurfactant Flooding for Improved Oil Recovery: An Experimental Investigation Based on Zeta Potential and Interfacial Tension Measurements," International Journal of Geophysics, vol. 2019, pp. 1–15, 2019.Google ScholarCrossrefSearch ADS  A.Karimi, Z.Fakhroueian, A.Bahramian, N.Pour Khiabani, J.Darabad, R.Azin and S.Arya, "Wettability alteration in carbonates using zirconium oxide nanofluids: EOR implications," Energy Fuels, vol. 26, pp. 1028–1036, 2012.Google ScholarCrossrefSearch ADS  M.Sajjad, J.Arezou and J.Soheila, "Temperature effect on performance of nanoparticle/surfactant flooding in enhanced heavy oil recovery," Petroleum Science, vol. 16, pp. 1387–1402, 2019.Google Scholar M.Rosen, "Adsorption of surface-active agents at interfaces: the electrical double layer," Surfactants Interfacial Phenomena, vol. 3, pp. 34–104, 2004.Google Scholar T.Udoh and J.Vinogradov, "Experimental Investigations of Behaviour of Biosurfactants in Brine Solutions Relevant to Hydrocarbon Reservoirs," Colloids Interfaces, vol. 3, no. 24, pp. 1–15, 2019.Google Scholar B.Engeset, "The Potential of Hydrophilic Silica Nanoparticles for EOR Purposes: A Literature Review and an Experimental Study," Department of Petroleum Engineering and Applied Geophysics, Norwegian University of Science and Technology, Trondheim, 2012.Google Scholar T.Udoh, "Improved insight on the application of nanoparticles in enhanced oil recovery process," Scientific African, vol. 13, no. 2021, p. e00873, 2021.Google Scholar N.Ogolo, O.Olafuyi and M.Onyekonwu, "Enhanced oil recovery using nanoparticles," In Proceedings of the SPE Saudi Arabia Section Technical Symposium and Exhibition, Al-Khobar, Al-Khobar, Saudi Arabia, 8-11 April2012.Google Scholar B.Suleimanov, F.Ismalov and E.Veliyev, "Nanofluid for enhanced oil recovery," Journal of Petroleum Science and Engineering, vol. 78, no. 2, pp. 431–437, 2011.Google ScholarCrossrefSearch ADS  A.Roustaei and S.a. M. M.Saffarzadeh, "An evaluation of modified silica nanoparticles’ efficiency in enhancing oil recovery of light and intermediate oil reservoirs," Egyptian Journal of Petroleum, vol. 22, pp. 427–433, 2013.Google ScholarCrossrefSearch ADS  M.Mohajeri, M.Hemmati and A.SadatShekarabi, "An experimental study on using a nanosurfactant in an EOR process of heavy oil in a fractured micro- model," J. Petrol. Sci. Eng., vol. 126, p. 162–173, 2015.Google ScholarCrossrefSearch ADS  M.Zargartalebi, R.Kharrat and N.Barati, "Enhancement of surfactant flooding performance by the use of silica nanoparticles," Fuel, vol. 143, p. 21–27, 2015.Google ScholarCrossrefSearch ADS  J. D. V.Hamme, A.Singh and O. P.Ward, "Physiological aspects. Part 1 in a series of papers devoted to surfactants in microbiology and biotechnology," Biotechnology Advances, vol. 24, no. 6, p. 604–620, 2006.Google ScholarCrossrefSearch ADS PubMed T.Udoh and J.Vinogradov, "Effects of Temperature on Crude-Oil-Rock-Brine Interactions During Controlled Salinity Biosurfactant Flooding," in Paper SPE 198761 presented in SPE Nigeria Annual International Conference and Exhibition, Lagos, Nigeria, 2019.Google Scholar L.Hendraningrat, S.Li and O.Torster, "A coreflood investigation of nanofluid enhanced oil recovery," J. Petroleum Sci. Eng., vol. 111, no. 2013, p. 128–138, 2013.Google Scholar A.Roustaei, J.Moghadasi, H.Bagherzadeh and A.Shahrabadi, "changes in interfacial tension and wettability alteration," in in: SPE International Oilfield Nanotechnology Conference and Exhibition, Noordwijk, The Netherlands, 12-14 June, 2012.Google Scholar A.Ragab and A. A.Hannora, "Comparative investigation of nano particle effects for improved oil recovery-experimental work," in in: SPE Kuwait Oil and Gas Show and Conference, Mishref, Kuwait, 2015 11-14 October, 2015.Google Scholar L.Hendraningrat and O.Torsaeter, "Unlocking the potential of metal oxides nanoparticles to enhance the oil recovery," in Offshore Technology Conference-Asia, Kuala Lumpur, Malaysia, 25-28 March, 2014.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211913-MS
+
+
+

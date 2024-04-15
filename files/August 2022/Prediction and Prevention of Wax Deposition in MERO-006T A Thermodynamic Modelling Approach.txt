@@ -1,0 +1,157 @@
+----- METADATA START -----
+Title: Prediction and Prevention of Wax Deposition in MERO-006T: A Thermodynamic Modelling Approach
+Authors: Obiora Nwosu, Olugbenga Daodu, Basil Ogbunude, Chima Emelle, Erasmus Nnanna, John Emesi
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211943-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+MERO-006T is an oil development well that was drilled and completed in the Q2100X reservoir. The well came into production in March 1988 and has been plagued with incessant wax build up leading to loss of oil production several times over a period of 17years.Several wax cutting activities have been carried out to restore production in the well, however due to the frequency of wax build up leading to loss of revenue and the difficulty of the swamp terrain where the well is located, it became pertinent to adopt a more optimal, cost effective and long-term approach to address the frequent deferment caused by wax build up.Research indicates that a wax inhibition tool (Silver HAWG) can be deployed in the well to address wax build up issue though historical deployment in some wells have not been very effective due to suboptimal installation depths in these wells. Hence, it became pertinent to determine the optimal depth for installation of the wax inhibition tool in MERO-006T.This paper highlights the thermodynamic modelling approach adopted to determine the Wax Appearance Temperature in MERO-006T, the well modelling approach to estimate the depth which wax formation would occur and the optimal depth to place the wax inhibition tool based on lifecycle production expectations from the well. Installation of the Silver HAWG is expected to restore ca. 500 bopd, improve well availability by 30% and avoid biannual costs of ca. $2mln associated with repeated wax treatment in the well.
+
+
+
+
+Keywords:
+remediation of hydrates,
+mero-006t,
+oilfield chemistry,
+wax remediation,
+installation,
+asphaltene inhibition,
+asphaltene remediation,
+wax inhibition,
+paraffin remediation,
+reservoir
+
+
+Subjects: 
+Production Chemistry, Metallurgy and Biology,
+Inhibition and remediation of hydrates, scale, paraffin / wax and asphaltene
+
+
+
+
+INTRODUCTION
+
+
+Crude oil consists of fractions such as, resin, asphaltene and preasphaltene (i.e., carbene and carboid). The chemical and physical properties of crude oils depend significantly on the relative amounts of each fraction and their properties. The asphaltenes usually contain more condensed aromatic compounds than do the resin and oil fractions. The resins contain aromatic or naphthenic hydrocarbons and components of oil fractions may have naphthenic or paraffinic structures. Asphaltenes and preasphaltene in their natural state exist in micelle form, peptized with resin molecules. The center of this micelle can be metal, clay, or water. The essential feature is that the polar groups (such as S- "negative" and/or N- "negative" and/or O- "negative" containing groups) are concentrated towards the center. This often is termed oil external-water internal or water-in-oil emulsion. When crude oils flow into a wellbore, its pressure and temperature decreases. Paraffin and water then would be released from the water-in-oil emulsion, with the paraffin solidifying at the reduced temperature condition, forming wax.
+
+
+Wax deposition is one of the most challenging flow assurance issues in oil producers, typically leading to production losses and expensive well restoration activities. The associated problems can occur anywhere in the production system, ranging from reservoir to the terminal. Wax deposits result from the cooling effect of oil flowing from high-pressure reservoirs through the wellbore, to the surface. Depressurization of the oil as it is produced leads to its expansion and temperature drop which induces crystallization of wax. Considering the effects of wax deposition on producing wells and facilities, preventing the phenomenon from occurring is preferable than correction2.
+
+
+This paper discusses the modelling approach applied to the depth selection of a wax inhibition tool (Silver Hawg), planned to be installed in MERO-006T - an oil producer with 500 bopd production potential and history of severe wax deposition. MERO-006T was closed-in in 2005 for waxed up tubing and is currently programmed for integrity workover due to High B-Annulus pressure. Silver Hawg is a tool that alters the chemical reactions required for scale formation, metal corrosion, and wax deposition. The tool acts as a catalyst enabling a change in the electrostatic potential within the reaction equations. This change in electrostatic potential produces a polarization effect at the molecule electrons level which helps prevent scale formation, corrosion of metal, and wax deposition.
+
+
+PROBLEMS AND CHALLENGES
+
+
+MERO-006T was drilled and completed as a Single String Single (SSS) in November 1981 on the Q2100X sand. The interval was gravel packed to control sand production and completed with gas lift mandrels. The interval came on stream dry in March 1988 at a production rate of ca. 700 bopd and GOR of 793 Scf/bbl on bean 16/64″. The crude oil in the Q2100X reservoir is waxy and thus, has resulted in several wax cutting jobs across the historical production life of the well. As of February 1989, production rate declined to 198 bopd on bean 28/64". A de-waxing job was done, and production rose steadily and peaked at 1012 bopd at 195psig THP and 0% BSW in May 1991, after which the well quit production due to wax in November 1991. Several unsuccessful attempts were made to produce the well until March 1994 when stimulation, wax cutting and nitrogen lifting intervention was carried out. In April 1994, the interval produced dry at an average rate of 160 bopd on bean 36/64″ until January 1995 when it quit again on waxed up conduit. Wax cutting was done in June 1997 and the interval produced dry at an average rate of 300 bopd on bean 36/64″. It produced at ca. 300 bopd until March 2003 when production rate dropped to 170 bopd. Solvent soak/de-waxing was carried out in Q4 2004 and well opened to flow; production fluctuated between 500 bopd and 100 bopd. The well was closed-in for low productivity due to wax formation in October 2005. However, later in 2017 it was discovered the well has B annulus pressure higher than MAASP. Post Risk-Assessment, the well was classified as High Risk. In 2018 a remediation using Backstop was carried out, but this was unsuccessful. It was therefore decided to carry out workover to restore well integrity in this well. The cumulative production from this interval is 1.485 MMstb.
+
+
+Figure 1View largeDownload slideProduction Performance plot of MERO-006TFigure 1View largeDownload slideProduction Performance plot of MERO-006T Close modal
+
+
+SILVER-HAWG TECHNOLOGY BACKGROUND
+
+
+Silver-Hawg is an alloy comprised of dissimilar metals. Its operation is based on scientific knowledge that physical characteristic of a flowing liquid changes or is modified by contact with a particular alloy. During oil production, crude oil is sucked up through the open lower end of the tool's inner tube by pressure into the inner tube. This causes multiple streams or jets of crude oil to emanate from the radically bored holes in the wall of the tube to bombard the copper nickel walls of the annular chamber and the center insert. Electrons released from the copper in the walls of the chamber combine with molecules of the hydrocarbons and other minerals, thereby altering certain physical characteristics of the crude oil, produced water and the other entrained minerals which otherwise clog the tubing and impede the upward flow of the crude.
+
+
+The crude oil and its entrained minerals treated in the Silver-Hawg pass through the string of tubing to the surface. The treated crude oil not only keeps paraffins and other waxes in suspension, but it also breaks up the long chain hydrocarbon molecules, thereby making the oil "slicker"1.
+
+
+Reasons to use the "Silver Hawg" tools:
+
+
+Increases production and decreases downtime.Minimizes downtime for remedial subsurface pipe clean outs.Environmentally safe. No handling of toxic chemicals or chemical waste.Little to no maintenance is required.Use with both Pumping and Flowing Wells.Extends Equipment Life.Easy installation
+
+
+Figure 2View largeDownload slidePictorial examples of Silver Hawg ToolsFigure 2View largeDownload slidePictorial examples of Silver Hawg Tools Close modal
+
+
+MERO-006T PVT CHARACTERIZATION
+
+
+To properly capture the wellbore fluid interactions at different pressures and temperatures in the well model, a full characterization of the fluid properties was required using the appropriate Equation of State (EoS) model. This will significantly improve the accuracy of the Wax Appearance Temperature (WAT) prediction at any given operating condition.
+
+
+The PVT characterization was carried out with PVTSim suite. Typical consistency checks using Mass Balance and Buckley Plot techniques were applied and results confirmed validity of the PVT experiments carried out on the reservoir fluid sample.
+
+
+Figure 3View largeDownload slideMass Balance and Buckley Plots for MERO Q21X ReservoirFigure 3View largeDownload slideMass Balance and Buckley Plots for MERO Q21X Reservoir Close modal
+
+
+To characterize the reservoir fluid, Peng Robinson 78 Equation of State model was used based on its improved acentric factor and fugacity parameters. Peneloux volume correction factor was applied to carter for liquid density corrections. Heavier components were split with Katz method before weight-based lumping for components with similar K-values. The critical properties for the compositional plus fractions were estimated using Lee-Kessler correlation while the Lorenz, Bray and Clark (LBC) correlation was applied for viscosity estimation.
+
+
+Tuning of the right parameters (e.g., omega coefficients, binary interaction coefficients, critical properties and C-Peneloux factors) within expected range across the Constant Mass Expansion, Differential Liberation, Separator and Viscosity experiments resulted in a good match for the fluid properties at different pressures, including the saturation pressure and temperature.
+
+
+Figure 4View largeDownload slideExperimental Results vs PVT Data MatchFigure 4View largeDownload slideExperimental Results vs PVT Data Match Close modal
+
+
+Due to the importance of the fluid phase separation in the well model for WAT prediction, attention was given to the review of the phase map generated from the fluid characterization vis-à-vis the PVT match.
+
+
+Figure 5View largeDownload slideMERO Q21X P-T DiagramFigure 5View largeDownload slideMERO Q21X P-T Diagram Close modal
+
+
+Figure 6View largeDownload slideMERO Q21X Phase MapFigure 6View largeDownload slideMERO Q21X Phase Map Close modal
+
+
+MERO-006T WAX APPEARANCE TEMPERATURE MODELLING
+
+
+MERO-006T is the only drainage point on the Q2100X reservoir. The original reservoir static pressure was 3,453 psia while the initial bottom-hole temperature was 218°F. The well was completed in 1988 with 3½" tubing.
+
+
+Model predictions indicated that wax precipitation would start when the fluid temperature decreases from the initial bottom-hole temperature of 218°F to the predicted WAT, 151.8°F. This corresponds to a tubing depth of 2529 ftah as illustrated on the temperature distributions plot (Figure 7). In the selection of the right Silver Hawg tool, considerations were made to ensure installations are made a few feet below the depth corresponding to the cloud point as well as possession of a flow area large enough to ensure zero impact on oil production rate. However, sensitivity was carried for the late-life water cut (82%) to achieve a single installation for the remaining well lifecycle, arriving at the corresponding depth of 4419 ftah. Based on all these critical long-term factors, the sensitivity of installation at 3000 ftah gave the best overall well performance outcome. This will ensure an effective performance at the initial stage, mid- and late- life of the well. It was also essential to create a profile such as "X", "XN", "Sleeve" close to this nucleating point (3000 ftah) for hanging the tool in the installation design. The closer the tool is to the nucleating point, the more effective is its performance. Plans are in place to closely monitor the effectiveness of the Silver Hawg tool post deployment with the intent of optimizing where necessary. The worst-case outcome will be remedied by the typical wax-cutting approach for the well.
+
+
+Figure 7View largeDownload slidePressure vs Depth Sensitivity plot of MERO-006TFigure 7View largeDownload slidePressure vs Depth Sensitivity plot of MERO-006T Close modal
+
+
+Figure 5View largeDownload slideEquation of State plot of MERO-006T on Q2100X ReservoirFigure 5View largeDownload slideEquation of State plot of MERO-006T on Q2100X Reservoir Close modal
+
+
+Figure 6View largeDownload slidePhase Envelope Selection of MERO-006T on Q2100X reservoirFigure 6View largeDownload slidePhase Envelope Selection of MERO-006T on Q2100X reservoir Close modal
+
+
+RESULTS
+
+
+Well model predictions indicates that wax appearance temperature (WAT) for MERO-006T was predicted to occur at 172.5°F. The wax appearance depth corresponding to this depth was estimated at 2529 ftah however considering expected late life production profile (increasing watercut), the wax appearance depth is estimated at 4419 ftah. The Silver Hawg is proposed to be installed around 3000 ftah in the production tubing in order to account for mid to late life production. A profile will be created at this depth in the production tubing to install the Silver Hawg with functionality to remove and replace via wireline when Silver Hawg lifecycle is exceeded.
+
+
+CONCLUSION
+
+
+Due to historical and incessant wax build up in MERO-006T which has led to production deferment and loss of revenue, a longer-term solution was proposed to install Silver Hawg wax-inhibiting tool in the production tubing to mitigate this flow assurance issue. Based on past experience where Silver Hawg was installed, and wax buildup continued unabated it became necessary to determine the temperature and depth of wax formation in future wells in order to optimally install the Silver HAWG and improve its probability of success in eradicating wax build up. A Well modelling & Thermodynamic modeling approach was therefore adopted to answer these critical questions of temperature and depth. The Silver Hawg is also proposed to be wireline retrievable in order to facilitate tool replacement and maintenance without carrying out a full-scale workover. It is estimated that installing this tool would improve MERO-006T well availability by 30% and avoid biannual costs of ca. $2mln associated with repeated wax treatment and intervention in the well.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+ACKNOWLEDGEMENT
+
+
+We thank the management of the Shell Petroleum Development Company (SPDC) Nigeria for permission to publish this work.
+
+
+References
+
+
+A.A.Sulaimon, G. K.Falade and W.DeLandro; A proactive approach for predicting and preventing wax deposition in production tubing strings: A Niger Delta experience, Journal of Petroleum and Gas Engineering Vol. 1(2), pp. 26–36, April2010.Google Scholar A. L.Sousa, H. A.Matos, L. P.Guerreiro; Preventing and removing wax deposition inside vertical wells: a review, Journal of Petroleum Exploration and Production Technology (2019) 9:2091–2Google ScholarCrossrefSearch ADS  ScottH. Fogler, ShengZheng, and ZhenyuHuang, Wax Deposition: Experimental Characterizations, Theoretical Modeling, and Field Practices, May12, 2015.Google Scholar Z.Wang, C.Zhu, Y.Lou, Q.Cheng, Y.Liu, X.Wang; Method for Characterizing the Aggregation of Wax Crystals and Improving the Wax Deposition Model: SPE Annual Technical Conference and Exhibition (September 30–October 2, 2019), SPE-195936-MS.P.Perez, A.Gurnon, K.Chichak, J.McDermott, J.Paulo, W.Peng, X.Xie; Mitigating Wax Deposition From Crude Oils: Correlations Between Physical-Chemical Properties of Crude Oils and the Performance of Wax Inhibitors: Offshore Technology Conference (May 2–5, 2016), OTC-27255-MS.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211943-MS
+
+
+

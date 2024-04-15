@@ -1,0 +1,413 @@
+----- METADATA START -----
+Title: Application of Gassmann's Model and the Modified Hashin-Shtrikman-Walpole Model in Land Subsidence Susceptibility Studies in the Jxt Field, Niger Delta
+Authors: Chukwudi Idowu, Bosede Taiwo Ojo
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211960-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+This paper investigates the susceptibility of the 'JXT' field, onshore Niger Delta to ground subsidence as an after effect of oil and gas production. Logs from two wells in the field were utilized for this study, Gassmann's model and the modified Hashin-Shtrikman-Walpole model for compressibility analysis were adopted. The results from Gassmann's model range from 0.06GPa-1 to 0.13GPa-1, while results from the modified Hashin-Shtrikman-Walpole bounds for compressibility range from 0.04GPa-1 to 3GPa-1. To further evaluate the susceptibility of the field to ground subsidence, some important elastic parameters were estimated. Results show young modulus (20.5-27.5GPa), bulk modulus (21.3-25.3GPa), shear modulus (8.01-11.2GPa), and Poisson ratio (0.23-0.28). Generally, these results indicate that the study area is less susceptible to ground subsidence and there is little risk of flooding and submergence which can be hazardous to oil and gas production
+
+
+
+
+Keywords:
+upstream oil & gas,
+well logging,
+reservoir geomechanics,
+structural geology,
+compressibility,
+jxt 04,
+thickness,
+equation,
+saturation,
+reservoir characterization
+
+
+Subjects: 
+Reservoir Characterization,
+Reservoir Fluid Dynamics,
+Formation Evaluation & Management,
+Exploration, development, structural geology,
+Seismic processing and interpretation,
+Reservoir geomechanics,
+Integration of geomechanics in models,
+Open hole/cased hole log analysis
+
+
+
+
+Introduction
+
+
+Land subsidence is caused mostly by anthropogenic activities. It is the result of human economic activities such as groundwater exploration and withdrawal from aquifers, hydrocarbon production from reservoir formations, mining activities. It is associated with the caving in of the earth's surface over a wide area due to either geologic or economic activities. The continuous production of oil and gas, or the withdrawal of hydrocarbon from reservoir formations is an economic activity that leads to reduced pore pressure, porosity, and permeability. Pore pressure reduction causes the effective stress on the reservoir formation to increase and therefore increases the overlying formation burden on the matrix of the reservoir formation. While the overburden load remains constrained, and pore pressure is reduced, effective vertical stress is increased, eventually resulting in reduced reservoir thickness and induced changes in in-situ stress (Zoback, 2007). The environmental effects of land subsidence are catastrophic and irreversible. In coastal low altitude areas, loss of ground elevation is particularly dangerous and can lead to severe events such as flooding and submergence. Other environmental and geologic implications include reservoir compaction, reduced groundwater flow, reduced aquifer storage, and aquifer collapse.
+
+
+Throughout the history of oil and gas exploration around the world, there have been several cases of land subsidence in oil fields (Abija and Abam, 2021). Fjaer et al. (2008), and Abija and Abam (2021), noted that in late 1910 and 1920, there were several recorded surface subsidence events across north and south America. The Goose creek field in Texas, and the Bolivar oil field in Venezuela, recorded many of these events. In Europe, Jones et al (1992) and Bertoni et al. (1995) noted such events that occurred in the Ekofisk and Valhall reservoirs in the Norwegian sector of the North Sea, the Groningen gas field in the Netherlands, as well as onshore and offshore of the Ravena area of Italy.
+
+
+Ebiwonjumi (2018), Abam, (2001), and Abija and Abam (2021) highlighted the role of the Niger Delta as one of the top oil-producing regions in the world, with an estimated production of 2 million barrels of oil and 3 million standard cubic feet of gas daily at a depth range of 2.7 – 8km. Studies have shown that the rate of ground subsidence in the Niger delta is increasing with production. According to Fubara (1986), the Niger delta basin sunk at the rate of 2.5cm/yr. Ibe (1988), reports that the rates increased with increased production to 12.5cm/yr. Uko et al. (2018) suggested that the rates ranged from 6.7cm/yr to 20cm/yr. These studies show a reduction in ground elevation around the Niger delta coastline, which is potentially dangerous and could lead to increased flooding and land submergence.
+
+
+Pore volume compressibility is a major component in reservoir compaction studies. To evaluate the deformation and compaction of a reservoir due to a decrease in fluid pressure, the pore volume compressibility is measured (Zhu, 2018). Traditionally, this is done in the laboratory with cores from reservoirs. This is achieved by integrating geomechanical models with the reservoir properties estimated from core analysis. In the absence of cores for static laboratory tests, dynamic Geomechanical models that rely on geophysical data can be used (Khatchikian, 1996; Abija and Abam, 2021). The application of Geomechanical models that rely on geophysical data have proven to be inconsistent over time. These models often predict very low to extremely high compressive strengths when applied to geophysical data and can only be relied on for the formations for which they were derived (Zoback, 2007). The traditional method of carrying out static laboratory analysis on core data are often in conditions that are different from reservoir conditions, and cannot be entirely relied on (Khatchikian, 1996; Zhu, 2018; Zoback, 2007).
+
+
+Rock physics models are unique because over time, they have several applications and have been used to solve problems ranging from lithology prediction, fluid type identification,. The limitations of applying rock physics models are very few. The advantage of rock physics models is that they can be applied to different basins and formation types around the world. The results of rock physics models are accurate and comparable to reservoir conditions.
+
+
+This study aims to investigate the possible occurrence of ground subsidence due to the continuous production of oil and gas. This is achieved by integrating rock physics models with reservoir elastic properties to obtain a suitable Geomechanical model for predicting the susceptibility of the field (JXT) to ground subsidence with increased production. Utilized for compressibility analysis were rock physics cement models, Gassmann's compressibility model, as well as the novel modified Hashin-Shtrikman-Walpole model.
+
+
+Location and Geology of the Study Area
+
+
+According to C. C. Okpoli (2020), the Niger Delta is located between latitudes 3°N and 6°N and longitudes 5°E and 8°E on the Gulf of Guinea's continental margin. It was developed in the late Jurassic and continued throughout the Cretaceous at the sight of the rift triple junction, which was linked to the opening of the south Atlantic. The geology of southern Nigeria and southwestern Cameroon defines the onshore portion of the Niger Delta province. The Benin flank, an east-nmarginortheast trending hinge line south of the West African basement massif, forms the northern limit. The Cretaceous outcrops on the Abakaliki high establish the north-eastern boundary, while the Calabar flank defines the east-southeast limit, forming a hinge line with the surrounding Precambrian. The Cameroon volcanic line to the east, the eastern boundary of the Dahomey basin (the eastern-most West African transform-fault passive margin) to the west, and the two-kilometer sediment thickness contour (or 4000-meter bathymetric contour in areas where sediment thickness is greater than two kilometers) to the south and southwest define the province's offshore boundary. The province covers 300,000 km2 and includes the geologic extent of the Tertiary Niger Delta (Akata-Agbada) Petroleum system.
+
+
+Figure 1View largeDownload slideBase map of the study area.Figure 1View largeDownload slideBase map of the study area. Close modal
+
+
+Methodology
+
+
+The study evaluated digitized wireline logs from two wells in the "JXT field," JXT 03 and JXT 04, with gamma ray logs, resistivity logs, acoustic logs, neutron logs, and bulk density logs. The research approach adopted is divided into two parts. These include:
+
+
+Petrophysical InterpretationRock physics analysisCement modelsGeomechanicsSubsidence studies
+
+
+Petrophysical Interpretation
+
+
+This section not only offers a framework for conducting the reservoir's compressibility analysis and characterization of elastic properties, but it also helps us understand the sensitivity of each elastic parameter used in this study. Additionally, efforts are undertaken to explore and comprehend the lateral fluctuations and vertical thickness of various reservoir units. The correlation of formation tops, lithology units, is carried out for this aim. For the three defined reservoir formations, six petrophysical characteristics were investigated. Reservoir thickness, shale volume, porosity (effective), permeability, water saturation, and hydrocarbon saturation are the variables to consider.
+
+
+Reservoir thickness
+
+
+The JXT field's reservoirs were identified using the gamma ray log, and reservoir thickness (h) was determined using the following relationship.
+
+
+h=Base​ of reservoir-Top of reservoir(1)
+
+
+Shale volume
+
+
+For the shale volume estimation, Larionov (1969) equation for tertiary formations was used.
+
+
+Vsh=0.083(23.7*Igr−1)(2)
+
+
+Igr=GRlog−GRminGRmax−GRmin(3)
+
+
+As defined by T. Gogoi and R. Chatterjee (2019), Igr is the gamma ray log index, GRlog is the gamma ray log reading at the depth of interest, GRmin is the gamma ray log reading in the clean zone, GRmax is the gamma ray log reading in the shale zone.
+
+
+Porosity
+
+
+Porosity is one of the most important characteristics for estimating compaction trends, cementation prediction, and hydrocarbon zone differentiation (Dvorkin and Nur, 2000). (Dvorkin et al., 2002). The porosity estimation in this study is based on two well logs (Neutron, and Density log).
+
+
+Φ=Φdensity 2+Φneutron 22(4)
+
+
+The effective porosity is given by Eq. 5 (Cluff and Cluff, 2004)
+
+
+Φeff=ΦTotal(1−Vsh)(5)
+
+
+Water saturation
+
+
+The Archie (1942) equation is used to calculate water saturation.
+
+
+Sw=α*Rwφm*Rtn(6)
+
+
+Hydrocarbon saturation
+
+
+The following equation, as defined by Shepherd (2009), is used to calculate hydrocarbon saturation (Sh).
+
+
+Sh=(1−Sw)(7)
+
+
+Rock Physics analysis
+
+
+The link between reservoir parameters (porosity, shale volume, and water saturation) and elastic properties is established via rock physics (velocity, impedance, and density). As a result, the primary goal of rock physics investigation is to quantify and improve amplitude interpretation for hydrocarbon detection, reservoir characterization, and reservoir monitoring, especially with recent advances in seismic data acquisition and processing (Avseth et al., 2005). The elastic characteristics of the reservoir rocks identified in this study are estimated using rock physics analysis. The estimation of these elastic parameters aided the characterization of the reservoirs in terms of their lithology, fluid content, and geomechanical properties.
+
+
+Vp estimation
+
+
+Vp, or compressional wave velocity, is a key rock physics quantity. Vp was calculated using the equation below based on the compressional wave sonic transit time log (DTc).
+
+
+Vp=(1000000/DTc)*0.3281(8)
+
+
+Vs estimation
+
+
+Vs, commonly known as shear wave velocity, is a fundamental parameter in rock physics, along with Vp. Castagna et al. (1993) provide the following empirical relationships for estimating Vs from Vp.
+
+
+Vs=0.804Vp−0.856(9)
+
+
+Geomechanics
+
+
+This is concerned with the behavior of rocks under the effect of various forces in terms of their physical qualities, as well as their interaction under various stress regimes. Reservoir geomechanics is a branch of rock mechanics that combines the study of earth stresses with understanding of rock mechanics concepts from many disciplines to solve problems that may occur during a reservoir's life cycle, from exploration to abandonment (Zoback, 2007).
+
+
+Bulk modulus (K)
+
+
+The bulk modulus explains the volumetric changes that occur when a material is subjected to normal stresses (W. Lowry, 2007). The dynamic bulk modulus of a reservoir formation defines how the formation's volume varies in relation to the fluid bulk modulus when normal stresses are applied. In this work, the dynamic bulk modulus (K) was calculated using the equation defined by (W. Lowry, 2007).
+
+
+K=ρ*(Vp2−43Vs2)(9)
+
+
+Shear modulus (µ)
+
+
+The resistance of a formation to shearing stress is described by its shear (Telford et al. 1990).
+
+
+μ=ρ*(Vs)2(10)
+
+
+Lambda (λ)
+
+
+Lambda (λ) is among the class of elastic parameters known as Lame's parameters. In this study, it was used in the characterization of other Geomechanical parameters.
+
+
+λ=ρ*(Vp2−2μρ)(11)
+
+
+Young modulus (E)
+
+
+When a material is subjected to a uniaxial normal stress, the longitudinal stresses are described by the young modulus (W. Lowry 2007). The relationship between Lambda (λ) and Mu (µ) was used to calculate E in this study.
+
+
+E=μ*(3λ+2μλ+μ)(12)
+
+
+Poisson ratio (σ)
+
+
+The Poisson ratio is a measurement of a rock formation's deformability and resistance to compressive forces. It ranges from 0.05 to 0.5, with the former indicating extremely hard materials and the latter indicating extremely soft materials.
+
+
+σ=λ2(λ+μ)(13)
+
+
+Gassmann model
+
+
+The Gassmann's (1951) fluid substitution model applied in this study is given in equation 15.
+
+
+KsatKmineral−Ksat=KdryKdry−Kdry+Kfluidϕ(Kmin−Kfluid)(14)
+
+
+μdry=μsat(15)
+
+
+Ksat is the saturated bulk density, Kdry is the dry bulk density, Kmin is the mineral bulk density, Kfluid is the fluid bulk density, µdry is the shear modulus of dry rock, µsat is the shear modulus of saturated rock, and ϕ is the effective porosity of the reservoir formation.
+
+
+Compressibility analysis
+
+
+The compressibility analysis expresses the physical properties of the reservoir in terms of density. A rock with limited porosity has a high density, which is equal to the rock's bulk strength. The fluid contained within a formation's pores influences its compressibility and is the inverse of its bulk strength (Avseth et al., 2005: Marvko et al., 2009). A weak formation with high porosity is expected to be highly compressible and prone to compaction when subjected to compressive stresses, whereas a stiff formation with low porosity is expected to be less compressible. In this study's compressibility analysis, which was done in two halves, the Gassmann equation, and the Berryman (1991) version of the Hashin-Shtrikman-Walpole (1966) equation were employed. To undertake subsidence susceptibility assessments, the Hashin-Shtrikman-Walpole (1966) equation was modified.
+
+
+Gassmann's equation for compressibility analysis
+
+
+The compressible form of equation 15 was adopted for the compressibility analysis carried out in this study (Avseth et al., 2005: Marvko et al., 2009).
+
+
+(Csat−Cmin)−1=(Cdry−Cmin)−1+[∅(Cfl−Cmin)]−1(16)
+
+
+Where:
+
+
+Csat=1ksat;Cdry=1kdry;Cfl=1kfl;Cmin=1Kmin.(17)
+
+
+Where 1Kdp is the dry pore compressibility, 1Ksp is the saturated pore compressibility, and 1Kϕ is the pore space compressibility.
+
+
+Hashin_Shtrikman-Walpole bounds for elastic moduli
+
+
+The effective elatic moduli of a combination of mineral grains and pores can be anticipated, according to Hashin-Shtrikman (1963) and Avseth et al. (2005). Without describing the geometrical intricacies of the phases' placement in relation to one another, this can be accomplished (Avseth et al., 2005: Marvko et al., 2009).
+
+
+KHS±=K1+f2(K2−K1)−1+f1(K1+43μm)−1(18)
+
+
+μHS±=μ1+f2(μ2−μ1)−1+f1[μ1+μm6(9km+8μmKm+2μm)]−1(19)
+
+
+Figure 2View largeDownload slidePlot of bulk modulus against volume fraction of mineral mixture in the Hashin-shtrikman bounds for elastic moduli (Avseth et al., 2005).Figure 2View largeDownload slidePlot of bulk modulus against volume fraction of mineral mixture in the Hashin-shtrikman bounds for elastic moduli (Avseth et al., 2005). Close modal
+
+
+The Berryman (1991) variation of the Hashin-Shtrikman-Walpole model which can be used to describe a mixture including more than two phases was adopted to predict the effective elasti strength of each reservoir identified in this study. The upper and lower limits of the compressibility of each reservoir formation was estimated using this model.
+
+
+KHS+=Λ(μmax)(20)
+
+
+KHS−=Λ(μmin)(21)
+
+
+μHS+=Γ(ζ(Kmax,μmax))(22)
+
+
+μHS−=Γ(ζ(Kmin,μmin))(23)
+
+
+The subscripts "1″ and "2″ correspond to the component's attributes. The upper bound is given by equations (22) and (23) when Km  and µµm are the individual constituent's maximum bulk and shear moduli, as well as the lower bound when Km and µµm are the minimum bulk and shear moduli of the constituents.
+
+
+Figure 3View largeDownload slideA plot of Bulk modulus against volume fraction of mineral and fluid mixture in the Hashin-shtrikman bounds for elastic moduli (Avseth et al., 2005).Figure 3View largeDownload slideA plot of Bulk modulus against volume fraction of mineral and fluid mixture in the Hashin-shtrikman bounds for elastic moduli (Avseth et al., 2005). Close modal
+
+
+μΛ(z)=〈1K(r)+43z〉−1−43zΓ(z)=〈1μ(r)+z〉−1−zζ(K,μ)=μ6(9K+8μK+2μ)
+
+
+The brackets denote a weighted average over the medium, which is the same as a weighted average over the elements.
+
+
+Modified Hashin-Shtrikman-Walpole bounds for compressibility analysis
+
+
+The Hashin-Shtrikman-Walpole limits model was used and modified in this study to obtain upper and lower bounds of the effective compressibility of a mixture of more than two phases. The upper bound of the effective compressibility is equal to the inverse of the lower bound on the mixture's effective elastic moduli, while the lower bound is equal to the upper bound of the mixture's effective elastic moduli.
+
+
+CHS+=1KHS−(24)
+
+
+CHS−=1KHS+(23)
+
+
+Results
+
+
+This section shows the results from the applied methodology.
+
+
+Reservoir characterization
+
+
+The stratigraphy of the two wells in the JXT field reveals shale and sandstone strata intercalated. Over the two wells, JXT 03 and JXT 04, three reservoirs were identified and correlated. SAND A, SAND B, and SAND C are the three reservoirs. The use of gamma ray logs and SP logs allowed for the definition and correlation of these lithologic units. Tables 1 and 2 present a summary of the results of the reservoir characterization performed.
+
+
+Table 1.0Summary of the petrophysical assessment of the reservoirs in JXT 03   View Large
+
+
+Table 2.0Summary of the petrophysical assessment of the reservoirs in JXT 04   View Large
+
+
+Figure 4View largeDownload slideReservoirs correlated across JXT 03 and 04.Figure 4View largeDownload slideReservoirs correlated across JXT 03 and 04. Close modal
+
+
+SAND A ranges from a depth of 3510m to 3531m in JXT 03. The depth range of this reservoir gives it a thickness of about 20m. In JXT 04, this reservoir has an estimated thickness of about 20m, and a depth range of 3485m to 3506m. The shale volume of SAND A has an estimated value of 15% in JXT 03, and 21% in JXT 04. Across the two wells, the effective porosity was estimated to be 20% and 17% respectively. The permeability of this reservoir ranges from 128mD in JXT 04 and 469.1mD in JXT 03. The reservoir is highly saturated with water in JXT 03 at 90%, while in JXT 04, the water saturation reduces to 30%.
+
+
+SAND B ranges from a depth of 3565m to 3618m in JXT 03. The depth range of this reservoir gives it a thickness of about 53m. In JXT 04, this reservoir has an estimated thickness of about 55m, and a depth range of 3545m to 3600m. The shale volume of SAND A has an estimated value of 14% in JXT 03, and 12% in JXT 04. Across the two wells, the effective porosity was estimated to be 20% respectively. The permeability of this reservoir ranges from 310mD in JXT 04 and 367mD in JXT 03. The reservoir is highly saturated with water in JXT 03 at 80%, while in JXT 04, the water saturation reduces to 30%. In this regard, the hydrocarbon saturation across both wells ranges from 20% in JXT 03 to 70% in JXT 04.
+
+
+SAND C ranges from a depth of 3750m to 3859m in JXT 03. The depth range of this reservoir gives it a thickness of about 108m. In JXT 04, this reservoir has an estimated thickness of about 82m, and a depth range of 3828m to 3910m. The shale volume of SAND A has an estimated value of 8% in JXT 03, and 12% in JXT 04. Across the two wells, the effective porosity was estimated to be 23% and 20%respectively. The permeability of this reservoir ranges from 310mD in JXT 04 and 1251mD in JXT 03. The reservoir is highly saturated with hydrocarbons in JXT 03 at 80%, while in JXT 04, the water saturation increases to 80%. In this regard, the hydrocarbon saturation across both wells ranges from 20% in JXT 04 to 80% in JXT 03.
+
+
+Rock physics
+
+
+The Vp across the SAND A interval in JXT 03 is 3489.1 m/s, while in JXT 04, it is 3402 m/s. In the SAND B interval, Vp increases with values ranging from 3473 m/s to 3686.1 m/s. The lower values for SAND A and B were estimated from JXT 04, while the higher values are from the JXT 03 well. The Vp values in the SAND C reservoir interval was estimated to have higher values in JXT 04, than in JXT 03. The increase and decrease in values of Vp across both wells can be attributed to changes in fluid saturation in the reservoirs. There is an observed increase when water saturation increases and a decrease when gas saturation increases. The Vs across the reservoirs is unaffected by fluid because shear sonic waves do not travel through fluids (Telford 1990; Avseth, 2005). The results from Vs estimation can be used to show the cementation properties in each of the reservoirs. The estimated Vs values from the SAND A interval across both wells range from 1887.5m/s to 1967m/s, with the higher values observed in JXT 03. The estimated values in SAND B show an increase with depth, and ranges from 2019.4m/s to 2170m/s, with the values increasing from JXT 03 to JXT 04. Vs values in SAND C range from 2214.4m/s to 2248m/s. The increase in Vs values across both wells give an indication of the direction of increasing cementation in the JXT field. For SAND A, cementation increase from SE to NW, while SAND B and C show an increase from the NW to SE direction. Cementation is important in understanding pore volume compressibility because it reduces the effect of compressive forces on the formation matrix. Studies have shown that formations with high cementation and low clay volume have higher effective porosities while undergoing diagenetic processes (Han, 1986; Avseth 2005).
+
+
+Estimation of elastic parameters
+
+
+The estimated bulk stregth of the reservoirs in the JXT field range from 21.3GPa to 25.3GPa, while the shear modulus ranges from 8GPa to 11.2GPa. Quartz being the major mineral in a clastic reservoir setting has a bulk modulus of 36.6GPa, there the estimated bulk modulus of the reservoirs in the JXT field give a good indication of its strength. The young modulus estimated also indicate the strength of the reservoirs. The values range from 20GPa to 28GPa, while the poisson ratio ranges from 0.23 to 0.28. A summary of the estimated parameters is shown in table 3 and 4.
+
+
+Table 3A summary of the estimated reservoir elastic parameters in JXT 03   View Large
+
+
+Table 4A summary of the estimated reservoir elastic parameters in JXT 04   View Large
+
+
+Gassmann's model
+
+
+Using Gassmann's model, the saturated bulk modulus, mineral modulus, undrained pore modulus, drained pore modulus, fluid modulus, and dry rock modulus were estimated. This aided the estimation of the corresponding saturated rock compressibility, mineral compressibility, undrained pore compressibility, fluid compressibility, drained pore compressibility C(dp), and dry rock compressibility. From table 6 and 8, the drained pore compressibility C(dp), which is the reservoir formations' pore volume compressibility range from 0.06GPa−1 to 0.13GPa−1. The values of the limits of compressibility derived from the Gassmann model was used to determine the compressibility of the pore volume relative to the mineral compressibility. Based on the obtained results, the least compressible pore volume in the JXT field is 2.2 times more compressible than quartz mineral, while the most compressible pore volume is approximately 5 times more compressible.
+
+
+Table 5showing results for Ksat, Kmin, Ksp, Kdp, Kf, Kdry, from the Gassmann compressibility analysis of JXT 03   View Large
+
+
+Table 6showing results for Csat, Cmin, Csp, Cdp, Cf, Cdry, from the Gassmann compressibility analysis of JXT 03   View Large
+
+
+Table 7showing results for Ksat, Kmin, Ksp, Kdp, Kf, Kdry, from the Gassmann compressibility analysis of JXT 04   View Large
+
+
+Table 8showing results for Csat, Cmin, Csp, Cdp, Cf, Cdry, from the Gassmann compressibility analysis of JXT 04   View Large
+
+
+Modified Hashin-Shtrikman-Walpole bounds for compressibility analysis
+
+
+The modified Hashin-shtrikman-Walpole model for compressibility is used in this research to predict the pore type within the allowable range (Avseth et al., 2005). The pore types fall within the range of soft pore shape and rigid pore shapes. Stiffer pore shapes cause the compressibility values to be lower within the permissible limits, while softer pore shapes cause the values to be higher. The results obtained from the application of this model are in the range of 0.04GPa−1 to 3GPa−1. Where the lower bound of compressibility (CHS−) measured in the JXT field is 0.04GPa−1, while the upper bound of compressibility (CHS+ ) is 3GPa−1. These values imply that the compressibility of a reservoir is highly influenced by lithology and mineral type, as well as fluid type. An overview of each well's findings is displayed in table 9 and 10 below.
+
+
+Table 9shows results obtained from the Hashin-Shtrikman-Walpole compressibility analysis of JXT 03. The upper and lower boundaries are highlighted   View Large
+
+
+Table 10shows results obtained from the Hashin-Shtrikman-Walpole compressibility analysis of JXT 04. The upper and lower boundaries are highlighted.   View Large
+
+
+Conclusions
+
+
+This paper studied the land subsidence susceptibility of the JXT field. This study was carried out by integrating the Gassmann model and the modified Hashin-Shtrikman-Walpole compressibility model. Data from two wells in the JXT field were utilized for the study. Three reservoirs were identified and correlated across the field, and petrophysical properties including thickness, porosity, permeability, volume of shale, and water saturation were measured. From the results, the reservoirs had good thickness, good porosity, and little shale volume. The drained and undrained pore volume compressibility measure using the Gassmann model showed similar values. The modified Hashin-Shtrikman-Walpole model was used to identify the pore shape types in the field. From the results, the dominant pore shape type of the delineated reservoirs in the field is the stiff pore shape. The implication of the results from the pore volume analysis is that the field is less likely to be affected by the continuous production of oil and gas in this field. This means that the risk of drastic seismic events such as ground subsidence is less likely.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Zoback, Mark D.Reservoir Geomechanics. Cambridge University Press, 2007.Google ScholarCrossrefSearch ADS  Abija, F. A., & Abam, Tamunoene K. S.. (2021). Predicting ground subsidence due to long term oil/gas production in a Niger Delta basin, Nigeria: implications for CO2 EOR and geosequestration. Research Square. https://doi.org/10.21203/rs.3.rs-357959/v1Google Scholar ErlingFjaer, et al. Petroleum Related Rock Mechanics. Amsterdam; Boston, Elsevier, 2008.Google Scholar Jones, M. E, Leddra, M. J., Goldsmith, A. S. and Edwards, D. (1992). The geomechanical characteristics of reservoirs and reservoir rocks, HSE - Offshore Technology Report, OTH 90, 333, pp. 1–202Google Scholar BertoniW., Brighenti, G., Gambolati, G., Ricceri, G. and Vuillermin, F. (1995) Land subsidence due to gas production in the on and offshore natural gas fields of the Ravena area, Italy Proceedings of the fifth international symposium on land subsidence. The Hague, IAHS Pub. No. 234. Pp. 13–20Google Scholar Ebiwonjumi, Funmi R.Perspectives about Monetizing the Deepwater Gas Reserves in Niger Delta, Nigeria, Capella University, 2018Google Scholar Zhu, S., Du, Z., Li, C., You, Z., Peng, X., & Deng, P. (2018). An analytical model for pore volume compressibility of reservoir rock. Fuel, 232, 543–549. https://doi.org/10.1016/j.fuel.2018.05.165Google ScholarCrossrefSearch ADS  Khatchikian, A. (1996). Deriving Reservoir Pore-Volume Compressibility from Well Logs. SPE Advanced Technology Series, 4(01), 14–20. https://doi.org/10.2118/26963-paGoogle ScholarCrossrefSearch ADS  Okpoli, C. C., and D.I Arogunyo. "Integration of Well Logs and Seismic Attribute Analysis in Reservoir Identification on PGS Field Onshore Niger Delta, Nigeria." Pakistan Journal of Geology, vol. 4, no. 1, 11May2020, pp. 12–22, 
+              https://doi.org/10.2478/pjg-2020-0002. Accessed 30 Aug. 2021.Google ScholarCrossrefSearch ADS  Gogoi, Triveni, and Rima Chatterjee. "Estimation of Petrophysical Parameters Using Seismic Inversion and Neural Network Modeling in Upper Assam Basin, India." Geoscience Frontiers, vol. 10, no. 3, May2019, pp. 1113–1124, 10.1016/j.gsf.2018.07.002. Accessed 11 Jan. 2022.CrossrefSearch ADS  Dvorkin Jack snd Nur Amos (2000) "Critical Porosity Models." Department of Geophysics, Stanford University, Stanford, CA94305–2215.FubaraD. M. J. (1986) Flood and erosion: Human contributions and remedial environmental policy. Mimeographed paper, Institute of Flood, Erosion, Reclamation and Transportation. Rivers State University of Science and Technology, port Harcourt, Nigeria.Google Scholar Ibe, A.C. (1988). Coastline erosion in Nigeria. The Nigerian Institute for Oceanography and Marine Research and Ibe A.C. Ibadan. University Press, Ibadan, Nigeria (ISBN 978-2345-041).Google Scholar Uko, E. D, Famuyibo, D. A. and Okiongbo, K. (2018). Estimation of Land Surface Subsidence Induced by Hydrocarbon Production in the Niger Delta, Nigeria, using Time-Lapse Orthometric Leveling Data. Mediterranean Journal of Basic and Applied Sciences (MJBAS), Volume 2, Issue 3, pp. 1–18Google Scholar DvorkinJack, Carr MatthewB., and Berge Tim (2002) "Rock Physics Diagnostic in Sand/Shale Sequence." EAGE 64th Conference and ExhibitionFlorence, Italy, 27.Google Scholar Cluff SuzanneG., Cluff RobertM. (2004) "Petrophysics of the Lance Sandstone Reservoirs in Jonah Field Sublette County, Wyoming." AAPG Studies in Geology 52 and Rocky Mountain Association of Geologists 2004 Guidebook.Google Scholar Archie, G.E. "The Electrical Resistivity Log as an Aid in Determining Some Reservoir Characteristics." Transactions of the AIME, vol. 146, no. 01, 1Dec.1942, pp. 54–62, 10.2118/942054-g. Accessed 27 Sept. 2020.Google ScholarCrossrefSearch ADS  ShepherdM. "Rock and Fluid Properties (2009) "Oil field production geology: AAPG Memoir, 91, 65–68.Google Scholar Han, D., 1986, Effects of porosity and clay content on acoustic properties of sandstones and unconsolidated sediments. UnpublishedPh.D. dissertation, Stanford University.Google Scholar PerAvseth, et al. Quantitative Seismic Interpretation: Applying Rock Physics Tools to Reduce Interpretation Risk. Cambridge, Uk; New York, Cambridge University Press, 2005.Google ScholarCrossrefSearch ADS  Castagna, J. P., BatzleM. L. and KanT. K. (1993). Rock physics - The link between rock properties and AVO response, in offset-dependent reflectivity - Theory and practice of AVO analysis, ed. CastagnaJ. P. and M.Backus. Investigation in Geophysics, No. 8, SEG, Tulsa, Oklahoma, p. 135–171.Google Scholar Lowrie, William. Fundamentals of Geophysics. Cambridge, Cambridge University Press, Cop, 2007.Google Scholar Telford, W. M., Geldart, L. P., & Sheriff, R. E. (1990). Applied geophysics. Cambridge: Cambridge University Press.Google ScholarCrossrefSearch ADS  Gassmann, F. (1951). Elastic Waves Through A Packing Of Spheres. Geophysics, 16(4), 673–685. https://doi.org/10.1190/1.1437718Google ScholarCrossrefSearch ADS  Avseth, Per, et al.  "Rock-Physics Diagnostics of Depositional Texture, Diagenetic Alterations, and Reservoir Heterogeneity in High-Porosity Siliciclastic Sediments and Rocks — a Review of Selected Models and Suggested Workflows." GEOPHYSICS, vol. 75, no. 5, Sept.2010, pp. 75A31–75A47, 10.1190/1.3483770. Accessed 3 Sept. 2021.Google ScholarCrossrefSearch ADS  Mavko, G., TapanMukerji, & Dvorkin, J. (2009). The Rock Physics Handbook Tools for Seismic Analysis of Porous Media. Cambridge University Press.Google Scholar Berryman, J. G., and Milton, G. W., 1991, Exact results for generalized Gassmann's equation in composite porous media with two constituents. Geophysics, 56, 1950–1960.Google ScholarCrossrefSearch ADS  Hashin, Z., and Shtrikman, S., 1963, A variational approach to the elastic behavior of multiphase materials. Mech J. Phys. Solids, 11, 127–140.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211960-MS
+
+
+

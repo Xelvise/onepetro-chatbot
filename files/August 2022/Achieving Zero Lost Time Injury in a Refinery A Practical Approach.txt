@@ -1,0 +1,196 @@
+----- METADATA START -----
+Title: Achieving Zero Lost Time Injury in a Refinery: A Practical Approach
+Authors: Eretoru Robert, Camilla Junaid, Kawu Idris-Idah, Adebimpe Oyeyele, Daniel Olomolaiye
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211994-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+This paper aims to highlight and share some insight on how a modular crude oil refinery operating at 5000bopd capacity delivered refined products with zero LTI. The intention is to pass knowledge to upcoming modular refineries as projections from the Ministry of Petroleum Resources indicate that many more will spring up within the next few years. The refinery came live in November 2020 and was tasked with ensuring optimum production in a safe working environment. Since then, it has gone on to safely refine over one million barrels of crude oilIn the Oil and Gas industry, safety is a crucial determinant of the overall success of a facility’s operations. Refineries have even greater responsibilities, given that there is the presence of highly volatile and flammable hydrocarbons within the facility, and personnel having consistent interactions with these liquids pose a huge danger. Achieving zero LTI implies that in the period under review, no incidents occurred that prevented the continuity of the core activities of the workplace, no productive work time was lost due to injuries to an employee and as such, is a key indicator in measuring safety performance, hence its adoptionThe steps taken to minimize and eliminate risks peculiar to the refinery were discussed, with these taking the form of engineering controls, policies and procedures. It is interesting to note that in the operation of a refinery, the areas that are most vulnerable to accidents are outside the core process areas. The array of process control systems, alarms, and fail-safes keep the system within operational limits. The systems involved in the storage and offloading of hydrocarbon products, however, handle more volumes of hydrocarbon, with higher frequency and is prone to human error. This work is a summarised document that contains proactive safety-inclined solutions and lessons learned along the way, hopefully translating into increased productivity and safety within the downstream space.
+
+
+
+
+Keywords:
+downstream oil & gas,
+refinery,
+time injury,
+upstream oil & gas,
+personnel,
+procedure,
+petroleum engineer,
+hsse reporting,
+human factors,
+loading bay
+
+
+Subjects: 
+HSSE & Social Responsibility Management,
+Safety,
+HSSE reporting,
+Human factors (engineering and behavioral aspects),
+Operational safety
+
+
+
+
+Introduction
+
+
+Modular refineries are mini-refineries with the capacity to process between 1000 to 30000 bopd of crude oil. (Ogbon, et al., 2018) carried out a financial analysis on a 10kbpd modular refinery using a five-year projection on earnings and found its average annual net income is $45Million, indicating that they are economically viable ventures. With its construction flexibility, smaller capital requirement, and higher return on investment, little wonder the steep rise in the development of modular refineries in Nigeria to meet local energy demand.
+
+
+The operations and maintenance of such process facilities to continually meet business needs are contingent upon a pivotal element, SAFETY. Production time is an important consideration in refinery management, where the focus is usually on crude oil to ensure maximum productivity in lesser time. However, the people who control/interact with the system can cause a greater loss in productive time if not properly managed. With that, we can say that safety is an integral part of achieving maximum productivity.
+
+
+Literature Review
+
+
+Oftentimes, Safety can broadly be classified into; process safety, behavioural safety, and managerial safety.
+
+
+Figure 1View largeDownload slideSafety ClassificationFigure 1View largeDownload slideSafety Classification Close modal
+
+
+Process safety is usually catered for in the design phase with Hazard Identification (HAZID) and Hazard and Operability Analysis (HAZOP) to ensure the integrity of process systems. Managerial safety accounts for policies and implementation techniques the business have put in place to reduce the occurrence of accidents. Behavioral safety encompasses the employees’ attitude towards already laid out guidelines from both process and managerial safety. This study will discuss the practical approach these components utilized in contributing to the success of refining over one million barrels of crude oil without any lost time due to injury.
+
+
+There are set guidelines and procedures that when followed, ensure smooth and safe operations which in turn ensured zero LTI during the period under review. These procedures were adopted and modified to suit the peculiar environment (refinery).
+
+
+Process Safety
+
+
+Understanding hazards and risks, management of risk by providing appropriate layers of protection to reduce the frequency and severity of incidents and learning from incidents when they happen is a summary of process safety. In the refinery under review, measures were incorporated to ensure the safety of the process. This includes a HAZID and HAZOP study.
+
+
+HAZID Study broke the refinery down into parts for detailed analysis. During this analysis, hazards capable of causing injury to personnel, asset damage or loss, environmental damage, loss of production, or LTI. The HAZID process was based on the company’s hazard control hierarchy. Hazards require some form of control to mitigate risks. By deploying this tool during the design phase, the refinery was determined to be a feasible project from a safety point of view.
+
+
+A comprehensive HAZOP study helps to identify and evaluate problems that may represent risks to personnel, equipment, or project efficiency (Siddiqui, et al., 2014). Process parameters and guidewords are examined methodically to ensure that the process is explored in every possible way.
+
+
+A concise HAZID and HAZOP study engender engineering controls that mitigate/eliminate identified possible hazards. In the case of this refinery, some of the practical engineering controls which were implemented include:
+
+
+Installation of flame arrestors in the flare systems.Deployment of Emergency Shutdown (ESD) buttons across various systems of the facility - Heater, Pump Systems, Control Screens, etc.Use of audible alarms across systems. The Boiler System, for instance, has an alarm that signifies both low and high levels of water and pressure.Equipment of all vessels (boiler, crude distillation unit, air compressors, etc.) with pressure relief systems.Construction of spill containment drains at the Loading Bay area and the Inside Battery Limits (ISBL).Construction of bund walls for spill containment and a state-of-the-art fire-water system, which are forms of reactive engineering controls
+
+
+Still, under engineering controls, it is worthy to note that a refinery is different from other process plants in the oil and gas sector in the sense that there is an area where there is continuous exposure to hydrocarbon fluids during normal operations. The area in question is the Loading Bay, and because of the high risk it poses, specific engineering controls were put in place during the HAZID and HAZOP study of the refinery. These controls include but are not limited to:
+
+
+Construction and installation of a hood at the Naphtha offloading line that traps vapor from this product during offloading operations. This trapped vapor is channeled through a dedicated line to the flare system.Installation of an earthing clamp that guarantees a secure discharge of static charges during truck-loading operations.Provision of pressure relief vents and drains along product lines which aids depressurization thus, keeping overpressure at bay.Installation of an additional shut-off system in the form of a ball valve at the loading arms. This guarantees containment of products outside of operating hours.The provision of an ESD button on the HMI guarantees the stoppage of all loading processes in the case of a failure.
+
+
+Managerial Safety
+
+
+As already stated, managerial safety encompasses all policies put in place by the business to eliminate hazards and prevent the occurrence of accidents. Examples of these measures include:
+
+
+Enforcement of the use of job-appropriate personal protective equipment (PPEs).Enforcement of zero loading bay operations at nighttime.Creation of job checklists for both routine and non-routine jobs and operations.Provision of safety observation report cards (SOR cards). These are used to report observed unsafe acts and conditions. Etc.
+
+
+Behavioural Safety
+
+
+The behaviour of employees and contractors to the laid-down safety measures and policies put in place by management played a vital role in ensuring the safe running of the refinery. Some of the behaviours of workers include:
+
+
+Strict adherence to the use of the appropriate PPEs when carrying out jobs.Use of intrinsically safe devices in process areas.Good hazard identification, reporting, and appropriate response to possible hazards.Dutiful attendance to daily toolbox meetings which serve as reminders of safety-related issues and practices.The ‘safety is a personal responsibility’ mindset of workers.
+
+
+Discussion
+
+
+An overall effective combination of the three aspects of safety that have been outlined has resulted in Zero LTI in this refinery; no aspect can be left out. Some major examples, using different sections of the refinery, of how process, managerial and behavioural safety are combined to yield Zero LTI are outlined.
+
+
+Loading Bay
+
+
+As the Loading Bay has the most exposure both to flammability and to non-staff, the loading bay operators are fully empowered to give direct commands to ensure safety. They use a thorough checklist to certify a truck is fully suitable for loading. They can refuse to attend to trucks if safety would be compromised even in the tiniest way. Examples of common ways that safety could be compromised are:
+
+
+signs of leakage on the truckincomplete PPE on the truck operators/driversinaccurate or incomplete documentation on the truck capacities, even if it physically looks otherwise
+
+
+Before truck drivers bring in their trucks to the Refinery area, a series of basic checks are done by auxiliary staff to rule the truck eligible for loading in the first place. These checks go a long way in averting accidents that may otherwise have occurred from letting an unsafe truck near the process area. Auxiliary staff is present to coordinate the movement, arrangement, and alignment of trucks heading into the Loading Bay area. This helps to prevent driving accidents.
+
+
+The administrative sales section plays its part in ensuring that the customers are fully informed of the safety procedures on the Plant, even before they step foot into the refinery. The consequences of not complying with these safety procedures are also relayed to them. Reports of any likely incidents or lessons learned from the loading bay operations are compiled by the loading bay operators and shared among all staff of the plant. This helps other workers to be more alert and sensitive to potential dangers on the job that may otherwise have gone unnoticed. Lessons from the Loading Bay can be easily applied to other parts of the plant.
+
+
+It is very important that no loading operation, no matter how little, is handled by just one personnel at a time. At least two personnel must be present and available for such activity. As loading bay operations continue for hours on end, forced personnel breaks are taken very seriously. During these breaks, all operations at the loading bay are paused and personnel takes the needed number of minutes for rejuvenation before continuing work for the day.
+
+
+ISBL and OSBL
+
+
+The ISBL area is the heart of process operations, operations in this area require that hydrocarbon fluids are maintained with very specific values of temperature and pressure. The hydrocarbon fluids in this area are at relatively high temperatures and pressures above atmospheric pressures. It thus follows that any condition under which fluid is exposed to air is potentially dangerous as all elements of the fire triangle are present. To efficiently run the process operations while achieving zero LTI, it is inadequate to only monitor the process conditions and see that they are within acceptable values. Physical inspection of systems is essential. A few of these checks are enumerated below:
+
+
+Periodic verification that field instrument readings correspond to values transmitted to the process control center.Inspection of vessels, pumps, process equipment, and pipelines for spills or signs of leakage.Checks that spill containment systems are not obstructed, clogged, or closed.Monitoring concentration of hydrocarbon vapors using the pertinent equipment.Corrosion monitoring and checking that prevention systems are fully functional.
+
+
+The above checks are essential and are done with a sense of awareness of potential risk factors.
+
+
+The OSBL area of the refinery is particularly unique in its function and consequential risks. The area contains large volumes of hydrocarbons in storage along with a variety of equipment. Special care is taken to isolate the two sections, as their combination is a risk factor. The section of the OSBL where equipment is located is the Utility Area. It consists of the boiler and its associated systems, air compressors, pumps, and Inline heaters. The Tank Farm, where the hydrocarbon storage tanks are located, on the other hand, is isolated from the Utility Area. The storage tanks are surrounded by a bund wall to contain spills with drainage valves that are kept closed. The storage tanks also have an independent fire system to cater for hydrocarbon fires. A good portion of the inherent risks in the OSBL area are catered for in the design, but just like in the ISBL area, operational practices are needed to eliminate risks (Refinery X 2020). These practices are highlighted below:
+
+
+Monitoring of liquid levels in storage tanks to avoid loss of containmentInspection of boilers, heaters, pumps, pipelines, and tanks for leaks or spillsPeriodic servicing and operation of fire equipmentFunction test on boiler pressure control systemsCorrosion monitoring
+
+
+Laboratory
+
+
+The laboratory contains different equipment used to perform quality control (and quality assurance) on products and raw materials. Handling of this equipment is permitted to be done only by trained laboratory staff. The laboratory staff has been fully equipped with PPE to ensure that all concerned parts of the body are protected. While product analyses are going on, entry into the laboratory and laboratory area is highly limited, to prevent inhalation of toxic fumes which would result from not wearing a protective nose mask or injury to the skin from hot fluids. The proper arrangement and organization of equipment in the laboratory minimizes the probability of accidents that may otherwise occur from trips and falls from cables and equipment parts (Refinery X 2020).
+
+
+Like the Loading Bay, more than one personnel are at work in the laboratory at a time. This would ensure that an eye is kept on all working equipment at every point in time. Any sign of malfunction or job completion can be attended to. Checks are also done at the end of every analysis and at the end of the day to ensure that equipment is returned to its off or dormant position when not in use.
+
+
+All laboratory personnel are completely familiar with all equipment manuals and understands their operations and maintenance. The needed validations and calibrations are done timely, according to schedules. Constant clean-up is done by lab and cleaning personnel to avoid slips that could result from spills and to also ensure that surfaces are free of loose hydrocarbons.
+
+
+General Safety Actions
+
+
+The members of the appointed safety team play their part in ensuring that they are doing checks on safety equipment on the plant. A major example of this safety equipment is Fire Extinguishers.
+
+
+Practical and theoretical safety training and meetings are held every month (and with more frequency, if necessary), ensuring that every department is well represented. These training and meetings help to mentally equip staff with an update on safety practices needed for work on the Plant.
+
+
+Toolbox meetings are held every day and a timetable is used such that each staff can come up with and share lessons on a topic that everyone would benefit from. This improves knowledge sharing amongst everyone and puts them on the same page about work and personal safety.
+
+
+Quality of food and quality of living cannot be overlooked when considering proper physical and mental working practices. Personnel's mind and body must be well taken care of before they can do work safely, after all, safety starts from good thinking before physical application. Necessary provisions are made to ensure that feeding and living conditions are top-notch.
+
+
+Conclusion
+
+
+To achieve Zero Lost Time Injury in the refinery, which is a constantly operating and dynamic process plant, all parts of safety – process, managerial and behavioural need to be fully and constantly applied. Every personnel involved, even in the tiniest way possible, must fully play their part in ensuring this.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Siddiqui, N. A., Nandan, A. & Sharma, M., 2014. Risk Management Techniques HAZOP & HAZID Study. International Journal on Occupational Health & Safety, Fire & Environment - Allied Science, July, 1(1), pp. 005-008.Google Scholar Ogbon, N., Otanocha, O. & A., R.-R., 2018. An Assessment of the Economic Viability and Competitiveness of Modular Refinery in Nigeria. Nigerian Journal of Technology (NIJOTECH), 37(4), pp. 1015 - 1025.Google ScholarCrossrefSearch ADS  Refinery X. 2020. "Refinery X Operations and Maintenance Manual."Refinery X. 2020. "Refinery X Laboratory Manual."
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211994-MS
+
+
+

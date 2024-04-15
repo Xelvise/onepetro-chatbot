@@ -1,0 +1,166 @@
+----- METADATA START -----
+Title: Cost Optimization by Designing an Ultra-Slim Horizontal Well in the Niger Delta – The Eremor Field Case Study
+Authors: Ugo' Okoli, Hope Okwa, Segun Adebayo, Ifiok Mkpong
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212041-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Oil price volatility is one of the major drivers, which drive the decision of Operators to drill oil wells to further develop oil fields. A more significant constraint, which deals a huge blow on the Marginal Field Operators in the Niger Delta is the huge and ‘unavailable’ CAPEX associated to the delivery of these wells.This paper elucidates how ‘detailed’ well design and optimization were used to design and deliver two swamp wells for a Marginal Field operator in the Niger Delta. With the application of detailed engineering and optimization processes, the well costs were reduced by over 50%.The wells were initially designed, and to be delivered for circa $13MM per well, which is the P50 cost of drilling Swamp wells in the Niger Delta. However, post design optimization, the wells were designed and delivered for circa 6.5MM per Well.The paper also details the drilling execution methods put in place to ensure that the wells designed were delivered efficiently.
+
+
+
+
+Keywords:
+drilling operation,
+well planning,
+upstream oil & gas,
+asset and portfolio management,
+spe nigeria annual international conference,
+case study,
+eremor field case study,
+optimization,
+drilling engineer,
+exhibition
+
+
+Subjects: 
+Well Planning,
+Drilling Operations,
+Asset and Portfolio Management,
+Professionalism, Training, and Education,
+Information Management and Systems,
+Directional drilling,
+Communities of practice,
+Knowledge management
+
+
+
+
+Introduction and method
+
+
+The "Horizon A & B" project was planned and delivered at a time when the world was just trying to recover from the COVID-19 pandemic, as the world literarily came to a grinding halt. Airports were closed, flights were grounded, companies had to downsize prevent a total collapse. This downsizing extremely affected the oil producing companies, because oil and gas products were marginally used.
+
+
+At this time, all the metrices used for financial analysis estimated the project to be marginally profitable, thus it didn’t make sense to embark on a drilling campaign at this time.
+
+
+However, it was very important to the operator at this time to drill more wells and further develop the block, and it was imperative to deliver the project within the planned time and budget.
+
+
+Prior to the commencement of the detailed well design of the development wells, a detailed review of the offset information was carried out to ensure that all good practices were replicable or even improved upon This information was used to enhance the of all the planning and operational phases of the project. It was also required to adhere to the guidelines of the new variable ‘COVID-19’, put in place by regulatory bodies.
+
+
+Some other processes used to ensure optimization are made lucid below:
+
+
+Concept Select and Basis of Design Optimization
+
+
+The following optimization initiatives were identified and implemented during this phase:
+
+
+Well Architecture: The offset wells constituted of a 20" conductor (driven to refusal), 13-3/8" surface casing (post drilling 17-1/2" surface hole), 9-5/8in casing (post drilling 12-1/4" intermediate section). To reduce the capital expenditure (CAPEX), the well size was scaled down to 20’’ conductor, 7" surface casing, 6" landing & lateral’’ hole sections with a 4-1/2’’ lower completion assembly and 3-1/2" upper completions.By reducing the hole size and casing string, circa $2MM per well was saved, further savings were achieved from the reduced logistics, reduced drilling fluid and cement volumes, OCTG and waste management costs.Detailed Offset Review & Analogue Wells: A detailed review of analogue wells was conducted and analysis showed that this well could be drilled and completed in 10 days. Some key activities and drilling parameters were studied and included into the Horizon A & B project.Optimizing the Directional Plan and Well placement: The two planned wells were planned to be drilled in close proximity with existing wells, this raised some collision issues. Thus, an additional area had to be dredged to further optimize well placement and reduce/eliminate any collision risk. Certain processes were put in place to ensure the collision issues are annulled; they include: Early/shallow nudge of the well at circa 300-400ft (right below the conductor shoe), to increase the separation factor from other wells and minimize the collision risk.Keeping DLS at maximum of 3deg/100ft while drilling in all hole sections.Drill the surface holes directionally to place the wellbore as much as possible in the direction of the landing azimuth.It was also ensured that the planned trajectories were reviewed to ensure less tortuous well paths and low to moderate Directional Difficulty Index (DDI), while optimally placing the lateral sections away from the prognosed ratty sands.
+
+
+Figure 1View largeDownload slideFinal Well ArchitectureFigure 1View largeDownload slideFinal Well Architecture Close modal
+
+
+Figure 2View largeDownload slideOptimized Well profilesFigure 2View largeDownload slideOptimized Well profiles Close modal
+
+
+Rig Selection, certification and acceptance
+
+
+Owing to the supposedly "wrong timing" of the drilling campaign, getting a fit-for-purpose rig was a big task. Post identifying a rig technically suitable to deliver the planned wells, a robust rig inspection scope requiring expert surveyors (HSE, mechanical and electrical) was used to ensure that all critical equipment on the rig was fully functional and certified prior to accepting the rig. All critical and major deficiencies had to be rectified before the rig acceptance. The process steps used to certify the rig include;
+
+
+Equipment inspectionRepairing the defective equipment.Function testing / pressure testing of equipment.Certify equipmentRig up equipment.Valid certification of rig personnel
+
+
+On completion, a rig acceptance test was conducted for 5 days to ascertain that rig equipment was fully functional and ready for use.
+
+
+Contracting Strategy
+
+
+There was a decline in oil price, rig count was on a decline, and not cost effective to drill wells. Because of this constrain, the team came up with a lump sum strategy for all the contracts based on the low oil price at the time. This helped reduce significantly the spread rate during operations, thus the cost of the wells and the overall CAPEX of the project.
+
+
+Optimization of Drilling Operations (Operations and Logistics)
+
+
+The following optimization initiatives were identified and implemented during this phase: Driving the Conductor Pipes Offline: The initial plan was to drive the conductors with the rig. However, after a detailed analysis and evaluation it was confirmed that there was a huge saving potential, if the conductor pipes were driven offline. This was implemented successfully.Onsite Operations Supervision: During the execution phase of the project there was efficient and comprehensive monitoring of all the operations during the campaign. The field team constituted of the Drilling Supervisor and Night Drilling Supervisor, Completion Superintendent, Safety Officer, Wellsite Drilling Engineer and Logistics Coordinator.
+
+
+The onshore Operations Team constituted of the Drilling Engineer, Senior Drilling Engineer, and Chief Well Engineer. It was ensured that this team remained relatively constant throughout the drilling campaign, ensuring the continuity of personnel from well to well, and using the same operational standards and procedures.
+
+
+Communication Loop System
+
+
+To ensure that the detailed plan was efficiently executed, the planned well delivery meetings and comminications was adhered to. The following meetings were held as required to ensure that all pertinent information were communicated and understood.
+
+
+Pre-morning discussion with the Drilling Supervisor and rig team.Daily conference call in the morning by the Chief Well Engineer and rig crew.Evening operations update by 4.00pm, to bridge any possible gaps.
+
+
+The daily conference call hosted by the Chief Well Engineer commenced once the rig was on location. Participants included the Drilling Supervisor, Rig Manager, Logistics Coordinator, Safety officer Drilling Engineers and Completion Superintendent. Service Contractor staff were compelled to participate and contribute when necessary.
+
+
+Other Well delivery/pre-and post-operational meetings held which were used to closely monitor the operations include: Campaign Kick-off Meeting: The campaign kick-off meeting is the first meeting with the project team. It was held to introduce the "Horizon A & B" project to the Rig and service contractors. The meeting was also used to introduce all team members and discuss in detail the role of every team member.Drilling Well on Paper: Drilling the well on paper (DWOP) process involved working through each step of the operation in 15 – 30-minute intervals, assessing if each step could be optimized or improved and then agreeing on an empirical time to accomplish each task. The final timing from the review is the target time against which the rig is supposed to deliver. The COVID-19 protocols had to be observed and the DWOP was held virtually. It was ensured that the actual service contractor personnel who was going to do the job was available for the meeting. Comments and updates from the DWOP were then used to update the drilling program.Pre-spud Meeting: The pre-spud meeting was an overview of operation held at the rig site. It was a re-cap of everything that was discussed at the DWOP and was held prior to spudding the well. It was a more practical meeting where unclosed action items and processes were firmed up.Pre-Section Meetings: Pre-section meetings were held prior to every phase of the operation, just before the commencement of the phase. It was a "reminder" type of meeting that elaborates mostly on the required parameters (flowrates, mud weight, equivalent circulating density limits, Revolutions per minute (RPM) etc.). This meeting was usually a teleconference between Lagos office and the Rig site and was mandatory that all the rig and service contractors who would be part of the immediate operation be present for this meeting.Pre-Tour, JSAs, Toolbox: Pre-tour, JSAs and Toolbox meetings were held on the Rigsite immediately after the pre-section meeting and prior to the commencement of the operation. It served to further buttress all that was discussed at the pre-section meeting.Besides the meetings and workshops discussed above, there was regular communication with the Rigsite especially at nocturnal hours to ensure that jobs were executed as per plan. The drilling operations was also monitored "Real-Time" at the Lagos office, especially when it was required to land the well in the proposed reservoir and optimally geosteering the drain in the target reservoir sands.
+
+
+Safety
+
+
+Safety was ensured priority in every facet of the operation. Appropriate risk assessment of all operations had to be conducted before any operation commenced.
+
+
+To forestall possible significant safety incidents, "Stop work Authority", an initiative aimed at preventing incidents in operation was enacted. The process ensured the following: Full stop card participation, (100%) by everyone on the rig. This was used to track and curb leading indicators that could become incidents.That the rig and service contractors comply with the standard international HSE requirements.Detailed risk assessment was carried out prior to any operation; the risk assessment was further reviewed during the Drilling Well on paper to ensure all risks were captured and mitigated.With this in place, the drilling contractor, with the full support of management achieved a high creditable record and standard of safety. This included an effective safety hazard observation card (SHOC) system, that encouraged all members of the crew to recognize and record good and bad practices. No FAT, LTI or RWDC was recorded throughout the six (6) months of operation.The safety objective was made clear in all documentation as follows: "The principal objective was to deliver the planned work scope without any incidents, high potential near misses and uncontrolled discharges to the environment during the well construction process".
+
+
+"Horizon A & B" Operations Performance
+
+
+The first development well "Horizon"-A was drilled and completed in thirty-one (31) days. Being the first well of the project, there were a lot of improvement areas identified to help reduce the flat times. Some of these areas included (on-bottom times, ROPs, casing running speed etc.). This was also the first time this drilling crew was drilling an unconventional well. After a thorough review of the operational timings, the team were challenged to drill and complete the next well in twenty (20) days without falling short of the HSE targets. With continuous reviews and optimization plans, the second well was delivered in less than 29 days (This included additional scope of a Pilot hole, Plug back, & Logging operations).
+
+
+Figure 3View largeDownload slidePost Operations Composite Depth Time CurveFigure 3View largeDownload slidePost Operations Composite Depth Time Curve Close modal
+
+
+Rushmore reviews, an external database designed to gather operations data from all operating companies was used to perform performance benchmarking on the "Horizon" wells drilled. Both wells drilled on this development project were benchmarked against eight similar wells drilled by other Operators in Nigeria. Two performance metrices (ft/day and $/ft -see charts below) were used for this benchmarking exercise. Results from this review showed that the Horizon Wells are within a P10.
+
+
+Figure 4View largeDownload slideWell Performance Comparison plotFigure 4View largeDownload slideWell Performance Comparison plot Close modal
+
+
+Figure 5View largeDownload slideWell Performance Comparison plotFigure 5View largeDownload slideWell Performance Comparison plot Close modal
+
+
+Conclusion
+
+
+The re-engineering of the wells, dedication of the team to the project, incentive strategy and optimization processes put in place helped in the delivery of two (2) safe, reliable, and affordable well for the Nigerian Marginal Operator.These wells were successfully drilled and completed, and are currently producing.An average of twenty-three (23) days and six Million dollars ($6MM) was spent per well.The "Horizon" project can be termed a very successful operation due to the following highlights; Horizontal drains were effectively placed in the target sands meeting all reservoir and production engineering objectives, with a Productivity Index (PI) of circa 2000bbls/day/psi.All HSE KPI’s were met (FAT, LTI, RWDC).Work scope was delivered without any community issues.The project achieved an average NPT of 10%.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+OkoliUgo', NumbereOtokini, NtiwunkaGreg, EmmanuelIfediora, ChikeNwagu, PrinceAigbedion, EleanorOkubor, HassannahSalami (2021): Delivering Best in Class Wells: A Case Study (SPE-203705-MS).Google Scholar OkoliUgo', Numbere, O., Aigbedion, P. and others (2019): "Reducing Drilling Operations Cost Through Rental Inventory Management - A Case Study (SPE Paper 198804), SPENigeria Annual International Conference and Exhibition, 5th -7th August, Lagos, Nigeria.Google Scholar OkoliUgo' (2013): Drilling cost effective Wells by incorporating lessons learnt into drilling operations; OML 126 Wells (Phase 1 FDP) (SPE 167598), SPE Nigeria Annual International Conference and Exhibition, August 2013, Lagos, Nigeria.Google Scholar OkoliUgo', NumbereOtokini (2014): The Importance of Geomechanical Analysis for Well Design and Engineering, SPE Nigeria Annual International Conference and Exhibition, August 2013, Lagos, Nigeria.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212041-MS
+
+
+

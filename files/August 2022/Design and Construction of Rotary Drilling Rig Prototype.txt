@@ -1,0 +1,216 @@
+----- METADATA START -----
+Title: Design and Construction of Rotary Drilling Rig Prototype
+Authors: Adekunle Adeniyi, Anselm Igbafe, Olokpa Ebis, Adebayo Ogunyemi, Sikiru Yusuff, Oluwadare Oyebode
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211999-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Drilling in search for hydrocarbon is an essential component of exploration and production activities. Chemicals, Drill rig, Casing, Tubing, Drill pipes and bits are basic requirements to successfully drill a well. Rotary Drilling rig is very crucial among the basic requirements. A major function of rotary drilling rig, is continuous circulation of drilling fluid and removal of cuttings. Hence, this paper focused on the design and construction of drilling rig prototype, for training purposes in academic environment. Components were constructed from the most suitable materials obtained from metal scraps individually, and when put together forms an integrated system that enables the drilling process to make a well. The prototype was produced successfully. The mixing hopper, hoisting and the mud circulatory systems were fully incorporated and connected. The rig prototype was, in principle, to transport fluid from the mud pit up the stand pipe to the swivel via the rotary hose down the drill pipe to the annulus and back to the mud pit through the shale shaker, De-sander, De-gasser, De-silter units, via the mud return line. The drawworks is to lift the drill pipe and lower it back into the rotary table with the aid of the drawworks motor and a top drive system.
+
+
+
+
+Keywords:
+drilling equipment,
+well control,
+annular pressure drilling,
+rig,
+representation,
+prototype,
+mini rotary drilling rig prototype,
+upstream oil & gas,
+drilling fluids and materials,
+pipe
+
+
+Subjects: 
+Drilling Operations,
+Pressure Management,
+Drilling Equipment,
+Drilling Fluids and Materials,
+Well control,
+Drilling fluid management & disposal
+
+
+
+
+Introduction
+
+
+Drill is to bore a hole in the earth, usually to find and remove subsurface formation fluids such as oil and gas. And drilling rig often refered to as rig, it is the derrick or mast, drawworks, and attendant surface equipment of a drilling or workover unit (Petroleum Extention Service, 1991)6. Drilling in search for hydrocarbons has gone through different stages and increasing levels of sophistications. In the early days of oil business, oil seepages were observed on the surface of the earth, such flows could be scoop and keep. Then came the cable tool sytem, up and down movements of heavy loads. Rotary drilling system is the modern and most sophisticated method of oil well drilling. Rotary drilling is a method in which a hole is drilled by a rotating bit to which a downward force is applied. The bit is fastened to and rotated by the drill stem, which also provides a passageway through which the drilling fluid is circulated. Additional joints of drill pipe are added as drilling progresses (Petroleum Extention Service, 1991)6.
+
+
+The three types or classifications of rotary drilling rigs are; Onshore, Swamp, Offshore Rigs
+
+
+The Onshore type of rig is also called land rig and were constructed in a way that, the derrick can be moved easily and reused for another well. Components in land rigs were skid mounted in such a way that rig can be moved in units and assemble at the location. Examples of the land rigs are the Jack Knife and Helicopter rig. The jack knife is a rig that has access road to site while the Helicopter drilling rig does not have access road to site because of the topography of the environment and communal problems (Gatlin Carl.,1960). The offshore rigs are put in place after its components were assembled on the barge, and then unit is towed to the location and sunk by flooding the barge. After a successful drilling operation is completed, the water is pumped out from the barge, allowing the barge to float and then moved to the next location (Robert, et al., 2017). Examples of offshore drill rigs are Jack up rig, Permanent platforms, Barge mounted/Submersible rig, Tender support rig, Drill ship, Semi-submersible rig, Floating Production and Storage Operations (FPSO). Wherever there is transition from land to deep offshore, depth sea bottom or competent layers determine the choice of appropriate rig. Among the available choices are Drillship, FPSO.
+
+
+As stated earlier, rotary drilling rig is an assembly of machines of different types and functions that are linked up to create a hole. Those components included, derrick or mast, substructure, Power and prime movers, hoisting components, rotating components, Circulating components, Well control component, Tubular and tubular handling equipment, and Bits (Paul Bommer, 2008). Each of the components listed are also made up of subconponents as shown in figure 1. In onshore operations, the rig includes virtually everything except living quarters. In this study, a signicant percentage of all the components were sourced locally. Figure 2 illustrated side views of a rotary drilling rig.
+
+
+Figure 1View largeDownload slideThe fluid circulation system in roatary drilling (Petroleum Extention Service 1991)Figure 1View largeDownload slideThe fluid circulation system in roatary drilling (Petroleum Extention Service 1991) Close modal
+
+
+Figure 2View largeDownload slideSide view of a Rotary Drilling RigFigure 2View largeDownload slideSide view of a Rotary Drilling Rig Close modal
+
+
+Various types of oil well that were drilled with rotary drilling, each with different functions and purposes are Exploration wells (or wildcat wells), Appraisal wells, Development or production wells, Relief wells are drilled, and Injection well. Depth of each these wells varies.
+
+
+Plate 1View largeDownload slideA Rotary Drilling RigPlate 1View largeDownload slideA Rotary Drilling Rig Close modal
+
+
+Methodology
+
+
+A design of rotary drilling rig patent number #3,826,472, plate 1, registered in United State of America on 30th July 1974 as detailed by (Woolslayer, et al., 1974) is adopted as the base for construction of the rig prototype shown figure 7.
+
+
+Figure 3View largeDownload slideFlow chart for detailed proceduresFigure 3View largeDownload slideFlow chart for detailed procedures Close modal
+
+
+Figure 7View largeDownload slideThe Rotary Drilling RigrotoptypeFigure 7View largeDownload slideThe Rotary Drilling Rigrotoptype Close modal
+
+
+Basic steps taken to arrive at the prototype rig was detailed below (Charles, et al.,2016).
+
+
+List of Equipment
+
+
+The following set of equipment were used during the construction; Filing machine, Brazing machine, Welding torch, Generator, Grinding machine, Pliers, Screw drivers, biding wires and Cutters.
+
+
+Materials Used
+
+
+A list of materials and the quantities of materials used to make a mini rotary drilling rig prototype are tabulated in table 1.
+
+
+Table 1Materials Used Materials
+            . Quantity
+            . Plates 4 pieces 13mm Rods 5 pieces 8mm Rods 4 pieces 1-inch Square pipe 3 pieces Angle iron 2 pieces 1¾ inch pipe 1 piece 1 inch pipe 1 piece ¼ rod 1 piece 1¾ pvc pipe 1 piece 1 inch pvc pipe 1 and ½ pieces ¾ inch pipe 1 piece ½ inch pipe 2 and ½ pieces 1 inch valve 7 pieces ¾ valve 8 pieces ½ inch valve 12 pieces 1 inch elbow 5 pieces ¾ inch elbow 9 pieces ½ inch elbow 6 pieces Copper cable 15 ft Cable connectors 4 pieces Bulbs 5 pieces Lamp holders 5 pieces 0.5 horse power pump 2 pieces Draw works motor 1 piece Top drive motor 1 piece Draw works control switch 1 piece Breaker switch 1 piece Materials
+            . Quantity
+            . Plates 4 pieces 13mm Rods 5 pieces 8mm Rods 4 pieces 1-inch Square pipe 3 pieces Angle iron 2 pieces 1¾ inch pipe 1 piece 1 inch pipe 1 piece ¼ rod 1 piece 1¾ pvc pipe 1 piece 1 inch pvc pipe 1 and ½ pieces ¾ inch pipe 1 piece ½ inch pipe 2 and ½ pieces 1 inch valve 7 pieces ¾ valve 8 pieces ½ inch valve 12 pieces 1 inch elbow 5 pieces ¾ inch elbow 9 pieces ½ inch elbow 6 pieces Copper cable 15 ft Cable connectors 4 pieces Bulbs 5 pieces Lamp holders 5 pieces 0.5 horse power pump 2 pieces Draw works motor 1 piece Top drive motor 1 piece Draw works control switch 1 piece Breaker switch 1 piece View Large
+
+
+Components and Dimemtions
+
+
+Similarly, components and dimensions of the mini rotary drilling rig prototype are tabulated in table 2.
+
+
+Table 2Components and Dimension Components
+            . Material
+            . Dimension
+            . The barge 2 rods and 1½ plates 36" * 82" * 9" the engine room 1-inch pipe and plate 22" * 30" * 39" The pump room and sack room 1-inch pipe, plate, and mesh 28" * 30" * 27" The pits Metal plate and pvc pipe fittings 43 litres The living quarters and helideck 8mm rod, plate, square pipe - The pipe deck 8mm rod, 1 inch square pipe, 2inch square pipe - The rig floor 8 mm rods, metal plate - The draw works Electric motor, metal plate shaft bolt and nuts and pulley - The drillers console Switches indicator light metal plate - The choke manifold Pvc pipes and pvc fittings - The rotary table Pvc pipes - The poor boy degasser Metal cylinder and pvc pipe - The derrick 8mm rods - The crown block Pulley and shaft - The travelling block Metal plate pulleys shaft and nuts - The traveling block dolly Metal bar - The top drive Electric motor metal bars and metal plates - The top drive motor Electric motor - The shale shaker Metal plate - The degasser Metal plate - The deader Metal plate - The desilter Metal plate - The blow out preventer (BOP) Pvc pipe and pvc fittings - Components
+            . Material
+            . Dimension
+            . The barge 2 rods and 1½ plates 36" * 82" * 9" the engine room 1-inch pipe and plate 22" * 30" * 39" The pump room and sack room 1-inch pipe, plate, and mesh 28" * 30" * 27" The pits Metal plate and pvc pipe fittings 43 litres The living quarters and helideck 8mm rod, plate, square pipe - The pipe deck 8mm rod, 1 inch square pipe, 2inch square pipe - The rig floor 8 mm rods, metal plate - The draw works Electric motor, metal plate shaft bolt and nuts and pulley - The drillers console Switches indicator light metal plate - The choke manifold Pvc pipes and pvc fittings - The rotary table Pvc pipes - The poor boy degasser Metal cylinder and pvc pipe - The derrick 8mm rods - The crown block Pulley and shaft - The travelling block Metal plate pulleys shaft and nuts - The traveling block dolly Metal bar - The top drive Electric motor metal bars and metal plates - The top drive motor Electric motor - The shale shaker Metal plate - The degasser Metal plate - The deader Metal plate - The desilter Metal plate - The blow out preventer (BOP) Pvc pipe and pvc fittings - View Large
+
+
+Procedures for each Components
+
+
+Table 3 contained summary of procedural steps to produce component parts of the mini rotary drilling rig prototype (Ding, et al.,2018).
+
+
+Table 3Procedures S/N
+            . Component
+            . Procedure
+            . 1 Barge Rods were welded together to provide strength and structure of the barge. Metal plate was cut to size to fit the dimension of the barge. There was also the provision of the moon pool 2 Engine room Rods, metal plates were welded together to fabricate the engine room. The engine room was constructed with wires, sockets and a breaker switch, 3 Pump and sack room Rods and metal plates were welded together to fit the dimension of the pump and sack room in such a way that it accommodates the mud pits, the mud pumps, the mixing pump and the mud mixing chemicals. 4 The mud pits 2 mud pits were constructed i.e the active and the reserve pits and they were properly connected to the mud pump and mixing pump using appropriate pvc fittings. 5 The living quarters and helideck Rods and metal plates were welded together to meet the require specification of the living quarters, bulbs were also installed to help illuminate the living quarters in order to provide beauty. Above the living quarters is the helideck where choppers land and take off with personnel’s 6 The pipe deck This is found just above the pump and sack room rods were welded to represent the pipe rack, the cat walk was constructed with rods and plates welded together. Also hand rails were constructed on it to provide guide 7 Rig floor 1-inch square pipe metal plates and rods were constructed and welded together to meet the desired specification of the rig floor in order for it to house and accommodate all components that will be mounted and installed on it 8 The draw works Metal plate, drum, nut, bolt and washers were welded and designed to carry out the function of the draw works that is provide the strength for hoisting movement. The electric motor was also connected to the draw works 9 The drillers console Metal plates and switches were designed to form the drillers console on the rig floor 10 Choke manifold Pvc pipes, valves and elbows were designed to divert and control flow 11 The stand pipe The stand pipe is made out of pvc piping, it takes mud from the pit and delivers it to the drill pipe via the rotary hose and delivers it to the drill pipes 12 Rotary table The rotary table was constructed out of pvc pipe to guide the drill string into the hole 13 Poor boy degasser A cylindrical metal was fabricated and designed to suit the representation of the poor boy degasser 14 The derrick Rods were cut to suit the mast height and also to brace in other to add strength to the derrick so as to support the raising and lowering of the load the draw works pulls 15 The crown block A single pulley was placed at top of the derrick to represent the crown block 16 The travellin g block Metal plate was cut to shape and size also welded to meet the description of the travelling block 17 Travelling blockdolly A long length of metal bar was welded for the top of the derrick to just above the draw works to aid the hoisting movement of the top drive. 18 The to pdrive The top drive was constructed out of metal plated metal bars and an electric motor it has a pair of bails that holds the elevator also a kelly hose that is connected to the stand pipe which aids the passage of mud from the pit to the drill pipe. 19 Shale shaker, degasser, desilter and de sander Metal plates were cut and welded together to make physical representations of these components 20 The blow out preventer The blow out preventer was constructed in a way that it is connected directly from the choke manifold allowing you to kill the well the kill line and and diverting the flow from the annulus to the poor boy degasser first via the choke line before going back to the shale shaker. It also provides an opening for the drill string 21 The mud return line Pvc piping was cut and positioned in a slant position to allow the mud return to the pit by gravity. Mud flows out of the drill pipe and come up through the annulus and returns to the mud pit via the mud return line. As the drilling system is a closed system S/N
+            . Component
+            . Procedure
+            . 1 Barge Rods were welded together to provide strength and structure of the barge. Metal plate was cut to size to fit the dimension of the barge. There was also the provision of the moon pool 2 Engine room Rods, metal plates were welded together to fabricate the engine room. The engine room was constructed with wires, sockets and a breaker switch, 3 Pump and sack room Rods and metal plates were welded together to fit the dimension of the pump and sack room in such a way that it accommodates the mud pits, the mud pumps, the mixing pump and the mud mixing chemicals. 4 The mud pits 2 mud pits were constructed i.e the active and the reserve pits and they were properly connected to the mud pump and mixing pump using appropriate pvc fittings. 5 The living quarters and helideck Rods and metal plates were welded together to meet the require specification of the living quarters, bulbs were also installed to help illuminate the living quarters in order to provide beauty. Above the living quarters is the helideck where choppers land and take off with personnel’s 6 The pipe deck This is found just above the pump and sack room rods were welded to represent the pipe rack, the cat walk was constructed with rods and plates welded together. Also hand rails were constructed on it to provide guide 7 Rig floor 1-inch square pipe metal plates and rods were constructed and welded together to meet the desired specification of the rig floor in order for it to house and accommodate all components that will be mounted and installed on it 8 The draw works Metal plate, drum, nut, bolt and washers were welded and designed to carry out the function of the draw works that is provide the strength for hoisting movement. The electric motor was also connected to the draw works 9 The drillers console Metal plates and switches were designed to form the drillers console on the rig floor 10 Choke manifold Pvc pipes, valves and elbows were designed to divert and control flow 11 The stand pipe The stand pipe is made out of pvc piping, it takes mud from the pit and delivers it to the drill pipe via the rotary hose and delivers it to the drill pipes 12 Rotary table The rotary table was constructed out of pvc pipe to guide the drill string into the hole 13 Poor boy degasser A cylindrical metal was fabricated and designed to suit the representation of the poor boy degasser 14 The derrick Rods were cut to suit the mast height and also to brace in other to add strength to the derrick so as to support the raising and lowering of the load the draw works pulls 15 The crown block A single pulley was placed at top of the derrick to represent the crown block 16 The travellin g block Metal plate was cut to shape and size also welded to meet the description of the travelling block 17 Travelling blockdolly A long length of metal bar was welded for the top of the derrick to just above the draw works to aid the hoisting movement of the top drive. 18 The to pdrive The top drive was constructed out of metal plated metal bars and an electric motor it has a pair of bails that holds the elevator also a kelly hose that is connected to the stand pipe which aids the passage of mud from the pit to the drill pipe. 19 Shale shaker, degasser, desilter and de sander Metal plates were cut and welded together to make physical representations of these components 20 The blow out preventer The blow out preventer was constructed in a way that it is connected directly from the choke manifold allowing you to kill the well the kill line and and diverting the flow from the annulus to the poor boy degasser first via the choke line before going back to the shale shaker. It also provides an opening for the drill string 21 The mud return line Pvc piping was cut and positioned in a slant position to allow the mud return to the pit by gravity. Mud flows out of the drill pipe and come up through the annulus and returns to the mud pit via the mud return line. As the drilling system is a closed system View Large
+
+
+Results and Discussion
+
+
+Results obtained on each component are listed under appendices.
+
+
+The Shale Shaker, Desander, Degasser and Desilter
+
+
+These components are all mere representation to create awareness to the learner and also to give a physical representation on how these components are interconnected to one another. A physical representation of the shale shaker, desander, degasser and desilter after construction and installation is shown in  appendix F. The function of this unit is to remove impurities in the mud stream.
+
+
+The Mixing Pump and Hopper
+
+
+The mixing pump unit also consists of 2 pumps with a manifold. 1 active and 1 on standby. In the process of mixing, a particular pit is circulated via the mixing pump the mixing hopper is mounted along the circulating line. Mud materials such as barite, bentonite, drilling salt amongst others are being introduced through the hopper. A physical representation of the mixing pump and the mixing hopper is shown in  appendix D.
+
+
+Conclusions
+
+
+A complex system of rotary drilling rig has been simplified in this study. Therefore, learning could made really easy for students. Similarly, a real operational rig could be produced by upscaling and use of quality materials. Another beauty of this study is that, the technology could be domesticated in some environments of needs. Such that a fewer amount of the component will be purchace.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgements
+
+
+We would like to express our appreciations to Mr. and Mrs. Ebis Olokpa for their financial support and Abiola Construction Yard for the permissions to make use of his workshop and tap from his wealth of experience. Contributions made by Engrs. John Owolabi, Busayo Ajediti, and Oluwagbenga Omotara were appreciated.
+
+
+Appendices
+
+
+The Barge
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+The Engine Room
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Field Men Quarters and Helipad
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Mixing Pump and Hopper
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Derrik Mast
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+The Shale Shaker, Desander, Degasser and Desilter
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+References
+
+
+Charles P.Alvord, Elsie M.Davis(2016): The Alvord and Davis Drill and Problem Book in Arithmetic: For Fifth to Eighth Grades. Published by Leopold Classic Library. Available on https://www.amazon.com/Alvord-Davis-Drill-Problem-Arithmetic/dp/B01AXXHVGY.Google Scholar DingZhu, KenjiFurui (2018). Modern Completion Technology for Oil and Gas Wells. First Edition. Published by McGraw Hill; Kindle edition. Available on Modern Completion Technology for Oil and Gas Wells, Zhu, Ding, Furui, Kenji, eBook - Amazon.com.Google Scholar Gatlin, Carl. (1960). Petroleum Engineering: Drilling and well Completion. Printed by the Library of Congress, with Catalog Number 60-6874. Downloadable on https://docs.google.com/file/d/0B8SQRbBWV6-pZUpWWU9VVVZmSU0/edit?resourcekey=0-5oe8nwpoEmkkx3V0-INheQ.Google Scholar PaulBommer (2008). A Primer of Oilwell Drilling. Published by The University of Texas Press. Available on https://www.libramar.net/news/a_primer_of_oilwell_drilling/2020-08-07-1918.Google Scholar Petroleum Extention Service (1991). Well Servicing: Introduction to Oil Well Service and WorkOver. Lesson 1, 2nd Edition, published by Petroleum Extension Service, Continuing & Extended Education, The University of Texas at Austin, Austin, Texas. In cooperation with Association of Energy Service Companies, Dallas, Texas.Robert F.Mitchel, StefanZ.Miska, R. F. (2017). Fundamentals of Drilling Engineering. SPE Textbook Series Vol. 12. Available on https://petroleumpdf.com/tag/fundamentals-of-drilling-engineering-download-free/.Google ScholarCrossrefSearch ADS  Woolslayer, Homer J., Jenkins, Cecil (1974). Oil Well Derrick with Guide Track for Travelling Block Dolly. United States Patent No. 3,826,472, available on https://www.freepatentsonline.com/3826472.pdf.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211999-MS
+
+
+

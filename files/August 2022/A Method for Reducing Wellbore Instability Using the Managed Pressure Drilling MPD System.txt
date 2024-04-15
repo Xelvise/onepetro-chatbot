@@ -1,0 +1,190 @@
+----- METADATA START -----
+Title: A Method for Reducing Wellbore Instability Using the Managed Pressure Drilling (MPD) System
+Authors: Chinedu Ejike, Tian Shouceng
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211902-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Drilling for oil and gas wells is considered as a risk factor that is perceived as tolerable. As drilling companies expand into harsh environments and farther depth, the probability of a potential failure increases. An unexpected influx to or from the wellbore might be disastrous if not handled properly. Drilling-related issues such as jammed pipes, lost circulation, and high mud costs demonstrate the need for improved drilling technologies. The goal is to limit annular frictional pressure losses, especially in fields where the pore pressure and fracture pressure gradient are too close together. If these issues can be resolved, the economics of drilling wells would increase, allowing the industry to drill previously uneconomical wells. Managed Pressure Drilling (MPD) is a unique approach that allows the control of annular frictional pressure losses and can solve these types of drilling challenges. The industry is still mostly unaware of the entire range of advantages. Prompt detecting and handling of an influx of formation fluids can have the possibility to reduce the magnitude and extent of a kick by operating on a faster time scale with greater precision. Constant Bottomhole Pressure (CBHP), Pressurised Mudcap Drilling (PMCD), and Dual Gradient Drilling (DGD) are a few MPD variants. MPD reduces drilling issues and increases the economics of drilling wells. This research focuses on strategies employed in MPD, with the goal of uncovering some of the less well-known and thus underappreciated possibilities.
+
+
+
+
+Keywords:
+drilling,
+variation,
+mud cap drilling,
+upstream oil & gas,
+application,
+mpd application,
+choke,
+managed pressure drilling,
+mpd,
+dual gradient drilling
+
+
+Subjects: 
+Pressure Management,
+Managed pressure drilling
+
+
+
+
+Introduction
+
+
+With the prevalence of reoccurring wellbore instability problems such as lost circulation, stuck pipe, excessive mud loss, influx during onshore and offshore drilling and the need for deeper wells to meet energy demands as current reservoirs recedes, managed pressure drilling (MPD) system is an advanced drilling technology that allows a driller to monitor annular pressures in the wellbore more precisely to avoid drilling-related issues. Drilling operations in an open-vessel setting are often subjected to instabilities, which contribute significantly to Non-Productive Time (NPT), an expense that must be factored into the overall project budget. The period when a rig is not drilling is known as NPT. Pressures in an open vessel can't be accurately controlled unless the well is shut down. As a result, rather than wasting time pulling the inner bushings to search for flow, well-controlled events concentrate on increasing flow. The influx volume becomes greater and more difficult to handle in that short period of time. Bottomhole pressure (PBH) can be better regulated with the recently developed MPD process.
+
+
+The main benefits of MPD are the elimination of drilling-related non-productive time and the opportunity to drill prospective wells that are technically and/or economically un-drillable with traditional methods [1]. It is unavoidable to take advantage of the benefits that MPD offers in a variety of conditions and environments. MPD would improve the economics of every well being drilled by reducing the NPT. Since the cost of NPT has a much greater economic impact on offshore drilling than onshore drilling, and because offshore operators’ portfolios contain a higher percentage of otherwise unfeasible opportunities, offshore is the area where the technology has the most potential to support the industry as a whole [2]. Using MPD, many drilling issues in any well can be alleviated. MPD implements new methods that require comprehension, and it requires time to gain trust in the technology enough to use it on a daily basis. With the current uneconomical resources in offshore markets and the problems that can arise when drilling a well, it is crucial that the oil and gas industry looks to MPD to boost drilling rig drilling capacity. The main goal is to establish a pressure profile in the well that stays within tight tolerances and near to the pore pressure, hole stability envelope, and fracture pressure boundaries of the activity envelope [3]. The purpose of this study is to reveal some of the less well-known and hence underestimated possibilities in MPD techniques, applications, and variants.
+
+
+MPD versus Underbalanced Drilling
+
+
+MPD is derived from a few unique technologies developed by its forerunner—underbalanced drilling (UBD). It is quite similar and applies the same method as UBD. When the well is underbalanced, the hydrostatic pressure of the mud is lower than the pore pressure. Protecting, characterizing, and maintaining the reservoir while not jeopardizing the well's capacity are the key goals of UBD. In-fluxes are encouraged to do this. If the well is producing gas while drilling, it is flared, reinjected, or sold at a gathering station. Generated oil is held in stock tanks if the drilling is performed onshore. The key difference between the two approaches is that UBD is used to avoid reservoir damage, while MPD is used to solve drilling problems [4]. UBD enables formation fluid influx by drilling with the fluid in the wellbore at a lower pressure than the pore pressure. MPD regulates reservoir pressure to maintain a balance between pore and fracture pressures. It's designed to manage any fluid influx that might occur during drilling, but it doesn't promote it. UBD is concerned with reservoir problems, while MPD is concerned with drilling issues.
+
+
+Basic Principle of this Technology
+
+
+The ability to control the BHP and pressure profile as required is the basic technique in MPD. The BHP can be measured in conventional drilling by adding the mud weight hydrostatic head and the annular friction pressure (AFP). The AFP is the friction pressure generated by the mud circulation during drilling while the equivalent circulating density of the BHP is known as ECD. During a connection, the pumps are shut off and the fluid is halted, removing the annular friction pressure. Pump start-up and stop-up may have a significant impact on the pressure profile, causing pressure to fluctuate outside of the pressure-gradient window and causing drilling issues. The returns gravity flow away from the rig floor in a traditional drilling method since it is exposed to the atmosphere [2]. The pumping rate is the only way to change BHP while drilling. MPD employs a pressurized, closed mud system. The BHP can be easily changed by adjusting backpressure while drilling.
+
+
+The most typical MPD setups include a rotating control device (RCD) and a choke. The RCD diverts the pressured mud returns from the annulus to the choke manifold. The mud returns device will stay closed and pressurized with the help of a seal assembly and the RCD, allowing the rig to drill ahead. The driller will apply backpressure to the wellbore by using the choke with the pressurized mud return device. If the pressure rises above the formation's fracture pressure, the driller may open the choke to relieve backpressure and lower the pressure. If the driller needs to boost pressure in the well, closing the choke will increase backpressure. This method is most commonly employed when the pumps are turned on and off during connections. The choke is closed when the pumps are switched off to apply backpressure to replace the missing AFP. When the pumps are turned on and the AFP rises, the choke can be opened to reduce backpressure. This assists in keeping the pressure profile inside the pressure window during the well. The pressure profile in Fig. 1 indicates that when the pressure is steady, it falls below the pore pressure and that when the pressure is flowing, it exceeds the fracture pressure. A driller can keep the pressure inside the pressure window by changing the mud weight and using backpressure. While circulating, the driller may reduce the mud weight to keep the pressure below the fracture pressure. Back pressure applied without circulating could hold the pressure above the formation's pore pressure. A driller could successfully drill a well with tight pressure margins by changing the drilling plan.
+
+
+Figure 1View largeDownload slideTight margin pressure gradient window [5]Figure 1View largeDownload slideTight margin pressure gradient window [5] Close modal
+
+
+Variations and Methods
+
+
+MPD operations are divided into ‘Variations,’ with each variation achieving one of its ‘Methods.’ Over the last few years, a few MPD variants and methods have been reported and referred to in MPD literature. This subsection covers a variety of methods for achieving MPD.
+
+
+Constant Bottomhole Pressure (CBHP)
+
+
+The CBHP MPD variation is one of the most commonly used MPD variants, and it aids in keeping the BHP (or wellbore pressure at a given depth) within a given range under both static and dynamic mud circulation conditions. Wellbore pressure (WBP) consistency aids in preventing drilling issues such as regular mud weight shifts, drilling through narrow windows, and safely meeting goal while lowering NPT. So far, two methods for CBHP variation have been identified: These are back pressure (BP) application and continuous circulation system (or CCS). The BP is also known as application of backpressure (ABP). The ABP system employs devices such as a blood pressure pump and chokes to help hold some blood pressure when connecting, keeping the WBP above the pore pressure (Pp). A Continuous Circulation Coupler (CCC) is used in the CCS to keep drilling mud flowing even when making or breaking contacts which as a result, the wellbore is still in a circulating state.
+
+
+Pressurised Mudcap Drilling (PMCD)
+
+
+PMCD, also known as ‘light annular mud cap’ or ‘closed-hole circulation drilling,’ is the most commonly used variation of MPD for drilling into heavily fragmented formations and areas with extreme lost circulation issues [6]. PMCD is based on a method known as ‘mudcap drilling,’ which has been used in the drilling industry for decades to drill fields such as the Austin chalk. PMCD uses a mixture of two drilling fluids to drill into these formations: a low density low-cost sacrificial fluid and a high density pressured mud column. The drill string and drill bit are pumped with an inexpensive sacrificial fluid that is readily accessible at most drilling sites, such as seawater in offshore locations. As shown in Fig. 2, this fluid carries the rock chips and cuttings away into the broken region. The annulus above this trouble zone contains a higher density fluid known as the mudcap. This mudcap fluid's hydrostatic head aids in sustaining the necessary BHP and preventing the well from kicking.
+
+
+Figure 2View largeDownload slideThe pressurized mud cap in the annulus prevents a kick by removing cuttings into the broken formation.Figure 2View largeDownload slideThe pressurized mud cap in the annulus prevents a kick by removing cuttings into the broken formation. Close modal
+
+
+Throughout the PMCD process, the annular pressure is controlled, and if it rises, signaling hydrocarbon migration into the annulus, more mud is injected into the annulus to restore the original BP and prevent a kick. Some of the benefits of using PMCD MPD variance are that it helps drill the troubled zone that cannot be safely drilled otherwise, it helps cut costs by saving a significant amount of expensive drilling mud that would have been lost otherwise, it increases rate of penetration (ROP) by using a lower density mud, and it helps to cut costs by saving a significant amount of expensive drilling mud that would have been lost otherwise and It also eliminates a lot of NPT, which would otherwise be a major issue in zones with kick loss times, lost circulation, and other issues. Some sour formations (fields containing hydrogen sulphide) have been safely and successfully drilled for the first time using PMCD, such as the Tengiz field in Kazakhstan [7]. It's important to use a sacrificial fluid that's readily available in large quantities. A RCD, choke manifold, BOP, downhole deployment valve, and mud gas separator are among the equipment used or recommended for PMCD operations [8, 9].
+
+
+Dual Gradient Drilling (DGD)
+
+
+In extended reach wells, deepwater wells, and wells with similar drilling issues, DGD has two gradients in the WBP profile that help reach the target depth. The initial motivation for developing this technology was to solve issues with offshore conventional riser drilling operations [10, 11]. Drilling problems on onshore wells can also be solved with DGD. Using subsea annulus returns pump, riserless mud recovery, mud dilution, injecting light liquids and solids through concentric casing and/or parasite strings, and using tools like the ECD reduction method are only a few DGD techniques.
+
+
+Applications of MPD
+
+
+So far, many MPD wells have been drilled around the world, and the variety of applications for MPD has expanded dramatically in recent years. MPD has evolved rapidly in recent decades, from its conventional implementations, even before MPD was invented, and each variation was independently created and tested, to new modern applications that serve very complex objectives. Some applications of MPD have been reviewed [12, 13, 14, and 15]. When looking at the past of MPD applications, there are three distinct groups to be found. The ‘Traditional MPD Applications’ are the first category, which deals with the earliest MPD applications. MPD systems have progressed to ‘Advanced Applications’ due to technological advancements, and improved understanding and knowledge of WBP regimes.
+
+
+Traditional MPD Application
+
+
+The first MPD application was to solve problems involving pressure margins or pressure windows that were too narrow. PMCD has proven to be a viable option for drilling extremely fragmented or cavernous formations with complete or near-total mud losses, and where no other drilling technique could safely meet the mark.
+
+
+Advanced Application
+
+
+Point of constant pressure (PoCP) is a modification of CBHP that allows drilling through very small pressure windows that would otherwise be impossible to drill through with CBHP alone. The depth at which the static and dynamic WBPs are equated in PoCP is not the hole's rim. This helps drill through very small pressure windows while also reducing the operations window. Drilling through several depleted and overpressured zones in a single hole section with CBHP or PoCP is another advanced MPD application. Since there is very little space for error, such procedures necessitate better preparation, accurate equipment, and a very systematic execution. Another advanced MPD application is combining two variants for the same hole segment.
+
+
+Enhanced Applications
+
+
+MPD is now being used for advanced kick/loss detection, Pp validation, ROP enhancement, formation invasion mitigation, and a variety of other applications that don't have to deal with small windows or problems hitting the target. These were only byproducts of the earlier MPD/UBD ventures.
+
+
+MPD was used in one North Sea project to improve ROP and remain close to formation pressure. Many UBD programs are solely focused on improving ROP. However, achieving this advantage with MPD is favored because it is associated with less safety problems or concerns than UBD.
+
+
+Another benefit of lower overbalance is the reduction of formation invasion, which has been a major goal of UBD ventures. Higher overbalance raises the pressure difference between formation and wellbore fluids around the open hole, driving drilling mud or filtrate into the formation. In CBHP and DGD programs, a decrease in formation invasion is normally observed because MPD can help sustain a lower overall BHP and minimize the quantity of fluid invading into the formation.
+
+
+MPD necessitates the purchase of additional equipment in order to better manage the WBP profile and track and detect changes in fluid flow and volume. This also makes it possible to detect an influx of fluids from the formation or a leakage of fluids into the formation very early. Kicks and losses can be identified early on, reducing NPT and preventing undetected kicks and blowouts. Kick-loss periods have become a very challenging drilling hazard as the depth and complexity of offshore and onshore wells has increased across the world. In such critical wells, MPD has proved to be invaluable.
+
+
+The variants of MPD are described below, with sub-categories based on their implementation areas and different strengths:
+
+
+▪Constant Bottom Hole Pressure○Drill through the Limits (DTTL) Method○Continuous Circulation Method○Friction Management Method▪Pressurised Mudcap Drilling○Controlled Mud Cap Drilling (CMCD)○Floating Mud Cap Drilling (FMCD)▪Dual Gradient Drilling○Riserless Dual Gradient Method○Annulus Injection Method
+
+
+Equipment's for MPD
+
+
+Signal, 2006 [16] listed the following MPD equipment that is used in MPD operations:
+
+
+▪ECD reduction tools▪Nitrogen production units▪Surface and subsea RCD▪Real-time pressure and flow-rate monitoring equipment▪Continuous circulating systems▪Manual, semiautomatic, and process-controlled choke manifolds▪Wireline-retrievable drillstring floats▪Surface mud logging equipment▪Casing isolation valves▪Subsea mud-return pumps▪Pressure while drilling equipment or ‘PWD’
+
+
+Other key components includes but not limited to:
+
+
+▪Rotating control device▪Geobalance choke (choke skid)▪Back pressure pump
+
+
+Limitations of MPD Technique
+
+
+▪In MPD techniques, no samples or logs are obtained, which is crucial for geologists.▪In the PMCD procedure, a large amount of drilling fluid is used.▪Problems with removing drilling strings from holes with absolute losses after hitting total depth or making intermediate trips.▪The processes for operations are very complex.
+
+
+Potential Improvement of MPD Technique
+
+
+Since MPD is still developing and adapting its strengths to meet new challenges, the method necessitates extra effort to identify the concept's missing pieces. If the missing pieces of various variations in a variety of applications have been discovered, the next step is to minimize the impact of gaps by adapting existing technology to MPD or finding a new technology that will contribute to MPD use. One of the main technological gaps in MPD adaptation should be addressed in order to accelerate the process of MPD adaptation to deep water applications.
+
+
+Many variations in the application of MPD in the field are still being created. Using compressible fluids with MPD is an intriguing variation that would allow for controlled pressure drilling using air, mist, or foam [17]. This could lead to a higher ROP while drilling while maintaining the pressure inside the gradient window. Another option is to use solids in the mud to plug and support microfractures that may occur in weaker formations by using a higher density mud [17]. This difference would not change the wellbore's pressure gradient, but it would extend the drilling window, allowing the well to be drilled successfully. For future MPD operation, a backpressure pump will provide efficient controller output. Furthermore, including a time delay parameter in the prediction model could improve the controller's ability to handle abrupt flow changes.
+
+
+Conclusions
+
+
+MPD is a modern technique that will help wells to be drill more economically. It will help companies raise their reserves by allowing them to drill in previously uneconomical areas.MPD may assist in the resolution of many of the issues that arise as a result of pressure variations in the formations.MPD uses techniques that are similar to those used in underbalanced drilling, which may make the transition to MPD technology easier for businesses.CBHP, PMCD, DGD are some of the variants of MPD.MPD requires extra work to uncover the concept's missing elements because it is still developing and modifying its strengths to meet new difficulties.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Abbreviations
+
+
+AbbreviationsAbbreviationExpansion MPD– Managed Pressure Drilling PBH– Bottom Hole Pressure NPT– Non Productive Time UBD– Underbalanced Drilling AFP– Annular Friction Pressure ECD– Equivalent Circulating Density RCD– Rotating Control Device CBHP– Constant Bottomhole pressure WBP– Wellbore Pressure BP– Backpressure CCS– Continuous Circulation System ABP– Application of Backpressure Pp– Porepressure CCC– Continuous circulation Coupler PMCD– Pressurised Mud Cap Drilling ROP– Rate of Penetration DGD– Dual Gradient Drilling PoCP– Point of Constant Pressure DTTL– Drill through the Limit CMCD– Controlled Mud Cap Drilling FMCD– Floating Mud Cap Drilling PWD– Pressure while Drilling
+
+
+References
+
+
+ErdemTercan. 2010. Managed Pressure Drilling Techniques, Equipment And Applications. Msc Thesis. Middle East Technical University, AnkaraGoogle Scholar don.hannegan@weatherford.com, "Discussions on MPD Technology", email communication, 8th – 30th December 09.Fossil, B., and Sangesland, S.: .Managed Pressure Drilling for Subsea Applications; Well Control Challenges in Deepwater. paper SPE 91633 presented at the 2004 SPE/IADC Underbalanced Technology Conference and Exhibition, Houston, 11 – 12 October.Hannegan, D.: Managed Pressure Drilling in Marine Environment- Case Studies. paper SPE 92600 presented at the 2005 SPE/IADC Drilling Conference, Amsterdam, The Netherlands, 23- 25 February.Hannegan, D: Managed Pressure Drilling. SPE Advanced Drilling Technology & Well Construction Textbook, Chp. 9, Section 10.Moore, D.2008. Mud Cap Drilling. In Managed Pressure Drilling ed. J.Schubert, A.Haghshenas, A. S.Paknejad, and J.Hughes, 155–180. Houston: Gulf Publishing Company.Google ScholarCrossrefSearch ADS  Gault, A.1996. Riserless Drilling: Circumventing the Size/Cost Cycle in Deepwater. Offshore56 (5): 49–54.Google Scholar Juvkam-Wold, H. C.2007. "PETE 628: Offshore Drilling", Dual Gradient Drilling, Texas A&M University, College Station, Texas, USA (7March).Google Scholar LingYan, HuishengWu, YanYan, Application of fine managed pressure drilling technique in complex wells with both blowout and lost circulation risks, Natural Gas Industry B, Volume 2, Issues 2-3, 2015, Pages 192–197, ISSN 2352-8540, https://doi.org/10.1016/j.ngib.2015.07.010.Google Scholar LeiShi, PingChen, ZeHu, YingjunFu. The application of bottom-hole flowmeter in the MPD systemJ Southwest Petrol Univ Sci Technol Ed, 32 (6) (2010), pp. 89–93Google Scholar HaifangSun, JinghaiFeng, KuanliangZhu, LiangqingBai, BoYang, Zhilin Li Application of fine managed pressure drilling (MPD) technology developed by CCDC in well NP23-P2009Drill Prod Technol, 35 (3) (2012), pp. 1–4Google Scholar Sweep, M. N.Bailey, J. M. and Stone, C. R.2003. Closed Hole Circulation Drilling: Case Study of Drilling a High-Pressure Fractured Reservoir – Tengiz Field, Tengiz, Republic of Kazakhstan. Paper presented at the SPE/IADC Drilling Conference, Amsterdam, 19-21 February. SPE 79850.Google Scholar Colbert, J. W. and Medley, G.2002. Light Annular MudCap Drilling – A Well Control Technique for Naturally Fractured Formations. Paper presented at the SPE Annual Technical Conference and Exhibition, San Antonio, Texas, 29 September-02 October. SPE 77352.Google Scholar Moore, D.2008. Mud Cap Drilling. In Managed Pressure Drilling ed. J.Schubert, A.Haghshenas, A. S.Paknejad, and J.Hughes, 155–180. Houston: Gulf Publishing Company.Google ScholarCrossrefSearch ADS  LinShi, XiongwenYang, YingcaoZhou, HuaizhongLi, YingWangApplication of China-made precise managed pressure drilling equipment in the Tarim BasinNat Gas Ind, 32 (8) (2012), pp. 6–10Google Scholar SIGNA. 2006. Managed Pressure Drilling Manual. SIGNA Engineering Corporation: Houstons.Matthew DanielMartin. 2016. Managed Pressure Drilling Techniques And Tools. Msc Thesis. Texas A&M University, HoustonGoogle Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211902-MS
+
+
+

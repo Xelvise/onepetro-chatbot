@@ -1,0 +1,360 @@
+----- METADATA START -----
+Title: Hybridized Probabilistic Machine Learning Ranking System for Lithological Identification in Geothermal Resources
+Authors: Praise Ekeopara, Jude Odo, Boniface Obah, Valerian Nwankwo
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212015-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Geothermal resources are characterized by hard rocks with very high temperatures making it difficult to implement conventional tools for petrophysical analysis such as lithological identification. Several computation and artificial intelligence models such as K-means clustering algorithms have been applied, however, these algorithms are limited to certain applications due to the available data utilized and high computation time. It is hence pertinent to consider a robust model that can meet up with these requirements.In this study, a proposed hybrid machine learning probabilistic ranking system was developed which considered the integration of several pattern recognition algorithms in the identification of formation lithology. The ranking system leverages on the large volume of drilling and log data collected from conventional oil and gas operation to develop five embedded lithology identification models: K-means clustering, Hierarchical clustering using ward linkage, K-mode clustering, Birch, Mini-batch kmeans. The analysis was carried out using gamma ray logs, density logs, neutron porosity logs and Spontaneous potential as input parameters in building the lithology identification models while rate of penetration, surface RPM, Flow in, surface torque and pump pressure were utilized to predict the different lithologies using the different pattern recognition models as outputs. The output derived from the respective lithology identification models are further ranked based on a probabilistic approach to predict the actual lithology of the encountered formation. The results show that the implementation of the ranking system was effective in identifying the lithology of the drilled formation.
+
+
+
+
+Keywords:
+structural geology,
+upstream oil & gas,
+log analysis,
+algorithm,
+reservoir characterization,
+artificial intelligence,
+well logging,
+lithology,
+lithology identification,
+prediction
+
+
+Subjects: 
+Reservoir Characterization,
+Formation Evaluation & Management,
+Non-Traditional Resources,
+Information Management and Systems,
+Exploration, development, structural geology,
+Open hole/cased hole log analysis,
+Geothermal resources,
+Artificial intelligence
+
+
+
+
+Introduction
+
+
+Lithology identification is critical in the oil and gas reservoir exploration, reservoir modeling, drilling planning, and well completion management. The classification of lithologies is the foundation for reservoir characterization and geological analysis as it represents the reservoir petrophysical characteristics. After learning about lithology, it is possible to create lithological patterns. Such patterns can be used in simulators to determine an oil field's potential (Chen et al., 2020; Sun et al., 2020). Many studies have been conducted on lithology identification, which is divided into two categories: direct and indirect identification. The direct method entails collecting physical samples of sedimentary rocks at specific formations for visual interpretation and laboratory analysis in order to generate information that is both valid and accurate. However, this is a time-consuming and costly process that necessitates the use of highly skilled and dedicated professionals (Bressan et al., 2020; Sun et al., 2020; Rita, E et al., 2022). In contrast, indirect methods involve the use of well logs, which measure the physical properties of geological formations and fluids, providing the majority of the subsurface data available to an exploration geologist (Saporetti et al., 2018). However, indirect methods do not perform as well as direct methods and consequently there is need for more robust and efficient methods for lithological identification.
+
+
+There are several machine learning techniques that are very prominent for lithology identification. These techniques are broadly divided into two categories which are supervised and unsupervised learning (Okoroafor, et al., 2022; Aljubran et al., 2022; Mohammad (Jabs) Aljubran et al., 2022). For supervised learning methods, (Mahmoud et al., 2021) studied the use of three machine learning models to forecast lithology changes and formation tops in real-time while drilling, namely artificial neural networks (ANN), adaptive neuro-fuzzy inference system (ANFIS), and functional neural networks (FNN). (J. Sun et al., 2019) investigated three prominent machine learning techniques for LWD systems, including one-versus-rest support vector machines (OVR SVMs), one-versus-one support vector machines (OVO SVMs), and random forest (RF), and optimized the more practicable method in the field. On the other hand, (Bressan et al., 2020) leveraged on multilayer perceptron (MLP), decision tree, random forest, and support vector machine (SVM) for lithology identification. For the unsupervised learning, (Mohamed, 2019) considered K-means for the lithological identification through clustering and four classification approach such as Support Vector Machine (SVM), K-Nearest Neighbors (KNN), and Random Forest – Decision Tree, one neural network approach namely; MLP Feed Forward Neural Network for prediction. (Ren et al., 2022a) also combined the K-means++ algorithm, fuzzy theory, and decision tree algorithm to propose a fuzzy decision tree model for lithology identification. (Asante-Okyere et al., 2020b) equally combined the three algorithms for lithological identification which include; K-means, Gradient Boosting Machines (GBM) and the Gaussian mixture model (GMM). However, these algorithms are limited to certain applications due to the available data utilized, high computation time, long iterative processes, and are majorly employed in the oil and gas exploration with little or no application in the geothermal exploration.
+
+
+A proposed hybrid machine learning probabilistic ranking system was established in this work, which took into account the integration of numerous pattern recognition algorithms in the detection of formation lithology. The ranking method uses a vast volume of drilling and log data from conventional and oil and gas operations to create five embedded lithology identification models: K-means clustering, Hierarchical clustering using ward linkage, K-mode clustering, Birch, and Mini-batch kmeans. The proposed system was further utilized with unused drilling data from a geothermal well in Utah FORGE project to validate the prediction.
+
+
+This paper's structure is as follows: The proposed machine learning methods are thoroughly detailed in the Methods section, and the acquired findings are outlined and debated in the Results and Discussion sections, with the basic conclusions offered in the Conclusion section.
+
+
+Methodology
+
+
+In this study, the collected lithological data after passing through various data cleaning, exploration and preprocessing stages were then subjected under five unsupervised learning algorithms (K-means, Hierarchical, using ward linkage, K-mode, Birch, and Mini-batch kmeans clustering) to determine the clusters in the lithology data. The next stage involved the use of the drilling data for the prediction of the identified lithologies using a probabilistic model (soft voting classifier) which combines the strength of three supervised learning algorithms (Logistic Regression, Random Forest and Multiple-Layer Perceptron). The Figure 1 below describes the workflow for this study.
+
+
+Figure 1View largeDownload slideSchematic workflow of the studyFigure 1View largeDownload slideSchematic workflow of the study Close modal
+
+
+Field Description
+
+
+The data was collected at the Frontier Observatory for Research in Geothermal Energy (FORGE) Utah site, which is 322 kilometers (200 miles) south of Salt Lake City and 16 kilometers (10 miles) north of Milford, small town of 1400 people. The FORGE location as seen in Figure 2 is uninhabited and encompasses approximately 5 km2 (2 sq miles2) (Moore et al., 2020). The idea of the project which was funded by the US Department of Energy (DOE), is to provide a place where cutting-edge technology and procedures can be tested and improved in order to support commercial-scale development of Enhanced Geothermal Systems (EGS). The FORGE EGS reservoir was created to be in the Tertiary plutonic rocks that extend westward from the core of the Mineral Mountains. The pluton is composed of diorite, granodiorite, quartz monzonite, syenite, and granite (Nielson et al., 1986), ranging in age from 25.4 Ma (Aleinikoff et al., 1987) to 8 Ma (Nielson et al., 1986; Coleman and Walker, 1992). For the Milford, Utah, FORGE effort, well 58-32 is proven to be a valuable resource.
+
+
+Figure 2View largeDownload slideAt left side, (a) is the topographic base map showing the FORGE area and location of nearby wells (Modified from Mark Gwynn, 2018). The right side, (b) is the lithologic column extracted from compressed images of well cuttings from 58-32 well indicating the three lithological rocks (Alluvium, Rhyolite and Plutonic rocks) (Modified from (Jones et al., 2019)).Figure 2View largeDownload slideAt left side, (a) is the topographic base map showing the FORGE area and location of nearby wells (Modified from Mark Gwynn, 2018). The right side, (b) is the lithologic column extracted from compressed images of well cuttings from 58-32 well indicating the three lithological rocks (Alluvium, Rhyolite and Plutonic rocks) (Modified from (Jones et al., 2019)). Close modal
+
+
+However, the plutonic rocks are collectively referred to as granitoid. Quaternary (<1 My) rhyolite lava flows originating from domes along the crest of the Mineral Mountains partially cover the Precambrian gneiss exposed along the flank of the Mineral Mountains and the granitoid. Paleozoic and Mesozoic sedimentary sequences are exposed in the northern and southern parts of the Mineral Mountains but were not encountered in any of the deep wells. Temperatures of 250°C in the Roosevelt Hot Springs reservoir suggest the presence of a still cooling magma chamber in the shallow crust.
+
+
+Intergrown plagioclase, K-feldspar, and quartz are the dominant minerals within the granitoid (Jones et al., 2019). These minerals are accompanied by minor amounts of biotite, hornblende, clinopyroxene, apatite, titanite, zircon, and magnetite-ilmenite. Illite and chlorite are the dominant clay minerals, but they constitute <5% of the rock. Trace amounts of other secondary minerals include carbonates, anhydrite, chlorite and epidote. These hydrothermal minerals are products of paleo-geothermal activity. Granite, quartz monzonite and monzonite are the dominant lithologies encountered in well 58-32. Despite their mineralogic variations, the rocks have low permeabilities and similar mechanical properties.
+
+
+Data Collection and Preparation
+
+
+The collected data for the lithological data consists of 14,662 data points which are used for the clustering analysis while the drilling data consist of 7,219 data points used for the lithological prediction. The summary statistics for both datasets are hence described in Table 1 below.
+
+
+Table 1Brief Summary Statistics for the lithological and drilling data. Attributes
+            . Mean
+            . Standard deviation
+            . Minimum
+            . Maximum
+            . Lithological Data GR (API) 142.087 63.910 20.493 398.425 RHOB (g/c3) 2.531 0.183 1.744 3.481 NPHI (cfcf) 0.144 0.167 0.000 0.862 SP (mv) 40.606 66.687 - 181.250 172.656 Drilling Data ROP (1 ft) 42.184 76.324 0.000 2977.910 Rotary Speed (rpm) 55.054 25.960 0.000 271.580 Surface Torque (psi) 131.137 48.445 0.000 273.710 Flow In (gal/min) 716.797 141.617 0.000 3317.510 Pump Press (psi) 1264.709 490.935 19.940 2200.430 Attributes
+            . Mean
+            . Standard deviation
+            . Minimum
+            . Maximum
+            . Lithological Data GR (API) 142.087 63.910 20.493 398.425 RHOB (g/c3) 2.531 0.183 1.744 3.481 NPHI (cfcf) 0.144 0.167 0.000 0.862 SP (mv) 40.606 66.687 - 181.250 172.656 Drilling Data ROP (1 ft) 42.184 76.324 0.000 2977.910 Rotary Speed (rpm) 55.054 25.960 0.000 271.580 Surface Torque (psi) 131.137 48.445 0.000 273.710 Flow In (gal/min) 716.797 141.617 0.000 3317.510 Pump Press (psi) 1264.709 490.935 19.940 2200.430 View Large
+
+
+Outlier Detection
+
+
+The goal of outlier detection is to identify data that deviates from the majority of the sample distribution. The data used in this study exhibited some abnormal values as described in Figure 3, due to operational errors or errors in data recording during data collection. If the algorithm is sensitive to abnormal points, the generated model will not be a good representation of the overall sample, and the prediction will be inaccurate. As a result, it is critical to identify these outliers and deal with them effectively during the data exploration process (Ren et al., 2022a; Yan et al., 2015). In this study, the Interquartile Range (IQR) method was implemented for outlier detection which involved partitioning of the data into percentiles. This can be expressed in the equation as thus:
+
+
+|Xupper=Q3+1.5×(IQR)Xlower=Q1+1.5×(IQR)|(1)
+
+
+Figure 3View largeDownload slide(a) Shows the various distribution of the lithological data by the lithological types (Alluvium 0, Ryholite 1, and Plutonic 2). (b) Shows the boxplot of the lithological data with observable outliers.Figure 3View largeDownload slide(a) Shows the various distribution of the lithological data by the lithological types (Alluvium 0, Ryholite 1, and Plutonic 2). (b) Shows the boxplot of the lithological data with observable outliers. Close modal
+
+
+where, the interquartile range (IQR) is calculated as the difference between Q1 (25th percentile) and Q3 (75th percentile) The Xupper and Xlower are the Upper Inner Fence and Lower Inner Fence respectively of which all data points above and beyond them are considered as outliers and should be eliminated.
+
+
+Data Standardization
+
+
+Different logging methods produce data with varying dimensions and magnitudes of attribute values. When logging data is used directly to train the lithology recognition model, the degree of influence on the results varies. The data must be standardized in order to eliminate this systematic error (Asante-Okyere et al., 2020c; Ren et al., 2022b). Leveraging on the min-max standardization method, the logging data was then concentrated into the range of 0-1, the equation is expressed as:
+
+
+Xscaled=X−XminXmax−Xmin(2)
+
+
+where Xscaled is the scaled value, X is the value to be scaled and Xmax and Xminare the maximum and minimum values.
+
+
+Clustering Algorithm
+
+
+K-means Clustering
+
+
+K-means clustering is an unsupervised machine learning algorithm that divides data into clusters based on similarities in their distances. Distance is used as a similarity evaluation indicator, which means that the closer two objects are to each other, the more similar they are. The algorithm considers clusters to be made up of objects that are close to each other; the algorithm's ultimate goal is to produce tight and distinct clusters (Asante-Okyere et al., 2020a; McCall et al., 1992; Ren et al., 2022a).
+
+
+Given the input data points p1, p2, p3, …, pn and value of K, number of clusters, then the following algorithm can be followed as thus;
+
+
+Initialize K points as the initial centroids from the dataset, here we utilized the Silhouette's score to determine the best KCalculate the Euclidean distance between each point in the dataset and the identified K points (cluster centroids).Using the distance determined in the previous step, assign each data point to the closest centroid.Take the average of the points in each cluster group to find the new centroid.Repeat steps 2–4 for a set number of iterations, or until the centroids do not change.
+
+
+Euclidean distance in step 2 above for points ((a1, b1), (a2, b2))is calculated as thus;
+
+
+d(a,b)=(a1−b1)2+(a2−b2)2(3)
+
+
+Hierarchical Clustering
+
+
+Hierarchical clustering entails constructing a binary merge tree from the data elements stored at the leaves (interpreted as singleton sets) and merging the "closest" sub-sets (stored at nodes) two by two until we reach the root of the tree, which contains all the elements of X. The linkage distance, denoted by ∆ (Xi, Xj), is the distance between any two subsets of X. This technique is also known as agglomerative hierarchical clustering because we begin at the leaves, storing singletons (the xi's), and merge subsets iteratively until we reach the root (Contreras & Murtagh, 2015; Martelet et al., 2006). A dendrogram is a graphical representation of this binary merge tree. From the Figure 4 below, X1-X9 represent the various data observations otherwise known as the leaf which are merged to different nodes based on how similar each observation is to each other. The number of clusters are then represented by the number of vertical lines being intercepted by the horizontal cuts.
+
+
+Figure 4View largeDownload slideHierarchical tree (dendrogram) associated with the agglomerative hierarchical clusteringFigure 4View largeDownload slideHierarchical tree (dendrogram) associated with the agglomerative hierarchical clustering Close modal
+
+
+Birch Clustering
+
+
+BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies) is a clustering technique that works with huge datasets by first creating a more compact summary that maintains as much distribution information as possible, and then clustering the data summary rather than the entire dataset. BIRCH clusters incoming multi-dimensional metric data points incrementally and dynamically to strive to achieve the best quality clustering with the resources available (available memory and time constraints). BIRCH can usually locate a good clustering with just one scan of the data, and with a few more scans, it can increase the quality even more. BIRCH is also the first database clustering technique to properly manage "noise" (data points that aren't part of the underlying pattern). Figure 5. Shows an overview of the BIRCH algorithm, where Phase 1 involves scanning all data and creating an initial in-memory clustering feature (CF) tree.
+
+
+Figure 5View largeDownload slideBIRCH Overview (Modified from Zhang 1996)Figure 5View largeDownload slideBIRCH Overview (Modified from Zhang 1996) Close modal
+
+
+Phase 2 is optional, and it involves condensing the data into a more manageable range by creating a smaller CF tree. The global clustering is done in Phase 3, while Phase 4 is optional. It takes the centroids of the clusters formed in Phase 3 as seeds, then redistributes the data points to the closest seed to create a new set of clusters. (T. Zhang, R. Ramakrishnan, 1997; Zhang et al., 1996).
+
+
+K-modes Clustering
+
+
+K-modes is a clustering algorithm that is nonparametric (non-distributional assuming). It eliminates the need for ad hoc distance metrics to be defined on the categorical data to be clustered. K-modes optimizes a "matching" metric explicitly (corresponding to L0-loss function). It is as quick as K-means clustering and can handle enormous datasets like those seen in survey research applications. The method of K-modes clustering can further be expressed in the following steps: (1) Choose K, the number of cluster observations (at random) to serve as leaders/clusters. (2) Calculate the dissimilarities and place each observation in the cluster that is closest to it. (3) Define new modes for the clusters (4) Repeat 2-3 steps until there is no re-assignment required (Cao et al., 2012; Chaturvedi et al., 2001)
+
+
+Mini-batch k-means
+
+
+K-means is a popular clustering algorithm due to its speed. It is, however, expensive for large data sets, requiring O(kns) computation time where n is the number of examples and s is the maximum number of non-zero elements in any example vector (Sculley, 2010). As a result, the improved version known as mini-batch k-means requires less memory by using small batches of fixed-size examples that can be stored in memory. Each iteration, a new random sample from the dataset is obtained and used to update the clusters, and this process is repeated until convergence is reached. In addition, each mini batch updates the clusters equally using a convex combination of the prototype and example values, with a learning rate that decreases with the number of iterations. This learning rate is inversely proportional to the number of examples assigned to a cluster during the process. The effect of new examples diminishes as the number of iterations increases, so convergence can be detected when no changes in the clusters occur in several consecutive iterations (Béjar Alonso, 2013).
+
+
+Hybrid Ranking System
+
+
+The proposed hybrid ranking system, also known as the voting classifier, is an aggregating technique that combines the results of multiple machine learning classifiers (Gandhi & Pandey, 2016). This system is classified into two types: the majority voting classifier (hard voting) and the average probabilistic voting classifier (soft voting). In majority voting, the predicted class label for a specific sample is the class label that represents the majority (mode) of the class labels predicted by each individual classifier, whereas soft voting, in contrast to majority voting (hard voting), returns the class label as arguments of the sum of predicted probabilities (Pedregosa,Fabian et al., 2011). In this study, we use the average probabilistic voting classifier (soft voting) as is described in Figure 6, where we assume having 3 classifiers for a 3-class classification problem where we assign equal weights to all classifiers: w1=1, w2=1, w3=1. The weighted (assigned to each classifier) average probabilities for a sample would is then calculated and thus
+
+
+Figure 6View largeDownload slideIllustration of the Hybrid Ranking System class 2 is predicted since it has the highest average probability. In this study we implemented 3 classification models for the hybrid system.Figure 6View largeDownload slideIllustration of the Hybrid Ranking System class 2 is predicted since it has the highest average probability. In this study we implemented 3 classification models for the hybrid system. Close modal
+
+
+Logistic Regression Model
+
+
+Logistic Regression is a supervised machine learning model that models the probability of predicting a response label or class. This probability prediction is then transformed into binary values of 0 and 1 outputs using the logistic or sigmoid function as described in equation (4).
+
+
+σ(K)=11+exp−k(4)
+
+
+where K is the log odds divided by the logit. As a result, as shown in equations (5) and (6), the logistic regression model for a binary response can be expressed by summing over the linear combinations of input features and a corresponding weight (w) plus a bias term (b) for each instance (6) (Kaitlin et al., 2018).
+
+
+P(y(i)=1|x(i),w)=1−11+exp(wTx(i)+b)(5)
+
+
+P(y(i)=0|x(i),w)=1−11+exp(wTx(i)+b)(6)
+
+
+Random Forest Model
+
+
+Random forest is an ensemble-based learning algorithm made up of n-collections of decision trees which are not necessarily correlated (Peña Yañez, 1967). It is based on the concept of bootstrap aggregation, which is a technique for resampling with replacement to reduce variance. When making a prediction, Random Forest uses multiple trees to average (regression) or compute majority votes (classification) in the terminal leaf nodes. When compared to a single tree, this aggregation of random forest models results in significant improvements in prediction accuracy (Jin et al., 2020; Kaitlin et al., 2018). Figure 7 shows an example of random forest ensemble learning, in which each decision tree estimates the probability of a class label, the probabilities are averaged over the 'n' trees, and the highest yields the predicted class label.
+
+
+Figure 7View largeDownload slideA random forest ensemble learning structure (n-decision tress) (modified from Kirasich et. al, 2018)Figure 7View largeDownload slideA random forest ensemble learning structure (n-decision tress) (modified from Kirasich et. al, 2018) Close modal
+
+
+Multiple-Layer Perceptron (MLP)
+
+
+The Multiple-layer Perceptron (MLP) is a supervised learning neural network approach that trains on a dataset to learn a function f(â‹…) : Rm → Ro, where ‘m’ is the number of input dimensions and ‘o’ is the number of output dimensions (Pedregosa,Fabian et al., 2011). It is one of the widely used architecture of the artificial neural network in which the input layer is connected to the output layer by a hidden layer (Nwosu et al 2018; Ojoboh et al. 2020). made of three layers input layer, hidden layer and the output layers as described in Figure 8.
+
+
+Figure 8View largeDownload slideA Simple Multiple-layer Perceptron ArchitectureFigure 8View largeDownload slideA Simple Multiple-layer Perceptron Architecture Close modal
+
+
+The first layer is the input layer, which has the same number of neurons as the number of selected individual features. {xi|x1,x2…,xm}⁠. The output layer is the last layer that determines the intended output classes f (X). The intermediate levels are known as the hidden layer, and they differ from other techniques such as logistic regression in that they convert the data from the previous layer using a weighted linear summation {w1x1+w2x2+…,wmxm} then a non-linear activation function g(â‹…) :R→R (Naghsh-Nilchi & Aghashahi, 2010).
+
+
+Performance Indicators
+
+
+For the prediction of the lithology, the data was split into training and testing sets. The training data was further splitted into training and validation sets as they helped in both training, tunning of various hyperparameters for the models and validation of the models. The reserved testing data was then extracted at random and kept aside for the overall testing of the developed models.
+
+
+The precision, recall, accuracy, F1 and other comparison visual indicators were used to evaluate the accuracy of the lithology recognition model. The precision equals the number of truly correctly classified lithologies of a given lithology type divided by the sum numbers of classified lithologies that are marked to be belonging to such lithology type. The Recall is calculated based on the original actual lithology type, the proportion of the lithology that was correctly classified. Accuracy simply calculates the total number of lithology types that were correctly classified and the F1 score is a criterion for measuring multi-class problems, is a harmonic average of precision and recall.
+
+
+The precision, recall, accuracy and the F1 score can be mathematically expressed as thus;
+
+
+Precision=TPTP+FP(7)
+
+
+Recall=TPTP+FN(8)
+
+
+F1 score=2×Precision×RecallPrecision×Recall(9)
+
+
+Where TP = True Positive, FP = False Positive, TN = True Negative and FN = False Negative.
+
+
+Results and Discussion
+
+
+Evaluation of Clustering models
+
+
+Five clustering algorithms (K-means, Hierarchical, K-mode, Birch and Mini-batch K-means) were employed in the lithological identification using data from Table as input features. However, in an attempt to determine the optimal number of clusters, the Silhouette clustering was used and as shown in Table 2 and Figure 9, clusters recorded the highest with a score of 48.35% above others and thus was selected.
+
+
+Table 2Silhouette score for different number of clusters Number of Clusters (n)
+            . Silhouette score
+            . 2 0.400501142 3 0.483535088 4 0.471487937 5 0.468979005 6 0.433552706 Number of Clusters (n)
+            . Silhouette score
+            . 2 0.400501142 3 0.483535088 4 0.471487937 5 0.468979005 6 0.433552706 View Large
+
+
+Figure 9View largeDownload slideSilhouette scoreFigure 9View largeDownload slideSilhouette score Close modal
+
+
+In a plot of different clustering models against the actual lithology as described in Figure 10, shows that all models performed well in identifying the 3 lithology types in well 58-32 (alluvium, rhyolite and plutonic).
+
+
+Figure 10View largeDownload slideClustering performances against the actual lithologyFigure 10View largeDownload slideClustering performances against the actual lithology Close modal
+
+
+However, by looking at the confusion matrix in Figure 11, it can be observed that the clustering algorithms were not able to identify the cluster 1 interval (Rhyolite lithology) efficiently. This is as result of the small
+
+
+Figure 11View largeDownload slideConfusion matrix for all clustering algorithms thickness of the depth being occupied by this particular lithology. Hence, to build a more robust algorithm, that formation was dropped. Also, considering the overall performance of the Birch clustering model, it was further chosen to be the target label for lithology prediction.Figure 11View largeDownload slideConfusion matrix for all clustering algorithms thickness of the depth being occupied by this particular lithology. Hence, to build a more robust algorithm, that formation was dropped. Also, considering the overall performance of the Birch clustering model, it was further chosen to be the target label for lithology prediction. Close modal
+
+
+Evaluation of classification models
+
+
+The chosen performance indicators Precision, Recall, and F1 score are designed in such a way that for good results, they should record high values. As stated above, haven removed the Rhyolite lithology, the data remaing lithologies (Alluvium and Plutonic) were then used to build the model. The results as shown in the Table 3 describes the performances of the different models (Logistic Regression, Random Forest and Multiple-Layer Perceptron) which were used to build the hybrid system for the train data.
+
+
+Table 3Results of implemented Models on Train data Models
+            . Lithologies
+            . Precision
+            . Recall
+            . F1 Score
+            . Logistic Regression Alluvium 0.8883 0.7329 0.8032 Plutonic 0.8413 0.9389 0.8874 Random Forest Alluvium 0.9963 0.9963 0.9963 Plutonic 0.9975 0.9975 0.9975 Multi-layer Perceptron Alluvium 0.9962 0.9760 0.9860 Plutonic 0.9843 0.9975 0.9909 Hybrid System Alluvium 0.9981 0.97053 0.98412 Plutonic 0.9808 0.9987 0.9897 Models
+            . Lithologies
+            . Precision
+            . Recall
+            . F1 Score
+            . Logistic Regression Alluvium 0.8883 0.7329 0.8032 Plutonic 0.8413 0.9389 0.8874 Random Forest Alluvium 0.9963 0.9963 0.9963 Plutonic 0.9975 0.9975 0.9975 Multi-layer Perceptron Alluvium 0.9962 0.9760 0.9860 Plutonic 0.9843 0.9975 0.9909 Hybrid System Alluvium 0.9981 0.97053 0.98412 Plutonic 0.9808 0.9987 0.9897 View Large
+
+
+Confirming from the Figure 12 below, it can be seen that the various models performed well in the prediction of the Alluvium and the Plutonic lithologies at the training phase.
+
+
+Figure 12View largeDownload slideTraining scores for (a) Alluvium and (b) Plutonic lithology prediction respectively.Figure 12View largeDownload slideTraining scores for (a) Alluvium and (b) Plutonic lithology prediction respectively. Close modal
+
+
+However, the various models’ performances dropped in the testing data. This reduction in the performance scores was expected as the models are fed with new set of data points which they were not trained with. These reduction in scores for the testing dataset can be seen in Table 4.
+
+
+Table 4Results of implemented Models on Test data Models
+            . Lithologies
+            . Precision
+            . Recall
+            . F1 Score
+            . Logistic Regression Alluvium 0.8741 0.9999 0.9328 Plutonic 0.9999 0.8560 0.9224 Random Forest Alluvium 0.9253 0.9920 0.9575 Plutonic 0.9913 0.9200 0.954 Multi-layer Perceptron Alluvium 0.9054 0.996 0.9485 Plutonic 0.9955 0.896 0.9431 Hybrid System Alluvium 0.9154 0.996 0.9540 Plutonic 0.9956 0.908 0.9497 Models
+            . Lithologies
+            . Precision
+            . Recall
+            . F1 Score
+            . Logistic Regression Alluvium 0.8741 0.9999 0.9328 Plutonic 0.9999 0.8560 0.9224 Random Forest Alluvium 0.9253 0.9920 0.9575 Plutonic 0.9913 0.9200 0.954 Multi-layer Perceptron Alluvium 0.9054 0.996 0.9485 Plutonic 0.9955 0.896 0.9431 Hybrid System Alluvium 0.9154 0.996 0.9540 Plutonic 0.9956 0.908 0.9497 View Large
+
+
+As can be seen in Figure 13 below, it appears that the various models recorded better predictions for the Plutonic Lithology labels in the testing data especially judging by the various Precision and Recall scores.
+
+
+Figure 13View largeDownload slideTesting scores for (a) Alluvium and (b) Plutonic lithology prediction respectivelyFigure 13View largeDownload slideTesting scores for (a) Alluvium and (b) Plutonic lithology prediction respectively Close modal
+
+
+The results as illustrated above show that the various chosen models perfomed well both in the training and in the evaluation stages. However, it can be observed that these models were recording varying performances based on the chosen matrics (Recall, Precision and F1 score), this suggests that they will likely vary when deployed and hence, the hybrid system is then useful in this regard as it will definetly balance out their individual weaknesses when exposed into application.
+
+
+Conclusion
+
+
+Lithology identification for geothermal resources is usually difficult because of such resources are characterized by hard rocks and high temperature conditions. This study has resolved this issue by providing a hybrid probabilistic ranking system, which leverages on both well log data for lithology identification and drilling data for real time lithology prediction. The research therefore shows that;
+
+
+the various applied clustering algorithms such as K-means, Hierarchical, K-mode, Birch and mini-batch k-means were able to predict the three lithologies (alluvium, rhyolite and plutonic) in well 58-32 geothermal resource using well log data such as Gamma ray, density log, neutron porosity and spontaneous potential as input parameters.the various models however, were not able to identify effectively the rhyolite lithology because of its shallow depth interval within the subject well.The BIRCH clustering model outperformed other clustering algorithms by identifying efficiently the alluvium, plutonic and some extent the rhyolite lithologies.The hybrid system by integrating 3 classifiers (Logistic, Random Forest and MLP) was able to efficiently predict lithologies thereby balancing out the variations in the model's performances.This study has also shown the applicability of machine learning in geothermal energy and will be useful in both the real-time lithological identification and prediction.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Asante-Okyere, S., Shen, C., Ziggah, Y. Y., Rulegeya, M. M., & Zhu, X. (2020c). A Novel Hybrid Technique of Integrating Gradient-Boosted Machine and Clustering Algorithms for Lithology Classification. Natural Resources Research, 29(4), 2257–2273. https://doi.org/10.1007/s11053-019-09576-4Google ScholarCrossrefSearch ADS  Béjar Alonso, J. (2013). K-means vs Mini Batch K-means: a comparison. Departament de Llenguatges i Sistemes Informàtics, 1–12. http://hdl.handle.net/2117/23414Google Scholar Bressan, T. S., Kehl de Souza, M., Girelli, T. J., & Junior, F. C. (2020). Evaluation of machine learning methods for lithology classification using geophysical data. Computers and Geosciences, 139(October2019), 104475. https://doi.org/10.1016/j.cageo.2020.104475Google ScholarCrossrefSearch ADS  Cao, F., Liang, J., Li, D., Bai, L., & Dang, C. (2012). A dissimilarity measure for the k-Modes clustering algorithm. Knowledge-Based Systems, 26, 120–127. https://doi.org/10.1016/j.knosys.2011.07.011Google ScholarCrossrefSearch ADS  Chaturvedi, A., Foods, K., Green, P. E., & Carroll, J. D. (2001). K-modes clustering. In Journal of Classification (Vol. 18, Issue 1, pp. 35–55). https://doi.org/10.1007/s00357-001-0004-3Google ScholarCrossrefSearch ADS  Chen, G., Chen, M., Hong, G., Lu, Y., Zhou, B., & Gao, Y. (2020). A new method of lithology classification based on convolutional neural network algorithm by utilizing drilling string vibration data. Energies, 13(4). https://doi.org/10.3390/en13040888Google Scholar Kaitlin, ;, Smith, T.â€¯;, & Sadler, B. (2018). Random Forest vs Logistic Regression: Binary Classification for Heterogeneous Datasets. Recommended Citation Kirasich, 1(3), 9. https://scholar.smu.edu/datasciencereviewhttp://digitalrepository.smu.edu.Availableat:https://scholar.smu.edu/datasciencereview/vol1/iss3/9Google Scholar Martelet, G., Truffert, C., Tourlière, B., Ledru, P., & Perrin, J. (2006). Classifying airborne radiometry data with Agglomerative Hierarchical Clustering: A tool for geological mapping in context of rainforest (French Guiana). International Journal of Applied Earth Observation and Geoinformation, 8(3), 208–223. https://doi.org/10.1016/j.jag.2005.09.003Google ScholarCrossrefSearch ADS  McCall, M. R., Mehta, T., Leathers, C. W., & Foster, D. M. (1992). Psyllium husk II: Effect on the metabolism of apolipoprotein B in African green monkeys. American Journal of Clinical Nutrition, 56(2), 385–393. https://doi.org/10.1093/ajcn/56.2.385Google ScholarCrossrefSearch ADS PubMed Mohamed, I. M. (2019). SPE-196096-MS Formation Lithology Classification: Insights into Machine Learning Methods (Vol. 2).Google Scholar Moore, J., Mclennan, J., Pankow, K., Simmons, S., Podgorney, R., Wannamaker, P., Jones, C., Rickard, W., & Xing, P. (2020). The Utah Frontier Observatory for Research in Geothermal Energy (FORGE): A Laboratory for Characterizing, Creating and Sustaining Enhanced Geothermal Systems. Proceedings, 45th Workshop of Geothermal Reservoir Engineering, 1–10.Google Scholar Contreras, P., & Murtagh, F. (2015). Hierarchical clustering. Handbook of Cluster Analysis, February 2016, 103–124. https://doi.org/10.1201/b19706Google Scholar Gandhi, I., & Pandey, M. (2016). Hybrid Ensemble of classifiers using voting. Proceedings of the 2015 International Conference on Green Computing and Internet of Things, ICGCIoT2015, 399–404. https://doi.org/10.1109/ICGCIoT.2015.7380496Google Scholar Jin, Z., Shang, J., Zhu, Q., Ling, C., Xie, W., & Qiang, B. (2020). RFRSF: Employee Turnover Prediction Based on Random Forests and Survival Analysis. Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), 12343 LNCS, 503–515. https://doi.org/10.1007/978-3-030-62008-0_35Google Scholar Naghsh-Nilchi, A. R., & Aghashahi, M. (2010). Epilepsy seizure detection using eigen-system spectral estimation and Multiple Layer Perceptron neural network. Biomedical Signal Processing and Control, 5(2), 147–157. https://doi.org/10.1016/j.bspc.2010.01.004Google ScholarCrossrefSearch ADS  PedregosaFabian, Michel, V., Varoquaux, G., Thirion, B., Dubourg, V., Passos, A., VAROQUAUXPEDREGOSA, Perrot, M., Grisel OLIVIERGRISEL, O., Blondel, M., Prettenhofer, P., Weiss, R., Vanderplas, J., Cournapeau, D., Pedregosa, F., Varoquaux, G., Gramfort, A., Thirion, B., Grisel, O., … Brucher, M. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825–2830. http://scikit-learn.sourceforge.net.Google Scholar Peña Yañez, A. (1967). El anillo esofágico inferior. Revista Espanola de Las Enfermedades Del Aparato Digestivo, 26(4), 505–516.Google ScholarPubMed Ren, Q., zhang, H., Zhang, D., Zhao, X., Yan, L., & Rui, J. (2022a). A novel hybrid method of lithology identification based on k-means++ algorithm and fuzzy decision tree. Journal of Petroleum Science and Engineering, 208. https://doi.org/10.1016/j.petrol.2021.109681Google Scholar Ren, Q., zhang, H., Zhang, D., Zhao, X., Yan, L., & Rui, J. (2022b). A novel hybrid method of lithology identification based on k-means++ algorithm and fuzzy decision tree. Journal of Petroleum Science and Engineering, 208. https://doi.org/10.1016/j.petrol.2021.109681Google Scholar Saporetti, C. M., da Fonseca, L. G., Pereira, E., & de Oliveira, L. C. (2018). Machine learning approaches for petrographic classification of carbonate-siliciclastic rocks using well logs and textural information. Journal of Applied Geophysics, 155(2017), 217–225. https://doi.org/10.1016/j.jappgeo.2018.06.012Google Scholar Sculley, D. (2010). Web-Scale K-Means Clustering. 1177–1178.Google Scholar Sun, Z., Jiang, B., Li, X., Li, J., & Xiao, K. (2020). A data-driven approach for lithology identification based on parameter-optimized ensemble learning. Energies, 13(15). https://doi.org/10.3390/en13153903Google Scholar T.Zhang, R.Ramakrishnan, & M. L. (1997). BIRCH: A new Data Clustering Algorithm and It. 182, 141–182.Google Scholar Yan, Z., Huixin, M., Xiaoyu, Z., Furong, Z., Zhanjun, W., Shuxing, F., Opitz-Stapleton, S., Jiahua, P., Zhongyu, M., Jianmin, F., Shangbai, S., Jianrong, F., Xinlu, X., Nadin, R., & Kierath, S. (2015). Ningxia. Climate Risk and Resilience in China, 1969, 213–241. https://doi.org/10.4324/9781315744988-22Google Scholar Zhang, T., Ramakrishnan, R., & Livny, M. (1996). Birch. ACM SIGMOD Record, 25(2), 103–114. https://doi.org/10.1145/235968.233324Google ScholarCrossrefSearch ADS  Nwosu, J. C., Ibeh, S. U., Onwukwe, S. I., & Obah, B. O. (2018). Determination of Compressibility Factor for Natural Gases Using Artificial Neural Network. Petroleum & Coal, 60(6).Google Scholar Okoroafor, E., Smith, C., Ochie, I., Nwosu, C., Gudmundsdottir, H., & Aljubran, J. (2022). Machine Learning in Subsurface Geothermal Energy: Two decades in review. Geothermics, 102. 
+              https://doi.org/doi:https://doi.org/10.1016/j.geothermics.2022.102401Google Scholar Aljubran, J., Nwosu, C., Okoroafor, E., Smith, C., K., O., & Gudmundsdottir, H. (2022). Recent Trends in Artificial Intelligence for Subsurface Geothermal Applications. 47th Workshop on Geothermal Reservoir Engineering Stanford Univeristy. California.Google Scholar Ojoboh, E. P., Ochie, K. I., & Nwosu, C. J. (2020, August). Assessment of Aquifer Susceptibility using Artificial Intelligence: A Case Study of the Warri-Sombreiro Deposits, Niger Delta. In SPE Nigeria Annual International Conference and Exhibition. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Mohammad (Jabs) Aljubran, Chinedu Joseph Nwosu, Esuru RitaOkoroafor, ConnorM. Smith, Karen Ochie, H. G. (2022). Recent Trends in Artificial Intelligence for Subsurface Geothermal Applications.Rita, E., Smith, C. M., Ifeoma, K., Joseph, C., Gudmundsdottir, H., & Jabs, M. (2022). Geothermics Machine learning in subsurface geothermal energy: Two decades in review. 102(February).Google Scholar Jones, C. G., Moore, J. N., & Simmons, S. (2019). PETROGRAPHY OF THE UTAH FORGE SITE AND ENVIRONS, BEAVER COUNTY,UTAH.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212015-MS
+
+
+

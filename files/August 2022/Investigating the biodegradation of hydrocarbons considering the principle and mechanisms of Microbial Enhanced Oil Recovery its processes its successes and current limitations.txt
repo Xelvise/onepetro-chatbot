@@ -1,0 +1,260 @@
+----- METADATA START -----
+Title: Investigating the biodegradation of hydrocarbons considering the principle and mechanisms of Microbial Enhanced Oil Recovery; its processes, its successes and current limitations
+Authors: Franklin Okoro, Ambrose Okpu, Mary Frank-Okoro
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211938-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The importance of biodegradation of hydrocarbon is numerous, including: waste water treatment contaminated by crude oil, and for microbial enhanced oil recovery (MEOR). Despite the latter (MEOR) being in use over a century now, it is yet to be widely accepted as an optimum large scale enhanced oil recovery technique in the oil and gas industry. An examination of literature reveals a large number of successful MEOR laboratory trials but with very few field applications. This is as a result of a lack of understanding of the mechanisms involved in MEOR. In this paper, an economic analysis of the various types of microbes was carried out in order to ascertain the type of microbes under the prevalent reservoir conditions that would yield an optimum oil recovery in terms of cost and time. The economic analysis conducted suggests that for short term projects, MEOR treatment may not be competitive economically compared with conventional EOR methods. However, for long term projects, MEOR is the most cost effective of all tertiary EOR methods and this is because, overtime, the effect of microbial activities within the formation increases due to the exponential growth of microbes, whereas in conventional EOR methods, the effect of the additives diminishes with time.
+
+
+
+
+Keywords:
+microbial method,
+water management,
+north america government,
+hydrocarbon,
+upstream oil & gas,
+recovery,
+mechanism,
+united states government,
+enhanced recovery,
+society
+
+
+Subjects: 
+Improved and Enhanced Recovery,
+Microbial methods
+
+
+
+
+Introduction
+
+
+The global energy demand which is on constant increase due to rapid industrialization and rising workforce population has triggered an increased focus and attention on discovering techniques capable of increasing the volume of crude oil produced beyond that obtainable from the conventional recovery techniques. Conventional oil recovery techniques are only capable of producing less than one third of the initial oil in place [1–3] due to the impact of several factors including reservoir wetting state, reservoir fluid properties, pore structure and geometry of the medium.
+
+
+As a result of this rising global energy demand, the oil industry has been on constant research on discovering techniques that could be deployed in applying external energy to the reservoir to improve on the volume of the crude oil that could be produced after the primary depletion of the reservoirs, a term that is described as enhanced oil recovery (EOR) [2]. The research and development of these techniques have been driven mainly by the fact that presently about 82% of the world energy are generated from fossils fuels, and about 33% of these come from oil and gas [4].
+
+
+Currently, quite a number of enhanced oil recovery techniques are deployed including waterflooding, steam flooding, and chemical flooding [5, 6]. The increased volume of crude oil observed when these techniques are used in production could be attributed to such mechanisms as interfacial tension reduction, sweep efficiency increase, and viscosity reduction [7]. However, most of these current EOR techniques are cost ineffective due to the nature and the volume of the fluids used as compared to the volume of the crude oil produced [7]. In addition to this, it is still observed that the current techniques leave over 40% of the original oil in place behind in the reservoir [8].
+
+
+Cognizant to this, a novel approach which involves the use of microbes and their metabolites to improve the residual oil recovery from the reservoir has been seen as a promising alternative to the current techniques being deployed in the oil industry [9]. This process involves microbes and nutrients injection into the oil-bearing formation which facilitates microbial growth and reaction under favourable conditions leading to the residual oil being mobilised by metabolites [10]. This process of enhancing residual oil recovery through the use of microbes is referred to as microbial enhanced oil recovery (MEOR). MEOR basic mode or mechanism of operation is through biodegradation of hydrocarbons. Microorganisms which can either be in-situ or injected into the reservoir, utilise the crude oil in place as a carbon source eventually breaking down long chained heavy hydrocarbons into small lighter hydrocarbons. The reduction in molecular mass of the hydrocarbon results in lower viscosity and this improves oil recovery by enhancing flow [11–13]. MEOR results in the production of a number of metabolic by-products, an example of which is biosurfactant. The biosurfactant produced reduces the surface tension between the crude oil and rock surface, thereby increasing the oil recovery efficiency through enhanced flow [14]. This is a second mechanism through which MEOR operates and it uses an insignificant amount of energy for oil recovery when compared with most other EOR techniques. The prevailing reservoir conditions which include high temperature, high pressure, and high salinity often dictate the choice of microbes to be used for MEOR. No one specific microbe can meet or withstand these reservoir conditions and as such a collection of microbes is often used to ensure sustainability, multiplication and growth of the organisms [15–17].
+
+
+However, while the oil industry is doing all it can in contributing its share to meet the global energy demand, there is a huge price to pay because everything comes at a cost. Presently, one of the major environmental issues is hydrocarbon contamination resulting from the activities of the petrochemical and oil industries. Leaks and accidental spills occur quite often during the exploration, production, refining, transport, and storage of petroleum and petroleum products. The release of hydrocarbons into the environment due to the activities of the oil industry is a main cause of water and soil pollution [18, 19]. Soil contamination with hydrocarbons leads to extensive damage of local system as accumulation of pollutants in animals and plants may result to death or mutations. In water, hydrocarbon spills make the water unfit for the aquatic animals and renders the water unsafe for use. Hydrocarbon components have been known to belong to the family of carcinogens and neurotoxic organic pollutants, and as a result, renders the environment overly polluted and damaged when leaked [18]. Sequel to this, there has been global efforts to remedy many hydrocarbon polluted sites, either as a response to the risk of adverse health or environmental effects caused by contamination or to enable the site to be redeveloped for future use [20].
+
+
+The conventional technologies used for remediation have been mechanical, burying, evaporation, dispersion, and washing [18–20]. However, these techniques have limited effectiveness and can be very expensive. A better approach than these traditional methods is to completely destroy the pollutants or transform them to innocuous substances. Some technologies that have been used are high-temperature incineration, base-catalyzed dechlorination, and ultra-violet oxidation. These technologies can be very effective at reducing levels of a range of contaminants but have several drawbacks, mainly their technological complexity, the cost for small-scale application, and the lack of public acceptance, especially for incineration which is likely to increase the exposure to the contaminants for both the workers on site and nearby residents [20].
+
+
+A promising technology which is cost-effective, has low-technology, with high public acceptance, and can be carried out on site is evolving for the removal of many environmental pollutants including the products of the oil industry. This technology, believed to be non-invasive and leads to complete mineralization of the contaminants is referred to as bioremediation technology. Bioremediation is an option that offers the possibility to destroy or render harmless, various contaminants using natural biological activity. The basic mechanism by which bioremediation functions is biodegradation, which may refer to complete mineralization of organic contaminants into carbon dioxide, water, inorganic compounds, and cell protein or transformation of complex organic contaminants to some simpler organic compounds by biological agents like microorganisms. Biodegradation by natural populations of microorganisms represents one of the primary mechanisms by which petroleum and other hydrocarbon pollutants can be removed from the environment and is cheaper than other remediation technologies [18, 20].
+
+
+Bioremediation has been used at a number of sites globally, with varying degrees of success. Unfortunately, the principles, mechanisms, techniques, advantages, and disadvantages of the two mentioned industrial applications of hydrocarbon biodegradation (MEOR and bioremediation) are not widely understood yet. Most reported cases of these technologies are still in the laboratory stages. Only limited numbers of pilot scale and field trials with convincing demonstrations of these technologies have been reported so far. As a result of these, the scope of current understanding of these technologies is limited [18].
+
+
+This study entails an economic analysis of microbial enhanced oil recovery in order to ascertain the economic viability of MEOR technology compared to other tertiary enhanced oil recovery techniques.
+
+
+Comparative & Economic Analysis of Microbial and Conventional Tertiary Oil Recovery Techniques
+
+
+One of the priorities of the oil and gas industry has been to make profits and to all enterprise they embark on, profitability of it is a major factor of consideration. Deployment of most advanced technology is not always the way out but an advanced technology that is relatively economical and reliable for the efficient execution of field projects [21]. At present, MEOR only forms a minute component of the overall EOR portfolio which also includes: thermal processes, gas injection, chemical flooding, and foam flooding.
+
+
+While EOR allows the production of residual oil in place that could not be recovered in primary and secondary recovery, the main issues of conventional techniques are cost-effectiveness and environmental impact. EOR (tertiary recovery) is much more expensive than primary and secondary recovery [22]. In the 1990s, when the oil price was about $20 per barrel, the cost for various EOR processes varied from $10 per barrel to over $50 per barrel as shown in Fig. 1 [22]. Among the EOR methods, surfactant flooding is by far the most expensive ($20-$52 per incremental barrel in 1990), though it is the most effective, giving recoveries of up to 75% of original oil in place (Fig. 1). CO2 injection can also be expensive, depending on the CO2 availability and locations of injection. Thermal EOR also can be expensive and extremely energy intensive; it requires expensive surface facilities and incremental production increases costed $10-$25 per barrel in 1990 (Fig. 1) [22]. Polymer flooding is one of the more cost-effective options among conventional EOR methods.
+
+
+Figure 1View largeDownload slideComparison of the cost of MEOR with other EOR techniques [22].Figure 1View largeDownload slideComparison of the cost of MEOR with other EOR techniques [22]. Close modal
+
+
+Apart from the high cost of conventional EOR methods, environmental impact should also be considered in the economic analysis. Chemical flooding can lead to extensive scaling of drill pipes and damages to the production facility, which are often irreversible [22].
+
+
+Chemical flooding can also contaminate formation waters as well as surface environments. Thermal EOR consumes a lot of energy and can lead to considerable greenhouse gas emissions, which may have significant economic consequences [22]. MEOR may offer a viable EOR alternative both in terms of costs and environmental impacts. Fig. 2 shows the microbial response analysis of a Southern California field [23]. From Fig. 2, it can be clearly seen that after the microbial treatment, there was a tremendous improvement on the field performance as the barrel of oil produced per day from this field increased from 20 barrels to about 81 barrels. The barrel of water produced per day (BWPD) dropped from 95 barrels to 80 barrels, leading to a decrease in the percentage water cut, from 81% to 49%. The aim of every operator is to minimize the water cut because it is very expensive to treat waste water.
+
+
+Figure 2View largeDownload slideMicrobial response analysis of Beverly Hills field, Southern California, USA [23].Figure 2View largeDownload slideMicrobial response analysis of Beverly Hills field, Southern California, USA [23]. Close modal
+
+
+This study is done to determine if or not certain microbial EOR methods, including solvent and carbonated waterflooding, could be competitive under current technical and economic constraints, and if not, to identify particular areas in which an economic incentive or a scientific breakthrough might significantly improve the future outlook.
+
+
+Comparison of microbial solvent flooding with conventional solvent injection
+
+
+Cost and oil recovery data for microbial solvent flooding process have been compared with analogous costs for the conventional solvent processes. A common set of data representing typical formation properties was used in all calculations of chemical requirements. These data and other assumptions are summarized below [24].
+
+
+Assumptions
+
+
+Pattern area, A: 5 acres (217,800 ft2).Microbial cultures: Zymomonas mobilis and Clostridium [24].Microbial nutrient: Corn syrup (glucose) [24].Cost of corn syrup: $35 per 100 lbs (modified at an inflation rate of 4% per year from 1988) [24].Cost of butanol: $7/gallon (at an inflation rate of 4% per year from 1988) [24].Cost of acetone: $4/gallon (at an inflation rate of 4% per year from 1988) [24].Cost of Ethanol: $3/gallon (at an inflation rate of 4% per year from 1988) [24].
+
+
+Formation characteristics
+
+
+Pattern area, A: 5 acres (217,800 f t2) [24].Thickness, h: 50 ft [24].Porosity, φ: 0.20 [24].
+
+
+Two microbial cultures are considered: Zymomonas mobilis (for ethanol/CO2 production) and a strain of Clostridium (for butanol/acetone/CO2 production) [24]. No attempt was made to account for synergistic effects (such as simultaneous solvent and gas production) in the absence of a suitable technique or appropriate model for estimating such effects. Oil recoveries for analogous biological and non-biological EOR processes were therefore assumed to be the same [24]. The kinetics of in-situ microbial production of chemicals is assumed to conform to data obtained from laboratory experiments performed under conditions that approximate the reservoir environment [24]. Corn syrup (glucose) was the substrate (nutrient) considered, primarily because conversion data for molasses, cheese whey and other possible substrates is lacking [24].
+
+
+Calculations of the amounts of substrate to be injected
+
+
+Microbial populations have been characterized in the laboratory and tested in the field to estimate their potential for in-situ production of solvents by anaerobic fermentation. Table 1 summarizes the percentage yield of gases and solvent by the two microbial cultures [24]. Table 1 illustrates two important points: (i) that microbial cultures produce mixtures rather than single products, and (ii) that the amount of the desired products can vary considerably from one type of culture to another [24]. In any culture medium, there is normally a distribution of cells that yield variable product slates and have different metabolic rates. This variability allows for the possibility of selecting cells for optimum growth and metabolic traits [24].
+
+
+Table 1Percentage yield of gases and solvents by Clostridium and Zymomonas [24]. CHEMICAL PRODUCT
+            . WT. % YIELD ON GLUCOSE SUBSTRATE
+            .  Clostridium sp. Zymomonas Butanol 20 – Acetone 2 – Ethanol 2 49 Total Solvent 24 49 Carbon dioxide 55 49 Conversion (wt. %) 79 98 CHEMICAL PRODUCT
+            . WT. % YIELD ON GLUCOSE SUBSTRATE
+            .  Clostridium sp. Zymomonas Butanol 20 – Acetone 2 – Ethanol 2 49 Total Solvent 24 49 Carbon dioxide 55 49 Conversion (wt. %) 79 98 View Large
+
+
+Calculations of the amounts of substrate that must be injected to effect significant tertiary oil recovery are based on the requirement of a 5% pore volume slug of total solvent product, and on the reservoir properties specified earlier.
+
+
+For a 5-acre, 5-spot pattern with formation thickness of 50 ft and porosity of 0.20, a unit pore volume is given by [24]: Vp=A x h x ∅5.6146=387,917 bbls(1),
+
+
+Therefore, the required solvent volume, Vs would be: Vs=0.5P V=19,  396bbls=814,  632gallons(2)
+
+
+Based on the specific gravity of butanol, acetone and ethanol, and on the data for
+
+
+Clostridium in Table 1, 1 lb of glucose yields 0.0296059 gallons of butanol, 0.0030278 gallons of acetone and 0.0030393 gallons of ethanol, giving a total of 0.035673 gallons of organic solvent. This means that in the case of Clostridium, assuming all the injected nutrient comes in contact with the microbial population in the reservoir, 22,836,094 lbs of glucose would be required to produce 814,632 gallons of solvent mixture. Similarly, 10,939,810 lbs. of glucose would be required for Zymomonas. The above figures correspond to the injection of 29,970 lbs of nutrient per day for one year [24].
+
+
+Using the cost of $35/100 lbs, the glucose requirement for Clostridium (22,836,094 lbs) would give an expenditure of $7,992,633, while the amount of glucose required for Zymomonas (10,939,810 lbs) would cost $3,828,934.
+
+
+With the ethanol price at $3/gallon, the equivalent chemical cost for the Zymomonas process would be $2,443,896. A butanol mixture of the same composition as that produced by Clostridium would cost $5,702,424 (for 814,632 gallons) [24]. The analysis above suggests that MEOR is not competitive with analogous solvent injection EOR methods at the present time, particularly for short term projects.
+
+
+Comparison of microbial carbonated waterflooding with conventional CO2 flooding
+
+
+Assumptions
+
+
+Oil in place at the start of the EOR process: 45% [24].Initial oil saturation Soi: 0.60 [24].Pore volume of fluid injected: 1 PV [24].Oil viscosity, u: <50 centipoise [24].Water slug size: 0.25 pore volumes [24].CO2 concentration: 10 lbs/barrel of injected fluid [24].Weight percentage conversion from sugar to CO2: 55% (for Clostridium), 49% (for Zymomonas) [24].Price of carbondioxide: $260/ton (2000 lb) [24].Both Clostridia and Zymomonas produced carbon dioxide in significant amount (Table 1) [24].
+
+
+Therefore, the actual volume of oil, Vo, would be given by [24]: Vo=(0.45)  (0.60)  (387,917)=104, 740bbls(3)
+
+
+The amount of carbon dioxide required is given by [24]: Mc=(0.25P V) (387,917bbls) (10lbs. CO2/bbl)=969,800lbs. CO2(4)
+
+
+At 55% conversion from sugar to carbon dioxide, the corresponding amount of nutrient required, Mn c (for Clostridium), would be [24]: Mn c = (969, 800) (1/0.55) = 1, 763, 270lbs.(5)
+
+
+This gives a cost of $617,145 (at $35/100 lbs).
+
+
+At 49% conversion, the amount of nutrient required, Mn c (for Zymomonas) is [24]: Mn c = (969, 800) (1/0.49) = 1, 979, 184lbs(6)
+
+
+This is equivalent to a cost of $692,714.
+
+
+To purchase 969,800 lbs of CO2 from the market, would involve a cost of $126,074, excluding delivery cost [24]. These cost figures for microbial generation of CO2 compare very unfavorably with the purchase of bulk carbon dioxide from the market.
+
+
+Comparison of field operating cost of microbial treating process with conventional operations
+
+
+To develop a detailed cash flow table, Altamont/Bluebell field project data [25] was adopted and modified using an assumed inflation rate of 4% per year from 1989. The microbial treating project started in March, 1989 and lasted for three years [25]. The project included 146 wells producing an average of 7,100 barrels of oil per day (BOPD) and 25 million cubic feet of gas per day (MMCFGPD). Operating cost of the field under microbial treatment was compared with that of other tertiary recovery techniques as shown in Table 2 [25]. The average cost savings using microbial treating was $964/well/month, which gave a cost savings of $140,744 per month for the total project [25]. The average cost savings was calculated by subtracting the total microbial cost from the total conventional cost (Table 2).
+
+
+Table 2Economic Summary of 146 Wells, average $/well/month [25]. Category
+            . Cost (Conventional), $
+            . Cost (Microbial), $
+            . Chemical 648 175 Hot Oil 180 130 Lease fuel use 5828 4665 Wax cutting 130 114 Electricity 3086 2939 Chemical pump Maint. 227 0 H2S gas penalty 1191 737 Microbes 0 1568 Total Cost 11291 10327 Category
+            . Cost (Conventional), $
+            . Cost (Microbial), $
+            . Chemical 648 175 Hot Oil 180 130 Lease fuel use 5828 4665 Wax cutting 130 114 Electricity 3086 2939 Chemical pump Maint. 227 0 H2S gas penalty 1191 737 Microbes 0 1568 Total Cost 11291 10327 View Large
+
+
+Oil and gas income was calculated using a constant price of $54 per barrel and $2.77 per MCF (assumed inflation rate of 4% per year from 1989) [25]. Table 4 shows the reserves and economics of the Altamont/Bluebell field project. The operating cost data was taken from Table 2. The oil income was calculated by multiplying the oil production in bbls by the price of oil ($54 per barrel). Similarly, the gas income was calculated by multiplying the gas production in MCF by the gas price ($2.77 per MCF). Table 4 shows that income increased at $215,392 per well for the first 12 months a well was in the project and $1,948,324 per well for the life of the project (3 years) [25]. The income increase figures were calculated by adding the increases from the oil and gas income, and the operating cost reduction from the microbial treated wells (Table 4). Based on the 146 wells used in the project, the total project income increase was $31,447,232 for first 12 months and $284,455,304 for the whole period of the microbial treatment [25]. The two periods used in this analysis (the first 12 months and total project life), was to show that overtime, the effect of microbial activities within the formation increases due to the exponential growth of microbes. Quite some favorable observations were made after the microbial treatment of Altamont/Bluebell field as shown in Table 3 [25].
+
+
+Table 3Analysis of Altamont/Bluebell oil before and after microbial treatment [25]. Property
+            . Before microbial treatment
+            . After microbial treatment
+            . API gravity 39.4 41.9 Viscosity at 100o F 25cp 15cp Viscosity at 210o F 15cp 9cp Pour Point 98o F 81o F Initial Boiling Point 196o F 118o F End Point 602o F 636o F % Recovery (Gaso., Kero,. Diesel) 40% 52% %Residue (Wax) 60% 48% Property
+            . Before microbial treatment
+            . After microbial treatment
+            . API gravity 39.4 41.9 Viscosity at 100o F 25cp 15cp Viscosity at 210o F 15cp 9cp Pour Point 98o F 81o F Initial Boiling Point 196o F 118o F End Point 602o F 636o F % Recovery (Gaso., Kero,. Diesel) 40% 52% %Residue (Wax) 60% 48% View Large
+
+
+Table 4Altamont/Bluebell modified project cashflow [25]. First 12 months of operations
+            . Project life
+            . Category
+            . Conventional wells
+            . Microbial wells
+            . Increase
+            . Conventional wells
+            . Microbial wells
+            . Increase
+            . Production:       Oil, bbls 12,800 16,000 3200 34,500 64,500 30,000 Gas, MCF 48,000 60,000 11,200 129,400 235,400 106,000 Income, $       Oil 691,200 864,000 172,800 1,863,000 3,483,000 1,620,000 Gas 135,176 166,200 31,024 358,438 652,058 293, 620 Operating cost, $ 135,492 123,924 11,568 406,476 371,772 34,704 First 12 months of operations
+            . Project life
+            . Category
+            . Conventional wells
+            . Microbial wells
+            . Increase
+            . Conventional wells
+            . Microbial wells
+            . Increase
+            . Production:       Oil, bbls 12,800 16,000 3200 34,500 64,500 30,000 Gas, MCF 48,000 60,000 11,200 129,400 235,400 106,000 Income, $       Oil 691,200 864,000 172,800 1,863,000 3,483,000 1,620,000 Gas 135,176 166,200 31,024 358,438 652,058 293, 620 Operating cost, $ 135,492 123,924 11,568 406,476 371,772 34,704 View Large
+
+
+Conclusions
+
+
+Considering the implications of microbial degradation of hydrocarbons for EOR, the adoption of indigenous microbial flooding would likely be the most economically viable MEOR method, as it does not require facilities for culturing microbes. Observations from short term projects suggests that MEOR treatment may not be competitive economically with analogous solvent and CO2 injection EOR methods presently. However, future research to develop high conversion microbial strains or substitute a less costly nutrient which could be sold at a price of $0.0634/lb could favourably alter the economics of microbial applications. For long term projects, lasting over a two-year period, MEOR has proven to be the most effective of all tertiary recovery methods in terms of cost and environmental impact. Its cost effectiveness for long term projects stems from the fact that, overtime, the effect of microbial activities within the formation increases due to the exponential growth of microbes, whereas in other tertiary EOR methods, the effect of the additives used on the reservoir diminishes with time. The major risk of MEOR at present is its reliability and reproducibility. While most reported cases indicate improvement in oil recovery, there are few cases where MEOR has been reported to be ineffective. For example, in Southern Saskatchewan Oil field in 2007, it was reported that one of the five wells treated (well 06-08) did not respond to the MEOR treatment. This could be because the microbes did not acclimate to the nutrient solution as well as those in the other four wells and thus the population did not increase [26]. The biggest challenge in MEOR field application lies in increasing its robustness with predictable outcomes.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Present value, discount factor, and Revenue/Income formulae
+
+
+To bring the price of a commodity in the past to the money/price of today, the formula below was used: P V = P × DD = (1 + r)t
+
+
+(where PV = Present value, P = price in the past, D = Discount factor, r = discount/inflation rate, t = time in years).
+
+
+To calculate the oil and gas revenue/income used in the cash flow table (Table 4), the formula below was used: R=r×p
+
+
+(where R = revenue (income), r = production rate (bbl/day for oil and MCF/day for gas), p = oil and gas price).
+
+
+References
+
+
+SenR. Biotechnology in petroleum recovery: the microbial enhanced oil recovery. Progress in Energy and Combustion Science, 34(6): 714–724, 2008.Google ScholarCrossrefSearch ADS  MorrisE. E. and D. R.Wieland. A microscopic study of the effect of variable wettability conditions on immiscible fluid displacement. In Fall Meeting of the Society of Petroleum Engineers of AIME. Society of Petroleum Engineers, 1963.Google Scholar AgbalakaC. C., A. Y.Dandekar, S. L.Patil, S.Khataniar, and J.Hemsath. The effect of wettability on oil recovery: a review. In Society of Petroleum Engineers Asia Pacific Oil and Gas Conference and Exhibition. Society of Petroleum Engineers, 2008.Google ScholarCrossrefSearch ADS  United States Energy Information Administration. International energy outlook 2013 with projections to 2040. Washington, United States, 2013.PZitha, RFelder, DZornes, KBrown, and KMohanty. Increasing hydrocarbon recovery factors. Society of Petroleum Engineers Technol. Updates, 2011.Google Scholar McguireP. L., A. P.Spence, and M. W.Stalkup, F. I. and Cooley. Core acquisition and analysis for optimization of the prudhoe bay miscible-gas project. Society of Petroleum Engineers reservoir engineering, 10(02): 94–100, 1995.Google Scholar ArmstrongR. T.Microbial enhanced oil recovery: a pore-scale investigation of interfacial interactions. 2012.Google Scholar HuangL., L.Yu, Z.Luo, S.Song, H.Bo, and C.Zheng. A microbial-enhanced oil recovery trial in huabei oilfield in china. Petroleum Science and Technology, 32(5): 584–592, 2014.Google ScholarCrossrefSearch ADS  ShibulalB., S. N.Al-Bahry, Y. M.Al-Wahaibi, A. E.Elshafie, A. S.Al-Bemani, and S. J.Joshi. Microbial enhanced heavy oil recovery by the aid of inhabitant spore-forming bacteria: An insight review. The Scientific World Journal, 2014.Google Scholar TianC., S.Tian, X.Liu, and L.Qin. Isolation, identification and degradation characteristics of three thick oil degrading bacteria strains. In Proceedings of the 2012 International Conference on Applied Biotechnology (ICAB 2012), pages 963–971. Springer, 2014.Google ScholarCrossrefSearch ADS  LiQ., C.Kang, H.Wang, C.Liu, and C.Zhang. Application of microbial enhanced oil recovery technique to daqing oilfield. Biochemical Engineering Journal, 11(2): 197–199, 2002.Google Scholar AraujoY. C. and M.Araujo. Improved oil recovery by wettability alteration. In 13th European Symposium on Improved Oil Recovery, 2005.Google Scholar United States Energy Information Administration. Annual energy outlook 2011 with projections to 2035. Washington DC: Energy Information Administration, United States Department of Energy, 2011.YoussefN., M. S.Elshahed, and M. J.McInerney. Microbial processes in oil fields: culprits, problems, and opportunities. Advances in applied microbiology, 66: 141–251, 2009.Google ScholarCrossrefSearch ADS PubMed SpirovP., Y.Ivanova, and S.Rudyk. Modelling of microbial enhanced oil recovery application using anaerobic gas-producing bacteria. Petroleum Science, 11(2): 272–278, 2014.Google ScholarCrossrefSearch ADS  MosesV. and D. G.Springham. Bacteria and the enhancement of oil recovery. Applied Science Publishers, 1982.Google Scholar LazarI., I. G.Petrisor, and T. F.Yen. Microbial enhanced oil recovery (MEOR). Petroleum Science and Technology, 25(11): 1353–1366, 2007.Google ScholarCrossrefSearch ADS  DasN. and P.Chandran. Microbial degradation of petroleum hydrocarbon contaminants: an overview. Biotechnology research international, 2011.Google Scholar HosseinG. Biodegradation of petroleum and aromatic hydrocarbons by bacteria isolated from petroleum-contaminated soil. Journal of Petroleum & Environmental Biotechnology, 2010.Google Scholar VidaliM. Bioremediation. an overview. Pure and Applied Chemistry, 73(7): 1163–1172, 2001.Google ScholarCrossrefSearch ADS  UkpakaC. P. and S. A.Amadi. Comparative analysis of thermal and microbial enhanced oil recovery. In Basic Research Journal of Engineering Innovation, volume 1, pages 07–13. Basic Research Journal, 2014.Google Scholar VolkH. and K.Liu. 3° oil recovery: Experiences and economics of microbially enhanced oil recovery (meor). In Handbook of Hydrocarbon and Lipid Microbiology, pages 2739–2751. Springer, 2010.Google ScholarCrossrefSearch ADS  ZahnerR. L., B. R.Govreau, and A.Sheehy. MEOR success in southern California. In SPE Improved Oil Recovery Symposium. Society of Petroleum Engineers, 2010.Google ScholarCrossrefSearch ADS  Inc. Western Research Institute Sheladia Associates. Economic prospects for microbiological applications in enhanced oil recovery. In Paper-Technical Report, pages 1–13. The Office of Oil, Gas and Shale Technology, 1988.StreebL. P. and F. G.Brown. Meor-altamon/bluebell field project. In SPE Rocky Mountain Regional Meeting. Society of Petroleum Engineers, 1992.Google Scholar Town, K., Sheehy, A.J. and Govreau, B.R. MEOR Success in Southern Saskatchewan, SPE Reservoir Evaluation and Engineering, 13(5), pp.773–781. 2010.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211938-MS
+
+
+

@@ -1,0 +1,213 @@
+----- METADATA START -----
+Title: A Finite Element Study of Integrity of Formation/Casing Annulus Cement Sheath in Niger Delta
+Authors: Jessica Etoh, Adewale Dosunmu, Boniface Oriji, Oloruntoba Moritiwon
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211946-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Cement sheath is a well barrier that prevents the unintentional and uncontrollable flow of fluids from, into a formation or back to its surface. However, during drilling and production operations, this cement is subjected to various stresses resulting from thermal stress, non-uniform geo-stress, compressive and tensile stresses. Therefore, this study describes a finite element analysis (FEA) simulation of a cement sheath of class G type under stress in a typical drilling and production scenario. With experiments, the rheological and mechanical properties of class G cement with varying water-cement ratio of 0.4, 0.5 and 0.6 were prepared and analyzed for their performance and workability. From the results, it showed that the cement system with the lowest water-cement ratio of 0.4, demonstrated the highest mechanical strength. This was attributed to lesser water in the mix triggering efficient interaction with cement. Hence, based on this study, 0.4 cement ratio is recommended if the ability to withstand compressive and tensile forces is desired. In cases where it is to be used for drilling and production operations characterised by fatigue and cyclic forces, its composition should be designed such that it is more ductile and flexible. An FEA software, ANSYS Mechanical APDL (ANSYS Parametric Design Language) was used to analyze stress to convergence. Material properties of 0.4 cement ratio was adopted for simulation based on experimental results. Also, well loading conditions were cycled at temperature and pressure of 0-104 0C and 250-290 bar simultaneously. Simulation results showed the time changes of equivalent (Von-Mises), maximum, minimum and shear stresses. Time changes of equivalent elastic strain, total deformation and stress intensity were also recorded. From the simulation results, it can be concluded that the yield point of the material occurred at a time (t) =1.3245×10−4 s under continuous stress. It is recommended that the contact point between the casing and the cement be monitored for deformation due to high stress response during stress analysis.
+
+
+
+
+Keywords:
+upstream oil & gas,
+wellbore design,
+cement,
+sheath,
+cement chemistry,
+cement property,
+deformation,
+petroleum engineer,
+cement formulation,
+society
+
+
+Subjects: 
+Wellbore Design,
+Casing and Cementing,
+Wellbore integrity,
+Cement formulation (chemistry, properties)
+
+
+
+
+Introduction
+
+
+NORSOK D-010 explains that Well Integrity involves the use of organized and technically sound solutions to mitigate the risk of unrestrained release of formation fluids during the well's lifecycle. As the petroleum industry enters more complex and demanding environments, it is necessary that the use of a two-barrier (primary and secondary) philosophy be employed and hence standardized. There are four distinct phases of a well's lifecycle namely: Drilling, production, Intervention, Plug and Abandon. With exception to the drilling phase where the drilling mud is the only primary barrier, the cement sheath serves as a primary and secondary barrier in all phases.
+
+
+Cement sheath as a component of casing-cement-formation system
+
+
+During the drilling phase or when a well is to be plugged and abandoned, the cement slurry is placed into the annulus between the casing and open hole. When the cement slurry hardens and sets, it creates a seal such that it isolates the well flow from unwanted formation fluids while permanently positioning the casing in place. The cement sheath is a crucial element in sustaining well integrity because it provides both zonal and hydraulic isolation, provides support and protection to the casing. However, if the cement slurry is not placed properly or has poor characteristics, it could fail during the well's service life. Furthermore, operations such as drilling, completion, well stimulation, production and so on can result in cement failure.
+
+
+Researches investigating the cement's durability are classified into two major groups:
+
+
+Experimental - LaboratoryModelling methods - Finite element analysis
+
+
+These researches have shown that cement sheath's failure occurs when the applied stress on the cement is more than the yield strength of the cement.
+
+
+Finite element analysis
+
+
+It is the use of computer software to understand and predict how a structure reacts to real-world conditions such as heat, fluid flow, forces and other physical effects. It is used to locate potential problems in a design and show whether a product will break, wear out or work the way it was designed. It is used in every engineering discipline and some of the software include: ANSYS, OpenFOAM, Sim Scale, Autodesk CFD, ABAQUS, RoboLogix e.t.c.
+
+
+K.E Gray et al, 2007 performed a staged finite element analysis during the construction of a well during which he considered the stress states at the wellbore and at the end of the wellbore. The analysis was to track the behaviour of the cement slurry which is time dependent after it has been placed. ABAQUS FEA was used to investigate a casing with zero eccentricity. The different loading steps were: Drilling, Cementing, Hardening, Shrinkage, Completion, Hydraulic Fracturing and Production. They observed:
+
+
+There was no difference in the distribution of the radial stress during "cementing" and "hardening"There was no loss of bonds at the interface of the casing and cement during the shrinkageThere was debonding at the interface of the casing and cement during shrinkage of stiff material systems. Stiff material here refers to rocks that have increased values of cohesive strength and modulus of elasticity. On the other hand, to recompense for cement shrinkage in "compliant material systems" the rocks elastically and plastically deformed (i.e. low young's modulus and cohesive strength respectively.
+
+
+METHODOLOGY
+
+
+An enterprise version of CFD (Computational Fluid Dynamics) code-ANSYS 2019R3 was utilised to draw the geometry in 3D and to mesh the symmetric section of it. The meshed symmetric geometry was adopted as the computational domain. The unstructured Hexahedral/tetrahedral mesh was then introduced to the model, solution and post processing mode of Mechanical APDL (ANSYS Parametric Design Language) in ANSYS 2019R3 for stress analysis.
+
+
+The formation-cement-casing geometry was modelled as vertical cylindrical tubes with void hollows. It is made up of three sections/domains which are distinct but continuous at the interface. The cement domain was sandwiched as a frozen cylinder between two other frozen cylinders which represented a slice of the formation and the production casing. The cement domain was 36.3701 inches (0.9238 m) high while the formation and the casing were 39.3701 (1 m) and 42.3701 inches (1.0762 m) high respectively. Total diameter to include a slice of the formation was 11.5 inches (0.2921 m) while the wellbore was 9.5 inches (0.2413 m) in diameter. Production casing represented by the innermost hollow cylinder has an inner and outer diameter of 4.09 (0.1039 m) and 4.5 inches (0.1143 m) respectively. Reservoir pressure is assisted by water flooding while the API specified production capacity of casing is 1.63 bbl/100ft.
+
+
+ANSYS Design Modeler package was used to draw the 3D computational domain in accordance to model description. Afterwards, a symmetry was introduced to the geometry to cut it in half on the XY plane. This is because material properties and flow behaviour are homogenous across the diameter of a riser design but not across its height. Hence, modelling a half to represent the whole has negligible or no effect on result, reduces computational cost as well as give insight into internal and enclosed areas of the domain.
+
+
+Meshing
+
+
+ANSYS AUTODYN Pre-post was used to mesh the symmetric geometry dividing it into finite elements to uniformly support an applied load. Mesh settings include quadratic element order and disabling of adaptive strings for sizing. Also, for sizing, growth rate was 1.85 default while mesh defeaturing, curvature capture and proximity capture were enabled.
+
+
+Boundary Conditions: The geometry was subjected to pressure and temperature concurrently to simulate response in term of stress. These conditions are to accommodate seabed (40C) and severe downhole (1040C) conditions. Boundary conditions (BC) are set as shown Equations (1 to 3).
+
+
+BC for temperature over L = 1.0762 m, 0 ≤ r ≤ D: BC1: ∅i=+24 °C/load step,Ti=0°C,  (first ramp only)(1)∅f=+20 °C/load step,Tf=104°C,(2)
+
+
+BC for pressure over L = 1.0762 m, 0 ≤ r ≤ D: BC1: ∅i=∅f=10 bar/load step, Pi=250 bar, Pt=290 bar(3)
+
+
+The finite element analysis was done using Mechanical APDL. The transient formulation for time dependent solution was adopted hence, transient structural chosen over static structural mode.
+
+
+A time step of 1×10−5s chosen as the minimum while 0.5s was chosen as the maximum with the initial step set at 0.2s. The simulations were performed in a stepwise manner starting with the convergence of one load step before ramping to the other using tabular input. Solution monitors and probes were included to plot contours and charts.
+
+
+Simulations were carried out until the transient state has reached convergence at around 10s. The total computational time was around 7 days for a real-time of 10s with 1 second equivalent to 999999 steps and 793 iterations.
+
+
+RESULTS
+
+
+Equivalent Von-Mises Stress
+
+
+The Von Mises Criterion integrates the three principal stresses into an equivalent stress value and can be used to determine the failure condition on a ductile material such as Cement (Butcher et al., 2019). It is used to determine if a material would yield at any point. This is the point at which a material transforms from showing elastic behaviour to plastic behaviour. It is also known as the yield stress, a material would yield if its yield strength is less than the stresses acting on it.
+
+
+From the results on Chart A, it is observed that the Von Mises stress value increased from 4.8581×107 Pa at 6.84×10−5s to a peak of 2.2433 ×108 Pa at 1.3245×10−4s and afterwards tailed. The curve could not rebound to its previous peak value as it increased again in a sinusodial form to 1.0629×108 Pa at 2.4245×10−4s. It continued to rise constantly till it attained a new lower peak of 1.0994×108 Pa at 10s. This implied that the critical value of the elastic energy of distortion has been exceeded after the first peak, hence the loss of elasticity which is the ability to rebound. Also, the flattening of the curve up to 10s reassured that the cement is entered its plastic phase.
+
+
+Chart AView largeDownload slideEquivalent (Von-mises) stress (m) vs. time (s) before time = 10sChart AView largeDownload slideEquivalent (Von-mises) stress (m) vs. time (s) before time = 10s Close modal
+
+
+Total Deformation
+
+
+From the results on Chart B, it is observed that the total deformation value increased from 2.9760×10−4m at 6.84 ×10−5s to a peak of 6.8583×10−4m at 1.3245×10−4s and afterwards tailed. The curve could not rebound to its previous peak value as it increased again in a sinusodial form to 6.3893×10−4m at 2.4245×10−4s. It continued to rise constantly till it attained a new lower peak of 6.9376×10−4m at 10s. Plastic deformation is the process by which a material is subjected to a permanent deformation such that there is an irreversible change in its shape with respect to applied forces. The transition from the linear elastic behavior to plastic behavior is called yielding. A common deformation theory that can be referred to is the Hooke's law.
+
+
+Chart BView largeDownload slideTotal deformation (m) vs time (s) before time = 10sChart BView largeDownload slideTotal deformation (m) vs time (s) before time = 10s Close modal
+
+
+Although the maximum deformation is not helpful in predicting material failure, it gives a description of the extent to which the material deforms before failure.
+
+
+Principal Stresses
+
+
+The Principal stresses are derived from the normal stress resulting when the shear stress is zero, and is calculated at an angle Ɵ. The maximum principal stress is the maximum stress in tension while the minimum principal stress is the minimum stress in compression.
+
+
+Principal stresses can either have a negative or positive value and this depends on the load being applied. A positive value translates as the material in tension while a negative value translates as the material in compression.
+
+
+Maximum Principal Stress: From the results on Chart C, it is observed that the Maximum Principal stress value increased from 2.18×107Pa at 6.84×10−5s to a peak of 2.3299 ×108 Pa at 1.3245×10−4s and afterwards tailed. The curve could not rebound to its previous peak value as it increased again in a sinusodial form to 9.6441×107 Pa at 2.4245×10−4s. It increased constantly till it attained a new lower peak of 9.9419×107 Pa at 10s. The theory of maximum stress explains that a material would fail when the maximum value of principle stress generated in the material becomes greater than the limiting value of stress. This theory is also referred to as the Rankine's theory. Chart CView largeDownload slideMaximum principal stress (Pa) vs time (s) before time = 10sChart CView largeDownload slideMaximum principal stress (Pa) vs time (s) before time = 10sFrom the stress strain curve in Fig G, it is seen that at point B (Yield stress point), the material does not exhibit elastic behavior (linear section of curve) anymore, intead it has entered the phase of plasticity in which it cannot return back to its original shape even after the external load being applied to it has been removed. From Chart C, this peak/yield point occurred at a tensile stress of 2.3299 ×108 Pa. Also, the flattening of the curve up to 10s reassured that the cement is entered its plastic phase. Figure GView largeDownload slideTypical stress-strain curveFigure GView largeDownload slideTypical stress-strain curveMinimum Principal Stress: From the results on Chart D, it is observed that the Minimum Principal Stress value increased from a negative value of - 2.2758×107 Pa at 6.84×10−5s to a peak of 1.4376 ×107 Pa at 1.3245×10−4s and afterwards tailed. The curve rebounded and exceeded its previous peak value as it increased again in a sinusodial form to 2.2430×107 Pa at 2.4245×10−4s. It increased constantly till it attained a new higher peak of 2.6172×107 Pa at 10s. This higher value of stress as compared to the stress at the yield point, could indicate an Ultimate Stress Point, after which comes the break point. The negative values indicate that the material is under compression. Chart DView largeDownload slideMinimum principal stress (Pa) vs. Time (s) before time = 10sChart DView largeDownload slideMinimum principal stress (Pa) vs. Time (s) before time = 10sThis implied that the critical value of the elastic energy of distortion has been exceeded after the first peak, hence the loss of elasticity which is the ability to rebound. Also, the flattening of the curve up to 10s reassured that the cement is entered its plastic phase.
+
+
+Figure AView largeDownload slideModel descriptionFigure AView largeDownload slideModel description Close modal
+
+
+Figure (B)View largeDownload slideFull geometryFigure (B)View largeDownload slideFull geometry Close modal
+
+
+Figure (C)View largeDownload slideGeometry with symmetry on the XY planeFigure (C)View largeDownload slideGeometry with symmetry on the XY plane Close modal
+
+
+Figure DView largeDownload slideMeshing interface showing meshed symmetric geometryFigure DView largeDownload slideMeshing interface showing meshed symmetric geometry Close modal
+
+
+Figure EView largeDownload slideEquivalent elastic strain (m/m) -symmetric viewFigure EView largeDownload slideEquivalent elastic strain (m/m) -symmetric view Close modal
+
+
+Figure FView largeDownload slideEquivalent (Von-mises) stress (m/m)-symmetric viewFigure FView largeDownload slideEquivalent (Von-mises) stress (m/m)-symmetric view Close modal
+
+
+Shear Stress
+
+
+The shear strength of the cement is a depiction of its shear resisting capacity. Shear stress is a force that causes material deformation by slippage along a plane. From the results on Chart E, it is observed that the Shear Stress value increased from a value of 1.4732×107 Pa at 6.84×10−5s to a peak of 6.0448 ×107 Pa at 1.3245×10−4 s and afterwards tailed. The curve could not rebound to its previous peak value as it increased again in a sinusodial form to 4.004×107 Pa at 2.4245×10−4 s. It increased constantly till it attained a new lower peak of 3.6632×107 Pa at 10s.
+
+
+Chart EView largeDownload slideShear stress-XY plane (m) vs. Time (s) before time = 10sChart EView largeDownload slideShear stress-XY plane (m) vs. Time (s) before time = 10s Close modal
+
+
+CONCLUSION
+
+
+From the FEA simulation using ANSYS, taking a closer look at all properties measured, it was observed from the properties that the material exhibited a linear behaviour from time (t) = 0s until a peak of time (t) = 1.3245×10−4s. After which their curves showed a sinusoidal form. It can be interpreted that the yield point for the cement occurred at a time (t) = 1.3245×10−4s.
+
+
+APPLICATIONS IN THE OIL AND GAS INDUSTRY
+
+
+The cement slurry used for this thesis was designed after an unnamed well in OML 130 in the Niger Delta. This thesis has demonstrated the importance of Finite Element Analysis of cement sheath in order to ensure its integrity of the lifetime of the well. Based on this work, the following steps can be adopted in the industry to monitor and ensure the cement sheath's integrity during the various phases of the well:
+
+
+During drilling
+
+
+During the design of the cement slurry, it should be subjected to laboratory testing in order to obtain its mechanical and rheology properties. The results of the mechanical tests would enable the engineer to design the slurry such that it withstands tensile, compressive and cyclic loads generated during drilling operations. The results of the rheology tests would confirm the workability of the cement such that it is able to be pumped down-hole into the annulus between the casing and formation without losing its integrity, and after setting it develops sufficient strength to withstand any external stress it is subjected to.
+
+
+During production
+
+
+Down-hole gauges in the well can be used to periodically obtain the down-hole temperature and pressure during production operations. Along with results of the mechanical properties obtained from tests during the drilling phase, these parameters can be fed into a Finite Element Analysis tool of choice to determine the stress and deformation generated in the cement sheath. As seen in this thesis, the point of yield (Von Mises Stress), fracture cracking (stress intensity factor) and extent of deformation (Total deformation) can be obtained from FEA simulation. By doing this the engineer would have critical values of temperature and pressure that must not be exceeded during production activities such that the integrity of the cement sheath is not damaged. This process can be repeated annually so as to obtain a trend of stress and deformation in the cement sheath. This trend can serve as an offset data if a new well is to be drilled in the same or nearby field.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+BoisA., GarnierA., GaldioloG., LaudetJ. (2012). Use of a mechanistic model to forecast Cement-Sheath Integrity. Society of Petroleum Engineers. SPE-139668-MS.Google ScholarCrossrefSearch ADS  GrayK. E, PodnosE., BeckerE., (2007). Finite element Studies of the Near-Wellbore Region during Cementing Operations: Part 1. Society of Petroleum Engineers: 127–136, SPE-106998-PA, https://doi.org/10.2118/106998-PAGoogle ScholarCrossrefSearch ADS  McDanielJ, WattersL., ShadravanA. (2014). Cement Sheath Durability: Increasing Cement Sheath Integrity to Reduce Gas Migration in the Marcellus Shale Play. Society of Petroleum Engineers. SPE-168650-MS. https://doi.org/10.2118/168650-MS.Google ScholarCrossrefSearch ADS  Al-AshbabJ., AfzalM., EmenikeC.O. (2004). Well Integrity Management System. Society of Petroleum Engineers. Paper Number: SPE-88696-MS. https://doi.org/10.2118/88696-MSGoogle Scholar ShenZ., BeckF.E., LingK. (2014). The mechanism of wellbore weakening in worn casing-cement-formation system. Journal of Petroleum Engineering. DOI:10.1155/2014/126167Google Scholar ArjomandE., BennettT., NguyenG. (2018) Evaluation of cement sheath integrity subject to enhanced pressure. Journal of Petroleum Science and Engineering. DOI:10.1016/j.petrol.2018.06.013Google Scholar De AndradeJ., TorsæterM., TodorovicJ., OpedalN., StroiszA., VrålstadT. (2014) Influence of Casing Centralization on Cement Sheath Integrity during Thermal Cycling. SPE-168012-MS, https://doi.org/10.2118/168012-MSJ. OEtoh & A.Dosunmu (2021) A Comparative Study of the Rheological Properties of Class G Cement Sheath in Niger Delta. International Journal of Engineering Science Invention (IJESI), 15–22, Volume 10 Issue 10Series II. www.ijesi.orgGoogle Scholar J. OEtoh & A.Dosunmu (2021) An Experimental Study of Mechanical Properties of Class G Cement Sheath in the Niger Delta. International Journal of Engineering Science Invention (IJESI), 23–29, Volume 10 Issue 10Series II. www.ijesi.orgGoogle Scholar NORSOK Standard D-010 Rev.3, August2004De AndradeJ., SangeslandS., TodorovicJ., VralstadT.. (2015). Cement Sheath Integrity during Thermal Cycling: A Novel Approach for Experimental Tests of Cement Systems. Society of Petroleum Engineers. SPE-173871-MS, https://doi.org/10.2118/173871-MSGoogle ScholarCrossrefSearch ADS  KhalifehM. & SaasenA. (2020). General Principles of Well Barriers. Introduction to Permanent Plug and Abandonment of Wells. pp 11–69https://link.springer.com/book/10.1007/978-3-030-39970-2.Google Scholar ShadravanA., SchubertJ, AmaniM, TeodoriuC. (2015) Using Fatigue-Failure envelope for Cement-Sheath-Integrity Evaluation. Society of Petroleum Engineers (SPE), 68–75., SPE-168321-PA, https://doi.org/10.2118/168321-PAGoogle ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211946-MS
+
+
+

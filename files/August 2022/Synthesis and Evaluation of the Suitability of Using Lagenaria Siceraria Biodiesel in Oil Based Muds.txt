@@ -1,0 +1,396 @@
+----- METADATA START -----
+Title: Synthesis and Evaluation of the Suitability of Using Lagenaria Siceraria Biodiesel in Oil Based Muds
+Authors: Augustine Azubike Azuokwu, Yakubu Yerima, Rowland Ugochukwu Azike, Anselm Iuebego Igbafe
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211949-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The search for suitable biodiesel for formulating oil based muds for deep high-temperature wells, deviated offshore wells and sensitive shale formation have intensified over the years. The reasons behind the continuous search are in two folds. First, conventional diesel used in formulating oil-based muds are fossil based, costly, non-renewable and detrimental to environment. Secondly, previous attempts to use biodiesels proved to be more expensive than the conventional diesel.In this study, biodiesel was produced from oil extracted from Lagenaria siceraria seeds. The suitability of using the synthesized Lagenaria siceraria biodiesel in oil-based muds was evaluated. The evaluation involved comparing the properties of the synthesized Lagenaria siceraria biodiesel and its drilling muds against those of the conventional diesel and some commonly used plant seed oil based biodiesels. In addition, the economic viability of the use of the synthesized Lagenaria siceraria biodiesel in oil-based muds was evaluated and compared against those of the conventional diesel and the commonly used plant seed oil based biodiesels.The physiochemical properties of the synthesized Lagenaria siceraria biodiesel showed that it has a better potential to replace the conventional diesel. Result of mud properties and toxicity tests also showed that the synthesized Lagenaria siceraria biodiesel has a better potential to replace the conventional diesel. Although, conventional diesel is cheaper than the Lagenaria siceraria biodiesel and the commonly used plant seed oil based biodiesels, economic analysis showed that it is cost effective to use the Lagenaria siceraria biodiesel.
+
+
+
+
+Keywords:
+biofuel,
+drilling fluid property,
+upstream oil & gas,
+biodiesel,
+drilling fluid chemistry,
+siceraria biodiesel,
+drilling fluid formulation,
+drilling fluids and materials,
+lagenaria siceraria biodiesel,
+drilling mud
+
+
+Subjects: 
+Drilling Fluids and Materials,
+Drilling fluid selection and formulation (chemistry, properties)
+
+
+
+
+Introduction
+
+
+The drilling fluid is one of the major key factor vital to success of any rotary drilling operation. According to Bourgoyne et al, (1991); IADC, (2000); Rabia, (2001); Amoco, (2002); Baker Hughes, (2006); Azar and Robello, (2007); IPIECA/OGP, (2009); Johannes, (2015); Gandhi and Sarkar (2016); Azuokwu et al, (2019a); Samuel and Leon (2020); Siddharth et al., (2021) the principal reasons for using drilling fluids are to:
+
+
+Remove cuttings from wellborePrevents formation fluid flow into the wellMaintain wellbore stabilityCools and lubricates the drill bit and drill stringTransmits hydraulic horsepower to the bit.
+
+
+Several types of drilling fluids are available for drilling oil and natural gas wells. The key factors that usually determine the type of drilling fluid selected for a specific well are safety, cost, lithology, range of temperature and pressure of the formation, borehole depth, logistics, technical performance and environmental impact (Petro Wiki, 2015; Gandhi and Sarkar, 2016; Akram et al., 2018; Mark, 2019). However, the two main types of drilling muds that are widely used during drilling operations are the water-based drilling muds (WBMs) and oil-based drilling muds (OBMs).
+
+
+Water-based drilling muds are cheap and environmentally friendly. Oil based muds are used effectively in lithology and wells that are adverse to water based muds (Fadairo et al., 2012; Abduo et al., 2016; Igbafe et al., 2021). The lithology and wells include water-sensitive shale that can lead to shale hydration; deep, high-temperature holes that dehydrate water-based mud; and sensitive producing zones that can easily by damaged by water based drilling fluids and directional wells that lead stuck pipe.
+
+
+There are wide variety of oils that can be used to formulate oil- based muds of which fossil-based diesel is the most common. The use of fossil-based diesel oil in drilling fluids however, have been proven to be quite expensive, non-sustainable and detrimental to environment (Fadairo et al., 2012; Tharmaraj et al., 2014; Abdul et al., 2014; Igbafe et al., 2020; Paswan and Mahto 2020; Udeagbara et al, 2021). Consequently, studies have been focused on the search for suitable plant seed oil and biodiesel that can be used in place of fossil based diesel (El Fakharany et al., 2017; Onuh et al., 2019; Saket et al., 2020; Sheeraz et al.,2020; Ashraf et al., 2021).
+
+
+The search for suitable biodiesel for replacing fossil-based diesel oil used in formulating oil based muds for deep high-temperature wells, deviated offshore wells and sensitive shale formation have intensified over the years. Different researchers have conducted different studies to evaluate the effectiveness of oil based muds formulated plant based Biodiesels. The notable among the most recent studies are shown in Table 1.
+
+
+Table 1Some recent studies on the applications plant based biodiesels in drilling fluids Authors
+            . Sources of Biodiesels
+            . Tharmaraj et al., (2014) Palm Fatty Acid Distillate Habibullah et al.,(2020) (soybean & groundnut) Saket et al. (2020)  Indian mango seed oil Sheeraz et al.,(2020) Canola oil Fadairo et al.,(2021) Neem Seed Oil Rubén et al.,(2021) Crude Palm Oil Ugochukwu et al.,(2022) Palm Kernel Oil Authors
+            . Sources of Biodiesels
+            . Tharmaraj et al., (2014) Palm Fatty Acid Distillate Habibullah et al.,(2020) (soybean & groundnut) Saket et al. (2020)  Indian mango seed oil Sheeraz et al.,(2020) Canola oil Fadairo et al.,(2021) Neem Seed Oil Rubén et al.,(2021) Crude Palm Oil Ugochukwu et al.,(2022) Palm Kernel Oil View Large
+
+
+There are many reasons behind the continuous search for suitable biodiesel for the replacement of the fossil-based diesel (Ashraf et al., 2021; Aboulrous et al., 2022). Notable among the reasons are:
+
+
+Previous attempts to use plant-based oils and biodiesels proved to be more expensive than the Fossil based diesel oil.Direct usage of plant oils in drilling mud though showed some beneficial properties, they are thermally and hydrolytic unstable and have excessive viscosity.Apart from cost, biodiesels tend to have other shortcomings. The shortcomings of biodiesel in drilling mud systems are related to the chemical reactivity and the interactions with other additives. The hydrolysis tendency of biodiesels is remarkably affected by the presence of base catalysts. In addition, performances of the biodiesels are significantly affected by temperature.
+
+
+In this study, biodiesel was synthesized from oil extracted from locally available but underutilized Lagenaria siceraria seeds. The suitability of using the synthesized Lagenaria siceraria biodiesel in oil-based muds was then evaluated. Lagenaria siceraria (Calabash/ bottle gourde) is a member Cucubitacea family. Cucubitacea family is among the abundant crop domesticated and grown at wild in most tropics especially in Nigeria (Ibrahim et al, 2016). Calabash/ bottle gourdes are grown mainly grown in rural settlement and are as container and storage vessels (Ibrahim et al, 2016). Their fruits contain vast number of seeds that have no commercial application in the locality they were produced (Ibrahim et al, 2016).
+
+
+METHODS
+
+
+Sourcing and Preparation of Lagenaria siceraria seeds
+
+
+Matured Lagenaria siceraria fruits were sourced from Emu Unor in Ndokwa West Local Government Area of Delta State. The fruits were manually cut with a sharp knife and the seeds were separate them from the fruits. The seeds were then sun-dried; the dried seeds were dehulled and pulverized in the laboratory.
+
+
+Extraction of Lagenaria siceraria seeds oil
+
+
+Oil was extracted from the pulverized Lagenaria siceraria seeds using Soxhlet method with hexane as solvent. The oil was extracted in line with the procedures described by Yerima et al., (2022).
+
+
+Oil yields were calculated using equation (1)
+
+
+Yield %=W1 −W2W1 ×100(1)
+
+
+Where: W1=Sample weight before extraction and W2= sample weight after extraction
+
+
+Production of Biodiesel from Lagenaria siceraria seeds oil
+
+
+The Lagenaria siceraria seeds oil biodiesel was produced through transesterification (equation 2) in the laboratory (Figure 2). Methanol (200ml) was added to 1.00g of NaOH in a conical flask with a slight heating and slow stirring until completely dissolved forming sodium methoxide. The sodium methoxide was added to Lagenaria siceraria seeds oil (100ml) heated up at 65°C in the transesterification reactor. The mixture was stirred at the same temperature for two hours. The reactions converts the triglycerides in the Lagenaria siceraria seeds oil to Fatty Acid Methyl Esters (FAME) and glycerol. After this, the mixture is then cooled for three hours in a separating funnel. The mixture separated into two distinct layers, with the upper light layer containing the biodiesel (FAME) and the denser glycerol layer at the bottom. The glycerol layer (the lower layer) was thereafter tapped off. The recovered biodiesel was purified by neutralizing it diluted acetic acid and washed with distilled water. The biodiesel yield was calculated using equation (3).
+
+
+Figure 1View largeDownload slidePreparation and extraction of Lagenaria siceraria (Calabash gourd) seeds oilFigure 1View largeDownload slidePreparation and extraction of Lagenaria siceraria (Calabash gourd) seeds oil Close modal
+
+
+Figure 2View largeDownload slideProduction of Biodiesel from Lagenaria siceraria seeds oilFigure 2View largeDownload slideProduction of Biodiesel from Lagenaria siceraria seeds oil Close modal
+
+
+(2)
+
+
+Biodiesel Yield %=Weight of BiodieselWeight of Oil ×100(3)
+
+
+Physiochemical Properties
+
+
+The physicochemical properties of biodiesel were determined in line with the standard procedures of American Society for Testing of Materials (ASTM, 2005) and Association of Official Analytical Chemists (AOAC, 2000).
+
+
+Formulation, Testing and Comparison of Mud properties
+
+
+Oil based muds were formulate and tested in accordance with the American Petroleum Institute Recommended Practice (API, 2005).
+
+
+The Lagenaria Siceraria biodiesel-based drilling fluid (LSBBDF) and fossil diesel-based drilling fluid (FDBDF) were prepared as follows: O/W = 80/20; Primary Emulsifier (10 g); Bentonite (25g); lime (1.75 g); Carboxymethyl Cellulose (7.5 g); Secondary Emulsifier (5 g) and barite to required density.
+
+
+The following mud properties tests were determined:
+
+
+Mud weight tests – mud weight.Mud rheological tests - Plastic viscosity (PV), Yield point (YP), Gel strength, Apparent viscosity (AV), Flow index (n).Gel strength tests - Gel Strength, (10 secs.) and Gel Strength, (10 mins.), thixotropy.Filtration tests- Fluid loss, Filter Cake Thickness.Mud pH tests.Electrical Stability tests.Lubricity tests.
+
+
+Mud Toxicity Test and Environmental Impacts
+
+
+The toxicity test was done in accordance to those found in literature (Abu et al., 1991; Abdul et al., 2014; Arina et al., 2015; Augustine et al., 2021) with some modifications. Locally sourced tiger prawn (Penaeus Monodon) was used in this study. Ten prawns were exposed to 100, 1000, 10000, 100000 and 200,000 ppm of the LSBBDF and (FDBDF) respectively for 96 hours and the observation was done throughout the period. The mud concentration that killed 50% of exposed prawns after 96 hours of exposure (Lethal Concentration. LC50) was identified and noted. As stated by Ogeleka and Tudararo-Aherobo (2013), an organism (Pawn) is assumed dead when there is total lack of movement or response after repeated prodding with a probe.
+
+
+Economic Viability Analysis
+
+
+This comprises:
+
+
+Estimation of the cost of Lagenaria Siceraria Biodiesel synthesis and price.Evaluation of the cost of mud formulations and drilling muds wastes disposalsComparison of the cost of formulations and disposal of fossil based diesel mud and Lagenaria Siceraria Biodiesel mud.
+
+
+RESULTS AND DISCUSSIONS
+
+
+Table 3 showed the physicochemical properties of Lagenaria siceraria biodiesel as compared with previously studied biodiesel and standard specifications
+
+
+Table 3Physicochemical Properties of Lagenaria Siceraria Biodiesel versu s Previously Studied Biodiesel and Standard Specifications Parameters
+            . Fossil Diesel Oil
+            . Lagenaria siceraria Biodiesel
+            . Previously Studied Biodiesels
+            . Standard
+            . Palm Fatty Acid Distillate Biodiesel 1
+            . Soya bean Biodiesel2
+            . Ground nut Biodiesel2
+            . Indian Mango Biodiesel3
+            . Canola Oil Biodiese4
+            . Neem Oil Biodiesel5
+            . Crude palm kernel Oil Biodiesel6
+            . Colour Light Brown Dark yellow         Yield (%) − 78         pH . 6.96 7.24      8.18 7.71 Not Available Specific gravity 0.85 0.88 0.91 0.889 0.895 0.88 0.89 0.808 0.878 (0.875-0.9)a Kinematics Viscosity at 40°c, mm2/s 3.42 3.5 4.8 2.72 3.091 3.9 4.72 5.76 3.39 (3.5-5.0)a;(2.3 – 3.5)b Pour point, °C −9 0 16.0   −33   13 (-15-10)a (< ambient temperature)b Flash point, °C 70 148 132.0 180 185 252 150 168 126 (>130)a; (> 80)b Fire point, °C 78 162  200 205 284    >145 a Cloud point, °C −4.2 4    −28    −1a Acid number mgKOH/g 0.28 0.46        >0.8 a Parameters
+            . Fossil Diesel Oil
+            . Lagenaria siceraria Biodiesel
+            . Previously Studied Biodiesels
+            . Standard
+            . Palm Fatty Acid Distillate Biodiesel 1
+            . Soya bean Biodiesel2
+            . Ground nut Biodiesel2
+            . Indian Mango Biodiesel3
+            . Canola Oil Biodiese4
+            . Neem Oil Biodiesel5
+            . Crude palm kernel Oil Biodiesel6
+            . Colour Light Brown Dark yellow         Yield (%) − 78         pH . 6.96 7.24      8.18 7.71 Not Available Specific gravity 0.85 0.88 0.91 0.889 0.895 0.88 0.89 0.808 0.878 (0.875-0.9)a Kinematics Viscosity at 40°c, mm2/s 3.42 3.5 4.8 2.72 3.091 3.9 4.72 5.76 3.39 (3.5-5.0)a;(2.3 – 3.5)b Pour point, °C −9 0 16.0   −33   13 (-15-10)a (< ambient temperature)b Flash point, °C 70 148 132.0 180 185 252 150 168 126 (>130)a; (> 80)b Fire point, °C 78 162  200 205 284    >145 a Cloud point, °C −4.2 4    −28    −1a Acid number mgKOH/g 0.28 0.46        >0.8 a a = ASTM D6751 Biodiesel requirement;b = Standard base oil requirement1 Source: Tharmaraj et al., (2014)1;2 Habibullah et al., (2020);3 Saket et al. (2020);4 Sheeraz et al., (2020);5 Fadairo et al., (2021);6 Ugochukwu et al., (2022)View Large
+
+
+Based on the Table 3, the following can be deduced:
+
+
+Specific gravity: it shows the weight and density of base-fluid. The specific gravity value of the Lagenaria siceraria biodiesel is within the ASTM limits of biodiesel. The value is comparable to those of the previously studied biodiesels and better than that of the fossil diesel. Based on the specific gravity values in table 3, Lagenaria siceraria biodiesel is very suitable to be used in drilling fluid.Kinematic viscosity: it shows the resistance of base fluid to flow under the influence of gravity force. Low viscosity is an ideal property for oils to be used in drilling in a range of well conditions and in different environments (Shell, 2019). Low viscosity results in a better equivalent circulating density (ECD), faster drilling rate and increased hole cleaning efficiency (Shell, 2015). The Kinematic viscosity value of the Lagenaria siceraria biodiesel is within the standard specification values (ASTM D6751 Biodiesel requirement and Standard base oil requirement). The value is comparable to those of the previously studied biodiesels and better than that of the fossil diesel. Thus, Lagenaria siceraria biodiesel is very suitable to be used as a replacement for fossil diesel in drilling fluid.Flash point and Fire point: Flash point shows the temperature at which the fluid begins to burn and Fire point shows the temperature at which oil vapour will continue to burn when ignited at the temperature. Relatively high flash point, are ideal properties for oils to be used in drilling in a range of well conditions and in different environments (Shell, 2015) for safety reasons. The flash point and fire point values of the Lagenaria siceraria biodiesel are within the standard specification values (ASTM D6751 Biodiesel requirement and Standard base oil requirement). The values are comparable to those also comparable to those of the previously studied biodiesels and better than that of the fossil diesel. Thus, Lagenaria siceraria biodiesel is very suitable to be used as a replacement for fossil diesel in drilling fluid.Pour point: it shows the lowest temperature at which the base-fluid will be able to flow. Low pour point is an ideal property for oils to be used in drilling in a range of well conditions and in different environments (Shell, 2019). The pour point value of the Lagenaria siceraria biodiesel is within the standard specification values. The value is comparable to those of the previously studied biodiesels and that of the fossil diesel. Thus, Lagenaria siceraria biodiesel is very suitable to be used in drilling fluid.Cloud point: Dissolved solids in the oil are no longer completely soluble in it at this temperature thus precipitating as a second phase giving the fluid a cloudy appearance. The cloud point of the biodiesel produced from Lageneria sinceraria seed oil is within the specified value. Thus, Lagenaria siceraria biodiesel is very suitable to be used in drilling fluid.Acid number; it is a measure of free fatty acids in a given product (Atabani et al., 2013). Acid number of the biodiesel produced from Lageneria sinceraria seed oil indicates that it contains higher fatty acid composition of 0.46 mgKOH/g but is within the ASTM specified range (0 -0.50 max).The percentage yields, (35% and 78%) for the oil and for the biodiesel respectively) are the added advantage.
+
+
+DRILLING PROPERTIES RESULTS
+
+
+Comparison of Mud Weight:Figure 3 showed that mud formulated with Lagenaria Siceraria biodiesel has slightly higher mud weight. This is due to the high specific gravity of the Lagenaria Siceraria seed oil (Table 3). However, all the muds met the API specification range of 8.5- 9.60 (lb/gal). However, mud formulated with Lagenaria siceraria biodiesel has slightly higher mud weight.
+
+
+Figure 3View largeDownload slideComparison of Mud WeightFigure 3View largeDownload slideComparison of Mud Weight Close modal
+
+
+The mud pH: Viscosities of drilling fluids are affected. A pH of 8.5 to 9.5 is the best for hole stability and control over other mud properties (Azuokwu et al, 2019b). The pHs of the oil drilling fluids are within the permissible industry standard (Figure 4).
+
+
+Figure 4View largeDownload slideComparison of the mud pHFigure 4View largeDownload slideComparison of the mud pH Close modal
+
+
+Rheological properties
+
+
+Rheological properties are vital in determining the cuttings carrying index (CCI) and cuttings suspending index (CSI). The relationship between shear stress and shear rate shown in Figure 5, indicate non-Newtonian fluids patterns.
+
+
+Figure 5View largeDownload slideShear rate versus Shear StressFigure 5View largeDownload slideShear rate versus Shear Stress Close modal
+
+
+Plastic and Apparent Viscosity
+
+
+As shown in Figure 6, the plastic and apparent viscosity values of the muds were within the API specification (Fadairo et al., 2021). Mud formulated with Lagenaria Siceraria biodiesel, however, had a slightly higher plastic and apparent viscosity values. This is can be adduced to high viscosity of the Lagenaria Siceraria biodiesel.
+
+
+Figure 6View largeDownload slideComparison of Plastic and Apparent ViscosityFigure 6View largeDownload slideComparison of Plastic and Apparent Viscosity Close modal
+
+
+Yield Point: The yield point (YP) indicates the ability of a drilling fluid to carry cuttings out of the annulus Okorie et al., 2015; Azuokwu et al, 2019b). Non-Newtonian fluids are drilling fluids with high yield points (Okorie et al., 2015; Azuokwu et al., 2019c). They lift cuttings better than fluids of similar density but lower YP. As shown in Figure 7, drilling mud with Lagenaria siceraria biodiesel has higher yield point, thus, can carry cuttings better than that of the fossil based diesel oil mud. The yield points of the muds is within the API specification range (15- 25).
+
+
+Figure 7View largeDownload slideComparison of Yield PointFigure 7View largeDownload slideComparison of Yield Point Close modal
+
+
+Flow index (n):Figure 8 showed that of mud formulated with Lagenaria siceraria biodiesel has higher flow index than that of the fossil diesel. Hence, Lagenaria siceraria biodiesel can be used as a replacement for the fossil-based diesel oil.
+
+
+Figure 8View largeDownload slideFlow indexFigure 8View largeDownload slideFlow index Close modal
+
+
+Comparison of the Gel Strengths: The gel strength is a property of drilling fluid that indicate the ability of the drilling mud to suspend drill solid (drilled cuttings) and weighting material when mud circulation is stopped (Azuokwu et al, 2019). Figure 9 showed that mud formulated with Lagenaria siceraria biodiesel has a higher gel strength. Therefore, it could be used to replace the fossil-based diesel oil.
+
+
+Figure 9View largeDownload slideComparison of the Gel StrengthsFigure 9View largeDownload slideComparison of the Gel Strengths Close modal
+
+
+Fluid Loss and Mud Cake Thickness:Figure 10 showed that fluid loss and mud cake thicknessof mud formulated with conventional diesel is higher. Thus, Lagenaria siceraria biodiesel can effectively be used in place of fossil diesel oil.
+
+
+Figure 10View largeDownload slideComparison of the Fluid Loss and Mud Cake ThicknessFigure 10View largeDownload slideComparison of the Fluid Loss and Mud Cake Thickness Close modal
+
+
+Electrical Stability: The electrical stability number represents the mud emulsion stability. The higher it is; the more the stable the emulsion as as the reservoir temperature increases (Igbafe et al., 2021). Figure 11 showed that mud formulated with Lagenaria siceraria biodiesel higher electrical stability than that of the conventional diesel oil. Therefore, it can be used in place of the fossil-based diesel oil.
+
+
+Figure 11View largeDownload slideComparison of the Electrical StabilityFigure 11View largeDownload slideComparison of the Electrical Stability Close modal
+
+
+Lubricity Coefficient: A lubricity coefficient of less than coefficient < 0.1 is ideal for oil-based mud. Based on the lubricity coefficient results (Figure 12), Lagenaria siceraria biodiesel is very suitable to replace fossil-based diesel in drilling muds.
+
+
+Figure 12View largeDownload slideComparison of Lubricity CoefficientFigure 12View largeDownload slideComparison of Lubricity Coefficient Close modal
+
+
+Mud Toxicity Results
+
+
+Table 4 shows the toxicity rating and the results of mud toxicity test. From the results, it can be observed the mud concentration that can killed 50% of exposed prawns exposed to muds formulated with Lagenaria siceraria Biodiesel after 96 hours of exposure (Lethal Concentration. LC50) is more than 100,000 ppm. This means muds formulated with Lagenaria siceraria Biodiesels can be considered as non-toxic unlike muds formulated with fossil-based diesel. The results (Table 4 and Figure 13) showed that drilling mud with Lagenaria siceraria Biodiesels are more environmentally friendly than those formulated with fossil diesels are.
+
+
+Figure 13View largeDownload slideResults of Mud Toxicity TestFigure 13View largeDownload slideResults of Mud Toxicity Test Close modal
+
+
+Figure 14View largeDownload slidePrices Lagenaria Siceraria Biodiesel versus prices of Biodiesel (B100) and Fossil DieselFigure 14View largeDownload slidePrices Lagenaria Siceraria Biodiesel versus prices of Biodiesel (B100) and Fossil Diesel Close modal
+
+
+Figure 15View largeDownload slideCost of Mud Formulations and Drilling Muds Wastes DisposalsFigure 15View largeDownload slideCost of Mud Formulations and Drilling Muds Wastes Disposals Close modal
+
+
+Table 4Toxicity Rating and the Results of Mud Toxicity Test Toxicity rating classification system
+            . Penaeus Monodon Survival (%)
+            . Concentration (LC50)
+            . Toxicity Rating
+            . Exposed Concentration
+            . Drilling Mud with Lagenaria siceraria Biodiesels
+            . Drilling Mud with fossil-based diesel
+            . > 100, 000ppm Non-toxic 200,000 ppm 60 0 10,000-100,000ppm Almost non-toxic 100,000ppm 70 0 1,000-10,000 ppm Slightly toxic 10,000 ppm 80 0 100-1,000ppm Moderately toxic 1,000 ppm 90 0 1- 100ppm Toxic 100 ppm 100 40 < 1ppm Very toxic 1ppm 100 90 Toxicity rating classification system
+            . Penaeus Monodon Survival (%)
+            . Concentration (LC50)
+            . Toxicity Rating
+            . Exposed Concentration
+            . Drilling Mud with Lagenaria siceraria Biodiesels
+            . Drilling Mud with fossil-based diesel
+            . > 100, 000ppm Non-toxic 200,000 ppm 60 0 10,000-100,000ppm Almost non-toxic 100,000ppm 70 0 1,000-10,000 ppm Slightly toxic 10,000 ppm 80 0 100-1,000ppm Moderately toxic 1,000 ppm 90 0 1- 100ppm Toxic 100 ppm 100 40 < 1ppm Very toxic 1ppm 100 90 View Large
+
+
+Economic Viability Results
+
+
+A simple economic viability analysis was carried out based on propositions and data of other authors (Haas et al., 2006; Santana et al., 2014; Tasic et al., 2014; Prabodh and Jason, 2014; Acevedo et al., 2015; Amorin et al., 2015; Emmanuel et al., 2020; Vajiheh et al., 2020). However, there were some modifications due current market surveys and local operating conditions. Table 5 showed the data for the economic viability analysis.
+
+
+Table 5Estimated Price of Lagenaria siceraria Biodiesel Component
+            . USD/gal
+            . Feedstock 1.86 Supplies 0.72 Labor 0.02 Electricity 0.16 Quality Analysis 0.14 Maintenance 0.16 Distribution 0.06 Total 3.12 Component
+            . USD/gal
+            . Feedstock 1.86 Supplies 0.72 Labor 0.02 Electricity 0.16 Quality Analysis 0.14 Maintenance 0.16 Distribution 0.06 Total 3.12 View Large
+
+
+Although this cost this a bit higher than the average price of Fossil Diesel of 2.68 U.S dollars per Gallon. It is cheaper than the Biodiesel (B100) that sold for a mean retail price of 3.73 per Gallon (Sönnichsen, 2022)
+
+
+Cost of Mud Formulations and Drilling Muds Wastes Disposals
+
+
+Table 6 showed the data for the economic viability analysis of mud formulations
+
+
+Table 6Data for the economic viability analysis of mud formulations Drilling Fluid Materials
+            . Quoted Price
+            . Sources
+            . Lagenaria Siceraria Biodiesel $3.12/Gallon As estimated in this study Diesel oil $2.68/Gallon Sönnichsen (2022)  Primary emulsifier (mL) $2250/ Tonne DMEPMS (2022)  Secondary emulsifier (mL) $2250/ Tonne DMEPMS (2022)  Filter loss agent CMC (g) $2.8/ Kg Keven (2022)  Deionized Water (mL) £0.21/ litre DWGB (2020)  Bentonite (g) $98/ Tonne Garside (2021)  Lime (g) $0.0636/g Amorin et al. (2015)  Barite (g) $0.0003/g Amorin et al. (2015)  Drilling Fluid Materials
+            . Quoted Price
+            . Sources
+            . Lagenaria Siceraria Biodiesel $3.12/Gallon As estimated in this study Diesel oil $2.68/Gallon Sönnichsen (2022)  Primary emulsifier (mL) $2250/ Tonne DMEPMS (2022)  Secondary emulsifier (mL) $2250/ Tonne DMEPMS (2022)  Filter loss agent CMC (g) $2.8/ Kg Keven (2022)  Deionized Water (mL) £0.21/ litre DWGB (2020)  Bentonite (g) $98/ Tonne Garside (2021)  Lime (g) $0.0636/g Amorin et al. (2015)  Barite (g) $0.0003/g Amorin et al. (2015)  View Large
+
+
+Table 7Economic Viability Analysis (Cost of Mud Formulations) Drilling Fluid Materials
+            . Drilling Mud with Lagenaria siceraria Biodiesels
+            . Drilling Mud with fossil-based diesel
+            . 
+            . Quantity
+            . Amount ($)
+            . Quantity
+            . Amount ($)
+            . Based Oil (mL) 280 0.23078069 280 0.1982347 Primary Emulsifier (mL) 10 0.02025 10 0.02025 Secondary Emulsifier (mL) 5 0.010125 5 0.010125 Filter loss agent CMC (g) 7.5 0.0049 7.5 0.0049 Water (mL) 70 0.019992 70 0.019992 Bentonite (g) 25 0.00245 25 0.00245 Lime (g) 1.75 0.1113 1.75 0.1113 Barite (g) 10 0.003 10 0.003 Summation ($/350mL)  0.40279769  0.3702517 Summation ($/BBL)  137.227962  126.139962 Drilling Fluid Materials
+            . Drilling Mud with Lagenaria siceraria Biodiesels
+            . Drilling Mud with fossil-based diesel
+            . 
+            . Quantity
+            . Amount ($)
+            . Quantity
+            . Amount ($)
+            . Based Oil (mL) 280 0.23078069 280 0.1982347 Primary Emulsifier (mL) 10 0.02025 10 0.02025 Secondary Emulsifier (mL) 5 0.010125 5 0.010125 Filter loss agent CMC (g) 7.5 0.0049 7.5 0.0049 Water (mL) 70 0.019992 70 0.019992 Bentonite (g) 25 0.00245 25 0.00245 Lime (g) 1.75 0.1113 1.75 0.1113 Barite (g) 10 0.003 10 0.003 Summation ($/350mL)  0.40279769  0.3702517 Summation ($/BBL)  137.227962  126.139962 View Large
+
+
+Cost of Mud Formulations and Drilling Muds Wastes Disposals
+
+
+The cost of transportation of drilling wastes to disposal site is $3/bbl. while the cost of commercial disposal of the fossil-based diesel mud wastes is $57/bbl. (Ihenacho et al., 2015). Assuming two third of the fossil based diesel mud wastes disposal cost will apply to that of Lagenaria Siceraria Biodiesel due its low toxicity, it means that $38/bbl will be needed.
+
+
+Thus, the cost of transportation and disposal of fossil-based diesel mud wastes will be $60/bbl. While that of Lagenaria Siceraria Biodiesel will be $41/bbl. As shown in Table 8, the formulation fossil based diesel mud and the disposal of tis wastes will be $186.14/bbl. While Lagenaria Siceraria Biodiesel will be $178.23/bbl. Thus, it is cost effective to use the Lagenaria siceraria biodiesel.
+
+
+Table 8Cost of Mud Formulations and Drilling Muds Wastes Disposals Drilling Activities
+            . Drilling Mud with Lagenaria siceraria Biodiesels
+            . Drilling Mud with fossil-based diesel
+            . Cost of Mud Formulations ($/BBL) 137.23 126.14 Cost of Mud Waste Disposal ($/BBL) 41.00 60.00 Total Cost of Mud Formulations and Waste Disposal($/BBL) 178.23 186.14 Drilling Activities
+            . Drilling Mud with Lagenaria siceraria Biodiesels
+            . Drilling Mud with fossil-based diesel
+            . Cost of Mud Formulations ($/BBL) 137.23 126.14 Cost of Mud Waste Disposal ($/BBL) 41.00 60.00 Total Cost of Mud Formulations and Waste Disposal($/BBL) 178.23 186.14 View Large
+
+
+Conclusions
+
+
+Based on results of this study, the following can be concluded:
+
+
+Reasonable amount of oil (35%) was extracted from Lagenaria siceraria seeds.Lagenaria siceraria seeds oil is suitable for the synthesis of biodiesel (78% yield).The physiochemical properties of the synthesized Lagenaria siceraria biodiesel showed that it has a better potential to replace the conventional diesel.Result of mud properties and toxicity tests also showed that the synthesized Lagenaria siceraria biodiesel has a better potential to replace the conventional diesel.Although, conventional diesel is cheaper than the Lagenaria siceraria biodiesel and the commonly used plant seed oil based biodiesels, economic analysis showed that it is cost effective to use the Lagenaria siceraria biodiesel. This due to the exra cost of disposing drilling mud wastes
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+ACKNOWLEDGMENTS
+
+
+Special thanks to everybody that supported this research.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviations:Expansion AOACAssociation of Official Analytical Chemists APIAmerican Petroleum Institute ASTMAmerican Society for Testing of Materials AVApparent Viscosity CMCCarboxyl methyl Cellulose cpcentipoise ECDEquivalent Circulating Density DMEPMSDrilling Mud Emulsifier Price Manufacturers & Suppliers FDBDFFossil Diesel-Based Drilling Fluid LCLethal Concentration LSBBDFLagenaria Siceraria Biodiesel-Based Drilling Fluid OBMOil Based Mud O/WOil Water Ratio nFlow Index ppgpounds per gallon ppmparts per million PVPlastic Viscosity WBMWater Based Mud YPYield Point
+
+
+References
+
+
+Abdul RazakIsmail, NurulJannahIsmail, Mohd ZaidiJaafar, RuhanaHassan (2014): "The Application of Biodiesel as an Environmentally Friendly Drilling Fluid to Drill Oil and Gas Wells". Proceedings of the fifth Sriwijaya International Seminar on Energy and Environmental Science & Technology Palembang, IndonesiaSeptember 10-11, 2014.Google Scholar AbduoM.I., DahabA.S., HeshamAbuseda, AbdulazizM. AbdulAziz, ElhossienyM.S. (2016): "Comparative study of using Water-Based mud containing Multiwall Carbon Nanotubes versus Oil-Based mud in HPHT fields". Egyptian Journal of Petroleum (2016) 25, 459–464; http://dx.doi.org/10.1016/j.ejpe.2015.10.008Google Scholar AboulrousA. A., Sharifi HaddadA., RafatiR., BoyouN. V., AlSabaghA. M. (2022): "Review of synthesis, characteristics and technical challenges of biodiesel based drilling fluids. Journal of Cleaner Production", [130344]. https://doi.org/10.1016/j.jclepro.2021.130344Google Scholar Abu AzamMd.Yassin, Azmi Kamis, Mohammad OmarAbdullah, (1991): "Formulation of an Environmentally Safe Oil Based Drilling Fluid", SPE Conference Paper DOI: 10.2523/23001-MS.Google Scholar AcevedoJ.C., HernandezJ.A., ValdesC.F., KhanalS.K. (2015): "Analysis of operating costs for producing biodiesel from palm oil at pilot-scale in Colombia". Biores. Tech., 188, 117–123.Google ScholarCrossrefSearch ADS  AhmedR. AlBajalan, Hunar K.Haias (2021): "Evaluation of the Performance of Conventional Water-Based Mud Characteristics by Applying Zinc Oxide and Silica Dioxide Nanoparticle Materials for a Selected Well in the Kurdistan/Iraq Oil Field". Advances in Materials Science and Engineering. Volume 2021, https://doi.org/10.1155/2021/4376366Google Scholar AOAC (2000): "Official Methods of Analysis of the Association of Official Analytical Chemists". 17th ed., Washington DC.API (2005): "API RP 13B-2, recommended practice for field testing of oil-based drilling fluids, 4th edn. Washington, DCASTM International (2005)" "standard test method for petroleum products". Conshohocken, PennsylvaniaArashShadravan, MohammedAl-Jubouri and MahmoodAmani (2012): "Comparative Study of Using Oil-Based Mud Versus Water- Based Mud in HPHT Fields"Advances in Petroleum Exploration and Development Vol 4 (2), pp. 18–27.Google Scholar ArinaSauki, MohamadSafwanZazarliShah, WanZairaniWanBakar (2015): "Application of Ester based Drilling Fluid for Shale Gas Drilling". IOP Conf. Series: Materials Science and Engineering83 (2015) 012012 doi:10.1088/1757-899X/83/1/012012.Google Scholar AkramHamoodi, AraratA. Rahimy, Amanj W.Khalid (2018): "The Effect of Proper Selection of Drilling Fluid on Drilling Operation in Janbour Field". American Scientific Research Journal for Engineering, Technology, and Sciences (ASRJETS) (2018) Volume 39, No 1, pp 224–234Google Scholar Amoco (2002): "Drilling Fluids Manual"Amoco Production Company Drilling Fluids ManualAmorin, R., Dosunmu, A. and Amankwah, R. K. (2015), "Economic Viability of the Use of Local Pseudo-Oilsfor Drilling Fluid Formulation", Ghana Mining Journal, Vol. 15, No. 2, pp. 81–90Google Scholar AshrafAhmed, SalaheldinElkatatny, and SaadAl-Afnan (2021): "Applications of Biodiesel in Drilling Fluids". Hindawi, Geofluids, Volume 2021, Article ID 5565897, https://doi.org/10.1155/2021/5565897Google Scholar AtabaniA. E, SiltongaA. S., OngH. C, MahilaT.M.I., MasjukiH.H. (2013): "Non-edible vegetable oils: a critical evaluation of oil extraction, fatty acid compositions, biodiesel production, characteristics, engine performance and emissions production", renewable and sustainable energy review,Google Scholar AugustineAzubikeAzuokwu, YakubuYerima, RowlandUgochukwuAzike (2021): "Production and Performance Evaluation of Biodetergents as an Alternative to Conventional Drilling Detergent". SPE-207167-MS; https://doi.org/10.2118/207167-MSGoogle Scholar Azar, J. J. and RobelloSamuel, G., (2007): "Drilling Engineering". PennWell Corporation, Tulsa, Oklahoma.Google Scholar AzuokwuA. A, YerimaY, NgubiF. W, SanusiT. O (2019a): "Prospects of Using Locally Sourced Oil Palm Fronds as Filtration Control Additives for Water Based Muds". International Research Journal of Engineering and Technology (IRJET) Volume 06 Issue 07, pp 94–100Google Scholar Azuokwu AugustineAzubike, YerimaYakubu, Jemine EkimimosughaTeddy, Charles BlessCharles, (2019b): "An Investigation of the Suitability of Drilling Fluids Formulation Using Locally Sourced Materials", International Journal for Research in Applied Science &Engineering Technology, Volume 7, Issue VII.Google Scholar Azuokwu, A. A, Yerima, Y.AzikeR. U (2019c) "Evaluation of the Impacts of Locally Sourced Lost Circulation Materials on Drilling Muds Properties" | IRE Journals | Volume 2 Issue 12 | ISSN: 2456-8880Google Scholar Baker Hughes (2006): "Drilling Fluids Reference Manual"Baker Hughes Drilling Fluids.BourgoyneA.T., Jr., Millheim, K.K., Chenevert, M.E., and YoungF.S., Jr., (1991): "Applied Drilling Engineering (2nd Printing)". SPE, Richardson, Texas, 508 pp. Petroleum Institute, Washington, D.C.Google Scholar DMEPMS (Drilling Mud Emulsifier Price Manufacturers & Suppliers) (2022): "Drilling Mud Emulsifier Price-M Oil Emulsifier Invert Emulsifier Drilling Emulsifier Additive".DWGB (2020): "Deionised Water GB". https://www.deionisedwatergb.co.uk/EmmanuelE.Okoro, Sandra Iwuajoku, SamuelE. Sanni (2020): "Performance Evaluation of Biodiesel Produced from Waste Tire Pyrolytic Oil as a Lubricant Additive in Oil Drilling Systems".Google Scholar El FakharanyT, GelielAA, SalhinH (2017). Formulating Environmentally Friendly Oil- Base Mud using Soybean Oil. Iarjset4 (7):57–61. https://doi.org/10.17148/iarjset.2017.4709Google ScholarCrossrefSearch ADS  FadairoA. A., AdeyemiG. A., AmelokoA., OgidigboE., and O.Airende, (2012): "Environmental impact evaluation of a safe drilling mud," in SPE Middle East Health, Safety, Security, and Environment Conference and Exhibition, Abu Dhabi, UAE,Google Scholar FadairoAdesina., AdeyemiGbadegesin., OgunkunleTemitope., LingKegang, RasouliVamegh, EffiongElijah, AyooJames (2021): "Study the suitability of neem seed oil for formulation of eco-friendly oil based drilling fluid", Petroleum Research, https://doi.org/10.1016/j.ptlrs.2021.02.003.Google Scholar GandhiS.M., SarkarB.C. (2016): "Essentials of Mineral Exploration and Evaluation". ElsevierGoogle Scholar GarsideM. (2021): "Average bentonite price in the United States from 2007 to 2020". Statista.comGoogle Scholar HabibullahSargani, Abdul HaqueTunio and M.Zubair Hingoro (2020): "Investigating the Impact of Oil Water Ratio on Rheological Properties of Biodiesel based Drilling Mud". International Journal of Current Engineering and Technology E-ISSN 2277 – 4106, P-ISSN 2347 – 5161 ©2020INPRESSCO®, http://inpressco.com/category/ijcet; DOI: https://doi.org/10.14741/ijcet/v.10.1.14Google Scholar Haas MichaelJ., McAloon AndrewJ., Yee WinnieC., Foglia ThomasA. (2006): "A process model to estimate biodiesel production costs". Bioresource Technology97 (2006) 671–678Google ScholarPubMed PrabodhIllukpitiya and JasonP. de Koff (2014): "Economics of Small-Scale Biodiesel Production". Bioenergy; Tennessee State University.Google Scholar IADC (2000): "IADC Drilling Manual". eBook Version (V.11),PP 909/O-4.IbrahimJ. N., AgwaraY.T., Nwanyak. o, NwakubaD. C., AyilaraS., AdegbolaO. B., ZannaA. S.Aliyu, A.A. (2016): "Production of Biodiesel from Calabash Seed Oil". American Chemical Science Journal14 (4): 1–8, 2016, Article no.ACSJ.25472 ISSN: 2249-0205.Google ScholarCrossrefSearch ADS  IgbafeS., AzuokwuA. A., IgbafeA. I. (2020): "Production and Characterization of Chrysophyllum Albidum Seed Oil Derived Bio lubricant for the Formulation of Oil-Based Drilling Mud."IOSR Journal of Biotechnology and Biochemistry (IOSR-JBB), 6(2), (2020): pp. 27–32. DOI: 10.9790/264X-0602012732www.iosrjournals.orgGoogle Scholar IgbafeSylvia, AzuokwuAugustine A., IgbafeAnselm I. (2021): "Production and Characterization of an Eco-Friendly Oil Based Mud from Synthetic Bio-lubricant Derived from Chrysophyllum Albidum Seed Oil". Engineering & Technology Research Journal, Volume 6(2) pp. 40–47; https://doi.org/10/47545/ertj.2021.6.2.083.Google ScholarCrossrefSearch ADS  IhenachoP, BurbyM. L, NasrG. G, EnyiG.C. (2017): Economic evaluation of environmentally friendly vegetable oil based invert emulsion". http://usir.salford.ac.uk/42261/Google Scholar IPIECA/OGP (2009): "Drilling fluids and health risk management". London, United Kingdom.Johannes KarlFink (2015): "Water-Based Chemicals and Technology for Drilling, Completion, and Workover Fluids". Gulf Professional Publishing, Copyright © 2015 Elsevier Inc.Google Scholar KevenChen (2022): "Petroleum Oil Drilling Carboxymethyl Cellulose CMC Price". Helpo Chem. l Tech,.Google Scholar Mansoor AliKhan, Hikmat SaidAl-Salim, Leila NiloofarArsanjani (2018): "Development of High Temperature High Pressure ater Based Drilling Mud using Synthetic Polymers, and Nanoparticles". Journal of Advanced Research in Fluid Mechanics and Thermal Sciences Vol. 45, Issue 1, 99–108Google Scholar MarkS. Ramsey., (2019): "Practical Wellbore Hydraulics and Hole Cleaning". Gulf Professional Publishing; ElsevierGoogle Scholar MurtazaM., AlarifiS.A., KamalM.S., OnaiziS.A.Al-AjmiM., Mahmoud, M. (2021): "Experimental Investigation of the Rheological Behavior of an Oil-Based Drilling Fluid with Rheology Modifier and Oil Wetter Additives". Molecules4877. https://doi.org/10.3390/molecules26164877Google Scholar NwanekezieM.N., OgbeideS.E. (2017). Formulation of Oil-Based Drilling Fluids (Muds) From Plant Seed Oil (Gmelina Arborea Seed Oil). Chemical and Process Engineering Research50:35–46.Google Scholar Ogeleka, D.F. and Tudararo-Aherobo, L.E. (2013): "Assessment of the Toxic Effects of Oil-based Drilling Mud (drilling waste) on Brackish Water Shrimp (Palaemonetes africanus)". Bulletin of Environment, Pharmacology and Life Sciences. Bull. Env. Pharmacol. Life Sci., 2, 8, 113–117.Google Scholar OkorieE. Agwu, Anietie N.Okon, and FrancisD. Udoh (2015): "A Comparative Study of Diesel Oil and Soybean Oil as Oil-Based Drilling Mud". Journal of Petroleum Engineering, Article ID 828451, http://dx.doi.org/10.1155/2015/828451Google Scholar OnuhC. Y., DosunmuA., Anawe ·P. A. L., OkoroE. E., IgwiloK. C., EhinmowoA. B (2019): "The rheological behavior of a pseudo-oil-based mud formulated with Hura crepitans plant oil as base fluid". Journal of Petroleum Exploration and Production TechnologyGoogle Scholar PaswanB. K. and MahtoV. (2020): "Development of environment friendly oil-in-water emulsion based drilling fluid for shale gas formation using sunflower oil,"Journal of Petroleum Science and Engineering, vol. 191, article 107129.Google ScholarCrossrefSearch ADS  PetroWiki (2015): "Drilling Fluid Types". Copyright2012–2019, Society of Petroleum EngineersRabia, H., (2001): "Well Engineering and Construction". Entrac Consulting, 267–272.RubénD.VegaM., Rocielysdel V.MuñozD., YexanderJ.ChettickS. (2021): "Production of Biodiesel from Crude Palm Oil (Elaeis guineensis), to be used as a Continuous Phase in Drilling Fluids". Investigación & Desarrollo, Vol. 21, No. 1: 119 – 129 DOI: 10.23881/idupbo.021.1-10iGoogle Scholar SaketKumar, AartiThakur, NiteshKumar, MaenM. Husein (2020): "A novel oil-in-water drilling mud formulated with extracts from Indian mango seed oil". Petroleum Science; 17:196–210; https://doi.org/10.1007/s12182-019-00371-7Google Scholar SamuelBridges, LeonRobinson (2020): "A Practical Handbook for Drilling Fluids Processing". Gulf Professional Publishing is an imprint of ElsevierGoogle Scholar SantanaG.C.S., MartinsP.F., de Lima da SilvaN., BatistellaC.B., FilhoR. Maciel, MacielM.R. Wolf (2010): "Simulation and cost estimate for biodiesel production using castor oil". Chemical engineering research and design88, 626–632; DOI: 10.1016/j.cherd.2009.09.015; www.elsevier.com/locate/cherdGoogle Scholar Sheeraz AhmedSoomro, Dr. Suhail AhmedSoomro, Khan MuhammadBrohi (2020): "Effect of Synthesized Biodiesel on the Rheological Properties of Oil Based Drilling Mud". Engineering Science and Technology International Research Journal, Vol.4, No.1.Google Scholar Shell, (2015): "Shell GTL Saraline 185V-Synthetic Base Drilling Fluid". Shell MDS (Malaysia) Sdn. Bhd.(152396-W)Shell, (2019): "Shell GTL Saraline 185V-Synthetic Base Drilling Fluid". Shell MDS (Malaysia)SiddharthR.C.S., EswarP.V. S, MoitraA. K., JayantaBhattacharya, KayalJ. R., BiplabMukerji, DasA.K. (2021): "Innovative Exploration Methods for Minerals, Oil, Gas, and Groundwater for Sustainable Development". ElsevierGoogle Scholar SönnichsenN. (2022) "B20 and B100 vis-a-vis regular diesel retail fuel prices in the U.S. 2014-2021"Statista.Google Scholar SudharsanJ. (2018): "Behaviour of Drilling Fluids on HPHT Well Conditions". International Journal of Advanced Scientific Research and Management, Vol. 3 Issue 7, ISSN 2455-6378; www.ijasrm.comGoogle Scholar Tasic, M.B.; Stamenkovic, O.S.; Veljkovic, V.B. (2014): "Cost analysis of simulated base-catalyzed biodiesel production processes". Energy Conv. Manag., 84, 405–413.Google ScholarCrossrefSearch ADS  TharmarajMagathevan, SuzanaYusup, Nur'aini Raman, YusufRuzaimah, Nik MohamadKamil (2014): "Performance Comparison and Optimization of Palm Fatty Acid Distillate (PFAD) Biodiesel Based Drilling Fluid". Aust. J. Basic & Appl. Sci., 8 (5): 56–62Google Scholar UdeagbaraS. G., OkerekeN. U., KerunwaA., OguamahI., NwanweO. I., OdoJ. E., IkejimbaB., and OkekeR. (2021): "Performance evaluation of oil based drilling fluid formulated with castor oil". Journal of Petroleum and Gas Engineering, Vol. 12(1), pp. 8–22, DOI: 10.5897/JPGE2021.0348Google Scholar UgochukwuI. Duru, GeorgeO. Nduwuba, IfeanyichukwuM. Onyejekwe, PrincewillM. Ikpeka (2022): "Experimental Evaluation of Locally Synthesized Biodiesel Drilling Fluid". Rudarsko-geološko-naftni zbornik i autori (The Mining-Geology-Petroleum Engineering Bulletin and the authors) ©,2022, pp. 105–121, DOI: 10.17794/rgn.2022.1.10Google Scholar VajihehRahimi, MarziehShafiei, KeikhosroKarimi (2020): Techno-Economic Study of Castor Oil Crop Biorefinery: Production of Biodiesel without Fossil-Based Methanol and Lignoethanol Improved by Alkali Pretreatment". Agronomy 2020, 10, 1538; doi: 10.3390/agronomy10101538www.mdpi.com/journal/agronomyGoogle Scholar YerimaY., IgbafeA. I., MusaE. T., AzuokwuA. A., NgubiF. W. (2022): "Extraction and Characterization of Oil from Lagenaria Breviflora Seeds". European Modern Studies Journal Vol 5 No 6; ISSN 2522-9400Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211949-MS
+
+
+

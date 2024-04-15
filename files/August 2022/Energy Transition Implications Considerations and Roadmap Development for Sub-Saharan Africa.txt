@@ -1,0 +1,180 @@
+----- METADATA START -----
+Title: Energy Transition: Implications, Considerations, and Roadmap Development for Sub-Saharan Africa
+Authors: Igolo Nonye Aniebo, Joseph Samuel Akpan
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211990-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Climate change is no longer a myth and is evident worldwide in different alterations of the weather. Over the past two decades, scientists worked to find alternate sources of energy that were not fossil-based. Success in this endeavour led to what is now termed as a global transition to renewable and sustainable energy. In most climes, this marks a new beginning filled with opportunities and a chance to allow the earth to heal. Highly developed economies like Norway and some member countries of the European Union, being the driver of the transition, have begun to make policies that align with the new age, setting themselves to have a stake in the profit. The African continent, which has abundant energy resources but is neither a major contributor nor a driver of climate change but suffers just as much as other continents in the world from its effects, is not in a position to take any corrective action, showing the incapacity to participate in any potential economic gain. This paper studies the Sub-Saharan landscape by visiting the histories of the nations in question based on the energy resources within their borders and the current state of energy transition development. It examines the freedom of said countries to create policies that work for them, indicating the implications of lack of planning and the taint it may have on the new trend in the countries of interest. Efforts would also be made in highlighting a roadmap that can serve as a knowledge base to facilitate the implementation of best strategies in enabling successful energy transition in Sub-Saharan Africa.
+
+
+
+
+Keywords:
+united states government,
+sustainable development,
+sustainability,
+africa,
+social responsibility,
+climate change,
+upstream oil & gas,
+north america government,
+retrieved,
+energy transition
+
+
+Subjects: 
+Environment,
+Sustainability/Social Responsibility,
+Climate change,
+Sustainable development
+
+
+
+
+Introduction
+
+
+The discussion about climate change and its effects is no longer the preserve of panels filled with experts. It has become commonplace in conversations between everyday people. Its destructive effect has been far-reaching, from the melting ice caps in Antarctica to the change in the seasons in Africa. The United Nations defines Climate Change as a continuing shift in temperatures and weather conditions caused majorly by the burning of fossil fuels which produces emissions containing greenhouse gases that prevent the heat from the sun from escaping, thereby increasing the Earth’s temperature (United Nations, 2022).
+
+
+The fear the Earth may give up on the human race led scientists to conclude that the only way to reduce further damage to the Earth was for the world to change the type of energy harnessed for humanity’s basic needs. The term for the change is "Energy transition," which has been defined by the International Renewable Energy Agency (IRENA) as the "pathway towards the transformation of the global energy sector from fossil-based to zero-carbon by the second half of this century, with the need to reduce energy-related CO2 emissions to limit climate change." (IRENA, 2022). Another definition states Energy transition as "a mixture of changes to the production, distribution, and consumption energy models to make them more sustainable" (Collins, 2022).
+
+
+The United Nations created an entity called The United Nations Framework Convention on Climate Change (UNFCCC), which made an international environmental treaty to fight humans’ harmful tampering with the climate system (UNFCCC, 2022). The treaty stipulated continuous scientific research and routine meetings, talks, and future policy agreements devised to enable the ecosystems acclimatize to climate change, guarantee that food production is secure, and the economy’s development continues in a viable way (Wikipedia contributors, 2022). The yearly conference held under the framework of the UNFCCC is called The United Nations Climate Change Conference. It enables the parties of the UNFCCC to gather, commonly known as the Conference of Parties (COP) (Wikipedia contributors, United Nations Climate Change conference, 2022). The 1997 Kyoto Protocol and the 2015 Paris Agreement, which are under the UNFCCC parent treaty, have the final objective to regulate greenhouse gas concentrations in the atmosphere and maintain the average temperature globally to as close to 1.5°C as possible (UNFCCC, 2022).
+
+
+The African continent is blessed with bountiful resources and a teeming population that can be harnessed to grow the economy with the right policies and a suitable environment that encourages growth in the different forms of businesses. According to the United Nations Geoscheme, the continent is divided into five geographical regions (UNSD, 2022) as shown in Figure 1 
+
+
+Figure 1View largeDownload slideMap of Africa showing the geographical regions and the countries (WorldAtlas, 2022)Figure 1View largeDownload slideMap of Africa showing the geographical regions and the countries (WorldAtlas, 2022) Close modal
+
+
+The Geoscheme has two main categories; Northern Africa and Sub-Saharan Africa, where Sub-Saharan Africa (SSA) comprises Western, Eastern, Central (Middle), and Southern Africa. A brief overview of the regions shows us that while Northern Africa is the third most populous area in Africa, it has historically been able to achieve reasonable electrification for its populace due to its location geographically, which has made it partner naturally with the European Union (Dadush, Demertzis, & Wolff, 2017). SSA, on the other hand, has the majority of Africa’s landmass with the two most populous regions (Eastern and Western Africa) within its boundaries, varied geographical features including tropical rainforests, savannahs, and the Sahel region, to mention a few (Shvili, 2021) and unfortunately inability to cater for its population due to poor governance, poor management of economics, irregular foreign direct investment. Figure 2 shows rates in different regions.
+
+
+Figure 2View largeDownload slideElectrification rates in geographical regions (PwC, 2021)Figure 2View largeDownload slideElectrification rates in geographical regions (PwC, 2021) Close modal
+
+
+Overview of Energy Transition / Energy Transition and its implication
+
+
+In 2015 the United Nations member states adopted the 2030 Agenda for Sustainable Development which gives a model to achieve prosperity and peace now and hereafter for the people and the planet (United Nations, Sustainable Development Goals, 2022). At the core of the model are the 17 Sustainable Development Goals (SDGs), which range from "no poverty" to "partnership for the goals" and are a call for action for developed and developing countries (United Nations, Sustainable Development Goals, 2022).
+
+
+Goal 13 backs the drive for an energy transition which states that countries should "Take urgent action to combat climate change and its impacts" (United Nations, Goal 13, 2022). This call for action has spurred countries on to, for example, sign the Paris Agreement, and the recently concluded COP 26, which was held in Glasgow in 2021, saw some countries, including Vietnam, Ukraine, Indonesia, and Canada, promise to halt building and issuance of permits for new coal plants (Plumer & Friedman, 2021). Important to note are the other goals that should concern African countries since they classify as developing nations. We have:
+
+
+Goal 7 aims to "Ensure access to affordable, reliable, sustainable and modern energy for all" and one of its targets is "By 2030, increase substantially the share of renewable energy in the global energy mix." (United Nations, Goal 7, 2022)Goal 8 aims to "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all" and one of its targets is "Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7% gross domestic product growth per annum in the least developed countries." (United Nations, Goal 8, 2022)Goal 10 aims to "Reduce inequality within and among countries" with targets like "Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements." (United Nations, Goal 10, 2022).
+
+
+The African Union (AU), in its "Agenda 2063: The Africa we want", commits its member states to "speed up actions to finance and implement the major infrastructure projects in energy, harnessing all African energy resources to ensure modern, efficient, reliable, cost-effective, renewable and environmentally friendly energy to all African households, businesses, industries, and institutions, through building the national and regional energy pools and grids, and Programme for Infrastructure Development in Africa (PIDA) energy projects." (African Union Commission, 2015)
+
+
+It would seem that although the goals of the United Nations are in line with the agenda of the African Union, very little planning is being done to reach them. Statistically, as seen in Figure 3, the emission contribution by Africa has consistently remained low over the years despite the exploration and use of fossil fuels, and this can be attributed to the fact that it is still a developing continent. By contrast, the emissions from emerging economies have risen mainly due to their Gross Domestic Product (GDP) growth, as seen in Figure 4.
+
+
+Figure 3View largeDownload slideAnnual share of global CO2 emissions (Ritchie & Roser, 2020)Figure 3View largeDownload slideAnnual share of global CO2 emissions (Ritchie & Roser, 2020) Close modal
+
+
+Figure 4View largeDownload slideCO2 emissions of different economies in tCO2 per capita (IEA, 2022)Figure 4View largeDownload slideCO2 emissions of different economies in tCO2 per capita (IEA, 2022) Close modal
+
+
+Renewable Energy Implications for Sub-Saharan Africa
+
+
+In a rush to heal the world, the world seems to have forgotten the goals it signed for the inclusion of all countries, especially the developing nations. It is no secret that the countries in Africa are blessed with varied resources, but to have energy access for all, its economy has to thrive. For countries that are blessed with resources that are in high demand, for example, crude oil, gas, cobalt, to name a few, it would be logical that the said countries will be able to sell their resources to generate the funds needed to create a suitable environment for growth.
+
+
+Worldwide, as a clampdown to reduce fossil fuel dependence, some foreign countries and development institutions such as The United States of America, Italy, Canada, and the European Investment Bank promised to reduce or stop investments in new projects altogether (Plumer & Friedman, 2021). The lack of investments will spell disaster for countries dependent on exporting their crude and gas, such as Nigeria. It is also a challenge for countries such as Mozambique, which recently started developing a gas field to help improve the statistics of having just 31% of the population with access to electricity((Nakanwagi, 2021). Uganda, which found oil in commercial quantities in 2006, has decided in its "Vision 2040" to put the industry at the lead of its growth plan to help the country achieve a middle-income economy and improve its electrification figure, which stands to stand at 41.3% of the population. The Ugandan government signed an investment agreement to commence the East African Crude Oil Pipeline Project (EACOP) (Nakanwagi, 2021). For renewable energy development to pick up the pace, the funding given to Africa should be commensurate with the need, and it can be seen in Figure 5 that this is not the case.
+
+
+Figure 5View largeDownload slideOverall renewable energy investment globally and in Africa (IRENA and AfDB, 2022)Figure 5View largeDownload slideOverall renewable energy investment globally and in Africa (IRENA and AfDB, 2022) Close modal
+
+
+Figure 6 shows the region’s annual investments, excluding large hydropower (above 50 MW) and country-wise main beneficiaries. It shows the majority of funding going to Northern Africa, which has been able to create favourable policies and financial processes that work for them, unlike SSA, which categorically needs the funding but has countries that are susceptible to political, financial, and policy risks to name a few (IRENA and AfDB, 2022).
+
+
+Figure 6View largeDownload slideAnnual renewable energy investment by region(left) and the top beneficiaries for 2010-2020 (IRENA and AfDB, 2022)Figure 6View largeDownload slideAnnual renewable energy investment by region(left) and the top beneficiaries for 2010-2020 (IRENA and AfDB, 2022) Close modal
+
+
+Case Studies
+
+
+The countries in SSA cannot be said to have the same obstacles to surmount. Still, a common characteristic can be exploiting its resources, poor or inexistent policies, and bad governance. We shall examine the Democratic Republic of Congo, Mozambique, and Nigeria.
+
+
+DEMOCRATIC REPUBLIC OF CONGO (DRC)
+
+
+Located in Central Africa, the Democratic Republic of Congo, by area, is the second-largest country in Africa. It is one of the countries in Africa that has had a troubled past due to wars, instability, poor infrastructure, and the exploitation of its resources with little benefit for the citizens.
+
+
+One of the many resources within the borders of DRC is cobalt, which is a key mineral in the production of lithium-ion batteries (Hafner, Tagliapietra, & de Strasser, 2018). The DRC is the biggest cobalt supplier making up more than 63% of the global supply (Sachs, et al., 2021), but since the mining industry is a mix of artisanal mining and some companies, this did not favour the country. The instability of its government and possibly the lack of know-how has prevented the country from making the right policies for years to benefit correctly from their resources. Abuse of human rights and damage to the environment are common in the mines, but buyers are willing to turn a blind eye because of the rarity of the resource (Hafner, Tagliapietra, & de Strasser, 2018).
+
+
+The government made a move in 2018 to reform the 2002 mining policy and has increased tax, state equity, royalties, a committee to commercialize Artisan mining, and a reduction in stabilization clauses (Sachs, et al., 2021). With this and further policies to tighten the economy, consideration can be given to developing its renewable energy sector apart from hydropower, or investments could be made.
+
+
+MOZAMBIQUE
+
+
+Mozambique’s proven gas reserves is approximately 100 tcf and has a recent find in the Cabo Delgado province. It has attracted the major players to its country and is thriving in the gas market, with South Africa taking 81% of its export (Nakanwagi, 2021). The COVID-19 pandemic halted operations on the development of the new area, followed by an insurgency by the military on the indigens of Delgado, who felt disenfranchised by the lack of care or equality shown to them by the government. The fight between the people and the government has left that area unsafe for operations to continue for the time being. Lack of understanding, which can also be seen in the Nigerian case, has caused a project to boost the economy and improve the electrification of the country to be paused indefinitely.
+
+
+NIGERIA
+
+
+Nigeria is nicknamed the giant of Africa because of its teeming population. Unfortunately, due to inadequate know-how on the development of policies that would have helped the country get the most out of its black gold, the country is still managing years after many international firms have set up affiliates on its shores. Most of the region’s oil has been drilled is faced with polluted rivers and lands, which has led to the loss of lives and livelihoods. Different forms of uprisings have occurred, from protests to breaking pipelines and causing companies to declare force majeure. The lack of policies to ensure companies are held accountable has allowed polluted lands to stay polluted. Nigeria is also blessed with a proven reserve of 209.5 tcf of gas as of January 2022, increasing from its former value of 206.53tcf (Wasilat, 2022). We are yet to harness the full potential of our gas for domestic use and export. In the Northern part of the country, the Artisinal mining is a known issue as people mine the gold and sell it at lower prices than when a company sets up business here. A clamp down is needed on the people who believe it is their right to take any minerals and sell them. Proper policies and adequate checks will ensure that things like this are not left to worsen.
+
+
+Energy Planning: Development for Sub-Saharan Africa
+
+
+Statistically, the challenge with the transition for SSA specifically is not the lack of natural resources to generate energy (Figure 7) but the lack of financial help, access to energy, and the making of sound policies amongst others.
+
+
+Figure 7View largeDownload slideEstimated renewable resources for Africa (Sachs, et al., 2021)Figure 7View largeDownload slideEstimated renewable resources for Africa (Sachs, et al., 2021) Close modal
+
+
+Work has begun to achieve an energy transition that is tailor-made for Africa, the following include projects that have already started and ideas that can catapult Africa to the position it is meant to occupy.
+
+
+A partnership between The African Union Commission, United Nations Economic Commission for Africa, African Development Bank, and the NEPAD Planning and Coordinating Agency led to the completion of the plans for the Programme for Infrastructure Development in Africa (PIDA). This initiative is to address the deficit on infrastructure within Africa. The goal is to start and finish projects in the energy, ICT, transport, and transboundary water networks sector, improving trade, creating jobs, and providing growth opportunities. Figure 8 shows the planned projects, some of which are ongoing (African Union, AfDB, NEPAD, 2011).Improved electricity grid: this will ensure energy access for all and be in line with Goal 7 of the United Nations’ SDGs and the African Union Agenda. The way to achieve this is by building or renovating the transmission system in countries, creating transaction portals for countries that generate more than the demand, digitalizing the grid, and developing off-grid generation for rural areas. Many projects such as the "Africa 2030: Roadmap for a Renewable Future by IRENA", "Power Africa Transmission Roadmap to 2030 by the United States Agency for International Development (USAID)," and "The Roadmap by the United States Agency for International Development (USAID)" have been created to see electrification for all being achieved.To achieve Goals 10 and 8 of the United Nations’ SDGs, it would be pertinent to allow SSA to use fossil fuels to grow and stabilize its economy without future investment being withdrawn and assistance from foreign countries to develop the other renewable sources.
+
+
+Figure 8View largeDownload slideClockwise (a)PIDA energy impact (b)PIDA Transport impact (c)PIDAWater impact (d)PIDA ICT impact (African Union, AfDB, NEPAD, 2011)Figure 8View largeDownload slideClockwise (a)PIDA energy impact (b)PIDA Transport impact (c)PIDAWater impact (d)PIDA ICT impact (African Union, AfDB, NEPAD, 2011) Close modal
+
+
+Conclusion
+
+
+The result of not having proper structures, bad governance, and diversity in the population of SSA has hampered its development. The high-risk profiles of various countries have made investors shy away, taking the much-needed Foreign Direct Investment (FDI) to countries that do not need it as much.
+
+
+The mix of fossil fuels and renewables is the only way for SSA to transition to a clean and green environment, with a mandate on oil and gas platforms to develop means to achieve a zero-target flare on onshore and offshore sites.
+
+
+The world will still depend on fossil fuels in the nearest future as transportation of people and property still requires a constant burning source. Hence, SSA can supply the needs of both renewable and non-renewable activities while developing its economy and eventually embarking on net-zero emissions.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+African Union Commission. (2015). Agenda 2063; The Africa we want. Addis Ababa: African Union.African Union, AfDB, NEPAD. (2011, September). Programme for Infrastructure Development In Africa: Interconnecting, integrating and tranforming a continent. Retrieved from AfDB: https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/PIDA%20note%20English%20for%20web%200208.pdfCollins, P. (2022, January25). Energy transition in the UK: definition, challenges and the law. Retrieved from Climate consulting by Selectra: https://climate.selectra.com/en/environment/energy-transition#what-is-the-energy-transition-and-why-is-it-importantGoogle Scholar Dadush, U., Demertzis, M., & Wolff, G. (2017). Europe's role in North Africa: development, investment and migration. Belgium: Bruegel.Google Scholar Hafner, M., Tagliapietra, S., & de Strasser, L. (2018). Prospects for Renewable Energy in Africa. In M.Hafner, S.Tagliapietra, & L.de Strasser, Energy In Africa (pp. 47-75). ChamSpringer.Google ScholarCrossrefSearch ADS  IEA. (2022, March08). CO2 emissions per capita by region, 2000-2021. Retrieved from IEA: https://www.iea.org/data-and-statistics/charts/co2-emissions-per-capita-by-region-2000-2021Plumer, B., & Friedman, L. (2021, November06). Over 40 Countries Pledge at U.N. Climate Summit to End Use of Coal Power. The New York Times, pp. https://www.nytimes.com/2021/11/04/climate/cop26-coal-climate.html.Google Scholar PwC. (2021). Africa Energy Review.Ritchie, H., & Roser, M. (2020). CO2 and Greenhouse Gas Emissions. Our world in Data, https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions.Google Scholar Sachs, J. D., Toledano, P., Brauch, M. D., Mebratu-Tsegaye, T., Uwaifo, E., & Sherril, B. M. (2021, September). Roadmap to Zero-Carbon Electrification of Africa by 2050: The Green Energy Transition and the Role of the Natural Resources Sector (Minerals, Fossil Fuels, and Land). Columbia Center on Sustainable Investment (CCSI) Working Paper Commissioned by and prepared for the African Natural Resources Centre, African Development Bank. New York:CSSI.Google Scholar Shvili, J. (2021, October28). Sub-Saharan Africa. Retrieved from WorldAtlas: https://www.worldatlas.com/regions/sub-saharan-africa.htmlGoogle Scholar IRENA. (2022, April02). Energy Transition. Retrieved from IRENA: https://www.irena.org/energytransitionIRENA and AfDB. (2022). Renewable Energy market Analysis: Africa and Its Regions. Abu Dhabi and Abidjan: International Renewable Energy Agency and African Development Bank.Nakanwagi, S. (2021, October30). Navigating the energy Transition in Africa The Fate of Nascent Petroleum Economics in an Accelerating Global Transition. Centre for Energy, Petroleum and Mineral Law and Policy.Google Scholar UNFCCC. (2022, April04). About the Secretariat. Retrieved from UNFCCC: https://unfccc.int/about-us/about-the-secretariatUnited Nations. (2022, April09). Goal 10. Retrieved from Sustainable Development Goals: https://sdgs.un.org/goals/goal10United Nations. (2022, April08). Goal 13. Retrieved from Division of Sustainable Development Goals: https://sdgs.un.org/goals/goal13United Nations. (2022, April09). Goal 7. Retrieved from Sustainable Development Goals: https://sdgs.un.org/goals/goal7United Nations. (2022, April09). Goal 8. Retrieved from Sustainable Development Goals: https://sdgs.un.org/goals/goal8United Nations. (2022, April08). Sustainable Development Goals. Retrieved from Division for Sustainable Development Goals: https://sdgs.un.org/goalsUnited Nations. (2022). What is Climate Change. Retrieved March 30, 2022, from United Nations: https://www.un.org/en/climatechange/what-is-climate-changeUNSD. (2022, April06). Methodology M49 standard. Retrieved from United Nations Statistics Division: https://unstats.un.org/unsd/methodology/m49/Wasilat, A. (2022, March2). NMDPRA: Nigeria's natural gas reserves hit 209.5tcf-up by 1.4% in one year. TheCable.Google Scholar Wikipedia contributors. (2022, March9). United Nations Climate Change conference. Retrieved from Wikipedia, The Free Encyclopedia.: https://en.wikipedia.org/w/index.php?title=United_Nations_Climate_Change_conference&oldid=1076166783Wikipedia contributors. (2022, March19). United Nations Framework Convention on Climate Change. Retrieved from Wikipedia, The Free Encyclopedia: https://en.wikipedia.org/w/index.php?title=United_Nations_Framework_Convention_on_Climate_Change&oldid=1078009669WorldAtlas. (2022, April6). Regions of Africa. Retrieved from WorldAtlas: https://www.worldatlas.com/geography/regions-of-africa.html
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211990-MS
+
+
+

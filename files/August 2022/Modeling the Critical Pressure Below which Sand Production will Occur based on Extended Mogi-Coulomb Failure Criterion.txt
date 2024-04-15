@@ -1,0 +1,317 @@
+----- METADATA START -----
+Title: Modeling the Critical Pressure Below which Sand Production will Occur based on Extended Mogi-Coulomb Failure Criterion
+Authors: Isaac Ajimosun, Emmanuel Okoro, Olafuyi Olalekan
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211953-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Sand production is of great concern in the Oil and Gas industry because of the economical, operational and technical problems that come with the phenomenon. Several sand prediction models are available in the literatures, but little or no consideration has been given to non-linearity of failure criterion used to develop the sand prediction models. Hence, a non-linear form of Mogi-Coulomb failure criterion was adopted in this research to develop a sand prediction model and simple sand prediction software.The most used rock failure criteria developed over the years for analyzing brittle failure of rocks is Mohr-Coulomb failure criterion. Published literatures have shown deficient in some field scenarios. Reason for these deficiencies was largely associated with the implicit assumption made in Mohr-Coulomb criterion that, the intermediate principal stress (σ2) has no influence on rock strength. So, this criterion is only based on the maximum and minimum principal stresses (σ1 and σ3) and only applicable to rock failure under conventional triaxial stress states (σ1 > σ2 = σ3). However, for a polyaxial stress state σ1 > σ2 > σ3), studies have proved that the intermediate principal stress (σ2) has a pronounced effect on rock strength and should not be neglected. Hence, Mohr–Coulomb criterion is relatively conservative in predicting sanding onset and therefore not very accurate for sand prediction models.As a result, this research presents a simple 3D sand prediction model based on Extended Mogi-Coulomb criterion that considered the non-linear relationships between most of field parameters when considering rock failure. The extended Mogi-Coulomb criterion is a nonlinear or parabolic form of Mogi-Coulomb criterion which accounts for the influence of the intermediate principal stress on rock strength and also very suitable for weak rocks. A fourth order polynomial equation was derived from first principle by combining both constitutive stress laws and the parabolic Mogi-Coulomb failure criterion. Then, Matlab software was used to develop a script and solution to the equation. And finally, the model solution was used to build simple graphic user interface software called ‘A.I Sand Predicton’ using Java programming language. Model verification was carried out by simulating several data available in the literatures and the solution was observed consistent with field observations. The solution of the critical wellbore pressure calculated using the "A.I Sand Predicton Software" was also found consistent with solution from Matlab and Mathematica softwares, respectively, which makes the software validated and reliable. Also, the case study shows that the critical wellbore pressure reduces as the strength parameters a, b, and c of the Extended Mogi-Coulomb criterion increases. Hence, the analytical model developed in this research using the extended Mogi-Coulomb criterion can reliably and accurately predict onset sand production.
+
+
+
+
+Keywords:
+wellbore design,
+upstream oil & gas,
+sand control,
+production control,
+wellbore integrity,
+reservoir geomechanics,
+reservoir surveillance,
+flow assurance,
+artificial intelligence,
+production monitoring
+
+
+Subjects: 
+Wellbore Design,
+Well & Reservoir Surveillance and Monitoring,
+Flow Assurance,
+Reservoir Characterization,
+Information Management and Systems,
+Wellbore integrity,
+Solids (scale, sand, etc.),
+Reservoir geomechanics,
+Sand Control
+
+
+
+
+Introduction
+
+
+Sand production from the reservoir has remained one of the oldest challenges encountered in most producing oil wells across the petroleum industry. For instance, Morita and Boyd (1991) presented and analyzed five typical sand production problems commonly observed in the field. Specifically, their research work described sand production problems induced by poorly unconsolidated formations, water breakthrough in weakly to moderately consolidated formations, reservoir pressure depletion in relatively strong formation, abnormally high lateral tectonic forces in relatively strong formations, and sudden changes in flow rate or high flow rate. Subbiah et al.(2020) pointed out that, sand production is a complex phenomenon and required customization based on the type of reservoirs. For heavy oil production, the authors recommended the use of erosion models as most appropriate. For poorly consolidated sand stone reservoir, the authors suggested developing simple analytical or semi analytical sand prediction models in addition to appropriate sand control technique to manage produced sand in the future. Whereas, for a moderately or strongly consolidated reservoir, the authors suggest the use of numerical methods to accurately predict sand production volume and also, to decide whether the sand production risk can be managed or there is need for additional investment for sand control.
+
+
+Carlson et al., (1992) stated some sand control techniques available in the oil and gas industry. This is to help minimize sand production, or if possible, avoid it completely. The following are some of the sand control techniques: frac packing, open-hole gravel packs, high rate water packs, cased-hole gravel packs, slotted liners and expandable screens. Chemical consolidation of the formation near the wellbore can also be explored, but it may result to permeability reduction around the wellbore. However, if an unnecessary sand control completion scheme is wrongly adopted in a well, it may result to impairment of hydrocarbon production and possible loss of oilfield revenue (Ferreira et al., 2015).
+
+
+Amiebenomo et al., (2019) developed a numerical sand prediction analysis for sand onset, sand volume, and sand rate using Mogi-Coulomb criterion and declared that, a negative critical pressure result implies that, there will be no sand production. Also, an increase in the critical bottom hole well pressure will lead to an increase in the volume of sand to be produced.
+
+
+Isehunwa and Farotade (2010) and Mohamad-Hussein et al., (2018) pointed out a positive effect of sand production. In the technique of Cold Heavy Oil Production with Sand (CHOPS), sand production is encouraged as it enhances the productivity of the well much more than conventional method. However, in this study, sand production is considered as an operational, technical and economic challenge.
+
+
+Isehunwa and Farotade (2010) performed a study on sand failure mechanism and sanding parameters in Niger Delta oil reservoirs. And their results showed that, cohesive stress is the major sand failure mechanism while other factors like water cut, bean size in use, high gas oil ratio (GOR), formation weakening from repeated well shut-ins, bean up too high during well start-ups instead of gradual increments, transient pressure gradient effects during well shut-in, were also found to have impact on sand production in the Niger Delta.
+
+
+Wang et al., (2005) developed a sand prediction model for volumetric sand production and wellbore stability analysis of a well at different completion schemes and summarized sand production mechanisms into three categories which are: Shear failure (which is induced by fluid pressure drawdown); tensile failure (induced by high fluid production rate); and compressive failure (caused by high stresses due to completion).
+
+
+Stress concentration around a vertical wellbore at production condition
+
+
+From the theory of linear elasticity, and as shown in Figure 1 below, it can be seen that maximum stresses take place at the wellbore wall with the tangential stress (hoop stress) significantly the most highest at the wellbore wall. Hence, sand production and borehole failure is expected to initiate at the borehole wall (Fjaer 2008).
+
+
+Figure 1View largeDownload slideStress around a vertical borehole in a linear elastic formation.Figure 1View largeDownload slideStress around a vertical borehole in a linear elastic formation. Close modal
+
+
+During production condition of a vertical well, the general expression for stress concentration around the wellbore region is given by (Fjaer 2008): σr=Pw,σθ=σH+σh−2(σH−σh)cos2θ−Pw+2η(Pf−Pfo),σz=σv−2υ(σH−σh)cos2θ+2η(Pf−Pfo),τθz=0;  τrθ=0;  τrz=0.(1)
+
+
+where, Pw is internal wellbore flowing pressure; Pf is the pore pressure at the wellbore wall; Pfo is the far field pore pressure; σv is the vertical stress; σH and σh are the maximum and minimum horizontal stresses respectively; σθ, σz, and σr are the tangential (hoop), axial, and radial stresses induced around the wellbore, respectively; τθz, τrz, and τrθ are the shear stresses at the wall of the well; ν is the Poisson's ratio; η is the poroelastic stress coefficient and is given as
+
+
+η=αB1−2v2(1−v)(2)
+
+
+where is the Biot's coefficient.
+
+
+Description of Extended-Mogi Coulomb Failure Criterion (EMC)
+
+
+The extended Mogi-Coulomb failure criterion was presented by Al-Ajmi (2006) and mathematically formulated as
+
+
+τoct=a+bσm,2+cσm,22,(3)
+
+
+Where τoct the octahedral is shear stress and σm,2 is the effective normal stress. Parameters ‘a’ and ‘b’ are material constants and represent the rock cohesion and angle of of internal friction respectively, while parameter ‘c’ is a curve fitting parameter that represents the non-linear behavior at high effective mean stress. Mathematically,
+
+
+τoct=13(σ1−σ2)2+(σ2−σ3)2+(σ3−σ1)2,(4)
+
+
+and
+
+
+σm,2=σ1+σ32,(5)
+
+
+The failure function is given below by inserting equations (4) and (5) into equation (3) as: F=a+b(σ1+σ32)+c(σ1+σ32)2−13(σ1−σ2)2+(σ2−σ3)2+(σ3−σ1)2.(6)
+
+
+Failure occurs if F ≤ 0.
+
+
+Development of EMC analytical sand prediction model
+
+
+Considering Figure 1 above, it can be seen that at the borehole wall, the tangential stress concentration σθ is relatively the largest while the radial stress σr is relatively the smallest and also, the radial stress will never exceeds σθ and σz even away from the borehole wall. By implication, the dominant stress concentration around the wellbore circumference is σθ while the least is σr. Hence the fault regime adopted in this research and the most common field scenario is normal fault and described as σθ ≥ σz ≥ σr. Other fault regimes described as σz ≥ σθ ≥ σr and σθ ≥ σr ≥ σz are not considered in this work. Introducing the effective stress concept, the Extended Mogi-Coulomb criterion becomes
+
+
+τoct=a+b(σm,2−Pf)+c(σm,2−Pf)2(7)
+
+
+Inserting the stress equations at the wellbore wall of a vertical well in equations (1) above into the effective stress form of Extended Mogi-Coulomb criterion of equation (7) above when σθ ≥ σz ≥ σr and Pf = Pw gives,
+
+
+APw4+BPw3+FPw2+GPw+H=0(8)
+
+
+where Pw is the critical sanding onset pressure and it is equal to the lowest root of the 4th order polynomial above. The constants A, B, F, G, and H can be evaluated below as: A=9c32−36c32v3+54c32v32−36c32v33+9c32v34(9)B=−18bc3+54bc3v3−54bc3v32+18bc3v33−54c32x2+162c32v3x2−162c32v32x2+54c32v33x2+18c32x3−54c32v3x3+54c32v32x3−18c32v33x3+36c32v3x4−108c32v32x4+108c32v33x4−36c32v34x4(10)F=−6+9b2+18ac3+12v3−18b2v3−36ac3v3−8v32+9b2v32+18ac3v32+81bc3x2−162bc3v3x2+81bc3v32x2+2432c32x22−243c32v3x22+2432c32v32x22−27bc3x3+54bc3v3x3−27bc3v32x3−81c32x2x3+162c32v3x2x3−81c32v32x2x3+272c32x32−27c32v3x32+272c32v32x32−54bc3v3x4+108bc3v32x4−54bc3v33x4−162c32v3x2x4+324c32v32x2x4−162c32v33x2x4+54c32v3x3x4−108c32v32x3x4+54c32v33x3x4+54c32v32x42−108c32v33x42+54c32v34x42(11)G=−18ab+18abv3−4v3x1+18x2−27b2x2−54ac3x2−12v3x2+27b2v3x2+54ac3v3x2−8v1v3x2−2432bc3x22+2432bc3v3x22−2432c32x23+2432c32v3x23−6x3+9b2x3+18ac3x3+4v3x3−9b2v3x2−18ac3v3x3+8v1v3x3+81bc3x2x3−81bc3v3x2x3+2432c32x22x3−2432c32v3x22x3−272bc3x32+272bc3v3x32−812c32x2x32+812c32v3x2x32+92c32x33−92c32v3x33−12v3x4+18b2v3x4+36ac3v3x4+16v32x4−18b2v32x4−36ac3v32x4+162bc3v3x2x4−162bc3v32x2x4+243c32v3x22x4−243c32v32x22x4−54bc3v3x3x4+54bc3v32x3x4−162c32v3x2x3x4+162c32v32x2x3x4+27c32v3x32x4−27c32v32x32x4−54bc3v32x42+54bc3v33x42−162c32v32x2x42+162c32v33x2x42+54c32v32x3x42−54c32v33x3x42+36c32v33x43−36c32v34x43(12)H=9a2−2x12+27abx2+6x1x2−8v1x1x2−18x22+814b2x22+812ac2x22+12v1x22−8v12x22+2434bc3x23+72916c32x24−9abx3−2x1x3+8v1x1x3+12x2x3−272b2x2x3−27ac3x2x3−16v1x2x3+16v12x2x3−2434bc3x22x3−2434c32x23x3−2x32+94b2x32+92ac3x32+4v1x32−8v12x32+814bc3x2x32+2438c32x22x32−94bc3x33−274c32x2x33+916c32x34−18abv3x4+4v3x1x4+12v3x2x4−27b2v3x2x4−54ac3v3x3x4−8v1v3x3x4−2432bc3v3x22x4−2432c32v3x23x4−4v3x3x4+9b2v3x3x4+18ac3v3x3x4−8v1v3x3x4+81bc3v3x2x3x4+2432c32v3x22x3x4−272bc3v3x32x4−812c32v3x2x32x4+92c32v3x33x4−8v32x42+9b2v32x42+18ac3v32x42+81bc3v32x2x42+2432c32v32x22x42−24bc3v32x3x42−81c32v32x2x42+272c32v32x32x42−18bc3v33x43−54c32v33x2x43+18c32v33x3x43+9c32v34x44(13)
+
+
+Note that, for easy mathematical operations, the following nomenclature is adopted in this work: x1=σv;  x2=σH; x3=σh;  x4=Pfo;  x5=Pw;  x6=σm,2;  v1=v;  v3=η;  a=a; b=b;  c3=c;
+
+
+Model verification
+
+
+The sand prediction model presented in this work is validated using the field case study presented by Yi et al (2004, 2006) using a vertical well (called well A) drilled and completed in a sandstone formation cased and perforated from 8453ft to 8458ft. Figure 2 below shows the in-situ stresses, pore pressure, porosity, permeability, and Uniaxial Compressive Strength (UCS) data required to obtain the well flowing pressure at which sand production will occur. The geomechanical properties of the target interval are listed in Table 1 below while Table 2 is a list of values of calculated parameters required to validate our EMC model.
+
+
+Figure 2View largeDownload slideLogging data for well A (Yi et al. 2004, 2006)Figure 2View largeDownload slideLogging data for well A (Yi et al. 2004, 2006) Close modal
+
+
+Table 1Well-A properties at 8456.5ft from log data σv (psi)
+            . σH (psi)
+            . σh (psi)
+            . Pfo (psi)
+            . Porosity (φ) (frac.)
+            . Co (psi)
+            . x1 x2 x3 x4 – – 7900 7000 7000 6400 0.26 2050 σv (psi)
+            . σH (psi)
+            . σh (psi)
+            . Pfo (psi)
+            . Porosity (φ) (frac.)
+            . Co (psi)
+            . x1 x2 x3 x4 – – 7900 7000 7000 6400 0.26 2050 View Large
+
+
+Table 2Estimated parameters for validation of our EMC Ø
+            . So (psi)
+            . v
+            . αβ
+            . η
+            . a (psi)
+            . b
+            . c (psi−1)
+            . Pw (psi)
+            . n1 c v1 v2 v3 a b c3 x5 30.50 585.8 0.25 0.8 0.2667 350 0.5643 9.646E-6 ? Ø
+            . So (psi)
+            . v
+            . αβ
+            . η
+            . a (psi)
+            . b
+            . c (psi−1)
+            . Pw (psi)
+            . n1 c v1 v2 v3 a b c3 x5 30.50 585.8 0.25 0.8 0.2667 350 0.5643 9.646E-6 ? View Large
+
+
+The porosity from the log data of Figure 2 below is used to calculate the friction angle in Table 2 using Weingarten and Perkins (1995) which is mathematically given as
+
+
+ØØ=57.8−105φ(14)
+
+
+Also, the rock cohesion is calculated as using the UCS equation below (equation 4.2).
+
+
+Co=2Socosϕ1−sinϕ(15)
+
+
+Substituting the given parameters of Table 1 and 2 above into our EMC sand prediction model (equation 8) and solving for the critical wellbore pressure using computer program (Matlab and Mathematica softwares) and also our developed A.I Sand Prediction software, we have Pw = 5485psi respectively. Comparing the three results show that the A.I Sand Prediction software is very accurate and reliable for use on the field. Meanwhile, field measuremet gives wellbore flowing sanding pressure at 5486 psi, while critical pressure predicted by three published sand production mdels considered in this research (MG-C, MLC and MC models) predicted critical sanding onset pressure as 5478psi, 5239psi, and 5820psi respectively.
+
+
+Error Analysis
+
+
+To evaluate the accuracy of the developed sand prediction model and compare its performance with that of published models, a number of statistical Key Performance Indicators (KPI) were applied. Published models considered in this work are sand prediction models developed using Mogi Coulomb failure criterion (MG-C), Modified Lade criterion (MLC), and classical Mohr Coulomb criterion (MC). Definitions and equations of Statistical parameters applied are:
+
+
+Percentage Relative Error (PRE): It is the relative deviation in percent of an estimated or calculated value and it is represented by and defined by
+
+
+Ei=[Xpred−XobsXobs]*100;  For  i=1,2,…n(16)
+
+
+Where Xpred and Xobs represent the predicted and observed field values respectively.
+
+
+Average Percentage Relative Error (APRE): It is used to measure the relative deviation of predicted values from the values observed in the field. It is represented and defined by
+
+
+Er=(1n)∑i=1nEi(17)
+
+
+Average Absolute Percentage Relative Error (AAPRE): It gives the relative absolute deviation in percent from field observed values. It is defined by
+
+
+Ea=(1n)∑i=1n|Ei|(18)
+
+
+Statistical error analysis parameters in Table 4.13 below shows that the sand prediction model developed using our EMC model performs better than the other three existing models. The Average Absolute Percentage Relative Error (AAPRE) for our EMC model is 0.0182%, whereas existing models gave AAPRE values of 0.1458% for MG-C model; 4.5024% for MLC model; and 6.0882% for MC model.
+
+
+Table 3Comparative Performance Analysis Sand Prediction Model
+            . PRE
+            . AAPRE
+            . Extended Mogi-Coulomb criterion (EMC) −0.0182 0.0182 Mogi-Coulomb criterion (MG-C) −0.1458 0.1458 Modified Lade criterion (MLC) −4.5024 4.5024 Mohr Coulomb criterion (MC) +6.0882 6.0882 Sand Prediction Model
+            . PRE
+            . AAPRE
+            . Extended Mogi-Coulomb criterion (EMC) −0.0182 0.0182 Mogi-Coulomb criterion (MG-C) −0.1458 0.1458 Modified Lade criterion (MLC) −4.5024 4.5024 Mohr Coulomb criterion (MC) +6.0882 6.0882 View Large
+
+
+Hence, the newly developed sand prediction model using extended Mogi-Coulomb criterion is reliable for determining the critical wellbore pressure above which sand production will not occur in oil and gas well.
+
+
+Development of A.I sand prediction software
+
+
+In order to provide a a reliable solution to our EMC analytical model, Matlab script was also developed as presented in Figure 3 below and used to solve for the critical sanding pressure in Equation (8) above.
+
+
+Figure 3View largeDownload slideDevelopment of Matlab solutionFigure 3View largeDownload slideDevelopment of Matlab solution Close modal
+
+
+The flowchart in Figure 4 below shows the four stages of development of our A.I Sand Prediction software, whereas Figure 5 shows the interface of A.I Sand Prediction software and the result of the simulation run performed with the software using Table 1 and table 2 data. The result of our simulation run shows that sanding onset pressure is 5485psi, which is very consistent with the result of our Matlab solution and EMC model. Hence, the A.I Sand prediction software is very reliable and recommended for field engineers as a technological tool for estimating onset sanding pressure.
+
+
+Figure 4View largeDownload slideA.I Sand Prediction software development flowchartFigure 4View largeDownload slideA.I Sand Prediction software development flowchart Close modal
+
+
+Figure 5View largeDownload slideSimulation run of critical wellbore pressure using A.I Sand Prediction SoftwareFigure 5View largeDownload slideSimulation run of critical wellbore pressure using A.I Sand Prediction Software Close modal
+
+
+Influence of a, b, and c on developed EMC sand prediction model
+
+
+To study the effects of parameter "a", "b", and "c", sanding onset pressure is calculated at different values of "a" ranging from 310 psi to 10000 psi, different values of "b" ranging from 0.4910 to 0.7, and different values of "c" ranging from −0.00001psi−1 to 0.0000357psi−1 respectively using our EMC sand prediction model above.
+
+
+The results are presented in Table 4 above. Table 4 shows that increasing the cohesion of the rock will result to a decrease in the critical wellborepressure. Increasing the value of parameter "b" for the rock will result to a decrease in the critical wellbore pressure, and increasing the value of parameter "c" for the rock will result to a decrease in the critical wellbore pressure. That is, each of the parameters is inversely related to the critical well bore pressure. A plot of the critical pressure against parameter "a", "b", and "c" is shown in Figure 6, 7, and 8 below.
+
+
+Figure 6View largeDownload slideeffect of parameter "a" on sanding onset pressureFigure 6View largeDownload slideeffect of parameter "a" on sanding onset pressure Close modal
+
+
+Figure 7View largeDownload slideeffect of parameter "b" on sanding onset pressureFigure 7View largeDownload slideeffect of parameter "b" on sanding onset pressure Close modal
+
+
+Figure 8View largeDownload slideeffect of parameter "c" on sanding onset pressureFigure 8View largeDownload slideeffect of parameter "c" on sanding onset pressure Close modal
+
+
+Table 4Effect of parameter ‘a’, ‘b’, and ‘c’ a (psi)
+            . Pw(psi)
+            . b
+            . Pw(psi)
+            . c (psi−1)
+            . Pw (psi)
+            . 310 5959 0.4910 6401 −0.0000100000 5728 320 5809 0.4920 6344 −0.0000090000 5718 330 5689 0.4930 6317 −0.0000080000 5708 340 5583 0.4950 6276 −0.0000070000 5697 350 5485 0.4960 6259 −0.0000068900 5696 400 5060 0.4970 6243 −0.0000065000 5692 500 4320 0.4980 6228 −0.0000060000 5686 600 3617 0.4990 6213 −0.0000050000 5675 700 2914 0.5000 6199 −0.0000040000 5664 800 2194 0.5050 6136 −0.0000030000 5652 900 1449 0.5100 6078 −0.0000020000 5641 1000 668 0.5150 6023 −0.0000010000 5629 – – 0.5200 5970 −0.0000001000 5618 – – 0.5250 5917 −0.0000000100 5617 – – 0.5300 5865 −0.0000000010 5617 – – 0.5350 5812 −0.0000000001 5617 – – 0.5400 5759 0.0000010000 5604 – – 0.5450 5705 0.0000020000 5592 – – 0.5500 5650 0.0000030000 5579 – – 0.5550 5594 0.0000040000 5566 – – 0.5600 5536 0.0000050000 5552 – – 0.5643 5485 0.0000060000 5538 – – 0.5650 5477 0.0000065000 5531 – – 0.5700 5416 0.0000070000 5524 – – 0.5800 5287 0.0000075000 5517 – – 0.5900 5148 0.0000080000 5510 – – 0.5980 5028 0.0000085000 5503 – – 0.6000 4996 0.0000090000 5495 – – 0.6100 4829 0.0000095000 5488 – – 0.6200 4643 0.0000096460 5485 – – 0.6300 4433 0.0000100000 5480 – – 0.6400 4193 0.0000150000 5398 – – 0.6500 3913 0.0000200000 5303 – – 0.6600 3580 0.0000250000 5189 – – 0.6700 3169 0.0000261820 5159 – – 0.6800 2639 0.0000300000 5048 – – 0.6900 1894 0.0000310000 5016 – – 0.7000 596 0.0000320000 4981 – – – – 0.0000330000 4944 – – – – 0.0000340000 4905 – – – – 0.0000350000 4862 – – – – 0.0000351000 4858 – – – – 0.0000352000 4854 – – – – 0.0000353000 4849 – – – – 0.0000354000 4845 – – – – 0.0000355000 4840 – – – – 0.0000356000 4836 – – – – 0.0000357000 4831 – – – – 0.0000330000 4944 – – – – 0.0000340000 4905 – – – – 0.0000350000 4862 – – – – 0.0000351000 4858 – – – – 0.0000352000 4854 – – – – 0.0000353000 4849 – – – – 0.0000354000 4845 – – – – 0.0000355000 4840 – – – – 0.0000356000 4836 – – – – 0.0000357000 4831 a (psi)
+            . Pw(psi)
+            . b
+            . Pw(psi)
+            . c (psi−1)
+            . Pw (psi)
+            . 310 5959 0.4910 6401 −0.0000100000 5728 320 5809 0.4920 6344 −0.0000090000 5718 330 5689 0.4930 6317 −0.0000080000 5708 340 5583 0.4950 6276 −0.0000070000 5697 350 5485 0.4960 6259 −0.0000068900 5696 400 5060 0.4970 6243 −0.0000065000 5692 500 4320 0.4980 6228 −0.0000060000 5686 600 3617 0.4990 6213 −0.0000050000 5675 700 2914 0.5000 6199 −0.0000040000 5664 800 2194 0.5050 6136 −0.0000030000 5652 900 1449 0.5100 6078 −0.0000020000 5641 1000 668 0.5150 6023 −0.0000010000 5629 – – 0.5200 5970 −0.0000001000 5618 – – 0.5250 5917 −0.0000000100 5617 – – 0.5300 5865 −0.0000000010 5617 – – 0.5350 5812 −0.0000000001 5617 – – 0.5400 5759 0.0000010000 5604 – – 0.5450 5705 0.0000020000 5592 – – 0.5500 5650 0.0000030000 5579 – – 0.5550 5594 0.0000040000 5566 – – 0.5600 5536 0.0000050000 5552 – – 0.5643 5485 0.0000060000 5538 – – 0.5650 5477 0.0000065000 5531 – – 0.5700 5416 0.0000070000 5524 – – 0.5800 5287 0.0000075000 5517 – – 0.5900 5148 0.0000080000 5510 – – 0.5980 5028 0.0000085000 5503 – – 0.6000 4996 0.0000090000 5495 – – 0.6100 4829 0.0000095000 5488 – – 0.6200 4643 0.0000096460 5485 – – 0.6300 4433 0.0000100000 5480 – – 0.6400 4193 0.0000150000 5398 – – 0.6500 3913 0.0000200000 5303 – – 0.6600 3580 0.0000250000 5189 – – 0.6700 3169 0.0000261820 5159 – – 0.6800 2639 0.0000300000 5048 – – 0.6900 1894 0.0000310000 5016 – – 0.7000 596 0.0000320000 4981 – – – – 0.0000330000 4944 – – – – 0.0000340000 4905 – – – – 0.0000350000 4862 – – – – 0.0000351000 4858 – – – – 0.0000352000 4854 – – – – 0.0000353000 4849 – – – – 0.0000354000 4845 – – – – 0.0000355000 4840 – – – – 0.0000356000 4836 – – – – 0.0000357000 4831 – – – – 0.0000330000 4944 – – – – 0.0000340000 4905 – – – – 0.0000350000 4862 – – – – 0.0000351000 4858 – – – – 0.0000352000 4854 – – – – 0.0000353000 4849 – – – – 0.0000354000 4845 – – – – 0.0000355000 4840 – – – – 0.0000356000 4836 – – – – 0.0000357000 4831 View Large
+
+
+Conclusion
+
+
+The following conclusions can be drawn from this research:
+
+
+A new analytical sand predictive model has been developed using the non-linear form of Mogi-Coulomb failure criterion. The non-linear form of Mogi-Coulomb criterion considers the nonlinear property of failure criterion which is commonly negelected in most published models.The solution of our analytical model was provided by Matlab and Mathematica softwares and a friendly user interface (A.I Sand Prediction) was developed using Java programming language.The A.I Sand Predicton software provides all field engineers (with or without petroleum engineering experience) an easy opportunity to estimate the critical sanding onset pressure without being faced with much manual complex calculations.The solution of the critical wellbore pressure calculated using the "A.I Sand Predicton" is consistent with solution from Matlab and Mathematica softwares, respectively.Simulation of the developed sand prediction model using published literature data showed that the result is consistent with field data and hence reliable for predicting sanding onset.Figures 6, 7, and 8 show that the critical flowing wellbore pressure reduces as the strength parameters a, b, and c of the Extended Mogi-Coulomb criterion increases.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviations:Expansion x1= σvand represents vertical principal stress (psi) x2= σHand represents maximum horizontal principal stress psi x3= σhand represents minimum horizontal principal stress (psi) x4= Pfoand represents far field pore pressure (psi) x5= Pwand represents critical wellbore pressure (psi) x6= σm,2and represents the effective normal stress (psi) n1= Ø and represents Mohr's internal friction angle (degree) n2= Coand represents Uniaxial compressive strength (psi) c= Soand represents Mohr's rock cohesion (psi) b= band represents angle of internal friction (degree) a= aand represents rock cohesion (psi) c3= c, curve fitting parameter & nonlinear behaviour at high effective mean stress (psi−1) v1= vand represents poisson ratio v2= αβand represents biot coefficient v3= ηand represents poroelastic coefficient
+
+
+References
+
+
+A.Younessi and A.Khaksar. A novel approach to evaluate the risk of sanding for optimum well completion design: a deep-water case study from Southeast Asia. Paper SPE-182160-MS, SPE Asia Pacific Oil and Gas Conference And Exhibition, Perth, Australia, 25-27 October 2016.Adel M.Al-Ajmi, Shaima K.Al-Shaaibi, Yahya, Al-Wahaibi (2013). "Three Dimensional Modeling for Predicting Sand Production", Journal of Petroleum Science and Engineering, http://dx.doi.org/10.1016/j.petrol.2013.04.015Google Scholar AlakbariF. S., MohyaldinnM. E., AyoubM. A., MuhsanA. S., HusseinI. A. (2021). A robust fuzzy logic-based model for predicting the critical total drawdown in sand production in oil and gas wells. PLoS ONE16 (4): e0250466. https://doi.org/10.1371/journal.pone.0250466Google Scholar Al-Awad, M.N.J. and Desouky, S.E.M. (1997). Prediction of sand production from a Saudi Sandstone Reservoir. Oil & Gas Science and Technology, 52, 4, 1–8Google Scholar AlirezaNouri, HansVaziri, ErgunKuru, and RafqulIslam. A comparison of two sanding criteria in physical and numerical modeling of sand production. Journal of Petroleum Science and Engineering2006: 55–57Google Scholar AmiebenomoH. C., AdewaleD., and JoelO. Numerical sand prediction analysis for sand onset, sand volume, and sand rate. International Journal of Scientific and Research Publications, Volume 9, Issue 8, August2019, ISSN 2250-3153.Google Scholar Fairhurst, C., 1968. Methods of determining in situ rock stresses at great depths. TRI-68, Missouri River Div Corps of Engineers.Google Scholar FerreiraF. H, SantosE. S. R, RossiD. F, and BorbaA. M.Sanding onset prediction on a ultra- deepwater well using a probabilistic approach: from lab to field, OTC-26185-MS, Offshore technology conference, Rio de Janeiro, Brazil, 27-29 October 2015.Fjaer, E., Holt, R. M., Horsrud, P., Raaen, A. M., and Risnes, R., 1992. Petroleum Related Rock Mechanics, Elsevier, Amsterdam, 338 pGoogle Scholar Garrouch, A. A. and Ebrahim, A. S., 2001. Assessment of the stability of inclined wells. In: Proc SPE Western Regional Meeting, Bakersfield, California, March 26-30. SPEGoogle Scholar Gnirk, P. P., 1972. The mechanical behaviour of uncased wellbores situated in elastic/plastic media under hydrostatic stress. Soc Petrol Eng J, February, 49–59. SPE 3224.Google Scholar Brady, B. H. and Brown, E. T., 1999. Rock Mechanics for Underground Mining, 2nd edn, Kluwer Academic Publishers, Dordrecht, the Netherlands, 571 p.Google Scholar Charlez, Ph. A., 1997. Rock Mechanics. Vol. 2Petroleum Applications, Editions Technip, Paris, 704 p.Google Scholar EuripidesPapamichos and Eva M.Malmanger (2001). A Sand-Erosion Model for Volumetric Sand Predictions in a North Sea Reservoir.Google Scholar Han, G., Dusseault, M.B., 2002. Quantitative analysis of mechanisms for water-related sand production. SPE Symposium and Exhibition on Formation Damage, Lafayette, Louisiana, SPE, vol. 73737.Google ScholarCrossrefSearch ADS  HayaviMT, AbdidehM. A sensitivity study of relevant parameters on sand production in unconsolidated sandstone reservoirs, Journal of Petroleum and Gas Engineering (2017), doi: 10.5897/JPGE2016.0258Google Scholar HayaviMT, AbdidehM. Establishment of tensile failure induced sanding onset prediction models for cased-perforated gas wells, Journal of Rock Mechanics and Geotechnical Engineering (2017), doi: 10.1016/j.jrmge.2016.07.009.Google Scholar Hiramatsu, Y. and Oka, Y., 1968. Determination of the stress in rock unaffected by boreholes or drifts from measured strains or deformations. Int J Rock Mech Min Sci, 5, 337–353.Google ScholarCrossrefSearch ADS  IsehunwaS. O, OlanrewajuO. A simple analytical model for predicting sand production in a Niger Delta oil field. Int J Eng Sci Technol. 2010; 4379–4387.Google Scholar J.Carlson, D.Gurley, George King, C.Price-Smith, F.Waters. Sand Control: Why and How?Oilfield Review, Schlumberger, vol. 4, 1992Google Scholar Jaeger, J. C. and Cook, N. G. W., 1979. Fundamentals of Rock Mechanics, 3rd edn, Chapman and Hall, London, 593 p.Google Scholar JosephA., AkubueL.C., AjienkaJ. A., OrijiA. B.Sanding Prediction using Rock Mechanical Properties (A Parametric Study), SPE 162945, In: Proceedings of the Nigeria Annual International Conference and Exhibition held inAbuja, Nigeria, 6–8 August2012.Google Scholar KhamehchiE, KiviIR, AkbariM. A novel approach to sand production prediction using artificial intelligence. J Petrol Sci Eng.2014; 123: 147–154.Google ScholarCrossrefSearch ADS  McLean, M. and Addis, M., 1990b. Stability: the effect of strength criteria on mud weight recommendations. In: Proc 65th Ann Tech Conf Exh Soc Petrol Eng, New Orleans, September 23- 26. SPE 20405.Google Scholar MogiK., 1971b. "Fracture and flow of rocks under high triaxial compression". J Geophys Res, 76(5), 1255–1269.Google ScholarCrossrefSearch ADS  Morita, N. and Boyd, P. A., 1991. Typical sand production problems: Case studies and strategies for sand control. SPE 22739Google Scholar NouriA, VaziriH, BelhajH, IslamR. Comprehensive Approach to Modeling Sanding During Oil Production. SPE 81032, In: Proceedings of the SPE Annual Technical Conference and Exhibition, 27–30 April2003, Trinidad, West Indies? 2003.Google Scholar Risnes, R. and Bratli, R. K., 1981. Sand stresses around a wellbore. In: Proc Middle East Oil Tech Conf Soc Petrol Eng, Manama, Bahrain, March 9-12. SPE 9650.Google Scholar S.K.Subbiah, A.Samsuri, A.Mohamad-HusseinRoot cause of sand production and methodologies for prediction, Petroleum, https://doi.org/10.1016/j.petlm.2020.09.007SundayIsehunwa and AndrewFarotade. Sand failure mechanism and sanding parameters in Niger Delta oil reservoirs. International Journal of Engineering Science and Technology, Vol. 2(5), 2010, 777–782.Google Scholar Svennekjaer, M. and Bratli, R. K., 1998. Rock mechanics applied to drilling - an operational review. In: Proc SPE/ISRM Euroc, Trondheim, Norway, 8-10 July. SPE 47290.Google Scholar Vaziri, H., Barree, B., Xiao, Y., Palmer, I., Kutas, M., 2002. What is the magic of water in producing sand?SPE Annual Technical Conference and Exhibition, San Antonio, Texas, SPE, vol. 77683.Google ScholarCrossrefSearch ADS  Vaziri, H., Robbie, A., Kidd, G., Bennett, C., Grose, T., Robinson, P., Malyn, J., 2004. Sanding: a rigorous examination of the interplay between drawdown, depletion, start-up frequency and water cut. Annual Technical Conference and Exhibition, Houston, Texas, SPE, vol. 89895.Google Scholar Vernik, L. and Zoback, M. D., 1992. Estimation of maximum horizontal principal stress magnitude from stress-induced well bore breakouts in the Cajon Pass scientific research borehole. J Geophys Res, 97[B4], 5109–5119Google ScholarCrossrefSearch ADS  VolontéG, ScarfatoF, BrignoliM. Sand Prediction: A Practical Finite-Element 3D Approach for Real Field Applications, SPE 134464, In: Proceedings of the SPE Annual Technical Conference and Exhibition, Florence, Italy, 19–22 September 2010.YiX. Numerical and Analytical Modeling of Sanding Onset Prediction, Ph.D. Thesis, Texas A&M University, USA?2003.YuLu, ChengwenXue, TaoLiu, MingChiet al. ., 2021. Predicting the critical drawdown pressure of sanding onset for perforated wells in ultra-deep reservoirs with high temperature and high pressure, Energy Sci Eng.2021, 00:1–13Google Scholar Zhao, J., 2000. Applicability of Mohr-Coulomb and Hoek-Brown strength criteria to the dynamic strength of brittle rock. Int J Rock Mech Min Sci, 37, 1115–1121.Google ScholarCrossrefSearch ADS  Zoback, M., "Reservoir Geomechanics", First Edition, Cambridge University Press, 2006.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211953-MS
+
+
+

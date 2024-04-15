@@ -1,0 +1,251 @@
+----- METADATA START -----
+Title: Modification of Gas Lift Design in Dual String Producers Using Single Point Orifices in the Niger Delta
+Authors: Adekunle Adepitan, Olalekan Odedeyi, Fred Osifo, Festus Idehen, Olominu Oluwafemi, Ayuba Aminat, Adeoye Olanike, Oko Francis, Adelanke Bola, Green Iginowari, Aroyehun Mojisola, Ekpe Philip
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212037-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+This paper outlines the systematic approach used to simplify and optimize gas lift operations in a dual string completion with a common annulus. Omicron 26 was initially completed as a dual string natural producer. The well was worked over in 2006 to abandon existing sands and recompleted on new reservoirs and at this point, dummy valves were installed in the tubing. The well had been flowing sporadically and naturally until the need to unload the annulus by carrying out a Gas Lift Valve Change Out (GLVCO) operation arose to maximize production from the well.
+
+
+
+
+Keywords:
+gas lift,
+operation,
+gas lift design,
+surface surface valve tro,
+gas injection,
+valve,
+dual string producer,
+lg rate popen pclose,
+omicron 26,
+design summary mandrel md
+
+
+Subjects: 
+Artificial Lift Systems,
+Gas lift
+
+
+
+
+In general, dual gas lifted strings with a common annulus can be difficult to design and operate, due to the high requirement for design data accuracy. While Production-Pressure- Operated valves have been considered, they are severely limited by the need to have accurate and reliable flowing tubing data, which was difficult to obtain due to the unstable flow of the producing strings. Hence, a decision was made to carry out the operation using Injection Pressure Operated (IPO) Valves on both strings. The design for this was done with industry standard Nodal Analysis/Gas Lift Design software using a surface opening pressure of 66bar and the operation was executed in 2019.
+
+
+Subsequently, it was seen that the valves were not operating as intended as both strings could not flow simultaneously due to different casing head pressure requirements (Omicron 26L required >= 66 bar to flow while Omicron 26S requires between 45-50 bar to sustain flow) as both strings produce from different reservoirs.
+
+
+Further investigation was done to ascertain the cause of the problem and a flowing BHP survey on Omicron 26L was carried out. The analysis from the survey showed that only the top unloading valve was injecting gas into the tubing. This had not been intended as per initial design and indicated that there was no transfer to the injection orifice as originally intended. This data was in line with the observation that >66 bar (approximately opening pressure for top valve) was needed to flow the well at the detriment of its counterpart string. This gave rise to the need to simplify the operation by introducing single point orifices for the two strings at the top mandrel and design was done using a surface opening pressure (Casing Head Pressure) 45 bar to accommodate fluctuations that may arise from the compressor station at any time and allow both wells flow optimally and sustainably.
+
+
+Static Bottom hole pressure surveys were acquired to calibrate the well models and the well intervention operation was done in 2021. Well tests were done on the wells individually to establish that the wells could flow, and a further test was done with both strings flowing simultaneously. The result of the test showed a 60% increase in oil gain for Omicron 26L and 111% increase in oil gain for Omicron 26S.
+
+
+Omicron Field Summary
+
+
+The Omicron field is made up of largely unfaulted roll-over anticlinal structure. The Field is bounded to the north by a major south heading growth fault. This fault constitutes a major boundary fault as shown in Figure 1. The figure also shows Omicron mega structure and clustering nature of its wells. The clustering of the wells drilled indicate the hydrocarbon fairway in the field. The Omicron field was discovered in 1962 and has 40 wells at present. Only one well (Omicron–20) has been abandoned till date. All but one has been completed as dual strings and thus 77 strings have produced/producing from the field. The length of perforated intervals has changed over time. Beginning with 6-10 ft perforated intervals in the phase one wells, the completed intervals have increased to between 20 and 50 ft in the last campaign in 1992.
+
+
+Figure 1View largeDownload slideOmicron A 700 Structure Map.Figure 1View largeDownload slideOmicron A 700 Structure Map. Close modal
+
+
+Figure 2View largeDownload slideOmicron field structural cross-sectionFigure 2View largeDownload slideOmicron field structural cross-section Close modal
+
+
+The Omicron field contains about 1.6 Billion Barrels STOIIP and current recoverable Oil volumes of 725 million barrels. This corresponds to a recoverable factor of 46%. The depth of the hydrocarbon bearing sands range from 6,500 ft. to 11,000 ft. There is no non-associated gas in Omicron field. The field structural cross section with respect to hydrocarbon fluid types are shown below:
+
+
+Since its discovery in 1962, four development drilling campaigns have been undertaken as shown below. A total of 40 wells have been drilled so far in the field.
+
+
+Detail well correlations were carried out and well tops established in the whole Omicron field using sequence stratigraphic frameworks as shown in Figure 3. The well correlation and seismic interpretation were conducted using the Petrel software. The findings indicate that the Omicron field is of shallow marine environment. The reservoirs belong to the middle to late Oligocene epoch.
+
+
+Figure 3View largeDownload slideOmicron Field Correlation PanelFigure 3View largeDownload slideOmicron Field Correlation Panel Close modal
+
+
+The Omicron field is made up of 42 stacked reservoirs. Most of the reservoirs are made up of amalgamated channels cutting through shore face deposits. The internal architecture of the reservoirs generally consists of sands with high porosity and permeabilities (Darcies and shale cutting through at different sections of the reservoirs. These intra-reservoir shales have proven to have significant impact on production. The porosities and permeabilities range between 15 to 33 pu and 100 to 5000mD respectively. This field has been a prolific oil and gas producer.
+
+
+The crude characteristics vary widely. However, a notable trend is that the oil viscosity decreases with depth. At the shallow levels the oil viscosities are relatively high (12 to 33cp) and low at the deeper levels (0.42 to 7cp). Most of the reservoirs are undersaturated. Almost all producing/produced reservoirs have enjoyed strong aquifer support. Reservoir pressure has been maintained without injection of any fluid. These fluid quality (and relatively high BS&W) makes it very important to have a very efficient gas-lift in the wells.
+
+
+Omicron field flow station consists of two oil stabilization trains with a liquid capacity of ca. 75 kbpd. The crude oil and water are exported through the 10-inch delivery line into the intra-field gathering to the nearby Pumping Station from which produced fluids are evacuated through the 24-inch pipeline to the terminal, while the produced gas is used for gas lift and fuel gas, with excess gas volumes flared. The historical production from the field is depicted in Figure 4 below:
+
+
+Figure 4View largeDownload slideOmicron field production performanceFigure 4View largeDownload slideOmicron field production performance Close modal
+
+
+Problem Definition
+
+
+Omicron 26L and 26S were producing sporadically, naturally due to the unavailability of gas lift valves at 68blpd and 132blpd respectively (dummies were installed in both strings during the last workover on this well).
+
+
+A workover operation had been carried out in 2006 and the well had not been unloaded hence the need to introduce gas lift to unload the annulus. Indications were seen from the fact that the Gas Distribution Manifold (GDM) pressure was equal to the Casing Head Pressure (CHP) which means that there was no sink for the gas to get into both strings and a decision was made to use Injection Pressure Operated (IPO) Valves for the purpose of optimizing production from this well. Production-Pressure-Operated valves were considered but they are severely limited by the need to have accurate and reliable flowing tubing data, which was difficult to obtain due to the unstable flow of the producing strings.
+
+
+A Gas Lift Valve Changeout (GLVCO) well intervention was done in November 2019 which saw the installation of Two (2) gas lift valves and One (1) orifice in both strings and the design was based on a surface opening pressure of 66bar. Initially, production rose for both strings but that was short lived as it was observed that both strings required different casing head pressures for the installed valves to operate and allow gas to lift the column of fluid in the tubing. While Omicron 26L required >= 66 bar to flow optimally and sustainably, its counterpart string needed between 45-50 bar to flow at its potential and for that reason, only one string could flow at any given point in time. At >= 66 bar, it seems there is over-injection in Omicron 26S and it starts to "blows gas").
+
+
+This issue was also attributed to the fact that both strings share a common annulus for gas distribution and the valves on both strings require different opening and closing pressures to function properly. It is unclear why the valves were not transferring pressures, perhaps may be due to inaccuracy of data used in designing for Omicron 26L.
+
+
+At this point, it was thought that the valves were not working as intended and Omicron 26L may only be injecting through one of the unloading valves, hence the high CHP requirement. For this reason, gas lift orifice inserts which do not allow transfer of pressures or strings competing for lift gas in a dual string gas lifted well was seen as he ideal solution to the problem.
+
+
+Methods, Procedures and Process
+
+
+A GLVCO operation was done in 2019 where both strings were designed using Petroleum Experts modelling software "PROSPER" for gas lift design and optimization. Gas lift model from prosper based on input parameters from the reservoirs of interest and the wellbore showed that two valves and an orifice be installed in the first, second and third mandrels respectively with a dummy installed in the last mandrel for both strings as shown in Figure 5 and Figure 6 respectively. Table 1 and Table 2 also show the valve design details for Omicron 26L and Omicron 26S
+
+
+Figure 5View largeDownload slideOmicron 26L initial designFigure 5View largeDownload slideOmicron 26L initial design Close modal
+
+
+Figure 6View largeDownload slideOmicron 26S initial designFigure 6View largeDownload slideOmicron 26S initial design Close modal
+
+
+Table 1Omicron 26L valve design details Design Summary
+            . Mandrel
+            . MD (ft)
+            . TVD (ft)
+            . Deviation (Deg.)
+            . Choke Dia. (x/64")
+            . Valve Description
+            . Valve Temp. (Deg F)
+            . Estimated LG Rate (MMscf/d)
+            . Surface Popen (psig)
+            . Surface Pclose (psig)
+            . Valve Tro (psig)
+            . 1 1808 1808 0 8 Valve 113.5 0.4 957.25 932.65 914.69 2 2969 2969 0 8 Valve 121.8 0.137 907.25 894.25 890.83 3 3953 3953 0 12 Orifice 129.1 0.41 857.25   4 4762 4761.62 1.8  Dummy      Design Summary
+            . Mandrel
+            . MD (ft)
+            . TVD (ft)
+            . Deviation (Deg.)
+            . Choke Dia. (x/64")
+            . Valve Description
+            . Valve Temp. (Deg F)
+            . Estimated LG Rate (MMscf/d)
+            . Surface Popen (psig)
+            . Surface Pclose (psig)
+            . Valve Tro (psig)
+            . 1 1808 1808 0 8 Valve 113.5 0.4 957.25 932.65 914.69 2 2969 2969 0 8 Valve 121.8 0.137 907.25 894.25 890.83 3 3953 3953 0 12 Orifice 129.1 0.41 857.25   4 4762 4761.62 1.8  Dummy      View Large
+
+
+Table 2Valve Design details for Omicron 26S Design Summary
+            . Mandrel
+            . MD (ft)
+            . TVD (ft)
+            . Deviation (Deg.)
+            . Choke Dia. (x/64′)
+            . Valve Description
+            . Valve Temp. (Deg F)
+            . Estimated LG Rate (MMscf/d)
+            . Surface Popen (psig)
+            . Surface Pclose (psig)
+            . Valve Tro (psig)
+            . 1 1855 1855 0 8 Valve 108.3 0.24 957.2 931.8 924.18 2 2879 2879 0 8 Valve 112.9 0.36 907.2 870.27 932.98 3 3727 3727 0 12 Orifice 116.7 0.49    4 4425 4424.74 1.8  Dummy      Design Summary
+            . Mandrel
+            . MD (ft)
+            . TVD (ft)
+            . Deviation (Deg.)
+            . Choke Dia. (x/64′)
+            . Valve Description
+            . Valve Temp. (Deg F)
+            . Estimated LG Rate (MMscf/d)
+            . Surface Popen (psig)
+            . Surface Pclose (psig)
+            . Valve Tro (psig)
+            . 1 1855 1855 0 8 Valve 108.3 0.24 957.2 931.8 924.18 2 2879 2879 0 8 Valve 112.9 0.36 907.2 870.27 932.98 3 3727 3727 0 12 Orifice 116.7 0.49    4 4425 4424.74 1.8  Dummy      View Large
+
+
+The operation was executed by procuring CAMCO-BK1 normal valves which were calibrated as per design and installed. The results after three months of installation were unsatisfactory and a new design was proposed.
+
+
+The new design took into consideration the installation of single point injection orifices which we see as an optimal approach to allow both strings flow at the same time. A Flowing bottom hole pressure survey was acquired on Omicron 26L to obtain the current reservoir pressure which was used to validate the "PROSPER" well model. Analysis of the Bottom hole pressure survey showed that there was gas entering the tubing at valve 1 as shown in Figure 7 below. No abrupt or sharp change in pressure gradients across the mandrel positions between 2969ftah and 4762ftah indicates that there is no turbulence and as such, gas isn't entering the tubing at these points. The need for pragmatic and simple design for this well cannot be overemphasized to mitigate data inaccuracies and operational complexities and for this reason, orifices were installed at the shallowest mandrel's for both strings and the well was unloaded subsequently. Details of the design for the single point injection are shown in Figure 8 and Figure 9 respectively. The information on the orifice selection for Omicron 26L and Omicron 26S are shown in Table 3 and Table 4 respectively.
+
+
+Figure 7View largeDownload slideAnalysis of the gradient within Omicron 26LFigure 7View largeDownload slideAnalysis of the gradient within Omicron 26L Close modal
+
+
+Figure 8View largeDownload slideOmicron 26L modified design-Single point injectionFigure 8View largeDownload slideOmicron 26L modified design-Single point injection Close modal
+
+
+Figure 9View largeDownload slideOmicron 26S modified design-Single point injectionFigure 9View largeDownload slideOmicron 26S modified design-Single point injection Close modal
+
+
+Table 3Valve Design details for Omicron 26L for single point injection Design Summary
+            . Mandrel
+            . MD (ft)
+            . TVD (ft)
+            . Choke Dia. (x/64")
+            . Valve Description
+            . Valve Temp. (Deg F)
+            . Estimated LG Rate (MMscf/d)
+            . Surface Popen (psig)
+            . Injection pressure @ valve depth (Psig)
+            . 1 1808 1808 12 Orifice 113 0.45 653 682 Design Summary
+            . Mandrel
+            . MD (ft)
+            . TVD (ft)
+            . Choke Dia. (x/64")
+            . Valve Description
+            . Valve Temp. (Deg F)
+            . Estimated LG Rate (MMscf/d)
+            . Surface Popen (psig)
+            . Injection pressure @ valve depth (Psig)
+            . 1 1808 1808 12 Orifice 113 0.45 653 682 View Large
+
+
+Table 4Valve Design details for Omicron 26S for single point injection Design Summary
+            . Mandrel
+            . MD (ft)
+            . TVD (ft)
+            . Choke Dia. (x/64")
+            . Valve Description
+            . Valve Temp. (Deg F)
+            . Estimated LG Rate (MMscf/d)
+            . Surface Popen (psig)
+            . Injection pressure at valve depth (Psig)
+            . 1 1855 1855 12 Orifice 108 0.27 653 683 Design Summary
+            . Mandrel
+            . MD (ft)
+            . TVD (ft)
+            . Choke Dia. (x/64")
+            . Valve Description
+            . Valve Temp. (Deg F)
+            . Estimated LG Rate (MMscf/d)
+            . Surface Popen (psig)
+            . Injection pressure at valve depth (Psig)
+            . 1 1855 1855 12 Orifice 108 0.27 653 683 View Large
+
+
+Results and Discussions
+
+
+Upon successful completion of the well intervention operation and unloading both strings, well test was carried out and the strings were allowed to flow individually to ascertain optimal and sustained flow. Flowing both wells simultaneously showed that both strings were flowing optimally at the set Casing Head Pressure (CHP = 45 bar-52 bar) without any interruption to either string and flow was observed to be continuous. Well test carried out 3 months after the operation showed the Net oil gain from Omicron 26L to be 391bopd at 83% bsw compared to 246bopd at 77% bsw before the intervention and this yields ca. 60% increase in oil gain. Similarly, the well test on the Omicron 26S yielded an oil gain of 472bopd at 0.05% bsw compared to 223bopd before the operation which leaves us with an increase of 111%. Both strings now flow simultaneously, optimally, and sustainably at their potential and the introduction of single point orifices into both strings has eliminated the need for the use of multiple valves on both strings whose opening and closing pressure requirement differ and causes gas lift robbing within the strings.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Gas lift Robbing Prevention in Dual String Completion using Production Pressure Operated Valve by Farasdaq Muchibbus Sajjad: KhairullaSastradinata; Silvya DewiRahmawati; AchmadMansur; AlvinWirawan, EcepMujib; Paper presented at theSPE/IATMI Asia Pacific Oil & Gas Conference Exhibition, Bali, Indonesia, October 2019. Paper Number: SPE-196392-MSGas Lift Design and Performance Analysis in the NorthWest Hutton Field, January1991. Paper Number: SPE-19280-PA.Innovative Application on Dual Oil Producer Completion: Gas Lift for Lower Zone and Natural Flow for Upper Zone Extends Oil Production in Giant Middle Eastern Oil Field by Ernesto Barragan; Abdul Naser AlMulla; MohamedBazuhair; AlaaAlshalabi; RachelleCornwall; Paper presented at theAbu Dhabi International Petroleum Exhibition & Conference, Abu Dhabi, UAE, November 2019: SPE-1-MS97486
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212037-MS
+
+
+

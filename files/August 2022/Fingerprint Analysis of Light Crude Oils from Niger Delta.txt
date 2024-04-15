@@ -1,0 +1,245 @@
+----- METADATA START -----
+Title: Fingerprint Analysis of Light Crude Oils from Niger Delta
+Authors: Ishioma Oshilike, Bella Mmata, Paschal Ugwu, Martins Otokpa, Chidinma Ibekwe, Okeke Hilary, Mike Onyekonwu
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212002-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Crude oil fingerprinting is a term applied to techniques that utilize geochemical analysis of hydrocarbon fluids composition to provide valuable information for well, reservoir and spill management. Analysis of crude oil fingerprints reveals a typical oil profile. Such a profile can provide information on formation history, type of carbon number preference during formation and route of migration. This study was undertaken using whole oil fingerprint and biomarkers of oils from twenty well strings from an onshore field in the Niger Delta Region. The aim was to evaluate light crude oils and determine thermal maturity, source rock quality, depositional environment and condensate correlation. The crude oil samples were analyzed using two major analytical techniques namely Gas Chromatography-Flame Ionization Detector (GC-FID) and Gas Chromatography-Mass Spectrometry (GC-MS). Evaluation of light hydrocarbon components was done using Mango parameters K1, K2, P2, P3 and N2 and the results revealed terrigenous organic matter input. Biomarker composition and pristane/phytane ratios in the range of 3.51 to 6.83 derived from GC results show that the source rock of the oils is made up of majorly terrestrial (type III) organic matter, deposited in a deltaic setting with prevailing oxic conditions. Maturity parameters calculated from Carbon Preference Indices between the range of 0.87 and 1.44 indicate the source is matured. The study provides key information on source characteristics that are applied to describe the type of petroleum prospects of a region. This study also provides information on condensate correlation, which has production implications such as application to production allocation.
+
+
+
+
+Keywords:
+geochemical characterization,
+correlation,
+table 4,
+niger delta,
+information,
+biomarker,
+fingerprint,
+compound,
+upstream oil & gas,
+hydrocarbon
+
+
+Subjects: 
+Fluid Characterization,
+Geochemical characterization
+
+
+
+
+Introduction
+
+
+Crude oil is created through the heating and compression of remains of organic materials that is, plants and animals over a long period of time. The original chemistry of the organic matter, the environment of deposition, the time and heat imposed on the organic matter dictate the type of crude oil formed (Fingas, 2011). As a result, every crude oil exhibits a unique chemical fingerprint due to the variety of geological conditions and ages under which it was formed. The concept of crude oil fingerprinting lies on the premise that every crude oil has a unique signature referred to as "fingerprint". Crude oils can be characterized compositionally by a number of established methods. Gas Chromatographic (GC) techniques are the most widely used. In gas chromatography, high-resolution capillary gas chromatography columns are used to generate fingerprints of petroleum consisting of hundreds of peaks in the range of C1-C40 (Douglas, 2007). Condensates are light crude oil with an API gravity that is typically between 50 degrees and 120 degrees (Schlumberger, Oilfield glossary, 2022). Light Hydrocarbons (e.g., methane, ethane and propane) are the main petroleum fractions in condensates. They are by-products, formed by thermal processes in the breakdown of kerogen. Due to their advanced maturity, condensates often contain no biomarkers (Halpern, 1995). To carry out fingerprint analysis on light crude oils such as condensates, there is need to evaluate the light hydrocarbons as the sparsity of biomarkers in these oils provides little information on characterizing these oils. Several authors have adopted evaluation of light hydrocarbon parameters to characterizing crude oils (Atwah, 2019, Halpern, 1994, Zhang et al, 2004)
+
+
+In this study, analysis was carried out on crude oil samples using gas chromatography techniques for their whole oil fingerprints and biomarkers. The study evaluated twenty stock tank oil samples obtained from twenty well strings in a Niger Delta field. The crude oil samples from these well strings were analyzed using Gas Chromatography-Flame Ion Detector (GC-FID) and Gas Chromatography-Mass Spectrometry (GC-MS) analytical methods. Mango’s light hydrocarbon parameters and Halpern’s Light-Hydrocarbon-Based Star Diagrams were applied. Results were interpreted to provide information relating to the organic source materials, environmental conditions during deposition, thermal maturity experienced by oil, condensate correlation and the degree of biodegradation
+
+
+Methodology
+
+
+Light hydrocarbon was used in crude oil fingerprinting to reveal information about organic source materials, environmental conditions during deposition, thermal maturity and the degree of transformation experienced by the oil. Twenty condensate samples from twenty different well strings were correlated based on the aforementioned information. Gas chromatographic analysis was performed using GC-FID and GC-MS. The heights of individual hydrocarbon parameters were selected and the results from the GC were then quality checked. Data preparation into suitable format for p:IGI software was done on excel. Figure 1 shows the workflow followed for the evaluation. Each step is discussed further.
+
+
+Figure 1View largeDownload slideWorkflow used for geochemical crude oil fingerprintingFigure 1View largeDownload slideWorkflow used for geochemical crude oil fingerprinting Close modal
+
+
+GC-FID and GC-MS Analyses
+
+
+GC-FID was used to analyze the whole oils while saturates fractions were analyzed using GC-MS. The GC-FID analysis was done on 7890A GC system equipped with capillary column 50m long with internal diameter of 0.2mm. Helium gas at flow rate of 3 ml/minute was used as the carrier. The GC oven was initially held at 35°C for 4 minutes and then ramped at 4°C/minute to 325°C. The GC-MS analysis on the other hand was done on a 7890A GC system coupled to Agilent 5975C mass selective detector (70ev). The saturate fraction was injected unto the column (HP-5MS, 30m × 250 µm × 0.25um) via a splitless injection mode and the oven temperature program optimized thus; 150°C hold for 10mins, 3°C/min to 270°C and hold for 35 mins. The GC was linked to the MS via the auxiliary transfer line maintained at 275°C. Target ions were acquired via SIM mode with the source and quad temperatures maintained at 230°C and 150°C respectively. Tri, tetracyclic terpanes and hopanes were identified from m/z 191 and m/z 177 while m/z 217 and 218 were used to identify steranes. Data generated from the analysis were used for further evaluation and interpretation.
+
+
+Data QA/QC and Preparation
+
+
+Heights of hydrocarbon compounds were checked for outliers to make sure all parameters needed for data interpretation were present. Since each crude oil sample was analyzed using three runs for both GC-MS and GC-FID, the relative standard deviation was calculated. Peak heights of compounds having relative standard deviation above ten were removed as outliers. The outputted results from GC were re-organized on excel into a format more suitable for p:IGI software.
+
+
+Selection and Generation of Ratios and Parameters
+
+
+Heptane, C7 hydrocarbons were used for light hydrocarbon evaluation using Mango parameters. Ratios were constructed using most transformation resistant compound as the denominator with susceptible compounds as numerators.C7 hydrocarbons were used for correlation because compared to lighter hydrocarbons, their relatively high boiling points makes them somewhat resistant to evaporation that may have resulted in the course of storage and sample preparation as well as alteration by sampling procedures. Mango parameters K1, K2, P2, P3 and N2 were employed to infer source of organic matter input. Parameters making K1, K2, P2, P3 and N2 are given in Table 1.
+
+
+Table 1Mango Parameters Parameter name
+            . Ratio
+            . K1 (2-MH + 2, 3-DMP)/(3-MH + 2,4-DMP) K2 P1/(P2 + N2) P2 2-MH + 3-MH P3 3-EP + 2, 3-DMP + 2, 3-DMP + 2, 2-DMP + 3, 3-DMP + 2, 3, 3-TMB N2 1, 1-DMCP + c-1, 3-DMCP + t-1, 3-DMCP Parameter name
+            . Ratio
+            . K1 (2-MH + 2, 3-DMP)/(3-MH + 2,4-DMP) K2 P1/(P2 + N2) P2 2-MH + 3-MH P3 3-EP + 2, 3-DMP + 2, 3-DMP + 2, 2-DMP + 3, 3-DMP + 2, 3, 3-TMB N2 1, 1-DMCP + c-1, 3-DMCP + t-1, 3-DMCP P1 = n-C7, MH = Methylhexane, DMP = Dimethylpentane, EP = Ethylpentane, TMB = Trimethylbutane, DMCP = DimethylcyclopentaneView Large
+
+
+Biodegradation and alteration were inferred from Halpern’s transformation parameters (eight C7 process transformation ratios). The ratios, designated Tr1 through Tr8 were plotted on the C7 oil transformation star diagrams (C7OTSD) and are ranked according to the magnitude of their change (decrease in value) in biodegradation. Halpern’s five C7 gas chromatographic correlation ratios were used for condensate correlation. The ratios C1 through C5 are plotted on C7 oil correlation star diagram (C7OCSD) using p:IGI software. The hydrocarbon parameters making up Tr1 to Tr8 and C1 to C5 are given in Tables 2 and 3 respectively.
+
+
+Table 2Halpern’s Transformation Parameters Position on star diagram
+            . Parameter name
+            . Ratio
+            . 1 Tr1 Toluene/1,1-dimethylcyclopentane 2 Tr2 n-C7/1,1-dimethylcyclopentane 3 Tr3 3-methylhexane/1,1-dimethylcyclopentane 4 Tr4 2-methylhexane/1,1-dimethylcyclopentane 5 Tr5 P2/1,1-dimethylcyclopentane 6 Tr6 1-cis-2-dimethylcyclopentane/1,1-dimethylcyclopentane 7 Tr7 1-trans-3-dimethylcyclopentane/1,1-dimethylcyclopentane 8 Tr8 P2/P3 Position on star diagram
+            . Parameter name
+            . Ratio
+            . 1 Tr1 Toluene/1,1-dimethylcyclopentane 2 Tr2 n-C7/1,1-dimethylcyclopentane 3 Tr3 3-methylhexane/1,1-dimethylcyclopentane 4 Tr4 2-methylhexane/1,1-dimethylcyclopentane 5 Tr5 P2/1,1-dimethylcyclopentane 6 Tr6 1-cis-2-dimethylcyclopentane/1,1-dimethylcyclopentane 7 Tr7 1-trans-3-dimethylcyclopentane/1,1-dimethylcyclopentane 8 Tr8 P2/P3 P2 = 2-methylhexane + 3-methylhexaneP3 = 2,2-dimethylpentane + 2,3-dimethylpentane + 2,4-dimethylpentane + 3,3-dimethylpentane + 3-ethylpentaneView Large
+
+
+Table 3Halpern’s Correlation Parameters Position on star diagram
+            . Parameter name
+            . Ratio
+            . 1 C1 2,2-dimethylpentane/P3 2 C2 2,3-dimethylpentane/P3 3 C3 2,4-dimethylpentane/P3 4 C4 3,3-dimethylpentane/P3 5 C5 3-ethylpentane/P3 Position on star diagram
+            . Parameter name
+            . Ratio
+            . 1 C1 2,2-dimethylpentane/P3 2 C2 2,3-dimethylpentane/P3 3 C3 2,4-dimethylpentane/P3 4 C4 3,3-dimethylpentane/P3 5 C5 3-ethylpentane/P3 P3 = 2,2-dimethylpentane + 2,3-dimethylpentane + 2,4-dimethylpentane + 3,3-dimethylpentane + 3-ethylpentane.View Large
+
+
+From the analysis, it can be deduced that the crude oil samples were majorly condensates (light crude), and their biomarker imprints were limited, or even absent in some oil samples (Table 4). Diagnostic biomarker ratios and parameters such as hopane/sterane, C29/C30hop and oleanane index where present were calculated and aided in data interpretation. The ratios were calculated using extracted peak heights.
+
+
+Table 4Organic Matter Input and Depositional Condition Parameter Wells
+            . Pr/Ph
+            . K1
+            . K2
+            . CPI
+            . C29/C30hop
+            . Oleanane index
+            . %C29
+            . αααR C29/C27
+            . Hopane/Sterane
+            . 1 5.00 1.07 0.23 0.87 0.66 0.23 49.04 2.62 3.37 2 5.27 1.07 0.22 1.29 0.73 0.30 39.44 2.51 2.03 3 4.65 1.08 0.23 1.07 0.57 0.33 40.52 4.25 3.57 4 4.58 1.06 0.24 1.05 0.65 0.46 44.99 2.10 2.21 5 4.31 1.08 0.23 1.05 0.55 0.35 32.98 3.73 3.05 6 5.78 1.09 0.23 1.44 0.47 0.28 - 0.56 - 7 6.83 1.11 0.23 1.25 0.52 0.35 40.51 3.48 1.99 8 3.52 1.10 0.22 1.07 0.68 0.32 47.15 2.45 4.17 9 4.62 1.09 0.23 1.11 0.69 0.30 32.02 2.54 5.02 10 5.27 1.09 0.23 1.03 0.69 0.25 41.12 2.47 4.36 11 3.51 1.08 0.22 1.11 0.69 0.34 44.92 3.44 3.46 12 3.95 1.09 0.22 1.08 0.52 0.35 41.76 3.46 5.04 13 4.72 1.09 0.24 1.06 0.69 0.29 43.64 2.45 1.72 14 4.96 1.08 0.24 1.04 0.69 0.27 41.36 2.89 1.84 15 5.40 1.10 0.23 1.05 0.61 0.24 46.42 2.91 3.43 16 5.25 1.10 0.23 1.04 0.69 0.29 47.15 2.20 3.46 17 5.46 1.10 0.23 1.07 0.80 0.29 38.80 2.00 3.35 18 5.12 1.10 0.23 1.08 0.81 0.36 49.58 - 4.89 19 4.86 1.08 0.24 0.87 0.53 0.34 41.37 2.25 1.84 20 4.41 1.10 0.23 1.29 0.98 - 47.75 - 3.07 Wells
+            . Pr/Ph
+            . K1
+            . K2
+            . CPI
+            . C29/C30hop
+            . Oleanane index
+            . %C29
+            . αααR C29/C27
+            . Hopane/Sterane
+            . 1 5.00 1.07 0.23 0.87 0.66 0.23 49.04 2.62 3.37 2 5.27 1.07 0.22 1.29 0.73 0.30 39.44 2.51 2.03 3 4.65 1.08 0.23 1.07 0.57 0.33 40.52 4.25 3.57 4 4.58 1.06 0.24 1.05 0.65 0.46 44.99 2.10 2.21 5 4.31 1.08 0.23 1.05 0.55 0.35 32.98 3.73 3.05 6 5.78 1.09 0.23 1.44 0.47 0.28 - 0.56 - 7 6.83 1.11 0.23 1.25 0.52 0.35 40.51 3.48 1.99 8 3.52 1.10 0.22 1.07 0.68 0.32 47.15 2.45 4.17 9 4.62 1.09 0.23 1.11 0.69 0.30 32.02 2.54 5.02 10 5.27 1.09 0.23 1.03 0.69 0.25 41.12 2.47 4.36 11 3.51 1.08 0.22 1.11 0.69 0.34 44.92 3.44 3.46 12 3.95 1.09 0.22 1.08 0.52 0.35 41.76 3.46 5.04 13 4.72 1.09 0.24 1.06 0.69 0.29 43.64 2.45 1.72 14 4.96 1.08 0.24 1.04 0.69 0.27 41.36 2.89 1.84 15 5.40 1.10 0.23 1.05 0.61 0.24 46.42 2.91 3.43 16 5.25 1.10 0.23 1.04 0.69 0.29 47.15 2.20 3.46 17 5.46 1.10 0.23 1.07 0.80 0.29 38.80 2.00 3.35 18 5.12 1.10 0.23 1.08 0.81 0.36 49.58 - 4.89 19 4.86 1.08 0.24 0.87 0.53 0.34 41.37 2.25 1.84 20 4.41 1.10 0.23 1.29 0.98 - 47.75 - 3.07 View Large
+
+
+Results and Discussion
+
+
+Crude oil fingerprints and biomarkers have been widely used by geochemists to determine organic input and depositional environment, assess thermal maturity, evaluate reservoir oil biodegradation and alteration. We have applied this to our study with emphasis on light hydrocarbons and the results are discussed.
+
+
+Light Hydrocarbons and Source Parameters
+
+
+The K1 Mango parameter of the oils from the different well strings were relatively low ranging from 1.06-1.11 as shown in Table 4. There is a general invariance in the values of K1 across the different oils. This indicates that the oils may have similar sources as homologous oils (from a common source) share a similar K1, and different K1 values may indicate different oil groups (Mango, 1994; Haven, 1996). In Figure 1a, a cross plot of P3 vs. P2+N2 shows the oil samples from the different well strings fall within one major group. The relatively low values of K2 between 0.22-0.24 as shown in Table 4 are suggestive of terrigenous organic matter input (Mango, 1994).
+
+
+Figure 1aView largeDownload slideCross plot of P3 vs. P2+N2Figure 1aView largeDownload slideCross plot of P3 vs. P2+N2 Close modal
+
+
+Organic Matter Input and Depositional Condition
+
+
+The GC fingerprints of the oils from the different well strings show a distinct unimodal pattern as represented in Figure 2, with the dominance of C3 – C30 maximizing between C4 – C7. This is typical of light oils with terrigenous organic matter input (Peters et al, 1993, Fadokun, 2014).
+
+
+Figure 2View largeDownload slideRepresentative GC chromatogram of the different oilsFigure 2View largeDownload slideRepresentative GC chromatogram of the different oils Close modal
+
+
+The pristane/phytane (Pr/Ph) ratio was used as it is one of the most commonly used geochemical parameters and has been applied as an indicator of depositional environment. High Pr/Ph (>3.0) indicates terrigenous input under oxic conditions, low (Pr/Ph<2) indicate aquatic depositional environment including marine, fresh and brackish water (reducing conditions), lower Pr/Ph (<0.8) indicates anoxic/hypersaline or carbonate environments, whereas higher values (up to 10) are related to peat swamp depositional environment (Haven 1996, Roushdy et al. 2010). Table 4 shows the different oils are characterized by pristane/phytane ratios in the range of 3.51 to 6.83 thus confirming that these oils originated from terrigenous organic matter deposited under an oxic paleo environment.
+
+
+Oleanane identified from m/z 191 (Figure 3) in Niger Delta oils is linked to higher land plants (angiosperm) contribution to organic matter in source rock (Ekweozor et al, 1979). Oleanane index (Oleanane/C30-hopane) was applied to assess the amount of higher land plant contribution to the source rock. The values for the ratio are in the range of 0.23-0.46 as seen in Table 4. These values indicate significant contribution from higher land (terrestrial) plants.
+
+
+Figure 3View largeDownload slideRepresentative m/z 191 Hopanes ChromatogramFigure 3View largeDownload slideRepresentative m/z 191 Hopanes Chromatogram Close modal
+
+
+Thermal Maturity and Alteration
+
+
+CPI which gives the ratio of odd carbon number to even carbon number n-alkanes in extractable organics was applied to assess thermal maturity of the oils. CPI was used as an indicator of maturation of crude oil. Immature rocks often have high CPI values. The CPI values ranges between 0.87 and 1.44 for all the different oils (Table 4), with most wells having CPI values above 1 signifying a dominance of odd carbon. The observed CPI values >1 in most of the oil samples is believed to be influenced by the thermal maturity, as all samples possess some level of maturity.
+
+
+The Halpern oil transformation plot (Figure 4) was used to distinguish variations in oils caused by transformation. The ratios were plotted in order of decreasing sensitivity to biodegradation through Tr1 to Tr8, with Tr1 being the most sensitive to biodegradation (as it measures the depletion in toluene which is by far the most soluble C7 compound i.e., Tr1 = tol/11DMCyC5). The values of Tr1 to Tr8 are given in Table 5. The relatively lower Tr1 values for wells 1, 5, 9, 10, 11, 12, 18 and 20 suggests that these oil samples have started undergoing some form of alteration.
+
+
+Figure 4View largeDownload slideHalpern Plot of oil transformation for the different oilsFigure 4View largeDownload slideHalpern Plot of oil transformation for the different oils Close modal
+
+
+Table 5Halpern’s Correlation and Transformation Parameters for The Oils from the Different Wells Wells
+            . Tr1
+            . Tr2
+            . Tr3
+            . Tr4
+            . Tr5
+            . Tr6
+            . Tr7
+            . Tr8
+            . C1
+            . C2
+            . C3
+            . C4
+            . C5
+            . 1 7.71 12.13 3.98 3.94 7.92 0.02 1.95 2.79 0.19 0.41 0.28 0.12 0.00 2 10.72 12.78 4.19 4.02 8.21 0.03 2.06 3.00 0.17 0.45 0.26 0.12 0.00 3 10.59 12.16 4.09 4.04 8.14 0.02 2.04 2.84 0.18 0.43 0.27 0.12 0.00 4 19.46 12.29 3.95 3.92 7.87 0.04 1.81 2.79 0.18 0.40 0.28 0.14 0.00 5 9.82 11.86 4.05 4.00 8.04 0.02 2.03 2.82 0.18 0.43 0.27 0.12 0.00 6 11.06 11.74 3.99 3.98 7.97 0.03 1.97 2.86 0.19 0.43 0.26 0.12 0.00 7 10.70 11.68 3.99 4.01 8.00 0.03 1.92 2.93 0.19 0.43 0.26 0.12 0.00 8 8.49 11.42 3.92 3.83 7.76 0.02 2.06 2.88 0.18 0.45 0.25 0.12 0.00 9 6.73 11.57 3.83 3.81 7.64 0.02 1.89 2.80 0.20 0.42 0.26 0.12 0.00 10 6.49 11.56 3.86 3.82 7.66 0.03 1.90 2.77 0.20 0.42 0.26 0.12 0.00 11 9.87 11.89 3.98 3.83 7.82 0.04 2.11 2.87 0.17 0.45 0.25 0.12 0.00 12 8.99 11.65 3.99 3.88 7.87 0.03 2.09 2.84 0.18 0.45 0.26 0.12 0.00 13 18.61 11.75 3.80 3.80 7.59 0.07 1.76 2.82 0.18 0.41 0.26 0.14 0.00 14 18.45 11.70 3.81 3.81 7.62 0.07 1.76 2.80 0.19 0.40 0.27 0.15 0.00 15 10.57 11.69 3.99 3.97 7.95 0.05 1.97 2.86 0.19 0.43 0.26 0.12 0.00 16 10.70 11.69 3.99 3.98 7.96 0.06 1.97 2.88 0.19 0.43 0.26 0.12 0.00 17 10.22 11.69 4.00 3.98 7.97 0.07 1.98 2.86 0.19 0.43 0.26 0.12 0.00 18 3.32 12.03 4.14 4.06 8.21 0.03 2.19 2.78 0.19 0.45 0.26 0.11 0.00 19 18.17 11.56 3.79 3.81 7.60 0.06 1.76 2.80 0.19 0.40 0.27 0.15 0.00 20 5.83 11.17 4.13 4.03 8.16 0.03 2.34 2.76 0.17 0.47 0.26 0.11 0.00 Wells
+            . Tr1
+            . Tr2
+            . Tr3
+            . Tr4
+            . Tr5
+            . Tr6
+            . Tr7
+            . Tr8
+            . C1
+            . C2
+            . C3
+            . C4
+            . C5
+            . 1 7.71 12.13 3.98 3.94 7.92 0.02 1.95 2.79 0.19 0.41 0.28 0.12 0.00 2 10.72 12.78 4.19 4.02 8.21 0.03 2.06 3.00 0.17 0.45 0.26 0.12 0.00 3 10.59 12.16 4.09 4.04 8.14 0.02 2.04 2.84 0.18 0.43 0.27 0.12 0.00 4 19.46 12.29 3.95 3.92 7.87 0.04 1.81 2.79 0.18 0.40 0.28 0.14 0.00 5 9.82 11.86 4.05 4.00 8.04 0.02 2.03 2.82 0.18 0.43 0.27 0.12 0.00 6 11.06 11.74 3.99 3.98 7.97 0.03 1.97 2.86 0.19 0.43 0.26 0.12 0.00 7 10.70 11.68 3.99 4.01 8.00 0.03 1.92 2.93 0.19 0.43 0.26 0.12 0.00 8 8.49 11.42 3.92 3.83 7.76 0.02 2.06 2.88 0.18 0.45 0.25 0.12 0.00 9 6.73 11.57 3.83 3.81 7.64 0.02 1.89 2.80 0.20 0.42 0.26 0.12 0.00 10 6.49 11.56 3.86 3.82 7.66 0.03 1.90 2.77 0.20 0.42 0.26 0.12 0.00 11 9.87 11.89 3.98 3.83 7.82 0.04 2.11 2.87 0.17 0.45 0.25 0.12 0.00 12 8.99 11.65 3.99 3.88 7.87 0.03 2.09 2.84 0.18 0.45 0.26 0.12 0.00 13 18.61 11.75 3.80 3.80 7.59 0.07 1.76 2.82 0.18 0.41 0.26 0.14 0.00 14 18.45 11.70 3.81 3.81 7.62 0.07 1.76 2.80 0.19 0.40 0.27 0.15 0.00 15 10.57 11.69 3.99 3.97 7.95 0.05 1.97 2.86 0.19 0.43 0.26 0.12 0.00 16 10.70 11.69 3.99 3.98 7.96 0.06 1.97 2.88 0.19 0.43 0.26 0.12 0.00 17 10.22 11.69 4.00 3.98 7.97 0.07 1.98 2.86 0.19 0.43 0.26 0.12 0.00 18 3.32 12.03 4.14 4.06 8.21 0.03 2.19 2.78 0.19 0.45 0.26 0.11 0.00 19 18.17 11.56 3.79 3.81 7.60 0.06 1.76 2.80 0.19 0.40 0.27 0.15 0.00 20 5.83 11.17 4.13 4.03 8.16 0.03 2.34 2.76 0.17 0.47 0.26 0.11 0.00 View Large
+
+
+Condensate Correlation
+
+
+Halpern’s five C7 gas chromatographic correlation ratios were used to determine the mixing of various oils in the reservoir and alteration processes among the oil samples from the different wells (Table 5). These correlations are plotted on oil correlation star diagrams (Figure 5) to capture the variation of very small ratios. The large boiling point difference in the compounds comprising C5 make it useful as a light-end loss (evaporation) parameter; it increases with light-end loss. C5 for all oil samples was zero because of the absence of the compound 3-ethyl pentane in the crude oil samples. The oils from the different wells show correlation among themselves both from the correlation star plot (Figure 5) and numerical values (Table 5). These results indicate the oils from the different wells are similar. This similarity can be attributed to similar charge and/or possible communication across the reservoirs.
+
+
+Figure 5View largeDownload slideHalpern Correlation Plot of the different oil samplesFigure 5View largeDownload slideHalpern Correlation Plot of the different oil samples Close modal
+
+
+Source Rock Quality
+
+
+All the oils show the dominance of C30hopane over C29hopane. The C29/C30hopane ratio <1, as seen in Table 4, suggest the oils were derived from clay-rich shale source rock. The oils are characterized by the presence of gammacerane, which suggests prevailing stratified water column conditions of source rock organic matter accumulation (Bjoroy et al., 1991, Wilhelms et al., 1994). m/z 217 chromatogram (Figure 6) shows distribution of steranes in the oils. A ternary plot of ααα (217) steranes in the oils (Figure 7) show that the source rock containing the organic matter are of a deltaic setting. Higher % C29 sterane and high ααα20R C29/C27 ratio for the oil samples (Table 4), indicate the dominance of terrestrial organic matter in the source rock.
+
+
+Figure 6View largeDownload slideRepresentative m/z 217 Steranes ChromatogramFigure 6View largeDownload slideRepresentative m/z 217 Steranes Chromatogram Close modal
+
+
+Figure 7View largeDownload slideααα (217) Sterane Distribution of the different oilsFigure 7View largeDownload slideααα (217) Sterane Distribution of the different oils Close modal
+
+
+Conclusion
+
+
+The light oil samples have been analyzed for their fingerprints. Most of the interpretations made were done using the light hydrocarbons present in these samples. The assessment of compositional variation using Halpern’s correlation parameters and star plots indicate one major pattern, suggesting similar charge and/or possible communication across the reservoirs. The results from biodegradation and alteration show that the oils are mostly unaltered. Biomarker composition and ratios derived from GC results which was limited was used to infer source rock quality. It revealed that the source rock of the oils from the field is made up of majorly terrestrial (type III) organic matter, deposited in a deltaic setting with prevailing oxic conditions. Maturity parameters calculated from Carbon Preference Indices indicate the source is matured. This study shows that evaluation of light hydrocarbon components (C7 and its isomers) proves to be a reasonable tool for fingerprint analysis of light crude oil samples where biomarkers might be scarce or even absent.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+AtwahIbrahim, StephenSweet, JohnPantano, AnthonyKnap, "Light Hydrocarbon Geochemistry: Insight into Mississippian Crude Oil Sources from the Anadarko Basin, Oklahoma, USA", Geofluids, vol. 2019, Article ID 2795017, 15 pages, 2019. https://doi.org/10.1155/2019/2795017Google Scholar Bjoroy, M., Hall, P.B., Gillyon, P., Jumeau, J., 1991. Carbon isotope variations in n-alkanes and isoprenoids of whole oil. Chemical Geology93, 13–20.Google ScholarCrossrefSearch ADS  Douglas S.Gregory, Stephen D.Emsbo-MattinglyScott A.Stout, Allen D.Uhler, Kevin J.McCarthy., 2007. Chemical Fingerprinting methods. Introduction to Environmental Forensics, 2nd Edition, 311–454Google Scholar Fadokun, D., SeleghaA., 2014. Characterizing oils using fingerprints and biomarkers: a case study on oils from two Niger Delta fields. NAPE Bulletin, Vol. 26 No 2 / 11.Google Scholar Fingas Merv2011. Oil Spill Science and Technology. Gulf Professional Publishing.Ekweozor, C.M., Okogun, J.I., Ekong, D.E.U., Maxwell, J.R., 1979a. Preliminary organic geochemical studies of samples from the Niger Delta (Nigeria): I. Analysis of crude oils for triterpanes. Chemical Geology27, 11–28Google ScholarCrossrefSearch ADS  RoushdyMI, El NadyMM, MostafaYM, El GendyNS, AliHR (2010) Biomarkers Characteristics of Crude Oils from some Oilfields in the Gulf of Suez. Egypt. Journal of American Science6(11):911–925Google Scholar Schlumberger, Oilfield glossary, 2022Ten Haven, H.L., 1996. Applications and limitations of Mangos light hydrocarbon parameters in petroleum correlation studies. Org. Geochem. 24, 957–976.Google ScholarCrossrefSearch ADS  Thompson, K.F.M., 1983. Classification and thermal history of petroleum based on light hydrocarbons. Geochim. Cosmochim. Acta47, 303–3Google ScholarCrossrefSearch ADS  Wilhelms, A., Larter, S.R., Hall, K., 1994. A comparative study of the stable carbon isotopic composition of crude oil alkanes and associated crude oil asphaltene pyrolysate alkanes. Organic Geochemistry21, 751–759.Google ScholarCrossrefSearch ADS  HalpernHenry, 1995. Development and Applications of Light Hydrocarbon-Based Star Diagrams. 10.1306/8D2B1BB0-171E-11D7-8645000102C1865DJO - AAPG BulletinGoogle Scholar Mango, F.D., 1994. The origin of light hydrocarbons in petroleum: ring preference in the closure of carbocyclic rings. Geochim. Cosmochim. Acta58, 895–901.Google ScholarCrossrefSearch ADS  Peters, K.E., Moldowan, J.M., 1993. The Biomarker Guide 2: Biomarkers and Isotopes in Petroleum Exploration and Earth History. Prentice-Hall, Englewood Cliffs, New JerseyGoogle Scholar ZhangShuichang,, Huang, Haiping, 2004. Geochemistry of Paleozoic marine petroleum from the Tarim Basin, NW China, Part 1. Oil family classification. 10.1016/j.orggeochem.2005.01.013JO - Organic GeochemistryGoogle Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212002-MS
+
+
+

@@ -1,0 +1,588 @@
+----- METADATA START -----
+Title: Investigation of Gas-Lift Mitigation in Deepwater Pipeline-Riser System
+Authors: Ndubuisi Uchechukwu Okereke, Isaac Anayo Ogazi, Anietie Umofia, Nnaemeka Princewill Ohia, Stephen Gekwu Udeagbara, Onyebuchi Nwanwe, Henry Adimekwe, Stanley Ekwueme, Anthony Kerunwa
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212008-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Slugging studies done recently have shown that slug mitigation techniques need to be improved, particularly in deepwater scenarios. In order to breakup the liquid slugs inside the riser and reduce acute slugging, the gas-lift slug mitigation method involves injecting a pre-determined volume of gas at the pipeline-riser section. Through OLGA severe slug mitigation; the study investigated various positioning of the gas-lift upstream of the riser-base. A case-study of a typical deepwater scenario within West-Africa was considered. The field was located at a water-depth of over 1000m with riser height of 1513m and pipeline section of 2712m which were all modeled on OLGA. The study involved validation of the pressure simulated against initial pressure behavior from the field. The field case involved running well X1 set up at about 72°C and mass flow rate of 3.25 kg/s, well X2 set up at about 70°C and 12.13 kg/smultiphase flow stream flow. Gas-lift was deployed within range of 7kg/s to 35 kg/s. Although severe slugging was mitigated, the power consumption required by required by gas-lift technique proved to be relatively high.The results indicated that gas-lift was better off closer to the supporting wells than being at the riser-base; as with the scenario of 35 kg/s gas-lift closer to well X2, the gas pressure upstream of the riser-base was significant enough to push off liquid slugs that accumulated at the riser-base; giving rise to a more stable flow and moderating the severe slugging scenario.
+
+
+
+
+Keywords:
+upstream oil & gas,
+artificial lift system,
+topsides,
+slug catcher,
+modeling & simulation,
+scenario,
+gas injection,
+riser,
+gas lift,
+fluctuation
+
+
+Subjects: 
+Artificial Lift Systems,
+Pipelines, Flowlines and Risers,
+Gas lift,
+Pipeline transient behavior,
+Risers
+
+
+
+
+Introduction
+
+
+Severe slugging is a major flow assurance issue related to the transportation of two-phase liquid and gas flow to the surface facility. Severe slugging can introduce critical risk to hydrocarbon production and processing facilities, leading to poor separation efficiency and structural problems in pipeline-riser systems. Hydrodynamic slugging, operational induced slugging and severe slugging are the generally recognised types of slugging. This study is focused on acquiring knowledge into the behaviour of severe slugging in pipeline-riser systems and the effect of gas-lift optimization on slug flow mitigation. Typical loss in production loss from severe slugging could be as high as 50% high (Yocum, 1973; Okereke, 2015). Severe slugging is associated with fluctuations in pressure and at the point where the pressure variation develops across the pipeline-riser area, it leads to the vibration of the chokes and valves on the separation facility, prompting possible production shut-down in severe cases. Likewise, the underlying harm on pipeline-riser segments because of slugging can lead to high economic loss to operators. Multiphaseflow production in deep water pipeline-riser systems is actually more difficult in view of the challenging piping structure and undulations that are normal in the deep-water situations, prompting expanded liquid accumulation at the low spots. Taking into account these difficulties, research efforts are being made to improve severe slugging mitigation strategies and consequently enhance oil production from deep water oil fields.
+
+
+Statement of problem
+
+
+Severe slugging is a fluctuating cycle which often happens in two-phase pipeline–riser systems. At moderately low flow rates, liquid accumulates at the low riser-base point, giving rise to the blocking of gas phase, until adequate pressure has been built up upstream of the riser-base to propel the liquid accumulation to the riser column. Subsequently, the liquid slug, and resulting gas phase flow, the excess liquid phase stream in the riser falls back to the riser-base to give rise to another plug in flow and the cycle continues. Severe slugging gives rise to enormous abundance pressure and flow rate oscillations. Consequently, it causes trips on the production facilities at the topsides, designed to operate within the expected pressure conditions (such asthe separation and compression system). From industry experience, during slug production stage; gas and liquid phase flow fluctuations lead to floading of the separation and compression systems via the inlets of the separation or compression systems as the case may be. At some instances, expanded backpressure could lead to drop in production at the wellhead. There are a number of industry accepted slug mitigation strategies such as topsides choking and gas-lift. Gas-lift slug mitigation is quite viable; however it has a draw-back of the large volume of gas deployed for it's use. This study is aimed at considering the optimization of the positioning of the gas-lift strategy to ensure a possible reduction in gas volume.
+
+
+Objectives of the Study
+
+
+The key objective of the study reported in this paper was to optimize gas-lift slug mitigation technique as a mitigation method for severe slugging by considering other positions for deploying the gas-lift technique to ensure the technique is more effective. The specific objectives of the study include;
+
+
+Development of simulation models to represent the gas-lift severe slug mitigation technique in a deep water scenario using OLGA.Determination of the effect of gas-lift at positions upstream of the riser-base for effective slug mitigation in deep water pipeline-riser scenario.The economic viability of gas-lift technique.
+
+
+Literature Review
+
+
+This section provided highlights of the review of relevant literatures covering multiphase flow, severe slugging description and the available severe slugging mitigation strategies.
+
+
+Multiphase flow phenomenon
+
+
+The multiphase flow phenomenon implies a flow consisting of more than one phase of fluid, flowing at the same period in the same pipe enclosure. In the oil industry, three-phase flow is predominant; where there is consideration for the oil, gas and water phases respectively. There is also the possibility of considering other phases such as sand and broken down salt which are extracted from the pores within the reservoir. There are also typical two-phase flow processes in the industry. It is also importamt to note that multiphase flows can be grouped into flow regimes.
+
+
+Multiphase Flow - Slugging
+
+
+Slugging is probably the most disruptive flow regime in multiphase flow, because of the related fluctuation in flow leading to a significant obstruction to flow of the multiphase fluid in the oil and gas industry. Slugging is experienced throughout production exercise or phases Slugging happens in both in horizontal and vertical lines. Subsequently, there are mainly three types of slug flow. The three types include:
+
+
+Hydrodynamic slug flow/sluggingOperation induced slug flow/sluggingSevere slugging
+
+
+Hydrodynamic slugflow/slugging
+
+
+The phenomenon of hydrodynamic slugging occurs mainly on horizontal pipes. Hydrodynamic slugging is mainly characterized by the hydrodynamic wave perturbation on the interface between the gas and liquid phase, brought about by the sudden pressure and gravitational power imbalance, based on the undulations within the pipeline secton in consideration (Schmidt et al., 1980). The development of hydrodynamic slugging wave is depicted in the traditional Kelvin Helmhotz (KH) unsteady component. Studies by Arnaud et al., reviewed the impacts of wave association on the development of hydrodynamic slugs in two-stage pipe flow at moderately low gas and moderate fluid speed. Their investigation was done on a level line which is 31 m long and 10cminterior measurement at biometric pressure. Investigations aroundhydrodynamicslugging has led to the improvement of various transient and consistent models. Further research by Issa and Kempf led to the proposal for the characterization of the transient models into three classes, specifically: exact slug plug, slug following and slug catching models.
+
+
+Operation induced slugging
+
+
+This type of slugging is based on specific activities performed during production operation. Activities such as increase (expanding production), pigging and depressurization can create numerous fluid slugs.
+
+
+Severe slugging
+
+
+The low points and undulations within a pipeline-riser system is mainly responsible for severe slugging formation. Towards the end life of a reservoir, pressure could drop leading to low mass-flow rate which could cause liquid accumulation within the low points of the riser-base. At such scenarios, the gravitational force acting on the liquid phase will lead to liquid accumulation at the riser-baseand subsequently impede the flow channel and forestall gas flow. This interaction gives rise to an intermittent flow condition. This irregular condition of flow, which is dominated by pockets of liquid and gas phase flow followed by no liquid and gas phase flow along the riser column is known as severe slugging. It is also important to note that severe slugging is associated with large pressure and flow rate variation. This variation in pressure and flow rate often leads to damage on the downstream/topsides handling equipment.
+
+
+Slugging is a flow design characterized by different stage flow, for example, in the production of oil and gas upstream of a production line. The gas and liquid (water and oil) may not be uniformly allocated all through the wells, transport pipelines and risers because of explicit design and working conditions. As displayed in Figure 1, these enormous attachments are regularly allocated to slugs (Schmidt et al. (1980); Taitel and Dukler (1976)). This kind of intermmitent flow can bring about extremely adverse oil and water and gas production viaa typical pipeline-riser system with potential structural effect on the pipeline-riser system (Aamo et al., 2004); (Eikrem (2006); (Hassanein and Fairhurst, 1998); (Havre and Dalsmo, 2001); (Di-Meglio et al., 2012a); (Storkaas, 2005); (Taitel et al., 1990); (Tengesdal et al., 2002)). Sequel to the explicit working condition and design; the slugging flow can happen at various low points upstream of the production line. As captured in Figure 2, a slug flow could show up in the gas-lift production wells because of backpressure issues within the system (Eikren (2006); Hu (2004)), a topographical type of slugging could happen in transportation pipelines as a result ofthe ocean bottom heights (Jansen (1990); Ogazi (2011)), and a severe slug could show up at the riser part because of the huge gravity impact (Jahanshahi et al. (2013b); Di-Meglio et al. (2012a)); (Sivertsen et al. 2010).
+
+
+Figure 1View largeDownload slideDepiction of Severe Slugging Cycle (Malekzadeh, Henkes Mudde, 2012)Figure 1View largeDownload slideDepiction of Severe Slugging Cycle (Malekzadeh, Henkes Mudde, 2012) Close modal
+
+
+Figure 2View largeDownload slideTypical flow patterns in a vertical pipeline (from left to right): Bubble flow, slug flow, churn flow, and annual flow (Taitel et al. (1980))Figure 2View largeDownload slideTypical flow patterns in a vertical pipeline (from left to right): Bubble flow, slug flow, churn flow, and annual flow (Taitel et al. (1980)) Close modal
+
+
+Slug Formation
+
+
+Generally, a low point on the pipeline-riser section causes liquid phase accumulation at the riser-base; which stops the gas phase from penetrating into the riser column at extreme conditions, leading to a mechanism known as severe slugging. The entire process could be divided into the following four stages as highlighted below:
+
+
+Slug generation
+
+
+During the slug generation stage, a pressure difference was developed between the upstream and downstream of the liquid phase that accumulated at the riser-base of the pipeline. It is frequently started by the liquid fall-back stage just before it, when a portion of the gas blowout phase looses momentumand falls to the riser-base (Murashov, 2015). The liquid accumulation at the riser-base is actually increased by the stratified flow that preceeds the gas blowdown. The gas-phase continues to push the liquid accumulation at the riser-base up the riser column as a result of it's ability to compress. If the slug appears longer than the riser, the stage progresses until the liquid slug arrives at the the riser top or until the bubble penetration stage occurs (Schmidt et al., 1985).
+
+
+Slug production
+
+
+At this point, the entire riser length is filled by the liquid slug. This phase is distinguished by the comparatively slow rate of liquid formation, which is proportional to the quantity displaced by compressed gas phase and liquid intake from the pipe. Generally, the pressure distribution along the riser height is steady and resembles hydrostatic pressure distribution. This phase is completed when the gas-liquid level in the pipeline reaches the base.
+
+
+Bubble penetration
+
+
+The riser-base is the region where the liquid-gas phase interface is formed before the gas phase enters the riser, leading to a bubble front similar to a large Taylor bubble. The bubble propagates up the riser when the hydrostatic pressure on the riser-base decreases due to reduced static pressure, allowing additional gas to enter the riser (Murashov, 2015). As the gas front moves deeper into riser column the pressure within the riser column continues to drop, allowing the gas to drop. The riser blowout is characterized by increasing flow rate into the separator as a result of the expansion of the gas flowing from the pipeline, eventually resulting from the force balance between the hydrostatic and compressed gas being broken.
+
+
+Gas blow down
+
+
+Following the phase of rapid liquid development, known as blow down, there occurs a violent production of pressured gas at high rates. The gas velocity in the riser reduces to a level that allows the liquid to fall-back from the inner surface of the riser after the gas has enlarged and the pipeline pressure has reached its lowest point. At the riser-base, the liquid phase that has fallen-back from the riser column, builds up the cycle and the cycle is re-started. It is important to note that liquid fall-back may not happen in some instances. At such scenario, stratified flow blocking the riser-base section starts a new cycle.
+
+
+According to the explanation of the four stages given above, severe slugging occurs when the pressure inside the pipeline rises to a point at which it can no longer overcome the hydrostatic head created by the column of liquid slug. At this point, the gas enlarges and aggressively pushes the liquid column into the separator. Within the separator, there would be periods of no gas and liquid inflow and periods of extremely high gas and liquid flow rates; leading to severe slugging. These large spikes of gas and liquid flowrates gives rise to potential overflow and stoppage of the separation process at some points. Also, the fluctuations in liquid and gas flow rates cause in-efficiency in separation (J. Ø. Tengesdal, U, Sarica, Thompson, & Tulsa, 2003).
+
+
+The pipeline geometry with possible low points is often a pre-condition for severe slugging formation. Without the low points in the pipe, the lesser density of the gas phase will cause a re-distribution of the gas phase relative to the liquid phase and this prevents the gas-phase from balancing out and therefore leading to liquid phase not accumulating at the riser-base. Hence, pipeline undulations and low points in the pipeline geometry are integral points necessary for slug formation (Schmidt et al., 1985).
+
+
+Secondly, the rate of increase in hydrostatic pressure must be larger than the rate of increase in pipeline pressure at the point where the liquid column reaches the outlet of the riser, in order for the slugging caused by the riser to be considered as severe slugging. Otherwise the slugging phenomenon experienced will be referred to as transitional severe slugging (Schmidt, Brill, & Beggs, 1980).
+
+
+Thirdly, the liquid accumulation within the riser column needs to be steady. This indicates that start of the bubble penetration will not result in blowout as a result of quick growth of the gas phase. The pressuredrop over the pipeline increases as the gas flowrate through the vertical pipe increases at certain liquid flow rate, leading to a meeting of the stability criteria.
+
+
+Eventually, a second slug destabilizes the the liquid column, which was already borderline unstable. By developing a buffer between the liquid column and the new slug, the trapped gas accelerates the slug at the junction point, while decelerating the riser column, causing blowdown and repeating the cycle.
+
+
+Severe slugging classification
+
+
+According to early studies on the above subject, severe slugging is characterized as a riser-induced slug flow that produces slugs that are at least as long as the riser. These flow regimes were categorized as transitional to severe slugging flows because the gas blowdown occurred before the liquid slug had reached the top and the slug length was subsequently shorter than that of the riser.
+
+
+Severe slugging of type 1 (SS1)
+
+
+SS1 is the phenomenon we formerly referred to as "extreme slugging". Prior to blowout during SS1, the slug reaches the top of the riser. This extreme slugging also known as severe slugging is characterized by a steady liquid production phase that occurs at an almost constant pace and within which the pressure at the riser-base is closely equal to the riser hydrostatic head.
+
+
+Severe slugging type 2 (SS2)
+
+
+Severe slugging of type 2 is characterized by blowout happening before the liquid slug arrives the riser top.
+
+
+Severe slugging of type 3 (SS3)
+
+
+SS3 type of severe slugging is started by transitional slugs produced in the upstream pipeline that travel along the riser before dropping to the ground partially and developing highly aerated liquid slugs at the riser-base. Subsequently, increased pressure from the pipeline forces the liquid slug into the riser. The primary taylor bubble eventually enters the riser and forces the liquid slug up the riser. The cycle then restarts with a gas blowdown which creates a fresh batch of transient slugs inside the pipeline.
+
+
+Applicability of available elimination techniques.
+
+
+In this section, the applicability of some severe slugging mitigation techniques is reviewed.
+
+
+Gas-lifting: Gas-lifting is discussed in relation to how it might be applied to deepwater systems. In terms of application, gas-lift is one of the most prominently applied severe slugging mitigation approach. High injection gas flow rates could result in a number of issues; including frictional pressure loss and Joule-Thompson cooling effect. Often, gas-lift is associated with high gas volume demand which impacts on cost.
+
+
+Choking: This method has a reasonable number of applications both for shallow water and deepwater assets. However, careful choking is required to have the least of backpressure increase and prevent production loss. There are possibilities of increased backpressure with the application of this method in deepwater.
+
+
+Gas-lift and Choking Combined:
+
+
+Academic research studies suggest that it is a workable technology; however, there is no recorded field application of this method. This method if deployed will require less volume of gas and hence reduce Joule-Thompson cooling effect and excessive frictional pressure loss.
+
+
+Riser Base Pressure Control with a Surface Control Valve:
+
+
+This technology was deployed in Total's Dunbar 16″ pipeline-riser system to control the riser-base pressure. This method is quite similar to the choking concept. Field data showed a considerable rise in pressure overall. For deepwater productions, it may present possible issues with production decrease Control of flow rate: Here, the system's basic idea is to use a control valve to maintain a steady flowrate for the mixture throughout operation. Experimental research revealed that when stable flow was attained, backpressure increased.
+
+
+Smaller Diameter Pipe Insertion:
+
+
+This is a retrofit method that involves the insertion of smaller diameter pipe for the purpose of slugging stabilization. Similar issues affecting gas-lifting could also affect this technique. Due to it's intrinsic intrusiveness, it could be difficult to deploy pigging with this method.
+
+
+Multiphase Riser Base Lift (MRBL):
+
+
+To either minimize severe slugging or re-start the output after shutdown, this method requires high capacity multiphase lines, that portions of their production could be re-directed to a pipeline-riser system. Since the lift fluids won’t cause cooling and no injection gas and associated equipment will be needed. This method is suggested as superior to RBGL technique.
+
+
+Advantages of Gas Lift Technique
+
+
+According to (PetroWiki, 2018) Gas lift has the following benefits :
+
+
+The finest artificial lift technique for handling sand and other materialsGas lift enables the simultaneous use of wire line equipment, and such down hole equipment is easily and economically serviced.The tubing is completely is completely exposed in the standard gas-lift design. This enables the use of BHP surveys, sand sounding and bailing, production logging, cutting, paraffin, etc.High-formation GORs are very useful for gas-lift systems.
+
+
+Methodology
+
+
+This section captures the steps/procedures involved in carrying out this research study. The focus of the work was on evaluating the effectiveness of gas-lift in mitigating severe slugging in sample deepwater oil fields. The key uniqueness of this work involved considering positioning the gas-lift at some sections upstream of the riser-base as well as downstream of the riser-base in order to ascertain the impact of this change in position to the effectiveness of the gas-lift mitigation strategy in the mitigation of gas-lift.
+
+
+Background on OLA (OiL and GAs)
+
+
+It is crucial to draw attention to some of the key features of OLGA (OiL and Gas) the simulation modelling tool used for this work. OLGA is a one dimensional two-fluid equation based multiphase flow tool. OLGA has the ability to represent multiphase flow challenges such as slugging, wax and hydrates on a transient bases (In time and space) (Ali 2009). This research study was based on OLGA 7.00 version. OLGA transient simulator operates mainly based on seven (7) key equations including; three separate continuity type equations for bulk liquid, gas and droplets of liquid in gas, two momentum equations with one for liquid and one for combined gas and liquid droplets in gas, finally one (1) combined mixture energy conservation equation. These seven equations are related to each other with closure relationship to friction factors depending on the flow regime (Bendiksen 1991). The OLGA equations are as highlighted below:
+
+
+Continuity Equations:
+
+
+Gas phase equation:δ(Vgρg)δt=−1Aδδt(AVgρgvg)+ψg+Gg(1)Bulk liquid phase equation:δ(Vlρl)δt=−1Aδδt(AVlρlvl)−ψgVlVl+Vg−ψe+ψd+Gl(2)Liquid droplet within gas phase:δ(Vlρl)δt=−1Aδδt(AVlρlvl)−ψgVDVl+VD−ψe+ψd+GD(3)
+
+
+Momentum Equations:
+
+
+Gas phase equation:δ(Vgρgvg)δt= -Vg(δPδz)-1Aδδz(AVDρlVg2)-λg12ρl|Vg|Vg⋅Sg4A +λi12ρg|Vr|Vr⋅Si4A+Vgρgcos⁡θ+ψgVa-FD(4)
+
+
+Liquid droplets equation:
+
+
+δ(Vlρlvl)δt= -Vg(δPδz)-1Aδδz(AVDρlV2D)+VDρlcos⁡θ−ψgVDVD+VlVa+ψeVi−ψeVD+FD(5)
+
+
+Liquid at wall equation:
+
+
+δ(Vgρgvg)δt= -Vl(δPδz)-1Aδδz(AVlρlV2 l)-λl12ρl|Vl|Vl⋅Sl4A +λi12ρg|Vr|Vr⋅Si4A+Vlρlgcos⁡θ+ψgVlVl+VDVa-ψeVi+ψdVD-Vid(ρl-ρg)gδVlδzsin⁡θ(6)
+
+
+δ(Vgρgvg)δt= -Vl(δPδz)-1Aδδz(AVlρlV2 l)-λl12ρl|Vl|Vl⋅Sl4A +λi12ρg|Vr|Vr⋅Si4A+Vlρlgcos⁡θ+ψgVlVl+VDVa-ψeVi+ψdVD-Vid(ρl+ψdVD−Vid(ρl-ρg)gδVlδzsin⁡θ(7)
+
+
+Combination of liquid within gas phase and gas phase equation:
+
+
+δ(Vgρgvg+VDρlvD)δt=-(Vl+VD)(δPδz)-1Aδδz(AVgρgV2g+AVDρgV2g)-λg12ρg|Vg|Vg⋅Sg4A-λi12ρg|Vr|Vr⋅Sg4A(Vgρgvg+VDρlvD)gcos⁡θ+ψgVDVl+VDVa-ψeVi-ψdVD(8)
+
+
+The main parameters in the equations are: Vg, Vl and VD volumetric fractions of gas, liquid and liquid droplets. A is the pipe cross-sectional area, ψg is the mass transfer between phases ψe and ψD are deposition rates and ρl is the density of liquid phase. Gis the mass source. θ is the angle of inclination, P represents the pressure, ρg refers to the density of gas phase and d is the droplet deposition and S is the wetted perimeter, Vr is the relative velocity and λ is the friction coefficient for gas (g), liquid (l) and finally interface (i). The system of equations in OLGA is closed based on the necessary fluid properties, boundary and initial conditions (Schlumberger 2014).
+
+
+Severe Slugging Mitigation – Deepwater Oil Field Case-Study
+
+
+In order to further evaluate the success of gas-lift strategies, for slug mitigation in deepwater scenarios, it is important to better understand the flow behaviour of key parameters such as liquid fraction and pressure fluctuations around the riser-base and the topsides during the occurrence of slugging. By taking into consideration a case evaluating the various positioning of gas-lift on OLGA, in order to ascertain the optimum positioning of gas-lift.
+
+
+In this section of the study, focus was on assessing the effect of various positioning of gas-lift towards slug mitigation in a typical deep-water oil field. Consideration of a simulation study involving the gas-lift slug mitigation strategy. The sample deepwater field in focus is highlighted in Figure 3. The field is located in a water depth of about 1460m below the mean sea level. The field being evaluated is an oil field located in Nigeria. The field currently has over 12 subsea production wells producing via 4-slot subsea production manifolds and is tied back to an FPSO via 8 risers. This study is based on Pipeline-Riser (X1 - X2) which involves two production wells (X1 and X2) comingled via a subsea manifold (MF) and tied back to the topsides via an 8″ (inches) riser. Based on the report obtained from the operators, Pipeline-Riser (X1 - X2) encountered hydrodynamic slugging at 3000 bbl/d flow condition. The geometry of Pipeline-Riser (X1 - X2) is highlighted in Figure 3.
+
+
+As captured in Figure 3, Well X1 is the the well at the inlet of Pipeline-Riser (X1 – X2) located on the seabed at a about water depth of 1447.8 m below mean sea level and at about 2712.72 m from the base of the riser. Also, Well X2, is located at a water depth of 1447.8m and 1645.92m upstream of the riser-base. The riser connected to the production vessel is at water-depth 1513.03 m, with I.D (internal diameter) of 8 inches and a combined steel wall and insulation thickness of 11 mm with pipe roughness of 0.002m.
+
+
+Figure 3View largeDownload slideGeometry of Pipeline-Riser (X1 - X2) Showing the Profile from Seabed to TopsideFigure 3View largeDownload slideGeometry of Pipeline-Riser (X1 - X2) Showing the Profile from Seabed to Topside Close modal
+
+
+Table 1Section Lengths and Co-ordinates for Pipeline-Riser (X1 – X2) Pipeline-Riser
+            . x [m]
+            . y [m]
+            . Length [m]
+            . Elevati on [m]
+            . No. of Sections
+            . Length of Sections (m)
+            . Diameter (m)
+            . Roughness
+            . Starting Point 0 -1447.8       Pipe-1 (X1-MF) 1066.8 -1447.8 1066.8 0 35 35:30.48 0.1524 0.002 Pipe-2 (MF-RB) 2712.72 -1463.04 1645.9 2 -15.24 54 54:30.48 0.3048 0.002 Pipe-3 (RB-FPSO) 4236.72 0 1524 1463.0 4 50 50:42.25 0.3048 0.002 Pipe-4 (FPSO-Sep) 4319.02 49.987 82.296 49.99 3 3:32.10 0.3048 0.002 Pipeline-Riser
+            . x [m]
+            . y [m]
+            . Length [m]
+            . Elevati on [m]
+            . No. of Sections
+            . Length of Sections (m)
+            . Diameter (m)
+            . Roughness
+            . Starting Point 0 -1447.8       Pipe-1 (X1-MF) 1066.8 -1447.8 1066.8 0 35 35:30.48 0.1524 0.002 Pipe-2 (MF-RB) 2712.72 -1463.04 1645.9 2 -15.24 54 54:30.48 0.3048 0.002 Pipe-3 (RB-FPSO) 4236.72 0 1524 1463.0 4 50 50:42.25 0.3048 0.002 Pipe-4 (FPSO-Sep) 4319.02 49.987 82.296 49.99 3 3:32.10 0.3048 0.002 View Large
+
+
+The fluid composition of the fluid flowing through Pipeline-Riser (X1 - X2) is as shown in Table 2. The fluid composition was defined in PVTsim20. The water-cut was set-up as 3% on PVTsim20 based on the field data. The Gas Oil Ratio was verified as 385.91 Sm3/Sm3 via PT flash carried out on PVTsim20. The fluid in consideration is a relatively light oil of API 47 degree. It consists of relatively high molar composition of methane (43.3 Mol. %). It's Heptane plus composition is also relatively high (28.83 Mol. %).
+
+
+Table 2Properties of the Field Fluid Data Component
+            . Composition (Mol. %)
+            . Well X1 and X2
+            . Carbon Dioxide (CO2) 0.81 Nitrogen (N) 0.13 Methane (CH4) 43.3 Ethane (C2H6) 7.49 Propane (C3H8) 7.29 Iso-Butane (iC4) 2.61 N-Butane (nC4) 3.28 Iso-Pentane (iC5) 1.98 N-Pentane (nC5) 1.56 Hexanes (C6H14) 2.72 Heptane Plus (C7+) 28.83 Component
+            . Composition (Mol. %)
+            . Well X1 and X2
+            . Carbon Dioxide (CO2) 0.81 Nitrogen (N) 0.13 Methane (CH4) 43.3 Ethane (C2H6) 7.49 Propane (C3H8) 7.29 Iso-Butane (iC4) 2.61 N-Butane (nC4) 3.28 Iso-Pentane (iC5) 1.98 N-Pentane (nC5) 1.56 Hexanes (C6H14) 2.72 Heptane Plus (C7+) 28.83 View Large
+
+
+Validation of Simulation Data
+
+
+The simulation was then set up to run for an end time of 24 hrs, before comparing of pressure result. For validation purposes, a comparison of field pressure profile and simulation pressure profile was designed In Figure 4. The comparison shows a pressure trend variation within +/- 15% which was within a similar range as the comparison of Leda flow and OLGA with experimental results in Belt et al. (Belt 2011). Figure 5 showed the pressure trend comparison between the field data and simulation data and the trend shows a variation within +/- 15%, similar to overprediction pressure trend obtained in literature (Belt 2011).
+
+
+Figure 4View largeDownload slideFlow Chart of StudyFigure 4View largeDownload slideFlow Chart of Study Close modal
+
+
+Figure 5View largeDownload slideField Data Vs Simulation Result Comparison (Pressure)Figure 5View largeDownload slideField Data Vs Simulation Result Comparison (Pressure) Close modal
+
+
+The similarity in the declining pressure trend of both the field data and OLGA simulation data shown in Figure 5 is also another basis for confidence in further simulation results of the field case study.
+
+
+Figure 6View largeDownload slideBase Case Pipeline-Riser (X1 - X2) GUIFigure 6View largeDownload slideBase Case Pipeline-Riser (X1 - X2) GUI Close modal
+
+
+Results and Discussion
+
+
+The results of the simulation runs are captured and discussed in section 4.
+
+
+Base Case
+
+
+Figure 7View largeDownload slidePipeline-Riser X1 – X 2 OLGA Base Case ModelFigure 7View largeDownload slidePipeline-Riser X1 – X 2 OLGA Base Case Model Close modal
+
+
+For this scenario, flow rate at source 1 was fixed at 3.25kg/s, while at source 2, it was fixed at 12.13kg/s and the topsides arrival pressure at the pressure node set to 20 bara to reflect the separator inlet pressure. Relevant flow properties in the project such as Pressure (PT) and Liquid Holdup (HOL) were considered and observed. The base case pressure trend and hold-up results are shown below:
+
+
+In this case-study, the deepwater oil field which was operating at over 1400m water depth was simulated at well conditions of well X1 – 3.25kg/s and well X2 – 12.13 kg/s. These relatively low mass flow rates were used to capture potential end life period of the wells. This lead to accumulation of liquid phase within the low points at the riser-base of the pipeline-riser section. Hence the trend of profile and trend results obtained.
+
+
+In, Figure 8, a severe fluctuation in liquid holdup is observed along the pipeline-riser section, indicating a severe slugging condition which has been initiated by the reduced flow rate and liquid accumulation within the riser-base. The fluctuation in liquid holdup between 0.1 [-] to 0.7 [-] is captured in figure 4.2. This high degree of fluctuation within the pipeline-riser system is capable of causing pipeline upheaval buckling within the seabed and fatigue on the riser. It can also lead to potential trips within the inlets of the separator.
+
+
+Figure 8View largeDownload slideHoldup Trend at the Riser-BaseFigure 8View largeDownload slideHoldup Trend at the Riser-Base Close modal
+
+
+In Figure 9, severe fluctuation in liquid holdup was also observed at the inlet of the separator, indicating a severe slugging condition which has been initiated by the reduced flow rates of well X1 and well X2 at (3.25 kg/s and 12.13 kg/s) respectively. The liquid accumulation within the riser-base is also attributed to this result; with spikes in liquid holdup getting to 0.8 [-] at intervals. The subsequent simulation work involved deployment of gas-lift on the riser-base. This was achieved by dragging the mass source process equipment component from OLGA component and dropping it on the OLGA base case model GUI and then defining the position of the gas-lift close to the riser base within the (RB – FPSO) pipeline section.
+
+
+Figure 9View largeDownload slideHoldup Trend at the SeparatorFigure 9View largeDownload slideHoldup Trend at the Separator Close modal
+
+
+Gas-lift Case (5 kg/s)
+
+
+In this section, focus was on discussing the behavior encountered within the pipeline-riser system under the 5kg/s gas-lift condition.
+
+
+In Figure 10, OLGA GUI showing the gas-lift case model well X1 and well X2 is captured and gas-lift mass source integrated into the model upstream of the riser-base in one of the specific case considered.
+
+
+Figure 10View largeDownload slideOLGA GUI of the Gas-lift Case ModelFigure 10View largeDownload slideOLGA GUI of the Gas-lift Case Model Close modal
+
+
+In Figure 11, an ID profile plots showed a fluctuation between an ID of 1 and ID of 3. With an ID of 3 (slugging) dominant between the riser-base to the topsides. This flow behavior is attributed to the accumulated liquid phase at the riser-base that led to fluctuation between the riser-base and the topsides.
+
+
+Figure 11View largeDownload slideID Profile Plot at 5 kg/s Gas-liftFigure 11View largeDownload slideID Profile Plot at 5 kg/s Gas-lift Close modal
+
+
+Figure 12View largeDownload slideUsl Profile Plot at 5kg/sFigure 12View largeDownload slideUsl Profile Plot at 5kg/s Close modal
+
+
+In the Usl profile plot at 5kg/s gas-lift is observed with fluctuation between 0.25 m/s through 1.1 m/s and back to 0.38 m/s superficial velocity liquid.
+
+
+In Figure 13, the increasing Usg gas fluctuation along the pipe length was an indication of increased gas being injected, with potentials of possible reduction in the liquid accumulation around the riser-base.
+
+
+Figure 13View largeDownload slideUsg Profile Plot at 5kg/s Gas-liftFigure 13View largeDownload slideUsg Profile Plot at 5kg/s Gas-lift Close modal
+
+
+A drop in the pressure profile is observed beyond the riser-base at about 2700m; an indication that the 5kg/s gas was able to reduce the liquid accumulation at the riser-base significantly, as captured in Figure 14. However slugging is still predominant within the pipeline-riser system as observed from ID profile from the riser-base to the topsides still at 3 (slugging).
+
+
+Figure 14View largeDownload slidePressure Profile Plot at 5kg/sFigure 14View largeDownload slidePressure Profile Plot at 5kg/s Close modal
+
+
+Gas-lift Case (8 kg/s)
+
+
+In this gas-lift case scenario, gas of 8 kg/s is injected at the gas-lift mandrel within the model and observation of the Pressure profile, ID profile, Holdup Profile as well as the respective trend plots were generated and the results discussed.
+
+
+Figure 15 highlights the ID profile, showing a fluctuation in flow regime between stratified and slugging flow regime; with slug flow dominant between the riser-base pipe section at about 2700m pipe length to the riser section topsides.
+
+
+Figure 15View largeDownload slideID Profile Plot at 8kg/s Gas-liftFigure 15View largeDownload slideID Profile Plot at 8kg/s Gas-lift Close modal
+
+
+In Figure 16, the Usg (superficial velocity gas) profile plot is shown, indicating a fluctuation in the gas velocity; with increasing spike towards the riser top; which is attributed to the increased gas-lift to 8kg/s injected into the pipeline-riser system.
+
+
+Figure 16View largeDownload slideUsg Profile Plot at 8kg/sFigure 16View largeDownload slideUsg Profile Plot at 8kg/s Close modal
+
+
+In Figure 17, pressure profile for the case of gas-lift at 8 kg/s is observed with a drop in pressure Figure 17 shows the result of pressure profile plot at 13 kg/s gas-lift indicating a similar drop in pressure profile along the pipeline riser with arrival pressure at the topsides still slightly above 20 bara. This scenario is still a slugging scenario with possible trips at the inlets of the separator valves.
+
+
+Figure 17View largeDownload slidePressure Profile Plot at 8 kg/sFigure 17View largeDownload slidePressure Profile Plot at 8 kg/s Close modal
+
+
+In Figure 18, liquid holdup profile plot is obtained at 13kg/s gas-lift. The holdup profile still indicates a fluctuation in liquid holdup
+
+
+Figure 18View largeDownload slideLiquid Holdup Profile Plot at 13 kg/s Gas-liftFigure 18View largeDownload slideLiquid Holdup Profile Plot at 13 kg/s Gas-lift Close modal
+
+
+Results – Gas-lift at 35 kg/s closer to well X2 (Upstream of RB)
+
+
+In this section, discussion is focused on simulation of the flow behavior at 35 kg/s when the gas-lift is also closer to the well X2 position upstream of the riser-base.
+
+
+Pressure profile, indicating a drop in pressure around the topsides to about 20.13 bara, which is relatively moderate and close to the design separator operating pressure of 20 bara is observed in the pressure profile in Figure 19.
+
+
+Figure 19View largeDownload slidePressure Profile plot at 35 kg/s gas-lift close to well X2Figure 19View largeDownload slidePressure Profile plot at 35 kg/s gas-lift close to well X2 Close modal
+
+
+In Figure 20 above, the ID profile plot; ID (flow regime indicator) is observed to fluctuate between stratified to bubble flow regime and ultimately descend to stratified flow regime around the topsides position of the inlets of the separator. The stabilization of the ID at 1 (stratified) is a clear indication that severe slugging had been mitigated and flow stabilized as observed. Further results under this flow condition are discussed, to support the results generated.
+
+
+Figure 20View largeDownload slideID Profile plot at 35 kg/s gas-lift close to well X2Figure 20View largeDownload slideID Profile plot at 35 kg/s gas-lift close to well X2 Close modal
+
+
+In the above Figure 21, the liquid holdup profile plot is obtained for the 35kg/s gas-lift case condition. The result suggests that the liquid holdup fluctuated between the well X2 positions to the riser base. However there was a drop in the accumulated liquid holdup from about 0.44 [-] to about 0.27 [-]. Subsequently, there was further drop in the liquid holdup to about 0.15 [-] at the topsides/inlet of the separator region. This implies that the liquid phase from the multiphase stream will be arriving the topsides in a stratified manner, thereby enhancing separation efficiency. Trend plots for ID, pressure and liquid holdup were also obtained in Figure 22 and Figure 23 and discussed in the subsequent section.
+
+
+Figure 21View largeDownload slide: Holdup Profile PlotFigure 21View largeDownload slide: Holdup Profile Plot Close modal
+
+
+Figure 22View largeDownload slidePressure Trend Plot at the RB and TopsidesFigure 22View largeDownload slidePressure Trend Plot at the RB and Topsides Close modal
+
+
+Figure 23View largeDownload slideHoldup Trend Plot at the RB and TopsidesFigure 23View largeDownload slideHoldup Trend Plot at the RB and Topsides Close modal
+
+
+The pressure trend plot at 35 kg/s is captured above indicating a stabilized flow at both the riser-base region with a relatively stable pressure at about 48 bara. The pressure at the topsides was also stable at about 20.13 bara; with less potentials for trips.
+
+
+In this section Figure 23 shows the liquid holdup trend plot at both the riser-base and topsides was captured. The holdup trend suggests that there was stable liquid phase flow at the riser-base. However at the topsides position, there was some minor fluctuations at the topsides. However, such fluctuations may be unable to cause trips as it is not very chaotic as about 0.15 [-]. This moderate liquid holdup fluctuation could also be as a result of the relatively large volume of gas (35 kg/s) that was injected via the gas-lift mandrel to mitigate slugging. The presence of the gas may have introduced the fluctuation.
+
+
+Table 4-3Production Data in Gas-Lift Production Values (m3/d)
+            . 
+            . Scenario 1
+            . Scenario 2
+            . Scenario 3
+            . 
+            . 1537.79041 4218.143066 1552.3833 7kg/s, 10kg/s & 12kg/s Gas Lift Production Values (m3/d)
+            . 
+            . Scenario 1
+            . Scenario 2
+            . Scenario 3
+            . 
+            . 1537.79041 4218.143066 1552.3833 7kg/s, 10kg/s & 12kg/s Gas Lift View Large
+
+
+Economic Data
+
+
+Power consumption for compressing 0.7057 kg/s of gas down a riser of more than 1000 meters could be in the range of 6377 kw, according to an email exchange with the technical team in charge of gas compression at Aker Solutions.
+
+
+Table 4-2shows the amount of energy used to inject each gas-lift scenario. Power Consumption
+            . cost of gas-lift per kw (0.14 usd/kw)
+            . 
+            . kg/s
+            . m3/h
+            . kw
+            . 
+            . Conversion Values 0.7057 2,171.00 6,377.00  1 3,077.00 9,038.24 892.78 Scenario 1 2 6,154.00 18,076.49 1265.35 Scenario 2 5 30,770.00 90,382.45 2530.71 Scenario 3 7 215,390.00 632,677.12 12653.53 Scenario 4 10 2,153,900.00 6,326,771.21 88574.80 Scenario 5 12 25,846,800.00 75,921,254.54 10628975.64 Scenerio 6 35 75386500 221436990 31001178 Power Consumption
+            . cost of gas-lift per kw (0.14 usd/kw)
+            . 
+            . kg/s
+            . m3/h
+            . kw
+            . 
+            . Conversion Values 0.7057 2,171.00 6,377.00  1 3,077.00 9,038.24 892.78 Scenario 1 2 6,154.00 18,076.49 1265.35 Scenario 2 5 30,770.00 90,382.45 2530.71 Scenario 3 7 215,390.00 632,677.12 12653.53 Scenario 4 10 2,153,900.00 6,326,771.21 88574.80 Scenario 5 12 25,846,800.00 75,921,254.54 10628975.64 Scenerio 6 35 75386500 221436990 31001178 View Large
+
+
+Conclusion
+
+
+Results of the studies were presented in this section. The sections begin with a high level summary of the research purpose and objectives. It is followed by the contributions to knowledge and implications of the study. The key limitations of the study were also highlighted and further works.
+
+
+The research presented in this work is focused on the simulation of developed models and the analysis of the results to investigate the effectiveness of gas-lift in mitigating severe slugging in deep-water oil field scenario.
+
+
+Summary of Research Aim and Objectives
+
+
+The research focussed on understanding, predicting and mitigating slugging in deep-water pipeline-riser systems via gas-lift system. The objectives were outlined, as below and how they were actualized.
+
+
+Objective 1
+
+
+To determine the factors that constitute to severe slugging in pipeline-riser systems.
+
+
+Critical literature review on slugging and slug mitigation and control techniques exposed some of the key factors that caused severe slugging in deep-water to include: low mass flow rate emanating from the wells and liquid phase accumulation at the riser-base.
+
+
+Objective 2
+
+
+To validate the model developed against Niger-Delta field data, numerical and experimental result
+
+
+This objective was achieved when the OLGA model was built with field data derived from a sample deep-water oil field case-study. The field existed in deep water scenario with a depth of over 1000meters. The reservoir was developed via two wells.
+
+
+At a depth of 1447.8 meters below means sea level and around 2700 meters from the riser's-base, Well X1 was positioned. The topsides vessel was located some 49m above sea level. The riser was connected to the production vessel at 1513.03 m from the seabed with I.D of 8 inches and a combined steel wall and insulation thickness of 11 mm with pipe roughness of 0.002m. The pressure at the topsides separator is constant and 20 bara. Pressure results were initially validated based on field data as part of the preliminary work.
+
+
+Objective 3
+
+
+To analyse gas-lift severe slug mitigation technique based on its economic viability
+
+
+Using data obtained from Aker Solutions, it can be seen that the higher the volume of gas injected, the more the cost due to higher power consumption. Even though the 35kg/s of gas was more efficient in mitigating the slugging, however it comes with higher cost of over $30,000,000 which is so high for companies trying to minimize costs. The data shows the amount of energy required to inject gas into the riser base and determine its efficiency in terms of produced fluids.
+
+
+Implication of the Research
+
+
+Considering that Nigeria's deep water oil and gas development projects are expanding, the need to solve deep-water severe slugging issues cannot be overemphasized. The problem researched was severe slugging of produced multiphase streams and the analysis of the effectiveness of gas-lift mitigation technique. The gas-lift technique requires the compression of gas from the topsides, as such, various positions of the gas-lift around the riser-base were investigated, with the best position being upstream of the riser base close to existing wells within the flow loop. This research gave a clearer understanding of the slugging phenomena in a deep water scenario. The effect of water depths, long pipeline and tall risers obtainable which would help to assist a future design team to develop a reliable framework for large pipeline-riser system with a clear view on the fluctuations in pressure to be encountered and possible ways to manage it at the riser base and riser column during slugging was highlighted in this project report. This project will help assist companies to weigh the pros and cons of gas-lift severe slug mitigation strategies in upcoming deep-water project.
+
+
+The gas-lift technique also proved to reduce riser-top pressure fluctuation and holdup, but only be achieved by injecting large volumes of gas before the riser-base position. The only challenge is the associated cost of compressing the gas from the topsides.
+
+
+The following conclusions were reached based on the simulation study conducted.
+
+
+All Gas-lift modifications decreased the holdup and pressure fluctuation within the pipe.The range of pressure and holdup fluctuations decreased with increase in gas mass flow rate in the gas-lift model.
+
+
+Recommendation
+
+
+Further work on how to further reduce the gas volume for the gas-lift should be conducted via simulations and experimental works.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Ali, S. F. (2009). Two-phase flow in a large diameter vertical riser.Google Scholar Ankur. (2011). New Multiphase Flow Transient Analysis Software - Ledaflow - Cheresources.com Community.Barreto, C. V, Pimenta, A., Karami, H., Pereyra, E., & Sarica, C. (2017). OTC-27681-MSExperimental Investigation of Severe Slugging Control by Surfactant Injection.Google Scholar Beggs, D. H., & Brill, J. P. (1973). A study of two-phase flow in inclined pipes. Journal of Petroleum Technology, 25(5), 607–617.Google ScholarCrossrefSearch ADS  Bendlk, K. H., Maine, D., Moe, R., Nuland, S., & Technology, E. (1991). The Dynamic Two-Fluid Model OLGA : Theory and Application, (May).Google Scholar Biscardini, G., Reid, M., & Maestro. Adrian del. (2017). 2017 Oil and Gas Trends.Google Scholar Ellul, I. R., Saether, G., Reservoir, K., & Shippen, M. E. (2004). The modeling of multiphase systems under steady-state and transient conditions – A Tutorial. PSIG Annual Meeting, 403(2), 1–21.Google Scholar Enilari, B. T., Engineer, S., & Kara, F. (2015). Slug Flow and it's Mitigation Techniques in the Oil and Gas Industry.Google Scholar Fairhurst, P., & Hassanein, T. (1998). Challenges in the Mechanical And Hydraulic Aspects of Riser Design for Deepwater Developments. In OFFSHORE PIPELINE TECHNOLOGY-CONFERENCE- (pp. 8–45). IBC TECHNICAL SERVICES LIMITED.Google Scholar Hagedorn, A., & Brown, K. (1965). Experimental study of pressure gradients occurring during continuous two-phase flow in small-diameter vertical conduits. Journal of Petroleum Technology, 17(4), 475–484.Google ScholarCrossrefSearch ADS  Hannisdal, A., Westra, R., Akdim, M. R., Bymaster, A., Grave, E., Teng, D. T., & others. (2012). Compact separation technologies and their applicability for subsea field development in deep water. In Offshore Technology Conference.Google Scholar Carneiro, J. N. E., & Nieckele, A. O. (2007). Investigation of slug flow characteristics in inclined pipelines. WIT Transactions on Engineering Sciences, 56, 185–194. http://doi.org/10.2495/MPF070181Google Scholar Courbot, A. (1996). Prevention of severe slugging in the Dunbar 16-in. multiphase pipeline. Offshore Technology Conference, Richardson, TX (United States).Google Scholar de Almeida Barbuto, F. A. (1995). Method and apparatus for eliminating severe slug in multi-phase flow subsea lines. Google Patents.Google Scholar Havre, K., & Dalsmo, M. (2001). Active feedback control as the solution to severe slugging. In SPE Annual Technical Conference and Exhibition. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Jansen, F. E. (1990). Elimination of severe slugging in a pipeline-riser system. University of Tulsa.Google Scholar José, L. A., & Paulo, C. C. (2014). STUDY OF SLUG CONTROL TECHNIQUES IN PIPELINE SYSTEMS Ocean Engineering Department, Federal University of Rio de Janeiro, COPPE / UFRJ Cidade Universitária – Bloco C - Ilha do Fundão — 21945-970-Rio de Janeiro-RJ, 3382–3388.Google Scholar Malekzadeh, R., Henkes, R., & Mudde, R. F. (2012). Severe slugging in a long pipeline–riser system: experiments and predictions. International Journal of Multiphase Flow, 46, 9–21.Google ScholarCrossrefSearch ADS  Mandhane, J. M., Gregory, G. A., & Aziz, K. (1974). A flow pattern map for gas—liquid flow in horizontal pipes. International Journal of Multiphase Flow, 1(4), 537–553.Google ScholarCrossrefSearch ADS  Meng, W., & Zhang, J. J. (2001). Modeling and mitigation of severe riser slugging: a case study. In SPE Annual Technical Conference and Exhibition. Society of Petroleum Engineers.Google ScholarCrossrefSearch ADS  Mokhatab, S., Towler, B. F., & Purewal, S. (2007). A review of current technologies for severe slugging remediation. Petroleum Science and Technology, 25(10), 1235–1245.Google ScholarCrossrefSearch ADS  Murashov, I. (2015). MASTER ’ S THESIS.Okereke, U. (2015). November 2015, (NOVEMBER), 2015.Omowunmi, S. C., Abdulssalam, M., & JanssenP., R. and O. (2013). Methodology for characterising slugs and operational mitigation strategy using OLGA slug tracking module - Egina Deepwater Project. In Offshore Mediterranean Conference (pp. 1–14). Ravenna, Italy: OMC.Google Scholar PetroWiki. (2018). Gas lift -.Pittman, R. (1982). Gas Lift Design and Performance.Google Scholar Pots, B. F. M., Bromilow, I. G., & Konijn, M. J. W. F. (1987). Severe slug flow in offshore flowline/riser systems. SPE Production Engineering, 2(4), 319–324.Google ScholarCrossrefSearch ADS  Pots, B. F. M., Shell-laboratorium, K., Bromilow, I. G., Shell-laboratorium, K., Konijn, M. J. W. F., & Shell-laboratorium, K. (n.d.). Severe Slug Flow in Offshore Flowline / Riser Systems, 3–8.Google Scholar Ragab, A., & Brandstaetter, W. (2008). Analysis of Multiphase Production through Hilly Terrain Pipelines in Matzen Field Austria by CFD. SPE Annual Technical…, (1958), 1–14. http://doi.org/10.2118/115355-MSGoogle Scholar Sancho, AndréSancho, André. 2015. "Severe Slugging in Pipelines: Modelling, S. and M. https://fenix.tecnico.ulisboa.pt/downloadFile/1126295043834524/ExtendedAbstract_Andre_Sancho_n70016.pdf. (2015). Severe Slugging in pipelines: Modelling, Simulation and Mitigation.Google Scholar Sarica, C., Tengesdal, J. Ø., & Pennsylvania, T. (2000). SPE 63185 A New Technique to Eliminate Severe Slugging in Pipeline / Riser Systems.Google Scholar Sarica, C., Yuan, G., Shang, W., Pereyra, E., & Kouba, G. (2014). Feasibility and Evaluation of Surfactants and Gas Lift in Combination as Severe Slugging Suppression Method.Google Scholar Schmidt, Z., Brill, J. P., & Beggs, H. D. (1980). Experimental study of severe slugging in a two-phase-flow pipeline-riser pipe system. Society of Petroleum Engineers Journal, 20(5), 407–414.Google ScholarCrossrefSearch ADS  Schmidt, Z., Doty, D. R., & Dutta-Roy, K. (1985). Severe slugging in offshore pipeline riser-pipe systems. Society of Petroleum Engineers Journal, 25(1), 27–38.Google ScholarCrossrefSearch ADS  Shea, R., Eidsmoen, H., Nordsveen, M., Rasmussen, J., Xu, Z., & Nossen, J. (2004). Slug frequency prediction method comparison. BHRG Multiphase Production Technology Proceedings, Banff, Canada.Google Scholar Shea, R. H., Rasmussen, J., Hedne, P., & Malnes, D. (1997). Holdup predictions for wet-gas pipelines compared. Oil and Gas Journal, 95(20).Google Scholar Shotbolt, T. (1986). Methods for the Alleviation of Slug Flow Problems and Their Influence on Field Development Planning. In European Petroleum Conference.Google Scholar Song, S., & Kouba, G. (2000). ‘Characterizations of Multiphase Flow In Ultra-Deep Subsea Pipeline/Riser System. In Energy Sources Technology Conference & Exhibition, February (pp. 14–17).Google Scholar Taitel, Y. (1986). Stability of severe slugging. International Journal of Multiphase Flow, 12(2), 203–217.Google ScholarCrossrefSearch ADS  Tengesdal, J. O. (2003). Investigation of self-lifting concept for severe slugging elimination in deep-water pipeline/riser systems.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212008-MS
+
+
+

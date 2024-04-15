@@ -1,0 +1,300 @@
+----- METADATA START -----
+Title: Numerical Simulation of Gas Injection for Condensate Revaporization in Gas Condensate Reservoirs. A Field Case Study
+Authors: Alonge Ibe, Olalekan Olafuyi, John Anim, Christopher Etim, Ntietemi Ameachi, Bukola Olusola, Hannah Kpone-Tonwe, Patrick Obah
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212042-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Gas productivity in a gas condensate reservoir declines due to the presence of two-phase fluid present near well bore due to bottomhole pressure lower than dew point pressure. This accumulated condensate reduces relative permeability to gas impairing flow rate and causing a reduction in productivity. This paper introduces a method of injecting gas into near wellbore region to re-vaporize the condensates and improve the permeability of gas and increase productivity.This is achieved by conducting numerical simulations of gas injection techniques by comparing a no-injection case scenario and an injection case scenario. The effect of temperature and compositional effect of injected gas into the reservoir is analyzed, and its impact on increased productivity from the reservoir is recorded. The reservoir is modeled with an in-depth analysis of fluid phase behavior and composition and simulated using Compositional simulation tools from CMG.Results from simulation shows an increment of about 7.5% increase in gas production and about 8% increase in oil produced at a temperature of about 200 deg F considerably higher than 2.4% and 4% gas and oil produced at lower injected temperature of 120 deg F. The above results are also dependent on composition of injected fluids.
+
+
+
+
+Keywords:
+reservoir simulation,
+pvt measurement,
+equation of state,
+condensate reservoir,
+upstream oil & gas,
+gas injection method,
+production monitoring,
+productivity,
+permeability,
+production control
+
+
+Subjects: 
+Well & Reservoir Surveillance and Monitoring,
+Fluid Characterization,
+Reservoir Fluid Dynamics,
+Improved and Enhanced Recovery,
+Reservoir Simulation,
+Formation Evaluation & Management,
+Unconventional and Complex Reservoirs,
+Phase behavior and PVT measurements,
+Fluid modeling, equations of state,
+Gas-injection methods
+
+
+
+
+Introduction
+
+
+Gas condensate reservoirs exhibit retrograde condensation when the bottomhole pressure falls below the saturation pressure. This results in the presence of two-phase flow of fluid in the vicinity of the wellbore which affects gas deliverability and productivity from the reservoir. Several recovery techniques have been researched and applied both in laboratory and in full field scale simulations to improve recovery from gas condensate reservoirs. Among them are wettability alteration study, hydraulic fracturing, horizontal wells drilling and gas injection.
+
+
+In this study, gas condensate recovery is investigated using CO2 injection into the gas condensate reservoirs for condensate revaporization and pressure maintenance above saturation pressure. Experimental tests of CCE, CVD and flash tests were conducted to simulate retrograde phenomenon in the laboratory. Numerical simulation studies were done using the equation of state model (EOS) by CMG Winprop, while gas injection and recovery profile for the gas condensate reservoir was performed by CMG GEM equation of state compositional simulator.
+
+
+Results show that CO2 revaporizes the condensate from the reservoir due to its ability to achieve miscibility with reservoir fluids at high temperature.
+
+
+Literature review
+
+
+Jamaluddin et al., (2001) assessed experimental and theoretical thermodynamics of using propane and CO2 to extract liquid dropout in the near well-bore region. The experiment used a typical gas condensate fluid. CCE (Constant composition expansion) experiments were conducted using a high temperature, high pressure apparatus. Reservoir fluid solvents containing 30 and 40 mol% carbon dioxide and 28 and 40 mol% propane was used. Results show that injection of Carbon dioxide increases the dew point pressure and reduces the volume of condensed fluid while propane reduces both the dew point pressure and the volume of fluid condensed in the reservoir.
+
+
+It was also noted that at an equivalent concentration of 40 mol%, propane reduces the relative liquid volume to approximately 20% (at a depletion pressure of 2000 psia), whereas carbon dioxide only results in a reduction to approximately 40 vol% liquid. They concluded that propane, in high pressure and temperature wells can effectively be used as a vaporizer to recover condensate.
+
+
+Du et al., (2000) experimentally performed analysis that used methanol as a solvent for improving gas recovery from a gas condensate reservoir. A change in phase behavior during methanol injection was observed due it miscibility with liquid water and condensate. A reduction in the pressure drop across the cores indicates a higher gas end point relative permeability. The increment varies by a factor of 1.2 to 2.5. Results show that Injection of methanol causes a change in the phase behavior in the reservoir system. A reduction in the dew point pressure upon increasing mole fractions of injected methanol validates the phase behavioral change of methanol injection.
+
+
+They concluded that methanol injection increases gas relative permeability and improves recovery. the beneficial effect of methanol injection is more pronounced at higher initial water saturations.
+
+
+Asgari et al., (2013) performed experimental and simulation study of methanol injection into a gas condensate reservoir. They simulated the effect of retrograde condensation on well productivity using the Cubic-Plus association (CPA) equation of state.
+
+
+They studied the effect of methanol injection on the phase behavior of the gas condensate reservoir by solving two-phase equations in radial and axial forms using the Cubic plus association equation of state. The experimental study was done using cores dried in an oven. Synthetic gas condensate was used in the experimental work.
+
+
+Results shows that at low pressures, methanol mole fraction in the fluid phase is very low, but at high pressures above 1100psi, methanol achieves miscibility with the fluid phase. Upon methanol injection, a decline in the pressure drop and a higher gas relative permeability were observed. They observed that the higher gas relative permeability can be attributed to the miscible displacement of the condensate by the methanol. They concluded that gas relative permeability increases by 30-60% or by a factor of 1.4 to 1.6 depending on the initial water saturation.
+
+
+Bai et al., (2019) compared recovery from tight gas condensate reservoirs by using huff and puff injection pattern. They investigated recovery from the reservoirs due to water, nitrogen, and carbon dioxide injection. The numerical simulation of the various injection fluid into the reservoir was done by CMG GEM simulator. They validated their work with experimental work conducted on the J oilfield in China, which is predominantly a water-wet formation.
+
+
+Results from their work showed an increment in oil recovery from the reservoirs due to injection of the fluids. CO2 improved recovery by 21%, water by 13% and nitrogen by 10%. This is represented by the chart below.
+
+
+Figure 1View largeDownload slideProfiles of Percentage Oil Recovery versus Time through CO2, N2 and Water injectionFigure 1View largeDownload slideProfiles of Percentage Oil Recovery versus Time through CO2, N2 and Water injection Close modal
+
+
+They observed that CO2 gives the most incremental recovery compared to nitrogen and water due to its miscibility with reservoir fluids at high pressure.
+
+
+Su et al., (2016) in their work experimentally modelled CO2 injection into a gas condensate reservoir for improved productivity. They conducted experimental CCE and CVD tests on a gas condensate reservoir, saturation pressure experiments and single flash tests were also performed. The results were compared with a numerical study using CMG GEM equation of state simulator to investigate the mechanism of miscible flooding in enhanced oil recovery. A long core model was established using the CMG GEM simulator, The results are shown in the Figure 2 below,
+
+
+Figure 2View largeDownload slideCMG GEM Simulator Results during Miscible Flooding in Enhanced Oil RecoveryFigure 2View largeDownload slideCMG GEM Simulator Results during Miscible Flooding in Enhanced Oil Recovery Close modal
+
+
+The gas condensate fluid properties were modelled using the CMG Winprop tool. The results of the CVD and the CCE was fitted using regression command in the CMG Winprop. They simulated both waterflooding and CO2 injection during their study.
+
+
+Results show that injecting CO2 up to 1.04 HCPV results in a staggering increase of about 88.72 and 92.55% condensate and gas productivity respectively. They concluded that gas injection into a gas condensate reservoir is more effective that water injection. They also concluded that once the injection pressure can be maintained above saturation pressure, thereby avoiding retrograde condensation. A productivity factor of about 1.39 can be achieved through CO2 injection into the reservoir.
+
+
+Hou et al.,(2016) performed experimental study on near critical gas condensate reservoirs and combined with numerical study using equation of state to model retrograde condensation and investigate re-vaporization of the condensates by the injection of CO2. They conducted CCE and CVD tests experimentally.
+
+
+They concluded from their work that the revaporization of the fluid in the reservoir is mainly the condensate that accumulates in the vicinity near the wellbore area, and that the recovery of condensate is proportional to the injected CO2.
+
+
+Methodology
+
+
+Experimental Study
+
+
+Experimental study was carried out on a gas condensate reservoir fluid from a field in the western onshore niger-delta, having a reservoir pressure of 4061psi and a temperature of 184.6°F. The Table 1 below shows the composition of the reservoir fluid used in the study.
+
+
+Table 1Composition Analysis of the reservoir fluid from A field in the western onshore niger-delta.   View Large
+
+
+Table 2Properties of the C7+ fractions   View Large
+
+
+The experimental setup used to conduct the CCE, and the CVD test is schematically represented in the Figure 3 below. The procedure followed during the experiment is as performed by Hou et al., (2016).
+
+
+Figure 3View largeDownload slideSchematic Diagram of the Experimental SetupFigure 3View largeDownload slideSchematic Diagram of the Experimental Setup Close modal
+
+
+The gas condensate sample is prepared and transferred into the PVT cell. The temperature and the pressure are controlled to reservoir conditions. The oven connected to the PVT cell is used to adjust the temperature to reservoir conditions. Depletion is carried out to simulate actual reservoir scenario. The pressure is reduced at different time steps, while the volume of the reservoir fluid is measured. The CVD test is usually divided into at least 6 pressure drops between the dewpoint pressure and the abandonment pressure.
+
+
+In this CVD test, the volume of the sample at dew point pressure is used to calculate condensate oil saturation and condensate oil and gas recovery (Huo, 2016). Once the pressure is reduced, the gas phase expands and is expelled out of the PVT cell. The process is repeated at different pressure steps.
+
+
+Fluid model
+
+
+The fluid model was characterized using the CMG Winprop tool. This tool was used to develop the Equation of state for the gas condensate reservoir and tune the equation to match with experimental data of CCE and CVD from laboratory measurements. An acceptable match between the CCE tests and the CVD tests was achieved, the plots presented in the preceeeding part of his paperwork. The CMG Winprop was also used to construct the phase diagram of the gas condensate reservoir fluid shown in the diagram below.
+
+
+Figure 4View largeDownload slidePhase diagram of the gas condensate reservoir fluid.Figure 4View largeDownload slidePhase diagram of the gas condensate reservoir fluid. Close modal
+
+
+Reservoir Model
+
+
+The reservoir used for this study is located in the western onshore niger-delta area of Nigeria and is classoified as a gas condensate reservoir. The reservoir static model was built using petrel software and imported as a rescue file into CMG builder console. The diagram below shows the reservoir model of the designated reservoir with a producer and an injector wells built into the model. The reservoir grid properties were imported into Petrel RE where the static model was done before it was then exported to CMG Builder in a rescue file format.
+
+
+Figure 5View largeDownload slideReservoir modelFigure 5View largeDownload slideReservoir model Close modal
+
+
+The water oil and condensate gas relative permeability used in our simulations is shown on the plots below
+
+
+Figure 6View largeDownload slideGas and condensate relative permeability curves used in Numerical simulationsFigure 6View largeDownload slideGas and condensate relative permeability curves used in Numerical simulations Close modal
+
+
+Results and discussions
+
+
+The summary of the experimental test results for the constant expansion experiments carried out at 184.6°F is presented by the following plots.
+
+
+Figure 7View largeDownload slideA Plot of Percentage Retrogade Liquid (%) Versus Pressure (Psig) at Constant Composition Expansion (Temp. = 184.6 °F)Figure 7View largeDownload slideA Plot of Percentage Retrogade Liquid (%) Versus Pressure (Psig) at Constant Composition Expansion (Temp. = 184.6 °F) Close modal
+
+
+Figure 8View largeDownload slideA Plot of Relative Volume Versus Pressure (Psig) at Constant Composition Expansion (Temp. = 184.6 °F)Figure 8View largeDownload slideA Plot of Relative Volume Versus Pressure (Psig) at Constant Composition Expansion (Temp. = 184.6 °F) Close modal
+
+
+In compositional simulations where runtime is significant, it is quite imperative for a minimum number of components be used in the equation of state model. A detailed EOS model contains about 20 to 40 components (Alavian et al., 2014). The number of components in the reservoir fluid in our study contains 35 components. These components are lumped based on global component lumping system by Alavian et al., (2014) to 14 components to reduce computing time and improve our EOS model.
+
+
+NEOSx=(Nxx−1)!(Nxx−Nx)! (Nx−1)!
+
+
+For proper modelling of the equation of state for the gas condensate reservoir, the fluids were characterized by constant expansion, saturation pressure tests and constant volume depletion tests. The saturation pressure from experimental analysis is 4061psi. key state parameters in the development of the PVT equations for our fluid model was done by CMG WINPROP ver. 2021. The fitted results of the tests with experimental results are shown in the table below.
+
+
+Table 3Matched simulation and experimental results of gas condensate fluid properties   View Large
+
+
+The following matched experimental and simulation results are shown in the plots below,
+
+
+Figure 9View largeDownload slideRelative volume vs PressureFigure 9View largeDownload slideRelative volume vs Pressure Close modal
+
+
+Figure 10View largeDownload slideMatched Simulation and Laboratory plots of the CCE and the CVD testsFigure 10View largeDownload slideMatched Simulation and Laboratory plots of the CCE and the CVD tests Close modal
+
+
+Minimum miscibility pressure is the pressure at which miscibility between injection gas and reservoir fluid is achieved. This is numerically determined,
+
+
+Table 4Multiple Contact Miscibility Results from CMG Software   View Large
+
+
+Experimentally, the minimum miscibility pressure of the CO2 in the reservoir condensate fluid is determined in the laboratory using the rising bubble apparatus (RBA). The MMP of the reservoir fluid and CO2 gas is measured as 1900psia. A reasonable match with numerical solution (1878.5psia) using CMG was achieved. Hence, the MMP which determines our injection pressure, which will be used in our simulations is 2000psia.
+
+
+Gas and Condensate Recovery
+
+
+Recovery from the reservoir, with and without gas injection will be discussed and corresponding plots will be displayed from the results console of the CMG 2021 compositional reservoir simulator. The CMG GEM simulator was used to run the simulation.
+
+
+Without injection
+
+
+The reservoir was put on production and simulation was done. The plots below show the cumulative recovery, gas, and condensate from the reservoir without injecting additional fluid into the reservoir to maintain pressure and improve recovery. The reservoir showed a good potential for gas and condensate recovery.
+
+
+Figure 11View largeDownload slidecumulative gas rate without injectionFigure 11View largeDownload slidecumulative gas rate without injection Close modal
+
+
+The plot below is the yearly gas rate from the reservoir. Results show that gas production from the reservoir increased rapidly from the start of production (2020) till 2022 when the pressure dropped below dew point pressure and condensate dropout occurred from the reservoir. However, to resume production, the well had to be put on a constant production rate of 100000ft3/day. Various production constraints had to be set during numerical simulation and workover initiated to resume production from the reservoir. However, condensate dropout continued to occur in the reservoir. Hence, the need for repressurization of the reservoir by gas injection to recover the condensate and improve gas moblility in the viscinity of the wellbore, increasing deliverability and improving oil recovery from the reservoir.
+
+
+Co2 injection
+
+
+Field production data for the reservoir in the western onshore niger-delta reservoir was matched using the CMG simulator to obtain a history match of the reservoir model. Upon simulation, the following plots shows the recovery rate of the gas and the condensate from the reservoir. The simulation was done for a period of 19 years with Co2 injection at 1900psi which is the minimum miscibility pressure. The cumulative gas rate and condensate rate from the reservoir after 19 years of production are shown in figure 12 below.
+
+
+Figure 12View largeDownload slidecumulative liquid rate without injectionFigure 12View largeDownload slidecumulative liquid rate without injection Close modal
+
+
+Figure 13View largeDownload slideGas rate SC yearly without gas injectionFigure 13View largeDownload slideGas rate SC yearly without gas injection Close modal
+
+
+Figure 14View largeDownload slideCumulative gas SC after CO2 gas injectionFigure 14View largeDownload slideCumulative gas SC after CO2 gas injection Close modal
+
+
+The condensate recovered with and without CO2 injection is 63MMbbls and 58MMbbls respectively, while the gas recovered with and without injection is 1862MMMft3 and 1692MMMft3 respectively.
+
+
+Figure 15View largeDownload slideCumulative liquid SC after CO2 gas injectionFigure 15View largeDownload slideCumulative liquid SC after CO2 gas injection Close modal
+
+
+The plot below shows the recovery rate from the reservoir as a function of pressure. Due to depletion from the reservoir, pressure declines until dew point pressure is exceeded, hence condensate begins to accumulate and even becomes mobile once critical condensate saturation is exceeded. Hence, we would visualize from the plot below, recovery from the reservoir at pressures below dew point pressure.
+
+
+Figure 16View largeDownload slidegas injection vs corresponding reservoir pressure after CO2 gas injectionFigure 16View largeDownload slidegas injection vs corresponding reservoir pressure after CO2 gas injection Close modal
+
+
+The plot above shows the behaviour of the injected fluid due to CO2 injected into the reservoir. It can be seen from the plot above that the injected gas maintained the reservoir pressure just slightly above the dew point pressure preventing further retrograde condensation and ensuring gas production from the reservoir. However, in the no-injection case scenario shown below, we can visualize the behaviour of the pressure profile due to depletion from the reseevoir. In this case retrograde condensation occurs at a faster rate.
+
+
+Figure 17View largeDownload slidewell block pressure vs cumulative liquidFigure 17View largeDownload slidewell block pressure vs cumulative liquid Close modal
+
+
+Figure 18View largeDownload slideGas rate SC yearly after CO2 gas injectionFigure 18View largeDownload slideGas rate SC yearly after CO2 gas injection Close modal
+
+
+The recovery factor of condensate from the reservoir shows an increase in production of the heavier fractions during the entire period of simulation from the reservoir. Results show a 60% condensate recovered from the reservoir. However further study will be done in a subsequent paper on the optimization of the injection process to increase both the condensate produced and the gas fraction recovered from the reservoir. Literature has shown that optimization of the injection process in a gas condensate reservoir has the potential of increasing the condensate recovery factor. The plot is shown below.
+
+
+Figure 19View largeDownload slideCumulative liquid SC after CO2 gas injectionFigure 19View largeDownload slideCumulative liquid SC after CO2 gas injection Close modal
+
+
+For the no-injection case scenario, the recovery factor of the condensate was at 54% showing good recovery of the condensate from the reservoir. This recovery obtained was due to good production practice and constraints on various parameters that affects deliverability from a gas condensate reservoir, like production rate, drawdown, and bottom hole pressure constraints. The plot is shown below,
+
+
+Figure 20View largeDownload slideOil Recovery factor SC after CO2 gas injectionFigure 20View largeDownload slideOil Recovery factor SC after CO2 gas injection Close modal
+
+
+Conclusions
+
+
+From our simulation studies we conclude that
+
+
+There is improved recovery from the gas condensate reservoir due to the injection of the solvent which not only achieves miscibility with the reservoir fluid, leading to gas recovery through injection growing from 1692MMMft3 to 1862MMMft3.Also injecting CO2 above minimum miscibility pressure does not necessarily increase recovery from gas condensate reservoirs hence to save cost, injection should be done at minimum miscibility pressureCO2 injection increased the dew point pressure and revaporizes the condensate in the near well bore, as codensate production grew from 53MMscf to 63 MMscf.We also conclude that Injection rate increase, increases recovery, but comes at additional cost
+
+
+Recommendation
+
+
+In view of the points above, an optimized injection rate has to be determined in order to determine the economic viability of the CO2 injection project.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+A.K.M.Jamaluddin, S.Ye, J.Thomas, D.D'Cruz, and J.Nighswander, (2001) ‘Experimental and Theoretical Assessment of Using Propane to Remediate Liquid Buildup in Condensate Reservoir’ This paper was prepared for presentation at the 2001 SPE Annual Technical Conference and Exhibition held in New Orleans, Louisiana, 30 September–3 October 2001.Google Scholar Asgari, A., Dianatirad, M., Ranjbaran, M., Sadeghi, A.R., Rahimpour, M.R., (2013) Methanol Treatment in Gas Condensate Reservoirs: A Modeling and Experimental study, Chemical Engineering Research and Design (2013), http://dx.doi.org/10.1016/j.cherd.2013.08.015.Google Scholar DaliHou, YangXiao, YiPan, LeiSun, and KaiLi (2016) ‘Experimental and Simulation study on the special phase behaviour of Huanchang Near-Critical condensate gas reservoir fluid, Journal of chemistry, hindawi publishing cooporation, Volume 2016, Article ID 2742696, 10 pages http://dx.doi.org/10.1155/2016/2742696.Google ScholarCrossrefSearch ADS  JieBai, HuiqingLiu, JingWang, GenbaoQian, YongcanPeng, YangGao, LinYan and FulinChen (2019) ‘CO2, Water and N2 Injection for Enhanced Oil Recovery with Spatial Arrangement of Fractures in Tight-Oil Reservoirs Using Huff-‘n-puff’ Energies2019, 12, 823; doi: 10.3390/en12050823.Google ScholarCrossrefSearch ADS  LianguiDu, Jacob G.Walker, Gary A.Pope, Mukul M.Sharma, PengWang, Center for Petroleum and Geosystems Engineering, The University of Texas at Austin (2000) ‘Use of Solvents to Improve the Productivity of Gas Condensate Wells’ This paper was prepared for presentation at the 2000 SPE Annual Technical Conference and Exhibition held in Dallas, Texas, 1–4 October 2000.Google Scholar Sayyed AhmedAlavian, CurtisHays Whitson, Sissel O.Martinsen (2014) ‘Global component lumping for EOS calculations’, Presented at the SPE annual Technical Conference and Exhibition held in Amsterdan, Netherlands, 27-29, October, 2014.Google Scholar ZhengyuanSu, YongTang, HongjiangRuan, YangWang, XiaopingWei (2017) ‘Experimental and modelling study of CO2 for improved gas recovery in gas condensate reservoir. Petroleum (2017), doi: 10.1016/j.petlm.2016.10.004.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212042-MS
+
+
+

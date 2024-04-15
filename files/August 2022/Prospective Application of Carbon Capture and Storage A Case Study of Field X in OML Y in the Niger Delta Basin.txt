@@ -1,0 +1,225 @@
+----- METADATA START -----
+Title: Prospective Application of Carbon Capture and Storage: A Case Study of Field X in OML Y in the Niger Delta Basin
+Authors: Ehigie Momodu, Faith Mmesomachukwu Kelechi, Augustine Soro, Saheed Shittu, Kelechi Victoria Osime, Emmanuel Oduyemi Olawunmi
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212005-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The expansion of gas utilization systems, together with Nigeria's present climate objective, makes CCS a must-do for the country. The Niger Delta Basin has been identified as an excellent setting for carbon capture and storage (CCS), particularly in depleted reservoirs, according to a basin-wide evaluation. However, not all carbon-depleted reservoirs are appropriate for carbon storage. The suitability of the western Niger Delta basin for CCS is assessed in this research. This study looked at five reservoirs in the western section of the basin. The storage capability of the region's reservoirs was assessed using Screening Criteria for Carbon Storage, as well as well logs, seismic, reservoir properties and petrophysical data. These reservoirs are proven to fit several characteristics, including seismicity, size, faulting intensity, reservoir depth, maturity, hydrocarbon potentials, climate, and hydrogeology. The findings of this study may be used as a benchmark for identifying prospective storage locations within the basin and extended to other sedimentary basins.
+
+
+
+
+Keywords:
+upstream oil & gas,
+niger delta basin,
+international journal,
+reservoir characterization,
+permeability,
+subsurface storage,
+criteria,
+formation,
+co2,
+bachu
+
+
+Subjects: 
+Reservoir Characterization,
+Formation Evaluation & Management,
+Storage Reservoir Engineering,
+Environment,
+CO2 capture and sequestration,
+Climate change
+
+
+
+
+Introduction
+
+
+The high proportion of gas flared by several fields in the Niger Delta region highlights the necessity for Carbon Capture and Storage (CCS) as a mitigation solution. The deployment of the CCS in the basin might provide Nigeria's oil and gas industry with much-needed production security and help bring into use the flared gas. This can be achieved using CO2-EOR or by storing it in suitable subsurface reservoirs for later use (Umar, Gholami, Nayak, Shah, & Adamu, 2020). Nonetheless, according to Bachu (2000), mindful contemplations should be given to the tectonics, hydrodynamics, and mineralogical viewpoints of the reservoir while assessing a likely formation (Bachu, 2000).
+
+
+Alongside oil and gas reservoirs, coal beds and deep saline aquifers are other storage mediums that have been identified to store CO2 (International Energy Agency, 2004; IPCC, 2005). Oil reservoirs have a lower storage limit at depletion, in any case, whenever appropriate for CO2-EOR, their capacity limit will develop (Bachu, Hawkes, Lawton, Pooladi-Darvish, & Perkins, 2009). Depleted hydrocarbon reserves are viewed as a crucial early opportunity in the development of geological CO2 storage methods (University of Oxford, 2021). Deep saline aquifers are said to have the best CO2 storage limit overall and are available in regions where there are no hydrocarbon reservoirs are still producing or not present (Bachu, Hawkes, Lawton, Pooladi-Darvish, & Perkins, 2009; Alexander & Boodlal, 2014). For these reasons, they provide the greatest chance for large-scale CO2 collection and storage. Nonetheless, there is a significant distinction between oil reservoirs and deep saline aquifers concerning the volume, resolution, and trust in current data for site selection and characterization (IPCC, 2005). Because of E&P activities, oil and gas reservoirs have preferable information over deep saline aquifers. This distinction influences the characterization, methods, and expenses of site choice and qualification.
+
+
+Higher trust in the safeness of storage in geological formation or sites stems from a huge quantity of potential storage, good trapping mechanisms, ample experience utilizing CO2 injection for EOR, and reliable surveillance and verification in various injection operations (Jenkins, Chadwick, & Hovorka, 2015). Injection at depths that CO2 will be supercritical is preferred to promote storage security and reliability, as well as to optimize storage potential (NETL, 2017). At a temperature of 31.3°C and a pressure of 1,071 psi, CO2 is supercritical (NETL, 2017). Such temperatures and pore pressures are commonly found onshore at depths >800 meters.
+
+
+The step of site selection and characterization is crucial throughout the many sections of the CCS chai. According to Bachu et al (2009) every storage site must establish that it meets three basic criteria. This include capacity to store the intended volume of CO2 over the lifetime of the operation; Injectivity to accept/take CO2 at the rate that it is supplied from the emitter(s); and Containment to ensure that CO2 won't migrate and/or leak out of the storage unit. A methodology is needed to assist the assessment of key CO2 storage areas with relatively long storage qualities prior to large-scale CCS implementation (Wei N., et al., 2013). For site appropriateness assessment, a variety of techniques and frameworks have been established (Bachu, 2003; CO2CRC, 2008; Gibson-Poole, et al., 2008; Aarnes, Selmer-Olsen, Carpenter, & Flach, 2009; Ramírez, Hagedoorn, Kramers, Wildenborg, & Hendriks, 2010; Walke, et al., 2011; Rodosta, et al., 2011; Wei, et al., 2013).
+
+
+CO2 levels in the atmosphere have risen dramatically, leading in abrupt climatic shifts. Oil and Gas is blamed for a large portion of emissions in Nigeria, with the largest source of CO2 pollution being gas flaring due to exploration operations. The Niger Delta basin possesses plentiful gas, as shown by the large volume of gas received from many fields, which are potential sources for capturing, storing, or recycling CO2(Umar, Gholami, Nayak, Shah, & Adamu, 2020). As a means for Nigeria to meet its current climate target of a 20% reduction in emissions by 2030, CCS is essential.
+
+
+In this research paper, the storage potential suitability of the western Niger Delta basin for CCS was assessed using screening criteria obtained from literature (Table 1) for Carbon Storage. A full field evaluation was also conducted to examine the feasibility for CO2 storage at various reservoirs, but well logs, seismic, reservoir properties and petrophysical data were used to filter the best reservoir among the trial reservoirs in the western half of the basin.
+
+
+Table 1Screening Assessment for geological storage of CO2 (Chadwick, et al., 2008; Gibson-Poole, et al., 2008; CO2CRC, 2008; Bachu, Hawkes, Lawton, Pooladi-Darvish, & Perkins, 2009; Ramírez, Hagedoorn, Kramers, Wildenborg, & Hendriks, 2010)   View Large
+
+
+Geology of the Niger Delta Basin
+
+
+The Tertiary Niger Delta lithostratigraphy (Figure 1) may be split into three primary units: the Akata, Agbada, and Benin formations (Odumodu & Mode, 2016). Overlying stretched continental and oceanic crusts are the Akata, Agbada, and Benin formations (Heinio and Davies, 2006). Their ages span from the Eocene to the Recent, yet they transcend time.
+
+
+Figure 1View largeDownload slideRegional Stratigraphy of the Niger Delta (Lawrence et al, 2002; Corredor et al, 2005)Figure 1View largeDownload slideRegional Stratigraphy of the Niger Delta (Lawrence et al, 2002; Corredor et al, 2005) Close modal
+
+
+"The Akata Formation has long been thought to be the delta's primary oil source rock" (Agyingi, Agagu, Fozao, Njoh, & Ngalla, 2013) and suggested to be about 6,500m thick (Whiteman, 1982). According to Odumodu (2011), "the Agbada Formation rests above the Akata Formation and is made of alternating sand and shale layers, with paralic to marine-coastal and fluvial-marine characteristics". The Agbada Formation is more than 3500m thick, according to Corredor et al (2005) (Odumodu C. F., 2011). "The Benin Formation, which lies above the Agbada Formation, is made up of up to 2000m thick Late Eocene to recent alluvial and upper coastal plain deposits" (Avbovbo, 1978).
+
+
+As per Evamy, et al. (1978) "structure building, crestal, flank, counter regional growth, and antithetic faults are common in the Niger Delta". "The prevalence of synsedimentary faults in the Niger Delta, which distort the delta beneath the Benin Formation, is a notable structural feature" (Kehinde & Ahzegbobor, 2015). "In the Niger Delta, many growth faults are crescent-shaped, with the concave side facing the downthrown side, which is generally seawards" (Marvelous, 2012) (Fig. 2). The Agbada and Akata formations are affected by these growth faults, which die out below the Benin Formation's base (Odumodu C. F., 2011). These growth faults have tens of thousands of feet of throw at the top of the Akata Formation, but they fade out towards the bottom of the Benin Formation (Odumodu C. F., 2011). The fault zone acts as a seal when the fault throw surpasses the sand thickness, although this is dependent on the quantity of shale disseminated into the fault plane (Odumodu C. F., 2011). Rollover anticlines are usually found in conjunction with growth faults, and it is in these structures that oil and gas have been discovered in the Agbada reservoir sands (Odumodu C. F., 2011; Marvelous, 2012).
+
+
+Numerous basin-scale criteria for assessing the feasibility of a sedimentary basin or sections thereof for CO2 storage have been proposed in the past. The assumption is that these general characteristics will apply to the individual storage medium stored within by default. By clearly defining the hydrocarbon regions and assessing the storage capacity, injectivity, and containment of the reservoirs at individual formation evaluation level, Ojo and Tse (2016) assessed the potentials of depleted oil and gas reservoirs of a field in onshore eastern Niger Delta that will be appropriate for CO2 geosequestration. The authors discovered that reservoir depth and thickness of at least 800m and 20m, respectively, as well as porosity and permeability of more than 10% and 200mD, and a cap rock thickness of at least 10m derived in the target reservoir units, offer optimal conditions for carbon storage potency.
+
+
+Figure 2View largeDownload slideNiger Delta field structures and associated traps (Doust and Omatsola, 1990, Turtle et al, 1999)Figure 2View largeDownload slideNiger Delta field structures and associated traps (Doust and Omatsola, 1990, Turtle et al, 1999) Close modal
+
+
+Umar et al (2020) used the guidelines of CO2CRC (2008) to carry out a detailed study and basin wide assessment of the Niger Delta Basin. The authors utilized 3D seismic volumes and well data for field size analysis and revealed that the basin's reservoirs are laterally widespread, allowing for large-scale CO2 sequestration. The Niger Delta basin is a favorable habitat for CCS because of its great reservoir-seal pair, huge basin area, acceptable reservoir depth, matured oil and gas fields, mild faulting intensity, availability of massive hydrocarbon resources, and location as a passive margin.
+
+
+Location and Geology of Studied Area
+
+
+The studied area of X-field lies within the Greater Ughelli depobelt (Figure 3), westen section of onshore Niger Delta, about 30km East of Warri metropolis. It was discovered by an exploration Well-X001 in the early 1960s. The field is one arm of an elongated twin rollover anticline bounded to the north by a major synthetic boundary fault trending NW-SE. X-field comprises of conformable anticlinal fault assisted structures with mostly shoreface sands relatively thick reservoirs and in some cases, channel sands reservoirs with some thin silty sand interbeds which allows reservoir communication at some horizon levels. The shallowest and deepest known hydrocarbon reservoirs in X-field have been identified to be at about 6750ft and 13050ft respectively.
+
+
+Figure 3View largeDownload slideLocation of the studied area in the Greater Ughelli Depobelt of Western Niger DeltaFigure 3View largeDownload slideLocation of the studied area in the Greater Ughelli Depobelt of Western Niger Delta Close modal
+
+
+Data Availability, Quality and Limitations
+
+
+Materials used for this study included 3D seismic volume, well log suites, reservoir properties and petrophysical data. A succession of roughly parallel reflections from strata offset by growth normal faults that dip onshore to the southwest define the seismic volume. The reflections are quite chaotic close to and behind faults while they are continuous at zones away from faults. Reflections below the 2.8s TWT (two-way-travel time) east of the major fault are slightly chaotic and of relatively low amplitude. This is thought to be owing to some limitations in data processing. The reflections are generally continuous and of acceptable amplitude at intervals over 2.8s TWT. Hence, the seismic can be termed to be of relatively good quality. Well log suites comprise Gamma Ray logs, and Resistivity logs. In some wells, the whole length of the wellbore was logged while in some others only a small portion, mainly in the productive zone, were logged. The quality of the logs is quite good especially where the whole length of the wellbore was logged. The available pressure data is mostly the initial reservoir pressure acquired at or near completion of the wells. In this location, more than thirty wells have been drilled with four wells abandoned prior to completion while the rest of the wells were completed and have been produced. About forty-five hydrocarbon bearing reservoirs have been identified in X-field and screened for the purpose of this study.
+
+
+Methodology
+
+
+An integrated and systematic approach was employed in the interpretation and analysis of the data available for this study.
+
+
+Reservoir Identification and Petrophysical Analysis
+
+
+A lithologic interpretation of the Gamma Ray (GR) logs was done to identify the different rock types and their stacking pattern, investigate the lateral extent, relative thicknesses of reservoirs NG1, NG2, NG3, NG4 & NG5 and their respectively caprocks. Eight of about thirty wells from the study area were used for the well correlation analysis using gamma ray well logs (Figure 4). The choice of wells was based on the east-west position of the wells across the anticlinal structure of the field. After that, the gamma-ray logs were combined with the resistivity logs to determine the proportion of reservoir fluids. Porosity (), water saturation (Sw), and permeability are other important petrophysical parameters obtained from well logs. Interpretation of the well logs also aided in delineating the thickness and consistency of the shale caprock for seal integrity analysis. This was achievable by integrating the horizon juxtaposition, conformability, and architectural orientation relative to the bounding fault as seen on seismic.
+
+
+Seismic Interpretation
+
+
+Fault enhancement filters were applied to the original seismic volume to generate a structural smoothening volume to enhance the identification and mapping of faults from the seismic dip lines. Detailed identification and mapping of faults were done from the dip lines using time slices from 3D variance volume attributes and vertical sections from the structurally filtered volume. Well-to-seismic was carried out to delineate the reflectors to be mapped for depth structure maps of the NG1 – NG5 reservoir to evaluate for lateral extent, structures and bulk capacity.
+
+
+Fault-seal Analysis
+
+
+The seismic data as well as pressure variation was also evaluated to investigate the fault-seal integrity of the field, pointed toward distinguishing reasonable reservoirs for CO2 storage to forestall leakage. This was achieved by analyzing the reservoir juxtaposition on the seismic, build structural models to examine the sealing integrity of the faults to analyze the risk of leak and for assurance of immobility of the proposed CO2 injection.
+
+
+Injectivity
+
+
+Injectivity is often described in terms of reservoir pressure, and the pressure can be greatly influenced by how easily fluid is injected or produced from the reservoir (Mathias, Hardisty, Trudell, & Zimmerman, 2009). As a result, defining a formation's porosity and permeability is enough to characterize the formation's injectivity in terms of CO2 sequestration. The permeability of the reservoirs within the research region was estimated based on this concept. Furthemore, the physical characteristics of wells penetrating the reservoirs under study was analyzed to give a ranking of the reservoirs.
+
+
+Figure 4View largeDownload slideNW - SE Correlation of wells in X- Field to delineate the lateral continuity of NG1 – NG5 reservoirs and respective caprocks.Figure 4View largeDownload slideNW - SE Correlation of wells in X- Field to delineate the lateral continuity of NG1 – NG5 reservoirs and respective caprocks. Close modal
+
+
+Results and Discussion
+
+
+Reservoir Identification and Petrophysical Analysis
+
+
+The analysis of the logs revealed a reservoir at a supercritical depth range of (9500–11600ft). The sample reservoirs, corresponding depth and available competent caprock are shown in Figure 4. As per Bachu (2003) and NETL (2017), the depth range meets the geo-sequestration depth criterion. Average estimated porosities range from 0.24 to 0.26; Net-to-gross ranging from 0.83 to 0.95; permeability of 470mD and 1247 mD for NG4 and NG5 respectively (Table 2). The petrophysical estimates suggest that the reservoirs have good porosities, net-to-gross and permeabilities where applicable.
+
+
+Table 2Assessment of suitability of identified reservoirs for CO2 storage in X-Field   View Large
+
+
+Seismic Interpretation
+
+
+This resulted in the creation of depth structure maps of the NG1 – NG5 reservoir. Interpretation was carried out, surfaces were created, velocity model built hence depth maps created (Figure 5a – 5c). Results of lateral extent, structures and bulk capacity analyses obtain from the maps are peented in Table 2 above.
+
+
+Figure 5a – 5cView largeDownload slide Top structural depth maps of NG1, NG4 & NG5 respectively. (5d) Log correlation of NG3 & NG4 reservoir showing their respective caprocks necessary for CO2 immobility assurance after injection for storage.Figure 5a – 5cView largeDownload slide Top structural depth maps of NG1, NG4 & NG5 respectively. (5d) Log correlation of NG3 & NG4 reservoir showing their respective caprocks necessary for CO2 immobility assurance after injection for storage. Close modal
+
+
+Fault – Seal Pair Analysis
+
+
+Upon seismic interpretation and map creation, juxtaposition of the reservoir horizons and structural closures on the depth maps against the X-Field bounding fault was evaluated for fault-seal integrity which is key to delineating immobility of CO2 after injection and possible risk of leaks.
+
+
+The NG1 – NG5 reservoirs were stacked to investigate their architecture and relative conformity (Figure 5a & 5b). These reservoir horizons proved to be structurally closing on the X-Field bounding fault mostly anticlinal for NG1, NG2, NG3 and NG4, while NG5 exhibit a 1-way fault assisted closure. Fieldwide correlation also shows the lateral continuity of the caprocks with thicknesses ranging from 5 meters to 14 meters (Figure 4). Also, reservoir pressure indicated there were no communication with adjacent reservoirs – this also support good sealing integrity.
+
+
+Injectivity
+
+
+Injectivity of CO2 at the rate given by the emitter(s), needed the construction of an injection well. To be cost effective, production wells penetrating the NG1 – NG5 (CO2 storage prospects) where analyzed based on certain conditions for injection well plan. These conditions and ranking outcomes are summarized in Table 4. For CO2 injection to be efficient, wells at the flank of the reservoir are better considerable especially where penetration is below the hydrocarbon-water contact hence injection into the aquifer at the CO2 supercritical temperature and pressure conditions – this is expected to paint a good business case of enhanced hydrocarbon recovery.
+
+
+Figure (6a)View largeDownload slideArbitrary seismic line W-E across X-Field showing the horizon juxtaposition and architectural orientation to the major bounding fault. (6b) Depth equivalent cross section of the NG1 -NG5 reservoirs showing the reservoirs are conformable, structurally closing on the bounding fault and current fluids distribution with present hydrocarbon-water contacts pictured. (6c) Cubic (3D) view of NG1 -NG5 reservoirs juxtaposition. (6d) Fault model to show the trend of the major bounding fault of X-Field.Figure (6a)View largeDownload slideArbitrary seismic line W-E across X-Field showing the horizon juxtaposition and architectural orientation to the major bounding fault. (6b) Depth equivalent cross section of the NG1 -NG5 reservoirs showing the reservoirs are conformable, structurally closing on the bounding fault and current fluids distribution with present hydrocarbon-water contacts pictured. (6c) Cubic (3D) view of NG1 -NG5 reservoirs juxtaposition. (6d) Fault model to show the trend of the major bounding fault of X-Field. Close modal
+
+
+Reservoir Ranking
+
+
+Table 2 and Table 4 shows the eliminatory criteria, on which basis reservoirs are ranked. Criteria marked "Critical" in Table 2 must be satisfied unfailingly, or else reservoirs will be excluded. "Essential" criteria should also be satisfied, although based on the conditions, some concessions may be made/granted. "Desirable" selection criteria, depending on which reservoirs that cleared the eliminatory screening are chosen for having the most favorable qualities. If there are too many unfavorable factors, a site may still be refused. The reservoirs (Table 3& 4) were ranked by screening prospective reservoir parameters (Table 2) based on available data and criteria (Table 1). The criteria considered are broadly classified into regional (basin wide) and local (limited to reservoir) factors. These include degree of seismicity, hydrogeology, faulting intensity, reservoir – seal pair integrity, depth, lateral extent, maturity, and accessibility of reservoir. Also, the hydrocarbon potential and degree of depletion was considered as a strategy for EOR – an alternative for project economic viability.
+
+
+Table 3Capacity and Containment Ranking of Reservoirs as potential CO2 storage sites   View Large
+
+
+Table 4CO2 injectivity ranking through existing production wells into the proposed reservoirs (NG1 -NG5) in X-field, Western Niger Delta   View Large
+
+
+The analysis have shown that all five reservoirs meet the critical criteria and essential criteria identified. With the established structural closure, hydrocarbon production history, reservoir pressure indicative of non-communication with adjacent reservoirs; It can be surmised that fault seal pair of the NG1 – NG5 are competent enough for CO2 geo-sequestration without leaks. Estimates of the porosity, net-to-gross, hydrocarbon saturation and extent of reservoir depletion aided in evaluating the storage capacity of the reservoirs based on supercritical nature of CO2. The reservoirs have enough capacity to store sequestered CO2, according to the findings. As a result, reservoir permeability is critical for capacity estimation as well as injectivity assessment. On this premise, NG1, NG2, and NG3 where screened out due to unavailability of permeability data. The limitation to this is that only NG1 and NG3 met the benchmark of caprock thickness of no less than 10 meters (Table 2). It is therefore assumed that the respective caprock thickness of each reservoir is desirable for this study. The sums and averages of permeability values were available for only NG4 and NG5. This was examined with the numbers 470mD and 1274mD respectively – the permeability values satisfy the suitability of both reservoirs of CO2 storage and injectivity. NG5 was identified as the best candidate reservoir in terms of capacity when compared to NG4 based on available data obtained. Petrophysical evaluation of the NG5 reservoir rock properties reveal its average net-to-gross sand ratio to be about 95%, porosity 25% and hydrocarbon saturation 72% with a depth of 10698ftss. This indicates a very good reservoir quality. However, based on injectivity, NG4 reservoir is superior to NG5.
+
+
+Conclusion and Recommendation
+
+
+Several scholars have already concluded that the Niger Delta region is a suitable setting for CCS. However, as this study demonstrates when analyzing the potential of stack of NG1 – NG5 reservoirs in X-Field within the western Niger Delta basin for CCS, not all reservoirs are suitable for carbon storage.
+
+
+Available well logs, seismic, reservoir properties, petrophysical and production data of these reservoirs in X-field were evaluated and correlated to certain established screening criteria (Table 1). These were used to estimate the storage potentiality of the region's reservoirs. Established matrix for Seismicity, size, faulting intensity, reservoir depth, maturity, hydrocarbon potentials, climate, and hydrogeology were all found to be compatible with that of five reservoirs.
+
+
+Based on the supercritical nature of CO2, estimates of petrophysical characteristics assisted in calculating the storage capacity of reservoirs. The results indicate that the reservoirs have the capacity to hold CO2 that has been sequestered. Reservoir permeability evaluations also aided in assessing the injectivity of the reservoirs under investigation. Due to permeability data paucity, NG5 was identified as the best candidate reservoir based on available data obtained for capacity and containment evaluation. Considering injectivity, NG4 reservoir being ranked second for capacity and containment is suggested as the best candidate reservoir for CO2 sequestration amidst all five reservoirs probed.
+
+
+Site characterization is an ongoing and evolving process that should be executed and performed at every step of a storage project. Initially, site selection is based mostly on available data; but, as possibilities are restricted and confidence in the selected location's appropriateness grows, further data may be obtained. On this basis, it is suggested that more research be conducted in the following areas:
+
+
+The site characterization must be revised when new knowledge and analysis are obtained during the various stages of a storage operations.The effect of other resevir parameters (residual gas saturation, wettability, etc) should be taken into consideration when evaluating potential storage sites.Performance prediction should be carried out based on numerical modeling of fluid flow, thermal effects associated with CO2 injection, migration, and possible leakage, among other things, based on site characteristics and projected CO2 volume and injection strategies.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Aarnes, J., Selmer-Olsen, S., Carpenter, M., & Flach, T. (2009). Towards guidelines for selection, characterization and qualification of sites and projects for geological storage of CO2. Energy Procedia, 1, 1735–1742.Google ScholarCrossrefSearch ADS  Agyingi, C., Agagu, O., Fozao, K., Njoh, O., & Ngalla, N. (2013). Depositional patterns and hydrocarbon occurrence in middle to upper Miocene strata in part of the western Niger Delta Basin, Nigeria. Journal of African Earth Sciences, 21–30.Google Scholar Alexander, D., & Boodlal, D. (2014). Evaluating the effects of CO2 Injection in Faulted Saline Aquifers. Energy Procedia, 3012–3021.Google Scholar Bachu, S. (2003). Screening and ranking of sedimentary basins for sequestration of CO2 in geological media in response to climate change. Environmental Geology, 44, 277–289.Google ScholarCrossrefSearch ADS  Bachu, S., Hawkes, C., Lawton, D., Pooladi-Darvish, M., & Perkins, E. (2009). CCS SITE SELECTION AND CHARACTERISATION CRITERIA- REVIEW AND SYNTHESIS. Alberta: Alberta Research Council.Google Scholar Chadwick, A., Arts, R., Bernstone, C., May, F., Thibeau, S., & Zweigel, P. (2008). Best Practice for the CO2 Storage in Saline Aquifers – Observations and Guidelines from the SACS and CO2STORE Projects. Nottingham, UK: British Geological Survey.Google Scholar Global CCS Institute. (2017). The Global Status of CCS: 2017.Melbourne, Australia.International Energy Agency. (2004). Prospects for CO2 Capture and Storage. Paris, France: IEA/OECD.IPCC. (2005). Underground geological storage. In I. P.Change, Special Report on Carbon Dioxide Capture and Storage. Cambridge, U.K., and New York, NY, U.S.A.: Cambridge University Press.Google Scholar Jenkins, C., Chadwick, A., & Hovorka, S. D. (2015). The state of the art in monitoring and verification—Ten years on. International Journal of Greenhouse Gas Control, 40, 312–349. doi:10.1016/j.ijggc.2015.05.009Google ScholarCrossrefSearch ADS  Kehinde, D. O., & Ahzegbobor, P. A. (2015). Hydrocarbon trapping mechanism and petrophysical analysis of Afam field, offshore Nigeria. International Journal of Physical Sciences, 7, 222–238.Google Scholar CO2CRC. (2008). Storage Capacity Estimation, Site Selection and Characterisation for CO2 Storage Projects. Canberra: CO2CRC.Evamy, B., Haremboure, J., Kamerling, P., Knaap, W., Molloy, F., & Rowlands, P. (1978). Hydrocarbon habitat of the Tertiary Niger Delta. American Association of Petroleum Geologists Bulletin, 62, 1 – 39.Google Scholar Gibson-Poole, C., Svendsen, L., Underschultz, J., Watson, M., Ennis-King, J., Ruth, P., ? Cinar, Y. (2008). Site characterisation of a basin-scale CO2 geological storage system: Gippsland Basin, southeast Australia. Environment Geology, 54, 1583–1606.Google ScholarCrossrefSearch ADS  Marvelous, A. A. (2012). APPLICATION OF INORGANIC GEOCHEMICAL PROXIES TOPROVENANCE AND PALEO-TECTONIC SETTING OF FINE GRAINSEDIMENTS FROM WELL X NIGER DELTA BASIN. Effurun: Federal University of Petroleum Resources.Google Scholar Mathias, S., Hardisty, P., Trudell, M., & Zimmerman, R. (2009). Screening and selection of sites for CO2 sequestration based on pressure buildup. International Journal of Greenhouse gas control, 3(5), 577–585.Google ScholarCrossrefSearch ADS  NETL. (2017). BEST PRACTICES: Site Screening, Site Selection, and Site Characterization for Geologic Storage Projects. United States of America: National Energy Technology Laboratory.Odumodu, C. F. (2011). GEOTHERMAL GRADIENTS AND BURIAL HISTORY MODELLING IN PARTS OF THE EASTERN NIGERDELTA, NIGERIA. NNSUKA: UNIVERSITY OF NIGERIA.Google Scholar Odumodu, C. F., & Mode, A. W. (2016). Geothermal gradients and heat flow variations in parts of the eastern Niger delta, Nigeria. Journal of the Geological Society of India, 1, 107–118.Google Scholar Ramírez, A., Hagedoorn, S., Kramers, L., Wildenborg, T., & Hendriks, C. (2010). Screening CO2 storage options in the Netherlands. International Journal of Greenhouse Gas Control, 4, 367–380.Google ScholarCrossrefSearch ADS  Rodosta, T., Litynski, J., Plasynski, S., Hickman, S., Frailey, S., & Myer, L. (2011). Department U.S. of energy's site screening, site selection, and initial characterization for storage of CO2 in deep geological formations. Energy Procedia, 4, 4664–46.Google ScholarCrossrefSearch ADS  Umar, B. A., Gholami, R., Nayak, P., Shah, A. A., & Adamu, H. (2020). Regional and field assessments of potentials for geological storage of CO2: A case study of the Niger Delta Basin, Nigeria. Journal of Natural Gas Science and Engineering, 77, 103195.Google ScholarCrossrefSearch ADS  University of Oxford. (2021, December29). Safer carbon capture and storage. Retrieved from ScienceDaily: https://www.sciencedaily.com/releases/2021/12/211229133517.htmWalke, R., Metcalfe, R., Limer, L., Maul, P., Paulley, A., & Savage, D. (2011). Experience of the application of a database of generic Features, Events and Processes (FEPs) targeted at geological storage of CO2. Energy Procedia, 4, 4059–4066.Google ScholarCrossrefSearch ADS  Wei, N., Li, X., Wang, Y., Dahowski, R. T., Davidson, C. L., & Bromhal, G. S. (2013). A preliminary sub-basin scale evaluation framework of site suitability for onshore aquifer-based CO2 storage in China. International Journal of Greenhouse Gas Control, 231–246.Google Scholar Wei, N., Li, X., Wang, Y., Dahowski, R. T., Davidson, C. L., & Bromhal, G. S. (2013). A preliminary sub-basin scale evaluation framework of site suitability for onshore aquifer-based CO2 storage in China. International Journal of Greenhouse Gas Control, 12, 231–246. doi:
+              https://doi.org/10.1016/j.ijggc.2012.10.012Google ScholarCrossrefSearch ADS  Whiteman, A. (1982). Nigeria: Its Petroleum Geology, Resources and Potential (Vol. 1 and 2). London, Graham and Trotman, Ltd.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212005-MS
+
+
+

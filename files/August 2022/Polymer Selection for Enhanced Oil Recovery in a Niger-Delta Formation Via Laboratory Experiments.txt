@@ -1,0 +1,365 @@
+----- METADATA START -----
+Title: Polymer Selection for Enhanced Oil Recovery in a Niger-Delta Formation Via Laboratory Experiments
+Authors: Linda Dennar, Mohammed Amro, Sven Reichmann
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211928-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Several Scholarly articles have been written on the efficacy of Local and Foreign Polymers as agents of mobility control in Enhanced Oil Recovery Systems. Polymers are Non-Newtonian Fluids that are significantly affected by the reservoir properties. The Polymer chemistry is strongly dependent on Temperature and Salinity of injection/formation water thus the need for laboratory investigations of compatibility. Polymer solutions also undergo losses through adsorption and entrapment during propagation within the reservoir and subsequently create poor sweep if this happens.This research has investigated the suitability of two Polymers in the Niger Delta Formation: Xanthan Gum which is a biopolymer and Polyacrylamide a Synthetic polymer. Using an Analogue core sample having similar properties with the "Case Study" and a 2.8g/l polymer concentration obtained via 3-Dimensional simulation model, a laboratory core flood experiment was performed. The essence of the flooding analysis was to investigateThe Residual Resistant Factor associated with the polymer solutions which is also an indication of the property changes associated with the reservoir post flooding.The benefits and economic viability of Polymer slug sizes with the addition of CO2 (Polymer Alternating Gas-PAG) was also investigated.Unsteady State single-phase permeabilityThe Resistance Factor for the reservoirResults from the 2.8g/l solution of Polyacrylamide flooding shows a favorable Residual Resistance Factor of 0.97 to 7.05. Indications from the results suggests that using smaller slug models would not be favorable for such deployments. Larger slug models yield better RRFs, while a combination of Larger Slugs + CO2 results in a more economic resource use as less polymer is deployed. 2.8g/l Xanthan solution though having good Rheology showed very high RRFs (75-124) suggesting a possibility of encountering injectivity issues. Further investigations will be required to ascertain the effects of reducing the concentration of Xanthan on the injectivity and generally on the recovery process.A good handle on the concentration and chemical suitability of polymers with the inherent reservoir properties is the starting point of an efficient deployment of polymers as mobility control agents.
+
+
+
+
+Keywords:
+enhanced recovery,
+polymer,
+upstream oil & gas,
+residual resistance factor,
+enhanced oil recovery,
+polymer flooding,
+resistance factor,
+measurement,
+deployment,
+concentration
+
+
+Subjects: 
+Improved and Enhanced Recovery,
+Chemical flooding methods
+
+
+
+
+Introduction
+
+
+Tertiary or Enhanced Oil Recovery becomes very pertinent when the supplementary source of energy is insufficient to create the desired effect on recovery. The Enhanced Oil Recovery will usually change the physical, chemical or compositional characteristics of the rock or fluid example surfactant flooding, Polymer flooding, Gas injection, thermal recovery etc. This helps to increase recovery efficiency especially in systems with medium to viscous crude.
+
+
+As rightly stated by Mohammed Amro (2018)1, Oil and natural gas are the dominant fuels worldwide and since, the current oil production exceeds new additions to known reserves, a verity of enhanced oil recovery methods and advanced technologies especially in upstream can be applied to mature the mostly depleted reservoir to add more oil to the known reserves. He rightly emphasizes that the justification of the increasing demand for petroleum is the main challenge for the petroleum engineers. Detailed analysis and screening of reservoir information is required before any specific EOR technique is applied. Many scholarly EOR screening postulations exist, and several authors have proposed different approaches to address the issue of screening. Some Authors like Jaime Morano etal (IPTC December 2014)2 articulated a workflow to assess the EOR applicability to a particular reservoir. Jaime Morano etal highlights that the success of any deployment depends on an expert system that has been calibrated using information from a systematic data review of developed EOR database, merged with in-house expertise. This research has carefully adopted this strategy in order to have a qualitative ranking of the applicability of the proposed polymer scheme.
+
+
+The oil reservoirs in the Niger-Delta are predominantly sand with fault assisted deep closures. A lot of these reservoirs have viscosity ranges (0.06cp to 48cp) and various degrees of heterogeneities. This necessitates rigorous calibration with existing EOR databases and experimental work to ensure sufficient screening is achieved. Kamilu etal (2014)3 has stated that the world economy today can be characterized as a crude oil economy and so far, there has not been a single energy source that has broadly been integrated to replace crude oil in the provision of electricity (light and heat) and transportation (land, air and sea). It is very important to at least, maintain or indeed, increase the current production levels of crude oil which makes EOR very relevant. Deploying quality agents in EOR is key to success. Naomi Ogolo etal (2015)4 has demonstrated in their publication that Foreign EOR agents perform better than the local agents. Whichever choice of EOR agent is made, rigorous lab work is required to ensure compatibility with the reservoir scheduled for deployment.
+
+
+Polymer chemistry and selection
+
+
+There have been many scholarly articles on the successful deployment of polymer injection. After many years of research and deployment in projects globally, it has been established that polymers are good as mobility control substances. Quoting a scholarly article from Stephane JOUENNE (Journal of Petroleum Science and Engineering, 2020)5, until recently, polymer application was limited to reservoirs with temperature not exceeding 1000C. The development of polymer withstanding harsh conditions such as those encountered in Middle East carbonate reservoirs (temperature higher than 1000C and salinity up to 280 g/L), would unlock a lot of reserves.
+
+
+Polymer Chemistry
+
+
+Polymers are long chain molecules composed of many repeated subunits with high molecular weight. When added to water either as powder or solution, they increase the viscosity of the water. Polymers have been used over the years as sources of mobility control in Enhanced Oil Recovery. There are two classes of polymer available
+
+
+–Biopolymers–Synthetic polymers
+
+
+Biopolymers– Biopolymers are naturally occurring polymers, which are produced by living organisms. They are distinct from synthetic bio-degradable polymers. Biopolymers are produced via the use of micro-organisms, and this requires specific nutrients and controlled environmental conditions. This can be through fermentation or by chemical polymerization of monomers. Xanthan is a very common biopolymer that has been deployed in the oil industry over the years. Xanthan gum, which is produced from aerobic fermentation by Xanthomonas campestris, is composed of a β-1,4-glycosidic bond-linked main chain and a trisaccharide side chain successively containing mannose, glucuronic acid, and mannose (See Figure 1 below). Biopolymers having a helical structure such as xanthan (double strands helix) and scleroglucan (triple strands helix) conform in solution as semi-rigid rods, which results in high viscosifying power, low sensitivity to monovalent and divalent cations, high resistance to temperature and mechanical degradation (see Pu et al 2018 for a review and Sveistrup et al 2016 for a comparative study on the viscosifying power of biopolymers for EOR)6.
+
+
+Figure 1View largeDownload slideXanthan Gum Chemical StructureFigure 1View largeDownload slideXanthan Gum Chemical Structure Close modal
+
+
+Synthetic polymers-Synthetic Polymers are produced by artificially created chemical reactions. Many simple hydrocarbons, such as ethylene and propylene, can be transformed into polymers by adding one monomer after another to the growing chain. Polyacrylamides are common synthetic polymers usually deployed in EOR. Polyacrylamides are water-soluble synthetic linear polymers made of acrylamide or the combination of acrylamide and acrylic acid. PAA is a polymer with the formula (-CH2CHCONH2-) See Figure 2 below. It has a linear-chain structure and highly water-absorbent, forming a soft gel when hydrated. Polyacrylamide are also deployed in pulp and paper production, agriculture, food processing and as a flocculant in wastewater treatment. Polyacrylamide undergoes thermal degradation at 1750C to 3000C (Standnes et al., 1996)7 and can also undergo photodegradation.
+
+
+Figure 2View largeDownload slidePolyacrylamide Chemical StructureFigure 2View largeDownload slidePolyacrylamide Chemical Structure Close modal
+
+
+Stephane JOUENNE (2020) validated the fact that in high temperature, acrylamide moieties rapidly hydrolyze in acrylate which leads to the precipitation of the polymer and a substantial loss of the viscosity because of the strong interaction of divalent cations such as Ca2+ and Mg2+ with negative acrylate units.
+
+
+Polymer selection
+
+
+Different screening criteria have been proposed over the years for selecting the most suitable polymer based on laboratory studies and field implementations (Taber, 19838; Taber et al., 19979; Goodlett et al., 198610; Wang et al., 200911; Gao, 201112. These criteria have been summarized by Stephane JOUENNE in his article published in the Journal of Petroleum Science and Engineering, 2020 -
+
+
+The ability of the polymer to form (powder, emulsion, or concentrated liquid form for biopolymers) will depend on the field location and the constraints related to logistics and footprint of the dissolution process (Rivas and Gathier, 2013)13. For example, emulsion polymer was selected for Captain and Schiehallion fields in North Sea because of the adverse weather conditions and the impracticality of handling polymer (Chapman et al., 2015)14 The polymer chemistry (synthetic or biopolymer, composition of the synthetic polymer) will depend on the temperature and salinity of the injection/formation water. Once in the reservoir, the polymer has to propagate in the porous medium for a very long period (months to years depending on the spacing between injectors and producers) while keeping its viscosity. Indeed, acrylamide-based copolymers containing high level of acrylate monomers will precipitate in presence of divalent cations such as calcium and magnesiumPolymer size is strongly influenced by molecular weight and brine composition. Depending on permeability and heterogeneity of the reservoir, polymer size can greatly affect the performance of a polymer flood (Wang et al., 2009)15. Polymer chains must enter the reservoir with minimal impairment of the wellbore area and must propagate far from the injector with minimal losses by adsorption and entrapment. Higher polymer retention by mechanical entrapment and lower injectivity in matrix mode due to flow thickening are expected when increasing the molecular weight. If molecular weight is too high compared to the size of the pore throat, propagation will be an issue. If the flow rate or the impairment of the wellbore area are too high, mechanical degradation will be experienced (Seright, 1983; Jouenne et al., 201816).CO2 and environmental footprint could rapidly become a 1st order criterion (Farajzadeh et al., 2019a, 2019b17; Hassan et al., 201918) when selecting the polymer and evaluating the stakes related to polymer
+
+
+Polymers are generally known to be shear sensitive due to their non-Newtonian nature and as such determining the shear rate vs viscosity relationship via rheology is important before deployment. According to A. Zaitoun etal (SPE 2011)19acromolecule, such a break induces strong reduction of macromolecule size and severe loss in viscosifying power.
+
+
+This shearing can occur at different stages of handling and injection process such as;
+
+
+Use of shearing device for polymer dissolution in make-up waterRecirculation with centrifugal pumpFlow through chokes under high differential pressureFlow through down hole valvesHigh flow through perforations and sand face
+
+
+Deploying Core Flood Experiment for this Selection
+
+
+The essence of the core flooding analysis was to investigate the property changes associated with the reservoir post polymer flooding. The outcome of Rheology experiments associated with these ploymers have been published in my 2021 submission. The core flooding system is a test to determine rock permeability and how a core sample will interact with various fluids. The core sample is placed in a rock core holder. Once the core is inserted in the core holder, the outer surface is pressurized to simulate the same reservoir pressure created by the overburden in the reservoir.
+
+
+A test fluid is subsequently passed through the core and the flow rates and pressure drops across the system is measured. From this data, various parameters are measured including;
+
+
+Unsteady state liquid relative permeability and single-phase permeabilityEOR testsResidual Resistance FactorResistance Factor
+
+
+Basic Principle of the flooding Experiment
+
+
+Polyacrylamide which is a copolymer of acrylic acid and acrylamide has been used extensively in enhanced oil recovery (EOR) processes (Guerillot 1988)20. High molecular weight polyacrylamide strongly increases the water viscosity and thus decreases the water–oil mobility ratio in water-flooding (Green and Willhite 2003)21. The reduction of the water mobility is due to two different effects. First, the viscosity of polymer solution increases as the concentration of polymer in the water increases. Second, while the rock permeability to water is reduced due to the absorption and entrapment of huge macromolecule of polymer in the porous medium, the permeability to oil remains almost unaffected. The combination of both effects reduces the value of the water mobility considerably while keeping the oil mobility unchanged (David 1964)22 
+
+
+M=KμdisplacingKμ  displaced(Equation 1)
+
+
+Mobility ratio is a very important concept which governs the recovery efficiency in any polymer flooding activity. For a favourable displacement, the viscosity of the displacing fluid should be greater than the displaced and Mobility Ratio must be less than 1.
+
+
+RF= KwKpμpμw(Equation 2)
+
+
+The mobility of water to the mobility of a polymer solution under the same conditions is defined as the resistance factor (RF) (Jennings et al. 1971)23. This is a good index in the determination of the success of a good polymer flood. Kw and Kp are water and polymer relative permeabilities and µw and µp are water and polymer viscosities, respectively.
+
+
+RRF= KwiKwaμpaμwi(Equation 3)
+
+
+Residual Resistance Factor (RRF) is another useful parameter which is defined as the ratio of the initial water mobility to the water solution mobility after polymer flooding (Jennings et al. 1971)24: where wi indicates the water permeability or viscosity at initial condition (before polymer injection) and wa is the water solution permeability and viscosity after polymer flooding. The RRF is a quantitative indication of the reduction of water mobility which controls the water fingering process due to water injection after polymer flooding.
+
+
+Polymer Mixture
+
+
+The starting point of the experiment was to prepare representative and homogenized Xanthan and Polyacrylamide solutions as shown in Figure 3 (Xanthan and PAA are soluble in water and have been used widely to reduce the mobility of injected fluids). The concentration of the solution was aligned to the simulated value (3-Dimensional simulation scenario modelling capturing mid, late and end of life of the porous media was helpful in the prediction of an initial polymer concentration of 2.8g/l. Using same concentration, a laboratory core flood experiment was performed).
+
+
+Figure 3View largeDownload slidePolymer mixture preparationFigure 3View largeDownload slidePolymer mixture preparation Close modal
+
+
+A mixture of 2.8g/l of Xanthan and PAA was prepared by gently adding 2.8g of Xanthan and PAA into 1 litre of Iodized water. Reservoir parameters indicates the presence of salts containing ions (Ca2+ and Na+). 44mg/l of Calcium Chloride (CaCl2 .2H2O) and 15g/l of Sodium Chloride (NaCl) was prepared and added into the Polymer Solutions. The Solutions were steered electronically for 24 hours to homogenize the mixture. A second mixture of De-ionized water and salts (44mg/l of Calcium Chloride (CaCl2 .2H2O) and 15g/l of Sodium Chloride (NaCl)) was also prepared to be used as a saturation fluid.
+
+
+Core Sample Preparation
+
+
+3 core samples were prepared for the experiment. The core samples are analogue cores to the GN7000 Niger-Delta reservoir (case study) and have similar petrophysical properties. Details of sample characteristics are shown in the Table 1 and Figure 4 below.
+
+
+Table 1Core Samples Preparation PARAMETERS
+            . SAMPLE 1
+            . SAMPLE 2
+            . SAMPLE 3
+            . GN7000 RESERVOIR
+            . Mass, M dry (g) 151.4 143.4 153.3  Mass, M buoy (g) 93.9 88.9 95.1  Mass, M wet (g) 168.4 159.8 170.9  Total Volume(ml) 75.3 72.1 77.1  Pore Volume(ml) 17.0 16.5 17.6  Matrix density, PV (g/ml) 2.6 2.6 2.6  Matrix density, buoy (g/ml) 2.3 2.3 2.3  Porosity (%) 22.6 22.8 22.8 23 Length (mm) 66.4 63.7 68.1  Diameter (mm) 38.0 38.0 38.0  Desired Flow Velocity (mm/d) 304.8 305.8 306.8  Volume Flow (ml/min) 0.05 0.05 0.06  PARAMETERS
+            . SAMPLE 1
+            . SAMPLE 2
+            . SAMPLE 3
+            . GN7000 RESERVOIR
+            . Mass, M dry (g) 151.4 143.4 153.3  Mass, M buoy (g) 93.9 88.9 95.1  Mass, M wet (g) 168.4 159.8 170.9  Total Volume(ml) 75.3 72.1 77.1  Pore Volume(ml) 17.0 16.5 17.6  Matrix density, PV (g/ml) 2.6 2.6 2.6  Matrix density, buoy (g/ml) 2.3 2.3 2.3  Porosity (%) 22.6 22.8 22.8 23 Length (mm) 66.4 63.7 68.1  Diameter (mm) 38.0 38.0 38.0  Desired Flow Velocity (mm/d) 304.8 305.8 306.8  Volume Flow (ml/min) 0.05 0.05 0.06  View Large
+
+
+Figure 4View largeDownload slideCore Samples PreparationFigure 4View largeDownload slideCore Samples Preparation Close modal
+
+
+The core is wrapped with foil and protected to prevent leaks, after which it is placed in a core barrel (Figure 5).
+
+
+Figure 5View largeDownload slideBarrel housing the core sampleFigure 5View largeDownload slideBarrel housing the core sample Close modal
+
+
+Core flood Apparatus
+
+
+Core flood apparatus (see schematic below-Figures 6, 7 and 8) comprises of different components.
+
+
+Core holderClimatic Air bathStainless steel AccumulatorsBack pressure regulatorsCirculating, Configning and Collecting PumpsBack Pressure RegulatorsVacuum pumpsMeasurement systems
+
+
+Figure 6View largeDownload slideCore Flood Experiment SchematicFigure 6View largeDownload slideCore Flood Experiment Schematic Close modal
+
+
+Figure 7View largeDownload slideCore Barrels and Piston AccumulatorsFigure 7View largeDownload slideCore Barrels and Piston Accumulators Close modal
+
+
+Figure 8View largeDownload slideCore Flood Experiment ApparatusFigure 8View largeDownload slideCore Flood Experiment Apparatus Close modal
+
+
+Detailed Workflow of the Experiment
+
+
+2 different Experiments were performed with different Polymer mixtures and at different conditions
+
+
+Polyacrylamide flooding at 600C and 80 barXanthan flooding at 600C and 80 bar
+
+
+The workflow adopted can be seen in the Figure 9. 3 Slugscenarios were simulated and analysed to observe the performance of the polymers. Slugs include Polymers + CO2.
+
+
+Figure 9View largeDownload slideCore Flood experiment workflowFigure 9View largeDownload slideCore Flood experiment workflow Close modal
+
+
+Slug 1: (17ml Polymer-17ml CO2-50ml brine) × 5
+
+
+Slug 2: (4ml Polymer-4ml CO2-50ml brine) × 5
+
+
+Slug 3: (4ml Polymer-14ml CO2-50ml brine) × 5
+
+
+Results from Polyacrylamide (PAA)
+
+
+The Resistance Factor and Residual Resistance Factor for single phase saturations and slug deployments were investigated. Results from the different scenarios suggest that using smaller slug model would not be favorable for the deployment. Larger slug models yield better RRFs. A combination of larger slugs of CO2 + Polymer gives better resource use as less polymer will be required. Results outputs are articulated in graphs and tables below.
+
+
+Initial Measurement of Resistance Factor (50ml Poly-RF)
+
+
+Figure 10View largeDownload slideInitial Measurement of Resistance Factor (50ml Poly-RF)Figure 10View largeDownload slideInitial Measurement of Resistance Factor (50ml Poly-RF) Close modal
+
+
+Figure 11View largeDownload slideInitial Measurement of Resistance Factor (50ml Poly-RF)Figure 11View largeDownload slideInitial Measurement of Resistance Factor (50ml Poly-RF) Close modal
+
+
+RF at 600C 4.74
+
+
+Measurement of Residual Resistance Factor (50ml-brine-RRF)-50ml brine.
+
+
+Figure 12View largeDownload slideMeasurement of Residual Resistance Factor (50ml-brine-RRF)Figure 12View largeDownload slideMeasurement of Residual Resistance Factor (50ml-brine-RRF) Close modal
+
+
+Figure 13View largeDownload slideMeasurement of Residual Resistance Factor (50ml-brine-RRF)Figure 13View largeDownload slideMeasurement of Residual Resistance Factor (50ml-brine-RRF) Close modal
+
+
+RRF at 600C 0.97
+
+
+Measurement of Residual Resistance Factor (50ml-brine-RRF)-20ml CO2.
+
+
+Figure 14View largeDownload slideMeasurement of Residual Resistance Factor 20ml CO2.Figure 14View largeDownload slideMeasurement of Residual Resistance Factor 20ml CO2. Close modal
+
+
+Figure 15View largeDownload slideMeasurement of Residual Resistance Factor 20ml CO2.Figure 15View largeDownload slideMeasurement of Residual Resistance Factor 20ml CO2. Close modal
+
+
+RRF at 600C 2.04
+
+
+Measurement of Residual Resistance Factor (SLUG 1)
+
+
+Figure 16View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 1)Figure 16View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 1) Close modal
+
+
+Measurement of Residual Resistance Factor (SLUG 2)
+
+
+Figure 17View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 2)Figure 17View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 2) Close modal
+
+
+Measurement of Residual Resistance Factor (SLUG 3)
+
+
+Figure 18View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 3)Figure 18View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 3) Close modal
+
+
+Results from Xanthan at 2.8g/l solution (core sample 2)
+
+
+Results from the different scenarios suggest that Xanthan deployment for 2.8gl solution can create high injectivity issues as reflected by the high RRF recorded. See Figures and Tables below.
+
+
+Results from Xanthan
+
+
+Initial Permeability Test
+
+
+Figure 19View largeDownload slideInitial Permeability MeasurementFigure 19View largeDownload slideInitial Permeability Measurement Close modal
+
+
+Resistance Factor for Polymer Injection
+
+
+Figure 20View largeDownload slideResistance Factor for Polymer InjectionFigure 20View largeDownload slideResistance Factor for Polymer Injection Close modal
+
+
+Resistance Factor for CO2 Injection
+
+
+Figure 21View largeDownload slideResistance Factor for CO2 InjectionFigure 21View largeDownload slideResistance Factor for CO2 Injection Close modal
+
+
+Measurement of Residual Resistance Factor (SLUG 1)
+
+
+Figure 22View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 1)Figure 22View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 1) Close modal
+
+
+Measurement of Residual Resistance Factor (SLUG 2)
+
+
+Figure 23View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 2)Figure 23View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 2) Close modal
+
+
+Measurement of Residual Resistance Factor (SLUG 3)
+
+
+Figure 24View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 3)Figure 24View largeDownload slideMeasurement of Residual Resistance Factor (SLUG 3) Close modal
+
+
+Conclusion
+
+
+Results from Polyacrylamide analysis show lower RRFs and the different scenarios in the Slug analysis suggest that using smaller slug model would not be favorable for the deployment. Larger slug models yield better RRFs. A combination of larger slugs of CO2 + Polymer gives better resource use as less polymer will be required and also CO2 re-injection would be encouraged. Xanthan analysis suggest that Xanthan deployment for 2.8gl solution can create high injectivity issues as reflected by the high RRF recorded
+
+
+A physical inspection of the core sample saturated by Xanthan was done along-side some microscopic shots (Figure 25). Both inlet and outlet of the core have some gel like residues. In the inlet, some gel like residue could be found and the outlet had some paraffin residue on it. These residues are suspected to be precipitations caused by dropping shear rates. This explains the reason for the high injectivity observes in the xanthan.
+
+
+Figure 25View largeDownload slideMicroscopic shots from core showing precipitation (Inlet and Outlet)Figure 25View largeDownload slideMicroscopic shots from core showing precipitation (Inlet and Outlet) Close modal
+
+
+Post flooding with CO2 some degree of corrosion was observed occurring at the outer lining of the core. The corrosion effect is time dependent and is a major factor for consideration during deployments involving the injection of CO2.
+
+
+The 2.8g/l solution of Xanthan is obviously not optimal for the reservoir as indicated by the RRF results. Reduction of the solution concentration may be useful in coming up with a favorable result. This has not been tested in this research. The 2.8g/l solution of PAA had a very favorable RRF and suitable in this regard.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgement
+
+
+Special thanks to Shell Petroleum Development Company Nigeria, PTDF and Professor Mohammed Amro of the institute of drilling and fluid Minning Freiberg Germany. Your support is highly acknowledged.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion AMPS:Acrylamido2-Methyl Propane Sulfonate CO2:Carbon Dioxide FOE:Field Oil Efficiency EOR:Enhanced Oil Recovery FOPR:Field Oil Production Rate Kro:Relative Permeability of Oil Krw:Relative Permeability of Water Sw:Water Saturation µo:Oil Viscosity µw:Water Viscosity PAG:Polymer Alternating Gas STB/D:Stock Tank Barel of Oil per Day BHP:Bottom Hole Pressure WCUT:Water Cut GOR:Gas Oil Ratio PVT:Pressure Volume Temperature RF:Recovery Factor RF:Resistance Factor RRF:Residual Resistance Factor OWC:Oil Water Contact NPV:Net Presnt Value VIR:Value to Investment Ratio MD:Milli Darcy 3-D:3-Dymentional PAA:Polyacrylamide
+
+
+References
+
+
+Amro, M.; Freese, C.: "Panel Session 4: New Frontiers and Beyond, the Future For Sustained Production (EOR Strategic Thinking)", 2018SPE EOR Conference at Oil & Gas West Asia (OGWA) in Oman, 25–28.03.Google Scholar JaimeMoreno, OmerGurpinar and YunlongLiu, Schlumberger; AndreasAl-Kinani and NihalCakir, myr.conn solutions- EOR Advisor Systems: A Comprehensive Approach to EOR Selection-1ptc-17798-MSKamiluFolorunso Oyedeko "Design of a simulator for Enhanced Oil Recovery Process using Nigerian Reservoir as a case study" (2014).Ogolo, N. A., Ogiriki, S. O., Onyiri, V. I., Nwosu, T. C. & Onyekonwu, M. O.Performance of Foreign and Local Agents for Enhanced Oil Recovery of Nigerian Crude. SPE Nigeria Annual International Conference and Exhibition, (2015).Google Scholar StephaneJOUENNE: Polymer flooding in high temperature, high salinity conditions: Selection of polymer type and polymer chemistry, thermal stability, Journal of Petroleum Science and Engineering (2020).Google Scholar Puet al. . A comparative review of polysaccharide biopolymers for enhanced oil recovery from flask to field. J. Ind. Eng.Chem. 61, 1–11 (2018).Google ScholarCrossrefSearch ADS  Goodlett, G.O.et al. , The role of screening and laboratory flow studies in EOR process evaluation. SPE Rocky Mountain Regional Meeting. (January, 1986).Google Scholar Wang, D.et al. . Review of practical experience by polymer flooding at Daqing. SPE reservoir Eval. Eng12 (3), 470–476. (2009).Google ScholarCrossrefSearch ADS  Gao, C. H, Scientific research, and field applications of polymer flooding in heavy oil recovery. J.Petrol. Explor.Prod. Technol.1, 65–70. (2011).Google ScholarCrossrefSearch ADS  Rivas, C., Gather. F.C-EOR projects. The twenty third international Offshore and Polar Engineering Conference (2013).Google Scholar Chapman.E. J, Polymer flooding for EOR in the Schiechallion Field-porous flow rheological studies of high molecular weight polymers. In IOR. European Symposium on improved Oil Recovery, European Association of Geoscientist and Engineer. (April2015).Google Scholar Standneset al. . Literature review of implemented polymer field projects. J. Petrol. Sci. Eng.122, 761–775. 1996Google ScholarCrossrefSearch ADS  Taber, J. J, Technical Screening guides for Enhanced Oil Recovery. SPE conference and exhibition (January1983).Google Scholar J.JTaber, F.DMartin, R.SSeright, New Mexico Petroleum Recovery Research Center: EOR Scree ning Criteria Revisited. SPE Reservoir Engineering (August1997).Google Scholar Wang, D.et al. . Review of practical experience by polymer flooding at Daqing. SPE reservoir Eval. Eng12 (3), 470–476. (2009).Google ScholarCrossrefSearch ADS  Jouenne, S., et al. . Polymer stability after successive mechanical-degradation events. SPE J. (2018).Google Scholar Farajzadeh, R.et al. . Life-cycle assessment of water injection into hydrocarbon reservoirs using exergy concept. J. Clean. Prod.235, 812–821. (2019).Google ScholarCrossrefSearch ADS  Hassan, A.M, Exergy return on exergy investment analysis of natural-polymer (Guar-Arabic gum). Enhanced Oil Recovery process. Energy182, 162–172. (2019).Google Scholar Zaitoun, A., et al. . Shera stability of EOR polymers. SPE J. 17 (2), 335–339. (2012).Google ScholarCrossrefSearch ADS  D.R.Guerillot, lnst. Francais du Petrole, EOR Screening with an Expert System- SPE17791(1988)Reksidler, R., Petrobras, Vieira, R. A. M., Petrobras, Orlando, A. E., PetrobrasCosta, B. R. S., Petrobras, Pereira, L. S., Petrobras "Offshore Chemical Enhanced Oil Recovery"Royce,B., Adelphi University, Kaplan, E., Adelphi University, Garrell, M., Adelphi University, Geffent, T.M., Adelphi University "Enhanced Oil Recovery Water Requirement."Jenningset al. . 1971Jenningset al. . 1971
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211928-MS
+
+
+

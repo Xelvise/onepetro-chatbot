@@ -1,0 +1,167 @@
+----- METADATA START -----
+Title: Assessment of Nigeria's Role in the Global Energy Transition d Maintaining Economic Stability
+Authors: Itoro Koffi, Israel Bassey
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211959-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Over the years, immediate action has been required to prevent climate change effects through clean energy. However, this step represents a threat of existence to third-world countries such as Nigeria, which relies heavily on royalties and tax revenues from oil and gas reserves. The Nigerian government is a signatory to the Paris Agreement, but as part of that decarbonization project and the transition to net-zero, issues of gas come up, and we talk of just and equitable transition. It is thus important to consider the various realities of developing economies.This paper discussed Nigeria's role in a fair and balanced global energy transition towards achieving net-zero by 2050, without jeopardizing the lives of millions. In this study, the prospects, and challenges of using natural gas as a driver of sustainability and energy transition to leverage the massive gas potential across the country is also presented to build an economy that can support a sustainable energy future.
+
+
+
+
+Keywords:
+upstream oil & gas,
+sustainable development,
+africa,
+sustainability,
+climate change,
+poverty,
+government,
+social responsibility,
+transition,
+investment
+
+
+Subjects: 
+Environment,
+Sustainability/Social Responsibility,
+Climate change,
+Sustainable development
+
+
+
+
+Introduction
+
+
+The Sustainable Development Goals (SDGs), which were approved in 2016, recognize the importance of economic development in a strategic way based on the principle of "leaving no one behind" and ensuring everyone has a chance to economic and environmental stability. The seventh goal (Ensure access to affordable, reliable, sustainable, and modern energy for all) acknowledges the importance of affordable, reliable, sustainable, and modern energy for all (United Nations, 2016).
+
+
+Transitioning to lower emission sources of energy is essential in combating global warming and its implications, which is why over 190 countries collectively signed to the Paris Agreement in COP21 to work together to reduce the global average recorded temperature to under 2°C. Countries want to accomplish global capping of greenhouse gas emissions as soon as feasible to produce a climate neutral world by 2040 in order to meet this long-term temperature objective. (UNFCCC, 2022).
+
+
+However, there is need to understand that for developing nations such as Nigeria, with an economy which relies largely on hydrocarbon, a reasonable and equitable method to energy transition is essential so that no country is left behind in the transition to cleaner energy.
+
+
+To make the most of Nigeria's vast oil reserves, energy experts say the government should analyze strategic policies that will significantly improve its exploration and development interest through the growth of the value chain and promotion of alternative energy, thereby hastening its effort to recover its reserves indefinitely and make the most out of what it had before the green era. During COP26 in Glasgow, President Buhari stated that "Nigeria is more of a gas-producing nation than an oil-producing one, and it is seeking funding for projects that use transition fuels like gas.". The President also acknowledged the potential for Nigeria to properly explore and use gas till 2040 without jeopardizing its Paris Agreement obligations. (Ashurt, 2022).
+
+
+The broad ramifications of the shifting global energy transition for Nigeria are discussed in this research work. Nigeria's opportunities and challenges in integrating its energy transition strategy initiatives are examined, and recommendations are suggested to strike a balance between the development of alternative energy sources and the continuous expansion of the country's petroleum sector, both of which are vital to the growth of the economy.
+
+
+An Energy Poor Continent in Africa
+
+
+Despite having nearly, a fifth of the world's population, Africa utilizes less than 4% of global energy. The continent suffers from energy poverty, or a lack of access to modern energy services, despite its natural abundance of fossil resources and renewable energy sources. (Chong, 2021).
+
+
+Despite considerable growth of centralized electrical networks, energy poverty is one of the worldwide concerns of this century. Energy poverty can be eradicated by implementing Goal 7 of the Sustainable Development Goals (SDGs), which aims to achieve sustainable development by 2030 by providing inexpensive and universal power access, (Bhattacharyya, 2016). When expressed from a non-income dimension, energy poverty can be expressed by two indicators: shortage of power and a reliance on traditional cooking fuels (Njiru and Letema, 2018).
+
+
+A number of residents across the African continent still rely on charcoal and firewood for cooking purposes. According to World Economic Forum, worldwide, more than one billion people do not have any access to sustainable energy, and a vast majority of that population is found on the African continent. Low digitalization rates, dependency on imported fossil fuels, inefficient transmission, frequent power failures, high rural electrification costs, demand for energy surpassing generating capacity, and utility companies' lack of access to modern infrastructure and grids are all contributing factors. (Aliyu and Adam, 2017). The global COVID-19 pandemic has also played a role in inflation and supply chain disruption which has led to significant decline in the stock of capital investments that would enhance and improve the energy infrastructure in the world.
+
+
+The International Energy Agency (IEA) in Figure 1 depicts the proportion of Africa's population with access to electricity (IEA). Statistics from figure 1 demonstrate that, excluding South Africa and some portions of Northern Africa, the remaining one billion people in Sub-Saharan Africa are served by a power producing capacity of just 81 gigahertz, contributing less than 1% of total emissions.
+
+
+Figure 1View largeDownload slideFigure Showing the Electricity Availability by Countries in Africa. (IEA, 2019)Figure 1View largeDownload slideFigure Showing the Electricity Availability by Countries in Africa. (IEA, 2019) Close modal
+
+
+Most countries on the African continent are low emission, energy-poor countries with per capita emissions of somewhere in the order of 0.8 to 1%, with an average of under two tons per capita if South Africa and northern Africa counties are included (Adeleye et al., 2021). This proves that even though the electricity consumption is tripled across sub-Saharan solely through natural gas, only about 0.6% will be added to Nigeria's gas industry global emissions as shown in Table 1. These numbers are very minute in comparison to the western world, where the United States which has an installed capacity of over 1200 gigahertz of power and with a population of over 331 million people, its emission stands at 15.5% per capita.
+
+
+Table 1Average energy consumption per capita for selected countries (EIA, 2019) Rank
+            . Country
+            . Kwh/h/year
+            . Kwh/h
+            . 1 China 5,885 671 2 United States 12,154 1,387 3 India 935 107 4 Russia 6,685 763 5 Japan 7,150 816 6 Brazil 2,830 323 7 Canada 14,612 1,667 8 South Korea 10,192 1,163 9 Germany 6,306 719 10 France 6,702 765 21 South Africa 3,591 410 68 Nigeria 144 16 Rank
+            . Country
+            . Kwh/h/year
+            . Kwh/h
+            . 1 China 5,885 671 2 United States 12,154 1,387 3 India 935 107 4 Russia 6,685 763 5 Japan 7,150 816 6 Brazil 2,830 323 7 Canada 14,612 1,667 8 South Korea 10,192 1,163 9 Germany 6,306 719 10 France 6,702 765 21 South Africa 3,591 410 68 Nigeria 144 16 View Large
+
+
+More than half of Africa's population is compelled to depend on biomass for cooking and energy, such as charcoal and firewood, an inefficient and ecologically damaging alternative, due to lack of access to clean energy sources. The inefficiency of the energy industry and power outages cost the continent over four percent of Gross Domestic Profit annually, hurting sustainable economic development, employment, and investment. These energy shortfalls deepen poverty, particularly for people in rural regions, which leads to the poorest people paying among the world's highest rates for electricity.
+
+
+Nigeria's Role in the Global Energy Transition
+
+
+Revenues from the petroleum industry today account for more than 80% of Nigeria's GDP. (Statistica, 2021). The nation is blessed with massive oil wealth as well as physical and human resources, which places it in a great position to combat energy poverty. From a historical viewpoint, bad management and execution have impeded attempts to accomplish this. The economy is currently struggling to leverage the country's massive fossil fuel deposit to alleviate the country's energy poverty. The strategy to alleviate this problem is to divert revenue generated from fossil fuel energy sources such as natural gas over the next two decades to greener alternative investments that encourage the development of new technologies from environmentally friendly sources.
+
+
+In 2017, Nigeria ranked 9th in the world with proven gas reserves of over 187 trillion cubic feet (Tcf), accounting for roughly three percent of the world's total natural gas reserves of 6,923 Tcf. Nigeria has 306.3 times its annual consumption rate in proved reserves. (Worldometer, 2019). Gas is a high demand fuel for electricity grid supply, road transport, generation in urban regions, ship bunkering fuel, blue hydrogen production, etc. Figure 2 represents the world energy consumption prediction for 2040 by International Energy Agency (IEA). Global energy consumption will climb approximately 50 percent over the next 30 years, and although petroleum will remain the major energy source, natural gas use will expand to virtually the same level by substantial percentages.
+
+
+Figure 2View largeDownload slideWorld energy consumption by energy source (1990-2040) (IEA, 2017).Figure 2View largeDownload slideWorld energy consumption by energy source (1990-2040) (IEA, 2017). Close modal
+
+
+The National Gas Policy (NGP) established in 2017 was created with the purpose of transforming the nation from an oil dependent economy to a predominantly gas-based economy. The concepts of the NGP include generating greater value from Nigeria Liquified Natural Gas (NLNG), taking a project-based strategy to domestic gas development as opposed to current approach, and forging strong ties between the power, agriculture, transportation, and industrial sectors of the economy. The NGP provides a thorough outline of the government's policy goals and the steps it plans to take to achieve them. Reforms in the gas sector's governance (legislation and regulation), enforcement of domestic supply obligations, fiscal provisions, reworking the industry structure with a focus on partnerships within the public and private sector, providing incentives and opportunities for investing in natural gas products like Natural Gas Liquids (NGL) and Liquefied Petroleum Gas (LPG), developing gas infrastructure, and building markets are some of the frameworks in place to implement these objectives. (Aelek, 2021).
+
+
+Figure 3 represents the renewable energy investments in the African continent from 2000 to 2020. Of the 59.5 billion dollars invested, West Africa's contribution is less than 8%. Nigeria therefore must do more in ensuring it meets its target as the global energy transition currently poses a threat to her economy with local and international organizations already pulling out of funding fossil fuel projects.
+
+
+Figure 3View largeDownload slideRenewable Energy Investment in Africa (Ajala, 2021)Figure 3View largeDownload slideRenewable Energy Investment in Africa (Ajala, 2021) Close modal
+
+
+World Bank, European Investment Bank, African Development Bank (AFDB), East African Development Bank are some of the organizations to sign the pledge to discontinue public financing of fossil fuel projects.
+
+
+There is also need for the diversification of the Nigerian economy to promote competitiveness in other sectors and provide an opportunity for Nigeria to maximally utilize her vast natural resources, while making the most of the abundant resource base to rebuild the economy and reap a variety of benefits, such as building human capital, linkages and synergy, exploiting new opportunities, economies of scale, growth in national technology and foreign investment profile, lowering average operational costs, increasing national competitiveness, and increasing citizens' confidence in the country's renaissance ( Ite, 2020)
+
+
+A Just and Equitable Transition
+
+
+Nigeria has significant petroleum reserves, expected to be 37 billion barrels of crude oil and 209.5 trillion cubic feet of natural gas as of January 2022, placing the nation in an enviable position among global oil and gas producers. Nigeria is presently racing against time to obtain maximum value from its hydrocarbon endowment and guarantee its energy future. Even at the moment of global energy transition, Nigeria's oil and gas industry remains essential to the country's economy since it provides the necessary cash flow for other sectors to function. Nigeria is presently racing against the clock to enhance the utilization of its hydrocarbon assets and secure its energy future by considering energy strategies, which is a key tool for national development and economic liberation, while taking into account the shift in demand and clamour for cleaner fuels.
+
+
+Implementation of low-carbon technologies across the petroleum industry value chain, as well as the deepening and penetration of natural gas usage locally to boost energy sufficiency and reduce energy poverty, and prudent investment in cleaner fuels and renewable sources, are all critical strategies for ensuring a just and equitable transition. Countries from around the world are developing innovative strategies and implementing enabling policy to attract the integration of substantial quantities of green and affordable alternative energy sources. However, as shown in Figure 4, there is currently no suitable or dependable solution for addressing Nigeria's and the broader sub-Sahara Africa region's massive energy deficit.
+
+
+Figure 4View largeDownload slideNigeria Electricity Access Rate by State (Adewuyi et al., 2020)Figure 4View largeDownload slideNigeria Electricity Access Rate by State (Adewuyi et al., 2020) Close modal
+
+
+By encouraging industry participants through regulatory service instruments, the government must be pledged to creating the right environment for investment opportunities in the midstream and downstream sectors of the industry. President Buhari in 2021 announced "The Decade of Gas" campaign, an initiative designed to ensure Africa's biggest oil producer can take advantage of the global energy transition. The launch comes just as the government was pushing through some major reforms for the sector's Petroleum Industry Bill (PIB)
+
+
+Development of the country's gas will allow for the generation of more revenue and produce sufficient electricity to put an end to power shortages and blackouts. It would also assure the supply of gas to key industrial facilities and manufacture of enough cooking gas, LPG, to ensure households do not have to depend on polluting sources of energy for their daily activities such as wood and charcoal fires, which are dangerous to the environment and prone to explosion and causing harm to individuals.
+
+
+Conclusion
+
+
+Nigeria's energy transition strategy will require the country to continue to develop its large gas reserves and resources while also advancing the adoption of green energy, especially solar, at a community level, such as the establishment of micro-grids. The ongoing divestment has resulted in the emergence of indigenous companies in the country playing a major role in exploration and production activities, but on the other hand, reluctance of IOCs to make further investments in the sector has resulted in the repatriation of funds out of Nigeria. In regard to the conversion of Nigeria from a hydrocarbon-dependent economy to a diverse sector that can both meet the requirements of its growing population and reach the net-zero targets set at COP26, the role of gas as a transition fuel cannot be overlooked.
+
+
+The next generation of engineering talent needs to utilise digital tools and technologies alongside existing knowledge of the industry to understand how to take advantage of the emerging job sector in the transition. The energy sector overall requires real world, foundational engineering, involving sensors, data interpretation, and machine learning to achieve the kind of efficiencies that the market needs, while Nigeria continues to consolidate its resources to guarantee energy security.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion SDGSustainable Development Goals UNFCCCUnited Nations Framework Convention on Climate Change IEAInternational Energy Agency TCFTrillion Cubic Feet NGPNational Gas Policy NGLNatural Gas Liquids NLNGNigeria Liquified Natural Gas LPGLiquified Petroleum Gas AFDBAfrican Development Bank PIBPetroleum Industry Bill KWh/h/yearKilowatt-hour per head per year KWh/hKilowatt-hour per head
+
+
+References
+
+
+Adeleye, B., Osabohien, R., Lawal, A. and Alwis, T.2021. Energy use and the role of per capita income on carbon emissions in African countries. PLOS ONE, 16(11): pp. 25–37. https://doi.org/10.1371/journal.pone.0259488.Google ScholarCrossrefSearch ADS  Adewuyi, O., Kiptoo, M., Afolayan, A., Amara, T., Alawode, O. and Senjyu, T.2020. Challenges and prospects of Nigeria's sustainable energy transition with lessons from other countries experiences. Energy Reports. 6(20): pp 993–1009. https://doi.org/10.1016/j.egyr.2020.04.022.Google Scholar Aelek. 2021. A Quick Overview of the New National Gas Policy. Available at: https://www.aelex.com/a-quick-overview-of-the-new-national-gas-policy. Accessed 28 March 2022.Ajala, S.2021. On Nigeria's Clean Energy Plans and Improved Energy Access by 2030. Dataphyte. Available at: https://www.dataphyte.com/latest-reports/climate/on-nigerias-clean-energy-plans-and-improved-energy-access-by-2030. Accessed 3 February 2022.Google Scholar AkinloyeB., OshevireP. and EpemuA.2016. Evaluation of system collapse incidences on the Nigeria power system. Multidiscip J. Eng. Sci. Technol. 3 (1): pp. 3707–3711.Google Scholar AliyuA., DadaJ. and AdamI.2017. Current status and future prospects of renewable energy in Nigeria. Renewables and Sustainable Energy Reviews. 48 (01): pp. 336–346.Google Scholar Chong, L., 2021. Addressing Energy Poverty in Africa - The Borgen Project. The Borgen Project. Available at: https://borgenproject.org/energy-poverty-in-africa. Accessed 8 April 2022.Google Scholar EIA, 2019. List of countries by electricity consumption. Available at: https://www.eia.gov/international/data/world/electricity/electricity-consumption. Accessed 9 April 2022,EmodiN.V. and EbeleN.E., 2016. Policies enhancing renewable energy development and implications for Nigeria. Sustain. Energy. 4 (1): pp. 7–16.Google Scholar GiwaS.O., NwaokochaC.N. and OdufuwaB.O., 2017. Mitigating gas flare and emission footprints via the implementation of natural gas vehicles in Nigeria. Energy Policy, 111 (01): pp. 193–203, https://doi.org/10.1016/j.enpol.2017.09.027.Google Scholar Kende-Robb, C., 2016. Africa's energy poverty is keeping its people poor. World Economic Forum. Available at: https://www.weforum.org/agenda/2016/09/africa-s-energy-poverty-is-keeping-its-people-poor. Accessed 15 March 2022.Google Scholar Ashurst, 2022. Nigeria's Energy Transition. Available at: https://www.ashurst.com/en/news-and-insights/legal-updates/nigerias-energy-transition. Accessed 4 February 2022.Bhattacharyya, S. and Palit, D., 2016. Mini-grid based off-grid electrification to enhance electricity access in developing countries: What policies may be required. Energy Policy. 94(02): 166–178. http://dx.doi.org/10.1016/j.enpol.2016.04.010.Google Scholar BrimmoA., SodiqA., SofelaS. and KoloI.2017. Sustainable energy development in Nigeria: Wind, hydropower, geothermal and nuclear. Renewables and Sustainable Energy Reviews. 74 (01), pp. 474–490.Google Scholar Njiru, C. and Letema, S., 2018. Energy Poverty and Its Implication on Standard of Living in Kirinyaga, Kenya. Journal of Energy, 18(19): pp 1–12. https://doi.org/10.1155/2018/3196567Google Scholar Statista. 2021. Nigeria: contribution oil sector to GDP 2018-2021. Available at: https://www.statista.com/statistics/1165865/contribution-of-oil-sector-to-gdp-in-nigeria. Accessed 8 April 2022UNFCC, 2022. The Paris Agreement. Available at: https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement. Accessed 12 March 2022.United Nations, 2016. Sustainable Development Goals. Available at: https://www.un.org/sustainabledevelopment/energy. Accessed 10 April 2022.Uwem. I.. Stranded Nation with Stranded Resources: Sustainability Imperatives for Nigeria. Paper presented at the SPE Nigeria Annual International Conference and Exhibition. https://doi.org/10.2118/203631-MSWorldometers, 2022. Nigeria Natural Gas Reserves, Production and Consumption Statistics. Available at: https://www.worldometers.info/gas/nigeria-natural-gas. Accessed 16 March 2022.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211959-MS
+
+
+

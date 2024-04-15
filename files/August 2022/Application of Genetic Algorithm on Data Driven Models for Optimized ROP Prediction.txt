@@ -1,0 +1,234 @@
+----- METADATA START -----
+Title: Application of Genetic Algorithm on Data Driven Models for Optimized ROP Prediction
+Authors: David Duru, Anthony Kerunwa, Jude Odo
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212016-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The demand for cost-effective drilling operations in oil and gas exploration is ever growing. One of the important aspects to tackling the aforementioned difficulty is determining the optimal rate of penetration (ROP) of the drill bit. The most important optimization objective is to achieve a high optimal rate of penetration in safe and stable drilling conditions. Several machine learning models have been developed to predict ROP, however, there have been few studies that consider the different optimization algorithms needed to optimize the conventional developed models other than the conventional grid search and random search techniques. Genetic algorithm (GA) has gained much attention as methods of optimizing the predictions of machine learning algorithms in different fields of study. In this study, GA optimization algorithm was implemented to optimize 5 machine learning algorithms: Linear Regression, Decision Tree, Support Vector Machine, Random Forest, and Multilayer Perceptron algorithm while using torque, weight on bit, surface RPM, mud flow, pump pressure, downhole temperature and pressure, etc, as input parameters. Three scenarios were analyzed using a train-test split ratio of 70-30, 80-20 and 85-15 percent on all the developed models. The results from the comparative study of all models developed shows that the implementation of the GA optimization algorithms increased the individual ROP models, with the multilayer perceptron model having the highest coefficient of determination of 0.989% after GA optimization.
+
+
+
+
+Keywords:
+artificial intelligence,
+rop,
+upstream oil & gas,
+evolutionary algorithm,
+dataset,
+artificial neural network,
+genetic algorithm,
+neural network,
+machine learning,
+prediction
+
+
+Subjects: 
+Information Management and Systems,
+Artificial intelligence
+
+
+
+
+Introduction
+
+
+For decades, drilling optimization has focused on rate of penetration (ROP): the rate at which a well is drilled is a major measure of drilling efficiency. Higher ROP indicates faster drilling, which translates to improved rig performance and productivity. The instantaneous ROP is influenced by a number of factors. They include: formation properties, mud rheology, drill bits, and bit/rock interactions. String Vibrations, deformations, and bit fatigue can also affect the rate of bit penetration. Drilling well cost reduction has long been a goal of ROP optimization. Improving the ROP can result in substantial time savings in drilling operations (Kaiser, 2009). ROP can be improved by solving an optimization problem to maximize ROP (Lummus, 1970). The objective function (namely the ROP) should be maximized for economic gain in drilling because ROP is inversely proportional to the cost of the well (Hedge et al, 2018). Given the intrinsic interest in ROP modeling, deterministic models for ROP prediction have been created in recent years, however their performance on new datasets is not guaranteed. Over the last few years, advances in processing power and machine learning have resulted in the emergence of a slew of new data-driven ROP prediction models – models that are only based on data statistics (Hegde et al, 2018; Hegde et al, 2017; Hegde & Gray, 2017). These models predict ROP using machine learning algorithms and have been demonstrated to generalize well for different forms (Aljubram et al, 2022). Data-driven modeling and its applications in forecasting and optimizing extremely uncertain downhole conditions are expected to become more prevalent in the future of drilling operations (Noshi & Schubert, 2019). High-performance, repeatable, and scalable solutions are provided by data-driven modeling methodologies. They do, however, have an unknown functional form, making interpretation problematic. Drilling parameters are used as inputs; however functional form is not constrained. This helps them to more closely model the data, resulting in greater accuracy. The decrease in model inference goes hand in hand with the rise in accuracy. The functional form of a deterministic model, on the other hand, can be used to gain understanding (such as the most influential input drilling parameter) (Hegde et al, 2018).
+
+
+Data-driven models have long been thought to be inefficient for real-time applications because they can be nonlinear functions with uncertain functional forms, making real-time optimization problematic. Because of their inherent benefits over traditional algorithms, metaheuristic optimization algorithms have become increasingly appealing in recent years. Metaheuristics are used to identify high-quality solutions to an ever-growing variety of complicated real-world issues, such as combinatorial problems, because they can address multiple-objective, multiple-solution and nonlinear formulations. Because the equations (objective functions) are often convex or smooth and can be solved for optimal parameters, optimization of analytical or deterministic models in a real-time setting is not hampered by computational run-time restrictions (Cui et al. 2015; Hegde et al, 2018). Metaheuristic algorithms, such as particle swarm algorithms or genetic algorithms, can solve a more complex response equation.
+
+
+In this study, we developed a metaheuristic model (Genetic algorithm) and applied it on data driven models for the optimization of ROP. Real field drilling datasets, such as those regarding the bit type, bit drilling time, rotations per minute, weight on bit, torque, formation type, rock properties, hydraulics, and mud drilling properties, were collected from several wells. The raw data were first preprocessed and rows with missing values and outliers were removed to improve the performance of the model. Exploratory data analysis was performed on the data to discover how each feature contributes to the target. Some features which did not contribute much to the model's performance were dropped. The clean dataset was then fed to the metaheuristic model to find the optimal parameters of the model. After the optimal parameters of the model were obtained, we trained the model using machine learning algorithms (linear regression, decision tree, random forest and support vector machine) and multi layer perceptron neural network to achieve the highest accuracy. We demonstrated the accuracy of the model by comparing the prediction results to other data driven methods. The proposed model had a better performance. Also the model has a good computational efficiency (algorithm runtime on drilling data).
+
+
+Literature Review
+
+
+Hedge et al, (2018) conducted a study on Performance comparison of algorithms for real time rate of penetration optimization in drilling using data-driven models. In the study, they implemented two simple algorithms, the eyeball method and the random search method, to find the best drilling parameters in real time for the objective. Metaheuristic optimization algorithms (simplex, swarm methods, and differential evolution algorithms) were used to compare the result of the machine learning algorithms used in the study. The data-driven ROP model was built using four drilling parameters as inputs. ROP was modeled as a function of WOB, rev/min, flow rate and unconfined compressive strength (UCS) of rock. The analysis conducted showed that data-driven models can be used for real-time drilling despite the unknown functional form. All algorithms evaluated in the paper worked well, but the simplex algorithm performed with the best tradeoff. The performance metric utilized was the accuracy.
+
+
+Han et al, (2019) proposed a data driven approach of ROP prediction and drilling performance estimation. The data was obtained from wells from southern China. The drilling section covers 900 meters without changing the drill bit. The first 500 meters were utilized for training and validation, while the rest part was for prediction. The parameters used included depth, bit status, rotation speed, hook load, stand-pip pressure, and so on. The lithology data represented by gamma, conductivity, and resistivity were also included. The BP neural network model and the LSTM deep learning model were developed and used to predict the ROP. Both models were applied on the same well. The LSTM model showed a better estimation than the BP neural network model. Especially, for the drilling section around depth 2520 meters, the BP neural network model predicted half of the real field ROP value, while the LSTM had a good ROP estimation. From their research, they discovered that the main improvement from BP neural network to LSTM model was that LSTM deep learning model considers the time sequence effects. During drilling process, rock cutting is a continuous procession; the previous drill bit/rock interaction may have strong effects to the flowing drilling performance. So, when the time effects were taken into consideration, the model prediction accuracy was improved. The error metric used was the percentage error.
+
+
+Li and Cheng, (2020) carried out a research on Prediction and Optimization of Rate of Penetration using a Hybrid Artificial Intelligence Method based on an Improved Genetic Algorithm and Artificial Neural Network. The data collected included depth, weight on bit (WOB), pipe rotations per minute (RPM), torque, drilling fluid flow rate (inlet and outlet), pump speed, mud weight, mud viscosity, mud temperature (in and out), and standpipe pressure. Additionally, the petrophysical information collected by the LWD system includes the formation type, porosity, and formation fracture pressure. Firstly, they demonstrated the SG smooth filter's efficiency by comparing the accuracy of the developed model trained with raw data and SG filter smoothed data. Secondly, they applied the proposed IGA-ANN model with all the smoothed inputs to obtain the optimal input types and ANN structure and compared the variable selection results using the proposed IGA-ANN algorithm and those using the classic wrapper algorithm.Through these comparisons, they validated the efficiency of the proposed model for variable selection regarding the improvement in the accuracy of ROP prediction. Fourthly, they applied the optimized ANN trained by optimal variables to predict the ROP for offset wells to demonstrate the accuracy and usefulness of the present method. Various statistical indices were used to show the performance of the developed model. They used indices such as the mean square error (MSE), mean absolute error (MAE), and regression coefficient (R2).
+
+
+Singh et al, (2019) carried out a research on Cloud Based ROP Prediction and Optimization in Real-Time Using Supervised Machine Learning. Eight different types of machine learning models were trained using a population of 50 horizontal wells in the Permian Basin. Fifteen drilling parameters, or input features in terms of machine learning were proposed for the model development. They included surface torque, flow rate, hydraulic parameters, differential pressure, flow-rate, and rotary speed. The various machine learning models were compared using leave-one-out-cross-validation by training on 45 of the wells and blind testing on the remaining five. Mean Absolute Percentage Error (MAPE) was used to compare the models because it allows a percentage estimate of ROP prediction accuracy. Decision Trees and Random Forest models performed well on training data but poorly on blind data due to overfitting. Deep learning and artificial neural networks models gave acceptable accuracy but were rejected because their black box nature resulted in poor interpretability. Shrinkage methods such as LASSO and Ridge Regression gave clear interpretability but reduced accuracy because of the assumed linear relationship. The winning model was multivariate adaptive spline regression because it is computationally inexpensive and fast to keep up with real time drilling, provides the best accuracy, and offers clear interpretability.
+
+
+Noshi and Schubert, (2019) conducted a study on the application of Data Science and Machine Learning Algorithms for ROP Prediction. The study involved forty different wells. Training was done on 20% of the dataset while the remaining 80% was used for testing for all the different algorithms on the lateral section of the horizontal wells. The study was conducted to find an alternate solution to traditional models regarding ROP optimization by leveraging the power of Machine Learning and predictive analytics. Random Forest, Artificial Neural Networks, Support Vector Regression, K-Nearest Neighbor, and Gradient Boosting Machine were the machine learning models implemented in the study. Considerable modeling efforts were implemented to test the robustness of the best models developed. Several algorithms were developed and implemented on a single well then tested on the rest of the data set. An ensemble of methods: GBM and Random Forest helped achieve the best prediction with the least error metric for the dataset. Algorithms such as KNN and SVR also performed well and can be used if there is a constraint on computing capabilities. Regression metrics such as Mean absolute error (MAE), Root mean squared error (RMSE), Coefficient of Determination (R2) and Accuracy score were utilized in the study.
+
+
+METHODOLOGY
+
+
+Data collection
+
+
+Several log and geological parameters were acquired during drilling, and the data is available at the geothermal data repository. The data used to train the model was conducted on a depth-based-drilling-dataset and it included 3000 real-time drilling data points recorded from 2550ft to 5300ft. The data collected included depth, rate of penetration, weight on bit (WOB), pump pressure, torque, etc. The initial data of less than 2550ft was discarded in this study as the logging data were not recorded up to this height and the default values were reported for several of these parameters. The basic descriptive statistics of the data is shown in the table 1 and 2 below.
+
+
+Table 1Well log parameters 
+            . Mean
+            . Std
+            . Min
+            . Max
+            . Depth 3380.620549 516.053893 2552.000000 5301.500000 GR 39.671575 49.296097 0.837900 1567.590000 BS 8.5 0 8.5 8.5 DT 77.363302 14.635125 48.937100 136.253000 RT 44.846092 1299.030972 0.094000 62290.769500 RHOB 2.476438 0.141847 1.805100 3.149300 NPHI 0.165747 0.095474 0.002000 0.862600 PEF1 7.254799 1.357852 3.168200 32.537500 PEF2 6.967085 1.515469 2.033600 14.320300 
+            . Mean
+            . Std
+            . Min
+            . Max
+            . Depth 3380.620549 516.053893 2552.000000 5301.500000 GR 39.671575 49.296097 0.837900 1567.590000 BS 8.5 0 8.5 8.5 DT 77.363302 14.635125 48.937100 136.253000 RT 44.846092 1299.030972 0.094000 62290.769500 RHOB 2.476438 0.141847 1.805100 3.149300 NPHI 0.165747 0.095474 0.002000 0.862600 PEF1 7.254799 1.357852 3.168200 32.537500 PEF2 6.967085 1.515469 2.033600 14.320300 View Large
+
+
+Table 2Drilling parameters 
+            . Mean
+            . Std
+            . Min
+            . Max
+            . Depth 3380.620549 516.053893 2552.000000 5301.500000 DT 77.363302 14.635125 48.937100 136.253000 WOB 6.717661 2.953576 0.018500 29.631300 Torque 18.737392 4.013863 0.011000 40.169000 Surface RPM 164.532397 33.755331 0.000000 290.560000 Pump Pressure 189.038748 30.808893 1.645000 278.681000 Mud flow 2236.186669 162.400410 443.095200 2791.500000 ECD 1.409415 0.060620 1.275600 1.793500 BS 8.5 0.0 8.5 8.5 DownT 85.764245 11.508402 51.620500 113.000000 DownP 391.356865 40.998051 311.832300 528.775000 ROP 22.993391 8.463675 0.337400 65.861000 
+            . Mean
+            . Std
+            . Min
+            . Max
+            . Depth 3380.620549 516.053893 2552.000000 5301.500000 DT 77.363302 14.635125 48.937100 136.253000 WOB 6.717661 2.953576 0.018500 29.631300 Torque 18.737392 4.013863 0.011000 40.169000 Surface RPM 164.532397 33.755331 0.000000 290.560000 Pump Pressure 189.038748 30.808893 1.645000 278.681000 Mud flow 2236.186669 162.400410 443.095200 2791.500000 ECD 1.409415 0.060620 1.275600 1.793500 BS 8.5 0.0 8.5 8.5 DownT 85.764245 11.508402 51.620500 113.000000 DownP 391.356865 40.998051 311.832300 528.775000 ROP 22.993391 8.463675 0.337400 65.861000 View Large
+
+
+Data Exploration
+
+
+Missing values, unrealistic values and outliers impact the accuracy of the machine learning model. Data preprocessing was performed to handle the missing and unrealistic values, and outliers in the dataset. This is because; the outliers and unrealistic could be taking place as a result of measurement errors. Exploratory data analysis was then implemented on the data to discover relationships/correlations that exists between the different input features and the target feature.
+
+
+As stated earlier, missing values, unrealistic values and outliers affects the accuracy of the machine learning model. We handled the missing values by simply dropping them. We identified the outliers and unrealistic values by making a boxplots of all the parameters in the dataset and then removed them from the data so that it will not affect the model's decision.
+
+
+Similarly, the same procedure implemented to remove the outliers present in other features in the dataset. Detailed exploration of the data, revealed some unrealistic values. It was discovered that there were some negative values of weight on bit present, which is unrealistic, so they were dropped them.
+
+
+The accuracy of the machine learning model depends on the correlations between the various features used in training the model with the target feature. So there is need to determine the relative important predictive features for ROP from the other different input features in the data. Scatter plots of all the input features against the target feature (ROP) were plotted respectively to visualize the correlation these features have with ROP.
+
+
+The scatter plot of WOB vs ROP is shown in Figure 2. From Figure 2, positive correlation was noticed although the correlation is not linear. It observed that most values for ROP were scattered between WOB values of 0 and 20. Usually the goal in machine learning and artificial intelligence work is to strive to organize data in terms of linearity. Processing data to obtain a linear relationship between different input features and the target feature helps to reduce variance and computational complexities that may arise as a result of non-linearity. Similarly for WOB, the scatter diagram of other input features and ROP are depicted in Figure in Figures 3.
+
+
+Figure 1View largeDownload slideBox plot showing the outliers of Gamma ray present in the dataFigure 1View largeDownload slideBox plot showing the outliers of Gamma ray present in the data Close modal
+
+
+Figure 2View largeDownload slideScatter plot of weight on bit and ROPFigure 2View largeDownload slideScatter plot of weight on bit and ROP Close modal
+
+
+Figure 3View largeDownload slideScatter plot of other features and ROPFigure 3View largeDownload slideScatter plot of other features and ROP Close modal
+
+
+For a better representation of the correlation that exists in the data, heatmap plot showing numerical correlations that exists between the features was made.
+
+
+The feature extraction and dimensionality reduction procedure can reduce the time it takes to train a machine learning model. This procedure has the ability to increase the accuracy between the predicted and measured ROP (Okoroafor et al. 2022). Feature extraction was implemented to select the most important features which have greater influence on the target feature from the entire dataset. The feature extraction, coupled with the understanding of the physical behavior of the features contributed to the selection of some features from the dataset. In this study, feature extraction was performed using the PCA for the variable selection.
+
+
+Model Development
+
+
+After performing preprocessing and cleaning techniques on the dataset, the dataset was prepared for the modeling using different machine learning models. Various supervised learning and regression algorithms were utilized to predict ROP. It was discovered from the data exploration conducted using various plots that utilization of linear modeling approaches will not give very good result with the dataset because the plots showed that the input features were not linearly correlated with the target feature (ROP). Therefore, some non-linear approaches and ensemble modeling techniques were deployed. Most of the machine learning models implemented on the dataset were non-linear algorithms.
+
+
+Machine learning models were applied for the development of ROP prediction model. This was done after feature selection and dimensionality reduction were applied to select the relevant input features from the dataset. The dataset was divided into train and test data.Training was done on 80% of the data set while the remaining 20% was used for testing all the different algorithms.
+
+
+Two other scenarios were also analyzed using a train-test split ratio of 70%-30% and 85%-15% on all the developed models. Five different regression models were developed. The models are namely:
+
+
+Linear RegressionSupport Vector MachineDecision TreeRandom ForestMultilayer Perceptron Algorithm
+
+
+After developing these models, the Genetic Algorithm (GA) was implemented to update the input features of the models. The GA performed a heuristic search on the input parameters of the models to obtain the optimal input parameters for all the models. The optimized input parameters of the different models were then applied to train the different model using the same dataset. Various metrics were used for regression tasks to show the performance of the developed model. Thereafter regression coefficient (R2), mean absolute error, root mean square error, and accuracy score were used to evaluate the performance of the different models developed. Brief descriptions of some of the models are given below:
+
+
+Genetic Algorithm
+
+
+In this study, hybrid scheme was proposed to obtain the most accurate and efficient machine learning model for ROP prediction by applying genetic algorithm to obtain the optimal input variables and the structures of linear regession, decision tree, random forest, support vector machine and multilayer perceptron in other to achieve maximum ROP. The first step of this method is to generate an initial population of possible solutions (chromosomes) that is composed of these machine learning models with different parameters and types of inputs. These chromosomes were encoded into zeros and ones. Assessment of the accuracy of the possible solutions was carried out using an objective function known as cost function which predicts the accuracy of the machine learning model. The best performing chromosomes were selected by the GA which forms the parents. The parents were crossed to generate a new population of offspring whose accuracy is better than that of the parents. These offspring were further mutated by altering their genes (encoded zeros and ones) in order to induce diversity within the offspring to further improve the solution. These mutated offspring were used as parents for the next generation. The process was repeated for several generations until an optimal solution was achieved. After optimization, the input combination and model structure were obtained with the highest ROP prediction accuracy. Finally, the developed prediction model was then utilized to optimize the ROP.
+
+
+Artificial Neural Network
+
+
+Artificial neural networks (ANNs) are computer systems based on biological neural networks seen in animal brains. An artificial neural network is a network of interconnected nodes called artificial neurons that was inspired by a brain's simplicity of neurons (Nwosu et al. 2018). The nonlinear relationship between input and output values could be modeled using ANN. As a result, it may be used to swiftly mimic the output pattern of physical systems and solve difficult mathematical issues linked with them (Mohaghegh 2000; Thanh et al. 2019). ANN has been used to tackle wide range of petroleum and geoscience problems due to its capacity to handle nonlinear relationships between inputs and outputs (Adibifard et al. 2014 and Thanh et al. 2019). ANN has three layers namely; the input layer, hidden layer and output layer. The goal of ANN is to iteratively converge computed output to desired output (Kaymak et al. 2019). Based on experimental data, ANN translates complex and non-linear interactions into series of input-output training patterns. ANN uses its inherent capability to create non-linear mapping between inputs and outputs (Hornick et al. 1989; Bose and Liang 1996; de Souto et al. 2002; Garcia-Pedrajas et al. 2003; Ahmadi, 2012). This non-linear mapping between inputs and outputs is called feed forward network.
+
+
+Random Forest
+
+
+Random forest algorithm belongs to the ensemble methods. A random forest classifier is a meta estimator that combines multiple subpar base estimators to provide a superior overall result. The base estimator in random forest is a simple decision tree estimator (Onwuchekwa, 2018). Because random subsets of the training data (with resampling) are trained on random subsets of the features, the method is termed random forest. The result is a collection of decision trees based on these subsets of data. The average of the predictions of the collection of trees for the regression case is used to obtain a prediction from the model (Onwuchekwa, 2018). The For a classification problem, the random forest model aggregates numerous decision trees, just like in regression. To develop the random forest model, each decision tree is trained on a random subset of the data. The random forest aggregates the predictions from each tree to apply the model. The most prevalent class is chosen by the model (Mohamed et al. 2019). Random forests have been shown in a number of theoretical and empirical investigations to exhibit excellent prediction accuracy, good tolerance for outliers and noise, and are not prone to overfitting (Shi et al. 2019). Random forest classifiers can handle non-linear and high-dimensional samples. In the random forest, each tree is a binary tree. The top-down recursive splitting principle is used to create it. That is, the training set is divided from the root node in turn. The root node of the binary tree holds all of the training data. It separates into the left and right nodes according to the concept of minimum node purity. A portion of the training data is stored in each node. The node continues to split according to the same criteria until it approaches the branch rule and stops growing. Each decision tree learns how to classify specific data, while random sampling ensures that the same samples are classified by multiple decision trees, allowing the classification abilities of different decision trees to be assessed. A single decision tree's performance will be limited. Rather than depending on a single tree, it is preferable to combine the predictions of several trees. Aggregation will, on average, outperform a single predictor. The aggregation might be seen as emulating the concept of "wisdom of the crowd." (Sun and Li, 2018).
+
+
+Support Vector Machine
+
+
+Support vector machines (SVMs) were created to find the best hyperplane for maximizing the lowest distance between data points. The bias value on the hyperplane defines its departure from the origin point, whereas the weight value defines its orientation. The data points with the greatest effect on the separating hyperplane are called support vectors (Noshi and Schubert, 2018). The maximum spacing hyper plane, which separates the samples into two categories and meets the maximum spacing between the two types of data, is achieved in the situation of linear separability (Shi et al., 2019). SVMs locate the line that optimizes the separation between the points of each class in a two-dimensional, two-class classification issue. The margin is the distance between a line and the nearest point labeled one way or the other. There are many lines that can be used to divide the points, but the purpose is to select the line with the largest margin. Support vectors are the points nearest to the dividing line (Mohamed et al., 2019). The majority of problems encountered in practice are linearly inseparable or simply non-linear. The non-linear mapping algorithm is used in this case of linear inseparability to transform all of the original samples into a high-dimensional feature space, in which the samples become linearly separable, allowing the non-linear characteristics of the samples to be linearly analyzed using the linear algorithm. The computational complexity of mapping data from low-dimensional space to high-dimensional space increases, yet SVM solves this problem by employing the kernel function approach. In implicit mapping space, the kernel function is the inner product function of two vectors. It is no longer essential to calculate the inner product of a high-dimensional or even infinite-dimensional feature space using such a function. Support vector machines can be generated by a variety of kernel functions (Shi et al., 2019). SVM could be used to solve a regression problem in addition to classification. Support Vector Regression is the name of this method. To classify nonlinear boundaries, a nonlinear kernel function that transforms nonlinear hyperplane to linear hyperplane in higher dimensional space can be utilized (Noshi and Schubert, 2018). SVR learns how input data are mapped to output data using some training data and generates a function that offers a relatively excellent prediction of the output for any given input data (Guo et al., 2018). SVR employs the well-known kernel trick, which allows the original data to be mapped to a higher-dimensional space without having to explicitly define the higher dimensions. As a result, it can make accurate predictions for nonlinear regression problems (Onwuchekwa, 2018).
+
+
+Results
+
+
+The test data was used to test the performance of the different models. The individual models without the optimal input structures were first tested. Cross-validation was applied to avoid overfitting the model. The performance of these models on test data is shown in the Figure 5 below.
+
+
+Figure 4View largeDownload slideHeatmap showing the numerical relationships between the featuresFigure 4View largeDownload slideHeatmap showing the numerical relationships between the features Close modal
+
+
+Figure 5View largeDownload slideResults of test data before applying GAFigure 5View largeDownload slideResults of test data before applying GA Close modal
+
+
+The support vector machine, multilayer perceptron algorithm and the random forest, all had a good performance on the training data. Their performance on the test data, were not so good. This is attributed to poor correlation that exists between the input features and the target feature (ROP). Secondly, we tested the performance of these models with optimal input parameters determined by the Genetic algorithm. The results from the comparative study of all models developed showed that the implementation of the Genetic optimization algorithm increased the individual ROP models with the multilayer perceptron model having the highest coefficient of determination after GA optimization. The optimized multilayer perceptron model is computationally inexpensive and can be effectively utilized in real time drilling. The performance of these optimized models on the test data is shown in Figure 6 below.
+
+
+Figure 6View largeDownload slideResults of test data after applying GAFigure 6View largeDownload slideResults of test data after applying GA Close modal
+
+
+More regression metrics were also used to evaluate the performance of the model after applying GA. The result is as shown in Table 3 below;
+
+
+Table 3Different performance metrics used to evaluate model performance 
+            . MLP
+            . SVM
+            . LR
+            . RF
+            . DT
+            . MAE 0.357 1.001 2.665 0.697 0.905 RMSE 0.6044 1.915 5.301 1.328 1.738 Accuracy (%) 98.9 92.8 74.6 95.5 93.7 
+            . MLP
+            . SVM
+            . LR
+            . RF
+            . DT
+            . MAE 0.357 1.001 2.665 0.697 0.905 RMSE 0.6044 1.915 5.301 1.328 1.738 Accuracy (%) 98.9 92.8 74.6 95.5 93.7 View Large
+
+
+Conclusion
+
+
+Metaheuristic optimization was performed for just few input features of the models using just a single optimization algorithm which is Genetic Algorithm. As stated in the results, optimization of just few input parameters of the model, improved the accuracy of all the models. In future works, more exploration of the optimization algorithms will be done and all the input parameters of the models will be taken into consideration. Also more metaheuristic optimization algorithms will also be applied on machine learning models, and their performance will be evaluated.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Adibifard, M., Tabatabaei-NejadS. A. R., and KhodapanahE. (2014). Artificial Neural Network (ANN) to Estimate Reservoir Parameters in Naturally Fractured Reservoirs Using Well Test Data. Journal of Petroleum Science and Engineering122. Elsevier: 585–94. https://doi.org/10.1016/j.petrol.2014.08.007.Google ScholarCrossrefSearch ADS  Ahmadi, M. A., Zendehboudi, S., Lohi, A., Elkamel, A., and ChatzisL. (2012). Reservoir permeability prediction by neural networks combined with hybrid genetic algorithm and particle swarm optimization. https://doi.org/10.1111/j.1365-2478.2012.01080.Google Scholar Aljubran, J., Nwosu, C., Okoroafor, E., Smith, C., Ochie, K., and Gudmundsdottir, H. (2022). Recent Trends in Artificial Intelligence for Subsurface Geothermal Applications. 47th Workshop on Geothermal Reservoir Engineering Stanford University, CaliforniaGoogle Scholar Bose, N.K., and Liang, P. (1996). Neural Network Fundamentals with Graphs, Algorithms, and Applications, 2nd edn.Boston: McGrawHill.Google Scholar De Souto, M.C.P., Yamazaki, A., and Ludernir, T.B. (2002). Optimization of neural network weights and architecture for odor recognition using simulated annealing. Proceedings of the 2002 International Joint Conference on Neural Networks 1, 547–552Google Scholar Garc´ia-Pedrajas, N., Hervas-Mart, Inez,C., and Munoz-Perez, J. (2003). A cooperative coevolutionary model for evolving artificial neural networks. IEEE Transactions on Neural Networks14 (3), 575–596Google ScholarCrossrefSearch ADS PubMed Hedge, C., Dalgle, H., Milwater, H., et al.  (2017). Analysis of Rate Of Penetration (ROP) Prediction in Drilling Using Physics-Based and Data Driven Models J. Nat. Gas Sci. Eng. 159 (November): 295–306https://doi.org/10.1016/j.petrol.2017.09.020Google Scholar Hedge, C. and Gray, K. E. (2017). Use of Machine Learning and Data Analytics to Increase Drilling Efficiency for Nearby Wells J. Nat. Gas Sci. Eng. 40 (April): 327–335. https://doi.org/10.1016/j.jngse.2017.02.019Google Scholar Hornick, K., Stinchcombe, M., and White, H. (1989). Multilayer feed forward networks are universal approximators. Neural networks2(5), 359–366.Google ScholarCrossrefSearch ADS  Kaiser, M. J. (2009). Modeling the Time and Cost to Drill an Offshore WellEnergy34(9): 1097–1112https://doi.org/10.1016/j.energy.2009.02.017.Google ScholarCrossrefSearch ADS  Kaymak, S. (2019). Prediction of dog-leg severity using artificial neural network.Google Scholar Guo, Z., Chen, C., Gao, G., and Vink, J. (2018). Enhancing the Performance of the Distributed Gauss-Newton Optimization Method by Reducing the Effect of Numerical Noise and Truncation Error with Supportive Vector Regression. SPE Annual Technical Conference and Exhibition.Google Scholar Han, J., Sun, Y., and Zhang, S. (2019). A Data Driven Approach of ROP Prediction and Drilling Performance Estimation. International Petroleum Technology Conference.Google Scholar Hedge, C., Dalgle, H., and Ken, E. (2018). Performance Comparison of Algorithms for Real-Time Rate-Of-Penetration Optimization in Drilling using Data Driven Models.Google Scholar Li, C. and Cheng, C. (2020). Prediction and Optimization of Rate of Penetration using a Hybrid Artificial Intelligence Method based on an Improved Genetic Algorithm and Artificial Neural Network.Google Scholar Luke, S. (2009). Essentials of Metaheuristics, Vol. 113. Lulu. http://cs.gmu.ed/~sean/book/metaheuristicsGoogle Scholar Lummus, J. L. (1969). Factors to be Considered in Drilling Optimization. J Can Pet Tecnol8 (4): 138–146. PETSOC-69-04-02. https://doi.org/10.2118/69-04-02Google ScholarCrossrefSearch ADS  Mohamed, M. I., Mohamed, S., Mazher, I., and Chester, P. (2019). Formation Lithology Classification: Insights into Machine Learning Methods.SPE Annual TechnicalConference and Exhibition.Google Scholar Noshi, C. I., Assem, A. I. and Schubert, J. J. (2018). The Role of Big Data Analytics in Exploration and Production: A Review of Benefits and Applications. SPE Eastern Regional Meeting.Google Scholar Nwosu, J. C., Ibeh, S. U., Onwukwe, S. I., and Obah, B. O. (2018). Determination of Compressibility Factor for Natural Gases Using Artificial Neural Network, Petroleum & Coal, 60(6)Google Scholar Okoroafor, E., Smith, C., Ochie, I., Nwosu, C., Gudmundsdottir, H., and Aljubran, J. (2022). Machine Learning in Subsurface and Geothermal Energy: Two decades in review Geothermalmics, 102. https://doi.org/10.1016/j.geothermics.2022.102401Google Scholar Onwuchekwa, C. (2018). Application of Machine Learning Ideas to Reservoir Fluid Properties Estimation. Nigeria Annual International Petroleum Exhibition and Conference.Google Scholar ShahabM. (2000). Virtual-Intelligence Applications in Petroleum Engineering: Part 1 — Artificial Neural Networks. Journal of Petroleum Technology, 52(09): 64–72. https://doi.org/10.2118/58046-JPT.Google ScholarCrossrefSearch ADS  ShiX., ZhouY., ZhaoQ., JiangH., ZhaoL., Liu, Y., and Yang, G. (2019). A New Method to Detect Influx and Loss During Drilling Based on Machine Learning. International Petroleum Technology Conference.Google Scholar Siamak, H., Afshin, G., and Abdolnabi, H. (2014). Optimization of Dogleg Severity in Directional Drilling Oil Wells Using Particle Swarm Algorithm, Journal of Chemical and Petroleum Engineering, 48(2): 139–151.Google Scholar Singh, K., Sharan, Y. S., Kamyab, M., and Cheatham, C. (2019). Cloud Based ROP Prediction and Optimization in Real-Time Using Supervised Machine Learning.Google Scholar Sun, J., Li, Q., Chen, M., Ren, L., Sun, F., Ai, Y., and Tang, K. (2018). Optimization of Models for Rapid Identification of Oil and Water Layers During Drilling – A Win-Win Strategy Based on Machine Learning.International Petroleum Exhibition and ConferenceGoogle Scholar Thanh, V. H., Sugai, Y., Nguele, R., and Sasaki, k. (2019). Integrated Artificial Neural Network and Object-based Modelling for Enhancement History Matching in a Fluvial Channel Sandstone Reservoir. SPE/IATMI Asia Pacific Oil & Gas Conference and ExhibitionGoogle Scholar Wang, M. C., Zaoh, J. Y., et al.  (2015). Optimizing Drilling Operating Parameters with Real-Time Surveillance and Mitigation System of Downhole Vibration in Deep Wells. Adv. Petrol. Dev. 10(1): 22–26. https://doi.org/10.3968/7386Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212016-MS
+
+
+

@@ -1,0 +1,215 @@
+----- METADATA START -----
+Title: Application of Sodium Lauryl Sulfate for Enhanced Oil Recovery of Medium Crude Oil in the Niger Delta Fields
+Authors: Kingsley Kelechi Ihekoronye, Hussein Mohammed, Pius Chukwuebuka Onuorah
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211978-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+This research work focuses on the performance of sodium lauryl sulfate as surfactant in enhanced oil recovery of medium crude oil in the Niger Delta fields. Characterization of the sodium lauryl sulfate (surfactant) was carried out to determine the functional groups and morphology of the sample. Different tests such as interfacial tension reduction and adsorption test were conducted to evaluate the effectiveness of the sample in enhanced oil recovery. Core-flooding experiment was performed using the sample to determine the potency of sodium lauryl sulfate in enhanced oil recovery process. The results from this work showed that incremental oil recoveries of 47.8 %, 54.6 % and 56.1 % using Berea core sample (C1F) and 49.3 %, 57.6 % and 58.5 % for core sample (C2F) was observed. The results showed that sodium lauryl sulfate achieve macroscopic sweep displacement efficiency via interfacial tension reduction between the surfactant slugs and the trapped oil which helps to improve oil production.
+
+
+
+
+Keywords:
+waterflooding,
+surfactant,
+upstream oil & gas,
+chemical flooding methods,
+recovery,
+sodium lauryl sulfate,
+surfactant flooding,
+surfactant concentration,
+reservoir,
+reduction
+
+
+Subjects: 
+Improved and Enhanced Recovery,
+Waterflooding,
+Chemical flooding methods
+
+
+
+
+Introduction
+
+
+Surfactants are chemical enhanced oil recovery used in the oil and gas industry to improve oil production due to its ability to alter the wettability of the rock and oil-water interface (Hirasaki et al., 2004). Surfactant is a surface active material that can alter the behavior of the rock surface and reduce the interfacial tension of the oil-water interface (Hocine et al. 2016). Kamal et al., (2017) noted that surfactants are used to reduce interfacial tension, which resulted to an additional mobilization of trapped oil by capillary forces in the rock matrix. The trapped oil in the reservoir (residual oil) cannot be displaced because of the high energy needed to overcome the capillary pressure (Pc) under normal oil–water interfacial tension. Surfactant can be used to overcome this problem due to its ability to reducing oil–water interfacial tension. Samanta and Ojha (2011) noted that in surfactant flooding, the chemical slug may undergoes channeling of oil/water into the reservoir, however, the introduction of polymer mixture, can lead to mobility control, thus preventing chemical slug that could form viscous fingering. Elraies (2010) observed that the Interfacial tension reduction causes the lowering of capillary forces of trapped and residual oil, surfactant adsorb on reservoir rocks can change rock wettability, thereby, increasing oil recovery. Alvarado and Manrique (2010) reported that surfactant can be employed for reduction of the interfacial tension of the oil/water interface hence leads to mobilization of oil left in the reservoir by capillary forces, gravity drainage of the rock matrix. Hematpur et al. (2017) reported that surfactant may be used to overcome the challenge of capillary pressure by reducing the oil/water interfacial tension from 10−30 mN/m to 0.001mN/m which can help in increasing the capillary pressure making oil droplets to be displaced and oil recovery increased.
+
+
+Yu et al., (2010) reported that surfactant flooding maintains low interfacial tension to move the trapped oil, and maintain the surfactant slug during displacement efficiency of the reservoir. In addition, surfactant helps to reduce the interfacial tension between oil and water, so that the trapped oil in the reservoir can be mobilized (Wang et al., 2010). In addition, (Izuwa et al. 2021) noted that surfactants are good displacing fluid which can reduce the interfacial tension of the crude oil in order to improve oil recovery. The experimental study on the use of sodium lauryl sulfate for enhanced oil recovery processes is limited. Hence, there is need to study the behavior of sodium lauryl sulfate and its potential application in enhanced oil recovery.
+
+
+Therefore, the focus of this research work is the performance evaluations of sodium lauryl sulfate as surfactant in enhance oil recovery of medium crude oil in the Niger Delta fields.
+
+
+Materials
+
+
+The surfactant used in this study is sodium lauryl sulfate shown in figure 1. Table 1 presents the property of the surfactant. The oil sample used for this study was collected from a marginal field operating within the Niger Delta environment with API gravity of 29.4°Cand viscosity 1.2 cp. The cores were collected from offshore oil field. The core-flooding equipments were supplied from Tulsa Oklahoma USA (UFS-200 core laboratory).
+
+
+Figure 1View largeDownload slideSample of sodium lauryl sulfateFigure 1View largeDownload slideSample of sodium lauryl sulfate Close modal
+
+
+Table 1Property of the sodium lauryl sulfate Surfactant
+            . Type
+            . Properties
+            . Characteristic
+            . Supplier
+            . Sodium lauryl sulfate Anionic surfactant Appearance: white pH: 7.3 Density: 1.102 g/cm2 at 28˚C Very soluble in water.Slightly viscous in solution High foam-forming ability. PCC Exol SA Surfactant
+            . Type
+            . Properties
+            . Characteristic
+            . Supplier
+            . Sodium lauryl sulfate Anionic surfactant Appearance: white pH: 7.3 Density: 1.102 g/cm2 at 28˚C Very soluble in water.Slightly viscous in solution High foam-forming ability. PCC Exol SA View Large
+
+
+Methods
+
+
+Characterization of sodium lauryl sulfate
+
+
+Fourier Transform Infrared Spectroscopy Analysis (FTIR)The FTIR analysis was used to determine the functional group of the sample. The figure 2 showed the present of NH group at broad band of (721 cm−1 - 1091 cm−1) due to the vibration of amide. There is present of carbonyl (C=O) group at band spectrum (1466 cm−1 – 1654 cm−1). The figure shows the present of OH group corresponding to the broad band (2847 cm−1 - 2953cm−1).Scanning Electron Microscopy Analysis (SEM)SEM analysis was performed on the surfactant to determine the morphology of the sample. Figure 3 showed intermolecular hydrophobic association of the Sodium Lauryl Sulfate chains due to the present of the C-H group in the sample. There is evidence of interconnection in the crystalline structure of the sample associated with the present of the OH molecules.
+
+
+Figure 2View largeDownload slideFunctional group of the Sodium Lauryl SulfateFigure 2View largeDownload slideFunctional group of the Sodium Lauryl Sulfate Close modal
+
+
+Figure 3View largeDownload slideMorphology of Sodium Lauryl SulfateFigure 3View largeDownload slideMorphology of Sodium Lauryl Sulfate Close modal
+
+
+Test to evaluate the effectiveness of the sample on EOR Process
+
+
+Interfacial tension test (IFT)
+
+
+Interfacial tension test was done using tensiometer machine to determine the surface tension of the fluid. Figure 4 indicates that the IFT test result obtained showed a decreasing interfacial tension reduction at increase in surfactant concentration which could suggest that the sample can alter the wettability of the cores from oil-wet to water-wet which can result to enhance oil recovery. Nowrouzi et al. (2020) observed that increase in surfactant concentration leads to interfacial tension reduction to a minimum value referred to critical micelle concentration (CMC) of the surfactant. Manshad and Rezaei (2017) reported that interfacial tension reduction is the main mechanism to surfactant flooding in order to improve hydrocarbon productivity.
+
+
+Figure 4View largeDownload slideGraph of IFT against concentrationFigure 4View largeDownload slideGraph of IFT against concentration Close modal
+
+
+Adsorption test
+
+
+Adsorption test was done using spectrum-lab machine to determine the rate of adsorption of sodium lauryl sulfate on the cores. The result (figure 5) showed that the sodium lauryl sulfate had low adsorption rate at different surfactant concentrations. (Belhaj et al., 2020) reported that high surfactant adsorption rate can decrease the surfactant concentration in the injected solution, which may affect the capacity to reduce the oil/ water interfacial tension. In addition, the effectiveness of surfactant to mobilize the trapped oil in enhanced oil recovery can be influenced by the adsorption process (Liu et al., 2019). Low surfactant adsorption rate plays a significant role in wettability change (oil-wet to water-wet) (Ojo et al., 2020). Excess surfactant adsorption can reduce the concentration in the aqueous phase and negatively affect the recovery efficiency of surfactant in enhance oil recovery processes (Saxena et al., 2019).
+
+
+Figure 5View largeDownload slideGraph of adsorption rate (sodium lauryl sulfate)Figure 5View largeDownload slideGraph of adsorption rate (sodium lauryl sulfate) Close modal
+
+
+Formulation of fluid for Core-Flooding Experiment
+
+
+Sodium lauryl sulfate was dissolved in water at different surfactant concentrations of 2g (0.2 wt %), 4g (0.4 wt %) and 6g (0.6 wt %) respectively. The dissolved samples (figure 6) were used in core flooding experiment to determine the ultimate oil recovery. Table 2 showed the property of the cores used.
+
+
+Figure 6View largeDownload slideSodium Lauryl Sulfate in solutionFigure 6View largeDownload slideSodium Lauryl Sulfate in solution Close modal
+
+
+Table 2Property of the cores Properties
+            . Core C1F
+            . Core C2F
+            . Height (cm) 8.54 8.38 Radius (cm) 1.40 1.38 Weight of the dry core (g) 9.27 7.45 Weight of the saturated core (g) 15.23 14.02 Pore volume (cm) 14.17 12.58 Bulk volume (cm) 52.59 50.14 Swi 0.23 0.26 Porosity (%) 28.8 27.8 Permeability (md) 155.2 176.5 Properties
+            . Core C1F
+            . Core C2F
+            . Height (cm) 8.54 8.38 Radius (cm) 1.40 1.38 Weight of the dry core (g) 9.27 7.45 Weight of the saturated core (g) 15.23 14.02 Pore volume (cm) 14.17 12.58 Bulk volume (cm) 52.59 50.14 Swi 0.23 0.26 Porosity (%) 28.8 27.8 Permeability (md) 155.2 176.5 View Large
+
+
+Procedures of the Core-Flooding Experiment
+
+
+The core-flooding experiment was conducted at a temperature of 90 ˚C and pressure of 800 psi. In this experiment, two methods of core-flooding experiment were employed. In the first stage, waterflooding was used as the displacing fluid to recovered oil. In the second stage, sodium lauryl sulfate (surfactant) was used as a tertiary recovery mechanism to recovered additional oil after waterflooding recovery process. The core flooding experiment were repeated at different surfactant concentrations of 2g (0.2 wt %), 4g (0.4 wt %) and 6g (0.6 wt %) respectively in order to evaluate the effect of the surfactant in enhanced oil recovery. Figure 7 shows the experimental set-up of the core-flooding process.
+
+
+Figure 7View largeDownload slideCore-flooding experimental set-upFigure 7View largeDownload slideCore-flooding experimental set-up Close modal
+
+
+RESULTS AND DISCUSSION
+
+
+Comparison of result between water-flooding and surfactant flooding
+
+
+Discussion of Results
+
+
+Table 3 presents the outcome of the result in the core-flooding experiment using Berea core sample denoted as (C1F). The result shows that water-flooding had oil recovery of 8.2 mils (40. 0 %) of the total oil in place. However, the addition of surfactant into the formation causes increase in oil recovery to 9.8 mils (47.8 %), 11.2 mils (54.6 %), 11.5 mils (56.1 %) of the total oil in place at different surfactant concentration of 0.2 wt %, 0.4 wt %, and 0.6 wt % respectively. More so, table 4 shows the core-flooding result using Berea core sample (C2F). The table indicates oil recovery of 8.4 mils (41.0 %) by water flooding while surfactant flooding had oil recovery of 10.1 mils (49.3 %), 11.8 mils (57.6 %) and 12.0 mils (58.5 %) at the same surfactant concentration.
+
+
+Table 3Core-flooding result of the performance of oil recovered with surfactant flooding using core C1F Concentrations
+            . Core samples
+            . Oil recovery (%)
+            . Total oil in place (mil)
+            . Total oil recovered (mil)
+            . Water-flooding C1F 40.0 20.5 8.2 Surfactant conc. (0.2 wt %) C1F 47.8 20.5 9.8 Surfactant conc. (0.4 wt %) C1F 54.6 20.5 11.2 Surfactant conc. (0.6 wt %) C1F 56.1 20.5 11.5 Concentrations
+            . Core samples
+            . Oil recovery (%)
+            . Total oil in place (mil)
+            . Total oil recovered (mil)
+            . Water-flooding C1F 40.0 20.5 8.2 Surfactant conc. (0.2 wt %) C1F 47.8 20.5 9.8 Surfactant conc. (0.4 wt %) C1F 54.6 20.5 11.2 Surfactant conc. (0.6 wt %) C1F 56.1 20.5 11.5 View Large
+
+
+Table 4Core-flooding result of the performance of oil recovered with surfactant flooding using core C2F Concentrations
+            . Core samples
+            . Oil recovery (%)
+            . Total oil in place (mil)
+            . Total oil recovered (mil)
+            . Water-flooding C2F 41.0 20.5 8.4 Surfactant conc. (0.2 wt %) C2F 49.3 20.5 10.1 Surfactant conc. (0.4 wt %) C2F 57.6 20.5 11.8 Surfactant conc. (0.6 wt %) C2F 58.5 20.5 12.0 Concentrations
+            . Core samples
+            . Oil recovery (%)
+            . Total oil in place (mil)
+            . Total oil recovered (mil)
+            . Water-flooding C2F 41.0 20.5 8.4 Surfactant conc. (0.2 wt %) C2F 49.3 20.5 10.1 Surfactant conc. (0.4 wt %) C2F 57.6 20.5 11.8 Surfactant conc. (0.6 wt %) C2F 58.5 20.5 12.0 View Large
+
+
+Figure 8-9 investigated the effects of surfactant concentration on oil recovery. The graphs indicate that injection of surfactant played a significant role in improvement of hydrocarbon productivity via mobilization of residual oil from trapped oil in the reservoir. The figure also shows that increase in surfactant concentration leads to increase in oil recovery at different surfactant concentration. However, there is no additional oil recovery observed above surfactant concentration of 0.6 wt%. The increase in oil recovery is due to IFT reduction and wettability change of the cores. Al-Sulaimani et al. (2012) reported that oil recovery is mainly due to the volumetric sweep displacement efficiency that occurs during water-flooding injection.
+
+
+Figure 8View largeDownload slideGraph of oil recovery against time using Core (C1F)Figure 8View largeDownload slideGraph of oil recovery against time using Core (C1F) Close modal
+
+
+Figure 9View largeDownload slideGraph of oil recovery against time using Core (C2F)Figure 9View largeDownload slideGraph of oil recovery against time using Core (C2F) Close modal
+
+
+Figure 10-11 presents the result comparison between water-flooding and surfactant flooding. The results show the effectiveness of the surfactant to improve oil recovery. The use of sodium lauryl sulfate for EOR applications showed great improvement as a good displacing fluid and mobility control. Torres et al. (2011) reported that surfactant has the ability to breakdown the capillary forces existing between two immiscible liquids (that is surfactant slugs and residual oil). The higher the surfactant concentration, the greater is the performance of the surfactant to improve oil recovery through oil/water interface.
+
+
+Figure 10View largeDownload slideGraph of oil recovery against concentration for Core (C1F)Figure 10View largeDownload slideGraph of oil recovery against concentration for Core (C1F) Close modal
+
+
+Figure 11View largeDownload slideGraph of oil recovery against concentration for Core (C2F)Figure 11View largeDownload slideGraph of oil recovery against concentration for Core (C2F) Close modal
+
+
+Conclusion
+
+
+In this study, the use of sodium lauryl sulfate as surfactant was investigated in enhanced oil recovery of medium crude sandstone reservoir in the Niger Delta oil fields. In this experiment, surfactant flooding achieved macroscopic sweep displacement efficiency via interfacial tension reduction between the surfactant slugs and the trapped oil. The following conclusions can be established from this study:
+
+
+The effectiveness of sodium lauryl sulfate as surfactant was investigated for use in enhanced oil recovery of medium crude oil in the Niger Delta fields.Sodium lauryl sulfate shows better oil recovery when compared to conventional water-flooding.Surfactant interfacial tension reduction contributed to improved oil recovery.The core-flooding experimental results showed that incremental oil recoveries of 47.8 %, 54.6 % and 56.1 % using Berea core sample (C1F) and 49.3 %, 57.6 % and 58.5 % for Berea core sample (C2F) respectively was observed.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Al-SulaimaniH., Al-WahaibiY, Al-BahryS, ElshafieA, Al-BemaniA, JoshiS (2012). Residual-Oil Recovery through Injection of Bio-Surfactant, Chemical Surfactant, and Mixtures of Both Under Reservoir Temperatures: Induced-Wettability and Interfacial Tension Effects. S.P.E Reserv. Eval. Eng. (15): pp 210–217.Google Scholar AlvaradoV., ManriqueE., (2010). Enhanced Oil Recovery: Update Review. Energies (3), pp 1529–1575.Google ScholarCrossrefSearch ADS  Belhaj, A. F., Elraies, K. A., Mahmood, S. M., Zulkifli, N. N., Akbari, S., Hussien, O. S., (2020). The Effect Of Surfactant Concentration, Salinity, Temperature, And Ph On Surfactant Adsorption For Chemical Enhanced Oil Recovery: A review. Pet J. Explor. Prod. Technol. 10, 125–137.http://dx.doi.org/10.1007/s13202-019-0685-y.Google ScholarCrossrefSearch ADS  Elraies, K. A., Tan, I. M., Awang, M., Saaid, I. (2010). The Synthesis and Performance of Sodium Methyl Ester Sulfonate For Enhanced Oil Recovery. Pet. Sci. Technol. (28), pp 1799–1806.Google ScholarCrossrefSearch ADS  HematpurH., MahmoodS. M., AkbariS., NasrN. H., AwangM., NegashB., AkhirN. M., LubisL., RafekA. M. (2017). Comparison Study on Anionic Surfactants and Mixed Surfactant Behavior in SAG Foam Process. In: (eds) ICIPEG. Springer.Google ScholarCrossrefSearch ADS  Hirasaki, G.J., Miler, C. A., Pope, G. A., Jackson, R. E. (2004). Surfactant Based Enhanced Oil Recovery and Foam Mobility Control. 2nd Annual Technical Report, July 2004, DE-FC26-03NT15406.Google Scholar ManshadA. K, RezaeiM. (2017). Wettability Alteration and Interfacial Tension (IFT) Reduction In Enhanced Oil Recovery (EOR) Process With Ionic Liquid Flooding. Mol J. Liq. (248): pp 153–162.Google ScholarCrossrefSearch ADS  Nowrouzi, I., Mohammadi, A. H., Manshad, A. K., (2020). Water-Oil Interfacial Tension (IFT) Reduction And Wettability Alteration In Surfactant Flooding Process Using Extracted Saponin From Anabasis Setifera Plant. Petrol J. Sci. Eng. (189), pp 106–118.http://dx.doi.org/10.1016/j.petrol.2019.106901.Google ScholarCrossrefSearch ADS  Liu, Z., Ghatkesar, M. K., Sudhölter, E. J. R., Singh, B., Kumar, N., (2019). Understanding The Cation-Dependent Surfactant Adsorption On Clay Minerals In Oil Recovery. Energy Fuels33, pp 12319–12329.http://dx.doi.org/10.1021/acs.energyfuels.9b03109.Google ScholarCrossrefSearch ADS  Ojo, O. F., Farinmade, A., John, V., Nguyen, D., (2020). A Nano-Composite of Halloysite/Surfactant/Wax to Inhibit Surfactant Adsorption onto Reservoir Rock Surfaces for Improved Oil Recovery. Energy Fuels34, 8074–8084.http://dx.doi.org/10.1021/acs.energyfuels.0c00853.Google ScholarCrossrefSearch ADS  SamantaA., OjhaK. (2011). Surfactant and Surfactant-Polymer Flooding for Enhanced Oil Recovery. Adv. Petrol. Explor. Dev. 2: pp 13–18.Google Scholar HocineS., CuencaA., MagnanA., TayA., MoreauP. (2016). The Enhanced Oil Recovery: An Extensive Study of the Thermal Stability of Anionic Chemical EOR Surfactant—Stability in Aqueous Solutions. In: IPTC-18974-MS.Google Scholar IzuwaN. C., NwoguN. C., WilliamsC. C., IhekoronyeK. K., OkerekeN. U.OnyejekweM. I. J. (2021). Experimental Investigation of Impact of Low Salinity Surfactant Flooding For Enhance Oil Recovery: Niger Delta Field Application. Petrol. & Gas Eng. Vol. 12 (2), pp. 55–64.Google ScholarCrossrefSearch ADS  KamalM. S, HusseinI. A, SultanA. S (2017). Review on Surfactant Flooding: Phase Behavior, Retention, IFT, And Field Applications. Energy Fuels31(8): pp 7701–7720.Google ScholarCrossrefSearch ADS  Saxena, N., Kumar, A., Mandal, A., (2019). Adsorption Analysis of Natural Anionic Surfactant for Enhanced Oil Recovery: The Role Of Mineralogy, Salinity, Alkalinity and Nanoparticles. Petrol J. Sci. Eng. (173), pp 1264–1283.http://dx.doi.org/10.1016/j.petrol.2018.11.002.Google ScholarCrossrefSearch ADS  TorresL, MoctezumaA, AvendanoR. J, MunozA, GracidaJ. (2011). Comparison of Synthetic Surfactant and Bio-Surfactant for Enhanced Oil Recovery. Pet J. Sci. Eng. (76) pp 6–11.Google ScholarCrossrefSearch ADS  Wang, Y., Zhao, F., Bai, B., Zhang, J., Xiang, W., Li, X., & Zhou, W. (2010). Optimized Surfactant Interfacial Tension and Polymer Viscosity for Surfactant-Polymer Flooding in Heterogeneous Formations. SPE 127391. Paper presentation at the SPE Improved Oil recovery Symposium held in Tulsa, Oklahoma, USA, 24-28 April 2010.Google Scholar Yu, Q., Jiang, H., Zhao, C., (2010). Study Of Interfacial Tension Between Oil and Surfactant Polymer Flooding. Pet. Sci. Technol. (28), pp 1846–1854.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211978-MS
+
+
+

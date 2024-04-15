@@ -1,0 +1,261 @@
+----- METADATA START -----
+Title: An Integrated Approach To Production Optimization In Ageing Gas Lifted Fields- Ikanto Field Experience
+Authors: Benjamin Obong, Pius Adegoke, Soba Osuji-Bells, David Ogbonna, Hassan Salisu, Onyinyechi Ekerenduh, Segun Adomokhai
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211961-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+In many ageing fields, there is a constant need to optimize production performance of the wells to ensure that they continue to deliver value. As a field matures, with high water and sand cut production from the wells, water breakthrough from water flooding projects and other artificial pressure maintenance programs, the produced fluid water cut and gas-oil ratio will be changing. For such fields, the optimal use of existing surface facilities is critical to sustaining and increasing well rates leading to a corresponding reduction in production costs.In the Ikanto field, Gas Lift is the preferred artificial lift method, and has been so for over twenty years. However, with increased water production from the wells, the field separating train is faced with handling produced water in the separator train. Other challenges in the gas lift system including obsolete field metering equipments, meter calibration and maintenance challenges, etc, have impacted optimization opportunities from the gas lifted wells. The resulting consequence is the inability to fully determine optimal lift gas injection rates if the lift gas injection into the well is over or under-injected in line with advised lift gas rates from well performance models. An important input for gas lift optimization is the volumetric flow rate of injection gas. This data can help experienced Production engineers and field technicians determine if the lift gas injection into the well is optimal, thus providing directional guidance on what change(s) should be made to improve the well performance.In order to ensure that the asset value is enhanced, an integrated approach to maximizing production from the field was deployed ranging from the upgrade and automation of the existing gas lift infrastructure in the field vis-à-vis carrying out gas lift system optimisation, carrying out de-bottlenecking of parts of the production system, and the installation of real time surface monitoring systems.In this paper, the results of the optimization efforts in the Ikanto field are discussed. The analysis of the results has resulted in an upscale of total daily production from the field by over thirty percent (30%).
+
+
+
+
+Keywords:
+upstream oil & gas,
+manifold,
+integrated approach,
+gas lift,
+artificial lift system,
+reservoir,
+gas injection,
+ikanto-1 cpf,
+operation,
+nigeria annual international conference
+
+
+Subjects: 
+Artificial Lift Systems,
+Improved and Enhanced Recovery,
+Gas lift,
+Well Operations and Optimization
+
+
+
+
+Introduction
+
+
+The Ikanto field is an onshore field in the Niger Delta. It was discovered in 1959 and came on stream in August 1961. The field attained peak production of 110 kbopd in 1970. Production decline set in shortly afterwards and by 1983, the average field production had dropped to about 27 kbopd. A drilling and workover campaign kicked-off in 1989 and brought the field production up to 50 kbopd. This however declined to an average production of 25 kbopd by 1998. A field review carried out in 1998 resulted in a horizontal drilling campaign in 2000 – 2002, which increased the field production back to 50 kbopd. The field is however on the decline again with increasing water cut and the current average production is 12.5 kbopd.
+
+
+Cumulative production of 723 MMstb of oil has been produced from 104 wells with 37 currently producing, out of which 20 wells are on gaslift. The field comprises multiple stacked reservoirs, and gravel pack is used as sand control mechanism for most of the wells. The oil is under saturated with 18-20 °API in shallow reservoirs and 22-30 °API in deeper reservoirs. The initial solution gas-oil ratio ranges from 113 to 2660 scf/bbl. The reservoirs are generally shoreface and channel deposits with average porosity of 18-33%, permeability of 500-3000mD, and oil viscosity of 0.14-17.6cp. The reservoir is supported by a strong water drive, with about 54% of the wells requiring artificial lift due to prevailing fluid properties and continuously increasing water cut.
+
+
+The Ikanto field with over sixty (60) years of production was first kicked-off on Gas Lift in 1992 to increase oil production through improved vertical lift performance of existing wells that have attained the limit of natural flow. The field comprises of a large comprehensive and distributed pipeline network, and the field production infrastructure consists of three production processing facilities viz Ikanto-1, Ikanto-2 and Ikanto-3 central processing facilities (CPFs). The Ikanto-1 CPF is a double-bank facility with sixty thousand barrels (60kbbls) capacity and operates a two-phase separation philosophy. The gas lift manifold is located centrally at the Ikanto-1 CPF, from where high pressure compressed gas at 1015psi is supplied from an associated gas gathering plant and sent through the gas lift manifold via 2" gas lift lines to the various gas-lifted wells. The wells consist of both single and dual string completions, with dual string completions accounting for eighty-five (85%) of the total gas-lifted well count. Continuous gas lift is presently deployed in the wells that contribute 51% of the total field production.
+
+
+Gas-lifted oil contribution to the overall field's net oil production has not been sustained due to a wide range of problems. The notable ones have been poor uptime of dehydration unit within the Associated Gas Gathering plant (AGG), limited lift gas metering and control capability, and ageing gas lift infrastructure. Others have ranged from sub-optimal well designs and legacy completion strategy, to limited collaboration and slow restoration of wells with deferment. Also, poor/reactive surveillance, dual string optimization challenge, gaslift competence of key personnel in production operations and production technology disciplines, changes in production rates and fluid properties, have made steady and predictable production a challenge. An efficient gas lift system management and optimization is therefore integral to maximizing asset value.
+
+
+To gain a better understanding of the issues contributing to the under-performance of the gas lift system in the Ikanto field, and secure management/ asset ownership of the identified issues, a Gaslift Health check and opportunity framing workshop was held within the Ikanto Asset team using the well and reservoir management (WRM) value loop tool methodology shown in Figure 1 below:
+
+
+Figure 1View largeDownload slideWell and reservoir management (WRM) value loop tool methodologyFigure 1View largeDownload slideWell and reservoir management (WRM) value loop tool methodology Close modal
+
+
+The results from the health checks/workshops revealed that a multi-disciplinary team cutting across subsurface, surface, operations, community liaison, well intervention and asset engineering will be required to fix the problems with equipment, facilities, wells, skills, operational practices, workflows and accountabilities. Consequently, a multi-disciplinary team was constituted to drive the improvement initiatives. Key issues identified during the health checks were translated into an improvement plan that formed the basis of the ongoing improvement activities. These ranged from carrying out an upgrade of the existing gaslift system, gaslift optimization, deployment of real time tools and process de-bottlenecking.
+
+
+Gas Lift System Status Assessment and Improvement Identification
+
+
+As part of the health check, a status report was generated, and improvement opportunities identified as seen in the populated WRM value loop shown in Figure 2 below
+
+
+Figure 2View largeDownload slideUpdated Well and reservoir management value loop toolFigure 2View largeDownload slideUpdated Well and reservoir management value loop tool Close modal
+
+
+The focus of the multi-disciplinary team was to understand the fundamental cause(s) of the underperformance of the gas lift system and proffer short, medium and long-term improvement solutions. The team was also to set up structures, tools and systems that will sustain and embed best practices for an efficient system going forward.
+
+
+Based on the reviews carried out by the Ikanto field multi-disciplinary team, it was decided that the improvement initiatives be divided into four (4) phases viz:
+
+
+Gas Lift system revamp (includes enhanced well testing capability for gas-lifted wells and installation of Ikanto-1 CPF water cut meter)Gas Lift Optimization (GLOP)Process De-bottleneckingValidation of gains from the GLOP activities/report-out.
+
+
+Revamping of Gas Lift System in the Ikanto Field
+
+
+There were a lot of challenges with the gas lift infrastructure in the Ikanto field, despite an upgrade from manual gaslift metering in 2011 to an automated manifold fully equipped with flow control valves (FCVs) (Figure 3). These challenges stemmed from the lack of a robust maintenance strategy for the automated gas lift manifold leading to slow response time to address instrumentation issues, non-responsive FCVs, non-calibration of FCVs that have drifted, and asset ownership of the installed hardware. Usually for un-responsive or non-functional FCVs, the by-pass valves of each ligament was usually opened to allow for manual operation with no handle on the amount of lift gas being injected into each gas lifted well. This has led to over-injection in most cases resulting in sub-optimal production.
+
+
+Figure 3View largeDownload slideIkanto 1 CPF central automated gas lift manifoldFigure 3View largeDownload slideIkanto 1 CPF central automated gas lift manifold Close modal
+
+
+Another challenge was also the lack of integration of the automated gas lift manifold with the existing well testing module installed in the Ikanto field in 2006. This impacted on the accuracy of lift gas injected volumes recorded during well testing of the gas lifted wells.
+
+
+The material difference between a conventional gas lift system and an automated gas lift system is that the later helps to improve efficiency and smoothen gas injection to each well for maximised oil production. It is an acknowledged fact worldwide that wherever the automation in continuous gas lift system has been introduced, the oil production has increased from 5 to 35%. On introduction of gas lift automation, the benefits like automatic control of the quantity of lift gas injection in individual well as per the well requirement, optimum gas allocation to each well, easy and quick monitoring, troubleshooting of gas lift operation on individual well basis, and overall increase of oil production, can be derived (Kumar et al., 1996). The other additional benefit is the conservation of energy, as excess gas can be exported for sales.
+
+
+The focus of the revamp was to complete the integration of the Ikanto Gaslift DCS ((Distributed Control System) with the Ikanto-1 CPF DCS for well test volume measurement particularly the injected gas volume, and to also restore the functionality of the FCVs.
+
+
+Well testing procedures are carried out monthly for all oil producing wells at Ikanto-1 CPF to evaluate the performance of each oil well. The test data is used for production forecasts as well as other business-related decisions. The current data set provides the average gross oil, average net oil, average water cut (BS&W) and average gas flow rates for each oil well that is put on test. However, with the introduction of continuous gas lift in many depleted oil wells in the field, the current well test of the DCS application logic does not reflect the actual formation gas production performance. The gas production data for these gas-lifted wells is rather a combination of the injected lift gas and the formation gas, with the lift gas component usually estimated by an experienced operator, using the equations below:
+
+
+For gas lifted wells:
+
+
+Formation Gas Volume, GVfmt≈GVprd−GVinj
+
+
+Where GVinj is Injected Gas Volume i.e the total gas volume that is injected into a well.
+
+
+For non-gas lifted wells:
+
+
+Formation Gas Volume, GVfmt≈GVprd
+
+
+Where GVprd is Production Gas Volume (i.e the total gas volume produced from a well), and
+
+
+GVfmt is Formation Gas Volume i.e the total gas volume that is produced by a well excluding the total gas volume injected for gas-lifted operations.
+
+
+The intent of the well test optimization project was to correct this anomaly, with the aim being to put the injected gas volumes into consideration during well testing, which will help determine the actual formation gas production rates for any gas lifted well that is put on test.
+
+
+Figures 4 and 5 below depicts the schematics of the outcome of the integration activities:
+
+
+Figure 4View largeDownload slideIntegration ArchitectureFigure 4View largeDownload slideIntegration Architecture Close modal
+
+
+Figure 5View largeDownload slideIkanto-1 CPF Test Separator-1 Well Test Status GraphicsFigure 5View largeDownload slideIkanto-1 CPF Test Separator-1 Well Test Status Graphics Close modal
+
+
+Gas Lift Optimization
+
+
+An important input for gas lift optimization is the volumetric flow rate of injection gas. This data can help experienced Well analysts and gas lift technicians determine if the lift gas injection into the well is optimal in line with advised lift gas rates from models, thus providing directional guidance on what change(s) should be made to improve a well's performance. The volumetric flow rate can be used to estimate the transit time of injected gas, which can then be combined with other tools to determine downhole injection points. An accurate and reliable flow measurement is vital in optimising the injection rates. Too little gas injection and the oil production will be reduced, while too much gas injection nevertheless also impedes production. At the same time, the excess gas can't be exported for sales (Obong et al., 2018).
+
+
+In the Ikanto field, the operational practice of managing gas-lifted wells is to flow them with chokes installed in the bean boxes as advised by the subsurface team thus having the flow rate of each well choke-controlled rather than injected lift gas rate-controlled, apparently because of the sub-optimal performance of the Gas Lift system and lack of confidence of the gas lifted well test data especially with respect to measured injected gas during testing. This operation was an abberation as it was like applying the ‘brakes’ of a car and ‘accelerating’ at the same time.
+
+
+With the completion of the gas lift system revamp, the focus of the optimization effort was to
+
+
+Reduce back pressure on the wells through bean-ups for gas lifted wells with chokes on them.Carry out multi rate testing (MRT) with injected lift gas as the driver, vis-à-vis sand and water cut monitoring. This is to get a baseline data for all the 20 gas lifted wells in the field for Well performance model update.Carry out BHP surveys for the gas-lifted wells and develop gas lift valve change-out (GLVCO) proposals where applicable.Restoration of wells on deferment (due to flowline cuts, gas lift line vandalization and wellhead issues) and kick-off wells on gas lift.Restoration of wells on deferment, using new tools and technologies (venturi orifice, foam-assisted gas lift, soap sticks, Echometer, etc), especially for dual completions on gas lift due to gas sharing issues.
+
+
+A staircase implementation plan tranching each of the above components was developed, and is seen in figure 6 below
+
+
+Figure 6View largeDownload slideGaslift Optimization Staircase Implementation PlanFigure 6View largeDownload slideGaslift Optimization Staircase Implementation Plan Close modal
+
+
+Process De-bottlenecking
+
+
+To sustain gains from the gas lift system upgrade and optimization (including engineering activities via flowline and gas lift line repairs), the Ikanto operations team in collaboration with the process engineering team carried-out a Do-it-Yourself (DIY) campaign to de-sludge the gas lift manifold and remove restrictions from the inlet manifold of Ikanto-2 and Ikanto-3 CPFs which had earlier being re-routed to Ikanto-1 CPF as part of ullage optimization strategy. With the re-routing of the flow from both Ikanto-2 and Ikanto-3 CPF, and mothballing of the two facilities, the orifice plates earlier installed in the inlet manifold of both facilities for real time monitoring became redundant.
+
+
+With a view to optimize production, the Ikanto field Integrated Production System Model (IPSM), which also incorporates the surface network model, was used to evaluate the pressure losses and back-pressure impact on the wells due to the presence of the orifice plates. It was observed that these orifice plates caused significant back-pressure impact on the declining gas-lifted wells, resulting in suboptimal production from the wells. As predicted by the IPSM, the removal of the orifice plates from the well flowlines at the inlet manifold of the CPF resulted in less back-pressure to the wells and increased production rates from the wells to the central Ikanto-1 CPF. Figure 7 below is a snapshot of the Ikanto field IPSM (showing the reservoirs, wells and surface network) post the process de-bottlenecking activities.
+
+
+Figure 7View largeDownload slideIkanto Field Integrated Production System ModelFigure 7View largeDownload slideIkanto Field Integrated Production System Model Close modal
+
+
+Field Execution Strategy- Gas Lift Optimization Gains
+
+
+The approach of the Ikanto asset team was to first carry out a baseline production data survey of the wells producing on gas lift, which served as input into the models to be developed for the gradual choke removal exercise vis-à-vis well testing and sand cut monitoring.
+
+
+The plan was to execute a stepwise bean-up approach, while monitoring water cut and sand cut. This was done in four phases (5 wells per phase), based on sand cut performance, up to the final proposed bean size of 64/64″. After each bean-up, the wells were allowed to produce on the new choke size for up to a week for proper well and reservoir management. Table 1 below shows the bean sequence of the first phase of wells, and the estimated gain (480 bopd). Table 2 shows the actual gains from the bean up sequence vis-à-vis using the optimized lift gas rates after completion of the multirate tests (MRT).
+
+
+Table 1Bean-up sequence of gas lifted wells   View Large
+
+
+Table 2Actual gains from the bean up sequence of gas lifted wells   View Large
+
+
+A Multi-rate test was also conducted for all the gas-lifted wells, and the results documented. Some gas-lifted wells whose flowlines and gas lift lines were vandalised, were restored ex-engineering activities (sectional replacement of flowlines and gas lift lines) and kicked-off on gas lift as well.
+
+
+The actual work execution of the opportunities deployed the Lean methodology (ANDON BOARD) where process lead times (PLT) were monitored from opportunity identification to execution, and this helped in pulling various sections of the multidisciplinary team to achieve a smart delivery of the project objectives. The table below (Table 3) shows the total gains from the Gas Lift optimisation activities in the Ikanto field. Key activities that contributed to these gains were bean-ups of the gas lifted wells, back pressure reduction in existing wells, kick-off of new wells on gaslift, liftgas optimization, gaslift line repair, flowline repairs and well head equipments repairs just to mention but a few.
+
+
+Table 3Gas Lift Optimisation Activities Gains in the Ikanto Field   View Large
+
+
+Figure 8 below is a graphical representation of the Andon board showing the integrated approach deployed by the multidisciplinary team (Asset development team, Asset engineering, Community/External relations, Production, Programming) to achieve a smart delivery of the project.
+
+
+Figure 8View largeDownload slideProcess Lead Times by Deploying Integrated Approach for the Gaslift Optimisation ProjectFigure 8View largeDownload slideProcess Lead Times by Deploying Integrated Approach for the Gaslift Optimisation Project Close modal
+
+
+An analysis of the gains earlier presented in Table 3 above, clearly paints a clear impact of the revamped gas lift system at the Ikanto field. Although the expected gains from some few wells were below target, many of the wells delivered above target. Figure 9 below shows the production gain staircase plot by activity, and the attendant impact on the bottom line.
+
+
+Figure 9View largeDownload slideIkanto Field Production Growth Staircase PlotFigure 9View largeDownload slideIkanto Field Production Growth Staircase Plot Close modal
+
+
+Following the full implementation of the Gas lift optimisation project, an added focus was to enhance the capability of field staff to carry out proactive monitoring of both well and process performance. As part of the digitilisation drive, a Water cut meter (WCM) was installed at the crude oil metering skid of the Ikanto-1 CPF. Other tools included the use of hand-held analytical tools for technicians and field engineers such as Smartconnect PI tools etc. This was to provide real time proactive monitoring of both the well performance and the process system to allow for quick response to situations where the process vessels set points are outside the operating envelope. This is particularly key during a process re-start after a trip or the trip of the gas gathering plant leading to the cut back of lift gas supply to the wells. The drive was to deploy a robust Water cut creaming strategy where high water cut gas-lifted and natural flow wells will be closed first, during process upsets and opened last ex-facility re-start. For a typical start-up of the facility, it takes 48 to 96hrs to stabilise the gaslifted wells post re-start of the gas lift manifold. The focus was to open-up low water cut natural flowing wells, open up gaslifted wells with natural flow potential with lower water cut, stabilise the wells for one (1) to three (3) days, before bringing in higher water cut natural flow wells. This will be closely followed by the kick-off of gas lift critical wells (these are wells that will not flow without lift gas), and eventually all other gas lifted wells.
+
+
+With the use of smart tools in the hands of both operations and maintenance technicians in the field, it was easier to sustain the banked gains by following an integrated approach to facility start-up and well optimisation after open-up ex-trips or process upsets. With the real time proactive monitoring, peak net production was achieved faster between three (3) to five (5) days when compared with seven (7) to ten (10) days achievement of peak production without the use of smart tools. Wells’ sub-optimal performance, wells’ trip, facility equipment trips (e.g export pumps etc) can now be quickly detected and re-instated.
+
+
+A seven (7) month trend data of open-ups after process shut- downs/trips highlighting the impact that digitilisation tools have helped in quick production restoration and optimisation is presented in Figure 10 below.
+
+
+Figure 10View largeDownload slideIkanto-1 CPF Production Trend showing the Impact of Real time tools in Quick Production RestorationFigure 10View largeDownload slideIkanto-1 CPF Production Trend showing the Impact of Real time tools in Quick Production Restoration Close modal
+
+
+Learnings
+
+
+Gas lift systems reward regular attention because there are many reasons why a system may benefit from attention. They can be reservoir— issues may be related to the change in fluid composition or production characteristics over time; mechanical—valves can stop steadily injecting gas at the correct pressure or tubing leaks can release it; or be design-related—a standard downhole injection system might not be sized correctly for that well (Rassenfoss, 2014). However, the beauty of gas lift is that minimal intervention is required because it can handle a wider range of production conditions versus other artificial lift methods. When a gas lift system starts performing poorly, there is a good chance no one will notice. It is not an event that demands attention like a broken pump (Rassenfoss, 2021). A gaslift system may continue injecting gas and oil production even with suboptimal functioning of some of its component parts’. Optimization is therefore key if we are to get the most from the asset and ensure that ‘we do not leave anything on the table’. A further benefit seen from the revamp of the gas lift manifold was a reduction in lift gas injected volumes, which increases capacity within the production piping for additional produced liquids, and associated gas, as well as availability of the excess gas for sales.
+
+
+To help keep focus on the gas lift system in the Ikanto field, a maintenance plan was developed and loaded into the preventive/corrective (PM/CM) maintenance database to allow for work order callups to enable the maintenance and operations teams carry out 1-weekly, 1-monthly, 3-monthly, 6-monthly and 1-yearly PMs/CMs activities. Also, a visual log First line maintenance (FLM) book was developed for the Operations team to carry out daily FLMs during their walkrounds in the Ikanto-1 CPF.
+
+
+Conclusion
+
+
+The success of the Ikanto Field production optimization project is due to an integrated effort between subsurface, operations, maintenance, programming, surface engineering and community liaison teams. The external coordination and support from the Gaslift focused delivery team provided an external perspective and technical support for the delivery within the Asset teams. The timely revamp of the Gaslift manifold skid, flowline/gas lift line repairs, improvement in gas dehydration unit uptime, capability building, robust Integrated production system modelling and rollout of the integrated well test system for gas lifted wells were key enablers. The project, by work activity resulted in a total gain of 5100 bopd which translates to over thirty (30%) percent production increase.
+
+
+The success of the project has given Production engineers, well analysts and Plant operators increased confidence to optimise gas lifted wells in the field. The next phase of the project will see the integration of the visual display FLM as part of the hand-held Smart tools that have been deployed in the facility. Also, to effectively manage dual string gas lifted wells, venturi orifice valves will be deployed to help improve gas lift performance of the dual string wells (Nwadike et al., 2014), as well as other gas lift diagnostic tools like the implementation of well tracer technology for exception-based surveillance to help sustain the already achieved gains. With the new data collected from BHP surveys and during multi rate tests, the field operators are now able to balance the gas lift system and carry out a focused and precise process optimisation. Now, the right amount of lift gas for optimal gas lift can be injected, while excess gas can be exported for sales.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgements
+
+
+The authors wish to express their appreciation to the management of Shell Petroleum Development Company of Nigeria Ltd for the permission to present and publish this paper.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion WRMWell and Reservoir Management FCVFlow Control Valve GLOPGas Lift Optimisation WCMWater Cut Meter DCSDistributed Control System MRTMultirate Tests MSCFThousand Standard cubit feet MMSCF/DMillion Standard cubic feet per day BOPDBarrels of Oil Per Day PIPlant Information STBStock Tank Barrel CPFCentral Processing Facility IPSCIntegrated Production System Capacity GLGas Lift FLLFlowline leaks FLMFirst Line Maintenance
+
+
+References
+
+
+Kumar, A., Singh, R.S.K.De & MalhotraB.D. (1996) "Automation of Gas Lift Operation in Bombay Offshore Fields", Presented at the 7th Abu Dhabi International Petroleum Exhibition and Conference, Abu Dhabi, U.A.EOctober 13 –16.Google Scholar Obong, B., Ogoleh, F., Ekine, T., Azibapu, F., (2018), "The Use of Clamp-on Flowmeter In Gas Lift Operations-Badan Field Experience", Presented at the Society of Petroleum Engineers Nigeria Annual International Conference and Exhibition, SPE Paper #193413, August 6-8.Google Scholar Rassenfoss, S. (2014) "Paying Close Attention To A Gas Lift System Can Be Rewarding", Journal of Petroleum TechnologyNovember30th.Google Scholar Rassenfoss, S. (2021) "Now Is The Time For Gas Lift To Live Up To Its Potential", Journal of Petroleum TechnologyMay1st.Google Scholar Nwadike, N., Ofia, I., Essien, U., Obong, B., Amos, T., Oton, E., Sheri, A., (2014), "Enhancing The Production Performance Of Dual Completed Gas Lifted Wells Using The Nova Venturi Orifice Valves’’, Presented at the Society of Petroleum Engineers Nigeria Annual International Conference and Exhibition, SPE Paper #172451, August 5-7.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211961-MS
+
+
+

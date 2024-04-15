@@ -1,0 +1,268 @@
+----- METADATA START -----
+Title: Optimal Well Designs and Process Frameworks: Keys to Reducing Well Cost and Winning in any Environment
+Authors: Olugbenga Abolarin, Adetokunbo Ayodele, Bodunde Williams, Ikenna Pita-Nwana, Chidi Elendu
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211909-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Growing concerns for global energy transition and dwindling demand for crude oil has impacted the revenues and investment portfolios of most oil and gas companies. More than ever, hydrocarbon exploration and production costs require extra scrutiny and prudence. Drilling and Completions costs take a significant proportion of the capital expenditure and savings realized from this would improve development cost per barrel, improve project economics and yield better returns for all stakeholders.To unlock the fiscal values required to win in this economic climate and attract investments to develop oil and gas assets, a paradigm shift is needed on well delivery, well design and execution processes. Cost savings opportunities exist all through the well maturation, but the highest value can be realized in the design stage. This stage involves opportunity identification, alternatives generation, setting of value based well objectives, design, and engineering etc.This paper discusses cost saving initiatives such as advanced casing design to optimize the number of casing strings run, slim well designs, streamlined formation evaluation plan, bottom hole assembly (BHA) optimization, equipment standardization, adoption of agile methodologies to determine minimum function objectives, utilization of data-analytics tools to drive performance, application of state-of-the-art technology, extensive use of peer assists and peer reviews etc. Proper adoption of these initiatives can yield up to 30% reduction in well cost and ultimately enable oil and gas companies to compete and win in any environment.
+
+
+
+
+Keywords:
+upstream oil & gas,
+casing and cementing,
+casing design,
+drilling operation,
+wellbore integrity,
+asset and portfolio management,
+reservoir characterization,
+requirement,
+well cost,
+exhibition
+
+
+Subjects: 
+Well Planning,
+Wellbore Design,
+Drilling Operations,
+Casing and Cementing,
+Reservoir Characterization,
+Asset and Portfolio Management,
+Professionalism, Training, and Education,
+Information Management and Systems,
+Wellbore integrity,
+Running and setting casing
+
+
+
+
+Introduction
+
+
+With the extremely high level of uncertainty and fluctuations in crude oil prices, the need to guarantee profitability in any environment by keeping well cost as low as possible without compromising safety is becoming ever more imperative.
+
+
+While considerable savings can be realized from improving operational efficiency during job execution, much more significant savings can be realized by optimizing workflows, selecting fit-for-purpose tools, utilizing detailed engineering analysis to develop optimal well designs and minimize wellbore related non-productive times during the planning phase.
+
+
+This paper discusses some planning and execution phases initiatives that will positively impact project economics in both shelf and deepwater environments.
+
+
+Wells Development Cost Reduction Initiatives
+
+
+Well Delivery Process
+
+
+A Well Delivery Process defines a set of activities along a timeline to plan, execute and close out a well [1]. The process is extensively used by many Operators and generally follows a waterfall approach with phase gates review as seen below in Figure 1.
+
+
+Figure 1View largeDownload slideWaterfall ProcessFigure 1View largeDownload slideWaterfall Process Close modal
+
+
+Although the waterfall framework has been extensively used in the past, it has limitations when applied in a fast-paced, rapidly evolving business environment due to the upfront documentations and requirements. Review and approval of deliverables are performed at the end of each phase gate and if the outcome of the review is not positive, well maturation is delayed due to the recycling of the phase deliverables.
+
+
+The agile methodology on the other hand involves constant collaboration and working in iterations (See Figure 2). When applying agile, the aim is to focus on the prioritized activities and deliver solution after sprints (1-4 weeks). Daily scrum meetings are performed to discuss updates and remove any barrier to progress. The agile methodology is more flexible in its approach, leaves a lot of room to adapt, without the requirement for phase gate reviews to proceed with other tasks.
+
+
+Figure 2View largeDownload slideAgile ProcessFigure 2View largeDownload slideAgile Process Close modal
+
+
+The result of applying Agile methodologies has helped in improving well planning documentation delivery pace from 1.5 wells per month to 8 wells per month. This was achieved by the full integration of different disciplines, avoiding repetitive tasks, and providing management more influence on the inflight product [2].
+
+
+By streamlining well maturation process, wells can be brought online (production) ahead of schedule and realize value from early production.
+
+
+Casing Design Optimization – Slim Well Design
+
+
+The purpose of casing design is to select the appropriate casing (size, grade, and weight) that will help to meet the well objectives. As shown in Figure 3, this is driven by a lot of factors such as pore pressure, fracture gradient, completion type and accessories, subsurface constraints, etc.
+
+
+Figure 3View largeDownload slideCasing Design ProcessFigure 3View largeDownload slideCasing Design Process Close modal
+
+
+Advanced casing design goes beyond leveraging offset well design; it is an iterative step that brings cost benefit analysis into play, accounts for the most realistic anticipated load cases (especially in development wells and brown fields) that the well will be exposed to and the most efficient casing configuration. Checking alternative casings against the anticipated loads could potentially result in cost savings and a slim well design. The Figure 4 of uniaxial burst differential pressure plot is used for comparing 9-5/8’ and 7" casings against the anticipated load cases. The result shows that both casings have sufficient safety factor and can be used as production casing. During well design, triaxial and combined load cases analysis should be done.
+
+
+Figure 4View largeDownload slideProduction Casing Design – Burst Load CaseFigure 4View largeDownload slideProduction Casing Design – Burst Load Case Close modal
+
+
+When advanced casing design is done properly, there's opportunity to slim down the well i.e reduce the hole sizes. Slim well design provides cost savings opportunities in the following areas:
+
+
+Reduced drill cuttings handling and waste managementReduced drilling and completions fluid volumeReduced cement and additives volumeOCTGDrill bitsRig time and equipment rentalsRig selection: reduced load requirement for slim wells
+
+
+Slimming a wellbore from 16’’ × 12-1/4’’ hole to 12-1/4’’ × 8-1/2’’ with the corresponding reduction in casing size from 13-3/8’’ × 9-5/8’’ to 9-5/8’’ × 7’’ averagely shaves off 7 -10% of well cost.
+
+
+Figure 5View largeDownload slideSlim Well Design EvolutionFigure 5View largeDownload slideSlim Well Design Evolution Close modal
+
+
+Optimizing Technical Work Program and Schedules:
+
+
+Time value of money makes it critical to put wells on production as soon as possible to maximize profit and realize the planned pay-back period. To achieve this, wells cycle time must be optimized.
+
+
+One way to optimize wells cycle time is by applying tactical approach to the technical work program by batch-drilling the wells where applicable, especially in a clustered location or platform. The concept of batch drilling is not new, but it is very effective in reducing project duration. This involves drilling well sections sequentially. Savings can be realized in the following phases of batch-drilling operation:
+
+
+Rig move timeRig up/down conductor hammer timeNipple up/down Blow Out Preventer (BOP) time
+
+
+Learning curve is also achieved by doing a particular operation sequentially and this reduces cycle time. Cost benefit analysis against deferred or delayed-production needs to be performed before considering batch-drilling operation.
+
+
+Formation Evaluation and Reservoir Surveillance Plan: LWD vs Wireline
+
+
+Though the service cost for logging with wireline is typically cheaper than the cost for Logging While Drilling (LWD), the overall cost associated with LWD is often smaller when the extra rig time spent running wireline, rigging up and rigging down wireline equipment is factored in.
+
+
+LWD also provides the opportunity to make real time well placement decisions, less drilling fluid invasion, and minimizes wellbore stability issues that arise from leaving the hole open for a long time while logging. Wireline logging cost, risk and complexity also significantly increases in high angle wells.
+
+
+Except in cases like appraisal and exploration wells where several different logs and runs are required, utilizing LWD should be the preferred option to save cost and reduce the possibilities of NPT.
+
+
+Utilization of Wellbore Stability Model
+
+
+According to many sources, Non-Productive Time (NPT) related to wellbore stability issues accounts for an additional 10 – 15% of the well costs [3]. Avoidance of these issues will lead to a significant reduction in well development cost and improve the project economics.
+
+
+Wellbore stability (WBS) problems can be caused by various reasons, for example, an imbalance between the in-situ subsurface pressures (determined by pore pressure, geological stresses, and rock strength) and the pressures exercised by the drilling mud [4].
+
+
+These problems can be mitigated by proper application of Wellbore Stability Models. Wellbore stability models (Figure 6) provide more insights compared to conventional pore pressure and fracture gradient plots. The model helps to predict wellbore collapse and tensile failure lines and properly represents the safe drilling window. It provides guidance on mud weight selection to prevent wellbore collapse, losses, breakouts, stuck pipe etc., and informs casing setting depths for isolation of troublesome zones. The model also considers the impact of well trajectory (inclination and azimuth) on wellbore collapse pressure.
+
+
+Figure 6View largeDownload slidePredrill 1D Mechanical Earth Model and Wellbore Stability Risk Analysis [5]Figure 6View largeDownload slidePredrill 1D Mechanical Earth Model and Wellbore Stability Risk Analysis [5] Close modal
+
+
+Drilling Performance Data Analytics
+
+
+Surplus data exists across all phases of well construction. Improved technology, data analytics & visualization tools can help to structure and process big data, Figure 7, show key insights on trends and performance. These can be visualized to the focus group and help drive performance discussions.
+
+
+Figure 7View largeDownload slideCasing Running SpeedFigure 7View largeDownload slideCasing Running Speed Close modal
+
+
+In drilling operations, considerable time and cost savings can be realized during flat time operations such as casing running, BHA tripping in/out, riser and BOP installation, etc.
+
+
+With real-time monitoring, benchmarking, and trends such as crew change effect are monitored, category of major unscheduled events (equipment failure, losses, tight spots etc.) and invisible loss times can be identified. Display of the trends and dashboard drives performance as crew can see what is achievable.
+
+
+Realtime data monitoring and analytics also helps to monitor leading and lagging indicators and to give insights on HES behavior and even predict incidents, Figure 8.
+
+
+Figure 8View largeDownload slideActivity Chart – Days vs DepthFigure 8View largeDownload slideActivity Chart – Days vs Depth Close modal
+
+
+Reassessing Basis of Design (Completions Case)
+
+
+Often, wells’ drilling and completions designs are determined with initial subsurface conditions. As the field is developed several changes occurs such as reservoir pressures depletion, fluid contacts movement, production rates decline, PPFG window etc. Changes in reservoir conditions redefines drilling constraints and trajectory to access by-passed oil, production constraints, and fines migration rate etc. These changes provide opportunities to reevaluate the initial well basis of design and recommend designs that are fit-for purpose for example the sand control method.
+
+
+In the case of well Completions, it is recommended a Completion alternative selection assessment is performed with all relevant stakeholders. The stakeholders are highly experienced people that have functional roles in the oil/gas field such as production engineer, reservoir engineer, drilling engineer and completion engineer. Other stakeholders may include subject matter experts (SME) in areas related to the proposed change. Extensive peer reviews will help to properly risk and select the ideal alternative to the current design.
+
+
+Figure 9 below is a typical sequence for Completion alternative selection assessment.
+
+
+Figure 9View largeDownload slideCompletion Alternative SelectionFigure 9View largeDownload slideCompletion Alternative Selection Close modal
+
+
+The value-based completion objectives should be determined through elicitation of facts/ideas and then prioritized by using weighted average scoring. They could include:
+
+
+–Reliability: minimize risk of failure to deliver 90% of EUR over well life.–Solids Control: preferred completion should minimize the production of solids.–Production: deliver initial production rate within completion-specific flux constraints.–Installation: minimize NPT during installation–Surveillance: enable pressure and temperature measurements that meet regulatory and reservoir management requirements.–Schedule: enable all equipment (downhole and surface) on-time deployment–Operability: minimize risk of failure when faced with rapid ramp-up or aggressive drawdown.
+
+
+Doable alternatives that can meet the VBCO are generated as shown in Figure 11. The Minimum Functional Case (MFC) is lowest complexity/cost solution that meets prioritized VBCO (Figure 10).
+
+
+Figure 10View largeDownload slideValue Based Completion ObjectiveFigure 10View largeDownload slideValue Based Completion Objective Close modal
+
+
+Sand control methods include standalone screen, conformance screens, gravel pack, frac pack etc. Cost benchmarking and cost-benefit analysis should be performed to inform decision on the revised completion alternative as cost analysis can be a tie breaker where ranking result is close.
+
+
+Figure 11View largeDownload slideAlternative RankingFigure 11View largeDownload slideAlternative Ranking Close modal
+
+
+Considerable savings can be realized by moving from Frac Pack to Conformance screen. Savings include reduced operational activities, less rig and installation time, less complexities, elimination of proppants cost, elimination of stimulation vessel rental etc.
+
+
+New Drill vs Sidetracks
+
+
+Accessing bypassed oil in a mature field comes with several subsurface uncertainties such as the estimation of reserves, optimal pierce point and target tolerance. It is also economically challenged by the volume of the reserves. The way to improve the well economics is to target the bypassed oil from an existing well. Candidate wells for sidetrack should be thoroughly accessed by considering the production performance (oil rate, BS&W), casing integrity, top of cement in annulus, abandonment and decompletion complexity, sidetrack trajectory etc.
+
+
+Drilling sidetracks in comparison to a new well will realize savings from tangibles such as casing, wellhead, Christmas tree (horizontal), drilling fluid, cement and additives, rig time etc. In Table 1 and Figure 12, there are few sets of activities to realize sidetrack opportunies when compared to new drill as listed.
+
+
+Table 1New Drill vs Sidetrack Operation New Drill Operation Sequence
+            . Sidetrack Operation Sequence
+            . Jet 36" conductor Run riser and BOP Drill 26" hole Abandon parent well Run and cement 20" casing Decomplete well Run riser and BOP Run Whipstock and mill window Drill 17" × 19" hole Drill 12-1/4" hole Run and cement 16" liner Run and cement 9-5/8" liner Drill 14-3/4" hole × 17-1/2" hole Drill 8-1/2" hole Run and cement 13-5/8" casing   Drill 12-1/4" hole   Run and cement 9-5/8" liner   Drilling 8-1/2" hole   New Drill Operation Sequence
+            . Sidetrack Operation Sequence
+            . Jet 36" conductor Run riser and BOP Drill 26" hole Abandon parent well Run and cement 20" casing Decomplete well Run riser and BOP Run Whipstock and mill window Drill 17" × 19" hole Drill 12-1/4" hole Run and cement 16" liner Run and cement 9-5/8" liner Drill 14-3/4" hole × 17-1/2" hole Drill 8-1/2" hole Run and cement 13-5/8" casing   Drill 12-1/4" hole   Run and cement 9-5/8" liner   Drilling 8-1/2" hole   View Large
+
+
+Figure 12View largeDownload slideRig Days New Drill vs SidetrackFigure 12View largeDownload slideRig Days New Drill vs Sidetrack Close modal
+
+
+Where there are constraints of early production and equipment long lead time, sidetracks can be considered to achieve set deadlines and realize early value.
+
+
+Conclusion
+
+
+The energy industry economic climate and recent demography has been somewhat unpredictable and has experienced lows and highs in a short span. The oil and gas industry is facing fierce competition for investment funds considering the drive for renewables and other emerging sectors.
+
+
+To win in any environment and stay competitive, development cost must be reduced to deliver higher returns than ever. The initiatives mentioned in this paper make the realization of better economics and higher returns possible irrespective of the economic climate and operating terrain; and provides higher return to the business at lower costs.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion BHAbottom hole assembly OCTGoil country tubular goods CSGcasing BOPblow out preventer NPTnon-productive time WBSwellbore stability GOCgas oil contact Shminminimum horizontal stress SHmaxmaximum horizontal stress PPpore pressure MDmeasured depth HEShealth environment safety PPFGpore pressure frac gradient SMEsubject matter expert VBCOvalue based completion objective DAdecision analysis MFCminimum functional case LWDlogging while drilling FTfeet EURestimated ultimate recovery
+
+
+Acknowledgments
+
+
+The authors wish to thank and appreciate the critical inputs received from the reviewers that helped to improve the contents and quality of this paper. We also appreciate the support of the concessionaires for the permission to publish this paper.
+
+
+References
+
+
+J. P.De Wardt, "Well Delivery Process: A Proven Method to Improve Value and Performance While Reducing Costs," in IADC/SPE Drilling Conference and Exhibition, New Orleans, Louisiana, USA, 2010.Google Scholar I.Kussanov, E.Puche and K.Yung, "Utilizing Agile Approach for Well Construction Planning," in SPE Annual Caspian Technical Conference, Nur-Sultan, Kazakhstan, 2020.Google Scholar F. J.Santarelli, S.Zaho, G.Burrafato, F.Zausa and D.Giacca, "Wellbore-Stability Analysis Made Easy and Practical," New Orleans, Louisiana, 1997.J. B.Cheatham, "Wellbore Stability," Journal of Petroleum, vol. 06, no. 36, p. 889–896, June1984.Google Scholar J.Dutta and A.Kumar, "Application of Integrated Reservoir Geomechanics for Well Planning and Drilling of Nearly Horizontal Wells in a Depleted Reservoir of Offshore Krishna-Godavari Basin, India," in SPE Oil & Gas India Conference and Exhibition, Mumbai, India, 2015.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211909-MS
+
+
+

@@ -1,0 +1,164 @@
+----- METADATA START -----
+Title: Reconstructing Deposition Environment Using Energy Regime Assessment of Stacked Sequences from Gamma Ray Log and 3D Seismic Data
+Authors: Oluwatosin Rotimi, Somto Chukwuka, Kehinde Oyeyemi, Temitope Ogunkunle, Ayodeji Akande, Betty Ihekona, Oseremen Iyamah, Tope Alege
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211981-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Depositional sequence unbundling was done to understand the depositional environment from six wells through the analysis of gamma-ray logs using shale volume, and a 3D post-stack seismic. Identified hydrocarbon reservoir formations were laterally tracked to assess horizon continuity and spatial draping of the units. Horizon surfaces were built post-correlation to examine the bounded zones and reconcile sequences. Gamma-ray log motifs for the deposits indicate the presence of progradational, retrogradational, and aggradational sequence patterns that typifies prevalent energies at the time deposition, characteristic of deltaic environment. On the seismic sections, aggradational reflectors dominate over the other two. Although current well placements do not conform to structural attitude, petrophysical analysis done over the horizons indicate a significant increase in porosity and hydrocarbon saturation basin-ward (South-west), in the direction of the frontier prospect to site more wells.
+
+
+
+
+Keywords:
+lithology,
+well logging,
+environment,
+artificial intelligence,
+machine learning,
+structural geology,
+reservoir characterization,
+elso-12a,
+sequence,
+elso-15a
+
+
+Subjects: 
+Reservoir Characterization,
+Formation Evaluation & Management,
+Exploration, development, structural geology,
+Seismic processing and interpretation,
+Open hole/cased hole log analysis
+
+
+
+
+INTRODUCTION
+
+
+Depositional environments are points of depression where sediments got deposited due to erosion of sediments by several agents such as water, glacier, and wind. Depositional environments reflect sediment type accumulated and their potential to contain hydrocarbon resources. The physical and chemical characteristics of each sediment deposition environment are distinct, indicating the processes that created the environment (Bergman and Snedden, 1999; Slatt, 2006). Depositional environments are made up of sedimentary facies, facies associations, sedimentary structures, and fossils (Balasubramanian & Kalasaiah, 2013), therefore well logs are widely used to assess sedimentary facies (Rotimi et al., 2015; Weber, 1971).
+
+
+These Depositional environments are characterized by:
+
+
+The Depositional Process (Physical, Biological and Chemical).Sediment Geometry.Sediment Mineralogy.The Petrophysical Property such as Porosity, Grain-size, Permeability, etc.
+
+
+Depositional environments are classed into four types:
+
+
+Continental Depositional Environment: Classified into Fluvial, Alluvial, and Lacustrine Environments.Transitional Depositional Environment: Classified into Deltaic, Tidal, Lagoonal, and Beach Environment.Marine Depositional Environment: Classified into Shallow Marine Clastic, Continental Shelf, Continental Slope, and Deep Marine Environments.Evaporite and Glacial Depositional Environments make up the other types.
+
+
+Studies has shown the use of wireline log signatures such as gamma-ray and Spontaneous potential logs for lithology identification, shale volume for porosity correction, density and neutron logs for defining fluid contacts, resistivity and water saturation logs for identifying pore fluid types (Nton and Salami 2016; Rotimi 2010). They also observed the log shapes defined by other authors (Nelson and James, 2000, Guyas and Swarbrick, 2004, and Selley, 1998) as bell shapes, funnel shapes, cylindrical shapes, and irregular shapes which lead to the conclusion that the rock characteristics of Duski Field located in a marginal marine depositional environment, vary according to environmental influences and burial depth. Therefore, interpretation of reservoir depositional environment cannot be made alone from surface descriptions of outcrops as subsurface features. One must utilize specific data set to characterize these reservoirs depositional environments. Well logs present that essential tool in identifying reservoir lithologies and thereby interpreting depositional environment. It is worth noting that each depositional environment has its own petroleum play importance that impacts hydrocarbon exploration and production, thus knowing the depositional environments of reservoirs cannot be overstated (Mene & Okengwu, 2020).
+
+
+METHODOLOGY
+
+
+To carefully understand the depositional sequence, the geo-positions of the examined wells must be well understood, this leads to creation of base map. The base map is a graphical depiction of well locations and shows the offset (distance apart) between the wells. Figure 1 provides a geographical view of the six wells in the study to help understand their depositional environment. The Map view is produced from the collar data, which is key to all of the stages in this study on the Strater program, the map also indicates the well coordinates (latitude and longitudes)
+
+
+Figure 1View largeDownload slideBasemap of the study area showing well locationsFigure 1View largeDownload slideBasemap of the study area showing well locations Close modal
+
+
+Depiction of Depositional sequence
+
+
+Gamma-ray logs record the formation's radioactivity encountered; Shale lithology displays high radioactivity indicating high gamma-ray values, while Sandstone lithology has a low response value because of less radioactive material. Variations in gamma-ray log characters are seen in grain size, while abrupt changes in log response show lithological breaks (unconformities) (Nwagwu et al., 2019).
+
+
+Figure 2 was used as a reference tool to define depositional environment, once the patterns matches the log motif as this was carefully carried out with proper interpretation. The shapes present the nature of the depositional environment be it prograding, retrograding or aggrading processes (Rotimi et al., 2011). Following this process, cross-section development was done on a field scale.
+
+
+Figure 2View largeDownload slideGeneric characteristic depositional environment signatures from Well logsFigure 2View largeDownload slideGeneric characteristic depositional environment signatures from Well logs Close modal
+
+
+Cross-Section Development
+
+
+The gamma-ray log helps for proper well correlation as it shows distinct lithology in the formation. Well correlation involves identifying well tops based on similar property index and signature patterns across the different wells. Correlating wells involves tracing properties at offset distances. As properties are laterally continuous, we try to identify signature patterns across each well over a particular distance, thereby allowing us to understand what depositional environment is in play as seen in Figure 3.
+
+
+Figure 3View largeDownload slideCross-sectional model for the interpreted wells in the study area in the North-South directionFigure 3View largeDownload slideCross-sectional model for the interpreted wells in the study area in the North-South direction Close modal
+
+
+Petrophysical property evaluation
+
+
+Petrophysical properties such as the porosity, bulk volume of water, saturation of water and oil were determined for each of the wells based on their lithology type. The petrophysical properties of each lithology showed their petroleum significance, looking at the saturation of hydrocarbon for the wells showed good prospects for exploration or considerations if to be explored. As it's an essential determinant for a production forecast.
+
+
+Seismic reflection data
+
+
+Stacking patterns was observed on the crosslines as fairly continuous reflectors with diverse wavelet amplitudes on each traces across the wells. Well correlation enhanced cross-section was viewed to aid interpretation of depositional environment by the prevalent energy. The sequence depositional patterns were observed as well as the stacking configurations.
+
+
+RESULT AND DISCUSSION
+
+
+Identified lithology
+
+
+The gamma ray logs for the six wells were divided into 20 sections each, for accuracy in determining the lithologies. Using the gamma-ray readings the lithologies were sandstones, shalysand, sandyshale and shales seen at different intervals in the wells. In identifying the lithologies cross-sectional view of the Wells ELSO-12A, ELSO-13A, ELSO-14A, ELSO-15A, ELSO-16A and ELSO-17A were developed.
+
+
+Well correlation
+
+
+These lithologies as seen in the six wells are correlated moving from North to South direction. ELSO-17A showed presence of sandstone at the top of the well, and shales seen to have a very low presence, the well also contain sandyshale and shalysands at the base and at intervals running through the well. The lithologies in ELSO-17A correlated to ELSO-14A with a distance of 2912.5 m apart. A massive increase in thickness of the sandstone lithology is observed across the well with thin beds of shalysands at the top and bottom of the wells. The thickness of sandstone beds in ELSO-12A reduced, with the presence of shalysands, sandyshales with shale of a little thickness, moving from ELSO-14A with distance 4079.9 m apart. Looking at ELSO-12A to ELSO-15A with distance 2000.1 m apart, there is a fluctuation in lithology between sandstones and sandyshales for ELSO-15A with slightly similar thickness at an interval to that in ELSO-12A, minimal shales was seen to be present in the well. Moving from ELSO-15A which had lithology fluctuations between sandstones and sandyshales to ELSO-13A a slight increase in sandstones lithology at the topmost interval is observed with thin beds of sandyshales, shalysands, and shales towards the bottom of the well they are 4833.8 m apart, for ELSO-16A. Moving from ELSO-13A distance of 5601.0 m thin beds of sandyshales are observed with sandstones occurring at intervals, also at some point towards the bottom of the well, thin bed of sandstone is observed in-between shalysand and sandyshales, the well is also seen to have thin bed of shale present. The six wells correlated to each other showed significant connected reservoir system.
+
+
+Interpetation of depositional environments from gamma-ray log motifs
+
+
+The Depositional environments of the lithologies were interpreted from the analysis of gamma-ray motif shapes. The depositional environment of the lithologies ranges from Fluvial channel, Alluvial sands, Deltaic distributaries, Lacustrine sands and Distributary mouths, which had sediment supply processes from Aggrading, Retrograding and Prograding.
+
+
+Bell Shaped Gamma-Ray Log MotifsA number of fifteen (15) beds of lithology from different wells ELSO-12A, ELSO-15A, ELSO-16A, ELSO-17A exhibited this gamma ray log characteristic. This log shape generally shows an increasing upward values of gamma-ray logs, indicating change from sand to shale lithology and fining upward depositional sequence. The process associated with the bell shape is the Retrograding process and is indicative of Tidal sands, Alluvial sands, Fluvial channels, lacustrine sands and many other environments.Cylindrical Shaped Gamma Ray Log MotifsA number of Ninety-six (96) beds of lithology across the six wells ELSO-12A, ELSO-13A, ELSO-14A, ELSO-15A, ELSO-16A, ELSO-17A exhibited this gamma ray log characteristic. This log shape generally shows low gamma ray values seen to be relatively constant indicating uniform distribution depositional sequence, via Aggrading process. This log shape indicates Fluvial channels, Tidal sands, Turbidites channels and many more depositional environments.Funnel shaped Gamma Ray Log MotifsA number of Eight (8) beds of lithology across wells ELSO-13A, ELSO-14A, ELSO-16A, ELSO-17A exhibited this gamma ray log characteristic. This log shape generally indicates decreasing values of gamma ray indicating a reduction in shale content and increase in sands with upward coarsening depositional sequence via Prograding process. This log shape indicates Distributary mouths, delta marine fringe, barrier bars, crevasse splays and many other depositional environments.
+
+
+Reflection Seismic data interpretation
+
+
+Depositional environments and energy regimes ranges between Fluvial channels, Turbidites, and Deltaic environment with fairly turbulent to laminar energy. The Funnel shapped high energy corresponds to the fairly sigmoidal reflections seen in isolated portions of Figure 4. Most Bell-shaped log motif corresponds to aggradational reflection with increasing depositional energy and are common in the first half of the lithological sequence in the study area. Blocky or cylindrical motifs characterizes medium but stable energy regime with minor fluctuations. These minor fluctuations in energy is responsible for the serated edges seen in most parts of ELSO-14A, ELSO-12A, ELSO-15A, ELSO-13A, and ELSO-16A, i.e. going basinward, an exception of the proximal ELSO-17A. Sequence stacking pattern is consistent and continuous in the middle of the seismic lines with alternating amplitudinal values indicating a mix of rocks with various acoustic impedance values.
+
+
+Figure 4View largeDownload slideDepostional environment interpreted panel on Crossline overlain with correlated well dataFigure 4View largeDownload slideDepostional environment interpreted panel on Crossline overlain with correlated well data Close modal
+
+
+CONCLUSION
+
+
+After analysis of the gamma ray log motifs from the six wells studied, therefore conclude that the cylindrical/blocky serated shape was the most dominant gamma log shape seen across the six wells, lithologies were uniformly distributed and the depositional sequence was aggrading at the several sections of the different wells (ELSO-12A to ELSO-17A) with sediments of mostly deltaic distributaries and fluvial channels as the depositional environment. The other gamma-log shapes Funnel and Bell shape were also seen across the wells but not as dominant as the cylindrical shape of the logs, with this being done we were able to infer and interpret the depositional environment in play, but nevertheless we can't ignore its key role to the hydrocarbon system in play the deposits are also inferred to be reservoir sands indicating good hydrocarbon potential across the lithologies seen in the wells. The well logs motifs were also tied to and properly correlates with the seismic data. The reflection patterns correspond to and highlights the prevalent energy at the time of deposition as preserved in the spatial data. The reflections ranges from lateral continuous to dipping and fairly sigmoid variants.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+ACKNOWLEDGEMENT
+
+
+Key laboratory of Petroleum Resources Research, IGGCAS, Covenant University and CUCRID are also appreciated for supporting this study. The operator of the field of study in Niger Delta is also appreciated for the release of data for this study and permission to publish.
+
+
+References
+
+
+Balasubramanian, A., & Kalasaiah, M. (2013). Depositional Environments. March2017. Research Gatehttps://doi.org/10.13140/RG.2.2.29422.61767Google Scholar Emeka A.Nwagwu, Godwin O.Emujakporue, Sylvester A.Ugwu and R.Oghonya (2019) Lithofacies and Depositional Environment from Geophysical Logs of EMK Field, Deepwater Niger Delta, Nigeria.Google Scholar Guyas, J and Swarbuck, R. (2004). Petroleum geosciences. Oxford Blackwell Publishing Co.40–252Google Scholar Mene, O., & Okengwu, K. O. (2020). Gamma Ray Log Analysis in Determining the Depositional Environment of Reservoir Sands: A Case Study of Shaka Field, Onshore Niger Delta. V(March),99–105.Google Scholar Nelson, C. S., and James, N. P. (2000). Marine Cements in Mid–Tertiary cool water shelf limestone's of New Zealand and Southern Australia. Sediment47, 609 – 629Google ScholarCrossrefSearch ADS  Nton, M.E. and Salami, R. (2016). Reservoir characteristics and Palaeo-depositional environment of Duski Field, Onshore, Niger Delta, Nigeria. Global Journal of Geological Sciences Vol 14, 4968 doi:
+              https://doi.org/http://dx.doi.org/10.4314/gjgs.v14i1.5Google ScholarCrossrefSearch ADS  RotimiOluwatosin John, Adeoye OlusholaTaiye, and Ofomola MerriousOviri (2011). Aspects of Stratigraphy and Facies profile of Clastic deposits in Doma field, Niger Delta. Ozean Journal of Applied Sciences4(4), pp 411–423.Google Scholar Sabah, M., Talebkeikhah, M., Agin, F., Talebkeikhah, F., & Hasheminasab, E. (2019a). Application of decision tree, artificial neural networks, and adaptive neuro-fuzzy inference system on predicting lost circulation: A case study from Marun oil field. Journal of Petroleum Science and Engineering, 177(November2018), 236–249.https://doi.org/10.1016/j.petrol.2019.02.045.Google ScholarCrossrefSearch ADS  Selley, R. C. (1998). Elements of Petroleum geology. Published by Freeman and Company, 3rd edition, 37 – 299.Google Scholar Slatt, R.M, 2006Stratigraphic Reservoir Characterization for Petroleum Geologists, Geophysicists and Engineers. 1st Edn, Elsevier Science pp: 429.Google Scholar Snedden, J.W and K.MBergman, 1999. In: Isolated shallow Marine Sand Bodies: Sequence Stratigraphic/Analysis and sedimentologic interpretation, Bergman, K.M and J.WSnedden (Eds.), SEPM Special Publication, pp: 1–11.Google Scholar Reijers, T.J.A., Petters, S. W. and Nwajide, C. S. (1997). "The Niger Delta Basin" in Selley, R. C. ed, African Basins – Sedimentary Basin of the World 3: Amsterdam," Elsevier Science, 151 – 172.Google Scholar Rotimi, O. J. (2010). Sequence stratigraphy study within a chronostratigraphic framework of ‘Ningning field’, Niger Delta. RMZ – Materials and Geoenvironment, Vol. 57, No. 4, pp. 475–500.Google Scholar Rotimi OluwatosinJohn, ZhenliWang, EfeogheneEnaworu, and DavidAlaigba (2015). Facies and Depositional Environment Analysis of Alternate Channel bodies in the flank of a Sag structure. Petroleum & Coal57(6) 635–649.Google Scholar Weber, K. (1971). Sedimentological aspects of oil fields in the Niger Delta. Geologie en Mijnbouw, Volume 50, 559–576.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211981-MS
+
+
+

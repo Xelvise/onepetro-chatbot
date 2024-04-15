@@ -1,0 +1,286 @@
+----- METADATA START -----
+Title: Paraffin Inhibition in the Tubing of a Gas-Lifted Production Well Using Pre-Conditioned High Temperature Gas
+Authors: Kenechukwu Nwankwo
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212034-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Gas lift technology involves the introduction of gas in the tubing to improve vertical lift performance and over all well productivity. However, when wax is deposited in the tubing, the pressure drop across tubing is increased and vertical lift performance is adversely impacted. This paper reviews the performance of two wells known to have wax deposition issues leading to sub-optimal production, thus necessitating intermittent paraffin inhibition /hot oiling which have associated costs.A Fluid Thermodynamics model which demonstrated that production from the two wells can be optimized by gas lifting wells at points deeper in the tubing than the nucleating points at a threshold gas lift temperature was developed. The minimum gas lift temperature at any given pressure required to attain this flow assurance solution was simulated from the model developed. The model illustrates that a thermodynamic state can be attained without the use of an inline heater. This was due to the high discharge of thermal energy from the lift gas supplied from the gas lift manifold.Results from model application to the two case study wells showed improvement of flow rates from sub-optimal values to steady rates of total increments of about 1,000 Barrels of Oil Per Day. In addition, wax deposition ceased as confirmed from the laboratory re-estimation of the Wax Appearance Temperature (WAT) of the wellbore fluids. This model application eliminated yearly remediation operations such as hot oiling operations that was in place to manage and ensure that the wells produced continually, resulting in an annual cost saving of about $30,000 per well. This Thermal inhibition method can be applied in all wax producers to eliminate or reduce wax in tubing and hence the flow line.
+
+
+
+
+Keywords:
+scale inhibition,
+completion installation and operations,
+upstream oil & gas,
+gas injection,
+oilfield chemistry,
+wax inhibition,
+remediation of hydrates,
+gas lift,
+hydrate inhibition,
+hydrate remediation
+
+
+Subjects: 
+Artificial Lift Systems,
+Production Chemistry, Metallurgy and Biology,
+Gas lift,
+Inhibition and remediation of hydrates, scale, paraffin / wax and asphaltene,
+Completion Installation and Operations
+
+
+
+
+Introduction
+
+
+Gas lift operations primarily involve the introduction of gas in the tubing via the casing to lighten the well fluid column and hence lower the hydrostatic head of the tubing to improve oil productivity. This operation has been recognized as the most common and often the cheapest means of artificial lift technology because of the availability of gas in the oil field as either associated or non-associated gas. Gas lift operations offers a lot of productivity improvement options either by variation of lift gas volume injected or by Gas lift redesign to deepen the point of injection.
+
+
+The operation offers a lot of flexibility to addressing oil production challenges like sand production problems, well fluid production challenges and difficulties in opening up the flapper of Surface Controlled Sub-Surface Safety Valves (SCSSV) by the introduction of pressure in the control line for wells on gas lift. In any of the three cases above, the problems can be effectively managed by reducing or increasing the gas lift volume with the help of the surface Flow Control Valve of the gas lift supply line or by redesigning the gas lift system to change out valves in the different positions of the Mandrel. Whichever of the two processes is cheaper or feasible.
+
+
+Wax Deposition Remediation:
+
+
+Paraffin and asphaltene deposition from tubing to the production system is one of the major problems in the production of heavy crude oil. Wax deposition in the tubing and in the flowline is a significant contributing factor to higher operations cost in the petroleum industry (Newberry and Barker, 1985).
+
+
+Wax deposition could be remediated mechanically in the tubing using gauge cutter and wireline scrappers in slick line wax cutting operations. Wax deposits in the flowline can also be removed mechanically by pigging (launching a mechanical cleaning device - commonly known as a pig). This operation is risky because of the chances of the wireline tool or the pig getting stuck in the tubing or flow line, respectively.
+
+
+Thermal remediation methods like hot oiling and hot watering involves introduction of heat through tubing in the form of oil and water respectively, for about an hour soak time, and then producing the oil. The risk here is the damaging of reservoir permeability and/or some tubing jewelries like SCSSV or SSCSSV (storm choke). Hot watering requires surfactant addition to aid the dispersion of wax in the water phase.
+
+
+Chemical remediation methods involve the use of organic solvents such as condensate and diesel oils, provided the deposits have low asphaltic content. Aromatic solvents like toluene and xylene are excellent solvents for both Paraffins and asphaltenes. Solvent usage is mostly in large batch treatments. Some organic solvents are also applied to remediate formation damage. Excellent solvents like chlorinated hydrocarbons are not used because of the resulting challenges in processing well fluid.
+
+
+All wax remediation methods are periodic operations that involve shutting in wells annually, biannually, quarterly, or even monthly depending on the wax build up rate. This frequency often increases as the well-produced from the interval because of the associated drop in reservoir pressure. Remediation methods all come at periodic cost – Intervention cost and deferred production which are not favorable to the oil industry at large.
+
+
+Prevention of wax Deposits:
+
+
+Wax deposition has been prevented historically, either by electrostatic or chemical methods. Depending on the causative agents and the cost of treatment, any of these methods could be used. The prevention methods act either by increasing pressure, increasing temperature, and decreasing viscosity (enhancing fluidity at same temperature and pressure) of the materials. It could also be a combination of any twoor all these processes.
+
+
+Electrostatic method involves the installation of Wax Inhibition Tools (WIT) along the flow path (tubing or flow line) to keep wax molecules from depositing on the flow path. A good example of WIT is Silver-Hawg (an alloy comprised of dissimilar metals). The alloy emits electrons and prevents crystallization of heavy paraffin molecules (reducing crude viscosity). WIT could be installed in the tubing or in the flow line and it is most effective when placed just before the nucleating point (the point of wax formation). Relocation of silver-Hawg as the thermodynamic properties of the fluid changes is a major concern and that is why its use is not best practice.
+
+
+Chemical method involves the use of wax crystal modifiers, dispersants, surfactants, and paraffin inhibitors. All these chemical treatments deployed, work strictly by reducing the viscosity of the treated fluid and keep wax either in crystal state or prevent the formation of crystals. Crystal inhibition type of paraffin inhibitors is normally injected upstream of the pour point to prevent the formation of wax crystals and hence the crude will flow fluidized all through to storage. This is the most effective means of flow assurance to prevent wax deposition by chemical method. In addition to the surety to continuous flow, it also optimizes production due to the reduced fluid viscosity of the treated fluid.
+
+
+Thermal method includes the use of heaters or heating devices to increase the temperature of the crude above the Wax Appearance Temperature. A typical example is the installation of inline heaters in the flow line to increase the temperature of the fluid flowing through it. This requires an electrical power source to maintain the temperature, making it uneconomical.
+
+
+Flow assurance deployed via gas lift system:
+
+
+Gas lift technology has been utilized in the past to enable flow assurance in the tubing by introducing chemical (paraffin inhibitor/dispersant) treatment via the annulus. However, (El Haddad et al, 2014) demonstrated the efficacy of this method and, in addition, the use of increased gas lift pressure to eliminate wax production in the tubing by publishing a field case study in three oil wells in Libya.
+
+
+This paper, in addition to the proof of elimination of wax in the two case studies, demonstratedwell performance optimization subject to hydrocarbon thermodynamics and production at economic gas lift supply. It involved a flow demonstration of two wells in the Niger Delta faced with paraffin formation issues and how wax production in the wells were managed and addressed without the use of chemical paraffin inhibitors or dispersants. Table-1 below is the pertinent data for the study.
+
+
+TABLE – 1PERTINENT DATA FLUID PROPERTY
+            . A-01-VALUE
+            . A-02 VALUE
+            . UNIT
+            . Solution GOR 587 505 Scf/Stb Oil Gravity 34.3 35.9 deg API Gas Gravity (beforegas lifting) 0.75 0.65 dimensionless Water Salinity 10000 10000 ppm Water Saturation 31.5 30 % Initial Reservoir Pressure 2525 2615 Psig Reservoir Temperature 170 171 deg F Bubble Point Pressure 2525 2615 Psig FLUID PROPERTY
+            . A-01-VALUE
+            . A-02 VALUE
+            . UNIT
+            . Solution GOR 587 505 Scf/Stb Oil Gravity 34.3 35.9 deg API Gas Gravity (beforegas lifting) 0.75 0.65 dimensionless Water Salinity 10000 10000 ppm Water Saturation 31.5 30 % Initial Reservoir Pressure 2525 2615 Psig Reservoir Temperature 170 171 deg F Bubble Point Pressure 2525 2615 Psig View Large
+
+
+TABLE – 2INITIAL DESIGN BEFORE GAS LIFT INITIATION ON A-01 A-01
+            . A-01D(short string)
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . 1 1928 DUMMY 1 1826 DUMMY 2 2800 DUMMY 2 2771 DUMMY 3 3397 DUMMY 3 3740 DUMMY 4 3932 DUMMY 4 4427 ORIFICE 5 4465 DUMMY 5 4961 DUMMY 6 4997 DUMMY 6 5373 DUMMY 7 5469 DUMMY    A-01
+            . A-01D(short string)
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . 1 1928 DUMMY 1 1826 DUMMY 2 2800 DUMMY 2 2771 DUMMY 3 3397 DUMMY 3 3740 DUMMY 4 3932 DUMMY 4 4427 ORIFICE 5 4465 DUMMY 5 4961 DUMMY 6 4997 DUMMY 6 5373 DUMMY 7 5469 DUMMY    View Large
+
+
+Field Case Study and Flow Modeling solution
+
+
+The case study wells, A-01 and A-02 are located 0.2 km and 1.5 km respectively from the flow station. Both wells are oil producers that often have paraffin deposits build up in their tubing. The wells were periodically remediated by hot oiling once annually. Gas lift design analysis done on both wells showed that the wells do not need gas lift to flow most likely because of their producing GOR from natural flow was higher than 1,500 SCF/STB. Moreover, the measured API gravity for the well fluid from A-01 was 31 deg API while that of A-02 was 34 deg API.
+
+
+Well A-01 because of the short distance to the flow station, was produced without being treated with paraffin inhibitor, while Well A-02 flowline was treated to prevent flow restriction in the flow line only there was no treatment in the tubing. Both wells are producing from the same sand but A-01 produces from AA-01A (AA-1 reservoir in Block A) while A-02 produces from AA-02B (different reservoir and different block from A-01).
+
+
+The 2 wells have gas lift mandrel in the tubing that are dummied out because gas lift was found not to be of immediate essence. However, there was gas lift gas availability to jackets of these wells. The gas lift gas supply is a dry gas with specific gravity of 0.65 whose source is from the flow station compressed gas.
+
+
+Case Definition
+
+
+Production profiles (oil and gas) from the two wells A-01 and A-02 were incoherent between April 2014 and September 2016 and the physics of the flow from the 2 wells were incomprehensive to the production engineers within the same period- see figure 8 and 9 below. The only possible explanation to produce oil and gas variation of the wells was that there was periodic wax build up in the wells’ tubing.
+
+
+Figure 8View largeDownload slideA-01 Net Oil (BOPD) VS DATEFigure 8View largeDownload slideA-01 Net Oil (BOPD) VS DATE Close modal
+
+
+Figure 9View largeDownload slideA-02 Net Oil (BOPD) VS DATEFigure 9View largeDownload slideA-02 Net Oil (BOPD) VS DATE Close modal
+
+
+However well fluid samples from the two wells were characterized in the laboratory and found to be analogically out of the major property of wax producers. At this point the wells were not gas lifted, even though their gas was available to their various jackets. Several business cases made to place the wells on gas lift were not successful because the producing GOR of wells did not suggest that they produced heavy fluid column in the tubing.
+
+
+Earlier on A-01 quit flow at an average of once in 3 days and well was often reactivated by introducing gas lift gas to the annulus which was not explainable at that time but that was how the well was reactivated. From Fig.1 it could be seen that A-01 well oil fluid level is at 2,500 ft while in Fig. 2, A-02 well was noticed was being gas lifted at the Side Pocket Mandrel #2 (3035 ft)– the position of the orifice.
+
+
+Figure 1View largeDownload slidePressure & Temperature - depth gradient plot of Well A-01 before Flow Assurance treatmentFigure 1View largeDownload slidePressure & Temperature - depth gradient plot of Well A-01 before Flow Assurance treatment Close modal
+
+
+Figure 2View largeDownload slidePressure & Temperature - depth gradient plot of Well A-02 before Flow Assurance treatmentFigure 2View largeDownload slidePressure & Temperature - depth gradient plot of Well A-02 before Flow Assurance treatment Close modal
+
+
+Figure 3View largeDownload slideViscosity Distribution using Black Oil PVT Model FOR A-01Figure 3View largeDownload slideViscosity Distribution using Black Oil PVT Model FOR A-01 Close modal
+
+
+Case Analysis and Flow Assurance Solution Modelling
+
+
+Well samples were taken to determine the wax appearance for the well fluid of the two wells A-01 and A-02 to determine if wax forms in the tubing. The wax appearance temperatures of 68.2 and 70.3 deg Fahrenheit were determined from Laboratory analysis of the well fluid after gas lift had commended in A-01 and A-02, respectively. The flow line conditions are 115 deg Fahrenheit at 210psi and 105 deg Fahrenheit at 600 psi for A-01 and A-02, respectively.
+
+
+Static Bottom Hole analysis carried out in these wells in December 2016 (A-01) and in March 2013 (A-02) demonstrated that the wells had pressure gradient profile that did not trend with the calculated pressure gradient from wells using the production data and well’s fluid properties. However, these two wells were consistently hot oiled annually to clean up wax deposits in the tubing and prevent total blockage. A-02 has an Injection Pressure Operated (IPO– i.e., casing sensitive) gas lift valve on the side pocket mandrel number 2 at 3035 ft MD.
+
+
+A comprehensive and compositional PVT (Pressure Volume Temperature) model was built with the PVTP IPM software to match the fluid properties of the well hydrocarbon fluid from A-01 and A-02 producing from AA-01A and AA-02B, respectively. This was gotten by fine tuning the estimate of PVT derived from PROSPER IPM to honor the bubble point pressure (saturation pressure) of the reservoirs that wells are producing. WAT profile was obtained for the two well fluids. A-01 WAT profile is shown in Fig. 4 below.
+
+
+Figure 4View largeDownload slideWAT profile for A-01 well before and after gas lift initiationFigure 4View largeDownload slideWAT profile for A-01 well before and after gas lift initiation Close modal
+
+
+A Merla valve surface choke (gas lift flow control valve) sensitivity model was done to mimic flow behavior of the produced oil with respect to the gas lift gas supply rate pressure and temperature. The downstream flow conditions (pressure and temperature) for different Merla choke settings (from 8/64" to 24/64") were compared with the generated WAT profile to characterize flow as waxy or non-waxy. Based on the flow assurance characteristics and gas lift optimization modelling, a production rule was crafted to ensure optimal production that is free of wax production. Fig. 5 shows a clear comprehensive WAT profile with the observed pressure and temperature conditions.
+
+
+Figure 5View largeDownload slideA-01 Well Fluid Tempererature-Pressure profileFigure 5View largeDownload slideA-01 Well Fluid Tempererature-Pressure profile Close modal
+
+
+Case Flow Assurance Solution Implementation
+
+
+The identified production rule for optimized gas lift operations subject to stable (non-waxy) flow was then utilized. In the process of installing the designed gas lift valve IPO orifice at 5/16" BK-12 settings by slickline operations in A-01 well, restriction was encountered in the tubing down to 3932 ft MD- this was then tagged as the nucleating point when well is on static condition. The decision to install the orifice at the position #5 SPM (Side Pocket Mandrel) instead of the #4 was made immediately.
+
+
+In retrieving the original dummy valves on the side pocket mandrels in A-01, it was discovered that the dummy valve in Mandrel number 4 position was not holding pressure and hence the annulus was communicating with the tubing through the dummy valve (the short string of the well A-01D was being gas lifted earlier on before well was closed in- however the casing pressure was not bled down to zero psi during closure). The dummy was then changed out. A-02 was Gas lifted before the Flow assurance implementation.
+
+
+TABLE 3GASLIFT DESIGN AFTER GAS LIFT INITIATION ON A-01 A-01
+            . A-01D(short string)
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . 1 1928 DUMMY 1 1826 DUMMY 2 2800 DUMMY 2 2771 DUMMY 3 3397 DUMMY 3 3740 DUMMY 4 3932 DUMMY 4 4427 ORIFICE 5 4465 ORIFICE 5 4961 DUMMY 6 4997 DUMMY 6 5373 DUMMY 7 5469 DUMMY    A-01
+            . A-01D(short string)
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . 1 1928 DUMMY 1 1826 DUMMY 2 2800 DUMMY 2 2771 DUMMY 3 3397 DUMMY 3 3740 DUMMY 4 3932 DUMMY 4 4427 ORIFICE 5 4465 ORIFICE 5 4961 DUMMY 6 4997 DUMMY 6 5373 DUMMY 7 5469 DUMMY    View Large
+
+
+TABLE 4GAS LIFT DESGIGN FOR ON A-02 A-02
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . 1 1965 DUMMY 2 3035 ORIFICE 3 3511 DUMMY 4 3923 DUMMY 5 4335 DUMMY 6 4713 DUMMY A-02
+            . GLM #
+            . DEPTH
+            . GLV TYPE
+            . 1 1965 DUMMY 2 3035 ORIFICE 3 3511 DUMMY 4 3923 DUMMY 5 4335 DUMMY 6 4713 DUMMY View Large
+
+
+Gas lift gas was introduced in the casing to produce A-01 after the Gas Lift Valve (GLV) change out – a real time optimization based on earlier modelling was done and placed wells on a gas lift supply pressure and temperature of 1100 psi and 130 deg Fahrenheit. The resulting tubing head pressure & temperature and flow line Pressure & Temperature of 240 psi & 120 deg F and 210 psi and 115 deg F respectively for well A-01. From Fig. 6 and 7, there was relative improvement in pressure and temperature gradients for the two wells between the Orifice position and the liquid level.
+
+
+Figure 6View largeDownload slideA-01 Well Pressure & Temperature-depth gradient plot after implementing Flow Assurance treatmentFigure 6View largeDownload slideA-01 Well Pressure & Temperature-depth gradient plot after implementing Flow Assurance treatment Close modal
+
+
+Figure 7View largeDownload slideA-02 Well Pressure & Temperature-depth gradient plot after implementing Flow Assurance treatmentFigure 7View largeDownload slideA-02 Well Pressure & Temperature-depth gradient plot after implementing Flow Assurance treatment Close modal
+
+
+Value created from the Project
+
+
+The solution rendered in this project was driven by the total system analysis (modelling gas lift gas flow and from reservoir performance (Inflow Performance Relation) to tubing performance (vertical lift performance), to surface choke performance and pipe phase flow performance). WAT modelling was carried outfrom the tubing through production choke to the flowstation through the flowline because of the wax deposits that was in the tubing of the wells.
+
+
+The highest business value derived from this project was the total production gain of 1000 BOPD that was realized from A-01 and A-02 well outside ensuring uninterrupted production from both wells. This can be seen in Fig. 8 and 9- Flow assurance project was executed in December 2016 for well A-01 and in May 2017 for well A-02. This was achieved by making flow thermodynamically stable (making sure production is outside Wax formation region). The gas lift gas stream was used to successfully lighten as well as increase the internal heat energy of the resulting crude.
+
+
+The success of this flow assurance project, in addition, is in the elimination of the periodic remediation operations of wells by hot oil treatment. This resulted in a total annual savings of $60,000. This yearly remediation operations on these wells wereput in place to manage and ensure that the wells produced after every flow interruption due to wax build up.
+
+
+Relatively higher cost of chemical paraffin inhibitor injection (about $50,000 per annum for the two wells) was found not to be of immediate need due to the optimized production rule which ensured crude oil is produced in fluidized state from the tubing to the flow until an appreciable decline (200 psi) in the reservoir pressure. There is also the option of re-optimizing to obtain a thermodynamically stable flow until flow line temperature drops below the current WAT for both wells. At that time Paraffin inhibitor chemical injection pump can be deployed.
+
+
+The use of chemical paraffin inhibitor injection posesthe issue of pump reliability and functionality. A day tank is usually filled with paraffin inhibitor every visit depending on the setting of the chemical pump injection rate. In instances where movement is restricted due to weather and other factors regarding safety, there will be a challenge in not filling up and this can cause pump to cavitate.
+
+
+Pressure and temperature diagnostics that was done with the acquired static bottom pressure and temperature assisted in diagnosing the flow challenges in the tubing and gave the desired insight to the gas lift redesign to enable flow optimization. The pressure and temperature signature profile in well A-01 gave an indication that there was a casing tubing communication in the well. This led to discovering that the position #4 SPM was not holding pressure.
+
+
+The API from both wells 34.3 and 35.9 deg API for wells A-01 and A-02 respectively did not fall within the well fluid characteristics (18-32 deg API) of wells that produce wax. However, the viscosities of these well fluids where more than fourcentipoises at operating pressure and temperature conditions.
+
+
+Conclusions and Recommendations
+
+
+Thermodynamics principle in gas lift technology was utilized to carryout fluid modelling to analyze and address the wax formation in two case study wells. The Gas lift redesign that considered the dynamics of well fluid flow along with the implementation of the design demonstrated that gas lift operations can also be a best practice in flow assurance process apart from its current use to improve production.
+
+
+In Flow stations where gas lift supply fluid stream can be kept at a higher temperature at no extra cost, it is advisable to keep the temperature of the gas stream as high as possible, when gas lifting a well that has been established to form wax in the tubing even at flowing conditions. However, for wells that deposit scale in the tubing that are on gas lift, this could be counterproductive because higher temperatures enable more scale deposition.
+
+
+For wells that experience wax, as well as scale deposition in the tubing, a more detailed analysis will be carried out to determine the optimal temperature of the gas lift supply stream for optimal production and best flow assurance practice. Wells that fall into this category are rare and hence such rigorous study will not be always required.
+
+
+One-point gas lift valve injection system (one operating valve- orifice on one mandrel and dummy valves on the others) is recommended for the flow assurance practice because of the challenges of temperature variation across valves. This is to avoid the risk of cooling a section of the fluid column below the WAT due to joule Thompson effect across life valves (non-dummy) in the process of optimizing the vertical lift performance of the well.
+
+
+It is recommended that wells that are on chemical paraffin Inhibitor injection be reviewed to see if there are opportunities for cost management by redesigning the gas lift system for fluid thermodynamic stability. This can also be achieved by varying gas lift gas injection rate to improve downstream pressure and temperature conditions to minimize or stop wax production and hence eventually stop the paraffin inhibitor injection or reduce dosage.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+ElnoriE.E.et al. 2015. A new experimental method to prevent paraffin - wax formation on the crude oil wells: A field case study in Libya. Hemijska industrija, vol. 69, no. 3. pp. 269–274Google Scholar Ridzuan, N.et al. Jan2016. Screening of factor influencing wax deposition using full factorial experiment Design. Petroleum Science and Technology, 34:1. Pp 84–90.Google ScholarCrossrefSearch ADS  MuhammadA.T.March2018. Wax deposition process: mechanisms, affecting factors and mitigation methods. Open Access Journal of Science. Volume 2 Issue 2 – 2018.Google Scholar StruchkovI.A. and Rogachev, M.K.June2017. Wax precipitation in multicomponent hydrocarbon system. Journal of Petroleum Exploration and Production Technology, volume 7, issue 2, pp 543–553.Google ScholarCrossrefSearch ADS  Lira-Galeana, C.et al. Jan. 1996Thermodynamics of wax precipitation in Petroleum Mixtures. American Institute of chemical Engineers Journal vol. 2, No. 1Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212034-MS
+
+
+

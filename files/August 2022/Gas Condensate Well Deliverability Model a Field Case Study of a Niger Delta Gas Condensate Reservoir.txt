@@ -1,0 +1,557 @@
+----- METADATA START -----
+Title: Gas Condensate Well Deliverability Model, a Field Case Study of a Niger Delta Gas Condensate Reservoir
+Authors: Idahosa Ehibor, Ikponmwosa Ohenhen, Bukolo Oloyede, Gbenga Adetoyi, Tochukwu Amaechi, Olanike Olajide, Ademola Kaka, Anthony Woyengidiripre
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212043-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Gas condensate banking accumulated near the wellbore occurs when the bottomhole pressure becomes less than the dew point pressure, allowing the liquid fraction to condense out of the gas phase. Once the accumulation near the wellbore is higher than critical condensate saturation, the liquid phase becomes mobile with the gas phase, affecting well deliverability and making it difficult to estimate gas and condensate flow rate from the reservoir due to two phase flow of fluid. This paper presents an analytical model that evaluates the well deliverability from the reservoir.The concept of two phases Pseudo-pressure is used in the interpretation and evaluation of well deliverability from the gas condensate reservoir. The model considers non-Darcy flow effects and capillary effects.The model is applied to a live field case study of a Niger Delta gas condensate reservoir to determine well deliverability. Gas and liquid production profile from the model showed 95% accuracy when compared with compositional simulation model. This model is encoded into a spreadsheet program using python to calculate well deliverability parameters.
+
+
+
+
+Keywords:
+upstream oil & gas,
+permeability,
+saturation,
+coefficient,
+modeling & simulation,
+productivity,
+wellbore,
+complex reservoir,
+equation,
+condensate saturation
+
+
+Subjects: 
+Unconventional and Complex Reservoirs,
+Gas-condensate reservoirs
+
+
+
+
+Introduction
+
+
+Well productivity in gas condensate reservoirs is a challenging issue in the development of such reservoirs characterized by large depth, high pressures, and high reservoir temperature. Condensate buildup in the near wellbore region called condensate banking or condensate ring occurs when the bottomhole pressure is lower than the saturation pressure, resulting in deliverability and productivity losses in the reservoir.
+
+
+Gas condensate well deliverability model was proposed by Fevang et al., 1996 to determine gas productivity from any gas condensate reservoir well geometry, (e.g., radial, vertical, or horizontal). The model is based on a pseudo-steady state equation for gas flow rate calculation in compositional formulation.
+
+
+ρρqg=c(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg)dp1
+
+
+Where
+
+
+c=2πa1khln(rerw)−0.75+s2
+
+
+In a gas condensate reservoir, there exists 3 distinct regions characterized by gas and fluid interactions, which must be accurately modelled to be able to effectively determine deliverability from a gas condensate reservoir.
+
+
+Figure 1View largeDownload slideGas condensate saturation profile (Huerta et al., 2012)Figure 1View largeDownload slideGas condensate saturation profile (Huerta et al., 2012) Close modal
+
+
+Region 1: This is the near well bore region characterized by a mobile gas and condensate phase. The mobility of the condensate phase in this region is due to accumulation of the liquid dropout, at saturations higher than critical condensate saturation. This region is the main source of deliverability loss in the gas condensate reservoir (Huerta, 2012).
+
+
+Region 2: This region is further away from the near wellbore region and consists of a mobile gas phase and an immobile condensate phase. This could still impair gas flow and reduce productivity (Seteyeobot et al., 2017)
+
+
+Region 3: This zone is farthest away in the reservoir and consists of only a mobile gas phase. This region is undersaturated, with a constant composition.
+
+
+To accurately model a gas condensate reservoir, accurate modelling of the three regions present in the reservoir must be represented, especially region 1, due to its changing reservoir and fluid parameters characterized by liquid dropout and mobile fluid phases.
+
+
+Condensate saturation in the reservoir reduces the gas relative permeability, which affects flow of the gas and effectively reduces productivity. This is more pronounced in low and moderately rich gas condensate reservoirs (Dobkine, 2012). Therefore, the major reason for the loss in productivity in gas condensate reservoir is mainly due to relative permeability. Relative permeability is defined as the ratio of the permeability of fluid flow in the presence of another fluid to the absolute permeability. According to Al Shawaf et al., 2012, loss in productivity due to gas relative permeability is more pronounced in region 1, closer to the wellbore than the region farther away from the wellbore.
+
+
+Relative permeability is affected by 2 factors, namely Saturation and Capillary number. An increase in the saturation of the condensate reduces the gas relative permeability, hence impairs productivity of the gas. Capillary number is the ratio of the viscous force to the interfacial force (Dobkine et al., 2012).
+
+
+Mathematically, capillary number=Viscous forceInterfacial force3
+
+
+Reducing the interfacial tension existing between fluid phases present in the reservoir, will result in a higher value of the capillary number which can increase the effective permeability to gas. According to Kamath, 2007 an increase in the capillary number to values greater than 10−4 results in an increase in the effective permeability. This is called velocity stripping.
+
+
+Non-Darcy flow, or turbulent flow exists in gas condensate reservoir, in the near wellbore region due to the gas converging into the wellbore region at high velocity peculiar to turbulent flow. According to Dobkine et al., 2012 non-Darcy flow negatively impacts deliverability of the gas condensate reservoir affecting productivity of the gas.
+
+
+In this study, a gas condensate deliverability model based on pseudo steady state equation was developed considering the three saturation regions present in the reservoir. This model incorporates a fourth region, a near wellbore region generally known as the flushed zone (total skin effect). However, this model will analyze the effect of non-Darcy flow effects due to turbulent gas flow and Capillary number on productivity of a gas. The model will be applied to a gas condensate field case study in the Niger Delta area. The model will be encoded in a spreadsheet program using python to be able to analytically determine productivity from the gas condensate reservoir. The results will be validated using compositional simulators.
+
+
+Literature review
+
+
+Shawaf et al., 2012 developed an analytical model to predict well deliverability from a gas condensate reservoir. Well deliverability determination becomes complex as soon as reservoir pressure is lower than dew point pressure, resulting in a two-phase fluid, (gas) and (condensate, which becomes mobile near wellbore) once condensate liquid saturation is exceeded. In their work, they analytically generated various Inflow performance curves of gas condensate wells by analyzing laboratory test results, like the constant composition expansion (CCE) and relative permeability of the rock.
+
+
+The results were validated with fine grid simulation model, using ECLIPSE Schlumberger software. They concluded that their model can accurately predict IPR curves of gas condensate reservoirs using CCE and rock relative permeability. They conducted sensitivity analysis and discovered that the most important parameter affecting productivity is gas relative permeability, which declines initially, but increase at lower pressures due to re-vaporization of accumulated condensate.
+
+
+Clarkson and Qanbari, 2015 developed a novel and rigorous analytical model that performs history matching and predicts performance of multi-fractured tight gas condensate reservoirs. They applied the DOI, distance of investigation concept to predict reservoir performance, and iteratively solve material balance and PI equations to account for pressure, saturation, and production rate. The model was validated against numerical simulation. They concluded that their model can effectively predict reservoir performance but limited to wells exhibiting a single transient flow regime, simultaneously followed by steady state flow.
+
+
+Dobkine et al., 2012 developed a deliverability model for gas condensate reservoirs, and applied to a West Siberia gas condensate reservoir. They considered the non-Darcy turbulent flow effects and velocity stripping effects. This was achieved by gas condensate relative permeability measurements. They matched the acquired experimental results with reservoir model and performed simulations using Eclipse schlumberger software. They concluded that relative permeability parameters such as non-Darcy and velocity stripping effects are critical for accurate determination of deliverability from unfractured wells, but less important for fractured wells.
+
+
+Goktas et al., 2010 developed a systematic approach to modelling liquid dropout phenomenon and its influence on productivity impairment in Britannia gas condensate reservoir. Their model incorporated phenomenon such as the non-Darcy flow coefficient and the mechanical skin, both of which was evaluated using the slope of backpressure curves. The permeability parameters were matched with results obtained from separator tests, while pressure transient analysis, production data and material balance equations were used to correct the estimated values of kh and skin. They concluded that back pressure curves derived from the deliverability model is important in monitoring productivity from gas condensate reservoirs and quantify loses due to liquid dropout.
+
+
+Huerta et al., 2012 developed an integrated approach to evaluate productivity from Peruvian gas condensate reservoirs using two techniques, well testing analysis and numerical simulation. They developed an algorithm, which incorporates the three or four regions present in the reservoir, while the numerical simulator predicts the future performance of the reservoir, and how the presence of these regions’ downhole affects production. They concluded that condensate banking should be numerically modelled using local grid refined models, incorporating non-Darcy flow effects and velocity dependent relative permeability parameters. They applied their methodology to Well AX1 and field Z and concluded that condensate banking reduced productivity of gas and oil by 3% and 5% respectively.
+
+
+Seteyeobot et al., 2017 developed a mathematical model to investigate compositional changes that occurs in a gas condensate reservoir during liquid dropout by analyzing three distinct zones. Their study incorporated a fourth zone, which represents the total skin effect while developing their mathematical model. This fourth zone is the immediate vicinity of the wellbore, where condensate accumulates at very high rates, causing a decrease in the relative permeability of gas. This condensate accumulation results in the loss of heavy components at the surface (Chunmei, 2005). Their deliverability model was compared to 3 models in literature, Joshi’s equation, Borisov’s equation and Geiger’s equation. They concluded from their model that increasing the bottomhole pressure results is less condensate dropout in the vicinity of the wellbore and trapping of only a smaller amount of heavier hydrocarbon components.
+
+
+Clarkson et al., 2015 developed analytical, semi-analytical and empirical models used to forecast productivity of gas condensate reservoirs. They argued that their model is applicable to tight gas/ shale gas condensate reservoirs exhibiting multiphase flow. The analytical models are linear-to-boundary (LTB) model and Composite model, while the semi-analytical model incorporates rate-normalized pseudo pressure and material balance pseudotime in its derivation. They constructed a simulation workflow that describes how the models can be constrained by rate-transient analysis prior to production forecasting. Their model was compared with Simulated results. They concluded that the model could forecast productivity of liquid rich gas condensate reservoir cases. They argued from their results that integrating rate constrained transient analysis with the developed analytical, semi-analytical and empirical models performs history matching and productivity forecasting of gas condensate reservoirs.
+
+
+Hua et al., 2012 developed a mathematical model to evaluate multiphase flow in a gas condensate reservoir. Their mathematical model is based on momentum equations incorporating non-Darcy flow effects in the reservoir, phase velocity, surface tension, capillary pressure, and fluid characteristics. The model, (momentum equations) is then combined with energy equations and equations of mass conservation. The results of their model led to a conclusion that fluid/solid heat coupled energy equation is an important parameter that evaluates the velocity of fluid flow and describes the characteristics of multiphase flow in the gas condensate reservoir.
+
+
+Livinus and Obah, 2012 developed a gas condensate well deliverability model under pseudo-steady state based on power law concept of Darcy’s flow. The model was applied to live field data and compared with existing deliverability models in literature, such as Rawlins-Schellhardt equation and Houpeurt equation for validation. However, their model assumed that capillary pressures and gravitational effects are negligible. They applied the new deliverability equation to a modified isochronal test data well no.8 by Brar and Aziz (1978). They concluded that the new deliverability equation can estimate gas productivity, its application depending largely on backpressure tests which is a prerequisite is estimating the well deliverability exponent.
+
+
+Ogunrewo et al., 2013 developed a well deliverability model for gas condensate reservoirs based on back pressure plots. The backpressure plots are expressed in terms of pressure, single-phase and two phase pseudo pressure. Their model incorporated non-Darcy flow and capillary number effects. They validated their results with live field data from gas condensate reservoir. An Eclipse Schlumberger 300 software was used to generate well test data sets for gas condensate reservoir and plotting of the backpressure curves. Relative permeability data was generated using Corey functions. They argued from their model that deliverability from the reservoir cannot be determined from backpressure plots if non-Darcy effects and capillary number are neglected. They concluded that non-Darcy flow and capillary number are more pronounced with rich gas condensate systems, and most be included in deliverability model for accurate representation of the multiphase flow process occurring in the reservoir.
+
+
+Gerami et al., 2012 introduced a new method to evaluate performance of the gas condensate reservoir using two phase pseudo pressure integrals. The pressure profile in the reservoir is evaluated using material balance techniques for depletion using PVT data, relative permeability data and well flowing pressure against time. The results from the model were validated using compositional simulation from a reservoir model. They concluded that their pseudo pressure integral model, which can be encoded in a spreadsheet program can evaluate deliverability from a gas condensate reservoir quickly and accurately without any need for compositional simulation.
+
+
+Methodology
+
+
+Mathematical model
+
+
+Gas condensate well deliverability model was proposed by fevang et al., 1996 using the concept of Pseudopresssure. To apply this method, the gas condensate reservoir is divided into regions corresponding to flow behavior of the reservoir fluids due to the retrograde phenomenon.
+
+
+The gas flow rate using the pseduopressure integral for compositional simulation is given by
+
+
+ρρqg=2πa1khln(rerw)−0.75+s(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg)dp4
+
+
+To evaluate the gas deliverability from this model, the pseudo pressure integral must be evaluated and substituted into the above equation. For a dry gas reservoir, the single-phase pseudo pressure is quite easy to evaluate. However, due to changing reservoir and fluid conditions due to depletion, and retrograde phenomenon, evaluating the deliverability once pressure is below the dew point is challenging. To evaluate the gas deliverability using the pseudo pressure integral, the GOR, PVT properties of the reservoir fluids, (Compositional) and the gas oil relative permeabilities must be known.
+
+
+We must divide the pseudo pressure integral into 3 corresponding to the 3 zones present in a gas condensate reservoir. However, we shall introduce parameters corresponding to a fourth zone. The pseudo pressure integral is given by
+
+
+ρρm(p)=∫PwfPr(ρokroMoμo+ρgkrgMgμg)dp5
+
+
+Where m(p)=Region 1+Region 2+Region 3
+
+
+Region 1= This region corresponds to a two-phase flow of gas and condensate. It is evaluated by
+
+
+ρρ∫PwfPbank(ρokroMoμo+ρgkrgMgμg)dp6
+
+
+Region 2 = This region corresponds to an immobile condensate saturation and a mobile gas phase. It is evaluated by ρ∫PbankPdew point(ρgkrgMgμg) dp⁠. Gas permeability is a function of condensate saturation and connate water saturation.
+
+
+This region contains an immobile condensate saturation which can impact gas liquid relative permeability and affect deliverability of the gas. We would evaluate condensate saturation using liquid dropout curves from experimental constant volume depletion.
+
+
+Region 3 = This region consists of only a mobile gas phase. It can be evaluated as flow of real gases through a porous medium, krg(Swi)∫Pdew pointp(1Mgμg) dp⁠. Gas permeability is a function of connate water saturation only.
+
+
+The following assumptions are made in the model development.
+
+
+➢The reservoir formation is vertically completed, and radial flow is considered.➢Permeability stress sensitivity coefficient is considered in model development.➢Gravity effects is neglected.➢Near wellbore Skin zone is considered.➢Non-Darcy flow is considered for model development.➢Effects of Capillary number is considered in model development.
+
+
+By introducing the non-Darcy flow effect corresponding to turbulent gas flow, the term c is evaluated by 2πa1khln(rerw)−0.75+s+Dq⁠, where the D term corresponds to the non-Darcy flow coefficient. The capillary number effect will be considered in the model development.
+
+
+Three parameters are important in the application of the pseudo pressure integral, GOR, PVT and gas relative permeability curves. The GOR is evaluated by material balance techniques.
+
+
+According to Sadeghi (2010), instantaneous GOR is the ratio of gas produced to oil produced, mathematically represented as Rp=QgQl
+
+
+Considering radial flow in a heterogeneous reservoir, oil flow rate is evaluated from the equation
+
+
+Ql=2πrhBoilKoilμdpdrandQg=2πrh(kroilRsμoilBoil+KgasBdrygasμgas)dpdr7
+
+
+Hence,
+
+
+RpQgQl=2πrh(kroilRsμoilBoil+KgasBdrygasμgas)dpdr2πrhβKoildpμ dr8
+
+
+Eliminating the pressure dependent term and 2πrh, the equation reduces to,
+
+
+RpQgQl=(kroilRsμoilBoil+KrgasBdrygasμgas)KoilBoilμoil9
+
+
+RpQgQl=(kroilRsμoilBoil+KgasBdrygasμgas)×(BoilμoilKoil)10
+
+
+Expanding the equation above gives,
+
+
+RpQgQl=(kroilRsμoilBoil×BoilμoilKoil)×(KrgasBdrygasμgas×BoilμoilKoil)11
+
+
+RpQgQl=Rs+(krgasBdrygasμgas×BoilμoilKroil)×(1−RdogsRpgor)12
+
+
+GOR=Rs+(krgasKroilμoilμgasBoilBdrygas)(1−RdogsRpgor)13
+
+
+The equation above is used to evaluate the instantaneous gas oil ratio for a gas condensate reservoir. Considering the change in pressure due to depletion in a gas condensate reservoir the equation above can be re-arranged to evaluate the relative permeability of the gas as a function of pressure. Re-arranging the equation for GOR, the relative permeability is given by.
+
+
+Kr gasKroil(p)=(Rp−Rs(1−RdogrRp))μgasμoilBdrygasBoil⁠, where the PVT properties are evaluated aa a function of pressure.
+
+
+Upon solving the pseudopressure integral, the well deliverability model is given by
+
+
+ρρqg={0.75−s−ln(rerw)}±(ln(rerw)−0.75+s)2+4D(2πa1kh(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg))2D14
+
+
+Non-Darcy flow effects on well deliverability
+
+
+Forchheimer (1996) discovered in his study that pressure required to maintain flow rate in a porous media is greater than Darcy’s flow equation estimation. Hence, he introduced a non-Darcy flow to model the change in fluid flow behavior near wellbore indicating a higher turbulent flow and a negative skin effect.
+
+
+According to the Forchheimer’s equation for fluid flow in porous media, the non-Darcy effect signifying high turbulent gas flow in the near wellbore region is ρ−dpdr=μgkVg+βρgVg2⁠. For a two-phase fluid flow in the gas condensate reservoir, the equation above becomes,
+
+
+ρ−dpdr=μokoVo+μgkgVg+βρgVg215
+
+
+The flow rate of the condensate and gas Vo and Vg according to the equation of fluid flow is expressed as ρVo=qo2πrhρo and ρVg=qg2πrhρg respectively. Substituting in the equation above,
+
+
+ρρρρ−dpdr=μokoqo2πrhρo+μgkgqg2πrhρg+βρg(qg2πrhρg)216
+
+
+By integrating,
+
+
+ρρρρ∫rwre−dpdr=∫rwre1rμokoqo2πhρo+∫rwre1rμgkgqg2πhρg+∫rwrnd1r2βρgqg24π2h2ρg217
+
+
+The last term is integrated between rnd and rw due to non-Darcy turbulent flow.
+
+
+ρρρρρρe−ρw=[ln]rwreμokoqo2πhρo+[ln]rwreμgkgqg2πhρg+[−1r]rwrndβqg24π2h2ρg18
+
+
+ρρρρρρe−ρw=μokoqo2πhρolnrerw+μgkgqg2πhρglnrerw+βqg24π2h2ρg(1rw−1rnd)+c19
+
+
+The effective wellbore radius is influenced by the non-Darcy flow effects; hence the non-Darcy flow radius is considerable larger than the Darcy flow radius, we can mathematically ignore the non-Darcy radius,
+
+
+ρρρρρρe−ρw=μokoqo2πhρolnrerw+μgkgqg2πhρglnrerw+βqg24π2h2ρgrw20
+
+
+The last term of the equation above is the non-Darcy term, D. The equation is simplified as,
+
+
+ρρρρρe−ρw=μokoqo2πhρolnrerw+μgkgqg2πhρg[lnrerw+βqgkg4πhμgrw]21
+
+
+From the equation above, the non-Darcy term is D=β qg kg2πhμg rw
+
+
+In field units, where D is in bbl./day, the equation becomes, D=5.25×10−6β qg kg2πhμg rw
+
+
+The Inertial coefficient, β is evaluated from the Fredrick and Graves (1994) correlation for a mobile gas and condensate fluid is given by the expression below,
+
+
+φβ=48.205kg0.55(φ5.5)22
+
+
+Substituting the above equation into the non-Darcy equation,
+
+
+φD=5.25×10−6(48.205kg1.55(φ5.5)qgkg2πhμgrw23
+
+
+Porosity and Permeability Stress Sensitivity coefficient
+
+
+Porosity and Permeability stress coefficient is an important factor to consider especially in low permeability or tight gas condensate reservoirs (Yan et al., 2019).
+
+
+Kg=KiKrge−σ(pi−p)24
+
+
+φφφ=φα[1+Cp(Pi−p)]25
+
+
+Where Kg is equivalent permeability at pressure p, permeability at pressure pi, Cp is the compressibility of pore spaces of the rock and Krg is the gas relative permeability.
+
+
+Substituting the 2 equations above into the non-Darcy flow model, will results in a more complex equation that accounts for non-Darcy turbulent flow and stress sensitivity coefficient.
+
+
+φD=5.25×10−6(48.205(KiKrge−σ(pi−p))1.55(φa[1+Cp(Pi−p)5.5)qgKiKrge−σ(pi−p)2πhμgrw26
+
+
+φD=2.5×10−4(2πhμgrw)(KiKrge−σ(pi−p))0.55(φa[1+Cp(pi−p))5.5qg27
+
+
+Capillary effects
+
+
+Capillary number is quite important in modelling productivity of gas condensate reservoirs to prevent underestimation of well productivity and the overestimation of pressure drops and retrograde phenomenon (Hashemi et al., 2008). Capillary number is the ratio of viscous forces to interfacial tension. The presence of high velocity of gas flow in the near wellbore region of a gas condensate reservoir, improves productivity by recovering some fractions of the liquid dropout. Hence, once the gas relative permeability increases near wellbore, the condensate saturation decrease. Without proper modelling of this phenomenon, gross underestimation of well productivity can occur. This phenomenon can be modelled by considering capillary modified gas relative permeability (Mott et al., 2000)
+
+
+Modifying the gas relative permeability to account for capillary number,
+
+
+Krg=fwKirp+(1−fw)Kmrp28
+
+
+Where Kirp and Kmrp are immiscible and miscible relative permeabilities at low and high capillary number respectively. The weighting function fw is given by
+
+
+φfw=1(∂Ncg)n+1and∂=∂co(Kmrp+Kirp2)kφ29
+
+
+Combining the equations, the capillary dependent gas relative permeability is expressed as,
+
+
+Krg=1(∂co(Kmrp+Kirp2)KφNcg)n+1Kirp+(1−1(∂co(Kmrp+Kirp2)KφNcg)n+1)Kmrp30
+
+
+The relative permeability curve used during the model is shown in the diagram below.
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Numerical simulation
+
+
+Fluid properties such as density and viscosities of the gas and the condensate are important parameters that are required for the evaluation of the pseudo pressure integral in the deliverability model. Experimental CCE studies were done to evaluate the gas viscosities and densities. Numerical simulation was carried out using the CMG Winprop software to match experimental CCE results with simulation results. A reasonable match of fluid properties was obtained after regression, to match the gas viscosities and densities obtained from experimental results and that obtained from simulation. However, to evaluate condensate viscosity, the lohrenz-Bray-Clark (LBC) correlation is used.
+
+
+The correlation evaluates condensate and gas viscosity in polynomial form (Yang et al.,2007). It is mathematically expressed as
+
+
+[(μ−μ0)ϑt+10−4]14=ao+a1ppr+a2ppr2+a3ppr3+a4ppr4⁠, where a0 to a4 are coefficients equal to 0.1023, 0.023364, 0.058533, -0.040758 and 0.0093324. the other variables in the equation above are evaluated.
+
+
+ρρρϑt=5.35(TpcM3Ppc4),Ppr=ρρpc=ρMυpc and μ0=∑i=1NziμiMi∑i=1NziMi
+
+
+To predict the condensate viscosity, the LBC correlation above was tuned to the measured separator oil viscosity data, hence giving us a reasonable estimation of the condensate viscosity. The chart below shows the matched results of the gas properties from experimental and numerical simulations.
+
+
+Figure 2View largeDownload slideFlow rate calculation from developed modelFigure 2View largeDownload slideFlow rate calculation from developed model Close modal
+
+
+The developed model to evaluate gas deliverability from a condensate reservoir accounts for non-Darcy turbulent flow, skin effect and capillary number. The relative permeability values in the table below used in the developed model has been adjusted by introducing capillary effects and the effects of porosity and permeability stress coefficients.
+
+
+Table 1Calculation summary for reservoir fluid properties with pressure change P(psia)
+            . Density of oil (Ib/ft3)
+            . Swc
+            . Swc
+            . Mg (Ib/gmol)
+            . Mo (Ib/gmol)
+            . Krg
+            . Kro
+            . Viscosity of oil (Cp)
+            . Viscosity of gas (Cp)
+            . 4022 31.3026 17.1938 0.2 0.05860 0.1092 0.6044 1E-07 0.00001 0.0329 4018 31.4115 17.1684 0.2 0.05854 0.1094 0.7575 3.3E-5 0.098 0.02764 4010 31.4315 17.1186 0.2 0.05849 0.1095 0.8001 0.000135 0.1116 0.02367 4005 31.4512 17.0866 0.2 0.05844 0.1097 0.9216 0.000248 0.1264 0.02022 3980 31.4712 17.0678 0.2 0.05841 0.1098 0.9595 0.000318 0.1452 0.01738 P(psia)
+            . Density of oil (Ib/ft3)
+            . Swc
+            . Swc
+            . Mg (Ib/gmol)
+            . Mo (Ib/gmol)
+            . Krg
+            . Kro
+            . Viscosity of oil (Cp)
+            . Viscosity of gas (Cp)
+            . 4022 31.3026 17.1938 0.2 0.05860 0.1092 0.6044 1E-07 0.00001 0.0329 4018 31.4115 17.1684 0.2 0.05854 0.1094 0.7575 3.3E-5 0.098 0.02764 4010 31.4315 17.1186 0.2 0.05849 0.1095 0.8001 0.000135 0.1116 0.02367 4005 31.4512 17.0866 0.2 0.05844 0.1097 0.9216 0.000248 0.1264 0.02022 3980 31.4712 17.0678 0.2 0.05841 0.1098 0.9595 0.000318 0.1452 0.01738 View Large
+
+
+It should be noted that in the pseudosteady pressure equation used in the calculation of well deliverability, a pressure saturation parameter is needed, because of the change in fluid saturation present in the pore spaces of the rock due to depletion.
+
+
+The saturation of fluid present in the pore spaces hence influence the relative permeability of fluid phases present. This pressure saturation relationship is determined as a function of the ratio of the gas and oil relative permeability. From the pseudosteady state equation, the term contributing primarily to the deliverability of the gas is the Krg term as a function of pressure.
+
+
+Hence, it is important to carefully determine the relative permeability data to effectively determine the gas deliverability from the reservoir. This would require a sensitivity analysis of the acquired relative permeability data inorder to effectively ascertain the deliverability of gas from the gas condensate reservoir. This is essential in accurately evaluating the productivity from the reservoir.
+
+
+The well deliverability results from the developed model are tabulated below. These equations have been encoded in a python analytical sheet. The python codes used in the results analysis, computation and calculation is in the appendix of this paper.
+
+
+Upon conducting the sensitivity analysis by comaring with Numerical simulation relative permeabilities, and correcting for the effect of capillary number, and the stress dependent pemeability factor, the permeabilities used for our mathematical model was plotted on a python console.
+
+
+Figure 3View largeDownload slidepressure vs relative permeabilityFigure 3View largeDownload slidepressure vs relative permeability Close modal
+
+
+The deliverability calculation was thus done in an excel spreadsheet program. The result is shown below.
+
+
+Table 2Computation of well deliverability results 
+            . Deliverability from developed model
+            . Deliverability from developed model
+            . P(psia)
+            . Qgn(D,S,C) Scf/day
+            . Qgn(D,S,C) MScf/day
+            . Qgn(D,S,C) Scf/day
+            . Qgn(D,S,C) MScf/day
+            . 4022 1177893.461 1177.893461 1161503.875 1161.503875 4018 1477893.586 1477.893586 1487119.265 1487.119265 4010 1568147.399 1568.147399 1580893.768 1580.893768 4005 1807895 1807.895 1819869.917 1819.869917 3980 1907708.58 1907.70858 1930019.313 1930.019 
+            . Deliverability from developed model
+            . Deliverability from developed model
+            . P(psia)
+            . Qgn(D,S,C) Scf/day
+            . Qgn(D,S,C) MScf/day
+            . Qgn(D,S,C) Scf/day
+            . Qgn(D,S,C) MScf/day
+            . 4022 1177893.461 1177.893461 1161503.875 1161.503875 4018 1477893.586 1477.893586 1487119.265 1487.119265 4010 1568147.399 1568.147399 1580893.768 1580.893768 4005 1807895 1807.895 1819869.917 1819.869917 3980 1907708.58 1907.70858 1930019.313 1930.019 View Large
+
+
+The plot below shows the results of the discussed model and the results from fine grid reservoir simulation using CMG GEM compositional simulator.
+
+
+Figure 4View largeDownload slidegas production rate for both developed model and numerical simulatorFigure 4View largeDownload slidegas production rate for both developed model and numerical simulator Close modal
+
+
+The table below shows the efficiency of the developed model in determining the deliverability from the gas condensate reservoir. The definition of the parameters used in the model are outlined in the appendix in addition to the python coded and the mathematical solving of the deliverability equation.
+
+
+Table 3comparing model values and simulated values P(psia)
+            . Model value
+            . Simulation value
+            . % error
+            . 4022 1177.893461 1161.503875 1.4111 4018 1477.893586 1487.119265 0.6203 4010 1568.147399 1580.893768 0.8029 4005 1807.895 1819.869917 0.6580 3980 1907.70858 1930.019 1.1559 P(psia)
+            . Model value
+            . Simulation value
+            . % error
+            . 4022 1177.893461 1161.503875 1.4111 4018 1477.893586 1487.119265 0.6203 4010 1568.147399 1580.893768 0.8029 4005 1807.895 1819.869917 0.6580 3980 1907.70858 1930.019 1.1559 View Large
+
+
+Neglecting the effect of the capillary number and the porosity and the permeability stress parameter on the relative permeability data, a larger error would result in the estimation of the deliverability from the gas condensate reservoir. This is illustrated in the table and plot below.
+
+
+Table 4comparing values for when neglecting the effect of capillary number and non darcy effects P(psia)
+            . model
+            . Simulation
+            . % error
+            . 4022 1338.05 1161.50 15.200 4018 1510.74 1487.12 1.588 4010 1568.14 1580.83 0.803 4005 1863.97 1819.87 2.424 3980 1932.83 1930.02 0.146 P(psia)
+            . model
+            . Simulation
+            . % error
+            . 4022 1338.05 1161.50 15.200 4018 1510.74 1487.12 1.588 4010 1568.14 1580.83 0.803 4005 1863.97 1819.87 2.424 3980 1932.83 1930.02 0.146 View Large
+
+
+Plotting the results above, we can see a slight variation in comparison with the numerical solutions.
+
+
+Figure 5View largeDownload slideGas rate from Deliverability model and numerical simulationsFigure 5View largeDownload slideGas rate from Deliverability model and numerical simulations Close modal
+
+
+Conclusions
+
+
+The developed model was used to predict the deliverability from a gas condensate reservoir. Results were compared with field production data and validated with reservoir simulation. A good agreement was established, and the following conclusions were drawn
+
+
+The model predicted the deliverability from the gas condensate reservoir with accuracy up to 95%.From calculated results we can conclude that relative permeability to gas is the most important parameter to consider when determining deliverabilty from gas condensate reservoirs.Neglecting the effect of capillary number and non darcy effects on deliverabity model will result in erroneous evaluation of gas flow rate from gas condensate reservoirAnd lastly, neglecting the capillary number and permeability dependent stress parameter will result in underestimation of gas flowrate and over estimation of pressure drops from the gas condensate reservoir
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Appendix
+
+
+Mathematical model solution
+
+
+ρρqg=2πa1khln(rerw)−0.75+Dqg+S(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg)dp
+
+
+By cross-multiplying,
+
+
+ρρqg{ln(rerw)−0.75+Dqg+S}=2πa1kh(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg)
+
+
+Opening brackets,
+
+
+ρρqgln(rerw)−0.75qg+Sqg+Dqg2=2πa1kh(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg)
+
+
+Re-arranging,
+
+
+ρρρρρρDqg2+qg ln(rerw)−0.75qg+Sqg=2πa1kh(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg)Dg2+qg{ ln(rerw)−0.75+S}=2πa1kh(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg)Dqg2+qg{ ln(rerw)−0.75+S}−2πa1kh(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg)=0
+
+
+The equation above is quadratic in nature, hence can be solved by the formula method,
+
+
+ρρqg=−(ln(rerw)−0.75+S)±(ln(rerw)−0.75+S)2−4D(−2πa1kh(RTscPSC)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg)2D
+
+
+Re-arranging,
+
+
+ρρqg={0.75−s−ln(rerw)}±(ln(rerw)−0.75+S)2+4D(2πa1kh(RTscPsc)βs∫PwfPr(ρokroMoμo+ρgkrgMgμg))2D
+
+
+Python codes
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+View largeDownload slideView largeDownload slide Close modal
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion qggas flow rate qlliquid flow rate Kpermeability Hthickness Sskin Rgas constant Tscstandard temperature Pscstandard pressure Krooil relative permeability Krggas relative permeability μg and μogas and oil viscosity Mg and Mogas and oil molecular weight ρo and ρgoil and gas density Ddarcy coefficient Rereservoir radius Rwwellbore radius Rssolution gas oil ratio Boiloil formation volume factor Bgasgas formation volume factor Gorgas oil ratio Vgvelocity of gas Vovelocity of oil Cpcompressibility of rock Piinitial pressure Ppressure Kirpimmiscible relative permeability Kmrpmiscible relative permeability Fwweighting function
+
+
+References
+
+
+AliAl-Shawaf, MohanKelkar and MohammedSharifi (2012) ‘A New method to predict the performance of Gas condensate reservoirs’ SPE reservoir evaluation and engineering.Google Scholar B.Goktas, Conoco PhillipsN.A., Macmillian, Britannia Operator Ltd and T.SThrasher, ConocoPhillips, (2010), this paper was prepared at the SPE Latin American and Caribbean petroleum conference held in Lima, Peru, 2010.Clarkson and Qanbari, (2015) ‘History matching and forecasting tight gas condensate and oil wells using dynamic grainage area concept, Paper presented at the SPE/CSUR unconventional resources conference held in Caglary, Alberta, Canada, October 2015.IfeanyiSeteyeobot, Oyinkepreye D.Orodu, Anawe, P.A.L, EfeogheneEnaworu and CharlesOnuh (2017) ‘Modelling the Effect of Composition Change during Condensate Dropout in a Horizontal Gas Well’ International Journal of Applied Engineering Research ISSN 0973-4562 Volume 12, Number 2 (2017) pp. 179–189 © Research India Publications. http://www.ripublication.comGoogle Scholar Livinus and Obah (2012) ‘Power law concept on Darcy's flow model; A new approach for analysing Gas/Condensate Well deliverability, Paper presented at the Nigeria Annual international conference and exhibition held in AbujaAugust 2012.OivindFevang and C.H.Whitson (1996) Modelling gas condensate well deliverability, SPE reservoir engineering, 1996.Google Scholar O.Ogunrewo, T.Herens and A.C.Gringarten (2013) ‘Well deliverabiity forecasting of gas condensate and volatile oil wells below saturation pressure, paper presented at EAGE Annual conference and exhibition incorporating SPE europe held in London, UKGoogle Scholar V.A.Huerta, A.Lanchimba and J.W.Porlies, (2012) ‘Modelling condensate Banking in Lean Gas condensate reservoirs, this paper was presented at the SPE Latin American, and Caribbean Petroleum Engineering Conference held in Mexico City, 16-18 April, 2012.Google Scholar S.Dobkine, W.Dewenter, WintershallHolding and I.Yushkov, A.Nesterenko, (2012) ‘Deliverability Modelling of West Siberia Gas-Condensate wells’, the Paper was prepared for presentation at the SPE Russia oil and gas Exploration and Production Technical conference and Exhibition held in Moscow, Russia, (2012).Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212043-MS
+
+
+

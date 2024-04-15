@@ -1,0 +1,1063 @@
+----- METADATA START -----
+Title: Developing a Model for Effective Cutting Transport Mechanism
+Authors: Oghenetega Shadrack David
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211957-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The transportation of cuttings and wellbore stability are indispensable in any drilling program. This is because a successful drilling operation is the key to a profitable business in the oil and gas sector, efficiency of cuttings transport is very important for a good drilling program, the transportation of these cuttings through the annulus is a complex problem that is affected by many parameters.The objective is to design drilling mud for efficient cutting transport in different holes sections and develop a model that is more effective in lifting cuttings through the annulus without affecting the stability of the wellbore.Cutting transport efficiency in vertical and deviated wellbore has been reported to depend on the following factors; hole geometry and inclination, average fluid velocity, flow regime, drill pipe rotation, pipe eccentricity, fluid properties and rheology, cuttings size and shape, cuttings transport velocity, slip velocity, etc., the accumulation of drilling cuttings in the wellbore causes several drilling problems. These includes an increase in torque and drag, which may limit drilling from reaching to a desired target formation, the analysis is carried-out using different cutting transport models like; larsians model, rubiandini's model, moore's model, Hopkins method and zeidler's slip velocity correlation.This paper work is aimed at achieving a cutting transport model (I,e developing a model), that is more effective in lifting the drilled cuttings from the wellbore through the annulus to the surface after considering different existing cutting transport models and it is required that parameters affecting the efficient cutting transport are considered simultaneously.
+
+
+
+
+Keywords:
+drilling fluids and materials,
+production monitoring,
+crit 1,
+drilling operation,
+cuttings,
+well planning,
+reservoir surveillance,
+mw 1 0,
+ang 0,
+upstream oil & gas
+
+
+Subjects: 
+Well Planning,
+Drilling Operations,
+Drilling Fluids and Materials,
+Well & Reservoir Surveillance and Monitoring,
+Production logging
+
+
+
+
+Introduction
+
+
+Transportation of cuttings is a mechanism that is a vital factor for a good drilling program. In directional and horizontal drilling, hole cleaning is a common and costly problem. Ineffective removal of cuttings can result in several problems, such as bit wear, slow drilling rate, increased ECD (which can lead to formation fracturing), high torque, drag, and in the worst case, the drill pipe can be stuck. If this type of situation is not handled properly, the problem can escalate to side tracking or loss of well, at worst.
+
+
+Cuttings transport is controlled by many variables such as well inclination angle, hole and drill-pipe diameter, rotation speed of drill pipe (RPM), drill-pipe eccentricity, rate of penetration (ROP), cuttings characteristics like cuttings size and porosity of bed and drilling fluids characteristics like flow rate, fluid velocity, flow regime, mud type and non - Newtonian mud rheology. The key factors for optimizing hole cleaning is a result of good well planning, good drilling fluid properties, and good drilling experience.
+
+
+Methodology
+
+
+The research design chosen for this research work is the descriptive approach. In this descriptive research, coherent inferences will be drawn from series of available data.
+
+
+The data generated will be presented in a tabular form by the researcher and also with the aid of Microsoft Excel. The researcher intends to use a simple comparative analysis to represent the answers to the research questions. In this regard, the different formation configurations, different mud system, and potential damage that can happen during the course of using any of these mud systems will be taken into consideration in selecting the most effective and efficient drilling fluid for cutting transport mechanism.
+
+
+The data was further analyzed comparatively using Microsoft Excel. Microsoft Excel is a spreadsheet-based software tool that employs formulae and functions to arrange numbers and data. Excel analysis is used by businesses of all sizes all around the world to undertake various analysis. In this regard, the wellbore damage due to drilling will be quantified based on cutting transport parameters. The effects of these parameters on the different cutting transport models and the best model to be used in HTHP wells in niger delta.
+
+
+Schematic Form of Some of the Models
+
+
+Figure 1View largeDownload slideLarsen's model in schematic formFigure 1View largeDownload slideLarsen's model in schematic form Close modal
+
+
+Figure 2View largeDownload slideRudi Rubiandini's model in schematic formFigure 2View largeDownload slideRudi Rubiandini's model in schematic form Close modal
+
+
+Figure 3View largeDownload slideMoore's model in schematic formFigure 3View largeDownload slideMoore's model in schematic form Close modal
+
+
+Results and Analysis
+
+
+Parameters for Cutting Transport Mechanism
+
+
+Constant parameters
+
+
+Diameter of pipe (Dpipe) = 5(inches)
+
+
+Diameter of hole (Dhole) = 8.5(inches)
+
+
+Rate of penetration (ROP) = 33(ft/hr)
+
+
+Plastic viscosity (PV) = 7(cp)
+
+
+Yield point (YP) = 7(lbf/100ft2
+
+
+Diameter of cuttings/ cuttings size (Dcut) = 0.3(inches)
+
+
+Mud weight (ρm) = 10.83 (ppg)
+
+
+RPM = 80
+
+
+Cuttings density (ρs) = 19(lbf/gal)
+
+
+Inclinations = 0° to 90°
+
+
+Empirical constant (C) = 40
+
+
+Gravitational acceleration (g) = 9.81
+
+
+Table 1Varying parameters ROP(ft/hr) 33 98.3 164 Mud weight (ρm) 10.83 12.5 15 cuttings size (Dcut) 0.1 0.3 0.6 Mud rheology(YP= PV) 7 10 15 ROP(ft/hr) 33 98.3 164 Mud weight (ρm) 10.83 12.5 15 cuttings size (Dcut) 0.1 0.3 0.6 Mud rheology(YP= PV) 7 10 15 View Large
+
+
+Moore's Model Analysis
+
+
+For constant parameters
+
+
+Vs1 = 39.70539046ft/min
+
+
+Vs1 = 0.6617565077ft/sec
+
+
+Vmin = 1.2846313 + 0.6617565077
+
+
+Vmin = 1.946387808ft/s
+
+
+μa = 99.910113985cp
+
+
+Re = 19.97038059
+
+
+F = 4.922996308
+
+
+Vslip=4.92*0.3*(19−10.83)10.83
+
+
+Vslip = 2.340574828ft/s
+
+
+Using 15
+
+
+Vcut = 1.2846313ft/s
+
+
+Vs1 = 39.04203797ft/min
+
+
+Vs1 = 0.6507006328ft/sec
+
+
+Vmin = 1.2846313 + 0.6507006328
+
+
+Vmin = 1.935331933ft/s
+
+
+μa = 150.6356476cp
+
+
+Re = 13.02420303
+
+
+F = 2213.02420303
+
+
+F = 6.096030089
+
+
+Vslip=6.10*0.3*(19−10.83)10.83
+
+
+Vslip = 2.901932206ft/s
+
+
+Rudi-Rubiadini's Model
+
+
+For constant parameters
+
+
+Using data's from moore's model
+
+
+Vslip = 1.945721758 ft/s
+
+
+If θ≪45°
+
+
+Vmin=Vcut+Vslip[1+θ(600−RPM)*(3+ρm)202500]
+
+
+θ ≫45°
+
+
+Vmin=Vcut+Vslip[1+(600−RPM)*(3+ρm)4500]
+
+
+Considering θ≪ 45°
+
+
+Vmin=Vcut+Vslip[1+θ(600−RPM)*(3+ρm)202500]
+
+
+At 30°
+
+
+Vmin=1.2846313+1.945721758[1+30(600−80)*(3+10.83)202500]
+
+
+Vmin = 5.303368257ft/s
+
+
+At 15°
+
+
+Vmin=1.2846313+1.945721758[1+15(600−80)*(3+10.83)202500]
+
+
+Vmin = 4.266860658ft/s
+
+
+considering θ≫45°
+
+
+Vmin=1.2846313+1.945721758[1+(600−RPM)*(3+10.83)4500]
+
+
+Vmin=1.2846313+1.945721758[1+(600−80)*(3+10.83)4500]
+
+
+Vmin = 6.339875857ft/s
+
+
+For varying parameters
+
+
+First case
+
+
+ROP(ft/hr) = 33
+
+
+Mud weight(ppg) = 10.83
+
+
+Cuttings size(inch) = 0.1
+
+
+Mud rheology(PV=YP) = 7
+
+
+Vslip = 2.916898497ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 7.309258276ft/s
+
+
+For 30°
+
+
+Vmin = 5.7553594036ft/s
+
+
+Second case
+
+
+ROP(ft/hr) = 98.3, = ρm (ppg) = 12.5,Dcut = 0.3, YP = PV = 10.
+
+
+Vslip = 1.808955057 ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 5.823019556ft/s
+
+
+For 15°
+
+
+Vmin = 4.743006388ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 6.903032723ft/s
+
+
+Third case
+
+
+ROP = 164, ρm (ppg) = 15, Dcut = 0.6,YP = PV = 15.
+
+
+Vslip = 1.38ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 5.33041357ft/s
+
+
+For 15°
+
+
+Vmin = 4.37361357t/s
+
+
+If θ ≫45°
+
+
+Vmin = 6.28721357ft/s
+
+
+Considering Varying Individual Parameters
+
+
+For ROP, using 33ft/hr
+
+
+Vslip = 1.945721758 ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 5.303368257ft/s
+
+
+For 15°
+
+
+Vmin = 4.266860658ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 6.339875857ft/s
+
+
+Using, 98.3(ft/hr)
+
+
+Vslip = 1.403393444ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 4.75263817ft/s
+
+
+For 15°
+
+
+Vmin = 4.005034889ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 5.500241451ft/s
+
+
+Using 164ft/hr
+
+
+Vslip = 1.446208837ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 5.02384544ft/s
+
+
+For 15°
+
+
+Vmin = 4.253433923ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 5.794256956ft/s
+
+
+For mud weight (ppg)
+
+
+Using 10.83
+
+
+Vslip = 1.945721758 ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 5.303368257ft/s
+
+
+For 15°
+
+
+Vmin = 4.266860658ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 6.339875857ft/s If θ≪45°
+
+
+Using 12.5
+
+
+Vslip = 1.698363919ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 5.010967543ft/s
+
+
+For 15°
+
+
+Vmin = 3.996981381ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 6.024953705ft/s
+
+
+Using 15ppg
+
+
+Vslip = 1.368958728ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 4.551879464ft/s
+
+
+For 15°
+
+
+Vmin = 3.602734746ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 5.501024182ft/s
+
+
+For cuttings size (inches)
+
+
+Using 0.1
+
+
+Vslip = 2.916898497ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 7.309258276ft/s
+
+
+For 15°
+
+
+Vmin = 5.755394036ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 8.863122515ft/s
+
+
+Using 0.3
+
+
+Vslip = 1.945721758 ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 5.303368257ft/s
+
+
+For 15°
+
+
+Vmin = 4.266860658ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 6.339875857ft/s
+
+
+Using 0.6
+
+
+Vslip = 1.527208323ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 4.438961308ft/s
+
+
+For 15°
+
+
+Vmin = 3.625400466ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 5.252522151 ft/s
+
+
+For mud rheology (PV=YP)
+
+
+Using 7
+
+
+Vslip = 1.945721758 ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 5.303368257ft/s
+
+
+For 15°
+
+
+Vmin = 4.266860658ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 6.339875857 ft/s
+
+
+Using 10
+
+
+Vslip = 2.340574828ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 6.118906563ft/s
+
+
+For 15°
+
+
+Vmin = 4.872056345ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 7.365756678 ft/s
+
+
+Using 15
+
+
+Vslip = 2.901932206ft/s
+
+
+If θ≪45°
+
+
+For 30°
+
+
+Vmin = 7.278346566ft/s
+
+
+For 15°
+
+
+Vmin = 5.732455036ft/s
+
+
+If θ ≫45°
+
+
+Vmin = 8.824238095 ft/s
+
+
+Larsen's Model
+
+
+For constant parameters
+
+
+μa = 69.72033487 cp
+
+
+Since μa > 53 cp
+
+
+∇slip = 0.02554*(μa−53)+3.28
+
+
+∇slip = 0.02554*(69.72033487−53) + 3.28
+
+
+∇slip = 3.707037353ft/s
+
+
+Considering different angles θ
+
+
+Say, 30°, 45°, and 60°
+
+
+Cang =0.0342(θ) −0.000233(θ)2 −0.213
+
+
+For 30°
+
+
+Cang =0.0342(30) −0.000233(30)2−0.213
+
+
+Cang = 0.6033
+
+
+Csize = 0.3
+
+
+Cmw = 1 − 0.0333(ρm−8.7)
+
+
+Since ρm > 8.7
+
+
+ρm = 10.83
+
+
+Cmw = 1 − 0.0333(10.83-8.7)
+
+
+Cmw = 0.929071
+
+
+Vslip = ∇slip * Cang * Csize *Cmw
+
+
+Vslip = 3.707037353 * 0.6033 * 0.3*0.929071
+
+
+Vslip = 0.623347822ft/s
+
+
+Vmin = Vcrit = Vcut + Vslip
+
+
+Vmin = Vcrit = 1.2846313+ 0.623347822
+
+
+Vmin = Vcrit = 1.907979122ft/s
+
+
+For 45°
+
+
+Cang = 0.0342(45) −0.000233(45)2 −0.213
+
+
+Cang = 0.854175
+
+
+Csize = 0.3
+
+
+Cmw = 1 − 0.0333(ρm−8.7)
+
+
+Since ρm > 8.7
+
+
+ρm = 10.83
+
+
+Cmw = 1 - 0.0333(10.83−8.7)
+
+
+Cmw = 0.929071
+
+
+Vslip = ∇slip * Cang * Csize*Cmw
+
+
+Vslip = 3.707037353*0.854175* 0.3*0.929071
+
+
+Vslip = 0.882559466ft/s
+
+
+Vmin = Vcrit = Vcut + Vslip
+
+
+Vmin = Vcrit = 1.2846313+ 0.882559466
+
+
+Vmin = Vcrit = 2.167190766ft/s
+
+
+For 60°
+
+
+Cang = 0.0342(60)−0.000233(60)2−0.213
+
+
+Cang = 1.0002
+
+
+Csize = 0.3
+
+
+Cmw = 1 −0.0333(ρm−8.7)
+
+
+Since ρm > 8.7
+
+
+ρm = 10.83
+
+
+Cmw = 1 − 0.0333(10.83−8.7)
+
+
+Cmw = 0.929071
+
+
+Vslip = ∇slip * Cang * Csize*Cmw
+
+
+Vslip = 3.707037353*1.0002* 0.3*0.929071
+
+
+Vslip = 1.033436916ft/s
+
+
+Vmin = Vcrit = Vcut + Vslip
+
+
+Vmin = Vcrit = 1.2846313+ 1.033436916
+
+
+Vmin = Vcrit = 2.318068216ft/s
+
+
+For varying parameters
+
+
+First case
+
+
+ROP = 33, ρm (ppg) = 10.83,Dcut = 0.1, YP = PV = 7
+
+
+μa = 81.95631257cp
+
+
+Since μa > 53 cp
+
+
+∇slip = 0.02554*(μa−53)+3.28
+
+
+∇slip = 0.02554*(81.95631257−53) + 3.28
+
+
+∇slip = 4.019544223ft/s
+
+
+Considering different angles θ
+
+
+Say, 30°, 45°, and 60°
+
+
+Cang = 0.0342(θ) −0.000233(θ)2 −0.213
+
+
+For 30°
+
+
+Cang = 0.0342(30)−0.000233(30)2−0.213
+
+
+Cang = 0.6033
+
+
+Csize = 0.1
+
+
+Cmw = 1 − 0.0333(ρm−8.7)
+
+
+Since ρm > 8.7
+
+
+ρm = 10.83
+
+
+Cmw = 1 - 0.0333(10.83-8.7)
+
+
+Cmw = 0.929071
+
+
+Vslip = ∇slip * Cang * Csize*Cmw
+
+
+Vslip = 4.019544223*0.6033* 0.1*0.929071
+
+
+Vslip = 0.2252988841ft/s
+
+
+Vmin = Vcrit = Vcut + Vslip
+
+
+Vmin = Vcrit = 1.2846313+ 0.2252988841
+
+
+Vmin = Vcrit = 1.509930184ft/s
+
+
+For 45°
+
+
+Cang = 0.0342(45) −0.000233(45)2−0.213
+
+
+Cang = 0.854175
+
+
+Csize = 0.1
+
+
+Cmw = 1 − 0.0333(ρm−8.7)
+
+
+Since ρm > 8.7
+
+
+ρm = 10.83
+
+
+Cmw = 1 − 0.0333(10.83−8.7)
+
+
+Cmw = 0.929071
+
+
+Vslip = ∇slip * Cang * Csize*Cmw
+
+
+Vslip = 4.019544223*0.854175* 0.1*0.929071
+
+
+Vslip = 0.318986697ft/s
+
+
+Vmin = Vcrit = Vcut + Vslip
+
+
+Vmin = Vcrit = 1.2846313+ 0.318986697
+
+
+Vmin = Vcrit = 1.603617997ft/s
+
+
+Zeidler's Slip Velocity Correlation Model
+
+
+For constant parameters
+
+
+Vcut = 1.2846313ft/s
+
+
+Vs1 = 0.6684832721ft/s
+
+
+Vmin = 1.953114572ft/s
+
+
+μa=PV+5YP(Dhole−Dpipe)Vmin
+
+
+μa=7+5(7)(8.5−5)1.953114572
+
+
+μa = 69.72033487cp
+
+
+NRE=928*ρm*Dcut*Vs1μa
+
+
+NRE = 28.90871365
+
+
+IF,
+
+
+2 ≤ NRE,p ≤ 15
+
+
+VS=13.42(ρs−ρl)0.782*deq1.35ρl0.218*μ0.564
+
+
+15 ≤ NRE,p ≤ 80
+
+
+VS=13.88(ρs−ρl)0.612*deq0.836ρl0.388*μ0.224
+
+
+80 ≤ NRE,p ≤ 1500
+
+
+VS=17.88(ρs−ρl)0.516*deq0.548ρl0.48*μ0.032
+
+
+Since, NRE = 28.90871365
+
+
+15 ≤ NRE,p ≤ 80
+
+
+VS=13.88(19−10.83)0.612*0.30.83610.830.388*69.720334870.224
+
+
+Vslip = 2.813159004ft/s
+
+
+Discussion
+
+
+In general the hole-cleaning becomes worse as well inclination increases from vertical to horizontal. Increasing flow rates can improve the cuttings-transport performance. As hole- inclination increases from vertical to horizontal, if appropriate flow rate is not used a cuttings-bed development will occur. Especially at inclinations between 40 and 60°, hole- cleaning is most difficult because of back sliding of the cuttings inside the wellbore. for any well inclination and under all operational conditions the higher the flow rate clean the well effectively.
+
+
+Conclusion
+
+
+The results show that the impact of parameters depends on various combinations parameters.
+
+
+Increasing viscosity, density of fluid requires an increase flow rateIncreasing ROP requires an increase flow rateIncreasing well size requires an increase flow rateIncreasing cutting density requires an increase flow rateIncreasing cutting size requires an increase flow rateIncreasing RPM reduces the flow rate requiredIncreasing mud weight reduces the flow rate required
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+T.Nazari and G.Hareland, University of Calgary, and J.J.Azar, University of Tulsa //Review of Cuttings Transport in Directional Well Drilling: Systematic Approach// SPE 132372, SPE Western Regional Meeting, 27-29 May 2010, Anaheim, California, USAInge F.Larsen, //A study of the critical fluid velocity in cuttings transport for inclined wellbores// MSc thesis, 1990Google Scholar Larsen, T.I., Pilehvari, A.A., and Azar, J.J.: "Development of a New Cuttings-Transport Model for High-Angle Wellbores Including Horizontal Wells," paper SPE 25872 presented at the 1993 SPE Annual Technical Conference and Exhibition, Denver, April 12–14.Rudi Rubiandini, R.S.: "Equation for Estimating Mud Minimum Rate for Cuttings Transport in an Inclined-Until-Horizontal Well", paper SPE/IADC 57541 presented at the 1999 SPE Annual Technical Conference and Exhibition, Abu Dhabi, November 8–10.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211957-MS
+
+
+

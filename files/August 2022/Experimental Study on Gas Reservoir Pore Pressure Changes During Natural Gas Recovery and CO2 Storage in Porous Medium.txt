@@ -1,0 +1,197 @@
+----- METADATA START -----
+Title: Experimental Study on Gas Reservoir Pore Pressure Changes During Natural Gas Recovery and CO2 Storage in Porous Medium
+Authors: Nuhu Mohammed, Abubakar Abbas J., Godpower Enyi C.
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211971-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Much research has been conducted to determine the impact of gas injection settings on residual natural gas recovery and CO2 sequestration. However, little research has been conducted on how reservoir pore pressure varies during natural gas displacement by CO2 flooding. Using a core flooding experiment, this article examined the effects of gas injections on reservoir pore pressure and compression ratio. A core flooding experiment was done at 30-40 °C and 1500 psig to investigate the effect of gas injections on reservoir pore pressure and compression ratio. The CO2 injection rate and N2 booster volume were adjusted to 0.2-1.2 ml/min and 8-36 cm3, respectively. Because of the turbulence effect, high mean interstitial velocity raises the molecular kinetic energy of the gas species, which subsequently influences the molecular agitation of the gas species and so alleviates reservoir pressure and gas compression. The typical CO2 injection experiments revealed substantial compression and pore pressure rises as the injection rate increased. The trial with N2 as a booster resulted in a steady increase, which explains their low dispersion coefficient value. As a result, there is less gas mixing and compression compared with typical CO2 flooding.
+
+
+
+
+Keywords:
+compressors engines and turbines,
+reservoir geomechanics,
+gas injection method,
+reservoir characterization,
+upstream oil & gas,
+enhanced recovery,
+journal,
+compression,
+experiment,
+co 2
+
+
+Subjects: 
+Processing Systems and Design,
+Reservoir Characterization,
+Improved and Enhanced Recovery,
+Compressors, engines and turbines,
+Reservoir geomechanics,
+Gas-injection methods
+
+
+
+
+Introduction
+
+
+As time passes, reservoir pressure tends to fall; as a result, natural gas production from the reservoirs might be hampered, and the reservoirs are ignored. Depleted oil and gas fields are the name given to these reservoirs (Abba et al., 2017). Such oil and gas fields are unrestricted for a variety of reasons, the most prevalent of which being low production output. Another factor might be a large amount of water incursion (Kalra & Wu 2014). However, these depleted reservoirs are not devoid of residual HCs in situ, and there is a need for further production and recovery to meet escalating energy demand. When CH4 is displaced and CO2 is stored, this justifies the use of Enhanced Gas Recovery (EGR) procedures considerably.
+
+
+These isolated gas reservoirs' services might be utilised for anthropogenic CO2 geological storage (Abba et al., 2017). The notion of EGR by CO2 injection takes use of the availability of residual methane in the reservoir while also storing the injected CO2. Furthermore, dispersion refers to the irreversible mixing that happens during fluid displacement via a miscible process (Adepoju et al., 2013). This mixing happens when two miscible fluids collide and their molecules interact under conditions that promote thermodynamic instability (Abba et al., 2018). According to, the two mechanisms that simultaneously play roles in mixing two miscible fluids are molecular diffusion and mechanical dispersion (Perkins & Johnston, 1963). They characterised mixing in porous media as a diffusion-like process that is influenced by velocity and concentration gradients.
+
+
+Because of the significant mixing of the injected CO2 and the nascent displaced natural gas during the flooding process, EGR promotion is still in its infancy (Oldenburg and Benson, 2002; Shtepani, 2006; Turta et al., 2007; Sim et al., 2008; Al-abri et al., 2009; Sim et al., 2009; Sidiq et al., 2011; Hughes et al., 2012; Honari et al., 2013; Khan et al., 2013; Zhang et al., 2014; Honari et al., 2015; Patel et al., 2016; Honari et al., 2016). This contaminates the recoverable natural gas, diminishing its heating and selling cost, resulting in the high cost of the leavening technique to maintain its potency for use (Oldenburg and Benson, 2002; Sim et al., 2009). The EGR project has been constrained to a few experimental tests due to the unprecedented mixing with the displaced gas (Pooladi- Darvish et al., 2008), and the technology has become uneconomical. As a result, the phenomenon is not well understood (Patel et al., 2016). Finding an alternative gas with high displacement capabilities and minimal mixing possibilities might thus be a significant improvement for the oil and gas industry.
+
+
+To date, there is limited experimental evidence on how pore pressure varies during natural gas displacement and CO2 sequestration in sandstone rocks. The influence of gas injections on compression ratio and reservoir pore pressures during EGR and CO2 storage is investigated experimentally in this paper. A laboratory core flooding procedure was used to do this in Sandstone rock. The core sample's petrophysical characteristics were measured and displayed. Thus, the operation parameters for this study are at an average normal reservoir pressure of 0.1 bar/m gradients, a depth of 800-1200m, and a temperature gradient of 300-40 °C/1000m, which is well within the EGR application.
+
+
+Diffusion theory
+
+
+Gas-phase diffusion is often thought to be dominated by molecular diffusion. Eq. 1 depicts the one-dimensional Fick's second law, which represents the unequal expansion of a solute along concentration gradients over time.
+
+
+∂C∂t=Dα∂2C∂x2(1)
+
+
+Where C denotes the gas concentration (mol/m3), t represents the duration (s), Da denotes the binary molecular diffusion coefficient of air (m2/s) and denotes the distance along the flow axis (m). Whenever the centre collision happens inside a molecule-molecule connection without striking with the container's wall, this is referred to as molecular diffusion. More complex gas-phase diffusion techniques, like viscous, Knudsen, and non-equimolar diffusion, can happen in some instances (Scanlon et al., 2000). The first two processes are assumed to occur as a result of pore walls and the resultant molecule-wall collisions (Cunningham and Williams, 1980). The other requires the presence of both system walls and a multistep gas; such conditions are most commonly seen in porous media and result in a divergence from Fick's rule (Sleep, 1998). Higher gas pressures, notably those around organic liquid sources, diverge from Fick's rule, thus according Baehr and Bruell (1990). Diffusion is a solute-dependent component of dispersion due to the connections between average kinetic energy, velocity, and molecular mass (Molly & Mark, 2006). Meanwhile, as demonstrated in Eq. 2, the average kinetic energy of all gases at constant temperature is identical.
+
+
+Ek=32kT=32mv2rms(2)
+
+
+where k denotes Boltzmann's constant (J/K), T denotes temperature (K), m denotes solute mass (kg), and vrms is the root-mean-square velocity of the gas particles (m/s). As a result, under thermal equilibrium and equivalent kinetic energy, lower molecular weight gases are thought to have higher average velocities than higher molecular weight gases (Molly & Mark, 2006). Because of the higher velocity, the diffusion coefficients become more prominent, contributing to overall dispersion domination. Diffusion processes, such as aggregates or fine-textured lenses, control transport in low-permeability zones.
+
+
+Compression ratio
+
+
+The term compression ratio can apply to a single compression cycle as well as a multilevel reduction stage. When used to a single device or set of compression, it is characterized as the phase or unit compression ratio; when related to a multiphase compressor, it is described as the total compression ratio. The compression ratio of most gas pipeline compressors is low. A sole compression cycle in a reciprocating engine and a single entity in a centrifugal compressor can meet low pressure ratios. While pressure ratio is an essential indicator for reciprocating compressors, the pressure ratio that a certain centrifugal compressor can generate is primarily controlled by gas composition and temperature. For natural gas, a single centrifugal stage may provide a pressure ratio of 1.4 (with a specific gravity of 0.58–0.70). The compression ratio (CR) is defined as the ratio of actual discharge pressure to absolute suction pressure. Eq. 3 shows how this is expressed numerically.
+
+
+CR=(P2P1)γ(3)
+
+
+However, the ratio of P2P1 represent the pressure ratio (PR). Therefore, Eq. 3 can be re-written as:
+
+
+CR=(PR)γ(4)
+
+
+Where γ is the specific heat ratio for the working gas, which is about 1.4 for N2 or air and 1.28 for CO2.
+
+
+Methodology and Materials
+
+
+The specific dimensions and petrophysical parameters of the 1 by 3 Bandera grey sandstone core sample are displayed in Table 1. This specimen was obtained from the Kocurek factory in the United States of America. Furthermore, high purity CH4 and industrial-grade CO2 with a minimum purity of 99.9 per cent were employed during the investigation.
+
+
+Table 1Bandera grey core plug measurements and rock properties characteristics Core sample
+            . Length (mm)
+            . Diameter (mm)
+            . Porosity (%)
+            . Permeability (md)
+            . Pore volume (cm3)
+            . Bandera gray 76.02 25.31 19.68 32 7.53 Core sample
+            . Length (mm)
+            . Diameter (mm)
+            . Porosity (%)
+            . Permeability (md)
+            . Pore volume (cm3)
+            . Bandera gray 76.02 25.31 19.68 32 7.53 View Large
+
+
+To explore the effect of gas injection interfacial velocity on gas reservoir pore pressure, a core flooding testing was conducted at 30-40 °C and 1500 psig. The core plugs were preheated overnight at 100-110 °C to avoid impurities interference. The dried sample was then wrapped in cling film and foil sheets before being heat shrunk. This is essential for reducing viscous fingering and gas infiltration into the ring-shaped core holder through the sleeve. It was then clamped from both ends and stapled into the core holder. To prevent cracking the core sleeve, hydraulic oil was pumped into the ring-shaped core holder to provide the necessary overburden pressure, which was kept 500 psig well above pore pressures. The heat jacket was then put on top of the core holder, and the temperature rise was recorded. The backpressure was then triggered, and the measuring pump was utilised to gently feed CH4 from the accumulator into the core sample. Following that, the line was totally saturated with methane. The CO2 injection rate and N2 booster volume were adjusted to 0.2-1.2 ml/min and 8-36 cm3, respectively, and a GC printout of the final product concentration was taken after 5 minutes. Finally, the experiment was called off (i.e., CH4 < 1-2 percent) and the line was de-pressurized.
+
+
+Figure 1View largeDownload slideSchematics of experimentational set-up for gas alternating gas injectionFigure 1View largeDownload slideSchematics of experimentational set-up for gas alternating gas injection Close modal
+
+
+Reseults and Discussion
+
+
+CO2 compression is a critical step in the development of carbon capture and storage (CCS) technology. A full CCS system necessitates safe, dependable, and cost-effective CO2 conveyance choices from the capture rig to a permanent storage location. CO2 compression varies from N2 compression due to its large molecular mass and highly compressible processes. During the compression process, the CO2 volume is greatly reduced, resulting in a huge impeller diameter. In general, CO2 compression is highly costly due to the high-pressure ratio (100:1) caused by the presence of water vapour forming during compression. In contrast, N2 may be recovered almost entirely from ambient air through an air separation unit. It has a lower compression ratio than CO2, hence less of it was required to generate high pressure in the CH4 reservoir during displacement. Fig. 2 depicts a plot of the compression ratio vs reservoir pressure. Because the maximum reservoir pressure would not surpass the given value during the CH4 displacement, a maximum pressure of 2000 psig was evaluated. Because neither of the experimental runs surpassed the 2000 psig reservoir pressure during the core flooding experiment, this number was determined to be correct. Overall, the CO2 compression ratio deviates parallelly as reservoir pressure increases, with CO2 witnessing around 33 climbs (from 13 to 47) within the pressure range (400-2000 psig) studied. This appears to be massive when compared to N2 with 22, showing a 50% increase. A comparable study was performed utilising core flooding logging data at 1500 psig, 40 °C, 0.4 ml/min injection rate, and various N2 cushion gas quantities. The results showed that when the cushion gas volume increased from 8 to 36 cm3, the head load decreased. This was visible in the decreased percentage heat load compared to pure CO2 injection, with the greatest result observed at 24 cm3 equivalent to a 25% power loss due to heat reduction. When the pressure ratio (PR) was plotted against the experimental time for traditional N2 and CO2 injection, a similar pattern was found in Fig. 3. A decline in PR was detected prior to both injections following methane saturation, which might be attributed to changes in thermophysical characteristics of the displacing fluids (N2 and CO2) and the displaced gas (CH4). Because of the behaviour of CO2 at a supercritical state, this reduction was more pronounced in CO2 than in N2. As a result, the PR of CO2 was discovered to be 4% higher than that of N2 at the end of the displacement experiment.
+
+
+Figure 2View largeDownload slideThe plot of compression ratio (CR) against reservoir pressureFigure 2View largeDownload slideThe plot of compression ratio (CR) against reservoir pressure Close modal
+
+
+Figure 3View largeDownload slide: The plot of pressure ratio (PR) against experimental time at 1500 psig, 40 °C, 0.4 ml/min injection rate, and 8-36 cm3 cushion volumesFigure 3View largeDownload slide: The plot of pressure ratio (PR) against experimental time at 1500 psig, 40 °C, 0.4 ml/min injection rate, and 8-36 cm3 cushion volumes Close modal
+
+
+Because of the responsiveness of their transport qualities to changing from ambient standard settings to EGR conditions, these fluids demonstrate good behaviour. As a result, a simulation of their respective characteristics under higher operational circumstances was evaluated to examine the behavoir of their density and pore pressure during the natural gas displacement process. These characteristics of gases varied significantly, with CO2 transport properties being far higher and more intense than N2 and CH4. This is most noticeable at pressures ranging from 650 to 1500 psig, as seen in Fig. 4. This validates the experimental circumstances chosen, as reported by Abba et al., 2018.
+
+
+Figure 4View largeDownload slideDensity and pore pressure flow behavoir for CO2, CH4, and N2 gasFigure 4View largeDownload slideDensity and pore pressure flow behavoir for CO2, CH4, and N2 gas Close modal
+
+
+Conclusion
+
+
+The effects of gas injections on compression ratio and reservoir pore pressures during EGR and CO2 storage were investigated using empirical modelling and displacement experiments. During the displacement process, N2 has a smaller compression ratio and pore pressure rise than CO2 gas, according to the data. The typical CO2 injection tests revealed a significant increase in pore pressure as the injection rate increased. In general, increasing reservoir pore pressure leads to increasing mean interstitial velocity, and the same patterns were found at the CO2 breakthrough point. The experiment with N2 as a booster, on the other hand, recorded a continuous and constant pore pressure rise, which was responsible for their low dispersion coefficient value. As a result, less gas mixing occurs during the natural gas recovery process than with conventional CO2 flooding.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgment
+
+
+The authors would like to thank the Petroleum Technology Development Fund, PTDF Abuja Nigeria, for their financial assistance and studentship.
+
+
+Appendix
+
+
+Table A1N2 experimental and numerical data Time
+            . Pure N2
+            . PR
+            . CR
+            . log PR
+            . log PR/R
+            . 0.15 1509 102.68 27.34 2.011 1.437 5.82 1493 101.59 27.13 2.007 1.433 11.32 1497 101.86 27.18 2.008 1.434 16.82 1503 102.27 27.26 2.010 1.436 22.32 1508 102.61 27.33 2.011 1.437 27.82 1514 103.02 27.40 2.013 1.438 33.32 1519 103.36 27.47 2.014 1.439 38.82 1525 103.77 27.55 2.016 1.440 44.32 1531 104.18 27.62 2.018 1.441 49.82 1537 104.59 27.70 2.019 1.442 55.32 1542 104.93 27.76 2.021 1.443 60.82 1548 105.33 27.84 2.023 1.445 66.32 1554 105.74 27.92 2.024 1.446 71.82 1560 106.15 28.00 2.026 1.447 77.32 1565 106.49 28.06 2.027 1.448 82.82 1570 106.83 28.12 2.029 1.449 88.32 1576 107.24 28.20 2.030 1.450 93.65 1581 107.58 28.26 2.032 1.451 99.32 1586 107.92 28.33 2.033 1.452 104.65 1592 108.33 28.40 2.035 1.453 110.48 1595 108.53 28.44 2.036 1.454 115.82 1601 108.94 28.52 2.037 1.455 121.32 1605 109.21 28.57 2.038 1.456 126.98 1608 109.42 28.61 2.039 1.456 132.48 1612 109.69 28.66 2.040 1.457 137.98 1614 109.83 28.68 2.041 1.458 143.82 1616 109.96 28.71 2.041 1.458 149.48 1617 110.03 28.72 2.042 1.458 154.82 1617 110.03 28.72 2.042 1.458 160.32 1618 110.1 28.74 2.042 1.458 165.82 1617 110.03 28.72 2.042 1.458 171.32 1617 110.03 28.72 2.042 1.458 176.82 1617 110.03 28.72 2.042 1.458 182.66 1616 109.96 28.71 2.041 1.458 188.15 1616 109.96 28.71 2.041 1.458 193.65 1615 109.89 28.70 2.041 1.458 199.32 1614 109.83 28.68 2.041 1.458 205.15 1613 109.76 28.67 2.040 1.457 210.65 1612 109.69 28.66 2.040 1.457 216.15 1611 109.62 28.65 2.040 1.457 221.48 1610 109.55 28.63 2.040 1.457 226.98 1610 109.55 28.63 2.040 1.457 232.82 1608 109.42 28.61 2.039 1.456 238.65 1608 109.42 28.61 2.039 1.456 244.15 1607 109.35 28.60 2.039 1.456 Time
+            . Pure N2
+            . PR
+            . CR
+            . log PR
+            . log PR/R
+            . 0.15 1509 102.68 27.34 2.011 1.437 5.82 1493 101.59 27.13 2.007 1.433 11.32 1497 101.86 27.18 2.008 1.434 16.82 1503 102.27 27.26 2.010 1.436 22.32 1508 102.61 27.33 2.011 1.437 27.82 1514 103.02 27.40 2.013 1.438 33.32 1519 103.36 27.47 2.014 1.439 38.82 1525 103.77 27.55 2.016 1.440 44.32 1531 104.18 27.62 2.018 1.441 49.82 1537 104.59 27.70 2.019 1.442 55.32 1542 104.93 27.76 2.021 1.443 60.82 1548 105.33 27.84 2.023 1.445 66.32 1554 105.74 27.92 2.024 1.446 71.82 1560 106.15 28.00 2.026 1.447 77.32 1565 106.49 28.06 2.027 1.448 82.82 1570 106.83 28.12 2.029 1.449 88.32 1576 107.24 28.20 2.030 1.450 93.65 1581 107.58 28.26 2.032 1.451 99.32 1586 107.92 28.33 2.033 1.452 104.65 1592 108.33 28.40 2.035 1.453 110.48 1595 108.53 28.44 2.036 1.454 115.82 1601 108.94 28.52 2.037 1.455 121.32 1605 109.21 28.57 2.038 1.456 126.98 1608 109.42 28.61 2.039 1.456 132.48 1612 109.69 28.66 2.040 1.457 137.98 1614 109.83 28.68 2.041 1.458 143.82 1616 109.96 28.71 2.041 1.458 149.48 1617 110.03 28.72 2.042 1.458 154.82 1617 110.03 28.72 2.042 1.458 160.32 1618 110.1 28.74 2.042 1.458 165.82 1617 110.03 28.72 2.042 1.458 171.32 1617 110.03 28.72 2.042 1.458 176.82 1617 110.03 28.72 2.042 1.458 182.66 1616 109.96 28.71 2.041 1.458 188.15 1616 109.96 28.71 2.041 1.458 193.65 1615 109.89 28.70 2.041 1.458 199.32 1614 109.83 28.68 2.041 1.458 205.15 1613 109.76 28.67 2.040 1.457 210.65 1612 109.69 28.66 2.040 1.457 216.15 1611 109.62 28.65 2.040 1.457 221.48 1610 109.55 28.63 2.040 1.457 226.98 1610 109.55 28.63 2.040 1.457 232.82 1608 109.42 28.61 2.039 1.456 238.65 1608 109.42 28.61 2.039 1.456 244.15 1607 109.35 28.60 2.039 1.456 View Large
+
+
+Table A2CO2 experimental and numerical data Time
+            . Pure CO2
+            . PR
+            . CR
+            . log PR
+            . log PR/R
+            . 0.15 1506 102.48 37.22 2.011 1.571 5.15 1467 99.823 36.47 1.999 1.562 11.32 1482 100.84 36.76 2.004 1.565 16.82 1494 101.66 36.99 2.007 1.568 22.32 1502 102.2 37.14 2.009 1.570 27.82 1511 102.82 37.32 2.012 1.572 33.32 1522 103.57 37.53 2.015 1.574 39.48 1535 104.45 37.78 2.019 1.577 44.98 1548 105.33 38.03 2.023 1.580 50.65 1562 106.29 38.30 2.026 1.583 56.32 1576 107.24 38.57 2.030 1.586 61.82 1588 108.06 38.80 2.034 1.589 67.32 1599 108.81 39.01 2.037 1.591 72.65 1606 109.28 39.14 2.039 1.593 78.15 1614 109.83 39.29 2.041 1.594 83.65 1625 110.57 39.50 2.044 1.597 89.15 1634 111.19 39.67 2.046 1.598 94.65 1639 111.53 39.77 2.047 1.600 100.15 1645 111.94 39.88 2.049 1.601 105.65 1650 112.28 39.97 2.050 1.602 111.15 1656 112.68 40.09 2.052 1.603 116.48 1661 113.02 40.18 2.053 1.604 Time
+            . Pure CO2
+            . PR
+            . CR
+            . log PR
+            . log PR/R
+            . 0.15 1506 102.48 37.22 2.011 1.571 5.15 1467 99.823 36.47 1.999 1.562 11.32 1482 100.84 36.76 2.004 1.565 16.82 1494 101.66 36.99 2.007 1.568 22.32 1502 102.2 37.14 2.009 1.570 27.82 1511 102.82 37.32 2.012 1.572 33.32 1522 103.57 37.53 2.015 1.574 39.48 1535 104.45 37.78 2.019 1.577 44.98 1548 105.33 38.03 2.023 1.580 50.65 1562 106.29 38.30 2.026 1.583 56.32 1576 107.24 38.57 2.030 1.586 61.82 1588 108.06 38.80 2.034 1.589 67.32 1599 108.81 39.01 2.037 1.591 72.65 1606 109.28 39.14 2.039 1.593 78.15 1614 109.83 39.29 2.041 1.594 83.65 1625 110.57 39.50 2.044 1.597 89.15 1634 111.19 39.67 2.046 1.598 94.65 1639 111.53 39.77 2.047 1.600 100.15 1645 111.94 39.88 2.049 1.601 105.65 1650 112.28 39.97 2.050 1.602 111.15 1656 112.68 40.09 2.052 1.603 116.48 1661 113.02 40.18 2.053 1.604 View Large
+
+
+References
+
+
+Abba, M.K., Abbas, A.J., Athari, A., Mukhtar, A., & Nasr, G.G. (2018). Experimental Investigation on the Impact of Connate Water Salinity on Dispersion Coefficient in Consolidated Rocks Cores during EGR by CO2 Injection. Journal of Natural Gas Science and Engineering, 60, 190–201. http://doi.org/10.1016/j.jngse.2018.10.007.Google ScholarCrossrefSearch ADS  Abba, M.K., Abbas, A.J., & Nasr, G.G. (2017). Enhanced Gas Recovery by CO2 Injection and Sequestration: Effect of Connate Water Salinity on Displacement Efficiency. SPE Abu Dhabi International Petroleum Exhibition & Conference. http://www.onepetro.org/doi/10.2118/188930-MS.Google Scholar Adepoju, O. O., Lake, L. W., & Johns, R. T. (2013). Investigation of Anisotropic Mixing in Miscible Displacements. SPE Reservoir Evaluation & Engineering, 16(1), 85–96.Google ScholarCrossrefSearch ADS  Al-abri, A., SidiqH., & AminR. (2009). Enhanced Natural Gas and Condensate Recovery by Injection of Pure SCCO2, Pure CH4 and Their Mixtures: Experimental Investigation. SPE Annual Technical Conference and Exhibition, New Orleans, Lousiana, USA, 4-7 October, 1–13.Google Scholar Baehr, A.L.Bruell, C.J (1990). Application of the Stefan-Maxwell Equations to Determine Limitations of Fick's Law when Modeling Organic Vapor Transport in Sand Columns. Water Resources Research, 26(6):1155–1163.Google Scholar Cunningham, R.E., Williams, R.J.J. (1980). Diffusion in Gases and Porous Media. New York: Plenum Press.Google ScholarCrossrefSearch ADS  Hughes, T. J., Honari, A., Graham, B. F., Chauhan, A. S., Johns, M. L., & May, E. F. (2012). CO2 sequestration for enhanced gas recovery: new measurements of supercritical CO2–CH4 dispersion in porous media and a review of recent research. International Journal of Greenhouse Gas Control, 9, 457–468. http://doi.org/10.1016/j.ijggc.2012.05.011Google ScholarCrossrefSearch ADS  Kalra, S., & Wu, X. (2014). CO2 injection for Enhanced Gas Recovery. SPE Western North American and Rocky Mountain, 16–18. https://www.onepetro.org/conferencepaper/SPE-169578–MS.Google Scholar Khan, C., AminR., & MaddenG. (2013). Carbon dioxide injection for enhanced gas recovery and storage (reservoir simulation). Egyptian Journal of Petroleum, 22(2), 225–240. http://www.sciencedirect.com/science/article/pii/S1110062113000500.Google ScholarCrossrefSearch ADS  MollyS. Costanza-Robinson and MarkL. Brussseau (2006). Gas Transport in Porous Media, Springer. Printed in the Netherlands, 121–132.Google Scholar Oldenburg, C.M., & BensonS.M., 2002. CO2 Injection for Enhanced Gas Production and Carbon Sequestration. SPE International Petroleum Conference and Exhibition in Mexico. http://www.onepetro.org/doi/10.2118/74367-MS.Google Scholar Honari, A., Bijeljic, B., Johns, M. L., & May, E. F. (2015). Enhanced gas recovery with {CO2} sequestration: The effect of medium heterogeneity on the dispersion of supercritical CO2–CH4. International Journal of Greenhouse Gas Control, 39(0), 39–50. http://doi.org/http://dx.doi.org/10.1016/j.ijggc.2015.04.014Google Scholar Honari, A., Hughes, T. J., Fridjonsson, E. O., Johns, M. L., & May, E. F. (2013). Dispersion of supercritical CO2 and CH4 in consolidated porous media for enhanced gas recovery simulations. International Journal of Greenhouse Gas Control, 19, 234–242. http://doi.org/10.1016/j.ijggc.2013.08.016Google ScholarCrossrefSearch ADS  Honari, A., Zecca, M., Vogt, S. J., Iglauer, S., Bijeljic, B., Johns, M. L., & May, E. F. (2016). The impact of residual water on CH4-CO2 dispersion in consolidated rock cores. International Journal of Greenhouse Gas Control, 50, 100–111. http://doi.org/10.1016/j.ijggc.2016.04.004Google ScholarCrossrefSearch ADS  Perkins, T.., & Johnston, O. (1963). A Review of Diffusion and Dispersion in Porous Media. Society of Petroleum Engineers Journal, 3(01), 70–84. 10.2118/480-PAGoogle ScholarCrossrefSearch ADS  Patel, M. J., May, E. F., & Johns, M. L. (2016). High-fidelity reservoir simulations of enhanced gas recovery with supercritical CO2. Energy, IN PRESS, 548–559. http://doi.org/10.1016/j.energy.2016.04.120Google ScholarCrossrefSearch ADS  Pooladi-Darvish, M., Hong, H., Theys, S., Stocker, R., Bachu, S., & Dashtgard, S. (2008). CO2 injection for enhanced gas recovery and geological storage of CO2 in the Long Coulee Glauconite F Pool, Alberta. Proceedings - SPE Annual Technical Conference and Exhibition, 4, 2271–2281. http://doi.org/10.2118/115789-MSGoogle Scholar Sim, S. S. K., Brunelle, P., Canada, Q., Systems, F., Turta, A. T., & Singhal, A. K. (2008). SPE 113468 Enhanced Gas Recovery and CO2 Sequestration by Injection of Exhaust Gases from Combustion of Bitumen. Journal of Changes, (1), 1–10.Google Scholar Sim, S. S. K., Turta, A. T., Singhal, A. K., & Hawkins, B. F. (2009). Enhanced gas recovery: Factors affecting gas-gas displacement efficiency. Journal of Canadian Petroleum Technology, 48(8), 49–55. http://doi.org/10.2118/09-08-49Google ScholarCrossrefSearch ADS  Sidiq, H., Amin, R., der Steen, E. Van, & Kennaird, T. (2011). Super critical CO2-methane relative permeability investigation. Journal of Petroleum Science and Engineering, 78(3–4), 654–663. http://doi.org/10.1016/j.petrol.2011.08.018Google Scholar Shtepani, E. (2006). CO2 sequestration in depleted gas/condensate reservoirs. Proceedings - SPE Annual Technical Conference and Exhibition.Google Scholar Sleep, B.E (1998). Modeling Transient Organic Vapor Transport in Porous Media with the Dusty Gas Model. Advances in Water Resources, 22(3):247–256.Google ScholarCrossrefSearch ADS  Scanlon, B.R., Nicot, J.P., Massmann, J.M (2000). Soil Gas Movement in Unsaturated Systems. In Handbook of Soil Science, Sumner, M.E., ed. Boca Raton: CRC Press LLC.Google ScholarCrossrefSearch ADS  Zhang, Y., Liu, S., Song, Y., Zhao, J., Tang, L., Xing, W., Jian, W., Liu, Z., Zhan, Y. (2014). Experimental investigation of CO2-CH4 displacement and dispersion in sand pack for enhanced gas recovery. Energy Procedia, 61, 393–397. http://dx.doi.org/10.1016/j.egypro.2014.11.1133.Google ScholarCrossrefSearch ADS  
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211971-MS
+
+
+

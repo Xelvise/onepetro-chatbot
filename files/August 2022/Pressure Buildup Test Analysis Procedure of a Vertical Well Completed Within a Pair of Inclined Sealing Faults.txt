@@ -1,0 +1,386 @@
+----- METADATA START -----
+Title: Pressure Buildup Test Analysis Procedure of a Vertical Well Completed Within a Pair of Inclined Sealing Faults
+Authors: Paul Olabi, Steve Adewole
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211907-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Pressure buildup test analysis has been used to investigate near wellbore environment, estimate reservoir pressure and reveal external reservoir boundary types. However, despite of these benefits no consideration has been given for the angle of inclination of the faults or boundaries within which the well is completed. The angle of inclination of the boundaries of a reservoir has a significant impact on the pressure behavior and performance of a well. Knowledge of the inclination angle of the faults assist in well placement for optimum production.The objective of this paper, therefore, is to develop a procedure for calculating the angle of a well completed within a pair of inclined sealing faults using pressure buildup test analysis.A well completed in an infinite-acting reservoir produces number of images inversely proportional to the angle of inclination and dependent on nature of the faults. This number of images, n, can also be related to the angle at which the faults are inclined. The principle of superposition is used to aggregate pressure drop history of a vertical shutin after a constant rate of production. Pressure buildup test procedure was developed from the total pressure expression following the rate history.The procedure considered fault angle and distances from an object well of every image formed because of the inclination of the sealing faults.The buildup test procedure developed shows linear partial variation of Horner ratio at early shutin time and late shutin time, assuming constant rate of production before shut in. The coefficient of the early time Horner's ratio is the early flow time slope. The late time Horner's ratio has coefficient which is the product of the early time slope and the number of images formed due to sealing faults angle.The result shows that that the model is only valid for long shutin time, and the second slope must be gotten at the late time region for higher accuracy. Finally, the procedure does not depend on well design or distances of the images from the object well.The analysis procedure developed here can be used to estimate the angle of inclination of two faults within which a well is completed. Near wellbore characterization is also possible. Decision on well location for optimum well production or injection can be made from the angle of inclination of the faults.
+
+
+
+
+Keywords:
+upstream oil & gas,
+procedure,
+vertical well completed,
+inclination,
+horner,
+history,
+plot,
+placement,
+reservoir boundary,
+drillstem testing
+
+
+Subjects: 
+Formation Evaluation & Management,
+Drillstem/well testing
+
+
+
+
+Introduction
+
+
+A reservoir boundary can be a fault which surrounds a reservoir and causes discontinuity of the reservoir or indicate where the reservoir ends. Some of the types of reservoir boundaries includes constant pressure boundary, closed boundary and infinite actiung reservoir.
+
+
+An infinite acting reservoir is a reservoir without any physical boundary. Therefore, boundary effects will not appear on the analysis plots during the duration of the test.
+
+
+A no-flow or closed boundary is a boundary that does not allow flow through it. This kind of boundary usually occurs in reservoirs with sealing faults or is created between producing wells that are equally spaced and producing at the same rate. Pseudo-steady state flow signifies that all no-flow boundaries have been reached (Gerard, M 1985).
+
+
+The presence of faults in the reservoir have continued to play an important role in the exploitation of petroleum resources from subsurface reservoirs as the identification of these fault structures through well test analyses provide significant boost for optimum production output of petroleum (Horner, 1951, Perrine, R. L., 1956, Overpeck, A.C et al, 1970).
+
+
+When a reservoir is bounded, production from the well is affected in the long term according to the nature of the boundary. The length of time for oil production is strongly affected by well placement with respect to the boundary, whether the boundaries are single, paired and vertical or paired and inclined. It is therefore important that well placement is guided to achieve long term oil production (Gerard, M. et al., 1985). Good well location may be decided from solution to a flow equation describing pressure distribution (Davis et al. 2004). The solution shows flow rates and well location for available reservoir system properties.
+
+
+Well test analysis has been widely used as an industry standard to determine reservoir boundaries (Davis, E.G. et al, 1963, Prasad, R.K. 1975, Britton, P.R. et al, A.S., 1988). The boundaries present in reservoirs take the form of sealing or non-sealing faults (Tiab, D, et al, 1980). The identification of these faults will enable engineers to determine well placement for optimal production of petroleum reservoirs, as well as provide knowledge on their long-term performance
+
+
+In this study, pressure buildup test analysis procedure of a vertical oil well completed with a pair of inclined sealing faults is studied to estimate the angle of inclination of the sealing faults. Simulated well test data will be utilized to demonstrate application of the test analysis procedure developed in this paper.
+
+
+METHODOLOGY
+
+
+Given that a well is completed in a reservoir bounded by inclined at angle θ as shown in Figure 1.
+
+
+Figure 1View largeDownload slideWell Located within a Pair of Inclined Sealing FaultsFigure 1View largeDownload slideWell Located within a Pair of Inclined Sealing Faults Close modal
+
+
+A well completed in an finite-acting reservoir produces a number of images inversely proportional to the angle of inclination as shown in Equation 1.
+
+
+n=360θ−1(1)
+
+
+This number of images, n, can also be related to the angle at which the well is inclined. The principle of superposition is used to aggregate pressure drop history of a vertical shutin after a constant rate of production. Pressure buildup test procedure is developed from the total pressure expression following the rate history (Ramey, H.J., Jr. et al, 1968). The procedure considers fault angle and distances of all image wells from an object well.
+
+
+Rate and Pressure Profiles of Pressure Buildup Testing
+
+
+The well produces at a constant rate, q1, for time tp hours, during which at this time the flowing wellbore pressure stabilizes. The well is shut in for time Δt hours. Observed stabilized wellbore pressure is recorded. Also recorded are observed shut in pressures. The rate and pressure profiles for this procedure is shown in Figure 2. The history implies that q1 has been in effect for time (tp+Δt) hours, while the q2 has been in influence for time Δt hours (Earlougher, R.C. Jr. 1977), Matthews, C.S and Russell, D.G., (1967).
+
+
+Figure 2View largeDownload slideRate and Pressure Profiles for Pressure Buildup TestFigure 2View largeDownload slideRate and Pressure Profiles for Pressure Buildup Test Close modal
+
+
+For a well completed within a pair of sealing (no flow) boundaries, the object and image wells experience pressure drops proportional to object well rates. Therefore, from principle of superposition (Tiab, D. and Kumar, A., 1980, Prasad, R.K., 1975, Adewole, E.S. 2021), the total pressure drop in the object well as a result of flow in the object well, ΔpT,o, and all image wells, is
+
+
+ΔpTT,o=Δp in the object well due to flow in the object well +Δp in the object well due to flow in 1st image well at a distance d1 from the object well +Δp in the object well due to flow in the 2nd  image well at a distance d2 from the object well+………….+Δp in the object well due to flow in the nth image wellat a distance dn from the object well(2)
+
+
+For the two-rate history shown in Figure 2, and using pressure drop expressions, Equation 2 becomes
+
+
+μμμμμμμμμμμμμμμμΔpT,o=−70.6q1μBkhEi−948ϕμctrw2k tp+Δt−70.6q1μBkhEi−948ϕμctd12k tp+Δt−   70.6q1μBkhEi−948ϕμctd22k tp+Δt………−70.6q1μBkhEi−948ϕμctdn2k tp+Δt−70.6 q2−q1μBkhEi−948ϕμctrw2kΔt−   70.6 q2−q1μBkhEi−948ϕμctd12kΔt−   70.6 q2−q1μBkhEi−948ϕμctd22kΔt………−70.6 q2−q1μBkhEi−948ϕμctdn2kΔt(3)
+
+
+Equation 3 shows that all images carry positive sign in no flow boundaries. Since the distances and wellbore radius are constant, at long time the arguments of the Ei functions become small. Therefore, Equation 3 can then be written as follows:
+
+
+μμμμμμμμμΔpT,o=−70.6q1μBkh[ln948γϕμctrw2k tp+Δt+ln948γϕμctd12k tp+Δt+ln948γϕμctd22k tp+Δt+……+ln948γϕμctdn2k tp+Δt−q2−q1[ln948γϕμctrw2kΔt+ln948γϕμctd12kΔt+ln948γϕμctd22kΔt+……+ln948γϕμctdn2kΔt] ](4)
+
+
+Or,
+
+
+μμμμμμμμμΔpT,o=−162.6q1μBkhlog948γϕμctrw2k tp+Δt+log948γϕμctd12k tp+Δt+   log948γϕμctd22k tp+Δt………+log948γϕμctdn2k tp+Δt−q2−q1log948γϕμctrw2kΔt+log948γϕμctd12kΔt+   log948γϕμctd22kΔt+⋯……+log948γϕμctdn2kΔt] ](5)
+
+
+The new rate q2 must be = 0, to initiate pressure buildup in the well. Therefore, selecting like terms, Equation 5 becomes
+
+
+μμμμμμμμμΔpT,o=162.6q1μBkh[log948γϕμctrW2kΔt−log948γϕμctrW2k tp+Δt+log948γϕμctd12kΔt−log948γϕμctd12k tp+Δt+   log948γϕμctd22kΔt−log948γϕμctd22k tp+Δt………+log948γϕμctdn2kΔt−log948γϕμctdn2k tp+Δt](6)
+
+
+Using the laws of logarithms Equation 6 becomes
+
+
+μΔpT,o=162.6q1μBkh[logtp+ΔtΔt+logtp+ΔtΔt+logtp+ΔtΔt+……+logtp+ΔtΔt(7)
+
+
+Or
+
+
+μΔpT,o=162.6q1μBkh[logtp+ΔtΔt+logtp+ΔtΔtn](8)
+
+
+Or,
+
+
+μΔpT,o=162.6q1μBkh[logtp+ΔtΔt+nlogtp+ΔtΔt](9)
+
+
+Finally, since the well has been shut in, Equation 9 is written as
+
+
+pws=pi−m [logtp+ΔtΔt+nlogtp+ΔtΔt](10)
+
+
+where
+
+
+μm=162.6q1μBkh(11)
+
+
+Equation 10 is the pressure buildup relationship required for analysis of pressure buildup test for a well completed within a pair of no-flow boundaries. If pws is plotted on a semilog paper against the Horner's ratio, (tp+Δt)/ Δt, it will produce a slope (m+nm).
+
+
+It can be seen that the pressure buildup procedure does not depend on well design or the distances of image wells from the object well but depends on two Horner's ratios and the number of images formed by the inclination of sealing faults, the initial reservoir pressure and fluid and reservoir properties.
+
+
+Results and Discussion
+
+
+A reservoir system was simulated using Equation 10 by first assuming different angles of inclination. Fluid and reservoir properties were also simulated. The value of n was then computed using Equation 1 for each set of silumated data. Then shutin pressures (pws) were computed. A plot of the shutin pressure (pws) against Horner's ratio was made for each set of simulated data.
+
+
+The value of n gotten was then compared with the initial assumed value to confirm the validity of the procedure. Results obtained are shown in Tables 1 to 11 and Figures 3 to 11.
+
+
+Table 1Reservoir data used to compute for shut in pressure (Pws) and Horner's time pi
+            . m
+            . Np
+            . tp
+            . qo
+            . µo
+            . Bo
+            . k
+            . h
+            . 5000 40.03 360 1.763 4900 0.2 1.55 12.8 482 pi
+            . m
+            . Np
+            . tp
+            . qo
+            . µo
+            . Bo
+            . k
+            . h
+            . 5000 40.03 360 1.763 4900 0.2 1.55 12.8 482 View Large
+
+
+Table 2Case when angle θ is assumed as 180° and n is 1 Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 34.98 1.050407813 4915.897 0.19 10.28034372 4176.888 37.54 1.046970307 4916.173 0.21 9.396501458 4247.654 43 1.04100617 4916.65 0.31 6.6879526 4464.518 79 1.022319814 4918.146 0.52 4.390894819 4648.436 99 1.017810761 4918.507 0.63 3.798833819 4695.84 105 1.016793003 4918.589 0.73 3.415431926 4726.538 123 1.01433549 4918.786 0.84 3.099125364 4751.864 137 1.01287055 4918.903 0.94 2.875814155 4769.743 155 1.011375905 4919.023 1.05 2.679300292 4785.478 189 1.009329446 4919.186 1.15 2.533274179 4797.169 220 1.008014842 4919.292 1.36 2.296518607 4816.126 330 1.005343228 4919.506 1.68 2.049562682 4835.899 445 1.003962394 4919.616 1.99 1.886062968 4848.989 590 1.002988585 4919.694 2.51 1.702496138 4863.687 775 1.002275181 4919.751 3.04 1.580021482 4873.493 893 1.001974541 4919.775 3.46 1.50961425 4879.13 1053 1.001674516 4919.799 4.08 1.432172869 4885.331 2100 1.00083965 4919.866 5.03 1.350549763 4891.866 3300 1.000534323 4919.891 5.97 1.295354323 4896.285 4700 1.000375163 4919.903 6.07 1.290488518 4896.675 6300 1.000279883 4919.911 7.01 1.251535707 4899.794 8300 1.000212442 4919.916 8.06 1.218767408 4902.417 9100 1.000193765 4919.918 9 1.195918367 4904.247 9500 1.000185607 4919.919 10.05 1.175449284 4905.886 9990 1.000176503 4919.919 13.09 1.134703232 4909.148 10000 1.000176327 4919.919 16.02 1.110066499 4911.121    20 1.088163265 4912.874    26.07 1.0676358 4914.518    31.03 1.056824535 4915.384    Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 34.98 1.050407813 4915.897 0.19 10.28034372 4176.888 37.54 1.046970307 4916.173 0.21 9.396501458 4247.654 43 1.04100617 4916.65 0.31 6.6879526 4464.518 79 1.022319814 4918.146 0.52 4.390894819 4648.436 99 1.017810761 4918.507 0.63 3.798833819 4695.84 105 1.016793003 4918.589 0.73 3.415431926 4726.538 123 1.01433549 4918.786 0.84 3.099125364 4751.864 137 1.01287055 4918.903 0.94 2.875814155 4769.743 155 1.011375905 4919.023 1.05 2.679300292 4785.478 189 1.009329446 4919.186 1.15 2.533274179 4797.169 220 1.008014842 4919.292 1.36 2.296518607 4816.126 330 1.005343228 4919.506 1.68 2.049562682 4835.899 445 1.003962394 4919.616 1.99 1.886062968 4848.989 590 1.002988585 4919.694 2.51 1.702496138 4863.687 775 1.002275181 4919.751 3.04 1.580021482 4873.493 893 1.001974541 4919.775 3.46 1.50961425 4879.13 1053 1.001674516 4919.799 4.08 1.432172869 4885.331 2100 1.00083965 4919.866 5.03 1.350549763 4891.866 3300 1.000534323 4919.891 5.97 1.295354323 4896.285 4700 1.000375163 4919.903 6.07 1.290488518 4896.675 6300 1.000279883 4919.911 7.01 1.251535707 4899.794 8300 1.000212442 4919.916 8.06 1.218767408 4902.417 9100 1.000193765 4919.918 9 1.195918367 4904.247 9500 1.000185607 4919.919 10.05 1.175449284 4905.886 9990 1.000176503 4919.919 13.09 1.134703232 4909.148 10000 1.000176327 4919.919 16.02 1.110066499 4911.121    20 1.088163265 4912.874    26.07 1.0676358 4914.518    31.03 1.056824535 4915.384    View Large
+
+
+Table 3Case when angle θ is assumed as 30° and n is 11 Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 26.07 1.0676358 4487.108 0.19 10.28034372 61.32794 31.03 1.056824535 4492.302 0.21 9.396501458 485.9253 34.98 1.050407813 4495.385 0.31 6.6879526 1787.111 37.54 1.046970307 4497.036 0.52 4.390894819 2890.616 43 1.04100617 4499.901 0.63 3.798833819 3175.042 79 1.022319814 4508.878 0.73 3.415431926 3359.228 99 1.017810761 4511.044 0.84 3.099125364 3511.182 105 1.016793003 4511.533 0.94 2.875814155 3618.46 123 1.01433549 4512.714 1.05 2.679300292 3712.865 137 1.01287055 4513.417 1.15 2.533274179 3783.016 155 1.011375905 4514.136 1.36 2.296518607 3896.754 189 1.009329446 4515.119 1.68 2.049562682 4015.391 220 1.008014842 4515.75 1.99 1.886062968 4093.936 330 1.005343228 4517.034 2.51 1.702496138 4182.122 445 1.003962394 4517.697 3.04 1.580021482 4240.958 590 1.002988585 4518.165 3.46 1.50961425 4274.782 775 1.002275181 4518.507 4.08 1.432172869 4311.985 893 1.001974541 4518.652 5.03 1.350549763 4351.197 1053 1.001674516 4518.796 5.97 1.295354323 4377.712 2100 1.00083965 4519.197 6.07 1.290488518 4380.05 3300 1.000534323 4519.344 7.01 1.251535707 4398.763 4700 1.000375163 4519.42 8.06 1.218767408 4414.505 6300 1.000279883 4519.466 9 1.195918367 4425.481 8300 1.000212442 4519.498 10.05 1.175449284 4435.315 9100 1.000193765 4519.507 13.09 1.134703232 4454.889 9500 1.000185607 4519.511 16.02 1.110066499 4466.725 9990 1.000176503 4519.516 20 1.088163265 4477.247 10000 1.000176327 4519.516 Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 26.07 1.0676358 4487.108 0.19 10.28034372 61.32794 31.03 1.056824535 4492.302 0.21 9.396501458 485.9253 34.98 1.050407813 4495.385 0.31 6.6879526 1787.111 37.54 1.046970307 4497.036 0.52 4.390894819 2890.616 43 1.04100617 4499.901 0.63 3.798833819 3175.042 79 1.022319814 4508.878 0.73 3.415431926 3359.228 99 1.017810761 4511.044 0.84 3.099125364 3511.182 105 1.016793003 4511.533 0.94 2.875814155 3618.46 123 1.01433549 4512.714 1.05 2.679300292 3712.865 137 1.01287055 4513.417 1.15 2.533274179 3783.016 155 1.011375905 4514.136 1.36 2.296518607 3896.754 189 1.009329446 4515.119 1.68 2.049562682 4015.391 220 1.008014842 4515.75 1.99 1.886062968 4093.936 330 1.005343228 4517.034 2.51 1.702496138 4182.122 445 1.003962394 4517.697 3.04 1.580021482 4240.958 590 1.002988585 4518.165 3.46 1.50961425 4274.782 775 1.002275181 4518.507 4.08 1.432172869 4311.985 893 1.001974541 4518.652 5.03 1.350549763 4351.197 1053 1.001674516 4518.796 5.97 1.295354323 4377.712 2100 1.00083965 4519.197 6.07 1.290488518 4380.05 3300 1.000534323 4519.344 7.01 1.251535707 4398.763 4700 1.000375163 4519.42 8.06 1.218767408 4414.505 6300 1.000279883 4519.466 9 1.195918367 4425.481 8300 1.000212442 4519.498 10.05 1.175449284 4435.315 9100 1.000193765 4519.507 13.09 1.134703232 4454.889 9500 1.000185607 4519.511 16.02 1.110066499 4466.725 9990 1.000176503 4519.516 20 1.088163265 4477.247 10000 1.000176327 4519.516 View Large
+
+
+Table 4Case when angle θ is assumed as 45° and n is 7 Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 34.98 1.050407813 4663.59 0.19 10.28034372 1707.552 37.54 1.046970307 4664.691 0.21 9.396501458 1990.617 43 1.04100617 4666.601 0.31 6.6879526 2858.074 79 1.022319814 4672.585 0.52 4.390894819 3593.744 99 1.017810761 4674.029 0.63 3.798833819 3783.361 105 1.016793003 4674.355 0.73 3.415431926 3906.152 123 1.01433549 4675.142 0.84 3.099125364 4007.454 137 1.01287055 4675.612 0.94 2.875814155 4078.974 155 1.011375905 4676.09 1.05 2.679300292 4141.91 189 1.009329446 4676.746 1.15 2.533274179 4188.678 220 1.008014842 4677.167 1.36 2.296518607 4264.502 330 1.005343228 4678.022 1.68 2.049562682 4343.594 445 1.003962394 4678.465 1.99 1.886062968 4395.958 590 1.002988585 4678.777 2.51 1.702496138 4454.748 775 1.002275181 4679.005 3.04 1.580021482 4493.972 893 1.001974541 4679.101 3.46 1.50961425 4516.521 1053 1.001674516 4679.197 4.08 1.432172869 4541.323 2100 1.00083965 4679.465 5.03 1.350549763 4567.464 3300 1.000534323 4679.563 5.97 1.295354323 4585.142 4700 1.000375163 4679.614 6.07 1.290488518 4586.7 6300 1.000279883 4679.644 7.01 1.251535707 4599.175 8300 1.000212442 4679.666 8.06 1.218767408 4609.67 9100 1.000193765 4679.672 9 1.195918367 4616.988 9500 1.000185607 4679.674 10.05 1.175449284 4623.543 9990 1.000176503 4679.677 13.09 1.134703232 4636.593 10000 1.000176327 4679.677 16.02 1.110066499 4644.483    20 1.088163265 4651.498    26.07 1.0676358 4658.072    31.03 1.056824535 4661.535    Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 34.98 1.050407813 4663.59 0.19 10.28034372 1707.552 37.54 1.046970307 4664.691 0.21 9.396501458 1990.617 43 1.04100617 4666.601 0.31 6.6879526 2858.074 79 1.022319814 4672.585 0.52 4.390894819 3593.744 99 1.017810761 4674.029 0.63 3.798833819 3783.361 105 1.016793003 4674.355 0.73 3.415431926 3906.152 123 1.01433549 4675.142 0.84 3.099125364 4007.454 137 1.01287055 4675.612 0.94 2.875814155 4078.974 155 1.011375905 4676.09 1.05 2.679300292 4141.91 189 1.009329446 4676.746 1.15 2.533274179 4188.678 220 1.008014842 4677.167 1.36 2.296518607 4264.502 330 1.005343228 4678.022 1.68 2.049562682 4343.594 445 1.003962394 4678.465 1.99 1.886062968 4395.958 590 1.002988585 4678.777 2.51 1.702496138 4454.748 775 1.002275181 4679.005 3.04 1.580021482 4493.972 893 1.001974541 4679.101 3.46 1.50961425 4516.521 1053 1.001674516 4679.197 4.08 1.432172869 4541.323 2100 1.00083965 4679.465 5.03 1.350549763 4567.464 3300 1.000534323 4679.563 5.97 1.295354323 4585.142 4700 1.000375163 4679.614 6.07 1.290488518 4586.7 6300 1.000279883 4679.644 7.01 1.251535707 4599.175 8300 1.000212442 4679.666 8.06 1.218767408 4609.67 9100 1.000193765 4679.672 9 1.195918367 4616.988 9500 1.000185607 4679.674 10.05 1.175449284 4623.543 9990 1.000176503 4679.677 13.09 1.134703232 4636.593 10000 1.000176327 4679.677 16.02 1.110066499 4644.483    20 1.088163265 4651.498    26.07 1.0676358 4658.072    31.03 1.056824535 4661.535    View Large
+
+
+Table 5Case when angle θ is assumed as 60° and n is 5 Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 26.07 1.0676358 4743.554 0.19 10.28034372 2530.664 31.03 1.056824535 4746.151 0.21 9.396501458 2742.963 34.98 1.050407813 4747.692 0.31 6.6879526 3393.555 37.54 1.046970307 4748.518 0.52 4.390894819 3945.308 43 1.04100617 4749.951 0.63 3.798833819 4087.521 79 1.022319814 4754.439 0.73 3.415431926 4179.614 99 1.017810761 4755.522 0.84 3.099125364 4255.591 105 1.016793003 4755.767 0.94 2.875814155 4309.23 123 1.01433549 4756.357 1.05 2.679300292 4356.433 137 1.01287055 4756.709 1.15 2.533274179 4391.508 155 1.011375905 4757.068 1.36 2.296518607 4448.377 189 1.009329446 4757.559 1.68 2.049562682 4507.696 220 1.008014842 4757.875 1.99 1.886062968 4546.968 330 1.005343228 4758.517 2.51 1.702496138 4591.061 445 1.003962394 4758.848 3.04 1.580021482 4620.479 590 1.002988585 4759.082 3.46 1.50961425 4637.391 775 1.002275181 4759.254 4.08 1.432172869 4655.992 893 1.001974541 4759.326 5.03 1.350549763 4675.598 1053 1.001674516 4759.398 5.97 1.295354323 4688.856 2100 1.00083965 4759.599 6.07 1.290488518 4690.025 3300 1.000534323 4759.672 7.01 1.251535707 4699.381 4700 1.000375163 4759.71 8.06 1.218767408 4707.252 6300 1.000279883 4759.733 9 1.195918367 4712.741 8300 1.000212442 4759.749 10.05 1.175449284 4717.657 9100 1.000193765 4759.754 13.09 1.134703232 4727.445 9500 1.000185607 4759.756 16.02 1.110066499 4733.362 9990 1.000176503 4759.758 20 1.088163265 4738.623 10000 1.000176327 4759.758 Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 26.07 1.0676358 4743.554 0.19 10.28034372 2530.664 31.03 1.056824535 4746.151 0.21 9.396501458 2742.963 34.98 1.050407813 4747.692 0.31 6.6879526 3393.555 37.54 1.046970307 4748.518 0.52 4.390894819 3945.308 43 1.04100617 4749.951 0.63 3.798833819 4087.521 79 1.022319814 4754.439 0.73 3.415431926 4179.614 99 1.017810761 4755.522 0.84 3.099125364 4255.591 105 1.016793003 4755.767 0.94 2.875814155 4309.23 123 1.01433549 4756.357 1.05 2.679300292 4356.433 137 1.01287055 4756.709 1.15 2.533274179 4391.508 155 1.011375905 4757.068 1.36 2.296518607 4448.377 189 1.009329446 4757.559 1.68 2.049562682 4507.696 220 1.008014842 4757.875 1.99 1.886062968 4546.968 330 1.005343228 4758.517 2.51 1.702496138 4591.061 445 1.003962394 4758.848 3.04 1.580021482 4620.479 590 1.002988585 4759.082 3.46 1.50961425 4637.391 775 1.002275181 4759.254 4.08 1.432172869 4655.992 893 1.001974541 4759.326 5.03 1.350549763 4675.598 1053 1.001674516 4759.398 5.97 1.295354323 4688.856 2100 1.00083965 4759.599 6.07 1.290488518 4690.025 3300 1.000534323 4759.672 7.01 1.251535707 4699.381 4700 1.000375163 4759.71 8.06 1.218767408 4707.252 6300 1.000279883 4759.733 9 1.195918367 4712.741 8300 1.000212442 4759.749 10.05 1.175449284 4717.657 9100 1.000193765 4759.754 13.09 1.134703232 4727.445 9500 1.000185607 4759.756 16.02 1.110066499 4733.362 9990 1.000176503 4759.758 20 1.088163265 4738.623 10000 1.000176327 4759.758 View Large
+
+
+Table 6Case when angle θ is assumed as 90° and n is 3 Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 34.98 1.050407813 4831.795 0.19 10.28034372 3353.776 37.54 1.046970307 4832.345 0.21 9.396501458 3495.308 43 1.04100617 4833.3 0.31 6.6879526 3929.037 79 1.022319814 4836.293 0.52 4.390894819 4296.872 99 1.017810761 4837.015 0.63 3.798833819 4391.681 105 1.016793003 4837.178 0.73 3.415431926 4453.076 123 1.01433549 4837.571 0.84 3.099125364 4503.727 137 1.01287055 4837.806 0.94 2.875814155 4539.487 155 1.011375905 4838.045 1.05 2.679300292 4570.955 189 1.009329446 4838.373 1.15 2.533274179 4594.339 220 1.008014842 4838.583 1.36 2.296518607 4632.251 330 1.005343228 4839.011 1.68 2.049562682 4671.797 445 1.003962394 4839.232 1.99 1.886062968 4697.979 590 1.002988585 4839.388 2.51 1.702496138 4727.374 775 1.002275181 4839.502 3.04 1.580021482 4746.986 893 1.001974541 4839.551 3.46 1.50961425 4758.261 1053 1.001674516 4839.599 4.08 1.432172869 4770.662 2100 1.00083965 4839.732 5.03 1.350549763 4783.732 3300 1.000534323 4839.781 5.97 1.295354323 4792.571 4700 1.000375163 4839.807 6.07 1.290488518 4793.35 6300 1.000279883 4839.822 7.01 1.251535707 4799.588 8300 1.000212442 4839.833 8.06 1.218767408 4804.835 9100 1.000193765 4839.836 9 1.195918367 4808.494 9500 1.000185607 4839.837 10.05 1.175449284 4811.772 9990 1.000176503 4839.839 13.09 1.134703232 4818.296 10000 1.000176327 4839.839 16.02 1.110066499 4822.242    20 1.088163265 4825.749    26.07 1.0676358 4829.036    31.03 1.056824535 4830.767    Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 34.98 1.050407813 4831.795 0.19 10.28034372 3353.776 37.54 1.046970307 4832.345 0.21 9.396501458 3495.308 43 1.04100617 4833.3 0.31 6.6879526 3929.037 79 1.022319814 4836.293 0.52 4.390894819 4296.872 99 1.017810761 4837.015 0.63 3.798833819 4391.681 105 1.016793003 4837.178 0.73 3.415431926 4453.076 123 1.01433549 4837.571 0.84 3.099125364 4503.727 137 1.01287055 4837.806 0.94 2.875814155 4539.487 155 1.011375905 4838.045 1.05 2.679300292 4570.955 189 1.009329446 4838.373 1.15 2.533274179 4594.339 220 1.008014842 4838.583 1.36 2.296518607 4632.251 330 1.005343228 4839.011 1.68 2.049562682 4671.797 445 1.003962394 4839.232 1.99 1.886062968 4697.979 590 1.002988585 4839.388 2.51 1.702496138 4727.374 775 1.002275181 4839.502 3.04 1.580021482 4746.986 893 1.001974541 4839.551 3.46 1.50961425 4758.261 1053 1.001674516 4839.599 4.08 1.432172869 4770.662 2100 1.00083965 4839.732 5.03 1.350549763 4783.732 3300 1.000534323 4839.781 5.97 1.295354323 4792.571 4700 1.000375163 4839.807 6.07 1.290488518 4793.35 6300 1.000279883 4839.822 7.01 1.251535707 4799.588 8300 1.000212442 4839.833 8.06 1.218767408 4804.835 9100 1.000193765 4839.836 9 1.195918367 4808.494 9500 1.000185607 4839.837 10.05 1.175449284 4811.772 9990 1.000176503 4839.839 13.09 1.134703232 4818.296 10000 1.000176327 4839.839 16.02 1.110066499 4822.242    20 1.088163265 4825.749    26.07 1.0676358 4829.036    31.03 1.056824535 4830.767    View Large
+
+
+Table 7Reservoir data used to compute for shut in pressure (pws) and Horner's time Pi
+            . m
+            . tp
+            . Qo
+            . µo
+            . Bo
+            . K
+            . h
+            . 5000 50 0.2 4900 0.2 1.55 12.8 482 Pi
+            . m
+            . tp
+            . Qo
+            . µo
+            . Bo
+            . K
+            . h
+            . 5000 50 0.2 4900 0.2 1.55 12.8 482 View Large
+
+
+Table 8Case when angle θ is assumed as 180° and n is 1 Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 9 1.022222222 4897.778 0.1 3 4700 10.1 1.01980198 4898.02 0.25 1.8 4820 10.8 1.018518519 4898.148 1.2 1.166666667 4883.333 100 1.002 4899.8 2.8 1.071428571 4892.857 1000 1.0002 4899.98 3.4 1.058823529 4894.118 10000 1.00002 4899.998 4 1.05 4895 100000 1.000002 4900 4.8 1.041666667 4895.833    5.2 1.038461538 4896.154    6 1.033333333 4896.667    6.4 1.03125 4896.875    6.9 1.028985507 4897.101    7.2 1.027777778 4897.222    7.8 1.025641026 4897.436    8.4 1.023809524 4897.619    Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 9 1.022222222 4897.778 0.1 3 4700 10.1 1.01980198 4898.02 0.25 1.8 4820 10.8 1.018518519 4898.148 1.2 1.166666667 4883.333 100 1.002 4899.8 2.8 1.071428571 4892.857 1000 1.0002 4899.98 3.4 1.058823529 4894.118 10000 1.00002 4899.998 4 1.05 4895 100000 1.000002 4900 4.8 1.041666667 4895.833    5.2 1.038461538 4896.154    6 1.033333333 4896.667    6.4 1.03125 4896.875    6.9 1.028985507 4897.101    7.2 1.027777778 4897.222    7.8 1.025641026 4897.436    8.4 1.023809524 4897.619    View Large
+
+
+Table 9Case when angle θ is assumed as 120° and n is 2 Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 7.8 1.025641026 4846.154 0.1 3 4550 8.4 1.023809524 4846.429 0.25 1.8 4730 9 1.022222222 4846.667 1.2 1.166666667 4825 10.1 1.01980198 4847.03 2.8 1.071428571 4839.286 10.8 1.018518519 4847.222 3.4 1.058823529 4841.176 100 1.002 4849.7 4 1.05 4842.5 1000 1.0002 4849.97 4.8 1.041666667 4843.75 10000 1.00002 4849.997 5.2 1.038461538 4844.231    6 1.033333333 4845    6.4 1.03125 4845.313    6.9 1.028985507 4845.652    7.2 1.027777778 4845.833    Δt
+            . tp+ΔtΔt
+            . Pws
+            . Δt
+            . tp+ΔtΔt
+            . Pws
+            . 0 0 2761 7.8 1.025641026 4846.154 0.1 3 4550 8.4 1.023809524 4846.429 0.25 1.8 4730 9 1.022222222 4846.667 1.2 1.166666667 4825 10.1 1.01980198 4847.03 2.8 1.071428571 4839.286 10.8 1.018518519 4847.222 3.4 1.058823529 4841.176 100 1.002 4849.7 4 1.05 4842.5 1000 1.0002 4849.97 4.8 1.041666667 4843.75 10000 1.00002 4849.997 5.2 1.038461538 4844.231    6 1.033333333 4845    6.4 1.03125 4845.313    6.9 1.028985507 4845.652    7.2 1.027777778 4845.833    View Large
+
+
+Figure 3View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 180° and n is 1Figure 3View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 180° and n is 1 Close modal
+
+
+Slope=m(1+n)Slope=4930−4850=8080=40(1+n)80 / 40=2n=2−1=1.θ=360n+1=3601+1=180°.
+
+
+Figure 4View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 30° and n is 11.Figure 4View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 30° and n is 11. Close modal
+
+
+Slope=m(1+n)Slope=4550−4070=480480=40(1+n)480 / 40=12n=12−1=11.θ=360n+1=36011+1=30°.
+
+
+Figure 5View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 45° and n is 7Figure 5View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 45° and n is 7 Close modal
+
+
+Slope=m(1+n)Slope=4700−4380=320320=40(1+n)320 / 40=8n=8−1=7.θ=360n+1=3607+1=45°.
+
+
+Figure 6View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 60° and n is 5Figure 6View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 60° and n is 5 Close modal
+
+
+Slope=m(1+n)Slope=4880−4555=245245=40(1+n)245 / 40=6.1n=6.1−1=5.1θ=360n+1=3605.1+1=59.02°.
+
+
+Figure 7View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 90° and n is 3Figure 7View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 90° and n is 3 Close modal
+
+
+Slope=m(1+n)Slope=4880−4725=155155=40(1+n)155 / 40=3.9n=3.9−1=2.9θ=360n+1=3603+1=90°.
+
+
+Figure 8View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 180° and n is 1Figure 8View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 180° and n is 1 Close modal
+
+
+Slope=m(1+n)Slope=4900−4805=9595=50(1+n)95 / 50=2.9n=1.9−1=0.9θ=360n+1=3601+1=180°.
+
+
+Figure 9View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 120° and n is 2Figure 9View largeDownload slidePlot of Pws versus (tp+ Δt)/(Δt) when angle of inclination is assumed to be 120° and n is 2 Close modal
+
+
+Slope=m(1+n)Slope=4850−4705=145145=50(1+n)145 / 50=2.9n=2.9−1=1.9θ=360n+1=3602+1=120°.
+
+
+The result of the analysis presented above has shown the angle of inclination of a fault in the reservoir using the different well data which is the main aim of this study, and it is important for well placement to improve reservoir performance and production.
+
+
+From the tables and plots above, the model is valid for long shutin times as all values of n is same or matches with the previously assumed values.
+
+
+The slopes were all gotten at the very late time region because that is when the fault begins to exert its influence. The buildup test procedure developed shows linear partial variation of reservoir pressure and Horner's ratio at early shutin time and late shutin time, assuming constant rate of production before shut in. The coefficient of the early time Horner's ratio is the early slope. The late time Horner's ratio has coefficient which is the product of the early time slope and the number of images formed due to sealing fault angle. Furthermore, the procedure does not depend on well design and image distances of the images from the object well. Reservoir boundaries influence pressure behavior of the well and its performance during buildup (Martinez, S. et al, 1985). Once the angle of inclination of the reservoir is known it is therefore necessary to make sure the well is placed far away from the boundary.
+
+
+Conclusion
+
+
+In this study, a mathematical model for calculating the angle of inclination of a well completed within a pair of inclined sealing faults using pressure buildup procedure has been developed successfully.The model was also tested with well and reservoir data to check for authenticityIt can be seen from the results that the model is only valid for long shut in time and the second slope must be gotten at the late time region for better accuracy.Decision on well location for optimum well production or injection can be made from the angle of inclination of the fault in the reservoir once it is known.The buildup procedure developed does not depend on well design. Image well distances does not also affect pressure buildup in the well bore.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion piInitial reservoir pressure, psi pwsShutin wellbore pressure, psi tpoil production time before shut-in, hours qoStabilized oil flow rate before shut-in, STB/day ΔtShut-in time, hours LDistance from Well (ft) rwWellbore radius (ft) kReservoir permeability (mD) φReservoir porosity μFluid viscosity (cp) ctTotal compressibility (1/psi) qProduction rate (stb/day) BFormation volume Factor (rbbl/stb) hAverage reservoir thickness (ft)
+
+
+References
+
+
+Adewole, E.S. (2020): "Applications of Superposition Principle in Oil and Gas Well Management", Lecture presented in the Lecture Series of Society of Petroleum Engineers, Section 116, Benin City, Virtual, Nigeria, May 14.Google Scholar Adewole, E.S. (2021): "Signatures of a Horizontal Well Completed Near a Sealing Boundary", Lecture presented in the Lecture Series of Society of Petroleum Engineers, Lagos Section 61 Lecture Series, Virtual, March 2021.Google Scholar Britton, P.R. and Grader, A.S. (1988): "The Effects of Size, Shape, and Orientation of an Impermeable Region on Transient Pressure Testing", SPE Formation Evaluation, 3, 595–606.Google ScholarCrossrefSearch ADS  Davis, E.G. and Hawkins, M.F. (1963): "Linear Fluid-Barrier Detection by Well Pressure Measurements", Journal of Petroleum Technology, 15, 1077–1081.Google ScholarCrossrefSearch ADS  Earlougher, R.C.Jr. (1977): Advances in Well Test Analysis, Monograph Series, SPE, Dallas.Google Scholar Earlougher, R.C.Jr., and Kazemi, H., (1980): "Practicalities of detecting faults from buildup testing" J. Pet. Tech., Jan., pp. 18–20.Google Scholar Martinez, S. and Cinco-Ley. H., (1985): "Detection of linear impermeable barriers by transient pressure analysis" paper to SPE, Richardson, Texas.Google ScholarCrossrefSearch ADS  Matthews, C. S and Russell, D.G., (1967): Pressure buildup and flow tests in wells. SPE of AIME, Dallas, Texas.Google Scholar Gerard, M. and Horne, R.N. (1985): "Effects of external boundaries on the recognition of reservoir pinch out boundaries by pressure transient analysis", Soc. Pet. Eng.June, pp. 427–436.Google Scholar Horner, D.R. (1951): Pressure Build-Up in Wells, Proceedings of the 3rd World Petroleum Congress, 25–43.Google Scholar Horner, D.R., (1951): Pressure Buildup in Wells. Proc., 3rd World Petroleum Congress, The Hague, Sec. II, pp. 503–523.
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211907-MS
+
+
+

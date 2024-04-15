@@ -1,0 +1,358 @@
+----- METADATA START -----
+Title: Artificial Neural Networks for Geothermal Reservoirs: Implications for Oil and Gas Reservoirs
+Authors: Calista Dikeh, Chinaza Ikeokwu, ThankGod Itua Egbe, Murphy Nnamdi Ochuba, Moromoke Adekanye, Emmanuel Anifowose, Esuru Rita Okoroafor
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212028-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+Subsurface numerical models take a significant time to build and run. For this reason, the energy industry has been looking towards proxy models that could reduce model computational time. With the advancement of artificial neural network algorithms, building proxy models has become more efficient, and has enabled quick forecasting and quick reservoir management decision-making.In this study, we used a geothermal reservoir to evaluate the suitability of two deep learning algorithms, feed forward neural network and convolutional neural network, for proxy modeling. We used metrics such as the mean square error, losses, number of parameters for the model, and time to run, to compare the two deep learning algorithms.From our study, we determined that the convolutional neural network resulted in less error than the feed forward network and used less hyperparameters. However, the feed forward network was significantly faster than the convolutional neural network. The process of building the proxy model shows how a similar approach can be followed for oil and gas reservoir modeling and demonstrates the feasibility of neural networks in subsurface reservoir modeling and forecasting.
+
+
+
+
+Keywords:
+algorithm,
+artificial neural network,
+reservoir,
+neural network,
+fracture aperture,
+prediction,
+upstream oil & gas,
+artificial intelligence,
+learning algorithm,
+dataset
+
+
+Subjects: 
+Information Management and Systems,
+Neural networks
+
+
+
+
+Introduction
+
+
+Background on Geothermal Energy
+
+
+Energy is a very essential part of our lives. Over the last few decades, energy consumption has increased exponentially due to population growth, rising economic activities, and technological advancements. The use of fossil fuel to meet energy demand has resulted in some adverse effects on the environment, particularly increased carbon footprint, higher risk of climate change, and volatile fuel prices among other challenges. Some of the challenges with the use of fossil fuels include anthropogenic greenhouse gas emissions, and fossil fuels are susceptible to exhaustion, i.e., they are nonrenewable. These issues have led the energy industry to search for sustainable energy sources that can meet energy demand in the near and long term.
+
+
+Geothermal energy is among the existing renewable sources of energy whose potential of increasing the energy capacity of certain regions is yet to be fully maximized. Geothermal energy as heat energy obtained from the earth crust. While geothermal energy shares many of the advantages of low carbon emitting and renewable energy sources, geothermal power is a very predictable and reliable source of energy making it an appropriate source for meeting baseload energy demand.
+
+
+(Onay, 2020) identified three crucial conditions that must be present to harness geothermal energy, which include high heat content, sufficient permeability, and heat carrier fluid. The heat carrier fluid is either native to the geothermal reservoir or circulated through permeable formations with high heat content in order to gain heat from formation and transfer to the surface for further utilization.
+
+
+To improve the yield from geothermal systems for robust power generation and expand the areas in which geothermal energy can be tapped, significant research on technology improvements for geothermal resources has been carried out by various researchers. One of such resulted in the emergence of cutting-edge enhanced geothermal systems (EGS) (NREL 2021). Enhanced geothermal systems offer the opportunity of exploiting the vast energy resources contained in hot low permeability rocks where the natural flow capacity of the system may not be sufficient to support adequate power production until it is enhanced by opening up existing fractures and propagating new fractures, thus creating permeability (Okoroafor and Horne, 2018). To harness the geothermal resource using enhanced geothermal technology, heat contained in the hot low permeability rock is captured through an injected fluid after permeability is increased. Permeability is increased by either opening existing fractures or by propagating new ones. An enhanced geothermal system involves extracting heat energy from a hot, fractured dry rock by drilling an injection well through which cold water is injected into the hot rock layers. The fractures help the cold water migrate through the hot rock layers, and one or more production well(s) are used to return the heated water to the surface for power generation.
+
+
+The temperature of the produced fluid, which in essence is the measure of the thermal performance of the geothermal system, is greatly affected by the nature of the fracture aperture. Brown (1987) showed that real fractures are not smooth but have rough surfaces which could lead to tortuous flow path. The presence of rough fracture aperture may result in flow channeling. Channeling is a flow condition where a significant portion of the fracture area is not contributing to the overall flow (Hakami and Larsson, 1996). The surface area available for heat flow is reduced with reduction in fracture flow area and this would in turn reduce the heating thereby reducing the total energy produced by geothermal reservoirs. That been said, it can be concluded that any geothermal system without the three major conditions spelled out by Onay (2020) can be harnessed through the enhanced geothermal technology.
+
+
+The Concept of Machine Learning and Deep Learning
+
+
+Machine learning is a branch of artificial intelligence concerned with the development of computer software that can learn on its own. It is the study and construction of algorithms that can learn from data and make predictions. Machine learning algorithms are mathematical functions with a large number of parameters that map inputs (or features) to one or more outputs (or targets). Machine learning is closely related to, and frequently overlaps with, computational statistics, a discipline that specializes in prediction. It also has strong ties to mathematical optimization, which provides the field with methods, theory, and application domains.
+
+
+Depending on the nature of the learning signal or feedback available to a learning system, machine learning tasks are typically classified into three broad categories - supervised learning, unsupervised learning, and reinforcement learning. Supervised learning refers to a set of problems in which a model is used to learn a representation between input examples and output variables. In this case, the machine learning algorithm is trained on labeled data. There are two types of supervised learning problems - classification and regression. Classification entails predicting a class label, while regression entails predicting a numerical value. One or more input variables can be used in both classification and regression problems, and input variables can be of any data type, such as numerical or categorical. Both variables in this study have continuous values, indicating that it is a regression problem.
+
+
+In unsupervised learning, the learning algorithm is given no labels and is left to find structure in its input on its own. Unsupervised learning algorithms can adapt to the data by dynamically changing hidden structures or discovering hidden patterns in data instead of a defined and fixed problem statement. The machine is trained on an unlabeled dataset and predicts the outcome without any human assistance.
+
+
+In reinforcement learning, a computer program interacts with a dynamic environment in which it must accomplish a certain aim without any instructor directly informing it if it has achieved its goal or not. Reinforcement learning is a feedback-based process in which an agent actively explores its surroundings by striking a trail, taking action, learning from experiences, and improving its performance.
+
+
+Deep learning (also known as deep machine learning, deep structured learning or DL) is a branch of machine learning based on a set of algorithms that attempt to model high-level abstractions in data using model architectures with complex structures or otherwise composed of multiple non-linear transformations. Deep learning is a subset of an extended group of machine learning techniques that rely on learning data representations and in which artificial neural networks, which are inspired by the human brain, learn from massive quantities of data. A deep learning model is programmed to analyze data in a logical manner, similar to how a human would draw conclusions. This model allows an algorithm to determine whether or not a prediction is accurate using its own neural network, without the need for human intervention. Deep neural networks (DNNs) are defined in this study as an artificial neural network with multiple hidden layers of units between the input and output layers (Schmidhuber, 2014). In deep learning, the algorithm is branched into deep neural networks, convolutional neural networks, recurrent neural networks, and generative models that can produce or generate new content, such as the generative adversarial networks and autoencoders (Okoroafor et al., 2022).
+
+
+Two deep learning techniques were chosen for this study and utilized to create regression models based on the dataset. These regression models may be used to evaluate the correlations between the dependent variable and the independent variable. The algorithms used here are Artificial Neural Network (ANN) and Convolutional Neural Network (CNN). Figure 1 shows the categories of machine learning and deep learning techniques.
+
+
+Figure 1View largeDownload slideCategorization of machine learning and deep learning techniques used in this study, modified from the work by Okoroafor et al. (2022).Figure 1View largeDownload slideCategorization of machine learning and deep learning techniques used in this study, modified from the work by Okoroafor et al. (2022). Close modal
+
+
+An artificial neural network (ANN) learning algorithm, also referred to as "neural networks", is a machine learning technique based on how biological nervous systems process data. In other words, it is a computer simulation of biological structures. Artificial neural networks are versatile computer techniques that may be used for both classification and regression. It is composed of many highly interconnected processing elements(neurons) working in unison to solve specific problems (Chu et al., 2016). ANNs are usually used to model complex relationships between inputs and outputs. The model is trained by providing the input and output data samples to get the ANN to provide a desired output from a given input. In a typical ANN structure, there are three layers: Input layer, one or more hidden layers, and output layer. Figure 2 shows the structure of an ANN model. The input is the values of the independent variables, and it takes raw domain input; the hidden layers compute all of the features entered through the input layer and send the results to the output layer; the output is the values of the dependent variables, and it brings the knowledge gathered through the hidden layer and outputs the final value as a result. In each of the layers in ANN, there are nodes called neurons. A node is the building block that processes the data in the network through a sum and transfer function (Badr et al., 2019). The tuning of these parameters, is what leads to developing the model that can be used for forecasting and predictions.
+
+
+Figure 2View largeDownload slideStructure of an Artificial Neural Network (TIBCO, 2022)Figure 2View largeDownload slideStructure of an Artificial Neural Network (TIBCO, 2022) Close modal
+
+
+Convolutional neural networks (CNNs), which are based on human vision, have emerged as the de facto standard for computer vision tasks. These neural networks are built to withstand invariant changes such as scaling, translation, and rotation. It is also a well-known fact that CNNs have been extensively used in significant image recognition tasks. CNNs and their invariants are frequently employed in many areas other than computer vision. Convolutional Neural Networks, or ConvNets for short, are a type of Deep Neural Network that detect and categorize certain characteristics in pictures and are frequently used in image analysis. CNNs operate based on the mathematical function of convolution - a linear operation where two functions produce a third function through their dot product; the third function expresses how the shape of one function is modified by the other (Gurucharan, 2020). Figure 3 shows a typical CNN architecture model.
+
+
+Figure 3View largeDownload slideBasic Convolutional Neural Network Architecture (Gurucharan, 2020)Figure 3View largeDownload slideBasic Convolutional Neural Network Architecture (Gurucharan, 2020) Close modal
+
+
+In this research, we describe the process for constructing an ANN model and a CNN model that can predict the temperature profile of a geothermal reservoir. We also analyze and contrast the results of both neural network model development.
+
+
+Statement of the Problem
+
+
+The study by Okoroafor et al. (2022) explained that most geothermal resources have attracted little or no private investors due to the medium to high project and financial risks associated with the early stages of resource development, hence they have remained undeveloped. To effectively discover and de-risk the development, a lot of technological input is required in all aspects of the resource development from exploration to production. Geothermal resource development is one area that has need for technological input, and the ability to have models that can predict the performance of a geothermal resource, confirm its viability, will be valuable in derisking the project. Subsurface numerical models however take a significant time to build and run. For this, the energy industry has been looking towards AI-based subsurface models. Specifically for enhanced geothermal systems, accounting for the fracture roughness would lead to an increase in the model computational time. Thus, it is necessary to develop proxy or surrogate models that use the fracture roughness to predict the fluid temperature at the producer, which is a time series data. This therefore would constitute the aim of this research. Figure 4 shows the images of two different fracture apertures and their resulting temperature profiles.
+
+
+Figure 4View largeDownload slideTwo different fracture images resulting in different temperature profiles.Figure 4View largeDownload slideTwo different fracture images resulting in different temperature profiles. Close modal
+
+
+Objectives
+
+
+The main purpose of this study is to develop an AI-based model for predicting the thermal performance of an enhanced geothermal system. The input parameter would be the fracture roughness while the temperature profile is the output. This study would be designed such that two deep learning algorithms are explored, and their performance compared. The two deep learning algorithms are the feed forward neural network and the convolutional neural network. Validation of the models would be done with some of the acquired data set. The testing of the developed models would also be done with a good percentage of the data at hand. The models would be trained to optimum performance so they can be adopted in other fields that have challenges similar to those in the field of geothermal energy, such as the oil and gas industry. This would, among other things, foster the implementation of transfer learning.
+
+
+Scope of the Study
+
+
+The application of machine learning to the development of models for predicting the temperature profile of an EGS is not a new idea, nor is developing a model for predicting the temperature profile of an EGS a new idea. Pandey and Singh (2020) used an artificial neural network (ANN) to predict the temperature profile of an EGS but excludes the use of fracture roughness as an input parameter. Onay (2020) derived an analytical solution to investigate heat transfer mechanisms taking place in an EGS mainly for predicting temperature profile of produced fluid based on various wellbore and completion design parameters. This research seeks to compare the performance of two deep learning algorithms when used to develop surrogate models for predicting temperature time series data of an EGS. The selected deep learning algorithms are feed forward neural network and convolutional neural network. The input parameter for both algorithms would be the fracture aperture which exists as images. The number of hidden layers will be one of the hyperparameters to be determined during the implementation of the chosen architecture for each of the deep learning algorithms. The performance of both algorithms would be compared using the developed models metrics of mean squared error (MSE) and coefficient of determination (R2), the training time for each algorithm, and the total number of parameters deployed by each algorithm for the training. In addition, libraries such as Tensorflow and Keras will be used to support the model’s training.
+
+
+Methodology
+
+
+A proper selection of the machine learning algorithm to be utilized is critical for effective training and deployment of a machine learning model. In most situations, various algorithms are examined, and the algorithm with the best performance is selected in the end. Figure 5 depicts the research workflow, which consists of five steps. The acquisition of data, also known as data gathering, is the first step. Data processing, which includes data normalization and data splitting for the various algorithms, is the second step. The third step is to select the model architecture of the different algorithms. The next step is to train models using the different algorithms. Model evaluation, which includes evaluating, predicting and comparing alternative algorithm models, is the final step.
+
+
+Figure 5View largeDownload slideSteps taken in the machine learning model developmentFigure 5View largeDownload slideSteps taken in the machine learning model development Close modal
+
+
+Data Acquisition
+
+
+The dataset, which is the foundation of modeling, is the most important component in machine learning analysis. A large amount of usable data may be obtained and important insights into the relationship between different values can be gained with the aid of data gathering and processing. In this step, incorrect variables are filtered out, misfits are eliminated, missing values are filled in, and a combined dataset for model training is generated. It is vital to carefully evaluate the parameters that determine the temperature of the fluid produced by any enhanced geothermal system in order to completely comprehend its thermal performance. One of such parameters is the fracture aperture of the system. In this study, we built a spatio-temporal database from 4000 numerical simulation runs in order to train, validate, and test the data for successful prediction of the thermal performance. The dataset collected and utilized in this work comprises 4000 images of the fracture aperture and the related temperature profiles, with each profile including 20 temperature discrete points measured at different times. Since both variables have continuous values, this may be classified as a regression problem. The temperature profile was used as the target variable in the regression model, while the fracture aperture was used as the input variable. The data was visualized using python libraries such as seaborn and line plots were made to create a pictorial representation of the input and output for easy understanding. The heatmap of the input which is the fracture aperture is shown in Figure 6, whereas Figure 7 shows a line plot of the temperature profile.
+
+
+Figure 6View largeDownload slideHeatmap plot of the input featureFigure 6View largeDownload slideHeatmap plot of the input feature Close modal
+
+
+Figure 7View largeDownload slideLine plot of the output featureFigure 7View largeDownload slideLine plot of the output feature Close modal
+
+
+Data Pre-processing
+
+
+In the construction of a neural network system, data preparation is crucial. Underlying data is difficult to break down and analyze. That is why it must be preprocessed before any information can be extracted from it. Data Splitting and Data Normalization were employed as preprocessing methods in building the different neural network models in this study.
+
+
+– Data Normalization
+
+
+Normalization is the process of translating the input data's numerical range to [0, 1] (or any other range) to give it a common scale, without distorting differences in the ranges of values. It promotes training fairness by preventing a high-valued input from drowning out a lower-valued but equally important input. Normalization is essential because the network training parameters can be set for a certain range of input data. This allows the training process to be applied to similar tasks. The purpose of normalization is to convert data to a scale that is comparable. By starting the training process for each feature on the same scale, data normalization can help improve training time. The effectiveness of any learning algorithm is heavily dependent on the normalization method (Nayak et al., 2014).
+
+
+To normalize all of the neural network's input variables, we employed the Min-Max Normalization approach. The input data was scaled to a range of [0,1] 0r [-1,1] in this technique. Using the formula, this technique changes the input value x of the attribute X to Xnorm in the range [min,max].
+
+
+Xstd=x−minXmaxX−minXXnorm= Xstd* (max−min) + min
+
+
+Where, Min,max = feature_rangeminX = Minimum feature valuemaxX = Maximum feature value
+
+
+The normalization technique discussed above was the same for both algorithms.
+
+
+– Data Splitting
+
+
+Data splitting is a standard method for model validation that divides the dataset into a training and testing set, with the training set being used to train the model and the testing set being used to evaluate its performance. The technique employed to split the data here is Random subsampling - the most used approach for data splitting, that is, randomly sample without replacement some rows of the dataset for testing and keep the rest for training (Joseph et al., 2022). The 80:20 ratio was applied to the 4000 datasets of collected data, which had 2500 input features and 20 output features. The 80:20 split draws its justification from the well-known Pareto principle, but that is again just a thumb-rule used by practitioners (Joseph et al., 2022). This means that 80 percent of the data was used for training and 20% for testing.
+
+
+Selecting the Model Architecture of the Different Algorithms
+
+
+There are several factors to consider when building neural network models. These factors include selecting the neural network architecture, as well as hyperparameters such as the learning rate, the number of nodes in each layer, the number of hidden layers, batch normalization, dropout, the type of weight initializer, and the type of activation function. The effectiveness of the perfect outcome is greatly influenced by the neural network architecture used to resolve the problem. For several reasons, the performance of a neural network is highly dependent on the architecture used. For instance, the design has a significant influence on the prediction made by the neural network. Indeed, various architectures of neural networks can yield varied outputs for the same input (Massimiliano Lupo et al., 2021).
+
+
+Activation Function
+
+
+The Activation Function helps the neural network in utilizing important data while reducing irrelevant data points. The activation function determines whether or not a neuron should be stimulated by generating a weighted sum and then adding bias to it. Each activation function adds nonlinearity to the neural network, increasing its representation potential. There are several activation functions including Sigmoid, Tanh, Linear, and ReLU activation functions. One of the commonly used activation functions is the Rectified linear activation function or ReLU for short. The ReLU activation function was selected because it is easy to train and typically results in better performance. It has a derivative function and supports backpropagation while also being fast and accurate. The ReLU function does not simultaneously stimulate all of the neurons. It is a simple computation that returns the value specified as input directly, or 0.0 if the input is 0.0 or less. This indicates that if the input is positive, it will be output directly; otherwise, it will be output as zero. Figure 8 is a graphical representation of the ReLU activation function. The ReLU is given by (He et al., 2018).
+
+
+Figure 8View largeDownload slidePlot of the ReLU activation functionFigure 8View largeDownload slidePlot of the ReLU activation function Close modal
+
+
+ReLU(x)= max(x,0)
+
+
+Data Training procedure
+
+
+The machine learning models were trained using Python's Tensorflow and Keras deep network libraries. Pandas, a machine learning package, was used to read the data into the Python environment as a dataframe. A sequential model was used to build in layers for both the ANN and CNN model.
+
+
+For the ANN model development, differences in the number of hidden layers, the number of neurons in each hidden layer, and the number of iterations were attempted, preceded by model training to obtain the best weights for the input data parameters in order to test the network with the least amount of error and predict with better accuracy. Results showed that more than three hidden layers did not increase the network's performance for this particular training dataset, however increasing the number of hidden neurons in the networks did minimize the error and lead to better accuracy. Eventually, a network with three hidden layers and 512,128,64 neurons respectively supplied the optimal weights to the model's input data parameters. To find the ideal number of iterations for training the network, we examined the number of iterations deployed from 10 to 150.
+
+
+For the CNN, the network consists of four convolutional layers, four max pooling layers and three fully connected layers. A total of 240 filters, each of size 5 by 5 were deployed in the convolutional layer for the training. The fully connected layer consists of two hidden layers with 512 and 128 neurons respectively and output layers with 20 neurons which represents the number of expected output. Moreso, the input to each of the layers during training were standardized using the Batch Normalization technique for both algorithms. This not only handles the problems of internal covariate shift but also stabilizes the learning process and dramatically reduces the number of training epochs required to train deep networks.
+
+
+Compiling a model is required to finalize the model and make it fully functional. Compiling a model involves employing hyperparameters like optimizer and loss function to boost the performance of the model. There are various optimizers like Stochastic gradient descent (SGD), Root Mean Squared Propagation (RMS prop), Momentum-based gradient descent, Adaptive moment estimation (Adam), etc. To achieve this, Adaptive moment (Adam) and mean square error were used as optimizer and loss function for the development of the models. According to research, this Adam optimizer combines the strength of the momentum-based GD and the RMS prop while working with large sets of data and parameters, making it exceptionally efficient.
+
+
+The model was then trained by fitting it to the training data set after it had been compiled for both algorithms. However, the training data set was split into two groups: the first set was used to train the network and the second set was used to test for errors during the training. This cross-validation process was used to monitor the performance of the network.
+
+
+The model optimum performance was achieved with 150 and 100 Epochs for the ANN and CNN respectively.
+
+
+The models from both techniques were introduced to the test data set to assess model performance, and metrics like mean squared error and coefficient of determination were used to evaluate model performance. Table 1 shows the hyperparameters used for both algorithms.
+
+
+Table 1Hyperparameters of the two deep learning algorithms Hyperparameters
+            . CNN
+            . ANN
+            . Convolutional layers 4 __ Pooling Layers 4 __ Number of hidden layers 2 3 Activation function ReLU ReLU Weight Initializer He Initializer He Initializer Batch Normalization ✔ ✔ Dropout __ 0.1 Optimizer Adam Adam Validation split 0.2 0.2 Number of epochs 100 150 Batch size __ 128 Metrics Mean Square Error Mean Square Error Hyperparameters
+            . CNN
+            . ANN
+            . Convolutional layers 4 __ Pooling Layers 4 __ Number of hidden layers 2 3 Activation function ReLU ReLU Weight Initializer He Initializer He Initializer Batch Normalization ✔ ✔ Dropout __ 0.1 Optimizer Adam Adam Validation split 0.2 0.2 Number of epochs 100 150 Batch size __ 128 Metrics Mean Square Error Mean Square Error View Large
+
+
+Model Evaluation
+
+
+Careful statistical analysis was carried out on the predicted data set for the developed model. The performances of the models were evaluated based on the overall mean squared error (MSE) and coefficient of determination(R2).
+
+
+Mean Square Error (MSE) is the standard deviations of the residuals (prediction errors). It is technically defined as the average of the square of the difference between the actual and the predicted values. MSE is mathematically defined as:
+
+
+MSE=1n∑i=1nEi2
+
+
+Where E = Error
+
+
+E = (ŷ) -y), where (ŷ) is the predictions and y is the actual value.
+
+
+n = is the number of samples.
+
+
+Coefficient of determination (R2), measures the correlation between the model output and the target. It is measured on a scale of 0 to 1. Usually, the closer to unity (1) the R2, the higher the correlation between predicted and actual values.
+
+
+Mathematically:
+
+
+R2=1 −SSresSStotal    SSres∑i=1n(y−y_)2    SStotal∑i=1nEi2
+
+
+Where, SSres is the sum of squares of the residual error
+
+
+SStotal is the total sum of squares
+
+
+Results and Discussion
+
+
+Results and Discussion on the Artificial Neural Network (ANN)
+
+
+A neural network is used as a regressor in this study to predict the temperature profile of a geothermal reservoir. The nature of the fracture aperture has been demonstrated to have a significant impact on the temperature profile. The fracture aperture was fed into the ANN model that was developed with the temperature profile as the target. We used the supervised machine learning approach and an artificial neural network in this study.
+
+
+In this study, a three-hidden layer feed forward neural network of 512,128,64 hidden nodes in the hidden layers was generated utilizing the trial-and-error approach. Table 2 displays the mean square error and coefficient of determination results for the training and testing sets. Using an 80/20 split, the samples were divided into training and testing sets. Appropriate hyperparameters were selected that had a significant influence on the model's performance during training. The results revealed that the ANN model had satisfactory MSE and R2 values. Table 4 shows the comparison between the two models. Figure 9 depicts a cross plot of actual versus predicted network performance.
+
+
+Table 2Model Evaluation performance 
+            . Training
+            . Testing
+            . MSE 1.7610 3.8701 R2 0.94 0.92 
+            . Training
+            . Testing
+            . MSE 1.7610 3.8701 R2 0.94 0.92 View Large
+
+
+Table 3Model Evaluation performance 
+            . Training
+            . Testing
+            . MSE 1.46 2.67 R2 0.96 0.93 
+            . Training
+            . Testing
+            . MSE 1.46 2.67 R2 0.96 0.93 View Large
+
+
+Table 4Model Comparison 
+            . CNN
+            . ANN
+            . Train MSE 1.46 1.76 Test MSE 2.67 3.87 Train R2 0.96 0.94 Test R2 0.93 0.92 Time taken 50 mins 10 mins Total number of parameters 418,244 3,167,956 
+            . CNN
+            . ANN
+            . Train MSE 1.46 1.76 Test MSE 2.67 3.87 Train R2 0.96 0.94 Test R2 0.93 0.92 Time taken 50 mins 10 mins Total number of parameters 418,244 3,167,956 View Large
+
+
+Figure 9View largeDownload slideCross plot of Actual vs Predicted values for the Artificial Neural NetworkFigure 9View largeDownload slideCross plot of Actual vs Predicted values for the Artificial Neural Network Close modal
+
+
+Results and Discussion on the Convolutional Neural Network (CNN)
+
+
+Exploratory data is a critical step in data analysis, which involves the use of visual techniques in analyzing data for better understanding. It is used to discover trends, patterns or to check assumptions with the help of statistical summary and graphical representation.
+
+
+Due to the nature of the data set used for this research, mostly univariate analysis was performed. In univariate analysis, only one quantity that changes is considered. It does not deal with causes or relationships and the main purpose of the analysis is to describe the data and find patterns that exist within it.
+
+
+There were three basic questions about the data asked before starting the data analysis. The first was related to whether the data is discrete or continuous. The second question is related to the upper and lower boundaries of the data and the final question determines the likelihood of observing extreme values in the distribution. The data used in his study is continuous with values in a finite interval. The issues of the upper and lower boundaries were handled using the minmax scaling preprocessing.
+
+
+The continuous variable (regression) model was developed in this study using CNN. The model was developed to be used to predict the thermal performance of a selected geothermal system. The model was tested using the test data set to see how well it is performing.
+
+
+Figure 10 is a cross plot of actual and predicted data which shows the network performance.
+
+
+Figure 10View largeDownload slidePlot of performance of CNN Model Showing Cross plot of Actual Values vs Predicted Values of the Temperature Profile.Figure 10View largeDownload slidePlot of performance of CNN Model Showing Cross plot of Actual Values vs Predicted Values of the Temperature Profile. Close modal
+
+
+The model performance using the evaluation metrics of mean squared error and coefficient of determination for the training and test data set are shown in Table 3 below.
+
+
+Implications for modeling oil and gas reservoirs
+
+
+The numerical reservoir model used to generate the data for this study took one month of computational time for the 4000 datasets. From this study, we see that both the CNN and the ANN took less than one hour to run. This shows that the proxy model saves computational time while providing a means for accurate forecasting of thermal performance. A similar approach can be used for oil and gas reservoir modeling. However, from this study, we see that using a convolutional neural network would be an overkill for oil and gas reservoir modeling since the computational time is large and oil and gas reservoir models do not typically have images as input data. We however anticipate that deep learning algorithms such as recurrent neural networks that account for the temporal data in reservoir models, will be suitable for proxy modeling and building on the architecture of the ANN.
+
+
+Conclusion
+
+
+Neural networks have been demonstrated to save computational time in building subsurface models for geothermal temperature prediction. From the comparison between the CNN and ANN using metrics of MSE and R2, it can be concluded that the CNN algorithm was slightly better than the ANN for this image problem. However, the larger coefficient of regression and lower mean square error of the CNN was overshadowed by the long amount of time it took to run the CNN algorithm. Thus, the ANN became the preferred proxy model for the geothermal reservoir model.
+
+
+Recommendations
+
+
+Based on the limitations and areas of improvement observed from this research, the following recommendations will improve the model’s performance:
+
+
+Inclusion of other variables that directly influence thermal performance of the geothermal systems for better predictions.The use of more data to train the models to improve accuracy.Other deep learning techniques, such as recurrent neural networks (RNNs), can be used for further research.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+Nayak, S. C., Misra, B. B., and Behera, H. S., 2014. Impact of Data Normalization on Stock Index Forecasting. International Journal of Computer Information Systems and Industrial Management Applications., 6, 257–269.Google Scholar Bahr, B. A., Adewale, G., Shadi, W.H., 2019. Current trends and future developments in (Bio-) Membranes. https://doi.org/10.1016/C2016-0-02118-6.Google Scholar Juncai, H., Lin, L., Jinchao, X., Chunyue, Z., 2018. ReLU Deep Neural Networks and Linear Finite Elements. J. comput. Math., 38(3), 502–527. http://doi.org/10.4208/jcm.1901-m2018-0160.Google Scholar Massimiliano, L. P., Junqi, Y., Ying, W.L., Markus, E., 2021. A scalable algorithm for the optimization of neural network architectures. arXiv:1909.03306v3.Google Scholar Reynold Chu, S., Shoureshi, R., Tenorio, M., 2018. Neural Networks for Systems Identification. IEEE controls system magazines., 10(3), 31–35. https://doi.org/10.1109/37.55121.Google Scholar Ahmed, K. A., Haidar, A., Hayder, A., Jawad, D., 2019. Application of Machine Learning Approach for Intelligent Prediction for Pipe Sticking. Presented at theAbu Dhabi International Petroleum Exhibition & Conference, Abu Dhabi, UAE, 11-14 November. https://doi.org/10.2118/197396-ms.Google Scholar Brown, S. R. "Fluid flow through rock joints: the effect of surface roughness". J Geophys Res Solid Earth. (1987); 92(B2): 1337–1347Google ScholarCrossrefSearch ADS  Hakami, E. and Larsson, E. "Aperture measurements and flow experiments on a single natural fracture". Int J Rock Mech Min Sci GeomechAbstr. (1996); 33(4):395–404.Google ScholarCrossrefSearch ADS  Onay, M. E. (2020). Analytical Solutions for Predicting Fracture Outlet Temperature of Produced Fluid from Enhanced Geothermal Systems with Different Well-Completion Configurations. Graduate School, The University of Tulsa, Tulsa, OKGoogle ScholarCrossrefSearch ADS  NREL, 2021. U. S. Geothermal Power Production and District Heating Market Report, 2021. National Renewable Energy Laboratory. Retrieved from. https://www.nrel.gov/news/press/2021/new-nrel-report-details-current-state-vast-future-potentialus-geothermal-power-heat.html.Okoroafor, E. R.; RolandN. H., 2018. Impact of Fracture Roughness on the Thermal Performance of Enhanced Geothermal Reservoir.Google Scholar Roshan, V. J., 2022. Optimal ratio for Data splitting. Milton Stewart School of Industrial and Systems Engineering. arXiv:2202.03326v1.Google Scholar Pandey, S. N., Singh, M., 2020. Artificial Neural Network to Predict the Thermal Drawdown of Enhanced Geothermal Systems. ASME. J. Energy Resour. Technol. January2021; 143(1): 010901. https://doi.org/10.1115/1.4048067.Google ScholarCrossrefSearch ADS  Gupta, H. K., SukantaR., 2007. Geothermal Energy: An Alternative Resource for the 21st Century Elsevier.Google Scholar Okoroafor, E. R.; Connor M.Smith, KarenIfeoma O., ChineduJoseph N., Halldora-Gudmundsdottir, Mohammad Aljubran, 2022. Machine learning in subsurface geothermal energy: Two decades in review.: www.elsevier.com/locate/geothermics.Google Scholar TIBCOhttps://www.tibco.com/reference-center/what-is-a-neural-network
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212028-MS
+
+
+

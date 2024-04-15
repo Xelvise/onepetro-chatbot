@@ -1,0 +1,207 @@
+----- METADATA START -----
+Title: Overcoming the Late-Stage Development Challenges of Bonga Turbidite Reservoirs via Geosteering Technology Deployment
+Authors: Timipere Jenakumo, Oluwaseyi Adekoya, Joshua Itua, Abidemi Belgore, Akanimoh Nkanga, Oluwatoyin Olagunju, Amarjit Singh Bisain
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/212029-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The Bonga field is in its late stage Phase-3 development. Infill wells are drilled to target oil in the bypassed or unswept areas of the reservoirs. Unlike the earlier phases of development, the current wells have complex trajectories and are hooked up via crowded subsea manifolds. Because oflimited availability of drilling centers, most of the new wells are extended reach with narrow drilling margins.The target reservoirs are relatively thinner, poorly developed, and more limited in extent and size compared to targets in the earlier phases, increasing inherent subsurface uncertainties. With an expected low case ultimate recovery per well of roughly 10–15 MMstb, and average deepwater well cost of +/- $40 million, the stakes were high and hence critical to get it right the first time. If net-sand is poor or short because of suboptimal landing or well placement in the reservoir, the well objective (recovery and rate) can easily be compromised and could require drilling a sidetrack with additional attendant cost. Longer exposure length of drain hole (reservoir section) was known to improve well production rates hence an essential component of the well plan.To address these challenges and ensure the wells achieve their objectives and deliver their economic value, a geosteering technology (Reservoir Mapping While Drilling tool—GeoSphere) was adopted for optimal landing above the target reservoir(s) and placement within the reservoir channel sands using the Multilayer Distance to Boundary technology (PeriScopeHD). The deployment of geosteering technology was considered to be a success in enabling better sand exposures of the wells in the target sections, thus achieving the well objectives.This paper discusses the implementation of geosteering technology and learnings from two case studies in the Bonga infill campaign.
+
+
+
+
+Keywords:
+upstream oil & gas,
+geosteering,
+structural geology,
+directional drilling,
+logging while drilling,
+lwd,
+drilling operation,
+asset and portfolio management,
+reservoir,
+reservoir navigation
+
+
+Subjects: 
+Drilling Operations,
+Drilling Measurement, Data Acquisition and Automation,
+Reservoir Characterization,
+Asset and Portfolio Management,
+Directional drilling,
+Geosteering / reservoir navigation,
+Logging while drilling,
+Exploration, development, structural geology,
+Seismic processing and interpretation,
+Field development optimization and planning
+
+
+
+
+Introduction
+
+
+The Bonga field is located approximately 120 km offshore Nigeria (Fig. 1). It was discovered in 1995 as the first deepwater field in Nigeria. Following detailed Field Appraisal and Development Studies, Bonga commenced its earlier drilling Phases 1 and 2 targeting four major reservoirs in the 690–800 sand series and first oil was achieved in 2005. The Phase-3 development (2014–2016) targeted oil accumulations in the less developed and shallower 670 sand series, 689, 709, and reservoirs in the North-West extension of the field. A fourteen (14) well infill drilling campaign was recently executed in 2018–2019 with wells targeting bypassed oil zones and stratigraphically thin reservoir sands with in-situ oil saturation. A number of these opportunies were identified using 4D seismic and oil saturation datafrom the earlier well drilling campaigns.
+
+
+Figure 1View largeDownload slideBonga Field location.Figure 1View largeDownload slideBonga Field location. Close modal
+
+
+Infill Development Challenges
+
+
+The Bonga reservoirs are highly channelized turbiditesands with a high degree of lateral heterogeneity as well as mud fills and baffles, creating tortuous connectivity paths and sometimes barriers. As a result of an inadequate or weak aquifer system, the field development strategy comprises dedicating a water injector well to provide pressure support and sweep for the oil producer well. It is therefore important that the producer/injector pairs are located in the same geobody/flow-unit to improve the possibility of connectivity. A key challenge in the recently concluded drilling campaign was the placement of the wells in good and connected sand bodies, given that the target reservoirs are relatively thin, of limited extent, and have poor sand development with varying reservoir properties (Fig. 2). It was therefore critical to properly place the wells to achieve optimal exposure in the target reservoir sands and to achieve the well objectives. Additionally, some of the wells targeted areas of bypassed oil and hence it was critical to stay away from the flood front. Another challenge was structural depth uncertaintyin the area of limited well control where the infill wells were planned. High formation/structural dip and poor seismic resolution were also some of the difficulties encountered in the campaign.
+
+
+Figure 2View largeDownload slideOffset wells showing shale interbeds and lamination. Left to right is A-1, A-2, A-3, and A-4.Figure 2View largeDownload slideOffset wells showing shale interbeds and lamination. Left to right is A-1, A-2, A-3, and A-4. Close modal
+
+
+Understanding the reservoir depositional setting, structural and stratigraphic behavior, reservoir fluid distribution, and movement were considered crucial in the planning, designing, and deployment of the geosteering. Productivity per unit length can be compromised and potentially a redrill necessitated if the sufficient exposure into the reservoir is not achieved in the drain hole section. It was therefore essential for sufficient information to be acquired to enable continuous optimization, proactive drilling, and decision making in real-time.
+
+
+Proposed Solution
+
+
+A technology solution,a new generation deep directional resistivity (DDR) and high definition Multi-layer Distance to boundary Logging While Drilling (LWD)services were considered for look-around real time mapping of the reservoir to facilitate optimal landing at the reservoir top and placement within connected geological sand body. The landing techniques traditionally rely on indirect information, gathered from correlating wells, to optimize landing in the zone of interest. While this approach is suitable for homogeneous and reasonably simple structures, more complex environments required a more direct view of the reservoir in real time for optimal wellbore landing.
+
+
+The reservoir mapping-while-drillingtool—a deep directional resistivity (DDR) tool (Fig. 3&4)—reveals subsurface-bedding and fluid-contact (OWC) details more than 150ft from the wellbore. This reservoir-scale view provides sufficient depth of investigation enabling optimization of landing, reducing drilling risk, and maximize reservoir penetration. By integrating real-time reservoir maps with seismic surveys, interpretation of reservoir structure and geometry can be refined, revolutionizing field development strategy. Hence,the reservoir mapping-while-drillingtool was recommended to mitigate against landing the reservoir section in poorly developed sand body and forestall insufficient reservoir exposure and consequent sidetrack/redrill situations.
+
+
+Figure 3View largeDownload slideSketch of a landing strategy includingdeep direction resistivity. It shows a realistic representation of the depth of investigation of the deep directional signals (of the order of half the antenna spacing in conductive environments). The signals are centered at the midpoint.Figure 3View largeDownload slideSketch of a landing strategy includingdeep direction resistivity. It shows a realistic representation of the depth of investigation of the deep directional signals (of the order of half the antenna spacing in conductive environments). The signals are centered at the midpoint. Close modal
+
+
+Figure 4View largeDownload slideDeep direction resistivitybottom hole assembly overview, in a two-receiver setup. The distance-to-bit offsets only increase with half of the spacings.Figure 4View largeDownload slideDeep direction resistivitybottom hole assembly overview, in a two-receiver setup. The distance-to-bit offsets only increase with half of the spacings. Close modal
+
+
+For the horizontal drain hole sections where placement was critical, a second-generation high-definition multi-layer distancetoboundary (DTB) LWD service was selected to be deployed to map the reservoir in realtime, and geosteer within the reservoir to maximize reservoir exposure. Multilayer DTB inversion is designed to accurately detect multiple formation layers and fluid boundaries enabling optimal well placement within the channels. The combination of inversion models with azimuthal measurements can provide precise delineation of reservoir layers and formation evaluation while drilling.
+
+
+Case Studies
+
+
+Successful deployment of the DDR and DTB technologies in the Bonga Field is discussed below from prejob planning to real-time execution using two case studies.
+
+
+Case 1: Well 1
+
+
+Well 1 is an oil producer drilled to drain the southern part of an undeveloped shallow AAreservoir, approximately 45ft in thickness. Seismic data shows the producer well will penetrate the updip part of the channel having crossed an area of dim amplitude. The landing objective was to tag the reservoir top in a channel and optimize reservoir exposure within high net-to-gross area in the drain section.
+
+
+Figs. 5 and 6 show the AAreservoir seismic and structural view through Well 1. There are associated challenges or uncertainties: varying dip within the reservoir structure (along the well path)(2.5°. at the heel and 4.5° at the toe), structural depth uncertainty due to limited well control, fault position and throw uncertainty and ability to tag reservoir top and land the well beyond the mudfill channel due to edge effect. To manage these combinations of uncertainties and optimize wellbore placement, Reservoir mapping while drilling and multi-Layery DTBtechnologies were deployed in the landing and placement in the reservoir drain section, respectively.
+
+
+Figure 5View largeDownload slideSeismic section showing AA reservoir channel body.Figure 5View largeDownload slideSeismic section showing AA reservoir channel body. Close modal
+
+
+Figure 6View largeDownload slideAA reservoir vertical intersection view.Figure 6View largeDownload slideAA reservoir vertical intersection view. Close modal
+
+
+As part of the prejob planning, a comprehensive feasibility study was performed using resistivity propertiesfrom offset wells to build a geological structure model. For each offset well, the log is first squared and propagated into a geological 1D model to create a property model from which a forward modeled log response was obtained along the planned trajectory. A final step was the inversion modeling, which was run using the planned tool and BHA to simulate the expected tool response. Different scenarios and sensitivities were covered using various BHA configurations and transmitter-to-receiver spacing. The offset wells used, as seen in Fig. 7, have good conductivity contrast with the overburden resistivity of about 20 ohm·m and target sand resistivity of about 200 ohm.m. Expected reservoir thickness is about 20ft TVD with the presence of intrareservoir shales potentially affecting the depth of detection.
+
+
+Figure 7View largeDownload slideOffset well logs (A-5, A-6, and A-7).Figure 7View largeDownload slideOffset well logs (A-5, A-6, and A-7). Close modal
+
+
+Presented in Figs. 8a–8c is the geological model from the offset well properties, the DDR inversion for landing, and the multilayer mapping-while-drillinginversion models. In general, the model inversion shows sufficient conductivity contrast becausethe reservoir mapping-while-drilling service tool will detect the top of the target reservoir about 60ft true vertical depth (TVD) below the wellbore, while the multilayer mapping-while-drillingtool will detect and map the top of the AA sand up to 11ft TVD above the wellbore in the drain section. The trajectory in the drain section was optimized prior to drilling to increase reservoir exposure as indicated in red in Fig.8c.
+
+
+Figure 8-8a.View largeDownload slideGeological model for the base case.Figure 8-8a.View largeDownload slideGeological model for the base case. Close modal
+
+
+Figure 8-8b.View largeDownload slidereservoir mapping-while-drilling; and 8c.multilayer mapping-while-drilling inversion models for the base case.Figure 8-8b.View largeDownload slidereservoir mapping-while-drilling; and 8c.multilayer mapping-while-drilling inversion models for the base case. Close modal
+
+
+Real Time Execution and Result
+
+
+Upon starting to drill and exiting the casing, the DDR inversion indicated wellbore is in a conductive overburden as expected until approximately 11,800feet along hole (ftah) when inversion started to resolve the top of the target sand ~40ft TVD below the wellbore; with preliminary interpretation that this zone of the reservoir is not fully developed. The decision was made to continue with the planned trajectory. The interpreted boundaries from the DDR inversions indicated general dip change from 4° downward to 6° upward in the direction of drilling.
+
+
+At ~12600 ftah, interpretations from DDR inversions suggested that the approaching ~20ft thick sand is ~12ft deeper than prognosed. The decision was therefore made to optimize trajectory (drop inclination) to intercept the sand earlier, while maintaining the objective of optimizing the casing point for the drain section. At ~12731 ftah, DDR inversions suggest that wellbore intercepted a resistive feature (also confirmed on a conventional resistivity curve). However, by correlating with offset wells, this resistive feature mapped was preliminarily interpreted as the silty layer on top of the reservoir sand. See Fig. 9 for the real time inversion in the landing section.
+
+
+Figure 9View largeDownload slideDeep direction resistivity real-time inversion at landing.Figure 9View largeDownload slideDeep direction resistivity real-time inversion at landing. Close modal
+
+
+In the drain section and on drilling into fresh formation, the multilayer DTB inversion indicated wellbore is in a resistive layer interpreted as the AA reservoir, as shown in Fig. 10. Inversion thereon consistently mapped the roof of the reservoir, which was dipping ~1° downwards in the direction of drilling, until ~12,790 ftah. At this depth, the formation was observed to be dipping upward at ~1° until 12,86 ftah when formation dip changed again to approximately 4° downward.
+
+
+Figure 10View largeDownload slideMultilayer distance to boundary real-time inversion for the drain section.Figure 10View largeDownload slideMultilayer distance to boundary real-time inversion for the drain section. Close modal
+
+
+At 12,940 ftah, the trajectory was almost in the middle of the reservoir as the tool reached the null point and no boundaries were resolved. The decision was made to nudge up by 1° to reduce the rate at which the wellbore was cutting downwards. Inversion around 13,000 ftah indicated that the formation dip remained at 4° downwards as the wellbore was drilling almost parallel to the formation. From 13,107 ftah, DTB inversion started to resolve for a conductive boundary approaching ~12ftTVD from the wellbore. This boundary was interpreted as the pseudo-base of the first lobe of the reservoir. Therefore, interpretation of the roof and pseudo-base from inversion provided additional information of the thickness of the first lobe of the reservoir to be ~22ft (without any presence of intrashale). Hole TD was called after a total of 520 ftahwas drilled with 100% net to gross (NTG) in a hydrocarbon-bearing sand package.
+
+
+Case 2: Well 2
+
+
+Well 2 was drilled to develop the attic resources updip in the BB reservoir. The target reservoir consists of two sand phases with phase-1 consisting of stacked channels overlayed by a younger sand prone erosive channels called phase 2, which is the sand phase of interest.
+
+
+As shown in Figs. 11 and 12, well 2 was designed to be a horizontal well penetrating the reservoir at about 87° inclination with varying formation dip 0.5–8° upward along drilling direction. The nearest offset well was 208m away. The offset well logs (Fig. 13) indicated varying reservoir thickness, weaker conductivity contrast at the reservoir top and intrareservoir shales. There was no fluid contact seen in any nearby wells. Thereafter, the DDRreservoir mapping tool was deployed for landing at reservoir top, while the multilayer DTB tool was deployed to optimize placement within the reservoir section.
+
+
+Figure 11View largeDownload slideSeismic section showing well 2 across the BB reservoir.Figure 11View largeDownload slideSeismic section showing well 2 across the BB reservoir. Close modal
+
+
+Figure 12View largeDownload slideBB vertical intersection view.Figure 12View largeDownload slideBB vertical intersection view. Close modal
+
+
+Figure 13View largeDownload slideOffset well logs (A-8 andA-9).Figure 13View largeDownload slideOffset well logs (A-8 andA-9). Close modal
+
+
+A detailed predrill model was performed to simulate tool response scenarios using offset well data. Fig. 14a shows the result of the predrill model populated with resistivity property of the most suitable offset well. At wellbore entry point, the expected structural dip was2–3° along the well path with ~900ft reservoir exposure to good quality sand. The model also showed possible intrareservoir shale. On running the model DDR inversion and using 1 and 2 receivers, Fig. 14b, the model result shows sand detection by DDR tool at ~64ft TVD below the wellbore and ~500ft measured depth away from the top of the reservoir. The base of the sand was also detected providing vital information to optimize landing if this situation turns out to represent the actual well. Using multilayer distance to boundary technology, Fig. 14c, the model inversion shows detection of both the top and base of the target reservoir up to 10ft TVD away from the wellbore. Model inversion also clearly mapped the thin conductive interbeds within the sand. The presented model, and other possible scenario evaluated, gave confidence that the chosen well placement technology will deliver value in the well optimization.
+
+
+Figure 14View largeDownload slide14a. Geological;14b.deep direction resistivity; and 14c. multilayer distance to boundary inversion model for Case 2.Figure 14View largeDownload slide14a. Geological;14b.deep direction resistivity; and 14c. multilayer distance to boundary inversion model for Case 2. Close modal
+
+
+Real Time Execution and Result
+
+
+From the exit of the DDR subs from the casing magnetic interference, inversion indicated that the wellbore drilled through conductive overburden until ~13,000 ftah. The decision was made to hold inclination at 81° to ensure early interception because the target sand appears deeper than expected. Wellbore continued to be drilled in a conductive environment until ~13365ftah, when DDR inversion started to map the top of the resistive sand within the BB layer approaching ~40ft TVD from below the wellbore with a dip of ~2.8° upwards in the direction of drilling. This was interpreted as the second lobe of the phase 2 sand package within theBB reservoir because the LWD measurement indicated wellbore crossed the first lobe sand at approximately 13,100ftah as shown in Fig. 15. Contrary to expectation, the first lobe was observed to be wet as indicated by conventional resistivity measurement and DDR inversion. At approximately 13,390ftah, inversion estimated the thickness of the BB sand package as ~32ft TVD. Upon tagging the top of reservoir successfully decided to TD the landing section.
+
+
+Figure 15View largeDownload slideDeep direction resistivity real-time inversion at landing for Case 2.Figure 15View largeDownload slideDeep direction resistivity real-time inversion at landing for Case 2. Close modal
+
+
+On exiting casing in the production section, the multilayer DTB inversion indicated that wellbore at 87.5° inclination drilled into the ratty top of the phase 2 sand within BB reservoir. DTB Inversion thereon mapped a sand shale intercalation sequence with formation dipping at ~3° upwards along the direction of drilling. At 13,720 ftah, the decision was made to drill down stratigraphically towards the clean sand interval. From the inversion depth of 13,720–13,900 ftah, inversion delineated multiple thin beds with an interpreted average dip of 3.8° upward until 13,850 ftah when a clean, thick sand was detected. The wellbore later penetrated the clean interval and was confirmed by all LWD petrophysical measurements. The decision was made to geosteer along the geology based on observed formation dip from DTB inversion to ensure longer wellbore exposure in the clean sand. The multilayer DTB tool detected a conductive boundary 10ft TVD below the wellbore at 13,973 ftah inversion depth dipping approximately 4.7° upwards, as shown in Fig. 16. The conductive layer was preliminarily interpreted as the BB base. Hence, the decision was made to increase inclination rapidly to avoid drilling through the base. Hole TD was called after a total of 689 ftah has been drilled with 85% NTG.
+
+
+Figure 16View largeDownload slideMultilayer distance to boundary real-time inversion for Case 2.Figure 16View largeDownload slideMultilayer distance to boundary real-time inversion for Case 2. Close modal
+
+
+Conclusion
+
+
+Deploying geosteering in Bonga has minimized the need for unplanned sidetrack in scenarios where the well objective was not met. These technologies have greatly assisted in optimally landing the intermediate/production casing and well placement by drilling sufficient footage within the reservoir for well potential to be achieved. The successful deployment of the deep directional resistivity and multilayer distance to boundary technologies in Bonga can be attributed to a clear understanding of each well geosteering objectives, quality prejob planning, good real-time collaboration between stakeholders, and postjob after-action review to identify learnings to be carried forward to future wells.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgements
+
+
+The SNEPCo Field Development and ExecutionTeam and Schlumberger Nigeria.
+
+
+References
+
+
+Pokima, S., Afolabi, R., Fakunle, O.et al. 2015. Bonga Northwest Subsurface Development—Planning, Execution and Uncertainty Management. Paper presented at theOffshore Technology Conference held in Houston, Texas, USA, 4–7 May 2015. OTC-25943-MS.Google Scholar Beer, R., Claudio, L., Dias, T.et al. 2010. Geosteering and/or Reservoir Characterization: The Prowess of New Generation LWD Tools. Paper presented at theSPWLA 51st Annual Logging Symposium, Perth, Australia, 19–23 June. 2010-93320.Google Scholar Constable, M.V., Antonsen, F., Olsen, P.A.et al. 2012. Improving Well Placement and Reservoir Characterization with Deep Directional Resistivity Measurements. Paper presented at theSPE Annual Technical Conference and Exhibition, San Antonio Texas, USA, 8–10 October. SPE 159621.Google Scholar Dupuis, C., Omeragic, D., Chen, Y.-H.et al. 2013. Workflow to Image Unconformities with Deep Electromagnetic LWD Measurements Enables Well Placement in Complex Scenarios. Paper presented at theSPE Annual Technical Conference and Exhibition, New Orleans, Louisiana, USA, 30 September–2 October. SPE 166117.Google Scholar Jenkins, S., Sims, A., Oldham, E.et al. 2012. De-risking a Horizontal Well through Application of New Deep Directional Resistivity Tool to Equate Seismic Data with Borehole Data. Paper presented at theSPE Asia Pacific Oil and Gas Conference and Exhibition, Perth, Australia, 22–24 October. SPE 158040.Google Scholar Leveque, S., Dupuis, C., Staermose, T.et al. 2012. Geosteering the Impossible Well: A Success Story from the North Sea. Paper presented at theSPE Annual Technical Conference and Exhibition, San Antonio, Texas, USA, 8–10 October. SPE 159132.Google Scholar Roberts, S., Bisain, A., Riley, D., et al. 2017. Say no to Pilot-Holes and Sidetracks—Mapping Complex Injectite Sand Reservoirs While Landing and from Inside—Case Studies from the Catcher Development. This paper was prepared for presentation at theSPE Offshore Europe Conference and Exhibition held in Aberdeen, United Kingdom, 5–8 September. SPE-186136-MS.Google Scholar Dupuis, C. & Mendoza-Barron, V.2014. Avoid Pilot Holes, Land Wells, and Optimize Well Placement and Production with Deep Directional Resistivity Logging-While-Drilling. This paper was prepared for presentation at theSPE Bergen One Day Seminar held in Grieghallen, Bergen, Norway, 2April. SPE-169206-MS.Google ScholarCrossrefSearch ADS  Netto, P., Vieira da Cunha, A., Goncalves, A.et al. 2012. Landing a Well Using a New Deep Electromagnetic Directional LWD Tool. Can We Spare a Pilot Well?Paper presented at theSPWLA 53rd Annual Logging Symposium, Cartagena, Columbia, 16–20 June.Google Scholar Omeragic, D., Li, Q., Chou, L.et al. 2005. Deep Directional EM Measurements for Optimal Well Placement. Paper presented at theSPE Annual Technical Conference and Exhibition, Dallas, Texas, USA, 9–12 October. SPE 97045.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/212029-MS
+
+
+

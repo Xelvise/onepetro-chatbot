@@ -1,0 +1,195 @@
+----- METADATA START -----
+Title: Optimising Process Conditions to Obtain Distillate Properties Within Regional Specifications
+Authors: Adebimpe Oyeyele, Camilla Junaid, Kawu Idris-Idah, Daniel Olomolaiye, Eretoru Robert
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211992-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+In this work, a case study of a modular crude oil refinery is carried out. Located in Imo State, Nigeria, it is the first refinery to simultaneously produce four (4) petroleum products - Naphtha, Kerosene, Automotive Gas Oil (AGO) (i.e., Diesel) and Heavy Pour Fuel Oil (HPFO), that have constantly met the requirements of the Nigerian Department of Petroleum Resources (DPR). The refinery is situated beside the Ibigwe Marginal Field from which it obtains its crude oil; it represents perhaps the personification of efficiency in maximizing value from petroleum resources. Numerous lessons exist for prospective modular refiners.The paper aims to identify optimal process conditions and discuss a data-focused strategy utilized in ensuring optimal distillation column parameters required to achieve the production of "on-spec" (that is, meeting the desired regulatory/client quality specifications) distillates. The set points of temperatures and pressures for the distillation and stripping of each product were examined, while assessing the impact of changes in feed stock properties, product specifications or ambient conditions and the adjustments that needed to be made to process conditions. Some examples of the concerned characteristics of the product required to meet specification are API Gravity, Flash point and Pour Point. The reflux temperature, petroleum products draw rate, etc. are few variables to be appropriately manipulated. Strategies were developed and implemented for all stages of the refinery’s development – preliminary ones being the Design stage and Construction stage, with the ongoing one being the operation stage.Literature alludes to refiners categorizing "meeting specifications" as a potential problem. For example, you have now obtained "on spec" kerosene, what quantity of "on spec" diesel is left? In this paper, the technical journey to meeting DPR requirements is narrated, aiming to transfer knowledge and further develop the nation’s ability to meet its energy needs.
+
+
+
+
+Keywords:
+specification,
+adjustment,
+distillation unit,
+temperature,
+optimization,
+kerosene,
+upstream oil & gas,
+refinery,
+diesel,
+stripper
+
+
+Subjects: 
+Information Management and Systems
+
+
+
+
+Introduction
+
+
+According to BP, the world consumes approximately 88 million barrels of petroleum products daily; translating into a global trillion-dollar market (BP, 2021). The aforementioned statement elucidates the global importance of petroleum products. Vis-à-vis energy demand data and growth projections, demand for petroleum products will continue to grow albeit the persistent situation of limited resources; hence, optimal distillation of crude oil is a necessity.
+
+
+This paper utilizes a novel low-cost method of detailed process data analysis to identify optimal process conditions required to produce "on-spec" petroleum products.
+
+
+Petroleum products distilled from crude oil must attain certain specifications to be considered "on-spec" (on specification), lest they be considered "off-spec". "On-spec", a word encircling a wide range of distillate properties. Examples of such properties are; smoke point, flash point, specific gravity (API), metric tons CO2 equivalent, amongst many others. This underlying philosophy of "on-spec" ensures that products undergo combustion with minimal risk to human lives and the environment, whilst also ensuring equipment’s integrity is maintained. Thus, refineries constantly exert resources to ensure optimal process conditions that would facilitate increased valuation of their petroleum products (Engineering Toolbox, 2017).
+
+
+The modular refinery in discussion (henceforth referred to as "Refinery X") has name-plate refining capacity of 5,000 bpd. In this research work, a data-driven method is utilized to continuously ensure "on-spec" petroleum products during the modular refinery’s operational phase. Pre-commissioning efforts to ensure optimal process conditions included designing and fabrication of distillation equipment (distillation column and strippers) according to the desired results of digital process simulations. There always exists a gap between simulations and realities in petroleum projects due to absence of the best possible data at design stage. Hence, this paper aims at utilizing actual process data to identify optimal process conditions. Via detailed analysis of actual process conditions data and subsequent match with standard laboratory tests, optimal conditions are ascertained.
+
+
+The required specifications for the petroleum products in discussion (Kerosene and Diesel), as outlined by the Nigerian Midstream and Downstream Petroleum Regulatory Authority (NMDPRA), the subset of DPR concerned with the Refinery, are summarized in "Table 1" below.
+
+
+Table 1NMDPRA specification (Refinery X Lab Manual, 2020) Distillate Name
+            . Property 1 (API Gravity)
+            . Property 2 (Flash Point, °C)
+            . Kerosene 39.0 to 51.0 >= 45 Diesel 31.1 to 41.0 >= 66 Distillate Name
+            . Property 1 (API Gravity)
+            . Property 2 (Flash Point, °C)
+            . Kerosene 39.0 to 51.0 >= 45 Diesel 31.1 to 41.0 >= 66 View Large
+
+
+Literature Review
+
+
+The data-intensive methodology proposed in this research is novel, as existing literature doesn’t entail a similar methodology. Most literature utilize expensive software like ASPEN HYSYS for optimizations in refining. Existing literature is also solely focused on the optimization of conventional refineries, often containing multiple distillation units. Furthermore, existing literature lacks a special focus on the optimization of process conditions to obtain the specifications demanded by NMDPRA.
+
+
+Jaja et. al. (2020) developed an HYSYS model for the optimization of the crude distillation unit of a conventional refinery in Nigeria. The model included the distillation and heating equipment being utilized in the refinery. Characterization of the crude feedstock was also completed using the software, HYSYS. Via the model, component mole fractions of Naphtha, Kerosene, Light Diesel Oil, Heavy Diesel Oil and Atmospheric Residue were obtained. In comparison to actual plant mole fraction, the most deviation obtained was 3.2%. The developed model also predicted temperatures of withdrawal trays; maximum deviation was noted to be 23.2%. Subsequent to optimization via SQP (Sequential Programming); maximum deviation was reduced to less than 1% for both mole fractions and tray temperatures. The model’s underlying concept was thus to develop a model that would mirror actual realities; a different concept is embedded in this research.
+
+
+Lopez et. al. (2009) utilized an algorithm (GAMSide 22.2) for the optimization of profits from Crude Distillation units. Distillation towers and heat exchange trains were modelled and integrated into the algorithm, to obtain the optimal process conditions at which maximum profits could be obtain from the Crude Distillation Units.
+
+
+Khalouaoui et al. (2019) analyzed the thermodynamics associated with a crude distillation unit via an ASPEN HYSYS model, with an overall aim of optimizing energy usage. The Atmospheric Distillation Unit (ADU) was discovered to be the unit where the most energy loss could be avoided. A parametric optimization was also obtained, translating into possible minimal exergy losses in the VDU and ADU.
+
+
+Therefore, the utilization of EXCEL to implement optimization modalities across a modular refinery is novel.
+
+
+Methodology
+
+
+This novel methodology is characterized into three segments: Process Data Collection, Process Data Visualization, and Process Data Analysis / Interpretation. The resulting information from each segment are contained in the bulleted headings highlighted in "Figure 1".
+
+
+Figure 1View largeDownload slideMethodologyFigure 1View largeDownload slideMethodology Close modal
+
+
+• Process Data Collection
+
+
+A wide range of process data (crude feed rate, tower temperatures & pressures, stripper temperatures & pressures, heater temperatures) was collated across a period of three months (December 2021 – January 2022).
+
+
+• Process Data Visualization
+
+
+The collected data were then visualized via charts and figures developed using EXCEL, facilitating low-cost and highly effective analysis of the collated process conditions.
+
+
+• Process Data Analysis / Interpretation
+
+
+Via charts, analyses were carried out; portraying the optimal conditions for "on-spec" petroleum products to be produced. Furthermore, results were interpreted according to existing scientific knowledge of petroleum products.
+
+
+Results
+
+
+In this section, pictorial representations of the various process data collected is presented.
+
+
+Process Data
+
+
+Figure 2View largeDownload slideThe feed rate against timeFigure 2View largeDownload slideThe feed rate against time Close modal
+
+
+Figure 3View largeDownload slideHeater, Tower and Stripper Temperatures against timeFigure 3View largeDownload slideHeater, Tower and Stripper Temperatures against time Close modal
+
+
+Figure 4View largeDownload slideDistillation Temperatures (5% and 95%) against TimeFigure 4View largeDownload slideDistillation Temperatures (5% and 95%) against Time Close modal
+
+
+Figure 5View largeDownload slideAPI Gravity against TimeFigure 5View largeDownload slideAPI Gravity against Time Close modal
+
+
+Figure 6View largeDownload slideFlash point temperature against TimeFigure 6View largeDownload slideFlash point temperature against Time Close modal
+
+
+Discussion
+
+
+Optimisation of process conditions is done based on feedback obtained from laboratory analysis results. If the API Gravity and Flash Point results of the products fall within the required ranges specified in Table 1, the round of distillation by the tower can be termed a success. If the results of any product, or products, fall out of the ranges, adjustments are made to get them back in line. The bulk of these adjustments are manually and painstakingly done using the pertinent control elements.
+
+
+Good knowledge of crude feed compositions is not available and the composition of the crude oil being refined changes often due to mixing of crude oil from different sources and varying oil well content. The only guaranteed information available for the crude oil is its API Gravity and water content. The control to be done based on this information is to ensure that the crude oil to be fed into the distillation tower has:
+
+
+an API Gravity that falls within a certain rangea water content that is as close as reasonably possible to zero.
+
+
+Obtaining distillate properties within regional specifications also involves obtaining the highest production volume possible of products that would make good sales in the region, while ensuring that their properties fall within the specified ranges. In this case, kerosene and diesel are 2 of such products, therefore, the API Gravity of the crude oil received must fall within a mid-range such that its refinement will give off higher useful volumes of kerosene and diesel compared to the other products (Refinery X Lab Manual, 2020).
+
+
+The following are different points concerning tower operations, with reference to the schematic in "Figure 7", which is a representation of the tower setup being discussed:
+
+
+Feed Flow Rate and Heating – The Burner Management System has been configured to provide the appropriate proportions of burning-enabling elements to bring the crude oil flowing through the Heater to the needed outlet temperature. With a constant feed flow rate into it, abrupt changes in these proportions occur minimally, excluding considerations to be made for atmospheric conditions such as rain, cold weather and excessive heating from the sun. In cases where significant increase or decrease in the flow rate must take place, by rule of thumb, certain adjustments would need to be made to still maintain the crude inlet temperature range (i.e., the Heater Outlet Temperature range) to the tower. This range is 625 ± 5°F. The Burner Management System of the heater plays a great part in achieving this. However, close monitoring is done to provide any manual adjustments, especially, to the air proportions required for optimum heating. Such was done for about 2 weeks in the month of January and a week in the month of February, when the amount of crude oil being refined was significantly reduced due to certain internal organizational requirements.Feed Temperature and Tower Bottom Temperature - As the crude oil enters the tower, part of it flashes and travels along the trays of the tower undergoing the necessary liquid-vapour contacts for distillation and product formation. The other part flows down to the bottom of the tower, contributing to the tower bottom temperature and exiting as Heavy Fuel Oil (HFO). With proper operation of the tower, the temperature drop from that at the tower entry point to the bottom is maintained at about an average of 16°F.Tower Pressure – Temperatures and pressures in the distillation tower are crucial in achieving proper tower operations. Any major changes to either or both would affect the quality of production. Essential to achieving optimum conditions in this tower is monitoring of the Tower Differential Pressure, while maintaining the pressure at the tower top at 6.2 ± 0.4psi. The Tower Differential Pressure is maintained at 2.1 ± 0.4psi. Like temperature, pressure at the bottom of the tower is always higher than pressure at the top of the tower.Tower Top Temperature – It is more feasible to control the temperatures of the tower than the pressures, hence, necessary adjustments are made to focus on temperature increase or decrease, as appropriate, to satisfy distillate specifications. Also, the tower top temperature can be more easily managed by increment or reduction of reflux to the tower. This refluxing, which provides the cooling and vapour condensation the tower needs for efficient separation, is controlled by flow of condensed overhead product entering above the first tray of the tower. The tower top temperature in this tower is maintained at a range of 314°F to 317°F.Product Refluxing – Asides refluxing that takes place at the top of the tower for general separation efficiency, refluxing also occurs for the kerosene and diesel stages of the tower. Each is refluxed via its respective stripper back to the tray immediately above the draw tray. This enhances respective product separation efficiency.ASTM Temperature Difference – This is important in defining the quality of the separation process. It is obtained by subtracting the 95% Volume Temperature of a fraction from the 5% Volume Temperature of the adjacent heavier fraction. If this difference is positive, it indicates a good separation. If the difference, however, is negative, it indicates a bad separation and signifies that some percentage of the heavy fraction is still present in the lighter fraction products (Refinery X Lab Manual, 2020).Refining Temperatures – As a rule of thumb, the highest temperature in the tower would come from the crude oil feed, and descends as follows:Tower Bottom Temperature (which has been described in B. above)Diesel Draw Temperature from tower, which is the temperature of the diesel leaving the tower to the diesel stripperDiesel Stripper Outlet Temperature, which is the temperature of the diesel leaving the stripper for cooling and storage. It is maintained at an average of 4°F less than the diesel draw temperatureKerosene Draw Temperature from tower, which is the temperature of the kerosene leaving the tower to the kerosene stripperKerosene Stripper Outlet Temperature, which is the temperature of the kerosene leaving the stripper for cooling and storage. It is maintained at an average of 4°F less than the diesel draw temperatureTower Top Temperature (which has been described in D. above)
+
+
+Figure 7View largeDownload slideRefinery X Distillation UnitFigure 7View largeDownload slideRefinery X Distillation Unit Close modal
+
+
+Figure 8View largeDownload slideCrude Feed rate against Kerosene APIFigure 8View largeDownload slideCrude Feed rate against Kerosene API Close modal
+
+
+Figure 9View largeDownload slideCrude Feed rate against AGO Flash PointFigure 9View largeDownload slideCrude Feed rate against AGO Flash Point Close modal
+
+
+Figure 10View largeDownload slideKerosene Stripper Temperature against Flash PointFigure 10View largeDownload slideKerosene Stripper Temperature against Flash Point Close modal
+
+
+The graphs portrayed in the "Results" section show that the products and parameters follow the required trend, as optimum process operations have been put in place.
+
+
+The two main specification results from laboratory analysis are highlighted and the methods of control are outlined.
+
+
+API Gravity Control – Based on process observations and known theories, with the current tower setup, making efforts to significantly increase the API Gravity of the products, especially kerosene, would reduce the useful volume of product obtained. Therefore, the API Gravity is maintained as close to the lower boundary as reasonably possible. At the receipt of lab analysis feedback of low API Gravity of kerosene, the kerosene draw rate from the tower is reduced by one step to allow more time for removal of heavy components before it leaves the tower. If this reduction is not sufficient in meeting the required specification, it is reduced by another step and so on. Same is done for diesel if it is the affected product.Flash Point Control – As the flash point temperature of a product indicates the temperature at which its vapours would ignite, the higher it is, the better for its management. To increase the flash point of kerosene, lighter ends present in it are boiled off in the kerosene stripper by engaging the operation of the immersion heater. In the case of diesel, the flow rate around the reboiler can be controlled to remove lighter ends from it via the diesel stripper. Similar to the condition with API Gravity, significant increase in the flash point would reduce the useful volume of product obtained, hence, optimum trade-off would have to be made.
+
+
+Conclusion
+
+
+An intensive data driven methodology was utilized to optimize process conditions during the operational stage of Refinery X. Further to collection of process data and data analysis, crude oil distillation was optimized in Refinery X to consistently achieve NMDPRA specifications. Graphs contained in the main paper and the Appendix, obtained from the data gathered across the study period, show that one attribute of the process data cannot directly help one predict the specification results of the products obtained from the distillation process, but rather, all other process conditions and parameters and their adjustments must be collectively considered.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+References
+
+
+BP. 2021. Full report – statistical review of world energy 2021. www.bp.com. Available at: https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/energy-economics/statistical-review/bp-stats-review-2021-full-report.pdf [Accessed March 27, 2022].Engineering ToolBox. (2017). Petroleum Products - Standard Test Methods (ASTM and others) and Specifications. [online] Available at: https://www.engineeringtoolbox.com/astm-test-method-petroleum-product-gasoline-aviation-fuel-diesel-jet-kerosine-specification-d_1990.html [Accessed March 27 2022].Refinery X. (2020). Refinery X Laboratory ManualJaja, Z., Akpa, J. G.; Dagde, K. K. (2020). Optimization of crude distillation unit case study of the Port Harcourt Refining Company. Advances in Chemical Engineering and Science, 10(03), 123–134. https://doi.org/10.4236/aces.2020.103009Google ScholarCrossrefSearch ADS  Khalouaoui, I., Hajji, N. (2019). Thermodynamic optimization of an entire crude oil distillation unit. IJRDO - Journal of Applied Science, 5(07), 7–23.Google Scholar López, C., Mahecha, C, Hoyos, L., Acevedo, L., Villamizar, J. (2009). Optimization Model of a System of Crude Oil Distillation Units with Heat Integration and Metamodeling. CT&F, 3(05), 159–174.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211992-MS
+
+
+

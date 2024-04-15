@@ -1,0 +1,297 @@
+----- METADATA START -----
+Title: Enhanced Rheological and Filtration Properties of Water-Based Mud Using Iron Oxide and Polyanionic Cellulose Nanoparticles
+Authors: Soroush Kachoyan, Shaikh Nihaal, Jeffrey Oseh, Mohd Noorul Anam, Afeez Gbadamosi, Augustine Agi, Radzuan Junin
+Publication Date: August 2022
+Reference Link: https://doi.org/10.2118/211924-MS
+----- METADATA END -----
+
+
+
+Abstract
+
+
+The unstable wellbore created by the infiltration of drilling fluids into the reservoir formation is a great challenge in drilling operations. Reducing the fluid infiltration using nanoparticles (NPs) brings about a significant improvement in drilling operation. Herein, a mixture of iron oxide nanoparticle (IONP) and polyanionic cellulose nanoparticle (nano-PAC) additives were added to water-based mud (WBM) to determine their impact on rheological and filtration properties measured at 80 °F, 100 °F, and 250 °F. Polyanionic cellulose (PAC-R) was processed into nano-PAC by wet ball-milling process. The rheological behaviour, low-pressure low-temperature (LPLT), and high-pressure high-temperature (HPHT) filtration properties performance of IONP, nano-PAC, and IONP and nano-PAC mixtures were compared in the WBM. The results showed that IONP, nano-PAC, and synergy effect of IONP and nano-PAC in WBM at temperatures of 80 °F and 250 °F improved the density, 10-s and 10-min gel strength (10-s Gs and 10-min GS), plastic viscosity (PV), and the yield point (YP), while the pH was constant at 9.0. The mixture of 1.5 wt.% IONP + 0.25g nano-PAC in the WBM unveiled the most promising and optimal properties. At LPLT, the mixture improved the YP by 11% and reduced the LPLT fluid loss volume (FL) by 32.4%. At HPHT, the mud density increased by 3%, 10-s GS by 56%, 10-min GS by 52%, and the YP by 33.3%, while the HPHT FL decreased by 21%. With 1.0 g concentration at 100 °F, the nano-PAC achieved the greatest reduction in the FL of the WBM by 63%, followed by PAC-R by 57% before IONP that showed 36% reduction. Overall, the impact of IONP and nano-PAC in the WBM is evident and while the IONP showed more improved PV, the nano-PAC is more desirable for fluid loss control when 1.0 g at 100 °F was used. The use of combined IONP and nano-PAC could be beneficial for mitigating fluid loss and averting wellbore problem.
+
+
+
+
+Keywords:
+ionp,
+drilling fluids and materials,
+ionp 0,
+fluid loss control,
+drilling fluid chemistry,
+pac-r,
+reduction,
+drilling fluid formulation,
+drilling fluid selection and formulation,
+mud
+
+
+Subjects: 
+Drilling Fluids and Materials,
+Drilling fluid selection and formulation (chemistry, properties)
+
+
+
+
+Introduction
+
+
+The exploration of oil and gas has gotten to new heights where challenging drilling environments are met and drilling in these challenging environments, such as deeper, shaly, and harsher formations are more difficult than ever before. Oil and gas industry as well as oil service companies are continuously seeking more efficient means to confront the harsh environment to drill and produce oil and gas in a viable and safer way. The major difficulties include seepage of liquid phase of the drilling fluid into the reservoir formation, inefficient cuttings lifting, degradation of fluid properties, such as viscosity and gel strength, and fluid flocculation (Blkoor et al., 2021; Boa et al., 2019; Caenn et al., 2017)
+
+
+Drilling fluid execute many important functions in drilling processes and these functions include contolling formation pressure, cooling and lubricating the drill bits and strings, clearing the hole of drilled cuttings, preventing fluid loss, reduction of formation damage, maintaining hole integrity, aiding well logging and pipe tripping, enhancing drilling rate, minimizing pipe sticking, torque, drag, and drill and casing string corrosion (Caenn et al., 2017; Darley and Gray, 1988). Thus, in the event of drilling fluid degradation or difficulty to perform optimally, so many problems that could be damaging to the workers or crew, company, and the environment occur. Drilling fluid formulation must be of great importance to ensure that problems are averted. The rheological properies of drilling fluids must be continuously checked and regulated to predict and prevent any potential loss accurately. Also, the temperature and pressure of the drilled formation must be monitored since the flow of fluids through the pipes in the well is highly affected by temperature, pressure, and time (Oseh et al., 2020a, b; Vryzas et al., 2015). All these parameters result in significant changes in the properties of the drilling fluid. Tracking and regulating drilling fluid properties as an inseparable part of drilling operation become difficult while drilling. Hence, an understanding of drilling fluid behaviour is required, including the contribution of the related microstructure or molecular mechanisms of the drilling fluid flow properties and fluid loss behaviour (Blkoor et al., 2022; Vryzas et al., 2016).
+
+
+Most oil and gas wells are drilled with greater wellbore pressures than formation fluid pressures. During this operation, mud filtrate invades the formation, especially in productive zones which have higher permeability (Oseh et al., 2020b; Taha and Lee, 2015). When the mud filtrate enters the formation, it causes damage to the formation, resulting in expensive treatments and loss of crude oil outputs. This phenomenon is another aspect that needs to be cautiously handled to facilitate safe and efficient drilling process. A standard formulated drilling mud can stabilize and strengthen the wellbore against fluid loss and lost circulation. A thin and low permeable mud cake and low fluid loss are desired to prevent or lessen formation damage and unstable wellbore (Gbadamosi et al., 2019a, b; Mahmoud et al., 2016).
+
+
+Mud additives play a crucial role in the composition of drilling fluid. Based on the type of performance desired from the drilling fluid and the problems faced during drilling, specific additives can be added. Conventional drilling fluids, especially the water-based mud (WBM) is mainly formulated with salts, bentonite clay, and polymers added into the continuous liquid (water) phase, but these additivies find its dufficult to preserve the rheological characteristics of the WBM throughout the drilling operation because of the large modifications in pressure and temperature while drilling (Darley and Gray, 1988). When drilling deeper, the downhole environments become hotter and more complicated, and these conditions make drilling fluid not to execute its functions effectively. Thus, the fluid carrying capacity is reduced and high loss of the fluids into the drilled formation occur (Oseh et al., 2019a, b; Saboori et al., 2018).
+
+
+Recently, nanoparticles (NPs) have been utilised as a new addition in drilling mud to enhance the mud's properties. NPs by virtue of their high area to volume ratio and extreme small size can interact effectively with other mud's particles and their surrounding wellbore matrix to enhance the mud's functionality (Gbadamosi et al., 2022; Blkoor et al., 2021; Agi et al., 2020; Amanullah et al., 2011). Different types of NPs, such as carbón-based, inorganic-based, organic-based, composite-based, and metal oxides-based had been used to prepare nanofluid for enhanced oil recovery (EOR) or added into drilling fluids for drilling operations and remarkeable achievements were achieved (Oseh et al., 2020c, d; Vryzas and Kelessidis, 2017; Abduo et al., 2016; Mahmoud et al., 2016; Vryzas et al., 2014). These NPs include carbón nanotubes (CNTs), titania or titanium dioxide (TiO2), Zinc oxide (ZnO), nanosilica (SiO2), copper oxide (CuO), aluminium oxide (Al2O3), iron oxide (Fe2O3), etc. The functions of NPs materials are dependent on the reason that a high surface area per mass of smaller particles overcome the driving force for phase separation, such as packing entropy and gravity (Amanullah et al., 2011).
+
+
+Iron oxide nanoparticle (Fe2O3 NP or IONP) has a great potential for field application. Henceforth, IONP is used to indicate iron oxide nanoparticle used in this study. Previous research on the use of IONP at laboratory scale for both WBM and oil-based mud (OBM) reported promising results (Mahmoud et al., 2016; Vryzas et al., 2015; Vryzas et al., 2014; Nwaoji et al., 2013; Jung et al., 2011). IONPs are particles of iron oxide with diameters range from 1 nm to 100 nm. The two key types are magnetite (Fe3O4) and its oxidized nature maghemite (γ- Fe2O3) (Jung et al., 2011). Mahmoud et al. (2016) carried out research with IONP, SiO2 NP, and a mixture of both IONP and SiO2 NP in WBM. They find out that 0.5 wt.% of pure IONP in the drilling mud showed the best results compared to those of SiO2 NP and the IONP and SiO2 NP mixture. In this regard, 61% increase in yield stress was achieved with IONP compared with the WBM, wheras SiO2 NP and the mixture of IONP and SiO2 NP recorded 22% and 49%, respectively, over the WBM. Also, the IONP reduced the filter cake thickness of the WBM by 28% and the cumulative fluid loss volume by 21%. The increase in rheological properties by the IONP was attributed to the increase frictional resistance of the particles, while the formation of an extra layer by the IONP on the drilling mud reduced the filtration properties (Mahmoud et al., 2016).
+
+
+Moreover, in controlling fluid loss, conventional polyanionic cellulose (PAC) has been utilized to form a thin and low permeable mud cake (Fereydouni et al., 2012). PAC additive is a broadly used material in drilling fluid. It has the same molecular structure to conventional carboxy methyl cellulose (CMC). Nevertheless, it functions better than CMC in reduction in filtration, anti-collapse, anti-salt, and at high-temperature environment. It can be used up to a temperature of 150 °C (Fereydouni et al., 2012). PAC as a dispersible additive can significantly reduce the API filtaration rate wih an improvement in rheological properties of drilling mud. PAC is introduced to drilling muds and other chemical mixtures to help in many ways, including formation cuttings suspensión, help movement of the surface, aid the cooling and lubrication of drill bits, and formation pressure control all through the drilling process (Darley and Gray, 1988). Addition of PAC prevents any harmful conditions, such as hole collapse or wellbore blockage during drilling operation by causing the drilling fluid to become rigid. It has good low water loss carácter that help to decrease the quantity of water required to seep into the production zone. PAC is used to modify the level of mud's viscosity and can also be applied as a portion of a mixture to modify the level of pH (Fereydouni et al., 2012).
+
+
+A study conducted by blending nano-PAC wih WBM to study the rheological improvement of the WBM showed that the nano-PAC reduced the API fluid loss volume and cake thickness by 20% and 47%, respectively (Fereydouni et al., 2012). Although so many previous studies have reported the use of pure IONP, pure PAC-R, and nano-PAC in drilling mud design, the synergy effect of using IONP and nano-PAC mixture for fluid loss reduction in WBM has not been examined to comprehend the fluid behaviour of IONP and nano-PAC blend. Therefore, in this paper, the effects of synrergy of IONP and nano-PAC mixture to enhance the rheological and filtration characteristics of WBM was extensively studied and it was compared with pure IONP, PAC-R, and nano-PAC.
+
+
+Materials and methods
+
+
+Materials
+
+
+Bentonite, xanthan gum (XG), caustic soda (NaOH), calcium carbonate (CaCO3), PAC-R, resinated lignite, barite, and IONP. IONP has a size of 30 nm with 99.9% purity and a density of 5.30 g/cm3 and is insoluble in water. These materials were bought from Shanghai Xinglu Chemical Technology Co., Ltd (China).
+
+
+Methods
+
+
+Preparation of polyanionic cellulose nanoparticle
+
+
+Nano-PAC was prepared by using the wet ball-milling process. The amount of energy in the wet ball-milling depends upon the slipping speed, size, and quantity of the balls, and the duration of residence. The stress generated by the balls onto the PAC-R particles crushes it before seiving using shale shaker (Figure 1) to make them nanosize (nano-PAC). The sieving process was conducted as follows: the pure PAC-R was sieved for 30 minutes by using a sieve shaker. The pure PAC-R was crushed and mixed with tap water at 15% controlled concentration and sieved for 30 minutes. The sieved PAC-R powder solution was further crushed with a wet grinder at a rotary speed of 10 rpm for 20 minutes. The sieved sample was sun-dried for 24 hours and labelled nano-PAC. Next, the particle size distribution (PSD) of the PAC-R before and after processing (nano-PAC) was determined by feeding 0.2 g each into Mastersizer Malvern Instrument for analysis. The outcome was shwn automatically on the printable monitor and registered.
+
+
+Figure 1View largeDownload slideShale shakerFigure 1View largeDownload slideShale shaker Close modal
+
+
+Preparation of complex water-based mud
+
+
+The base mud (or complex WBM) was formulated with 350 ml of deionized water. 15 g of bentonite was gradually introduced for 20 minutes to the solution using a mud mixer through mechanical stirring. Then, 0.2 g of XG and 0.3 g of PAC-R were added and each was blended for 10 minutes. Thereafter, 1.5 g of resinated lignite and 1.0 g of NaOH were simultaneously mixed and added. Lastly, 15 g of CaCO3 and 20 g of barite were blended seperately for 10 minutes before adding them to the solution. The laboratory formula and mixing times used are summarized in Table 1 and it is equivalent to 350 ml laboratory barrel of drilling mud.
+
+
+Table 1Laboratory formula used to prepare the equivalent of 1 barrel of WBM Additive
+            . Description/Function
+            . Quantity
+            . Mixing Time
+            . Deionized water Base liquid 350 ml – Bentonite Viscosity and filtrates control 15 g 20 minutes XG Viscosifier 0.2 g 7 minutes PAC-R Filtrate loss control 0.3 g 7 minutes Resinated lignite Thinner 1.5 g 10 minutes NaOH pH agent 1.0 g 5 minutes CaCO3 Weighting and bridging material 15 g 10 minutes Barite Weighting material 20 g 20 minutes Additive
+            . Description/Function
+            . Quantity
+            . Mixing Time
+            . Deionized water Base liquid 350 ml – Bentonite Viscosity and filtrates control 15 g 20 minutes XG Viscosifier 0.2 g 7 minutes PAC-R Filtrate loss control 0.3 g 7 minutes Resinated lignite Thinner 1.5 g 10 minutes NaOH pH agent 1.0 g 5 minutes CaCO3 Weighting and bridging material 15 g 10 minutes Barite Weighting material 20 g 20 minutes View Large
+
+
+Formulation of drilling muds using nanoparticles
+
+
+To prepare the NPs drilling muds, pure IONP and nano-PAC at different concentrations were used. The concentrations of the NPs were added into the base mud (WBM) formulated in Table 1. In this formulation, the procedures used and the descriptions of the six mud types formulated are represented in Table 2.
+
+
+Table 2Composition of drilling muds containing nanoparticles Number
+            . Depiction
+            . Compositions
+            . Mud #1 Base mud WBM Mud #2 3.5 wt.% IONP WBM + 3.5 wt.% IONP + 0.0 g nano-PAC Mud #3 2.5 wt.% IONP + 0.2 g nano-PAC WBM + 2.5 wt.% IONP + 0.2 g nano-PAC Mud #4 1.5 wt.% IONP + 0.25 g nano-PAC WBM + 1.5 wt.% IONP + 0.25 g nano-PAC Mud #5 0.5 wt.% IONP + 0.3 g nano-PAC WBM + 0.5 wt.% IONP + 0.3 g nano-PAC Mud #6 0.35 g nano-PAC WBM + 0.0 wt.% IONP + 0.35 g nano-PAC Number
+            . Depiction
+            . Compositions
+            . Mud #1 Base mud WBM Mud #2 3.5 wt.% IONP WBM + 3.5 wt.% IONP + 0.0 g nano-PAC Mud #3 2.5 wt.% IONP + 0.2 g nano-PAC WBM + 2.5 wt.% IONP + 0.2 g nano-PAC Mud #4 1.5 wt.% IONP + 0.25 g nano-PAC WBM + 1.5 wt.% IONP + 0.25 g nano-PAC Mud #5 0.5 wt.% IONP + 0.3 g nano-PAC WBM + 0.5 wt.% IONP + 0.3 g nano-PAC Mud #6 0.35 g nano-PAC WBM + 0.0 wt.% IONP + 0.35 g nano-PAC View Large
+
+
+pH and density measurements
+
+
+Digital pH meter model cyber scan pH 510 from Eutech instruments was used to measure the pH value of the drilling fluid sample. A mud balance was used to determine the density of the mud. The measurements were recorded before and after hot rolling tests. The balance cup was filled with the mud to be tested and covered with the lid. The mud balance was then placed on the base, and the rider was adjusted to get the mud balance. Then, the density was noted from the left-side of the rider.
+
+
+Rheological properties measurement
+
+
+In this research, a Rotating 8 – Speed Brookfield Viscometer (BF45, Middleboro, MA, USA) was used to determine the plastic viscosity (PV) and yield point (YP) using Equations (1) and (2) following the shear stresses (τ) under stabilized shear rates (γ) data from 511 s−1 to 1022 s−1. These were obtained from two different dials 300 rpm and 600 rpm at ambient temperature of 80 ºF without aging and temperature of 250 ºF after termal aging in a 4-roller oven. Thereafter, 10-seconds and 10-minutes gel strength (10-s GS and 10-min GS) measurements were performed next before the filtration properties tests.
+
+
+PVcP =θ600−θ300(1)
+
+
+YP (lb/100ft2)=θ300−PV(2)
+
+
+θ is the viscometer dial reading (°); θ600 is dial reading at 600 rpm; and θ300 is dial reading at 300 rpm.
+
+
+Low Pressure Low Temperature (LPLT) fiter press measurement
+
+
+After the formulation of the muds, they were poured into the filter press cell with screen, filter paper, and rubber gasket. The cell was then fixed firmly to make sure that no pressure finds its way out during the test. A pressure of 100 psi was applied for 30 minutes, after which the filtrate loss volume (LPLT FL) was recorded, and the mud cake thickness (LPLT MCT) was taken.
+
+
+High pressure high temperature (HPHT) filter press measurement
+
+
+For the HPHT test, the mud was poured into the HPHT cell after hot rolling for 16 hours in a 4-roller oven cell. The cell was heated up to 250 °F in a heating jacket at a pressure of 600 psi applied on top of the cell and a pressure of 100 psi at the bottom of the cell making the differential pressure within the cell to be 500 psi. The timer was started and the HPHT FL was collected after 30 minutes; thereafter, the corresponding HPHT MCT was registered.
+
+
+Results and Discussion
+
+
+Particle size distribution of PAC-R and nano-PAC
+
+
+The results of PSD analysis for PAC-R before processing and after processing (nano-PAC) are shown in Figures 2 and 3. The size of anionic cellulosic polymers is essential in investigating the suitability of cellulose for certain uses. This could also help to minimize breakage and enhance or increase the binding of final products (Agi et al., 2020). According to Figure 2, PAC-R before wet ball-milling process shows a wider PSD than nano-PAC after ball milling process (Figure 3). The PAC-R before processing is mainly distributed between the size range of 140 μm and 700 μm with a corresponding peak frequency of 290 μm, while the processed nano-PAC size range is mainly distributed between 50 nm and 130 nm and its corresponding peak frequency occurred at 70 nm (Figure 3). The produced size range of nano-PAC when added to the base mud is sufficiently small to induce large specific surface área that can cause significant changes in the properties of the base mud. This confirms that the wet ball-milling process used to modify the size of PAC-R to nanosize is successful and promising.
+
+
+Figure 2View largeDownload slideSize of PAC-R before wet ball-milling processFigure 2View largeDownload slideSize of PAC-R before wet ball-milling process Close modal
+
+
+Figure 3View largeDownload slideSize of PAC-R after wet ball milling process (nano-PAC)Figure 3View largeDownload slideSize of PAC-R after wet ball milling process (nano-PAC) Close modal
+
+
+Mud density
+
+
+Figure 4 shows the density of complex WBM systems with different concentrations of IONP and nano-PAC measured at 80 °F before aging and 250 °F after thermal aging process. The density of the base mud (Mud #1) before and after aging is constant at 8.9 ppg and it changed with the additions of IONP and nano-PAC. Mud #2 containing 0.35 wt.% of IONP in the base mud shows the largest mud density of 9.2 ppg and 9.3 ppg before and after aging, respectively. At ambient conditions, the mixture of IONP and nano-PAC increases the density of the mud at changing mixture concentrations, but after thermal aging process, the increasing trends continue from Mud #2 (0.35 wt.% IONP) to Mud #4 (1.5 wt.% IONP + 0.25 g nano-PAC). However, these increasing trends were no longer sustained at 0.5 wt.% IONP + 0.3 g nano-PAC (mud #5), which showed a reduction in density from 8.9 ppg (Mud #1) to 8.4 ppg (Mud #5), but the density of the base mud (Mud #1) remain equal at 0.35 g nano-PAC (Mud #6). From this analysis, Mud #6 containing 0.35 g nano-PAC (without IONP) is more sensitive to temperature, while the density of Mud #2 (3.5 wt.% IONP without nano-PAC) is less affected by temperature. Generally, the mixture of IONP and nano-PAC tends to affect the density of the base mud (Mud #1). More solids accumulation in the base mud by the presence of IONP and nano-PAC could have led to the changes in the density of the base mud (Fattah and Lashin, 2016).
+
+
+Figure 4View largeDownload slideMud density of drilling muds before and after hot rolling testsFigure 4View largeDownload slideMud density of drilling muds before and after hot rolling tests Close modal
+
+
+Mud pH
+
+
+The results of the pH of complex WBM systems with different concentrations of IONP and nano-PAC measured at 80 °F before aging and 250 °F after thermal aging process are shown in Figure 5. The pH reveals the acidic or alkaline level of a material. All the drilling mud samples at both temperaure conditions indicate a constant pH of 9.0, which is moderately alkaline on the pH meter scale. By this result, the introduction of IONP and nano-PAC has no effect on the pH of the base mud (Mud #1) since IONP is a neutral compound and nano-PAC is not a surfactant (Oseh et al., 2020a). Moreover, the pH level exhibited by all the mud samples is within the recommended range between 8.0 and 10 required to control the rheological properties of drilling fluids (Singh and Dutta, 2018).
+
+
+Figure 5View largeDownload slideMud density of drilling muds before and after hot rolling testsFigure 5View largeDownload slideMud density of drilling muds before and after hot rolling tests Close modal
+
+
+Plastic viscosity
+
+
+PV helps to support the prevention of fluid seepage into the drilled formation (Darley and Gray, 1988). Figure 6 shows the PV of complex WBM systems with different concentrations of IONP and nano-PAC measured at 80 °F before aging and 250 °F after thermal aging process. At ambient conditions, the PV dropped for all the mud samples, except the sample with 3.5 wt.% IONP, which has equal value of 15 cP with the base mud. As the concentration of IONP decreases and nano-PAC increases in the mixture, the PV of the base mud decreases with a maximum drop of 40% for the 0.35 g nano-PAC, while the mixture viscosity reduced accordingly to 12 cP, 11 cP, and 10 cP. This results imply that instead of increase in drilled solids in the mud, the IONP and nano-PAC in the mud were not able to contribute to the solids build-up for increase in PV. For the part of nano-PAC, it seems the applied 0.35 g nano-PAC concentration was not enough to cause the carboxyl groups in the nano-PAC molecules to provide strong dispersión in water that could have led to frictional increase between the particles (Fereydouni et al., 2012).
+
+
+However, after hot rolling, the PV trends changed. The PV of the mud samples was strongly affected by temperature towards an increasing trends over the mud samples before aging. The mixture of IONP and nano-PAC has no effect on the PV of the base mud as the values are constant at 16 cP but with 3.5 wt.% IONP (without nano-PAC) and 0.35 g nano-PAC (without IONP), the PV of the base mud of 16 cP increased to 22 cP by 37.5% and 18 cP by 12.5%, respectively. It can be observed that as the concentration of IONP in the mixture decreases and nano-PAC concentration increases in the mixture, the PV of the base mud remained unchanged. For the base mud, the higher temperature of 250 °F makes bentonite clay to flocculate, leading to high PV. Bentonite has a negative charge and iron (Fe) in IONP has a positive charge, and they are attracted towards each other and it makes the mud stable and well dispersed, hence increase in PV at high temperature (Vryzas et al., 2016). Also, the presence of IONP in bentonite suspension or drilling mud containing bentonite at high temperature can result in bentonite clays and IONP dispersion leading to constant thickening of the drilling mud, hence the increase in PV (Vryzas et al., 2015).
+
+
+Figure 6View largeDownload slidePlastic viscosity of drilling muds before and after hot rolling testsFigure 6View largeDownload slidePlastic viscosity of drilling muds before and after hot rolling tests Close modal
+
+
+Yield point
+
+
+Figure 7 presents the YP of complex WBM systems with different concentrations of IONP and nano-PAC measured at 80 °F before aging and 250 °F after thermal aging process. A YP increase could imply that some chemicals are degraded or contaminated (Kelessidis and Maglione, 2008). At ambient conditions, there was increase in YP for all the mud samples with the highest margin of increase of 36.8% recorded by 0.5 wt.% IONP + 0.3 g nano-PAC and the lowest increasing margin of 10.5% for 1.5 wt.% IONP + 0.25 g nano-PAC. 3.5 wt.% IONP (without nano-PAC) and 0.35 g of nano-PAC (without IONP) improved the YP of the base mud by 26.3% and 31.6%, respectively. After hot rolling, three mud samples showed a decrease in YP as compared to the base mud and the highest increase in YP of 33% was achieved by the 1.5 wt.% IONP + 0.25 g nano-PAC and the lowest increase of 7% was achieved by 2.5 wt.% IONP + 0.2 g nano-PAC. Moreover, by using the IONP and nano-PAC alone, the YP of the base mud reduced by 26.7% and 20%, respectively. The improvement in the YP of the base mud by the mixture of IONP and nano-PAC before and after hot rolling is due to the the compabitibility of the chemical contaminants in the mud, such as NaOH that helped the particles to interact effectively with the molecules of WBM (Nasiri and Jafari, 2016). In general, the YP results indicate that the mixture of IONP and nano-PAC in the base mud is optimal and more stable compared to IONP and nano-PAC alone.
+
+
+Figure 7View largeDownload slideYield point of drilling muds before and after hot rolling testsFigure 7View largeDownload slideYield point of drilling muds before and after hot rolling tests Close modal
+
+
+10-s gel strength and 10-min gel strength
+
+
+The attitude of drilling fluid when drilling operation is halted or paused is dictated by its 10-s and 10-min GS. Thus, an optimal gel level is the basis to suspend drilled cuttings effectively and avoid sagging of weighted material (Darley and Gray, 1988). The effect of adding different concentrations of IONP and nano-PAC to dtermine 10-s and 10-min GS of the WBM at 80 °F and 250 °F temperatures are shown in Figures 8 and 9, respectively. At ambient conditions, 10-s and 10-min GS were substantially higher compared to the base mud. For the 10-s GS, the highest gel showed 46% increment over the base mud and it occurred with the 3.5 wt.% IONP mud (without nano-PAC) and the lowest margin of increment of 8% was achieved by the 0.35 g nano-PAC mud (without IONP). The nature of the gels are jelly-like as the IONP and nano-PAC increased the attraction between the particles. After aging, the GS of all the mud samples assumed reducing trends over those without aging and they were significantly affected by temperature, especially the 0.35 g nano-PAC. At high temperature, the behaviour of the GS is similar to that before aging. An increase of 78% was seen for both 3.5 wt.% IONP and 2.5 wt.% IONP + 0.2 g nano-PAC, whereas a decrease of 11% and 44% by the 0.5 wt.% IONP + 0.3 g nano-PAC and 0.35 g nano-PAC, respectively, was observed.
+
+
+Figure 8-10-sView largeDownload slideGel strenth before and after hot rolling testsFigure 8-10-sView largeDownload slideGel strenth before and after hot rolling tests Close modal
+
+
+Figure 9 shows the 10-min GS. For the 10-min GS, the presence of IONP and nano-PAC modified the GS of the base mud. A margin of 24% and 3% increase was achieved by 3.5 wt.% IONP (without nano-PAC) and 0.35 g nano-PAC (without IONP), respectively. The IONP and nano-PAC mixture (Mud #5) containing 0.5 wt.% IONP + 0.3 g nano-PAC has higher gel than other IONP and nano-PAC mixtures (Mud #3 and Mud #4) and it improved the GS of the base mud by 17.6%. After hot rolling, two samples (Mud #5 and Mud #6) showed a drop in the 10-min GS over the base mud, while the other remaining three samples showed an increase in GS of the base mud. An increase of 52% was recorded by the 3.5 wt.% IONP and 1.5 wt.% IONP + 0.25 g nano-PAC, whereas a decrease of 5% and 29% was noted with 0.5 wt.% IONP + 0.3 g nano-PAC and 0.35 g nano-PAC, respectively. These modifications in the GS of WBMs is again attributed to the stable and well dispersed particles (Aftab et al., 2016). The GS of the base mud was strengthened by the inclusion of IONP and nano-PAC, which led to increased linking with the particles within the 10-s and 10-min period to create a stiff network. This surely enhanced the gel property (Oseh et al., 2019b).
+
+
+Figure 9View largeDownload slide10-min gel strength of drilling muds before and after hot rolling testsFigure 9View largeDownload slide10-min gel strength of drilling muds before and after hot rolling tests Close modal
+
+
+Filtrate loss volumen under LPLT and HPHT
+
+
+Drilling fluid filtration properties hinge on the nature and amount of colloids interaction in the fluid. Thus, better fuid loss control agent can be obtained when a considerable dosage of colloids is introdueced in the mud. Figure 10 presents the LPLT FL and HPHT FL of complex WBM systems with different concentrations of IONP and nano-PAC measured at 80 °F before aging and 250 °F after thermal aging process. At LPLT conditions, the FL of the base mud of 10.2 ml was decreased by 36% to 6.5 ml and 32.4% to 6.9 ml by 2.5 wt.% IONP + 0.2 g nano-PAC (Mud #3) and 1.5 wt.% IONP + 0.25 g nano-PAC (Mud #4), respectively. It also decreased by a very small amount of 7.0% and 2.0% by 3.5 wt.% IONP and 0.35 g nano-PAC, respectively. However, with a mixture of 0.5 wt.% IONP + 0.3 g nano-PAC, it increased to 10.5 ml from 10.2 ml (Mud #1) by 3%. It is observed that both IONP and nano-PAC has little impact in the LPLT FL of the base mud possibly due to their very low concentration in the base mud. However, when the mixture concentrations contain both the IONP and nano-PAC in the base mud, the FL of the base mud was better reduced.
+
+
+At HPHT conditions, the FL reducing strength of IONP and nano-PAC reduced and the HPHT FL of all the mud samples increased. Nevertheless, the presence of IONP and nano-PAC decreased the HPHT FL but the highest reduction was achieved by 0.5 wt.% IONP + 0.3 g nano-PAC (Mud #5), which reduced the HPHT FL of the base mud (Mud #1) of 17.6 ml to 11 ml by 37.5%. The minimum drop in the HPHT FL of 21% over the base mud was achieved by 1.5 wt.% IONP + 0.25 g nano-PAC (Mud #4). The IONP and nano-PAC when used alone in the mud at HPHT conditions recorded 20.5% and 26.4%, reduction in HPHT FL, respectively. From this result, it appears that the very low dosage of both the IONP and nano-PAC was not able to efficiently interconnect seamlessly with each other to create a stiff film that can prevent fluid leakage into the drilled formation (Oseh et al., 2019a). For a drilling fluid to be desired, the filtration control agent applied should confer fluid loss volume below 15 ml over 30 minutes period (API RP 13B-1., 2017). Thus, the use of pure IONP, nano-PAC, and IONP and nano-PAC mixture under LPLT and HPHT conditions for reduction in fluid loss is desirable.
+
+
+Figure 10View largeDownload slideCumulative filtrate volume of drilling muds before and after hot rolling testFigure 10View largeDownload slideCumulative filtrate volume of drilling muds before and after hot rolling test Close modal
+
+
+Mud cake thickness under LPLT and HPHT
+
+
+Figure 11 presents the LPLT MCT and HPHT MCT of complex WBM systems with different concentrations of IONP and nano-PAC measured at 80 °F before aging and 250 °F after thermal aging process. For the LPLT MCT, there was no change in the MCT of the base mud with 3.5 wt.% IONP, 1.5 wt.% IONP + 0.25 g nano-PAC, and 0.5 wt.% IONP + 0.3 g nano-PAC. However, there was a 50% and 100% increment in LPLT MCT of 2.5 wt.% IONP + 0.2 g nano-PAC and 0.35 g nano-PAC mud samples, respectively. All the LPLT MCT are found not to be more than 2.0 mm, indicating a low and thin pearmeable cake desirable for fluid loss control (API RP 13B-1, 2017).
+
+
+Under HPHT conditions, the maximum drop in MCT of 33% was observed with the 0.35 g nano-PAC, followed by a drop of 17% by 3.5 wt.% IONP, and then 0.5 wt.% IONP + 0.3 g nano-PAC. For the remaining two samples, there was no change in the HPHT MCT. The improvement in fitration properties with IONP and nano-PAC is because with the right size of NPs (30 nm size of IONP) together with a correct filtration control additive, such as PAC-R (nano-PAC size range of 50 – 130 nm), the particles can reduce the interaction between the rock and fluid. The IONP and nano-PAC worked by pracically shutting off the movement of water between the wellbore and the formation (Oseh et al., 2020a). In this case, an extra layer is formed by the IONP on the mud cake, which prevents further loss of water (Mao et al., 2015).
+
+
+Figure 11View largeDownload slideMud cake thicness of drilling muds before and after hot rolling testFigure 11View largeDownload slideMud cake thicness of drilling muds before and after hot rolling test Close modal
+
+
+Compairing between the mud properties of IONP, PAC-R, and nano-PAC
+
+
+It was observed that the low concentration of 3.5 wt.% IONP and 0.35 g PAC-R seemed not to affect the filtration properties of the base mud, especially the LPLT FL and HPHT FL. Therefore, another three mud samples using 1.0 g concentration of each of IONP, PAC-R, and nano-PAC was added separately into the base mud (Mud #1) to identify their impact in the mud solution. PV, YP, 10-s and 10-min GS, and FL at 100 °F were measured without thermal aging process and the results from these measurements are presented in Figure 12.
+
+
+It can be seen that the presence of IONP, PAC-R, and nano-PAC improved both the rheological and filtration properties of the base mud. The PV of the IONP is the highest compared to the other two mud samples of PAC-R and nano-PAC, but it has the lowest YP compared to the two anionic cellulosic polymer. PAC-R has a more improved PV than nano-PAC but its YP is lower to that of nano-PAC. Both the 10-s and 10-min GS of the IONP and anionic cellulose polymers (PAC-R and nano-PAC) followed the same increasing trends over the base mud. The most improved gel is recorded by the nano-PAC both at 10-s and 10-min follwed by PAC-R before IONP.
+
+
+For the FL, nano-PAC achieved the greatest reduction in the FL of the base mud by 63%, followed by PAC-R by 57% before IONP that showed 36% reduction. The improvement in the PV of WBM with 1.0 g of PAC-R is due to the ability of the carboxyl groups in the PAC molecules to endow strong dispersión in water that led to increase in friction between the particles (Fereydouni et al., 2012). PAC is used as the main filtration control additive in most WBMs. Water soluble polymers, such as PAC are good filtration agents as they have the ability to form a desirable thin-low mud cake that can effectively block the water movement between the formation and the wellbore (Darley and Gray, 1988). The presence of nano-PAC of nanosize between 50 and 130 nm in the mud was able to increase the absorption capacity of water and cause strong water dispersión through its carboxyl groups that increased the friction between the particles for the viscosity increment (Fereydouni et al., 2012). Thus, the nano-PAC has good low water loss feature that helped to minimize the volume of water required to seep into the productive zone (Fereydouni et al., 2012). The viscosity increment by the IONP is due to its ability to induce increased friction between the particles (Vryzas et al., 2016). Further, the IONP extreme small size of 30 nm is well dispersed in the mud and it provided a good overlap of particles that support in shutting off the movement of water between the wellbore and the formation, thereby reducing the FL at 100 °F (Blkoor et al., 2022).
+
+
+Overall, the impact of IONP and nano-PAC in the base mud is evident and while the IONP showed more improved PV, the nano-PAC is more desirable for fluid loss control. It is also observed that for máximum or optimum performance of IONP and nano-PAC, their concentrations must be up to 1.0 g, as their lower concentrations did not show any significant reduction in fluid loss and good enhancement properties of the drilling mud.
+
+
+Figure 12View largeDownload slideComparison between the PV, YP, 10-s GS, 10-min GS, and FL of 1.0 g each of IONP, PAC-R, and nano-PAC at a constant temperature of 100 °F without termal aging.Figure 12View largeDownload slideComparison between the PV, YP, 10-s GS, 10-min GS, and FL of 1.0 g each of IONP, PAC-R, and nano-PAC at a constant temperature of 100 °F without termal aging. Close modal
+
+
+Conclusions
+
+
+This work investigated the effect of adding IONP, PAC-R, and nano-PAC to complex WBM for filtration properties control. The rheological and filtration properties of the WBM with different amounts of IONP, nano-PAC, and mixture of IONP and nano-PAC were examined at 80 °F and 250 °F temperatures. Thereafter, 1.0 g concentration each of IONP, PAC-R, and nano-PAC was separately added into the complex WBM (Mud #1) to examine their PV, YP, 10-s GS, 10-min GS, and FL integrity at 100 °F. Follwing the study goal, the following conclusions are reached:
+
+
+The wet ball-milling process was effective in processing PAC-R of size range 140 µm – 700 µm to nano-PAC of size range between 50 nm and 130 nm diameter.The addition of IONP, nano-PAC, and mixture of IONP and nano-PAC improved the rheological and filtration properties of the WBM, in which the greatest rheological and filtration control properties improvement is found within the IONP and nano-PAC mixture.At high temperature, the mixture of IONP and nano-PAC has no effect on the PV of the WBM as the values are constant at 16 cP but with 3.5 wt.% IONP (without nano-PAC) and 0.35 g nano-PAC (without IONP), the PV of the WBM of 16 cP increased to 22 cP by 37.5% and 18 cP by 12.5%, respectively.wt.% IONP + 0.25 g nano-PAC is the most promising composition among all the mud samples formulated. This is because it had an even distribution of both the NPs and nano-PAC in the mud, and it also provide consistent and desirable results.At this concentration, the LPLT FL of the WBM of 10.2 ml was decreased to 6.9 ml by 32.4%. However, the concentration of 2.5 wt.% IONP + 0.2 g nano-PAC exhibited the largest reduction in LPLT FL to 6.5 ml by 36%.With 1.0 g at 100 °F, the IOPN, PAC-R, and nano-PAC improved both the rheology and fluid loss of the base mud. The nano-PAC achieved the greatest reduction in the FL of the base mud by 63%, followed by PAC-R by 57% before IONP that showed 36% reduction.The impact of IONP and nano-PAC in the base mud is evident and while the IONP showed more improved PV, the nano-PAC is more desirable for fluid loss control when 1.0 g at 100 °F was used.Overall, for máximum or optimum performance of IONP and nano-PAC, their concentrations must be up to 1.0 g, as lower concentrations of these particles did not show any significant reduction in fluid loss and good enhancement properties of drilling mud.
+
+
+This paper was selected for presentation by an SPE program committee following review of information contained in an abstract submitted by the author(s). Contents of the paper have not been reviewed by the Society of Petroleum Engineers and are subject to correction by the author(s). The material does not necessarily reflect any position of the Society of Petroleum Engineers, its officers, or members. Electronic reproduction, distribution, or storage of any part of this paper without the written consent of the Society of Petroleum Engineers is prohibited. Permission to reproduce in print is restricted to an abstract of not more than 300 words; illustrations may not be copied. The abstract must contain conspicuous acknowledgment of SPE copyright.
+
+
+Acknowledgements
+
+
+The authors wish to thank the Ministry of Higher Education Malaysia (MOHE) and Universiti Teknologi Malaysia Research Management Centre f(UTM-RMC) for funding this project under the Fundamental Research Grant Scheme (FRGS) (Ref. No: FRGS/1/2019/TK05/UTM/02/20)
+
+
+Nomenclature
+
+
+NomenclatureAbbreviationExpansion 10-min GS10-minute gel strenth CaCO3Calcium carbonate CMCCarboxy methyl cellulose CNTCarbon nanotube CuOCopper oxide FLFluid loss volumen HPHTHigh pressure high temperature HPHTFL High pressure high temperature fluid loss IONPIron oxide nanoparticle LPLTFL Low pressure low temperature fluid loss LPLTLow pressure low temperature MCTMud cake thickness Mud#1 Base mud NaOHCaustic soda NPsNanoparticles OBMOil-based mud PAC-RPolyanionic cellulose reagent PVPlastic viscosity SiO2NPNanosilica WBMWater-based mud XGXanthan gum YPYield point ZnOZinc oxide EOREnhanced oil recovery Al2O3NPAluminium oxide nanoparticle Fe2O3NPIron oxide nanoparticle Mud #2WBM + 3.5 wt.% IONP + 0.0 g nano-PAC Mud #3WBM + 2.5 wt.% IONP + 0.2 g nano-PAC Mud #5WBM + 0.5 wt.% IONP + 0.3 g nano-PAC Mud #4WBM + 1.5 wt.% IONP + 0.25 g nano-PAC Mud #6WBM + 0.0 wt.% IONP + 0.35 g nano-PAC 10-s GS10-second gel strenth
+
+
+References
+
+
+Abduo, M.I., Dahab, A.S., Abuseda, H., Abdulaziz, M.A., Elhossieny, M.S., (2016). Comparative study of using Water-Based mud containing Multiwall Carbon Nanotubes versus Oil-Based mud in HPHT fields. Egyptian Journal of Petroleum, 25(4), pp.459–464.Google ScholarCrossrefSearch ADS  Aftab, A., Ismail, A.R., Ibupoto, Z.H., (2016). Enhancing the rheological properties and shale inhibition behavior of water-based mud using nanosilica, multi-walled carbon nanotube, and graphene Nano platelet. Egyptian Journal of Petroleum. 10.1016/j.ejpe.2016.05.004.Google Scholar Agi, A., Junin, R., Abdullah, M.O., Jaafar, M.Z., Arsad, A., Wan Sulaiman, W.R., Norddin, M.N.A.M., Abdurrahman, M., Abbas, A., Gbadamosi, A., Oseh, J., (2020). Application of polymeric nanofluid in enhancing oil recovery at reservoir condition. J. Pet. Sci. Eng. 2020, 194, 107476. https://doi.org/10.1016/j.petrol.2020.107476.Google ScholarCrossrefSearch ADS  Amanullah, M., AlArfaj, M.K., Al-abdullatif, Z. A., (2011). Preliminary test results of nano-based drilling fluids for oil and gas field application. In Proceedings of the SPE/IADC Conference and Exhibition, 1-3 March, Amsterdam, The Netherlands.Google Scholar API RP 13B-1. (2017). Recommended Practice for Field Testing Oil-based Drilling FluidsBlkoor, S.O., Ismail, I., Oseh, J.O., Selleyitoreea, S., Mohd Norddin, M.N.A., Agi, A., Gbadamosi, A.O., (2021). Influence of polypropylene beads and sodium carbonate treated nanosilica in water-based muds for cuttings transport. J Pet Sci Eng200, 108435. https://doi.org/10.1016/j.petrol.2021.Google ScholarCrossrefSearch ADS  Darley, H.C.H., Gray, G.R., (1988). Composition and Properties of Drilling Fluids, Fifth Edition, Golf Professional Publishing, Huston, pp.1–6.Google Scholar Fattah, K.A., Lashin, A., (2016). Investigation of mud density and weighting materials effect on drilling fluid filter cake properties and formation damage. Journal of African Earth Sciences. 117, pp.345–357. 10.1016/j.jafrearsci.2016.02.003Google ScholarCrossrefSearch ADS  Fereydouni, M., Sabbaghi, S., Saboori, R., Zeinali, S., (2012). Effect of Polyanionic Cellulose Polymer Nanoparticles on Rheological Properties of Drilling Mud. International Journal of Nanoscience and Nanotechnology, 8(3), pp.171–174.Google Scholar Gbadamosi, A., Junin, R., Oseh, J.O., Agi, A., Yekeen, N., Abdalla, Y., Ogiriki, S., Yusuff, A., (2019b). Improving Hole Cleaning Efficiency Using Nanosilica Water-Based Drilling Mud. Paper SPE-193401-MS, presented at the SPE Annual International Conference and Exhibition, 6-8 August, Lagos, Nigeria.Google Scholar Gbadamosi, A., Patil, S., Kamal, M.S., Adewunmi, A.A., Yusuff, A.S., AgiA., Oseh, J., (2022). The Application of Polymers for Chemical Enhanced Oil Recovery: A Review. Polymers, 14, 1433. https://doi.org/10.3390/polym14071433Google ScholarCrossrefSearch ADS PubMed Blkoor, S.O., Mohd Norddin, M.N.A., Ismail, I., Oseh, J.O., Agi, A., Gbadamosi, A.O., Okoli, N.O., Onyejekwe, I.M., Risal, A.R., (2022). Amphipathic anionic surfactant modified hydrophilic polyethylene glycol-nanosilica composite as effective viscosifier and filtration control agent for water-based drilling muds. Arabian Journal of Chemistry, 15(4), 103741. https://doi.org/10.1016/j.arabjc.2022.103741Google ScholarCrossrefSearch ADS  Boa, D., Qiu, Z., Zhao, X., Zhong, H., Chen, J., Liu., (2019). Experimental Investigation of Sealing Ability of Loss Circulation Material Using the test Apparatus with Long Fracture Slot. J Pet Sci Eng.183, 1063996.Google Scholar Caenn, R., Darley, H.C.H., Gray, G.R., (2017). Introduction to Drilling Fluids. In: Composition and Properties of Drilling and Completion Fluids, pp.1–34.Google Scholar Gbadamosi, A.O., Junin, R., Abdalla, Y., Agi, A., Oseh, J.O., (2019a). Experimental investigation of the effects of silica nanoparticle on hole cleaning efficiency of water-based drilling mud. J Pet Sci Eng. 172, pp.1226–1234.Google ScholarCrossrefSearch ADS  Jung, Y., Barry, M., Lee, J.K., Tran, P., Soong, Y., Martello, D., Chyu, M., (2011). Effect of nanoparticle-additives on the rheological properties of clay-based fluids at high temperature and high pressure. In Proceedings of the AADE National Technical Conference and Exhibition, 12-14 April, Houston, TX, USAGoogle Scholar Kelessidis, V.C., Maglione, R., (2008). Yield stress of water-bentonite dispersions. Colloids and Surfaces A: Physicochemical and Engineering Aspects, 318(1-3), pp.217–226. https://doi.org/10.1016/j.colsurfa.2007.12.050Google ScholarCrossrefSearch ADS  Mahmoud, O., Nasr-El-Din, H.A., Vryzas, Z.; Kelessidis, V. C., (2016). Nanoparticle-based drilling fluids for minimizing formation damage in HP/HT applications. In Proceedings of the International Conference and Exhibition on Formation Damage Control, 24-26 February, Lafayette, LA, USA.Google Scholar Mao, H., Qiu, Z., Shen, Z., Huang, W., (2015). Hydrophobic associated polymer based silica nanoparticles composite with core-shell structure as a filtrate reducer for drilling fluid at ultra-high temperature, Journal of Petroleum Science and Engineering, 129, pp.1–14.Google ScholarCrossrefSearch ADS  Nasiri, M., Jafari, I., (2016). Investigation of drilling fluid loss and its affecting parameters in one of the Iranian gas. Bulgarian Chemical Communications, 48(D), pp.306–312.Google Scholar Nwaoji, C.O., Hareland, G., Husein, M., Nygaard, R., Zakaria, M.F., (2013). Wellbore strengthening-nano-particle drilling fluid experimental design using hydraulic fracture apparatus. In Proceedings of the SPE/IADC Drilling Conference and Exhibition, 5-7 March, Amsterdam, The Netherlands.Google Scholar Oseh, J.O., Norddin, M.N.A., Ismail, I., Gbadamosi, A.O., Agi, A., Ismail, A.R., (2020b). Experimental Investigation of Cuttings Transportation in Deviated and Horizontal Wellbores using Polypropylene-Nanosilica Composite Drilling Mud. J Pet Sci Eng., 189, 106958.Google ScholarCrossrefSearch ADS  Oseh, J.O., Norddin, M.N.A., Ismail, I., Gbadamosi, A.O., Agi, A., Ismail, A.R., (2020c). Study of Cuttings Lifting with Different Annular Velocities using Partially Hydrolyzed Polyacrylamide and Enriched Polypropylene-Nanosilica Composite in Deviated and Horizontal Wells. Applied Nanoscience, 10, pp.971–993Google ScholarCrossrefSearch ADS  Oseh, J.O., Norddin, M.N.A., Ismail, I., Gbadamosi, A.O., Agi, A., Muhammed, H.N., (2019a). A Novel Approach to Enhance Rheological and Filtration Properties of Water-Based Mud using Polypropylene-Silica Nanocomposite. J Pet Sci Eng., 181, 106264.Google ScholarCrossrefSearch ADS  Oseh, J.O., Norddin, M.N.A., Ismail, I., Ismail, A.R., Gbadamosi, A.O., Agi, A., (2020a). Effect of the Surface Charge of Entrapped Polypropylene at Nanosilica composite on Cuttings Transport Capacity of Water Based Muds. Applied Nanoscience, 10, pp.61–82.Google ScholarCrossrefSearch ADS  Oseh, J.O., Norddin, M.N.A., Muhammed, H. N, Ismail, I, Gbadamosi, A.O., Agi, A., Ismail, A.R., Blkoor, S.O., (2020d). Influence of (3-Aminopropyl) triethoxysilane on entrapped polypropylene at nanosilica composite for shale swelling and hydration inhibition. J Pet Sci Eng., 194, pp.1–16. https://doi:10.1016/j.petrol.2020.107560Google Scholar Oseh, J.O., Norrdin, M.N.A.M., Farooqi, F., Ismail, A.R., Ismail, I., Gbadamosi, A.O., Agi, A., (2019b). Experimental investigation of the effect of henna leaf extracts on cuttings transportation in highly deviated and horizontal wells. J Petrol Explor Prod Technol. 9, pp.2387–2404. https://doi.org/10.1007/s13202-019-0631-zGoogle ScholarCrossrefSearch ADS  Saboori, R., Sabbaghi, S., Kalantarias, A., Mowla, D., (2018). Improvement in filtration properties of water-based drilling fluid by nanocarboxymethyl cellulose/polystyrene core-shell nanocomposite. Journal of Petroleum Exploration and Production Technology. 21, pp.43–52.Google Scholar Singh, R., Dutta, S., (2018). Synthesis and characterization of solar photoactive TiO2 nanoparticles with enhanced structural and optical properties. Adv. Powder Technol. 9(2), pp.211–219. https://doi.org/10.1016/j.apt.2017.11.005Google ScholarCrossrefSearch ADS  Taha, N.M., Lee, S., (2015). Nano graphene application improving drilling fluids performance. In Proceedings of the International Petroleum Technology Conference (IPTC 18539), 6-9 December, Doha, Qatar.Google Scholar Vryzas, Z., Arkoudeas, P., Kelessidis, V.C., (2014). Improvement of drilling fluid flow parameters using nanoparticles for optimization of drilling process. In Proceedings of the International Conference on Safe and Sustainable Nanotechnology, 14-17 October, Phitsanulok, Thailand.Google Scholar Vryzas, Z., Arkoudeas, P., Mahmoud, O., Nasr-El-Din, H.A., Kelessidis, V. C., (2015). Utilization of IONP in drilling fluids improves fluid loss and formation damage characteristics. In Proceedings of the First EAGE Workshop on Well Injectivity & Productivity in Carbonates (WIPIC), 31 March-1 April, Doha, Qatar.Google Scholar Vryzas, Z., Kelessidis, V.C., (2017). Nano-based drilling fluids: A review. Energies, 10(4). https://doi.org/10.3390/en10040540Google Scholar Vryzas, Z., Wubulikasimu, Y., Gerogiorgis, D., Kelessidis, V.C., (2016). Understanding the temperature effect on the rheology of water-bentonite suspensions. In Proceedings of the Nordic Polymer Days and Nordic Rheological Conference, 30 May-1 June, Helsinki, Finland.Google Scholar 
+
+
+
+
+Copyright 2022, Society of Petroleum Engineers DOI 10.2118/211924-MS
+
+
+
