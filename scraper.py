@@ -19,8 +19,8 @@ class Bot(ChromeDriver):
         # Initialize the inherited Chrome webdriver
         super(Bot, self).__init__(
             driver_executable_path=Service(ChromeDriverManager().install()),   # downloads Chrome driver and returns the path, if driver already exists
-            # driver_executable_path='/home/elvis/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver',
-            user_data_dir='/home/elvis/.config/google-chrome/Default'    # path to Chrome user data directory (Search 'chrome://version' on your browser to find yours and replace it here)
+            # define path to Chrome user data directory (Search 'chrome://version' on your browser to find yours and replace below)
+            user_data_dir='/home/elvis/.config/google-chrome/Default'
         )
         self.implicitly_wait(2)
 
