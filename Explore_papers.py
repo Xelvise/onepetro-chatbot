@@ -63,8 +63,12 @@ with st.sidebar:
 
 if st.session_state.selected_paper:
     paper_title = st.session_state.selected_paper.split('(Date:')[0].strip()
-    paper_date = st.session_state.selected_paper.split('(Date:')[1].replace(')', '').strip()    
-    st.session_state.summary, metadata = summarize_paper(paper_title, paper_date)
+    paper_date = st.session_state.selected_paper.split('(Date:')[1].replace(')', '').strip()
+    try:
+        st.session_state.summary, metadata = summarize_paper(paper_title, paper_date)
+    except RuntimeError:
+        st.toast('An error occurred while fetching the paper. Please try another')
+        st.stop()
     for key, value in metadata.items():
         st.write(f"**{key}** - {value}")
     st.text('')
