@@ -75,7 +75,7 @@ def vectorize_doc_chunks(doc_chunks, index_name:str='spenaic-papers', partition:
     '''Embeds each chunk of text and store in Pinecone vector db'''
     length = len(doc_chunks)
     split = round(length/4)
-    embeddings = OpenAIEmbeddings(api_key=os.getenv('OPENAI_API_KEY'))    # initializes the OpenAI embeddings
+    embeddings = OpenAIEmbeddings(api_key=os.getenv('OPENAI_API_KEY'))
     vector_store = PineconeVectorStore(index_name=index_name, embedding=embeddings, namespace=partition, pinecone_api_key=os.getenv('PINECONE_APIKEY_CONTENT'))     # initialize connection to Pinecone vectorstore
     _ = vector_store.add_documents(doc_chunks[:split])
     time.sleep(120)
@@ -132,7 +132,7 @@ def summarize_paper(paper_title:str, date:str):
 
     doc = [create_doc(os.path.join(os.getcwd(), 'files', date, paper_title+'.txt'))]
     metadata = retrieve_metadata(os.path.join(os.getcwd(), 'files', date, paper_title+'.txt'))
-    prompt_template = """Write an elaborate summary of the given Text. Ensure to highlight key points that could be insightful to the reader.\n
+    prompt_template = """Write an elaborate summary of the given text. Ensure to highlight key points that could be insightful to the reader.\n
         Text: "{text}"
         ELABORATE SUMMARY:"""
     prompt = PromptTemplate.from_template(prompt_template)
@@ -150,31 +150,31 @@ def summarize_paper(paper_title:str, date:str):
 def get_response(query:str):
     '''Generates a response to User query, while also providing a list of similar papers'''
     embeddings = OpenAIEmbeddings(api_key=os.getenv('OPENAI_API_KEY'))
-    llm = GoogleGenerativeAI(google_api_key=os.environ['GOOGLE_API_KEY'], model='gemini-pro', temperature=0.7)
-    # llm = ChatOpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+    # llm = GoogleGenerativeAI(google_api_key=os.getenv('GOOGLE_API_KEY'), model='gemini-pro', temperature=0.7)
+    llm = ChatOpenAI(api_key=os.getenv('OPENAI_API_KEY'), temperature=0.7)
 
     # initialize the vector store object
     vectorstore = PineconeVectorStore(
         index_name='spenaic-papers',
         embedding=embeddings,
         pinecone_api_key=os.getenv('PINECONE_APIKEY_CONTENT')
-    ).as_retriever(
+    ).as_retriever(      # Only retrieve documents that have a relevance score of 0.8 or higher
         search_type="similarity_score_threshold",
-        search_kwargs={'score_threshold':0.8, 'k':5}
+        search_kwargs={'score_threshold':0.8}#, 'k':5}
     )
     
     doc_retrieval_prompt = ChatPromptTemplate.from_messages([
-      MessagesPlaceholder(variable_name="chat_history"),
-      ("human", "{input}"),
-      ("human", "Given the above conversation, generate a search query to look up in order to get information relevant to the conversation")
+        MessagesPlaceholder(variable_name="chat_history"),
+        ("human", "{input}"),
+        ("human", "Given the above conversation, generate a search query to look up in order to get information relevant to the conversation")
     ])
     # create a runnable that, when invoked, retrieves List[Docs] based on user_input and chat_history
     doc_retriever_runnable = create_history_aware_retriever(llm, vectorstore, doc_retrieval_prompt)
 
     elicit_response_prompt = ChatPromptTemplate.from_messages([
-      ("system", "Answer the human's questions based on the given context. However, if you cannot find an answer based on the context, simply say - 'My apologies! As an Energy Industry Chatbot, I\'m only able to respond to queries related to the Energy Industry':\n\n{context}"),
-      MessagesPlaceholder(variable_name="chat_history"),
-      ("human", "{input}"),
+        ("system", "Answer the human's questions based on the given context. But if you cannot find an answer based on the context, you should either request for additional context or, if it is a question, simply say - 'I have no idea.':\n\n{context}"),
+        MessagesPlaceholder(variable_name="chat_history"),
+        ("human", "{input}"),
     ])
     # create a runnable that, when invoked, appends retrieved List[Docs] to prompt and passes it on to the LLM as context for generating response to user_input
     context_to_response_runnable = create_stuff_documents_chain(llm, elicit_response_prompt)
@@ -189,7 +189,7 @@ def get_response(query:str):
     # since the memory is a buffer window, we save the context of the current conversation. However, if it were in a conversation chain, the memory would be updated automatically based on its window size after each conversation
     memory.save_context({"input": f"{response['input']}"}, {"output": f"{response['answer']}"})
 
-    for phrase in ['I don\'t know','I do not know','not in provided context',"My apologies! As an Energy Industry Chatbot, I'm only able to respond to queries related to the Energy Industry"]:
+    for phrase in ['I don\'t know','You\'re welcome!','I do not know','I have no idea','not in provided context',"provide more context","If you have any more questions or need assistance","I appreciate","How can I help you today"]:
         if phrase in response['answer']:
             return response['answer'], ''
         
@@ -202,7 +202,7 @@ def get_response(query:str):
 
 def save_conversation_history():
     chat_history = {
-        'messages': st.session_state.get('messages', [{"role":"assistant", "content":"Hello, there.\n How can I assist you?"}])
+        'messages': st.session_state.get('messages', [{"role":"assistant", "content":"Hello, there.\n How may I assist you?"}])
     }
     with open('chat_history.json', 'w') as f:
         json.dump(chat_history, f)
@@ -212,7 +212,7 @@ def load_conversation_history():
     try:
         with open('chat_history.json', 'r') as f:
             chat_history = json.load(f)
-            st.session_state.messages = chat_history.get('messages', [{"role":"assistant", "content":"Hello, there.\n How can I assist you?"}])
+            st.session_state.messages = chat_history.get('messages', [{"role":"assistant", "content":"Hello, there.\n How may I assist you?"}])
     except FileNotFoundError:
         st.session_state.messages = [{"role":"assistant", "content":"Hello, there.\n How may I assist you?"}]
 
