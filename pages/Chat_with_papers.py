@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_float import *
+from streamlit_float import float_init, float_parent
 from utils import *
 st.set_page_config(page_title='Chat with papers', page_icon='📚')
 
@@ -39,8 +39,8 @@ if prompt := st.chat_input(placeholder='Enter your prompt...'):
     sources = ''
     if similar_papers != '':
         for (title, link) in similar_papers:
-            sources += f'[{title}]({link})\n\n'
-        st.chat_message('assistant').write(response + '\n\n**Check out related papers:**\n\n' + sources) 
+            sources += f'<a href="{link}" style="text-decoration: none;">{title}</a>\n\n'
+        st.chat_message('assistant').write(response + '\n\n**Check out related papers:**\n\n' + sources, unsafe_allow_html=True)
         st.session_state.messages.append({"role":"assistant", "content":response + '\n\n**Check out related papers:**\n\n' + sources})
     else:
         st.chat_message('assistant').write(response)

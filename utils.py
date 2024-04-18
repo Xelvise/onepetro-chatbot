@@ -13,7 +13,6 @@ from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_pinecone import PineconeVectorStore
 from langchain.docstore.document import Document
-# from langchain.chains.conversational_retrieval.base import ConversationalRetrievalChain
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -21,10 +20,10 @@ load_dotenv()
 memory = ConversationBufferWindowMemory(k=3, return_messages=True)
 
 def retrieve_metadata(filepath:str):
-    '''Extracts metadata from a text file'''
+    '''Extracts metadata from a text file\n
+    Returns a dictionary containing the metadata'''
     data = dict()
     result = TextLoader(filepath).load()
-    content = result[0].page_content.split('\n----- METADATA END -----\n\n\n\n')[1].strip()
     meta = result[0].page_content.split('\n----- METADATA END -----\n\n\n\n')[0].replace('----- METADATA START -----\n','')
     for section in meta.split('\n'):
         key = section.split(': ')[0]
@@ -46,6 +45,7 @@ def create_doc(filepath:str):
 def combine_docs(directory):
     '''Combines all text files in a subdirectory into a list of documents'''
     path = list()
+    filenames = list()
     # Iterate over all files in the directory and its subdirectories
     for root, dirs, files in os.walk(directory):
         for file in files:
@@ -53,10 +53,11 @@ def combine_docs(directory):
             if file.endswith('.txt'):
                 # Get the full path of the file
                 file_path = os.path.join(root, file)
-                path.append(file_path)
-    # Append the file paths to list
-    docs = [create_doc(file_path) for file_path in path]
-    return docs
+                path.append(file_path)    # Appends the filepaths to list
+                filenames.append(file)   
+    docs = [create_doc(file_path) for file_path in path]    # List of Document objects of each text file
+    metadata = [retrieve_metadata(file_path) for file_path in path]     # List of Dictionary containing metadata for each file
+    return docs, filenames, metadata
 
 
 def split_to_chunks(list_of_docs):
@@ -86,52 +87,50 @@ def vectorize_doc_chunks(doc_chunks, index_name:str='spenaic-papers', partition:
     _ = vector_store.add_documents(doc_chunks[3*split:])
 
 
-def vectorize_paper_titles(path:str, index_name:str='paper-title'):
+def vectorize_paper_titles(directory:str, index_name:str='paper-title'):
     '''Embeds each paper title and store in Pinecone vector db'''
-    list_of_docs = combine_docs(path)
     embeddings = OpenAIEmbeddings(api_key=os.getenv('OPENAI_API_KEY'))
+    _, filenames, metadata = combine_docs(directory)
     docs = list()
-    for doc in list_of_docs:
-        for key, value in doc.metadata.items():
-            if key == 'Title':
-                mydoc = Document(page_content=value, metadata={'Authors':doc.metadata['Authors'], 'Presentation date':doc.metadata['Publication Date'], 'ref link':doc.metadata['Reference Link']})
-                docs.append(mydoc)
+    for name, meta in zip(filenames, metadata):
+        mydoc = Document(page_content=name.replace('.txt',''), metadata={'Authors':meta['Authors'], 'Publication year':int(meta['Publication Date'].split(' ')[1]), 'ref link':meta['Reference Link']})
+        docs.append(mydoc)
     vectorstore = PineconeVectorStore(index_name=index_name, embedding=embeddings, pinecone_api_key=os.getenv('PINECONE_APIKEY_TITLE'))
     vectorstore.add_documents(docs)
 
 
 @st.cache_data(show_spinner=False)
-def find_similar_papers(paper_title:str, k:int=5, date:str=None, index_name:str='paper-title') -> list:
+def find_similar_papers(paper_title:str, k:int=10, year:int=None, index_name:str='paper-title') -> list:
     '''`date`: `'month YYYY'`\n
-        Uses similarity search to retrieve 5 most-similar papers according to a given paper title\n
-        Where date is given, metadata filtering is applied to further narrow down the search
+        Uses similarity search to retrieve 10 most-similar papers according to a given paper title\n
+        Where year is given, metadata filtering is applied to further narrow down the search from selected year till present
     '''
     papers = list(); ref_links = list()
     embeddings = OpenAIEmbeddings(api_key=os.getenv('OPENAI_API_KEY'))
     vectorstore = PineconeVectorStore(index_name=index_name, embedding=embeddings, pinecone_api_key=os.getenv('PINECONE_APIKEY_TITLE'))
-    if date != None:
-        docs = vectorstore.similarity_search(paper_title, k=k, filter={'date': {"$eq": f"{date}"}})
+    if year != None:
+        docs = vectorstore.similarity_search(paper_title, k=k, filter={'date': {"$gte": f"{year}"}})    
         if docs == []:
             return docs
         for doc in docs:
-            papers.append(f"{doc.page_content}  (Date: {doc.metadata['Presentation date']})")
+            papers.append(f"{doc.page_content} (Year: {str(int(doc.metadata['Publication year']))})")
             ref_links.append(doc.metadata['ref link'])
     else:
         docs = vectorstore.similarity_search(paper_title, k=k)
         if docs == []:
             return docs
         for doc in docs:
-            papers.append(f"{doc.page_content}  (Date: {doc.metadata['Presentation date']})")
+            papers.append(f"{doc.page_content} (Year: {str(int(doc.metadata['Publication year']))})")
             ref_links.append(doc.metadata['ref link'])
     return papers, ref_links
 
 
 @st.cache_data(show_spinner=False)
-def summarize_paper(paper_title:str, date:str):
+def summarize_paper(paper_title:str, year:str):
     '''Summarizes a paper, when given its title'''
 
-    doc = [create_doc(os.path.join(os.getcwd(), 'files', date, paper_title+'.txt'))]
-    metadata = retrieve_metadata(os.path.join(os.getcwd(), 'files', date, paper_title+'.txt'))
+    doc = [create_doc(os.path.join(os.getcwd(), 'files', year, paper_title+'.txt'))]
+    metadata = retrieve_metadata(os.path.join(os.getcwd(), 'files', year, paper_title+'.txt'))
     prompt_template = """Write an elaborate summary of the given text. Ensure to highlight key points that could be insightful to the reader.\n
         Text: "{text}"
         ELABORATE SUMMARY:"""
@@ -160,7 +159,7 @@ def get_response(query:str):
         pinecone_api_key=os.getenv('PINECONE_APIKEY_CONTENT')
     ).as_retriever(      # Only retrieve documents that have a relevance score of 0.8 or higher
         search_type="similarity_score_threshold",
-        search_kwargs={'score_threshold':0.8}#, 'k':5}
+        search_kwargs={'score_threshold':0.8, 'k':5}
     )
     
     doc_retrieval_prompt = ChatPromptTemplate.from_messages([
@@ -179,7 +178,7 @@ def get_response(query:str):
     # create a runnable that, when invoked, appends retrieved List[Docs] to prompt and passes it on to the LLM as context for generating response to user_input
     context_to_response_runnable = create_stuff_documents_chain(llm, elicit_response_prompt)
 
-    # chains up two runnables to yield the final output that would include human_query, chat_history, context and answer
+    # chains up two runnables to yield the final output that would include user_input, chat_history, context and answer
     retrieval_chain_runnable =  create_retrieval_chain(doc_retriever_runnable, context_to_response_runnable)     # chains up two runnables to yield the final output that would include human_query, chat_history, context and answer
 
     response = retrieval_chain_runnable.invoke({
@@ -193,9 +192,9 @@ def get_response(query:str):
         if phrase in response['answer']:
             return response['answer'], ''
         
-    papers = [docs.metadata['Title'] for docs in response['context']]
-    most_frequent_paper = Counter(papers).most_common(1)[0][0]
-    paper_titles, links = find_similar_papers(most_frequent_paper, k=4)
+    papers = [docs.metadata['Title'] for docs in response['context']]      # Extracts the title of each paper from the context
+    most_frequent_paper = Counter(papers).most_common(1)[0][0]      # Extracts the most frequent paper title from the context
+    paper_titles, links = find_similar_papers(most_frequent_paper, k=7)     # Finds similar papers based on the most frequent paper title
 
     return response['answer'], list(zip(paper_titles, links))
 
@@ -218,12 +217,12 @@ def load_conversation_history():
 
 
 
-# Replace DATE with the specific date folder containing the text files to be vectorized
-DATE = 'August 2022'
+# Replace YEAR with the specific date folder containing the text files to be vectorized
+YEAR = '2022'
 
 if __name__ == '__main__':
     # YOU SHOULD RUN THIS SCRIPT ONLY WHEN YOU HAVE NEWER TEXT FILES THAT HASN'T BEEN EMBEDDED OR/AND STORED IN PINECONE
-    list_of_docs = combine_docs(os.path.join(os.getcwd(), 'files', DATE))
+    list_of_docs,_,_ = combine_docs(os.path.join(os.getcwd(), 'files', YEAR))
     doc_chunks = split_to_chunks(list_of_docs)
     vectorize_doc_chunks(doc_chunks)
-    vectorize_paper_titles(os.path.join(os.getcwd(), 'files', DATE))
+    vectorize_paper_titles(os.path.join(os.getcwd(), 'files', YEAR))

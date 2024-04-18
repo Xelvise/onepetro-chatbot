@@ -19,7 +19,7 @@ class Bot(ChromeDriver):
         # Initialize the inherited Chrome webdriver
         super(Bot, self).__init__(
             driver_executable_path=Service(ChromeDriverManager().install()),   # downloads Chrome driver and returns the path, if driver already exists
-            # define path to Chrome user data directory (Search 'chrome://version' on your browser to find yours and replace below)
+            # assign path to Chrome user-data directory (Search 'chrome://version' on your browser to find yours and replace below)
             user_data_dir='/home/elvis/.config/google-chrome/Default'
         )
         self.implicitly_wait(2)
@@ -91,7 +91,7 @@ class Bot(ChromeDriver):
             ref_link = paper.find_element(By.CSS_SELECTOR, 'div > div.al-cite-description > span.citation-doi a').get_attribute('href')     # extract reference link
             collection.append({'title': title, 'authors': [authors], 'presentation_date': presentation_date, 'reference_link': ref_link})
 
-        # json.dump(collection, open('search_results.json', 'w', encoding='utf-8'), indent=4)    # Uncomment this line to save the page headers to a json file
+        # json.dump(collection, open('search_results.json', 'w', encoding='utf-8'), indent=4)    # Uncomment this line if you'd like to save the page headers to a json file
         return collection
 
 
@@ -134,5 +134,5 @@ if __name__ == '__main__':
     bot = Bot()
     # bot.user_auth('Joy Ugoyah', '#YXx3ievQnPkH5S')      # Uncomment this line, only if User auth is required
     articles = bot.select_papers(DAY3)
-    bot.scrape_and_save_paper(articles, 'August 2022')
+    bot.scrape_and_save_paper(articles, '2022')
 

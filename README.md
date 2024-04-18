@@ -15,7 +15,7 @@ Furthermore, Researchers can throw their questions at the Bot which will return 
 
 - **Citations**: Attached to each response of the Chatbot are citations of related papers with their hyperlinks that the Researcher may find helpful. You can think of this like a Recommendation system, based on User preference (i.e, selected paper).
 
-It's worth noting that the Chatbot isn't a generic one for casual chats. Once spotted, the chatbot gives a reprimand, saying - `My apologies! As an Energy Industry Chatbot, I'm only able to respond to queries related to the Energy Industry.`
+- **Guardrails**: It's worth noting that the Chatbot isn't a generic one for casual chats. Once spotted, the chatbot gives a reprimand, saying - `My apologies! As an Energy Industry Chatbot, I'm only able to respond to queries related to the Energy Industry.`
 
 No citation whatsoever is given to a generic query. This is to ensure that the Chatbot is used for its intended purpose only.
 
@@ -45,23 +45,19 @@ No citation whatsoever is given to a generic query. This is to ensure that the C
     ```
     Prior to execution, ensure to add the path to your browser's `user_data_dir` at the specified location in the script. The path can be found by entering `chrome://version/` in the address bar of your Chrome browser.
 
-6. To have the newly-scraped papers (in .txt) added to the Vectorstore:
+6. To have the newly-scraped papers (in .txt) embedded and added to the Vectorstore:
     ```
     python utils.py
     ```
     This script will update the Vectorstore with the new papers, thereby making it accessible for subsequent queries.
 
 ### App Demo:
-![Paper Overview](https://github.com/Xelvise/onepetro-chatbot/blob/main/img/explore_section.png?raw=true "Title")
-
-![Chatbot showing citations](https://github.com/Xelvise/onepetro-chatbot/blob/main/img/chat_section.png?raw=true "Title")
-
-![Guardrails to prevent generic queries](https://github.com/Xelvise/onepetro-chatbot/blob/main/img/chat2_section.png?raw=true "Title")
-
+<img src="https://github.com/Xelvise/onepetro-chatbot/blob/main/img/explore_section.png" alt="Paper Overview" width="45%" /> <img src="https://github.com/Xelvise/onepetro-chatbot/blob/main/img/chat_section.png" alt="Chatbot showing citations" width="45%" />
+<img src="https://github.com/Xelvise/onepetro-chatbot/blob/main/img/chat2_section.png" alt="Guardrails to prevent generic queries" width="45%" />
 
 ### Tools/Frameworks and Technologies used:
 1. [Streamlit](https://streamlit.io/) for App UI
-2. Google Gemini for LLM
-3. Selenium and Beautiful-Soup for Web automation, scraping and parsing text
-4. Pinecone for Vectorstore
-5. Langchain for creating connection btw LLM, Retrieved docs, Prompts and Conversations
+2. Gemini-pro as LLM, along with OpenAI embeddings
+3. Selenium and BeautifulSoup for Web automation, scraping and parsing text.
+4. Pinecone as Vectorstore.
+5. Langchain for creating connection btw LLM, Retrieved docs, Prompts and Conversations.
