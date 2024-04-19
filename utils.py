@@ -221,7 +221,7 @@ def load_conversation_history():
 
 
 # Replace YEAR with the specific date folder containing the text files to be vectorized
-YEAR = '2022'
+YEAR = '2023'
 
 if __name__ == '__main__':
     # YOU SHOULD RUN THIS SCRIPT ONLY WHEN YOU HAVE NEWER TEXT FILES THAT HASN'T BEEN EMBEDDED OR/AND STORED IN PINECONE
