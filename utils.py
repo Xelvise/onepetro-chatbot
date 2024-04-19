@@ -174,7 +174,7 @@ def get_response(query:str):
     doc_retriever_runnable = create_history_aware_retriever(llm, vectorstore, doc_retrieval_prompt)
 
     elicit_response_prompt = ChatPromptTemplate.from_messages([
-        ("system", "Answer the human's questions based on the given context. But if you cannot find an answer based on the context, you should either request for additional context or, if it is a question, simply say - 'I have no idea.':\n\n{context}"),
+        ("system", "Answer the human's questions based on the given context ONLY. But if you cannot find an answer based on the context, you should either request for additional context or, if it is a question, simply say - 'I have no idea.':\n\n{context}"),
         MessagesPlaceholder(variable_name="chat_history"),
         ("human", "{input}"),
     ])
