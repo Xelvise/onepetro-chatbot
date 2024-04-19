@@ -1,5 +1,6 @@
 streamlit==1.33.0
 streamlit-float==0.3.2
+undetected-chromedriver==3.5.5
 selenium==4.19.0
 selenium-recaptcha-solver==1.9.0
 webdriver-manager==4.0.1
