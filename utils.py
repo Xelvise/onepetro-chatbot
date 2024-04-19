@@ -191,7 +191,7 @@ def get_response(query:str):
     # since the memory is a buffer window, we append to the buffer the query and answer of the current conversation
     memory.save_context({"input": f"{response['input']}"}, {"output": f"{response['answer']}"})
 
-    for phrase in ['I don\'t know','You\'re welcome!','I do not know','I have no idea','not in provided context',"provide more context","If you have any more questions or need assistance","I appreciate","How can I help you today"]:
+    for phrase in ['I don\'t know','AI assistant','I apologize','Feel free to share','more context','You\'re welcome!','I do not know','I have no idea','provided context',"I couldn't ",'I cannot',"If you have any more questions","I appreciate","How can I help you today"]:
         if phrase in response['answer']:
             return response['answer'], ''
         
