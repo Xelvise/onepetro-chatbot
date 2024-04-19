@@ -18,18 +18,18 @@ class Bot(ChromeDriver):
     def __init__(self):
         # Initialize the inherited Chrome webdriver
         super(Bot, self).__init__(
-            driver_executable_path='/home/elvis/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver',   # downloads Chrome driver and returns the path, if driver already exists
+            driver_executable_path=Service(ChromeDriverManager().install()),   # downloads Chrome driver and returns the path, if driver already exists
             # assign path to Chrome user-data directory (Search 'chrome://version' on your browser to find yours and replace below)
             user_data_dir='/home/elvis/.config/google-chrome/Default'
         )
-        self.implicitly_wait(3)
+        self.implicitly_wait(5)
 
     # Uncomment the code block below, if you'd want the browser open even after the script is executed
-    def __del__(self):
-        try:
-            self.service.process.kill()
-        except:
-            pass
+    # def __del__(self):
+    #     try:
+    #         self.service.process.kill()
+    #     except:
+    #         pass
     
     # Uncomment the code block below, if you require User authentication
 
