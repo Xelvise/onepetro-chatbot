@@ -70,12 +70,12 @@ with st.sidebar:
 if st.session_state.selected_paper:
     paper_title = st.session_state.selected_paper.split('(Year:')[0].strip()
     paper_year = st.session_state.selected_paper.split('(Year:')[1].replace(')', '').strip()
-    # try:
-    st.session_state.summary, metadata = summarize_paper(paper_title, paper_year)
-    # except RuntimeError as e:
-    #     st.toast('An error occurred while fetching the paper. Please try another')
-    #     logging.error(e)
-    #     st.stop()
+    try:
+        st.session_state.summary, metadata = summarize_paper(paper_title, paper_year)
+    except RuntimeError as e:
+        st.toast('An error occurred while fetching the paper. Please try another')
+        logging.error(e)
+        st.stop()
     for key, value in metadata.items():
         st.write(f"**{key}** - {value}")
     st.text('')

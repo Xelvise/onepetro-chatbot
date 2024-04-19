@@ -42,12 +42,13 @@ def create_doc(filepath:str):
     return result[0]
 
 
-def combine_docs(directory):
-    '''Combines all text files in a subdirectory into a list of documents'''
+def combine_docs(dir_path:str):
+    '''Combines all text files in a given directory into a list of documents\n
+    Returns a list of Document objects, a list of filenames and a list of metadata dictionaries'''
     path = list()
     filenames = list()
-    # Iterate over all files in the directory and its subdirectories
-    for root, dirs, files in os.walk(directory):
+    # Iterate over all files in the dir_path and its subdirectories
+    for root, dirs, files in os.walk(dir_path):
         for file in files:
             # Check if the file is a text file
             if file.endswith('.txt'):
@@ -87,10 +88,10 @@ def vectorize_doc_chunks(doc_chunks, index_name:str='spenaic-papers', partition:
     _ = vector_store.add_documents(doc_chunks[3*split:])
 
 
-def vectorize_paper_titles(directory:str, index_name:str='paper-title'):
-    '''Embeds each paper title and store in Pinecone vector db'''
+def vectorize_paper_titles(dir_path:str, index_name:str='paper-title'):
+    '''Embeds each paper title and store in a Pinecone vector db'''
     embeddings = OpenAIEmbeddings(api_key=os.getenv('OPENAI_API_KEY'))
-    _, filenames, metadata = combine_docs(directory)
+    _, filenames, metadata = combine_docs(dir_path)
     docs = list()
     for name, meta in zip(filenames, metadata):
         mydoc = Document(page_content=name.replace('.txt',''), metadata={'Authors':meta['Authors'], 'Publication year':int(meta['Publication Date'].split(' ')[1]), 'ref link':meta['Reference Link']})
@@ -109,15 +110,17 @@ def find_similar_papers(paper_title:str, k:int=10, year:int=None, index_name:str
     embeddings = OpenAIEmbeddings(api_key=os.getenv('OPENAI_API_KEY'))
     vectorstore = PineconeVectorStore(index_name=index_name, embedding=embeddings, pinecone_api_key=os.getenv('PINECONE_APIKEY_TITLE'))
     if year != None:
-        docs = vectorstore.similarity_search(paper_title, k=k, filter={'date': {"$gte": f"{year}"}})    
-        if docs == []:
-            return docs
+        # Limit the search to only include k-papers from the given year till present
+        docs = vectorstore.similarity_search(paper_title, k=k, filter={'date': {"$gte": f"{year}"}})
+        if docs == []:    # If no papers are found, return an empty list
+            return docs     
         for doc in docs:
             papers.append(f"{doc.page_content} (Year: {str(int(doc.metadata['Publication year']))})")
             ref_links.append(doc.metadata['ref link'])
     else:
+        # Retrieve k-papers from the entire database
         docs = vectorstore.similarity_search(paper_title, k=k)
-        if docs == []:
+        if docs == []:     # If no papers are found, return an empty list
             return docs
         for doc in docs:
             papers.append(f"{doc.page_content} (Year: {str(int(doc.metadata['Publication year']))})")
@@ -185,7 +188,7 @@ def get_response(query:str):
         "chat_history": memory.load_memory_variables({})['history'],
         "input": query
     })
-    # since the memory is a buffer window, we save the context of the current conversation. However, if it were in a conversation chain, the memory would be updated automatically based on its window size after each conversation
+    # since the memory is a buffer window, we append to the buffer the query and answer of the current conversation
     memory.save_context({"input": f"{response['input']}"}, {"output": f"{response['answer']}"})
 
     for phrase in ['I don\'t know','You\'re welcome!','I do not know','I have no idea','not in provided context',"provide more context","If you have any more questions or need assistance","I appreciate","How can I help you today"]:

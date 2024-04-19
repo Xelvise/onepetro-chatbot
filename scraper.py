@@ -18,18 +18,18 @@ class Bot(ChromeDriver):
     def __init__(self):
         # Initialize the inherited Chrome webdriver
         super(Bot, self).__init__(
-            driver_executable_path=Service(ChromeDriverManager().install()),   # downloads Chrome driver and returns the path, if driver already exists
+            driver_executable_path='/home/elvis/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver',   # downloads Chrome driver and returns the path, if driver already exists
             # assign path to Chrome user-data directory (Search 'chrome://version' on your browser to find yours and replace below)
             user_data_dir='/home/elvis/.config/google-chrome/Default'
         )
-        self.implicitly_wait(2)
+        self.implicitly_wait(3)
 
     # Uncomment the code block below, if you'd want the browser open even after the script is executed
-    # def __del__(self):
-    #     try:
-    #         self.service.process.kill()
-    #     except:
-    #         pass
+    def __del__(self):
+        try:
+            self.service.process.kill()
+        except:
+            pass
     
     # Uncomment the code block below, if you require User authentication
 
@@ -76,7 +76,7 @@ class Bot(ChromeDriver):
             
 
     def select_papers(self, url):
-        '''Returns a list containing the header of each paper for a given SPENAIC day
+        '''Selects all papers published on a given day and returns their paper headers as a list of dictionaries
         '''
         self.get(url)
         collection = list()
@@ -95,15 +95,16 @@ class Bot(ChromeDriver):
         return collection
 
 
-    def scrape_and_save_paper(self, paper_headers:list[dict], date:str):
+    def scrape_and_save_paper(self, paper_headers:list[dict], year:str) -> None:
         ''' `paper_headers`: list of dictionaries containing the paper headers\n
-            `date`: date to be used as folder name for storing the text files. E.g: `1st_august_2022`,`2nd_august_2022`\n
+            `year`: year to be used as subdirectory for storing the text files. E.g: `2022`,`2023`\n
         '''
         try:
-            os.makedirs('files', exist_ok=True)     # Create a subdirectory to store the text files, if it doesn't exist
+            os.makedirs(f'files/{year}', exist_ok=True)     # Create a subdirectory to store the text files, if it doesn't exist
             for paper in paper_headers:
-                subdirectory = date.strip()    # Create a subdirectory for the text files
-                filename = "".join(c for c in paper['title'] if c.isalnum() or c in ' -_').rstrip()    # Create a filename from the paper title
+                subdirectory = year.strip()    # strips any whitespaces in the subdirectory
+                title = paper['title'].replace(':','-')  # Replaces colon with hyphen in the title
+                filename = "".join(c for c in title if c.isalnum() or c in ' -_').strip()    # Create a filename from the paper title
                 file_path = os.path.join('files', subdirectory, f'{filename}.txt')     # Create a file path for the paper 
 
                 if os.path.isfile(file_path):   # Using the file_path, checks if the file exists
@@ -113,7 +114,7 @@ class Bot(ChromeDriver):
                 self.get(paper['reference_link'])
                 content = BeautifulSoup(self.page_source, 'lxml')
 
-                with open(file_path, 'a', encoding='utf-8') as f:     # open and append content to it
+                with open(file_path, 'w', encoding='utf-8') as f:     # open and append content to it
                     # Write the metadata to the text file
                     f.write("----- METADATA START -----\n")
                     f.write(f"Title: {paper['title']}\n")
@@ -125,14 +126,15 @@ class Bot(ChromeDriver):
                     # Write the content to the text file
                     f.write(content.find('div', attrs={'data-widgetname':"ArticleFulltext"}).text)
         except Exception as e:
-            logging.error(f"An error occurred: {e}")
+            logging.info(f"An error occurred: {e}")
+            print(e)
 
-DAY2 = "https://onepetro.org/SPENAIC/22NAIC/conference/2-22NAIC"    # replace with url of any day SPENAIC conference was held
-DAY3 = "https://onepetro.org/SPENAIC/22NAIC/conference/3-22NAIC"    # replace with url of any day SPENAIC conference was held
+DAY2 = "https://onepetro.org/SPENAIC/23NAIC/conference/2-23NAIC"    # url of SPENAIC conference DAY2 2023
+DAY3 = "https://onepetro.org/SPENAIC/22NAIC/conference/3-23NAIC"    # url of SPENAIC conference DAY3 2023
 
 if __name__ == '__main__':
     bot = Bot()
     # bot.user_auth('Joy Ugoyah', '#YXx3ievQnPkH5S')      # Uncomment this line, only if User auth is required
-    articles = bot.select_papers(DAY3)
-    bot.scrape_and_save_paper(articles, '2022')
+    articles = bot.select_papers(url=DAY2)      # Returns a list of dictionaries with each containing a paper header
+    bot.scrape_and_save_paper(articles, year='2023')     # Using the paper headers, scrapes and saves the papers to folder '2023'
 
